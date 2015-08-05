@@ -1,0 +1,11 @@
+# Ignore any directories named "_build" ,but still
+# notice regular files and symbolic links with
+# that name.
+_build/
+.hg/
+
+# Ignore this specific file
+grundwissen-mathematik.pdf
+.hgignore
+*.log
+
