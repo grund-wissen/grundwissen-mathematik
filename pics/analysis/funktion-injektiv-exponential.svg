@@ -1,0 +1,3600 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:ns0="http://www.iki.fi/pav/software/textext/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448"
+   height="1052.3622"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="funktion-injektiv-exponential.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.45490693"
+     inkscape:cx="1000.2429"
+     inkscape:cy="893.75043"
+     inkscape:document-units="px"
+     inkscape:current-layer="svg2"
+     showgrid="false"
+     inkscape:object-nodes="true"
+     inkscape:object-paths="true"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:window-width="1280"
+     inkscape:window-height="974"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:snap-global="true">
+    <sodipodi:guide
+       orientation="0,1"
+       position="357.10581,585.90645"
+       id="guide105814" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="407.00778,466.39937"
+       id="guide105816" />
+    <sodipodi:guide
+       id="guide7373"
+       position="508.70308,544.0641"
+       orientation="1,0" />
+  </sodipodi:namedview>
+  <title
+     id="title110770">Injektive Funktion (2^x)</title>
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-2"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5368-0"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5368"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <defs
+       id="defs7171">
+      <g
+         id="g7173">
+        <symbol
+           id="symbol7175"
+           overflow="visible"
+           style="overflow:visible">
+          <path
+             id="path7177"
+             d="m 4.84375,-3.796875 c 0.046875,-0.140625 0.046875,-0.15625 0.046875,-0.234375 0,-0.171875 -0.140625,-0.265625 -0.296875,-0.265625 -0.09375,0 -0.25,0.0625 -0.34375,0.203125 -0.015625,0.0625 -0.109375,0.359375 -0.140625,0.546875 -0.078125,0.25 -0.140625,0.53125 -0.203125,0.796875 l -0.453125,1.796875 c -0.03125,0.140625 -0.46875,0.84375 -1.125,0.84375 -0.5,0 -0.609375,-0.4375 -0.609375,-0.8125 C 1.71875,-1.375 1.890625,-2 2.21875,-2.875 2.375,-3.28125 2.421875,-3.390625 2.421875,-3.59375 c 0,-0.4375 -0.3125,-0.8125 -0.8125,-0.8125 -0.953125,0 -1.3125,1.453125 -1.3125,1.53125 0,0.109375 0.09375,0.109375 0.109375,0.109375 0.109375,0 0.109375,-0.03125 0.15625,-0.1875 0.28125,-0.9375 0.671875,-1.234375 1.015625,-1.234375 0.078125,0 0.25,0 0.25,0.3125 0,0.25 -0.109375,0.515625 -0.171875,0.703125 -0.40625,1.0625 -0.578125,1.625 -0.578125,2.09375 0,0.890625 0.625,1.1875 1.21875,1.1875 0.390625,0 0.71875,-0.171875 1,-0.453125 -0.125,0.515625 -0.25,1.015625 -0.640625,1.546875 -0.265625,0.328125 -0.640625,0.625 -1.09375,0.625 -0.140625,0 -0.59375,-0.03125 -0.765625,-0.421875 0.15625,0 0.296875,0 0.421875,-0.125 C 1.328125,1.203125 1.421875,1.0625 1.421875,0.875 1.421875,0.5625 1.15625,0.53125 1.0625,0.53125 0.828125,0.53125 0.5,0.6875 0.5,1.171875 c 0,0.5 0.4375,0.875 1.0625,0.875 1.015625,0 2.046875,-0.90625 2.328125,-2.03125 z m 0,0"
+             style="stroke:none"
+             inkscape:connector-curvature="0" />
+        </symbol>
+      </g>
+    </defs>
+    <defs
+       id="defs7155">
+      <g
+         id="g7157">
+        <symbol
+           style="overflow:visible"
+           overflow="visible"
+           id="symbol7159">
+          <path
+             inkscape:connector-curvature="0"
+             style="stroke:none"
+             d="M 3.328125,-3.015625 C 3.390625,-3.265625 3.625,-4.1875 4.3125,-4.1875 c 0.046875,0 0.296875,0 0.5,0.125 C 4.53125,-4 4.34375,-3.765625 4.34375,-3.515625 c 0,0.15625 0.109375,0.34375 0.375,0.34375 0.21875,0 0.53125,-0.171875 0.53125,-0.578125 0,-0.515625 -0.578125,-0.65625 -0.921875,-0.65625 -0.578125,0 -0.921875,0.53125 -1.046875,0.75 -0.25,-0.65625 -0.78125,-0.75 -1.078125,-0.75 -1.03125,0 -1.609375,1.28125 -1.609375,1.53125 0,0.109375 0.109375,0.109375 0.125,0.109375 0.078125,0 0.109375,-0.03125 0.125,-0.109375 0.34375,-1.0625 1,-1.3125 1.34375,-1.3125 0.1875,0 0.53125,0.09375 0.53125,0.671875 0,0.3125 -0.171875,0.96875 -0.53125,2.375 -0.15625,0.609375 -0.515625,1.03125 -0.953125,1.03125 -0.0625,0 -0.28125,0 -0.5,-0.125 0.25,-0.0625 0.46875,-0.265625 0.46875,-0.546875 0,-0.265625 -0.21875,-0.34375 -0.359375,-0.34375 -0.3125,0 -0.546875,0.25 -0.546875,0.578125 0,0.453125 0.484375,0.65625 0.921875,0.65625 0.671875,0 1.03125,-0.703125 1.046875,-0.75 0.125,0.359375 0.484375,0.75 1.078125,0.75 1.03125,0 1.59375,-1.28125 1.59375,-1.53125 0,-0.109375 -0.078125,-0.109375 -0.109375,-0.109375 -0.09375,0 -0.109375,0.046875 -0.140625,0.109375 -0.328125,1.078125 -1,1.3125 -1.3125,1.3125 -0.390625,0 -0.546875,-0.3125 -0.546875,-0.65625 0,-0.21875 0.046875,-0.4375 0.15625,-0.875 z m 0,0"
+             id="path7161" />
+        </symbol>
+      </g>
+    </defs>
+    <marker
+       style="overflow:visible"
+       id="TriangleOutM-7"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
+      <path
+         transform="scale(0.4,0.4)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         id="path5368-6"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleOutM-8"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
+      <path
+         transform="scale(0.4,0.4)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         id="path5368-5"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker5787"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
+      <path
+         transform="scale(0.4,0.4)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         id="path5789"
+         inkscape:connector-curvature="0" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Injektive Funktion (2^x)</dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
+        <dc:date>2013-12-08</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Bernhard Grotz</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Bernhard Grotz</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Bernhard Grotz</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:language>de-DE</dc:language>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>Mathematik</rdf:li>
+            <rdf:li>Analysis</rdf:li>
+            <rdf:li>Injektivität</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:prohibits
+           rdf:resource="http://creativecommons.org/ns#CommercialUse" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Ebene 1">
+    <use
+       id="use7065"
+       y="134.765"
+       x="231.73581"
+       xlink:href="#textext-082fa4b4-3"
+       width="744.09448"
+       height="1052.3622"
+       style="fill:#008000;fill-opacity:1"
+       transform="matrix(4.622891,0,0,4.622891,-575.23856,128.11541)" />
+    <use
+       id="use7065-2"
+       y="134.765"
+       x="231.73581"
+       xlink:href="#textext-082fa4b4-3"
+       width="744.09448"
+       height="1052.3622"
+       style="fill:#008000;fill-opacity:1"
+       transform="matrix(4.622891,0,0,4.622891,-575.23856,128.11541)" />
+    <g
+       id="g7019"
+       transform="matrix(4.622891,0,0,4.622891,-575.23856,128.11541)"
+       ns0:preamble="/home/waldgeist/data/sphinx/test.tex"
+       ns0:text="$\\Delta \\vec{r} = \\vec{r}_{\\rm{2}} - \\vec{r}_{\\rm{1}} $"
+       style="fill:#008000;fill-opacity:1">
+      <defs
+         id="defs7021">
+        <g
+           id="g7023">
+          <symbol
+             id="symbol7025"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path7027"
+               d="m 4.40625,-6.953125 c -0.0625,-0.140625 -0.09375,-0.1875 -0.265625,-0.1875 -0.15625,0 -0.1875,0.046875 -0.25,0.1875 l -3.375,6.75 C 0.46875,-0.109375 0.46875,-0.09375 0.46875,-0.078125 0.46875,0 0.53125,0 0.6875,0 l 6.921875,0 c 0.15625,0 0.21875,0 0.21875,-0.078125 0,-0.015625 0,-0.03125 -0.046875,-0.125 z m -0.578125,0.8125 2.6875,5.390625 -5.375,0 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+          <symbol
+             id="symbol7029"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path7031"
+               d="m 6.84375,-3.265625 c 0.15625,0 0.34375,0 0.34375,-0.1875 C 7.1875,-3.65625 7,-3.65625 6.859375,-3.65625 l -5.96875,0 c -0.140625,0 -0.328125,0 -0.328125,0.203125 0,0.1875 0.1875,0.1875 0.328125,0.1875 z m 0.015625,1.9375 c 0.140625,0 0.328125,0 0.328125,-0.203125 0,-0.1875 -0.1875,-0.1875 -0.34375,-0.1875 l -5.953125,0 c -0.140625,0 -0.328125,0 -0.328125,0.1875 0,0.203125 0.1875,0.203125 0.328125,0.203125 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+          <symbol
+             id="symbol7033"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path7035"
+               d="m 5.359375,-5.9375 c -0.140625,0.140625 -0.46875,0.421875 -0.46875,0.59375 0,0.09375 0.09375,0.203125 0.1875,0.203125 0.09375,0 0.140625,-0.078125 0.203125,-0.140625 C 5.390625,-5.421875 5.625,-5.703125 6.0625,-5.921875 6.125,-5.96875 6.234375,-6.015625 6.234375,-6.125 6.234375,-6.234375 6.15625,-6.28125 6.09375,-6.328125 5.875,-6.484375 5.765625,-6.65625 5.6875,-6.890625 5.65625,-6.984375 5.625,-7.125 5.484375,-7.125 c -0.140625,0 -0.203125,0.140625 -0.203125,0.21875 0,0.046875 0.078125,0.359375 0.234375,0.578125 l -3.359375,0 c -0.15625,0 -0.34375,0 -0.34375,0.203125 0,0.1875 0.1875,0.1875 0.34375,0.1875 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+          <symbol
+             id="symbol7037"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path7039"
+               d="m 0.875,-0.59375 c -0.03125,0.15625 -0.09375,0.390625 -0.09375,0.4375 0,0.171875 0.140625,0.265625 0.296875,0.265625 0.125,0 0.296875,-0.078125 0.375,-0.28125 C 1.46875,-0.203125 1.796875,-1.5625 1.84375,-1.75 c 0.078125,-0.328125 0.265625,-1.015625 0.3125,-1.296875 0.046875,-0.125 0.328125,-0.59375 0.5625,-0.8125 0.078125,-0.0625 0.375,-0.328125 0.796875,-0.328125 0.265625,0 0.40625,0.125 0.421875,0.125 -0.296875,0.046875 -0.515625,0.28125 -0.515625,0.546875 0,0.15625 0.109375,0.34375 0.375,0.34375 0.265625,0 0.546875,-0.234375 0.546875,-0.59375 0,-0.34375 -0.3125,-0.640625 -0.828125,-0.640625 C 2.875,-4.40625 2.4375,-3.921875 2.25,-3.640625 2.15625,-4.09375 1.796875,-4.40625 1.328125,-4.40625 0.875,-4.40625 0.6875,-4.015625 0.59375,-3.84375 0.421875,-3.5 0.296875,-2.90625 0.296875,-2.875 c 0,0.109375 0.09375,0.109375 0.109375,0.109375 0.109375,0 0.109375,-0.015625 0.171875,-0.234375 0.171875,-0.703125 0.375,-1.1875 0.734375,-1.1875 0.15625,0 0.296875,0.078125 0.296875,0.453125 0,0.21875 -0.03125,0.328125 -0.15625,0.84375 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+          <symbol
+             id="symbol7041"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path7043"
+               d="m 3.515625,-1.265625 -0.234375,0 c -0.015625,0.15625 -0.09375,0.5625 -0.1875,0.625 -0.046875,0.046875 -0.578125,0.046875 -0.6875,0.046875 l -1.28125,0 c 0.734375,-0.640625 0.984375,-0.84375 1.390625,-1.171875 0.515625,-0.40625 1,-0.84375 1,-1.5 0,-0.84375 -0.734375,-1.359375 -1.625,-1.359375 -0.859375,0 -1.453125,0.609375 -1.453125,1.25 0,0.34375 0.296875,0.390625 0.375,0.390625 0.15625,0 0.359375,-0.125 0.359375,-0.375 0,-0.125 -0.046875,-0.375 -0.40625,-0.375 C 0.984375,-4.21875 1.453125,-4.375 1.78125,-4.375 c 0.703125,0 1.0625,0.546875 1.0625,1.109375 0,0.609375 -0.4375,1.078125 -0.65625,1.328125 L 0.515625,-0.265625 C 0.4375,-0.203125 0.4375,-0.1875 0.4375,0 l 2.875,0 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+          <symbol
+             id="symbol7045"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path7047"
+               d="m 2.328125,-4.4375 c 0,-0.1875 0,-0.1875 -0.203125,-0.1875 -0.453125,0.4375 -1.078125,0.4375 -1.359375,0.4375 l 0,0.25 c 0.15625,0 0.625,0 1,-0.1875 l 0,3.546875 c 0,0.234375 0,0.328125 -0.6875,0.328125 l -0.265625,0 0,0.25 c 0.125,0 0.984375,-0.03125 1.234375,-0.03125 0.21875,0 1.09375,0.03125 1.25,0.03125 l 0,-0.25 -0.265625,0 c -0.703125,0 -0.703125,-0.09375 -0.703125,-0.328125 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+          <symbol
+             id="symbol7049"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path7051"
+               d="m 6.5625,-2.296875 c 0.171875,0 0.359375,0 0.359375,-0.203125 0,-0.1875 -0.1875,-0.1875 -0.359375,-0.1875 l -5.390625,0 c -0.171875,0 -0.34375,0 -0.34375,0.1875 0,0.203125 0.171875,0.203125 0.34375,0.203125 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="g7053"
+         style="fill:#008000;fill-opacity:1">
+        <g
+           id="g7055"
+           style="fill:#008000;fill-opacity:1">
+          <use
+             id="use7057"
+             y="134.765"
+             x="223.43201"
+             xlink:href="#textext-082fa4b4-0"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#008000;fill-opacity:1" />
+        </g>
+        <g
+           id="g7059"
+           style="fill:#008000;fill-opacity:1">
+          <use
+             id="use7061"
+             y="134.765"
+             x="231.41701"
+             xlink:href="#textext-082fa4b4-2"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#008000;fill-opacity:1" />
+        </g>
+        <g
+           id="g7063"
+           style="fill:#008000;fill-opacity:1">
+          <use
+             id="use7065-4"
+             y="134.765"
+             x="231.73581"
+             xlink:href="#textext-082fa4b4-3"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#008000;fill-opacity:1" />
+        </g>
+        <g
+           id="g7067"
+           style="fill:#008000;fill-opacity:1">
+          <use
+             id="use7069"
+             y="134.765"
+             x="239.27299"
+             xlink:href="#textext-082fa4b4-1"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#008000;fill-opacity:1" />
+        </g>
+        <g
+           id="g7071"
+           style="fill:#008000;fill-opacity:1">
+          <use
+             id="use7073"
+             y="134.765"
+             x="249.472"
+             xlink:href="#textext-082fa4b4-2"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#008000;fill-opacity:1" />
+        </g>
+        <g
+           id="g7075"
+           style="fill:#008000;fill-opacity:1">
+          <use
+             id="use7077"
+             y="134.765"
+             x="249.7908"
+             xlink:href="#textext-082fa4b4-3"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#008000;fill-opacity:1" />
+        </g>
+        <g
+           id="g7079"
+           style="fill:#008000;fill-opacity:1">
+          <use
+             id="use7081"
+             y="136.259"
+             x="254.284"
+             xlink:href="#textext-082fa4b4-4"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#008000;fill-opacity:1" />
+        </g>
+        <g
+           id="g7083"
+           style="fill:#008000;fill-opacity:1">
+          <use
+             id="use7085"
+             y="134.765"
+             x="260.96701"
+             xlink:href="#textext-082fa4b4-6"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#008000;fill-opacity:1" />
+        </g>
+        <g
+           id="g7087"
+           style="fill:#008000;fill-opacity:1">
+          <use
+             id="use7089"
+             y="134.765"
+             x="270.612"
+             xlink:href="#textext-082fa4b4-2"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#008000;fill-opacity:1" />
+        </g>
+        <g
+           id="g7091"
+           style="fill:#008000;fill-opacity:1">
+          <use
+             id="use7093"
+             y="134.765"
+             x="270.93082"
+             xlink:href="#textext-082fa4b4-3"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#008000;fill-opacity:1" />
+        </g>
+        <g
+           id="g7095"
+           style="fill:#008000;fill-opacity:1">
+          <use
+             id="use7097"
+             y="136.259"
+             x="275.42499"
+             xlink:href="#textext-082fa4b4-5"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#008000;fill-opacity:1" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g7019-4"
+       transform="matrix(4.622891,0,0,4.622891,-575.23856,128.11541)"
+       ns0:preamble="/home/waldgeist/data/sphinx/test.tex"
+       ns0:text="$\\Delta \\vec{r} = \\vec{r}_{\\rm{2}} - \\vec{r}_{\\rm{1}} $"
+       style="fill:#008000;fill-opacity:1">
+      <defs
+         id="defs7021-9">
+        <g
+           id="g7023-5">
+          <symbol
+             id="symbol7025-6"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path7027-1"
+               d="m 4.40625,-6.953125 c -0.0625,-0.140625 -0.09375,-0.1875 -0.265625,-0.1875 -0.15625,0 -0.1875,0.046875 -0.25,0.1875 l -3.375,6.75 C 0.46875,-0.109375 0.46875,-0.09375 0.46875,-0.078125 0.46875,0 0.53125,0 0.6875,0 l 6.921875,0 c 0.15625,0 0.21875,0 0.21875,-0.078125 0,-0.015625 0,-0.03125 -0.046875,-0.125 z m -0.578125,0.8125 2.6875,5.390625 -5.375,0 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+          <symbol
+             id="symbol7029-4"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path7031-6"
+               d="m 6.84375,-3.265625 c 0.15625,0 0.34375,0 0.34375,-0.1875 C 7.1875,-3.65625 7,-3.65625 6.859375,-3.65625 l -5.96875,0 c -0.140625,0 -0.328125,0 -0.328125,0.203125 0,0.1875 0.1875,0.1875 0.328125,0.1875 z m 0.015625,1.9375 c 0.140625,0 0.328125,0 0.328125,-0.203125 0,-0.1875 -0.1875,-0.1875 -0.34375,-0.1875 l -5.953125,0 c -0.140625,0 -0.328125,0 -0.328125,0.1875 0,0.203125 0.1875,0.203125 0.328125,0.203125 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+          <symbol
+             id="symbol7033-1"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path7035-3"
+               d="m 5.359375,-5.9375 c -0.140625,0.140625 -0.46875,0.421875 -0.46875,0.59375 0,0.09375 0.09375,0.203125 0.1875,0.203125 0.09375,0 0.140625,-0.078125 0.203125,-0.140625 C 5.390625,-5.421875 5.625,-5.703125 6.0625,-5.921875 6.125,-5.96875 6.234375,-6.015625 6.234375,-6.125 6.234375,-6.234375 6.15625,-6.28125 6.09375,-6.328125 5.875,-6.484375 5.765625,-6.65625 5.6875,-6.890625 5.65625,-6.984375 5.625,-7.125 5.484375,-7.125 c -0.140625,0 -0.203125,0.140625 -0.203125,0.21875 0,0.046875 0.078125,0.359375 0.234375,0.578125 l -3.359375,0 c -0.15625,0 -0.34375,0 -0.34375,0.203125 0,0.1875 0.1875,0.1875 0.34375,0.1875 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+          <symbol
+             id="symbol7037-0"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path7039-8"
+               d="m 0.875,-0.59375 c -0.03125,0.15625 -0.09375,0.390625 -0.09375,0.4375 0,0.171875 0.140625,0.265625 0.296875,0.265625 0.125,0 0.296875,-0.078125 0.375,-0.28125 C 1.46875,-0.203125 1.796875,-1.5625 1.84375,-1.75 c 0.078125,-0.328125 0.265625,-1.015625 0.3125,-1.296875 0.046875,-0.125 0.328125,-0.59375 0.5625,-0.8125 0.078125,-0.0625 0.375,-0.328125 0.796875,-0.328125 0.265625,0 0.40625,0.125 0.421875,0.125 -0.296875,0.046875 -0.515625,0.28125 -0.515625,0.546875 0,0.15625 0.109375,0.34375 0.375,0.34375 0.265625,0 0.546875,-0.234375 0.546875,-0.59375 0,-0.34375 -0.3125,-0.640625 -0.828125,-0.640625 C 2.875,-4.40625 2.4375,-3.921875 2.25,-3.640625 2.15625,-4.09375 1.796875,-4.40625 1.328125,-4.40625 0.875,-4.40625 0.6875,-4.015625 0.59375,-3.84375 0.421875,-3.5 0.296875,-2.90625 0.296875,-2.875 c 0,0.109375 0.09375,0.109375 0.109375,0.109375 0.109375,0 0.109375,-0.015625 0.171875,-0.234375 0.171875,-0.703125 0.375,-1.1875 0.734375,-1.1875 0.15625,0 0.296875,0.078125 0.296875,0.453125 0,0.21875 -0.03125,0.328125 -0.15625,0.84375 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+          <symbol
+             id="symbol7041-7"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path7043-6"
+               d="m 3.515625,-1.265625 -0.234375,0 c -0.015625,0.15625 -0.09375,0.5625 -0.1875,0.625 -0.046875,0.046875 -0.578125,0.046875 -0.6875,0.046875 l -1.28125,0 c 0.734375,-0.640625 0.984375,-0.84375 1.390625,-1.171875 0.515625,-0.40625 1,-0.84375 1,-1.5 0,-0.84375 -0.734375,-1.359375 -1.625,-1.359375 -0.859375,0 -1.453125,0.609375 -1.453125,1.25 0,0.34375 0.296875,0.390625 0.375,0.390625 0.15625,0 0.359375,-0.125 0.359375,-0.375 0,-0.125 -0.046875,-0.375 -0.40625,-0.375 C 0.984375,-4.21875 1.453125,-4.375 1.78125,-4.375 c 0.703125,0 1.0625,0.546875 1.0625,1.109375 0,0.609375 -0.4375,1.078125 -0.65625,1.328125 L 0.515625,-0.265625 C 0.4375,-0.203125 0.4375,-0.1875 0.4375,0 l 2.875,0 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+          <symbol
+             id="symbol7045-8"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path7047-2"
+               d="m 2.328125,-4.4375 c 0,-0.1875 0,-0.1875 -0.203125,-0.1875 -0.453125,0.4375 -1.078125,0.4375 -1.359375,0.4375 l 0,0.25 c 0.15625,0 0.625,0 1,-0.1875 l 0,3.546875 c 0,0.234375 0,0.328125 -0.6875,0.328125 l -0.265625,0 0,0.25 c 0.125,0 0.984375,-0.03125 1.234375,-0.03125 0.21875,0 1.09375,0.03125 1.25,0.03125 l 0,-0.25 -0.265625,0 c -0.703125,0 -0.703125,-0.09375 -0.703125,-0.328125 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+          <symbol
+             id="symbol7049-7"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path7051-5"
+               d="m 6.5625,-2.296875 c 0.171875,0 0.359375,0 0.359375,-0.203125 0,-0.1875 -0.1875,-0.1875 -0.359375,-0.1875 l -5.390625,0 c -0.171875,0 -0.34375,0 -0.34375,0.1875 0,0.203125 0.171875,0.203125 0.34375,0.203125 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="g7053-1"
+         style="fill:#008000;fill-opacity:1">
+        <g
+           id="g7055-6"
+           style="fill:#008000;fill-opacity:1">
+          <use
+             id="use7057-2"
+             y="134.765"
+             x="223.43201"
+             xlink:href="#textext-082fa4b4-0"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#008000;fill-opacity:1" />
+        </g>
+        <g
+           id="g7059-0"
+           style="fill:#008000;fill-opacity:1">
+          <use
+             id="use7061-1"
+             y="134.765"
+             x="231.41701"
+             xlink:href="#textext-082fa4b4-2"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#008000;fill-opacity:1" />
+        </g>
+        <g
+           id="g7063-5"
+           style="fill:#008000;fill-opacity:1">
+          <use
+             id="use7065-5"
+             y="134.765"
+             x="231.73581"
+             xlink:href="#textext-082fa4b4-3"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#008000;fill-opacity:1" />
+        </g>
+        <g
+           id="g7067-8"
+           style="fill:#008000;fill-opacity:1">
+          <use
+             id="use7069-4"
+             y="134.765"
+             x="239.27299"
+             xlink:href="#textext-082fa4b4-1"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#008000;fill-opacity:1" />
+        </g>
+        <g
+           id="g7071-2"
+           style="fill:#008000;fill-opacity:1">
+          <use
+             id="use7073-2"
+             y="134.765"
+             x="249.472"
+             xlink:href="#textext-082fa4b4-2"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#008000;fill-opacity:1" />
+        </g>
+        <g
+           id="g7075-2"
+           style="fill:#008000;fill-opacity:1">
+          <use
+             id="use7077-6"
+             y="134.765"
+             x="249.7908"
+             xlink:href="#textext-082fa4b4-3"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#008000;fill-opacity:1" />
+        </g>
+        <g
+           id="g7079-0"
+           style="fill:#008000;fill-opacity:1">
+          <use
+             id="use7081-7"
+             y="136.259"
+             x="254.284"
+             xlink:href="#textext-082fa4b4-4"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#008000;fill-opacity:1" />
+        </g>
+        <g
+           id="g7083-8"
+           style="fill:#008000;fill-opacity:1">
+          <use
+             id="use7085-7"
+             y="134.765"
+             x="260.96701"
+             xlink:href="#textext-082fa4b4-6"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#008000;fill-opacity:1" />
+        </g>
+        <g
+           id="g7087-5"
+           style="fill:#008000;fill-opacity:1">
+          <use
+             id="use7089-9"
+             y="134.765"
+             x="270.612"
+             xlink:href="#textext-082fa4b4-2"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#008000;fill-opacity:1" />
+        </g>
+        <g
+           id="g7091-3"
+           style="fill:#008000;fill-opacity:1">
+          <use
+             id="use7093-1"
+             y="134.765"
+             x="270.93082"
+             xlink:href="#textext-082fa4b4-3"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#008000;fill-opacity:1" />
+        </g>
+        <g
+           id="g7095-3"
+           style="fill:#008000;fill-opacity:1">
+          <use
+             id="use7097-6"
+             y="136.259"
+             x="275.42499"
+             xlink:href="#textext-082fa4b4-5"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#008000;fill-opacity:1" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g7019-1"
+       transform="matrix(4.622891,0,0,4.622891,-575.23856,128.11541)"
+       ns0:preamble="/home/waldgeist/data/sphinx/test.tex"
+       ns0:text="$\\Delta \\vec{r} = \\vec{r}_{\\rm{2}} - \\vec{r}_{\\rm{1}} $"
+       style="fill:#008000;fill-opacity:1">
+      <defs
+         id="defs7021-3">
+        <g
+           id="g7023-1">
+          <symbol
+             id="symbol7025-1"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path7027-8"
+               d="m 4.40625,-6.953125 c -0.0625,-0.140625 -0.09375,-0.1875 -0.265625,-0.1875 -0.15625,0 -0.1875,0.046875 -0.25,0.1875 l -3.375,6.75 C 0.46875,-0.109375 0.46875,-0.09375 0.46875,-0.078125 0.46875,0 0.53125,0 0.6875,0 l 6.921875,0 c 0.15625,0 0.21875,0 0.21875,-0.078125 0,-0.015625 0,-0.03125 -0.046875,-0.125 z m -0.578125,0.8125 2.6875,5.390625 -5.375,0 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+          <symbol
+             id="symbol7029-0"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path7031-7"
+               d="m 6.84375,-3.265625 c 0.15625,0 0.34375,0 0.34375,-0.1875 C 7.1875,-3.65625 7,-3.65625 6.859375,-3.65625 l -5.96875,0 c -0.140625,0 -0.328125,0 -0.328125,0.203125 0,0.1875 0.1875,0.1875 0.328125,0.1875 z m 0.015625,1.9375 c 0.140625,0 0.328125,0 0.328125,-0.203125 0,-0.1875 -0.1875,-0.1875 -0.34375,-0.1875 l -5.953125,0 c -0.140625,0 -0.328125,0 -0.328125,0.1875 0,0.203125 0.1875,0.203125 0.328125,0.203125 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+          <symbol
+             id="symbol7033-9"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path7035-6"
+               d="m 5.359375,-5.9375 c -0.140625,0.140625 -0.46875,0.421875 -0.46875,0.59375 0,0.09375 0.09375,0.203125 0.1875,0.203125 0.09375,0 0.140625,-0.078125 0.203125,-0.140625 C 5.390625,-5.421875 5.625,-5.703125 6.0625,-5.921875 6.125,-5.96875 6.234375,-6.015625 6.234375,-6.125 6.234375,-6.234375 6.15625,-6.28125 6.09375,-6.328125 5.875,-6.484375 5.765625,-6.65625 5.6875,-6.890625 5.65625,-6.984375 5.625,-7.125 5.484375,-7.125 c -0.140625,0 -0.203125,0.140625 -0.203125,0.21875 0,0.046875 0.078125,0.359375 0.234375,0.578125 l -3.359375,0 c -0.15625,0 -0.34375,0 -0.34375,0.203125 0,0.1875 0.1875,0.1875 0.34375,0.1875 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+          <symbol
+             id="symbol7037-1"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path7039-0"
+               d="m 0.875,-0.59375 c -0.03125,0.15625 -0.09375,0.390625 -0.09375,0.4375 0,0.171875 0.140625,0.265625 0.296875,0.265625 0.125,0 0.296875,-0.078125 0.375,-0.28125 C 1.46875,-0.203125 1.796875,-1.5625 1.84375,-1.75 c 0.078125,-0.328125 0.265625,-1.015625 0.3125,-1.296875 0.046875,-0.125 0.328125,-0.59375 0.5625,-0.8125 0.078125,-0.0625 0.375,-0.328125 0.796875,-0.328125 0.265625,0 0.40625,0.125 0.421875,0.125 -0.296875,0.046875 -0.515625,0.28125 -0.515625,0.546875 0,0.15625 0.109375,0.34375 0.375,0.34375 0.265625,0 0.546875,-0.234375 0.546875,-0.59375 0,-0.34375 -0.3125,-0.640625 -0.828125,-0.640625 C 2.875,-4.40625 2.4375,-3.921875 2.25,-3.640625 2.15625,-4.09375 1.796875,-4.40625 1.328125,-4.40625 0.875,-4.40625 0.6875,-4.015625 0.59375,-3.84375 0.421875,-3.5 0.296875,-2.90625 0.296875,-2.875 c 0,0.109375 0.09375,0.109375 0.109375,0.109375 0.109375,0 0.109375,-0.015625 0.171875,-0.234375 0.171875,-0.703125 0.375,-1.1875 0.734375,-1.1875 0.15625,0 0.296875,0.078125 0.296875,0.453125 0,0.21875 -0.03125,0.328125 -0.15625,0.84375 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+          <symbol
+             id="symbol7041-8"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path7043-7"
+               d="m 3.515625,-1.265625 -0.234375,0 c -0.015625,0.15625 -0.09375,0.5625 -0.1875,0.625 -0.046875,0.046875 -0.578125,0.046875 -0.6875,0.046875 l -1.28125,0 c 0.734375,-0.640625 0.984375,-0.84375 1.390625,-1.171875 0.515625,-0.40625 1,-0.84375 1,-1.5 0,-0.84375 -0.734375,-1.359375 -1.625,-1.359375 -0.859375,0 -1.453125,0.609375 -1.453125,1.25 0,0.34375 0.296875,0.390625 0.375,0.390625 0.15625,0 0.359375,-0.125 0.359375,-0.375 0,-0.125 -0.046875,-0.375 -0.40625,-0.375 C 0.984375,-4.21875 1.453125,-4.375 1.78125,-4.375 c 0.703125,0 1.0625,0.546875 1.0625,1.109375 0,0.609375 -0.4375,1.078125 -0.65625,1.328125 L 0.515625,-0.265625 C 0.4375,-0.203125 0.4375,-0.1875 0.4375,0 l 2.875,0 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+          <symbol
+             id="symbol7045-7"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path7047-8"
+               d="m 2.328125,-4.4375 c 0,-0.1875 0,-0.1875 -0.203125,-0.1875 -0.453125,0.4375 -1.078125,0.4375 -1.359375,0.4375 l 0,0.25 c 0.15625,0 0.625,0 1,-0.1875 l 0,3.546875 c 0,0.234375 0,0.328125 -0.6875,0.328125 l -0.265625,0 0,0.25 c 0.125,0 0.984375,-0.03125 1.234375,-0.03125 0.21875,0 1.09375,0.03125 1.25,0.03125 l 0,-0.25 -0.265625,0 c -0.703125,0 -0.703125,-0.09375 -0.703125,-0.328125 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+          <symbol
+             id="symbol7049-3"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path7051-9"
+               d="m 6.5625,-2.296875 c 0.171875,0 0.359375,0 0.359375,-0.203125 0,-0.1875 -0.1875,-0.1875 -0.359375,-0.1875 l -5.390625,0 c -0.171875,0 -0.34375,0 -0.34375,0.1875 0,0.203125 0.171875,0.203125 0.34375,0.203125 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="g7053-0"
+         style="fill:#008000;fill-opacity:1">
+        <g
+           id="g7055-7"
+           style="fill:#008000;fill-opacity:1">
+          <use
+             id="use7057-5"
+             y="134.765"
+             x="223.43201"
+             xlink:href="#textext-082fa4b4-0"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#008000;fill-opacity:1" />
+        </g>
+        <g
+           id="g7059-2"
+           style="fill:#008000;fill-opacity:1">
+          <use
+             id="use7061-6"
+             y="134.765"
+             x="231.41701"
+             xlink:href="#textext-082fa4b4-2"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#008000;fill-opacity:1" />
+        </g>
+        <g
+           id="g7063-59"
+           style="fill:#008000;fill-opacity:1">
+          <use
+             id="use7065-1"
+             y="134.765"
+             x="231.73581"
+             xlink:href="#textext-082fa4b4-3"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#008000;fill-opacity:1" />
+        </g>
+        <g
+           id="g7067-5"
+           style="fill:#008000;fill-opacity:1">
+          <use
+             id="use7069-2"
+             y="134.765"
+             x="239.27299"
+             xlink:href="#textext-082fa4b4-1"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#008000;fill-opacity:1" />
+        </g>
+        <g
+           id="g7071-5"
+           style="fill:#008000;fill-opacity:1">
+          <use
+             id="use7073-0"
+             y="134.765"
+             x="249.472"
+             xlink:href="#textext-082fa4b4-2"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#008000;fill-opacity:1" />
+        </g>
+        <g
+           id="g7075-1"
+           style="fill:#008000;fill-opacity:1">
+          <use
+             id="use7077-8"
+             y="134.765"
+             x="249.7908"
+             xlink:href="#textext-082fa4b4-3"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#008000;fill-opacity:1" />
+        </g>
+        <g
+           id="g7079-3"
+           style="fill:#008000;fill-opacity:1">
+          <use
+             id="use7081-4"
+             y="136.259"
+             x="254.284"
+             xlink:href="#textext-082fa4b4-4"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#008000;fill-opacity:1" />
+        </g>
+        <g
+           id="g7083-2"
+           style="fill:#008000;fill-opacity:1">
+          <use
+             id="use7085-4"
+             y="134.765"
+             x="260.96701"
+             xlink:href="#textext-082fa4b4-6"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#008000;fill-opacity:1" />
+        </g>
+        <g
+           id="g7087-2"
+           style="fill:#008000;fill-opacity:1">
+          <use
+             id="use7089-2"
+             y="134.765"
+             x="270.612"
+             xlink:href="#textext-082fa4b4-2"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#008000;fill-opacity:1" />
+        </g>
+        <g
+           id="g7091-34"
+           style="fill:#008000;fill-opacity:1">
+          <use
+             id="use7093-9"
+             y="134.765"
+             x="270.93082"
+             xlink:href="#textext-082fa4b4-3"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#008000;fill-opacity:1" />
+        </g>
+        <g
+           id="g7095-5"
+           style="fill:#008000;fill-opacity:1">
+          <use
+             id="use7097-69"
+             y="136.259"
+             x="275.42499"
+             xlink:href="#textext-082fa4b4-5"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#008000;fill-opacity:1" />
+        </g>
+      </g>
+    </g>
+  </g>
+  <rect
+     style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect97156"
+     width="736.36365"
+     height="738.13666"
+     x="3.8654175"
+     y="148.95544"
+     inkscape:export-filename="/home/waldgeist/sandbox/homepage/pics/mathematik/analysis/funktion-injektiv-exponential.png"
+     inkscape:export-xdpi="150"
+     inkscape:export-ydpi="150" />
+  <g
+     style="fill:#000000;fill-opacity:1"
+     id="g7181"
+     transform="matrix(3.1525737,0,0,3.1525737,-363.98496,-232.7603)"
+     inkscape:export-filename="/home/waldgeist/sandbox/homepage/pics/mathematik/analysis/funktion-injektiv-exponential.png"
+     inkscape:export-xdpi="150"
+     inkscape:export-ydpi="150">
+    <g
+       transform="translate(223.43201,134.765)"
+       id="use7183">
+      <path
+         id="path4441"
+         d="m 5.0176399,-3.796875 c 0.046875,-0.140625 0.046875,-0.15625 0.046875,-0.234375 0,-0.171875 -0.140625,-0.265625 -0.296875,-0.265625 -0.09375,0 -0.25,0.0625 -0.34375,0.203125 -0.015625,0.0625 -0.109375,0.359375 -0.140625,0.546875 -0.078125,0.25 -0.140625,0.53125 -0.203125,0.796875 l -0.453125,1.796875 c -0.03125,0.140625 -0.46875,0.84375 -1.125,0.84375 -0.5,0 -0.609375,-0.4375 -0.609375,-0.8125 0,-0.453125 0.171875,-1.078125 0.5,-1.953125 0.15625,-0.40625 0.203125,-0.515625 0.203125,-0.71875 0,-0.4375 -0.3125,-0.8125 -0.8125,-0.8125 -0.95312499,0 -1.31249999,1.453125 -1.31249999,1.53125 0,0.109375 0.09375,0.109375 0.109375,0.109375 0.109375,0 0.109375,-0.03125 0.15625,-0.1875 C 1.0176399,-3.890625 1.4082649,-4.1875 1.7520149,-4.1875 c 0.078125,0 0.25,0 0.25,0.3125 0,0.25 -0.109375,0.515625 -0.171875,0.703125 -0.40625,1.0625 -0.578125,1.625 -0.578125,2.09375 0,0.890625 0.625,1.1875 1.21875,1.1875 0.390625,0 0.71875,-0.171875 1,-0.453125 -0.125,0.515625 -0.25,1.015625 -0.640625,1.546875 -0.265625,0.328125 -0.640625,0.625 -1.09375,0.625 -0.140625,0 -0.59375,-0.03125 -0.76562499,-0.421875 0.15624999,0 0.29687499,0 0.42187499,-0.125 0.109375,-0.078125 0.203125,-0.21875 0.203125,-0.40625 0,-0.3125 -0.265625,-0.34375 -0.359375,-0.34375 -0.234375,0 -0.56249999,0.15625 -0.56249999,0.640625 0,0.5 0.43749999,0.875 1.06249999,0.875 1.015625,0 2.046875,-0.90625 2.328125,-2.03125 z m 0,0"
+         style="stroke:none"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+  <g
+     id="g7163"
+     transform="matrix(3.1525737,0,0,3.1525737,-1.72124,132.57865)"
+     inkscape:export-filename="/home/waldgeist/sandbox/homepage/pics/mathematik/analysis/funktion-injektiv-exponential.png"
+     inkscape:export-xdpi="150"
+     inkscape:export-ydpi="150">
+    <g
+       style="fill:#000000;fill-opacity:1"
+       id="g7165">
+      <g
+         id="use7167"
+         transform="translate(223.43201,134.765)">
+        <path
+           id="path4449"
+           d="M 3.328125,-3.015625 C 3.390625,-3.265625 3.625,-4.1875 4.3125,-4.1875 c 0.046875,0 0.296875,0 0.5,0.125 C 4.53125,-4 4.34375,-3.765625 4.34375,-3.515625 c 0,0.15625 0.109375,0.34375 0.375,0.34375 0.21875,0 0.53125,-0.171875 0.53125,-0.578125 0,-0.515625 -0.578125,-0.65625 -0.921875,-0.65625 -0.578125,0 -0.921875,0.53125 -1.046875,0.75 -0.25,-0.65625 -0.78125,-0.75 -1.078125,-0.75 -1.03125,0 -1.609375,1.28125 -1.609375,1.53125 0,0.109375 0.109375,0.109375 0.125,0.109375 0.078125,0 0.109375,-0.03125 0.125,-0.109375 0.34375,-1.0625 1,-1.3125 1.34375,-1.3125 0.1875,0 0.53125,0.09375 0.53125,0.671875 0,0.3125 -0.171875,0.96875 -0.53125,2.375 -0.15625,0.609375 -0.515625,1.03125 -0.953125,1.03125 -0.0625,0 -0.28125,0 -0.5,-0.125 0.25,-0.0625 0.46875,-0.265625 0.46875,-0.546875 0,-0.265625 -0.21875,-0.34375 -0.359375,-0.34375 -0.3125,0 -0.546875,0.25 -0.546875,0.578125 0,0.453125 0.484375,0.65625 0.921875,0.65625 0.671875,0 1.03125,-0.703125 1.046875,-0.75 0.125,0.359375 0.484375,0.75 1.078125,0.75 1.03125,0 1.59375,-1.28125 1.59375,-1.53125 0,-0.109375 -0.078125,-0.109375 -0.109375,-0.109375 -0.09375,0 -0.109375,0.046875 -0.140625,0.109375 -0.328125,1.078125 -1,1.3125 -1.3125,1.3125 -0.390625,0 -0.546875,-0.3125 -0.546875,-0.65625 0,-0.21875 0.046875,-0.4375 0.15625,-0.875 z m 0,0"
+           style="stroke:none"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
+  </g>
+  <g
+     inkscape:export-ydpi="150"
+     inkscape:export-xdpi="150"
+     inkscape:export-filename="/home/waldgeist/sandbox/homepage/pics/mathematik/analysis/funktion-injektiv-exponential.png"
+     transform="matrix(0.59795581,0,0,0.59795581,72.195344,227.25885)"
+     id="g71931"
+     inkscape:label="MajorXGridlines"
+     style="stroke:#cccccc;stroke-width:1.01836729">
+    <path
+       id="path71933-7"
+       d="m 100,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:2.50854683"
+       inkscape:label="MajorXDiv1"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path71935-1"
+       d="m 200,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:2.50854683"
+       inkscape:label="MajorXDiv2"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path71937-8"
+       d="m 300,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:2.50854683"
+       inkscape:label="MajorXDiv3"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path71939-9"
+       d="m 400,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:2.50854683"
+       inkscape:label="MajorXDiv4"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path71941"
+       d="m 500,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:2.50854683"
+       inkscape:label="MajorXDiv5"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path71943-8"
+       d="m 600,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:2.50854683"
+       inkscape:label="MajorXDiv6"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path71945-7"
+       d="m 700,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:2.50854683"
+       inkscape:label="MajorXDiv7"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path71947-9"
+       d="m 800,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:2.50854683"
+       inkscape:label="MajorXDiv8"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path71949-6"
+       d="m 900,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:2.50854683"
+       inkscape:label="MajorXDiv9"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     inkscape:export-ydpi="150"
+     inkscape:export-xdpi="150"
+     inkscape:export-filename="/home/waldgeist/sandbox/homepage/pics/mathematik/analysis/funktion-injektiv-exponential.png"
+     transform="matrix(0.59795581,0,0,0.59795581,72.195344,227.25885)"
+     id="g71951"
+     inkscape:label="MajorYGridlines"
+     style="stroke:#cccccc;stroke-width:1.01836729">
+    <path
+       id="path71953"
+       d="m 0,100 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:2.50854683"
+       inkscape:label="MajorYDiv1"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path71955-3"
+       d="m 0,200 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:2.50854683"
+       inkscape:label="MajorYDiv2"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path71957-7"
+       d="m 0,300 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:2.50854683"
+       inkscape:label="MajorYDiv3"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path71959-0"
+       d="m 0,400 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:2.50854683"
+       inkscape:label="MajorYDiv4"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path71961-5"
+       d="m 0,500 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:2.50854683"
+       inkscape:label="MajorYDiv5"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path71963-0"
+       d="m 0,600 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:2.50854683"
+       inkscape:label="MajorYDiv6"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path71965-0"
+       d="m 0,700 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:2.50854683"
+       inkscape:label="MajorYDiv7"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path71967-4"
+       d="m 0,800 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:2.50854683"
+       inkscape:label="MajorYDiv8"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path71969"
+       d="m 0,900 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:2.50854683"
+       inkscape:label="MajorYDiv9"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     inkscape:export-ydpi="150"
+     inkscape:export-xdpi="150"
+     inkscape:export-filename="/home/waldgeist/sandbox/homepage/pics/mathematik/analysis/funktion-injektiv-exponential.png"
+     transform="matrix(0.59795581,0,0,0.59795581,72.195344,227.25885)"
+     id="g71971"
+     inkscape:label="SubMinorXGridlines"
+     style="stroke:#cccccc;stroke-width:1.01836729">
+    <path
+       id="path71973-1"
+       d="m 10,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv0:0:1"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path71975-9"
+       d="m 20,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv0:0:2"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path71977-3"
+       d="m 30,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv0:0:3"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path71979-0"
+       d="m 40,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv0:0:4"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path71981-4"
+       d="m 50,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv0:0:5"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path71983-7"
+       d="m 60,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv0:0:6"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path71985-0"
+       d="m 70,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv0:0:7"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path71987-9"
+       d="m 80,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv0:0:8"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path71989-8"
+       d="m 90,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv0:0:9"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path71991-6"
+       d="m 110,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv1:0:1"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path71993-1"
+       d="m 120,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv1:0:2"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path71995-7"
+       d="m 130,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv1:0:3"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path71997-2"
+       d="m 140,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv1:0:4"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path71999-8"
+       d="m 150,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv1:0:5"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72001-5"
+       d="m 160,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv1:0:6"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72003-9"
+       d="m 170,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv1:0:7"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72005-7"
+       d="m 180,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv1:0:8"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72007-7"
+       d="m 190,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv1:0:9"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72009-0"
+       d="m 210,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv2:0:1"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72011-8"
+       d="m 220,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv2:0:2"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72013-5"
+       d="m 230,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv2:0:3"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72015-7"
+       d="m 240,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv2:0:4"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72017-7"
+       d="m 250,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv2:0:5"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72019-2"
+       d="m 260,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv2:0:6"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72021-2"
+       d="m 270,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv2:0:7"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72023-7"
+       d="m 280,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv2:0:8"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72025-2"
+       d="m 290,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv2:0:9"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72027-8"
+       d="m 310,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv3:0:1"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72029-9"
+       d="m 320,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv3:0:2"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72031-5"
+       d="m 330,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv3:0:3"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72033-4"
+       d="m 340,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv3:0:4"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72035-2"
+       d="m 350,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv3:0:5"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72037-6"
+       d="m 360,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv3:0:6"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72039-0"
+       d="m 370,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv3:0:7"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72041-3"
+       d="m 380,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv3:0:8"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72043-0"
+       d="m 390,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv3:0:9"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72045-7"
+       d="m 410,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv4:0:1"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72047-3"
+       d="m 420,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv4:0:2"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72049-1"
+       d="m 430,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv4:0:3"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72051-5"
+       d="m 440,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv4:0:4"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72053-1"
+       d="m 450,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv4:0:5"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72055-3"
+       d="m 460,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv4:0:6"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72057-2"
+       d="m 470,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv4:0:7"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72059-3"
+       d="m 480,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv4:0:8"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72061-3"
+       d="m 490,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv4:0:9"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72063-9"
+       d="m 510,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv5:0:1"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72065-5"
+       d="m 520,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv5:0:2"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72067-2"
+       d="m 530,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv5:0:3"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72069-6"
+       d="m 540,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv5:0:4"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72071-5"
+       d="m 550,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv5:0:5"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72073-0"
+       d="m 560,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv5:0:6"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72075-4"
+       d="m 570,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv5:0:7"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72077-4"
+       d="m 580,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv5:0:8"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72079-9"
+       d="m 590,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv5:0:9"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72081-6"
+       d="m 610,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv6:0:1"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72083-6"
+       d="m 620,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv6:0:2"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72085-6"
+       d="m 630,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv6:0:3"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72087-0"
+       d="m 640,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv6:0:4"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72089-6"
+       d="m 650,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv6:0:5"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72091-8"
+       d="m 660,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv6:0:6"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72093-7"
+       d="m 670,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv6:0:7"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72095-1"
+       d="m 680,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv6:0:8"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72097-2"
+       d="m 690,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv6:0:9"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72099-3"
+       d="m 710,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv7:0:1"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72101-1"
+       d="m 720,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv7:0:2"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72103-5"
+       d="m 730,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv7:0:3"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72105-3"
+       d="m 740,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv7:0:4"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72107-0"
+       d="m 750,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv7:0:5"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72109-0"
+       d="m 760,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv7:0:6"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72111-5"
+       d="m 770,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv7:0:7"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72113-7"
+       d="m 780,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv7:0:8"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72115-2"
+       d="m 790,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv7:0:9"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72117-8"
+       d="m 810,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv8:0:1"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72119-1"
+       d="m 820,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv8:0:2"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72121-7"
+       d="m 830,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv8:0:3"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72123-3"
+       d="m 840,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv8:0:4"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72125-0"
+       d="m 850,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv8:0:5"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72127-4"
+       d="m 860,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv8:0:6"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72129-5"
+       d="m 870,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv8:0:7"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72131-7"
+       d="m 880,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv8:0:8"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72133-9"
+       d="m 890,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv8:0:9"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72135-5"
+       d="m 910,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv9:0:1"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72137-1"
+       d="m 920,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv9:0:2"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72139-3"
+       d="m 930,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv9:0:3"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72141-4"
+       d="m 940,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv9:0:4"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72143-9"
+       d="m 950,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv9:0:5"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72145-2"
+       d="m 960,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv9:0:6"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72147-3"
+       d="m 970,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv9:0:7"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72149-1"
+       d="m 980,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv9:0:8"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72151-8"
+       d="m 990,0 0,1000"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv9:0:9"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     inkscape:export-ydpi="150"
+     inkscape:export-xdpi="150"
+     inkscape:export-filename="/home/waldgeist/sandbox/homepage/pics/mathematik/analysis/funktion-injektiv-exponential.png"
+     transform="matrix(0.59795581,0,0,0.59795581,72.195344,227.25885)"
+     id="g72153"
+     inkscape:label="SubMinorYGridlines"
+     style="stroke:#cccccc;stroke-width:1.01836729">
+    <path
+       id="path72155"
+       d="m 0,10 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv0:0:1"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72157"
+       d="m 0,20 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv0:0:2"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72159"
+       d="m 0,30 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv0:0:3"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72161"
+       d="m 0,40 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv0:0:4"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72163"
+       d="m 0,50 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv0:0:5"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72165"
+       d="m 0,60 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv0:0:6"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72167"
+       d="m 0,70 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv0:0:7"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72169"
+       d="m 0,80 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv0:0:8"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72171"
+       d="m 0,90 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv0:0:9"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72173"
+       d="m 0,110 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv1:0:1"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72175"
+       d="m 0,120 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv1:0:2"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72177"
+       d="m 0,130 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv1:0:3"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72179"
+       d="m 0,140 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv1:0:4"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72181"
+       d="m 0,150 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv1:0:5"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72183"
+       d="m 0,160 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv1:0:6"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72185"
+       d="m 0,170 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv1:0:7"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72187"
+       d="m 0,180 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv1:0:8"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72189"
+       d="m 0,190 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv1:0:9"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72191-3"
+       d="m 0,210 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv2:0:1"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72193-9"
+       d="m 0,220 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv2:0:2"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72195-9"
+       d="m 0,230 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv2:0:3"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72197-5"
+       d="m 0,240 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv2:0:4"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72199-2"
+       d="m 0,250 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv2:0:5"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72201-2"
+       d="m 0,260 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv2:0:6"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72203-3"
+       d="m 0,270 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv2:0:7"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72205-6"
+       d="m 0,280 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv2:0:8"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72207-2"
+       d="m 0,290 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv2:0:9"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72209-5"
+       d="m 0,310 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv3:0:1"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72211-3"
+       d="m 0,320 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv3:0:2"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72213-9"
+       d="m 0,330 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv3:0:3"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72215-9"
+       d="m 0,340 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv3:0:4"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72217-3"
+       d="m 0,350 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv3:0:5"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72219-0"
+       d="m 0,360 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv3:0:6"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72221-9"
+       d="m 0,370 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv3:0:7"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72223-6"
+       d="m 0,380 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv3:0:8"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72225-3"
+       d="m 0,390 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv3:0:9"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72227-3"
+       d="m 0,410 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv4:0:1"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72229-1"
+       d="m 0,420 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv4:0:2"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72231-2"
+       d="m 0,430 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv4:0:3"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72233-3"
+       d="m 0,440 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv4:0:4"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72235-8"
+       d="m 0,450 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv4:0:5"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72237-3"
+       d="m 0,460 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv4:0:6"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72239-8"
+       d="m 0,470 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv4:0:7"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72241-4"
+       d="m 0,480 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv4:0:8"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72243-4"
+       d="m 0,490 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv4:0:9"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72245-0"
+       d="m 0,510 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv5:0:1"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72247-7"
+       d="m 0,520 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv5:0:2"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72249-5"
+       d="m 0,530 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv5:0:3"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72251-1"
+       d="m 0,540 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv5:0:4"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72253-2"
+       d="m 0,550 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv5:0:5"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72255-4"
+       d="m 0,560 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv5:0:6"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72257-0"
+       d="m 0,570 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv5:0:7"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72259-8"
+       d="m 0,580 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv5:0:8"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72261-9"
+       d="m 0,590 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv5:0:9"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72263-5"
+       d="m 0,610 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv6:0:1"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72265-3"
+       d="m 0,620 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv6:0:2"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72267-5"
+       d="m 0,630 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv6:0:3"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72269-9"
+       d="m 0,640 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv6:0:4"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72271-0"
+       d="m 0,650 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv6:0:5"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72273-8"
+       d="m 0,660 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv6:0:6"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72275-1"
+       d="m 0,670 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv6:0:7"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72277-0"
+       d="m 0,680 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv6:0:8"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72279-3"
+       d="m 0,690 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv6:0:9"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72281-3"
+       d="m 0,710 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv7:0:1"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72283-9"
+       d="m 0,720 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv7:0:2"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72285-9"
+       d="m 0,730 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv7:0:3"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72287-6"
+       d="m 0,740 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv7:0:4"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72289-2"
+       d="m 0,750 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv7:0:5"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72291-2"
+       d="m 0,760 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv7:0:6"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72293-8"
+       d="m 0,770 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv7:0:7"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72295-7"
+       d="m 0,780 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv7:0:8"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72297-0"
+       d="m 0,790 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv7:0:9"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72299"
+       d="m 0,810 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv8:0:1"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72301"
+       d="m 0,820 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv8:0:2"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72303"
+       d="m 0,830 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv8:0:3"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72305"
+       d="m 0,840 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv8:0:4"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72307"
+       d="m 0,850 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv8:0:5"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72309"
+       d="m 0,860 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv8:0:6"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72311"
+       d="m 0,870 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv8:0:7"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72313"
+       d="m 0,880 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv8:0:8"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72315"
+       d="m 0,890 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv8:0:9"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72317"
+       d="m 0,910 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv9:0:1"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72319"
+       d="m 0,920 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv9:0:2"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72321"
+       d="m 0,930 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv9:0:3"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72323"
+       d="m 0,940 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv9:0:4"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72325"
+       d="m 0,950 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv9:0:5"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72327"
+       d="m 0,960 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv9:0:6"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72329"
+       d="m 0,970 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv9:0:7"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72331"
+       d="m 0,980 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv9:0:8"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path72333"
+       d="m 0,990 1000,0"
+       style="fill:none;stroke:#cccccc;stroke-width:0.83618218"
+       inkscape:label="SubminorXDiv9:0:9"
+       inkscape:connector-curvature="0" />
+  </g>
+  <rect
+     inkscape:export-ydpi="150"
+     inkscape:export-xdpi="150"
+     inkscape:export-filename="/home/waldgeist/sandbox/homepage/pics/mathematik/analysis/funktion-injektiv-exponential.png"
+     id="rect72335-3"
+     x="72.19532"
+     y="227.25885"
+     inkscape:label="Border"
+     height="597.95581"
+     width="597.95581"
+     style="fill:none;stroke:#cccccc;stroke-width:1.50000012" />
+  <path
+     inkscape:export-ydpi="150"
+     inkscape:export-xdpi="150"
+     inkscape:export-filename="/home/waldgeist/sandbox/homepage/pics/mathematik/analysis/funktion-injektiv-exponential.png"
+     inkscape:connector-curvature="0"
+     id="use73476-4"
+     d="m 384.90848,466.44117 -24.32475,0"
+     style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+  <path
+     inkscape:export-ydpi="150"
+     inkscape:export-xdpi="150"
+     inkscape:export-filename="/home/waldgeist/sandbox/homepage/pics/mathematik/analysis/funktion-injektiv-exponential.png"
+     inkscape:connector-curvature="0"
+     id="use73478-9"
+     d="m 384.90848,406.64559 -24.32475,0"
+     style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+  <path
+     inkscape:export-ydpi="150"
+     inkscape:export-xdpi="150"
+     inkscape:export-filename="/home/waldgeist/sandbox/homepage/pics/mathematik/analysis/funktion-injektiv-exponential.png"
+     inkscape:connector-curvature="0"
+     id="use73480"
+     d="m 384.90848,346.85001 -24.32475,0"
+     style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+  <path
+     inkscape:export-ydpi="150"
+     inkscape:export-xdpi="150"
+     inkscape:export-filename="/home/waldgeist/sandbox/homepage/pics/mathematik/analysis/funktion-injektiv-exponential.png"
+     inkscape:connector-curvature="0"
+     id="use73482"
+     d="m 384.90848,287.05443 -24.32475,0"
+     style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+  <path
+     inkscape:export-ydpi="150"
+     inkscape:export-xdpi="150"
+     inkscape:export-filename="/home/waldgeist/sandbox/homepage/pics/mathematik/analysis/funktion-injektiv-exponential.png"
+     inkscape:connector-curvature="0"
+     id="use73484-8"
+     d="m 384.90848,586.03234 -24.32475,0"
+     style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+  <path
+     inkscape:export-ydpi="150"
+     inkscape:export-xdpi="150"
+     inkscape:export-filename="/home/waldgeist/sandbox/homepage/pics/mathematik/analysis/funktion-injektiv-exponential.png"
+     inkscape:connector-curvature="0"
+     id="use73486-4"
+     d="m 384.90848,645.82792 -24.32475,0"
+     style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+  <path
+     inkscape:export-ydpi="150"
+     inkscape:export-xdpi="150"
+     inkscape:export-filename="/home/waldgeist/sandbox/homepage/pics/mathematik/analysis/funktion-injektiv-exponential.png"
+     inkscape:connector-curvature="0"
+     id="use73488-5"
+     d="m 384.90848,705.6235 -24.32475,0"
+     style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+  <path
+     inkscape:export-ydpi="150"
+     inkscape:export-xdpi="150"
+     inkscape:export-filename="/home/waldgeist/sandbox/homepage/pics/mathematik/analysis/funktion-injektiv-exponential.png"
+     inkscape:connector-curvature="0"
+     id="use73490"
+     d="m 384.90848,765.41908 -24.32475,0"
+     style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+  <path
+     inkscape:export-ydpi="150"
+     inkscape:export-xdpi="150"
+     inkscape:export-filename="/home/waldgeist/sandbox/homepage/pics/mathematik/analysis/funktion-injektiv-exponential.png"
+     inkscape:connector-curvature="0"
+     id="use73492"
+     d="m 384.90848,825.21466 -24.32475,0"
+     style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+  <path
+     inkscape:export-ydpi="150"
+     inkscape:export-xdpi="150"
+     inkscape:export-filename="/home/waldgeist/sandbox/homepage/pics/mathematik/analysis/funktion-injektiv-exponential.png"
+     inkscape:connector-curvature="0"
+     id="path7353-7-1"
+     d="m 384.70523,227.25885 -23.91825,0"
+     style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+  <g
+     id="g7163-6"
+     transform="matrix(4.089973,0,0,4.089973,-212.74368,11.242532)">
+    <g
+       style="fill:#000000;fill-opacity:1"
+       id="g7165-1">
+      <g
+         id="use7167-2"
+         transform="translate(223.43201,134.765)" />
+    </g>
+  </g>
+  <path
+     inkscape:export-ydpi="150"
+     inkscape:export-xdpi="150"
+     inkscape:export-filename="/home/waldgeist/sandbox/homepage/pics/mathematik/analysis/funktion-injektiv-exponential.png"
+     sodipodi:nodetypes="cc"
+     inkscape:connector-curvature="0"
+     id="path7147-0"
+     d="m 25.034914,525.68296 686.214026,0"
+     style="fill:none;stroke:#000000;stroke-width:3.00000024;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#TriangleOutM)" />
+  <path
+     inkscape:export-ydpi="150"
+     inkscape:export-xdpi="150"
+     inkscape:export-filename="/home/waldgeist/sandbox/homepage/pics/mathematik/analysis/funktion-injektiv-exponential.png"
+     style="fill:none;stroke:#000000;stroke-width:1.50000000000000000;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 430.96883,514.27764 0,23.91826"
+     id="path7353-9"
+     inkscape:connector-curvature="0" />
+  <use
+     inkscape:export-ydpi="150"
+     inkscape:export-xdpi="150"
+     inkscape:export-filename="/home/waldgeist/sandbox/homepage/pics/mathematik/analysis/funktion-injektiv-exponential.png"
+     style="stroke:#000000;stroke-width:0.91193115999999996;stroke-linecap:round"
+     height="1052.3622"
+     width="744.09448"
+     transform="translate(59.795581,0)"
+     id="use73452-1"
+     xlink:href="#path7353-9"
+     y="0"
+     x="0" />
+  <use
+     inkscape:export-ydpi="150"
+     inkscape:export-xdpi="150"
+     inkscape:export-filename="/home/waldgeist/sandbox/homepage/pics/mathematik/analysis/funktion-injektiv-exponential.png"
+     style="stroke:#000000;stroke-width:0.91193115999999996;stroke-linecap:round"
+     height="1052.3622"
+     width="744.09448"
+     transform="translate(119.59116,0)"
+     id="use73454-7"
+     xlink:href="#path7353-9"
+     y="0"
+     x="0" />
+  <use
+     inkscape:export-ydpi="150"
+     inkscape:export-xdpi="150"
+     inkscape:export-filename="/home/waldgeist/sandbox/homepage/pics/mathematik/analysis/funktion-injektiv-exponential.png"
+     style="stroke:#000000;stroke-width:0.91193115999999996;stroke-linecap:round"
+     height="1052.3622"
+     width="744.09448"
+     transform="translate(179.38674,0)"
+     id="use73456-8"
+     xlink:href="#path7353-9"
+     y="0"
+     x="0" />
+  <use
+     inkscape:export-ydpi="150"
+     inkscape:export-xdpi="150"
+     inkscape:export-filename="/home/waldgeist/sandbox/homepage/pics/mathematik/analysis/funktion-injektiv-exponential.png"
+     style="stroke:#333333;stroke-width:0.91193116;stroke-linecap:round"
+     height="1052.3622"
+     width="744.09448"
+     transform="translate(-239.18232,-2.1090354e-6)"
+     id="use73466-2"
+     xlink:href="#path7353-9"
+     y="0"
+     x="0" />
+  <use
+     inkscape:export-ydpi="150"
+     inkscape:export-xdpi="150"
+     inkscape:export-filename="/home/waldgeist/sandbox/homepage/pics/mathematik/analysis/funktion-injektiv-exponential.png"
+     style="stroke:#333333;stroke-width:0.91193116;stroke-linecap:round"
+     height="1052.3622"
+     width="744.09448"
+     transform="translate(-299.38865,-0.61114789)"
+     id="use73468-7"
+     xlink:href="#path7353-9"
+     y="0"
+     x="0" />
+  <use
+     inkscape:export-ydpi="150"
+     inkscape:export-xdpi="150"
+     inkscape:export-filename="/home/waldgeist/sandbox/homepage/pics/mathematik/analysis/funktion-injektiv-exponential.png"
+     style="stroke:#333333;stroke-width:0.91193116;stroke-linecap:round"
+     height="1052.3622"
+     width="744.09448"
+     transform="translate(-359.18423,-0.61114789)"
+     id="use73470-1"
+     xlink:href="#path7353-9"
+     y="0"
+     x="0" />
+  <use
+     inkscape:export-ydpi="150"
+     inkscape:export-xdpi="150"
+     inkscape:export-filename="/home/waldgeist/sandbox/homepage/pics/mathematik/analysis/funktion-injektiv-exponential.png"
+     style="stroke:#333333;stroke-width:0.91193116;stroke-linecap:round"
+     x="0"
+     y="0"
+     xlink:href="#path7353-9"
+     id="use73464-2"
+     transform="translate(-179.38674,-2.1090354e-6)"
+     width="744.09448"
+     height="1052.3622" />
+  <use
+     inkscape:export-ydpi="150"
+     inkscape:export-xdpi="150"
+     inkscape:export-filename="/home/waldgeist/sandbox/homepage/pics/mathematik/analysis/funktion-injektiv-exponential.png"
+     style="stroke:#333333;stroke-width:0.91193116;stroke-linecap:round"
+     x="0"
+     y="0"
+     xlink:href="#path7353-9"
+     id="use92473-0"
+     transform="translate(-119.59116,-0.55380804)"
+     width="1052.3622"
+     height="744.09448" />
+  <use
+     inkscape:export-ydpi="150"
+     inkscape:export-xdpi="150"
+     inkscape:export-filename="/home/waldgeist/sandbox/homepage/pics/mathematik/analysis/funktion-injektiv-exponential.png"
+     style="stroke:#000000;stroke-width:0.91193115999999996;stroke-linecap:round"
+     x="0"
+     y="0"
+     xlink:href="#path7353-9"
+     id="use92475-5"
+     transform="translate(239.18234,-0.55380804)"
+     width="1052.3622"
+     height="744.09448" />
+  <g
+     inkscape:export-ydpi="150"
+     inkscape:export-xdpi="150"
+     inkscape:export-filename="/home/waldgeist/sandbox/homepage/pics/mathematik/analysis/funktion-injektiv-exponential.png"
+     transform="translate(-1.032847,0.69552908)"
+     id="g127367-3"
+     style="fill:#4d4d4d">
+    <g
+       id="g115478-9"
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#008000;stroke-width:1.17998302;stroke-opacity:1"
+       transform="matrix(2.5424095,0,0,2.5424095,-142.73739,216.0681)"
+       ns0:preamble="/home/waldgeist/data/sphinx/test.tex"
+       ns0:text="$1$">
+      <defs
+         id="defs115480-1">
+        <g
+           id="g115482-7">
+          <symbol
+             style="overflow:visible"
+             id="textext-89e3f83c-0-3"
+             overflow="visible">
+            <path
+               inkscape:connector-curvature="0"
+               id="path115485-2"
+               d="m 2.9375,-6.375 c 0,-0.25 0,-0.265625 -0.234375,-0.265625 C 2.078125,-6 1.203125,-6 0.890625,-6 l 0,0.3125 c 0.203125,0 0.78125,0 1.296875,-0.265625 l 0,5.171875 c 0,0.359375 -0.03125,0.46875 -0.921875,0.46875 l -0.3125,0 0,0.3125 c 0.34375,-0.03125 1.203125,-0.03125 1.609375,-0.03125 0.390625,0 1.265625,0 1.609375,0.03125 l 0,-0.3125 -0.3125,0 c -0.90625,0 -0.921875,-0.109375 -0.921875,-0.46875 z m 0,0"
+               style="stroke:none" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="textext-89e3f83c-1-5"
+         style="fill:#4d4d4d">
+        <g
+           id="g115488-3"
+           style="fill:#4d4d4d;fill-opacity:1">
+          <use
+             height="1052.3622"
+             width="744.09448"
+             id="use115490-7"
+             y="134.765"
+             x="223.43201"
+             xlink:href="#textext-89e3f83c-0-3"
+             style="fill:#4d4d4d" />
+        </g>
+      </g>
+    </g>
+    <g
+       ns0:text="$-1$"
+       ns0:preamble="/home/waldgeist/data/sphinx/test.tex"
+       transform="matrix(2.5424095,0,0,2.5424095,-282.25511,216.0681)"
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#008000;stroke-width:1.17998302;stroke-opacity:1"
+       id="g116332-5">
+      <defs
+         id="defs116334-0">
+        <g
+           id="g116336-7">
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="textext-4bf252cf-0-5">
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:none"
+               d="m 6.5625,-2.296875 c 0.171875,0 0.359375,0 0.359375,-0.203125 0,-0.1875 -0.1875,-0.1875 -0.359375,-0.1875 l -5.390625,0 c -0.171875,0 -0.34375,0 -0.34375,0.1875 0,0.203125 0.171875,0.203125 0.34375,0.203125 z m 0,0"
+               id="path116339-4" />
+          </symbol>
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="textext-4bf252cf-1-4">
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:none"
+               d="m 2.9375,-6.375 c 0,-0.25 0,-0.265625 -0.234375,-0.265625 C 2.078125,-6 1.203125,-6 0.890625,-6 l 0,0.3125 c 0.203125,0 0.78125,0 1.296875,-0.265625 l 0,5.171875 c 0,0.359375 -0.03125,0.46875 -0.921875,0.46875 l -0.3125,0 0,0.3125 c 0.34375,-0.03125 1.203125,-0.03125 1.609375,-0.03125 0.390625,0 1.265625,0 1.609375,0.03125 l 0,-0.3125 -0.3125,0 c -0.90625,0 -0.921875,-0.109375 -0.921875,-0.46875 z m 0,0"
+               id="path116342-7" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="textext-4bf252cf-2-2"
+         style="fill:#4d4d4d">
+        <g
+           style="fill:#4d4d4d;fill-opacity:1"
+           id="g116345-5">
+          <use
+             height="1052.3622"
+             width="744.09448"
+             xlink:href="#textext-4bf252cf-0-5"
+             x="223.43201"
+             y="134.765"
+             id="use116347-1"
+             style="fill:#4d4d4d" />
+        </g>
+        <g
+           style="fill:#4d4d4d;fill-opacity:1"
+           id="g116349-1">
+          <use
+             height="1052.3622"
+             width="744.09448"
+             xlink:href="#textext-4bf252cf-1-4"
+             x="231.181"
+             y="134.765"
+             id="use116351-8"
+             style="fill:#4d4d4d" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g117225-0"
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#008000;stroke-width:1.17998302;stroke-opacity:1"
+       transform="matrix(2.5424095,0,0,2.5424095,-342.04841,216.0681)"
+       ns0:preamble="/home/waldgeist/data/sphinx/test.tex"
+       ns0:text="$-2$">
+      <defs
+         id="defs117227-2">
+        <g
+           id="g117229-5">
+          <symbol
+             id="textext-b9504100-0-0"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path117232-4"
+               d="m 6.5625,-2.296875 c 0.171875,0 0.359375,0 0.359375,-0.203125 0,-0.1875 -0.1875,-0.1875 -0.359375,-0.1875 l -5.390625,0 c -0.171875,0 -0.34375,0 -0.34375,0.1875 0,0.203125 0.171875,0.203125 0.34375,0.203125 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+          <symbol
+             id="textext-b9504100-1-5"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path117235-2"
+               d="m 1.265625,-0.765625 1.0625,-1.03125 c 1.546875,-1.375 2.140625,-1.90625 2.140625,-2.90625 0,-1.140625 -0.890625,-1.9375 -2.109375,-1.9375 -1.125,0 -1.859375,0.921875 -1.859375,1.8125 0,0.546875 0.5,0.546875 0.53125,0.546875 0.171875,0 0.515625,-0.109375 0.515625,-0.53125 0,-0.25 -0.1875,-0.515625 -0.53125,-0.515625 -0.078125,0 -0.09375,0 -0.125,0.015625 0.21875,-0.65625 0.765625,-1.015625 1.34375,-1.015625 0.90625,0 1.328125,0.8125 1.328125,1.625 C 3.5625,-3.90625 3.078125,-3.125 2.515625,-2.5 l -1.90625,2.125 C 0.5,-0.265625 0.5,-0.234375 0.5,0 l 3.703125,0 0.265625,-1.734375 -0.234375,0 C 4.171875,-1.4375 4.109375,-1 4,-0.84375 3.9375,-0.765625 3.28125,-0.765625 3.0625,-0.765625 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="textext-b9504100-2-8"
+         style="fill:#4d4d4d">
+        <g
+           id="g117238-5"
+           style="fill:#4d4d4d;fill-opacity:1">
+          <use
+             id="use117240-7"
+             y="134.765"
+             x="223.43201"
+             xlink:href="#textext-b9504100-0-0"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#4d4d4d" />
+        </g>
+        <g
+           id="g117242-1"
+           style="fill:#4d4d4d;fill-opacity:1">
+          <use
+             id="use117244-7"
+             y="134.765"
+             x="231.181"
+             xlink:href="#textext-b9504100-1-5"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#4d4d4d" />
+        </g>
+      </g>
+    </g>
+    <g
+       ns0:text="$-3$"
+       ns0:preamble="/home/waldgeist/data/sphinx/test.tex"
+       transform="matrix(2.5424095,0,0,2.5424095,-401.35855,215.79002)"
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#008000;stroke-width:1.17998302;stroke-opacity:1"
+       id="g118142-0">
+      <defs
+         id="defs118144-1">
+        <g
+           id="g118146-0">
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="textext-210fbe4d-0-4">
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:none"
+               d="m 6.5625,-2.296875 c 0.171875,0 0.359375,0 0.359375,-0.203125 0,-0.1875 -0.1875,-0.1875 -0.359375,-0.1875 l -5.390625,0 c -0.171875,0 -0.34375,0 -0.34375,0.1875 0,0.203125 0.171875,0.203125 0.34375,0.203125 z m 0,0"
+               id="path118149-6" />
+          </symbol>
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="textext-210fbe4d-1-6">
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:none"
+               d="m 2.890625,-3.515625 c 0.8125,-0.265625 1.390625,-0.953125 1.390625,-1.75 0,-0.8125 -0.875,-1.375 -1.828125,-1.375 -1,0 -1.765625,0.59375 -1.765625,1.359375 0,0.328125 0.21875,0.515625 0.515625,0.515625 0.296875,0 0.5,-0.21875 0.5,-0.515625 0,-0.484375 -0.46875,-0.484375 -0.609375,-0.484375 0.296875,-0.5 0.953125,-0.625 1.3125,-0.625 0.421875,0 0.96875,0.21875 0.96875,1.109375 0,0.125 -0.03125,0.703125 -0.28125,1.140625 C 2.796875,-3.65625 2.453125,-3.625 2.203125,-3.625 2.125,-3.609375 1.890625,-3.59375 1.8125,-3.59375 c -0.078125,0.015625 -0.140625,0.03125 -0.140625,0.125 0,0.109375 0.0625,0.109375 0.234375,0.109375 l 0.4375,0 c 0.8125,0 1.1875,0.671875 1.1875,1.65625 0,1.359375 -0.6875,1.640625 -1.125,1.640625 -0.4375,0 -1.1875,-0.171875 -1.53125,-0.75 0.34375,0.046875 0.65625,-0.171875 0.65625,-0.546875 0,-0.359375 -0.265625,-0.5625 -0.546875,-0.5625 -0.25,0 -0.5625,0.140625 -0.5625,0.578125 0,0.90625 0.921875,1.5625 2.015625,1.5625 1.21875,0 2.125,-0.90625 2.125,-1.921875 0,-0.8125 -0.640625,-1.59375 -1.671875,-1.8125 z m 0,0"
+               id="path118152-2" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="textext-210fbe4d-2-1"
+         style="fill:#4d4d4d">
+        <g
+           style="fill:#4d4d4d;fill-opacity:1"
+           id="g118155-6">
+          <use
+             height="1052.3622"
+             width="744.09448"
+             xlink:href="#textext-210fbe4d-0-4"
+             x="223.43201"
+             y="134.765"
+             id="use118157-9"
+             style="fill:#4d4d4d" />
+        </g>
+        <g
+           style="fill:#4d4d4d;fill-opacity:1"
+           id="g118159-8">
+          <use
+             height="1052.3622"
+             width="744.09448"
+             xlink:href="#textext-210fbe4d-1-6"
+             x="231.181"
+             y="134.765"
+             id="use118161-0"
+             style="fill:#4d4d4d" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g119083-5"
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#008000;stroke-width:1.17998302;stroke-opacity:1"
+       transform="matrix(2.5424095,0,0,2.5424095,-463.44696,216.20714)"
+       ns0:preamble="/home/waldgeist/data/sphinx/test.tex"
+       ns0:text="$-4$">
+      <defs
+         id="defs119085-5">
+        <g
+           id="g119087-4">
+          <symbol
+             style="overflow:visible"
+             id="textext-c9f54360-0-0"
+             overflow="visible">
+            <path
+               inkscape:connector-curvature="0"
+               id="path119090-6"
+               d="m 6.5625,-2.296875 c 0.171875,0 0.359375,0 0.359375,-0.203125 0,-0.1875 -0.1875,-0.1875 -0.359375,-0.1875 l -5.390625,0 c -0.171875,0 -0.34375,0 -0.34375,0.1875 0,0.203125 0.171875,0.203125 0.34375,0.203125 z m 0,0"
+               style="stroke:none" />
+          </symbol>
+          <symbol
+             style="overflow:visible"
+             id="textext-c9f54360-1-5"
+             overflow="visible">
+            <path
+               inkscape:connector-curvature="0"
+               id="path119093-0"
+               d="m 2.9375,-1.640625 0,0.859375 c 0,0.359375 -0.03125,0.46875 -0.765625,0.46875 l -0.203125,0 0,0.3125 C 2.375,-0.03125 2.890625,-0.03125 3.3125,-0.03125 c 0.421875,0 0.9375,0 1.359375,0.03125 l 0,-0.3125 -0.21875,0 c -0.734375,0 -0.75,-0.109375 -0.75,-0.46875 l 0,-0.859375 0.984375,0 0,-0.3125 -0.984375,0 0,-4.53125 c 0,-0.203125 0,-0.265625 -0.171875,-0.265625 -0.078125,0 -0.109375,0 -0.1875,0.125 l -3.0625,4.671875 0,0.3125 z m 0.046875,-0.3125 -2.421875,0 2.421875,-3.71875 z m 0,0"
+               style="stroke:none" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="textext-c9f54360-2-6"
+         style="fill:#4d4d4d">
+        <g
+           id="g119096-8"
+           style="fill:#4d4d4d;fill-opacity:1">
+          <use
+             height="1052.3622"
+             width="744.09448"
+             id="use119098-8"
+             y="134.765"
+             x="223.43201"
+             xlink:href="#textext-c9f54360-0-0"
+             style="fill:#4d4d4d" />
+        </g>
+        <g
+           id="g119100-7"
+           style="fill:#4d4d4d;fill-opacity:1">
+          <use
+             height="1052.3622"
+             width="744.09448"
+             id="use119102-4"
+             y="134.765"
+             x="231.181"
+             xlink:href="#textext-c9f54360-1-5"
+             style="fill:#4d4d4d" />
+        </g>
+      </g>
+    </g>
+    <g
+       ns0:text="$-5$"
+       ns0:preamble="/home/waldgeist/data/sphinx/test.tex"
+       transform="matrix(2.5424095,0,0,2.5424095,-520.94517,215.79002)"
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#008000;stroke-width:1.17998302;stroke-opacity:1"
+       id="g120048-3">
+      <defs
+         id="defs120050-1">
+        <g
+           id="g120052-5">
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="textext-6d73c468-0-0">
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:none"
+               d="m 6.5625,-2.296875 c 0.171875,0 0.359375,0 0.359375,-0.203125 0,-0.1875 -0.1875,-0.1875 -0.359375,-0.1875 l -5.390625,0 c -0.171875,0 -0.34375,0 -0.34375,0.1875 0,0.203125 0.171875,0.203125 0.34375,0.203125 z m 0,0"
+               id="path120055-8" />
+          </symbol>
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="textext-6d73c468-1-8">
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:none"
+               d="m 4.46875,-2 c 0,-1.1875 -0.8125,-2.1875 -1.890625,-2.1875 -0.46875,0 -0.90625,0.15625 -1.265625,0.515625 l 0,-1.953125 c 0.203125,0.0625 0.53125,0.125 0.84375,0.125 1.234375,0 1.9375,-0.90625 1.9375,-1.03125 0,-0.0625 -0.03125,-0.109375 -0.109375,-0.109375 0,0 -0.03125,0 -0.078125,0.03125 C 3.703125,-6.515625 3.21875,-6.3125 2.546875,-6.3125 2.15625,-6.3125 1.6875,-6.390625 1.21875,-6.59375 1.140625,-6.625 1.125,-6.625 1.109375,-6.625 1,-6.625 1,-6.546875 1,-6.390625 L 1,-3.4375 c 0,0.171875 0,0.25 0.140625,0.25 0.078125,0 0.09375,-0.015625 0.140625,-0.078125 C 1.390625,-3.421875 1.75,-3.96875 2.5625,-3.96875 c 0.515625,0 0.765625,0.453125 0.84375,0.640625 0.15625,0.375 0.1875,0.75 0.1875,1.25 0,0.359375 0,0.953125 -0.25,1.375 C 3.109375,-0.3125 2.734375,-0.0625 2.28125,-0.0625 c -0.71875,0 -1.296875,-0.53125 -1.46875,-1.109375 0.03125,0 0.0625,0.015625 0.171875,0.015625 0.328125,0 0.5,-0.25 0.5,-0.484375 0,-0.25 -0.171875,-0.5 -0.5,-0.5 C 0.84375,-2.140625 0.5,-2.0625 0.5,-1.609375 0.5,-0.75 1.1875,0.21875 2.296875,0.21875 3.453125,0.21875 4.46875,-0.734375 4.46875,-2 z m 0,0"
+               id="path120058-7" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="textext-6d73c468-2-0"
+         style="fill:#4d4d4d">
+        <g
+           style="fill:#4d4d4d;fill-opacity:1"
+           id="g120061-9">
+          <use
+             height="1052.3622"
+             width="744.09448"
+             xlink:href="#textext-6d73c468-0-0"
+             x="223.43201"
+             y="134.765"
+             id="use120063-0"
+             style="fill:#4d4d4d" />
+        </g>
+        <g
+           style="fill:#4d4d4d;fill-opacity:1"
+           id="g120065-7">
+          <use
+             height="1052.3622"
+             width="744.09448"
+             xlink:href="#textext-6d73c468-1-8"
+             x="231.181"
+             y="134.765"
+             id="use120067-7"
+             style="fill:#4d4d4d" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g121029-6"
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#008000;stroke-width:1.17998302;stroke-opacity:1"
+       transform="matrix(2.5424095,0,0,2.5424095,-82.823286,216.0681)"
+       ns0:preamble="/home/waldgeist/data/sphinx/test.tex"
+       ns0:text="$2$">
+      <defs
+         id="defs121031-9">
+        <g
+           id="g121033-0">
+          <symbol
+             style="overflow:visible"
+             id="textext-0326437a-0-2"
+             overflow="visible">
+            <path
+               inkscape:connector-curvature="0"
+               id="path121036-0"
+               d="m 1.265625,-0.765625 1.0625,-1.03125 c 1.546875,-1.375 2.140625,-1.90625 2.140625,-2.90625 0,-1.140625 -0.890625,-1.9375 -2.109375,-1.9375 -1.125,0 -1.859375,0.921875 -1.859375,1.8125 0,0.546875 0.5,0.546875 0.53125,0.546875 0.171875,0 0.515625,-0.109375 0.515625,-0.53125 0,-0.25 -0.1875,-0.515625 -0.53125,-0.515625 -0.078125,0 -0.09375,0 -0.125,0.015625 0.21875,-0.65625 0.765625,-1.015625 1.34375,-1.015625 0.90625,0 1.328125,0.8125 1.328125,1.625 C 3.5625,-3.90625 3.078125,-3.125 2.515625,-2.5 l -1.90625,2.125 C 0.5,-0.265625 0.5,-0.234375 0.5,0 l 3.703125,0 0.265625,-1.734375 -0.234375,0 C 4.171875,-1.4375 4.109375,-1 4,-0.84375 3.9375,-0.765625 3.28125,-0.765625 3.0625,-0.765625 z m 0,0"
+               style="stroke:none" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="textext-0326437a-1-9"
+         style="fill:#4d4d4d">
+        <g
+           id="g121039-4"
+           style="fill:#4d4d4d;fill-opacity:1">
+          <use
+             id="use121041-5"
+             y="134.765"
+             x="223.43201"
+             xlink:href="#textext-0326437a-0-2"
+             transform="translate(-0.01876777,0)"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#4d4d4d" />
+        </g>
+      </g>
+    </g>
+    <g
+       inkscape:transform-center-y="-2.1573181"
+       inkscape:transform-center-x="2.5068723"
+       ns0:text="$3$"
+       ns0:preamble="/home/waldgeist/data/sphinx/test.tex"
+       transform="matrix(2.5424095,0,0,2.5424095,-23.573555,215.79002)"
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#008000;stroke-width:1.17998302;stroke-opacity:1"
+       id="g122019-4">
+      <defs
+         id="defs122021-8">
+        <g
+           id="g122023-7">
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="textext-778dbb2e-0-1">
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:none"
+               d="m 2.890625,-3.515625 c 0.8125,-0.265625 1.390625,-0.953125 1.390625,-1.75 0,-0.8125 -0.875,-1.375 -1.828125,-1.375 -1,0 -1.765625,0.59375 -1.765625,1.359375 0,0.328125 0.21875,0.515625 0.515625,0.515625 0.296875,0 0.5,-0.21875 0.5,-0.515625 0,-0.484375 -0.46875,-0.484375 -0.609375,-0.484375 0.296875,-0.5 0.953125,-0.625 1.3125,-0.625 0.421875,0 0.96875,0.21875 0.96875,1.109375 0,0.125 -0.03125,0.703125 -0.28125,1.140625 C 2.796875,-3.65625 2.453125,-3.625 2.203125,-3.625 2.125,-3.609375 1.890625,-3.59375 1.8125,-3.59375 c -0.078125,0.015625 -0.140625,0.03125 -0.140625,0.125 0,0.109375 0.0625,0.109375 0.234375,0.109375 l 0.4375,0 c 0.8125,0 1.1875,0.671875 1.1875,1.65625 0,1.359375 -0.6875,1.640625 -1.125,1.640625 -0.4375,0 -1.1875,-0.171875 -1.53125,-0.75 0.34375,0.046875 0.65625,-0.171875 0.65625,-0.546875 0,-0.359375 -0.265625,-0.5625 -0.546875,-0.5625 -0.25,0 -0.5625,0.140625 -0.5625,0.578125 0,0.90625 0.921875,1.5625 2.015625,1.5625 1.21875,0 2.125,-0.90625 2.125,-1.921875 0,-0.8125 -0.640625,-1.59375 -1.671875,-1.8125 z m 0,0"
+               id="path122026-6" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="textext-778dbb2e-1-8"
+         style="fill:#4d4d4d">
+        <g
+           style="fill:#4d4d4d;fill-opacity:1"
+           id="g122029-9">
+          <use
+             height="1052.3622"
+             width="744.09448"
+             xlink:href="#textext-778dbb2e-0-1"
+             x="223.43201"
+             y="134.765"
+             id="use122031-6"
+             style="fill:#4d4d4d" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g123352-8"
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#008000;stroke-width:1.17998302;stroke-opacity:1"
+       transform="matrix(2.5424095,0,0,2.5424095,34.528627,216.20714)"
+       ns0:preamble="/home/waldgeist/data/sphinx/test.tex"
+       ns0:text="$4$">
+      <defs
+         id="defs123354-6">
+        <g
+           id="g123356-2">
+          <symbol
+             id="textext-03a28c8e-0-1"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path123359-7"
+               d="m 2.9375,-1.640625 0,0.859375 c 0,0.359375 -0.03125,0.46875 -0.765625,0.46875 l -0.203125,0 0,0.3125 C 2.375,-0.03125 2.890625,-0.03125 3.3125,-0.03125 c 0.421875,0 0.9375,0 1.359375,0.03125 l 0,-0.3125 -0.21875,0 c -0.734375,0 -0.75,-0.109375 -0.75,-0.46875 l 0,-0.859375 0.984375,0 0,-0.3125 -0.984375,0 0,-4.53125 c 0,-0.203125 0,-0.265625 -0.171875,-0.265625 -0.078125,0 -0.109375,0 -0.1875,0.125 l -3.0625,4.671875 0,0.3125 z m 0.046875,-0.3125 -2.421875,0 2.421875,-3.71875 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="textext-03a28c8e-1-7"
+         style="fill:#4d4d4d">
+        <g
+           id="g123362-1"
+           style="fill:#4d4d4d;fill-opacity:1">
+          <use
+             id="use123364-7"
+             y="134.765"
+             x="223.43201"
+             xlink:href="#textext-03a28c8e-0-1"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#4d4d4d" />
+        </g>
+      </g>
+    </g>
+    <g
+       ns0:text="$5$"
+       ns0:preamble="/home/waldgeist/data/sphinx/test.tex"
+       transform="matrix(2.5424095,0,0,2.5424095,96.496236,215.79002)"
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#008000;stroke-width:1.17998302;stroke-opacity:1"
+       id="g124360-6">
+      <defs
+         id="defs124362-1">
+        <g
+           id="g124364-0">
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="textext-ef0d65cc-0-7">
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:none"
+               d="m 4.46875,-2 c 0,-1.1875 -0.8125,-2.1875 -1.890625,-2.1875 -0.46875,0 -0.90625,0.15625 -1.265625,0.515625 l 0,-1.953125 c 0.203125,0.0625 0.53125,0.125 0.84375,0.125 1.234375,0 1.9375,-0.90625 1.9375,-1.03125 0,-0.0625 -0.03125,-0.109375 -0.109375,-0.109375 0,0 -0.03125,0 -0.078125,0.03125 C 3.703125,-6.515625 3.21875,-6.3125 2.546875,-6.3125 2.15625,-6.3125 1.6875,-6.390625 1.21875,-6.59375 1.140625,-6.625 1.125,-6.625 1.109375,-6.625 1,-6.625 1,-6.546875 1,-6.390625 L 1,-3.4375 c 0,0.171875 0,0.25 0.140625,0.25 0.078125,0 0.09375,-0.015625 0.140625,-0.078125 C 1.390625,-3.421875 1.75,-3.96875 2.5625,-3.96875 c 0.515625,0 0.765625,0.453125 0.84375,0.640625 0.15625,0.375 0.1875,0.75 0.1875,1.25 0,0.359375 0,0.953125 -0.25,1.375 C 3.109375,-0.3125 2.734375,-0.0625 2.28125,-0.0625 c -0.71875,0 -1.296875,-0.53125 -1.46875,-1.109375 0.03125,0 0.0625,0.015625 0.171875,0.015625 0.328125,0 0.5,-0.25 0.5,-0.484375 0,-0.25 -0.171875,-0.5 -0.5,-0.5 C 0.84375,-2.140625 0.5,-2.0625 0.5,-1.609375 0.5,-0.75 1.1875,0.21875 2.296875,0.21875 3.453125,0.21875 4.46875,-0.734375 4.46875,-2 z m 0,0"
+               id="path124367-3" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="textext-ef0d65cc-1-7"
+         style="fill:#4d4d4d">
+        <g
+           style="fill:#4d4d4d;fill-opacity:1"
+           id="g124370-5">
+          <use
+             height="1052.3622"
+             width="744.09448"
+             xlink:href="#textext-ef0d65cc-0-7"
+             x="223.43201"
+             y="134.765"
+             id="use124372-9"
+             style="fill:#4d4d4d" />
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     inkscape:export-ydpi="150"
+     inkscape:export-xdpi="150"
+     inkscape:export-filename="/home/waldgeist/sandbox/homepage/pics/mathematik/analysis/funktion-injektiv-exponential.png"
+     id="g127787-8"
+     transform="translate(-0.65103696,0.24313898)"
+     style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-opacity:1">
+    <g
+       id="g124872-5"
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.17998302;stroke-opacity:1"
+       transform="matrix(2.5424095,0,0,2.5424095,-244.09569,251.83296)"
+       ns0:preamble="/home/waldgeist/data/sphinx/test.tex"
+       ns0:text="$-1$">
+      <defs
+         id="defs124874-3">
+        <g
+           id="g124876-8">
+          <symbol
+             id="symbol124878-4"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path124880-7"
+               d="m 6.5625,-2.296875 c 0.171875,0 0.359375,0 0.359375,-0.203125 0,-0.1875 -0.1875,-0.1875 -0.359375,-0.1875 l -5.390625,0 c -0.171875,0 -0.34375,0 -0.34375,0.1875 0,0.203125 0.171875,0.203125 0.34375,0.203125 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+          <symbol
+             id="symbol124882-3"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path124884-1"
+               d="m 2.9375,-6.375 c 0,-0.25 0,-0.265625 -0.234375,-0.265625 C 2.078125,-6 1.203125,-6 0.890625,-6 l 0,0.3125 c 0.203125,0 0.78125,0 1.296875,-0.265625 l 0,5.171875 c 0,0.359375 -0.03125,0.46875 -0.921875,0.46875 l -0.3125,0 0,0.3125 c 0.34375,-0.03125 1.203125,-0.03125 1.609375,-0.03125 0.390625,0 1.265625,0 1.609375,0.03125 l 0,-0.3125 -0.3125,0 c -0.90625,0 -0.921875,-0.109375 -0.921875,-0.46875 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="g124886-7"
+         style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-opacity:1">
+        <g
+           id="g124888-2"
+           style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-opacity:1">
+          <use
+             id="use124890-2"
+             y="134.765"
+             x="223.43201"
+             xlink:href="#textext-4bf252cf-0-5"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-opacity:1" />
+        </g>
+        <g
+           id="g124892-5"
+           style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-opacity:1">
+          <use
+             id="use124894-2"
+             y="134.765"
+             x="231.181"
+             xlink:href="#textext-4bf252cf-1-4"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-opacity:1" />
+        </g>
+      </g>
+    </g>
+    <g
+       ns0:text="$-2$"
+       ns0:preamble="/home/waldgeist/data/sphinx/test.tex"
+       transform="matrix(2.5424095,0,0,2.5424095,-244.85047,311.6147)"
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.17998302;stroke-opacity:1"
+       id="g124896-1">
+      <defs
+         id="defs124898-1">
+        <g
+           id="g124900-0">
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="symbol124902-0">
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:none"
+               d="m 6.5625,-2.296875 c 0.171875,0 0.359375,0 0.359375,-0.203125 0,-0.1875 -0.1875,-0.1875 -0.359375,-0.1875 l -5.390625,0 c -0.171875,0 -0.34375,0 -0.34375,0.1875 0,0.203125 0.171875,0.203125 0.34375,0.203125 z m 0,0"
+               id="path124904-4" />
+          </symbol>
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="symbol124906-3">
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:none"
+               d="m 1.265625,-0.765625 1.0625,-1.03125 c 1.546875,-1.375 2.140625,-1.90625 2.140625,-2.90625 0,-1.140625 -0.890625,-1.9375 -2.109375,-1.9375 -1.125,0 -1.859375,0.921875 -1.859375,1.8125 0,0.546875 0.5,0.546875 0.53125,0.546875 0.171875,0 0.515625,-0.109375 0.515625,-0.53125 0,-0.25 -0.1875,-0.515625 -0.53125,-0.515625 -0.078125,0 -0.09375,0 -0.125,0.015625 0.21875,-0.65625 0.765625,-1.015625 1.34375,-1.015625 0.90625,0 1.328125,0.8125 1.328125,1.625 C 3.5625,-3.90625 3.078125,-3.125 2.515625,-2.5 l -1.90625,2.125 C 0.5,-0.265625 0.5,-0.234375 0.5,0 l 3.703125,0 0.265625,-1.734375 -0.234375,0 C 4.171875,-1.4375 4.109375,-1 4,-0.84375 3.9375,-0.765625 3.28125,-0.765625 3.0625,-0.765625 z m 0,0"
+               id="path124908-9" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="g124910-1"
+         style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-opacity:1">
+        <g
+           style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-opacity:1"
+           id="g124912-7">
+          <use
+             height="1052.3622"
+             width="744.09448"
+             xlink:href="#textext-b9504100-0-0"
+             x="223.43201"
+             y="134.765"
+             id="use124914-9"
+             style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-opacity:1" />
+        </g>
+        <g
+           style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-opacity:1"
+           id="g124916-9">
+          <use
+             height="1052.3622"
+             width="744.09448"
+             xlink:href="#textext-b9504100-1-5"
+             x="231.181"
+             y="134.765"
+             id="use124918-8"
+             style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-opacity:1" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g124920-1"
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.17998302;stroke-opacity:1"
+       transform="matrix(2.5424095,0,0,2.5424095,-245.08882,371.11836)"
+       ns0:preamble="/home/waldgeist/data/sphinx/test.tex"
+       ns0:text="$-3$">
+      <defs
+         id="defs124922-7">
+        <g
+           id="g124924-1">
+          <symbol
+             id="symbol124926-8"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path124928-4"
+               d="m 6.5625,-2.296875 c 0.171875,0 0.359375,0 0.359375,-0.203125 0,-0.1875 -0.1875,-0.1875 -0.359375,-0.1875 l -5.390625,0 c -0.171875,0 -0.34375,0 -0.34375,0.1875 0,0.203125 0.171875,0.203125 0.34375,0.203125 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+          <symbol
+             id="symbol124930-2"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path124932-6"
+               d="m 2.890625,-3.515625 c 0.8125,-0.265625 1.390625,-0.953125 1.390625,-1.75 0,-0.8125 -0.875,-1.375 -1.828125,-1.375 -1,0 -1.765625,0.59375 -1.765625,1.359375 0,0.328125 0.21875,0.515625 0.515625,0.515625 0.296875,0 0.5,-0.21875 0.5,-0.515625 0,-0.484375 -0.46875,-0.484375 -0.609375,-0.484375 0.296875,-0.5 0.953125,-0.625 1.3125,-0.625 0.421875,0 0.96875,0.21875 0.96875,1.109375 0,0.125 -0.03125,0.703125 -0.28125,1.140625 C 2.796875,-3.65625 2.453125,-3.625 2.203125,-3.625 2.125,-3.609375 1.890625,-3.59375 1.8125,-3.59375 c -0.078125,0.015625 -0.140625,0.03125 -0.140625,0.125 0,0.109375 0.0625,0.109375 0.234375,0.109375 l 0.4375,0 c 0.8125,0 1.1875,0.671875 1.1875,1.65625 0,1.359375 -0.6875,1.640625 -1.125,1.640625 -0.4375,0 -1.1875,-0.171875 -1.53125,-0.75 0.34375,0.046875 0.65625,-0.171875 0.65625,-0.546875 0,-0.359375 -0.265625,-0.5625 -0.546875,-0.5625 -0.25,0 -0.5625,0.140625 -0.5625,0.578125 0,0.90625 0.921875,1.5625 2.015625,1.5625 1.21875,0 2.125,-0.90625 2.125,-1.921875 0,-0.8125 -0.640625,-1.59375 -1.671875,-1.8125 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="g124934-1"
+         style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-opacity:1">
+        <g
+           id="g124936-5"
+           style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-opacity:1">
+          <use
+             id="use124938-6"
+             y="134.765"
+             x="223.43201"
+             xlink:href="#textext-210fbe4d-0-4"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-opacity:1" />
+        </g>
+        <g
+           id="g124940-8"
+           style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-opacity:1">
+          <use
+             id="use124942-4"
+             y="134.765"
+             x="231.181"
+             xlink:href="#textext-210fbe4d-1-6"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-opacity:1" />
+        </g>
+      </g>
+    </g>
+    <g
+       ns0:text="$-4$"
+       ns0:preamble="/home/waldgeist/data/sphinx/test.tex"
+       transform="matrix(2.5424095,0,0,2.5424095,-245.40662,431.31718)"
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.17998302;stroke-opacity:1"
+       id="g124944-1">
+      <defs
+         id="defs124946-9">
+        <g
+           id="g124948-3">
+          <symbol
+             overflow="visible"
+             id="symbol124950-3"
+             style="overflow:visible">
+            <path
+               style="stroke:none"
+               d="m 6.5625,-2.296875 c 0.171875,0 0.359375,0 0.359375,-0.203125 0,-0.1875 -0.1875,-0.1875 -0.359375,-0.1875 l -5.390625,0 c -0.171875,0 -0.34375,0 -0.34375,0.1875 0,0.203125 0.171875,0.203125 0.34375,0.203125 z m 0,0"
+               id="path124952-3"
+               inkscape:connector-curvature="0" />
+          </symbol>
+          <symbol
+             overflow="visible"
+             id="symbol124954-9"
+             style="overflow:visible">
+            <path
+               style="stroke:none"
+               d="m 2.9375,-1.640625 0,0.859375 c 0,0.359375 -0.03125,0.46875 -0.765625,0.46875 l -0.203125,0 0,0.3125 C 2.375,-0.03125 2.890625,-0.03125 3.3125,-0.03125 c 0.421875,0 0.9375,0 1.359375,0.03125 l 0,-0.3125 -0.21875,0 c -0.734375,0 -0.75,-0.109375 -0.75,-0.46875 l 0,-0.859375 0.984375,0 0,-0.3125 -0.984375,0 0,-4.53125 c 0,-0.203125 0,-0.265625 -0.171875,-0.265625 -0.078125,0 -0.109375,0 -0.1875,0.125 l -3.0625,4.671875 0,0.3125 z m 0.046875,-0.3125 -2.421875,0 2.421875,-3.71875 z m 0,0"
+               id="path124956-6"
+               inkscape:connector-curvature="0" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="g124958-6"
+         style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-opacity:1">
+        <g
+           style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-opacity:1"
+           id="g124960-0">
+          <use
+             xlink:href="#textext-c9f54360-0-0"
+             x="223.43201"
+             y="134.765"
+             id="use124962"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-opacity:1" />
+        </g>
+        <g
+           style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-opacity:1"
+           id="g124964-8">
+          <use
+             xlink:href="#textext-c9f54360-1-5"
+             x="231.181"
+             y="134.765"
+             id="use124966"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-opacity:1" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g124968-6"
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.17998302;stroke-opacity:1"
+       transform="matrix(2.5424095,0,0,2.5424095,-244.85047,490.6818)"
+       ns0:preamble="/home/waldgeist/data/sphinx/test.tex"
+       ns0:text="$-5$">
+      <defs
+         id="defs124970-4">
+        <g
+           id="g124972-2">
+          <symbol
+             id="symbol124974-8"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path124976-8"
+               d="m 6.5625,-2.296875 c 0.171875,0 0.359375,0 0.359375,-0.203125 0,-0.1875 -0.1875,-0.1875 -0.359375,-0.1875 l -5.390625,0 c -0.171875,0 -0.34375,0 -0.34375,0.1875 0,0.203125 0.171875,0.203125 0.34375,0.203125 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+          <symbol
+             id="symbol124978-9"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path124980-7"
+               d="m 4.46875,-2 c 0,-1.1875 -0.8125,-2.1875 -1.890625,-2.1875 -0.46875,0 -0.90625,0.15625 -1.265625,0.515625 l 0,-1.953125 c 0.203125,0.0625 0.53125,0.125 0.84375,0.125 1.234375,0 1.9375,-0.90625 1.9375,-1.03125 0,-0.0625 -0.03125,-0.109375 -0.109375,-0.109375 0,0 -0.03125,0 -0.078125,0.03125 C 3.703125,-6.515625 3.21875,-6.3125 2.546875,-6.3125 2.15625,-6.3125 1.6875,-6.390625 1.21875,-6.59375 1.140625,-6.625 1.125,-6.625 1.109375,-6.625 1,-6.625 1,-6.546875 1,-6.390625 L 1,-3.4375 c 0,0.171875 0,0.25 0.140625,0.25 0.078125,0 0.09375,-0.015625 0.140625,-0.078125 C 1.390625,-3.421875 1.75,-3.96875 2.5625,-3.96875 c 0.515625,0 0.765625,0.453125 0.84375,0.640625 0.15625,0.375 0.1875,0.75 0.1875,1.25 0,0.359375 0,0.953125 -0.25,1.375 C 3.109375,-0.3125 2.734375,-0.0625 2.28125,-0.0625 c -0.71875,0 -1.296875,-0.53125 -1.46875,-1.109375 0.03125,0 0.0625,0.015625 0.171875,0.015625 0.328125,0 0.5,-0.25 0.5,-0.484375 0,-0.25 -0.171875,-0.5 -0.5,-0.5 C 0.84375,-2.140625 0.5,-2.0625 0.5,-1.609375 0.5,-0.75 1.1875,0.21875 2.296875,0.21875 3.453125,0.21875 4.46875,-0.734375 4.46875,-2 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="g124982-9"
+         style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-opacity:1">
+        <g
+           id="g124984-9"
+           style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-opacity:1">
+          <use
+             id="use124986"
+             y="134.765"
+             x="223.43201"
+             xlink:href="#textext-6d73c468-0-0"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-opacity:1" />
+        </g>
+        <g
+           id="g124988-8"
+           style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-opacity:1">
+          <use
+             id="use124990"
+             y="134.765"
+             x="231.181"
+             xlink:href="#textext-6d73c468-1-8"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-opacity:1" />
+        </g>
+      </g>
+    </g>
+    <g
+       ns0:text="$1$"
+       ns0:preamble="/home/waldgeist/data/sphinx/test.tex"
+       transform="matrix(2.5424095,0,0,2.5424095,-224.39458,132.26952)"
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.17998302;stroke-opacity:1"
+       id="g124992-8">
+      <defs
+         id="defs124994-2">
+        <g
+           id="g124996-8">
+          <symbol
+             overflow="visible"
+             id="symbol124998-2"
+             style="overflow:visible">
+            <path
+               style="stroke:none"
+               d="m 2.9375,-6.375 c 0,-0.25 0,-0.265625 -0.234375,-0.265625 C 2.078125,-6 1.203125,-6 0.890625,-6 l 0,0.3125 c 0.203125,0 0.78125,0 1.296875,-0.265625 l 0,5.171875 c 0,0.359375 -0.03125,0.46875 -0.921875,0.46875 l -0.3125,0 0,0.3125 c 0.34375,-0.03125 1.203125,-0.03125 1.609375,-0.03125 0.390625,0 1.265625,0 1.609375,0.03125 l 0,-0.3125 -0.3125,0 c -0.90625,0 -0.921875,-0.109375 -0.921875,-0.46875 z m 0,0"
+               id="path125000-4"
+               inkscape:connector-curvature="0" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="g125002-4"
+         style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-opacity:1">
+        <g
+           style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-opacity:1"
+           id="g125004-4">
+          <use
+             xlink:href="#textext-89e3f83c-0-3"
+             x="223.43201"
+             y="134.765"
+             id="use125006-1"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-opacity:1" />
+        </g>
+      </g>
+    </g>
+    <g
+       ns0:text="$2$"
+       ns0:preamble="/home/waldgeist/data/sphinx/test.tex"
+       transform="matrix(2.5424095,0,0,2.5424095,-225.10164,72.080986)"
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.17998302;stroke-opacity:1"
+       id="g125008-0">
+      <defs
+         id="defs125010-4">
+        <g
+           id="g125012-5">
+          <symbol
+             overflow="visible"
+             id="symbol125014-1"
+             style="overflow:visible">
+            <path
+               style="stroke:none"
+               d="m 1.265625,-0.765625 1.0625,-1.03125 c 1.546875,-1.375 2.140625,-1.90625 2.140625,-2.90625 0,-1.140625 -0.890625,-1.9375 -2.109375,-1.9375 -1.125,0 -1.859375,0.921875 -1.859375,1.8125 0,0.546875 0.5,0.546875 0.53125,0.546875 0.171875,0 0.515625,-0.109375 0.515625,-0.53125 0,-0.25 -0.1875,-0.515625 -0.53125,-0.515625 -0.078125,0 -0.09375,0 -0.125,0.015625 0.21875,-0.65625 0.765625,-1.015625 1.34375,-1.015625 0.90625,0 1.328125,0.8125 1.328125,1.625 C 3.5625,-3.90625 3.078125,-3.125 2.515625,-2.5 l -1.90625,2.125 C 0.5,-0.265625 0.5,-0.234375 0.5,0 l 3.703125,0 0.265625,-1.734375 -0.234375,0 C 4.171875,-1.4375 4.109375,-1 4,-0.84375 3.9375,-0.765625 3.28125,-0.765625 3.0625,-0.765625 z m 0,0"
+               id="path125016-3"
+               inkscape:connector-curvature="0" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="g125018-8"
+         style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-opacity:1">
+        <g
+           style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-opacity:1"
+           id="g125020-6">
+          <use
+             height="1052.3622"
+             width="744.09448"
+             transform="translate(-0.01876777,0.16000705)"
+             xlink:href="#textext-0326437a-0-2"
+             x="223.43201"
+             y="134.765"
+             id="use125022-6"
+             style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-opacity:1" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g125024-7"
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.17998302;stroke-opacity:1"
+       transform="matrix(2.5424095,0,0,2.5424095,-225.38771,12.427985)"
+       ns0:preamble="/home/waldgeist/data/sphinx/test.tex"
+       ns0:text="$3$"
+       inkscape:transform-center-x="2.5068723"
+       inkscape:transform-center-y="-2.1573181">
+      <defs
+         id="defs125026-4">
+        <g
+           id="g125028-2">
+          <symbol
+             id="symbol125030-0"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path125032-3"
+               d="m 2.890625,-3.515625 c 0.8125,-0.265625 1.390625,-0.953125 1.390625,-1.75 0,-0.8125 -0.875,-1.375 -1.828125,-1.375 -1,0 -1.765625,0.59375 -1.765625,1.359375 0,0.328125 0.21875,0.515625 0.515625,0.515625 0.296875,0 0.5,-0.21875 0.5,-0.515625 0,-0.484375 -0.46875,-0.484375 -0.609375,-0.484375 0.296875,-0.5 0.953125,-0.625 1.3125,-0.625 0.421875,0 0.96875,0.21875 0.96875,1.109375 0,0.125 -0.03125,0.703125 -0.28125,1.140625 C 2.796875,-3.65625 2.453125,-3.625 2.203125,-3.625 2.125,-3.609375 1.890625,-3.59375 1.8125,-3.59375 c -0.078125,0.015625 -0.140625,0.03125 -0.140625,0.125 0,0.109375 0.0625,0.109375 0.234375,0.109375 l 0.4375,0 c 0.8125,0 1.1875,0.671875 1.1875,1.65625 0,1.359375 -0.6875,1.640625 -1.125,1.640625 -0.4375,0 -1.1875,-0.171875 -1.53125,-0.75 0.34375,0.046875 0.65625,-0.171875 0.65625,-0.546875 0,-0.359375 -0.265625,-0.5625 -0.546875,-0.5625 -0.25,0 -0.5625,0.140625 -0.5625,0.578125 0,0.90625 0.921875,1.5625 2.015625,1.5625 1.21875,0 2.125,-0.90625 2.125,-1.921875 0,-0.8125 -0.640625,-1.59375 -1.671875,-1.8125 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="g125034-1"
+         style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-opacity:1">
+        <g
+           id="g125036-6"
+           style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-opacity:1">
+          <use
+             id="use125038-5"
+             y="134.765"
+             x="223.43201"
+             xlink:href="#textext-778dbb2e-0-1"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-opacity:1" />
+        </g>
+      </g>
+    </g>
+    <g
+       ns0:text="$4$"
+       ns0:preamble="/home/waldgeist/data/sphinx/test.tex"
+       transform="matrix(2.5424095,0,0,2.5424095,-225.70551,-46.936629)"
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.17998302;stroke-opacity:1"
+       id="g125040-9">
+      <defs
+         id="defs125042-4">
+        <g
+           id="g125044-4">
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="symbol125046-8">
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:none"
+               d="m 2.9375,-1.640625 0,0.859375 c 0,0.359375 -0.03125,0.46875 -0.765625,0.46875 l -0.203125,0 0,0.3125 C 2.375,-0.03125 2.890625,-0.03125 3.3125,-0.03125 c 0.421875,0 0.9375,0 1.359375,0.03125 l 0,-0.3125 -0.21875,0 c -0.734375,0 -0.75,-0.109375 -0.75,-0.46875 l 0,-0.859375 0.984375,0 0,-0.3125 -0.984375,0 0,-4.53125 c 0,-0.203125 0,-0.265625 -0.171875,-0.265625 -0.078125,0 -0.109375,0 -0.1875,0.125 l -3.0625,4.671875 0,0.3125 z m 0.046875,-0.3125 -2.421875,0 2.421875,-3.71875 z m 0,0"
+               id="path125048-4" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="g125050-5"
+         style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-opacity:1">
+        <g
+           style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-opacity:1"
+           id="g125052-6">
+          <use
+             height="1052.3622"
+             width="744.09448"
+             xlink:href="#textext-03a28c8e-0-1"
+             x="223.43201"
+             y="134.765"
+             id="use125054"
+             style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-opacity:1" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g125056-2"
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.17998302;stroke-opacity:1"
+       transform="matrix(2.5424095,0,0,2.5424095,-225.14936,-107.13547)"
+       ns0:preamble="/home/waldgeist/data/sphinx/test.tex"
+       ns0:text="$5$">
+      <defs
+         id="defs125058-7">
+        <g
+           id="g125060-6">
+          <symbol
+             id="symbol125062-7"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path125064-1"
+               d="m 4.46875,-2 c 0,-1.1875 -0.8125,-2.1875 -1.890625,-2.1875 -0.46875,0 -0.90625,0.15625 -1.265625,0.515625 l 0,-1.953125 c 0.203125,0.0625 0.53125,0.125 0.84375,0.125 1.234375,0 1.9375,-0.90625 1.9375,-1.03125 0,-0.0625 -0.03125,-0.109375 -0.109375,-0.109375 0,0 -0.03125,0 -0.078125,0.03125 C 3.703125,-6.515625 3.21875,-6.3125 2.546875,-6.3125 2.15625,-6.3125 1.6875,-6.390625 1.21875,-6.59375 1.140625,-6.625 1.125,-6.625 1.109375,-6.625 1,-6.625 1,-6.546875 1,-6.390625 L 1,-3.4375 c 0,0.171875 0,0.25 0.140625,0.25 0.078125,0 0.09375,-0.015625 0.140625,-0.078125 C 1.390625,-3.421875 1.75,-3.96875 2.5625,-3.96875 c 0.515625,0 0.765625,0.453125 0.84375,0.640625 0.15625,0.375 0.1875,0.75 0.1875,1.25 0,0.359375 0,0.953125 -0.25,1.375 C 3.109375,-0.3125 2.734375,-0.0625 2.28125,-0.0625 c -0.71875,0 -1.296875,-0.53125 -1.46875,-1.109375 0.03125,0 0.0625,0.015625 0.171875,0.015625 0.328125,0 0.5,-0.25 0.5,-0.484375 0,-0.25 -0.171875,-0.5 -0.5,-0.5 C 0.84375,-2.140625 0.5,-2.0625 0.5,-1.609375 0.5,-0.75 1.1875,0.21875 2.296875,0.21875 3.453125,0.21875 4.46875,-0.734375 4.46875,-2 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="g125066-0"
+         style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-opacity:1">
+        <g
+           id="g125068-3"
+           style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-opacity:1">
+          <use
+             id="use125070"
+             y="134.765"
+             x="223.43201"
+             xlink:href="#textext-ef0d65cc-0-7"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-opacity:1" />
+        </g>
+      </g>
+    </g>
+  </g>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:3.00000024;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#TriangleOutM)"
+     d="m 371.22893,871.87697 0,-686.21402"
+     id="path6785"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc"
+     inkscape:export-filename="/home/waldgeist/sandbox/homepage/pics/mathematik/analysis/funktion-injektiv-exponential.png"
+     inkscape:export-xdpi="150"
+     inkscape:export-ydpi="150" />
+  <path
+     inkscape:export-ydpi="150"
+     inkscape:export-xdpi="150"
+     inkscape:export-filename="/home/waldgeist/sandbox/homepage/pics/mathematik/analysis/funktion-injektiv-exponential.png"
+     inkscape:connector-curvature="0"
+     id="path109837"
+     d="m 72.195344,615.93013 597.817266,0"
+     style="fill:none;stroke:#666666;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3, 6;stroke-dashoffset:0" />
+  <path
+     style="fill:none;stroke:#666666;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3, 6;stroke-dashoffset:0"
+     d="m 72.195344,747.4804 597.817266,0"
+     id="path6805"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="/home/waldgeist/sandbox/homepage/pics/mathematik/analysis/funktion-injektiv-exponential.png"
+     inkscape:export-xdpi="150"
+     inkscape:export-ydpi="150" />
+  <path
+     inkscape:export-ydpi="150"
+     inkscape:export-xdpi="150"
+     inkscape:export-filename="/home/waldgeist/sandbox/homepage/pics/mathematik/analysis/funktion-injektiv-exponential.png"
+     inkscape:connector-curvature="0"
+     id="path6807"
+     d="m 72.195344,436.54338 597.817266,0"
+     style="fill:none;stroke:#666666;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3, 6;stroke-dashoffset:0" />
+  <path
+     style="fill:none;stroke:#666666;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3, 6;stroke-dashoffset:0"
+     d="m 72.195344,328.91134 597.817266,0"
+     id="path6809"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="/home/waldgeist/sandbox/homepage/pics/mathematik/analysis/funktion-injektiv-exponential.png"
+     inkscape:export-xdpi="150"
+     inkscape:export-ydpi="150" />
+  <g
+     inkscape:export-ydpi="150"
+     inkscape:export-xdpi="150"
+     inkscape:export-filename="/home/waldgeist/sandbox/homepage/pics/mathematik/analysis/funktion-injektiv-exponential.png"
+     transform="translate(-3.816777,4.1937291)"
+     id="g61433"
+     style="stroke:#008000;stroke-opacity:1">
+    <g
+       id="g61429"
+       style="stroke:#008000;stroke-opacity:1">
+      <path
+         style="fill:none;stroke:#008000;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 374.99003,462.24745 c 35.87734,-31.82776 95.67293,-71.7547 137.52983,-239.18233"
+         id="path61402"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path61427"
+         d="M 374.99004,462.24744 C 332.12053,498.52536 246.00335,517.42538 75.601377,518.27843"
+         style="fill:none;stroke:#008000;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+  </g>
+  <g
+     id="g9261"
+     style="fill:#008000;fill-opacity:1;stroke:#008000;stroke-width:1.17998302000000010;stroke-opacity:1"
+     transform="matrix(2.5424095,0,0,2.5424095,-56.515776,-64.753296)"
+     ns0:preamble=""
+     ns0:text="$y =  2^x$"
+     inkscape:export-filename="/home/waldgeist/sandbox/homepage/pics/mathematik/analysis/funktion-injektiv-exponential.png"
+     inkscape:export-xdpi="150"
+     inkscape:export-ydpi="150">
+    <defs
+       id="defs9263">
+      <g
+         id="g9265">
+        <symbol
+           id="textext-caf6a709-0"
+           overflow="visible">
+          <path
+             id="path9268"
+             d=""
+             style="stroke:none;" />
+        </symbol>
+        <symbol
+           id="textext-caf6a709-1"
+           overflow="visible">
+          <path
+             id="path9271"
+             d="M 4.84375 -3.796875 C 4.890625 -3.9375 4.890625 -3.953125 4.890625 -4.03125 C 4.890625 -4.203125 4.75 -4.296875 4.59375 -4.296875 C 4.5 -4.296875 4.34375 -4.234375 4.25 -4.09375 C 4.234375 -4.03125 4.140625 -3.734375 4.109375 -3.546875 C 4.03125 -3.296875 3.96875 -3.015625 3.90625 -2.75 L 3.453125 -0.953125 C 3.421875 -0.8125 2.984375 -0.109375 2.328125 -0.109375 C 1.828125 -0.109375 1.71875 -0.546875 1.71875 -0.921875 C 1.71875 -1.375 1.890625 -2 2.21875 -2.875 C 2.375 -3.28125 2.421875 -3.390625 2.421875 -3.59375 C 2.421875 -4.03125 2.109375 -4.40625 1.609375 -4.40625 C 0.65625 -4.40625 0.296875 -2.953125 0.296875 -2.875 C 0.296875 -2.765625 0.390625 -2.765625 0.40625 -2.765625 C 0.515625 -2.765625 0.515625 -2.796875 0.5625 -2.953125 C 0.84375 -3.890625 1.234375 -4.1875 1.578125 -4.1875 C 1.65625 -4.1875 1.828125 -4.1875 1.828125 -3.875 C 1.828125 -3.625 1.71875 -3.359375 1.65625 -3.171875 C 1.25 -2.109375 1.078125 -1.546875 1.078125 -1.078125 C 1.078125 -0.1875 1.703125 0.109375 2.296875 0.109375 C 2.6875 0.109375 3.015625 -0.0625 3.296875 -0.34375 C 3.171875 0.171875 3.046875 0.671875 2.65625 1.203125 C 2.390625 1.53125 2.015625 1.828125 1.5625 1.828125 C 1.421875 1.828125 0.96875 1.796875 0.796875 1.40625 C 0.953125 1.40625 1.09375 1.40625 1.21875 1.28125 C 1.328125 1.203125 1.421875 1.0625 1.421875 0.875 C 1.421875 0.5625 1.15625 0.53125 1.0625 0.53125 C 0.828125 0.53125 0.5 0.6875 0.5 1.171875 C 0.5 1.671875 0.9375 2.046875 1.5625 2.046875 C 2.578125 2.046875 3.609375 1.140625 3.890625 0.015625 Z "
+             style="stroke:none;" />
+        </symbol>
+        <symbol
+           id="textext-caf6a709-2"
+           overflow="visible">
+          <path
+             id="path9274"
+             d=""
+             style="stroke:none;" />
+        </symbol>
+        <symbol
+           id="textext-caf6a709-3"
+           overflow="visible">
+          <path
+             id="path9277"
+             d="M 6.84375 -3.265625 C 7 -3.265625 7.1875 -3.265625 7.1875 -3.453125 C 7.1875 -3.65625 7 -3.65625 6.859375 -3.65625 L 0.890625 -3.65625 C 0.75 -3.65625 0.5625 -3.65625 0.5625 -3.453125 C 0.5625 -3.265625 0.75 -3.265625 0.890625 -3.265625 Z M 6.859375 -1.328125 C 7 -1.328125 7.1875 -1.328125 7.1875 -1.53125 C 7.1875 -1.71875 7 -1.71875 6.84375 -1.71875 L 0.890625 -1.71875 C 0.75 -1.71875 0.5625 -1.71875 0.5625 -1.53125 C 0.5625 -1.328125 0.75 -1.328125 0.890625 -1.328125 Z "
+             style="stroke:none;" />
+        </symbol>
+        <symbol
+           id="textext-caf6a709-4"
+           overflow="visible">
+          <path
+             id="path9280"
+             d="M 1.265625 -0.765625 L 2.328125 -1.796875 C 3.875 -3.171875 4.46875 -3.703125 4.46875 -4.703125 C 4.46875 -5.84375 3.578125 -6.640625 2.359375 -6.640625 C 1.234375 -6.640625 0.5 -5.71875 0.5 -4.828125 C 0.5 -4.28125 1 -4.28125 1.03125 -4.28125 C 1.203125 -4.28125 1.546875 -4.390625 1.546875 -4.8125 C 1.546875 -5.0625 1.359375 -5.328125 1.015625 -5.328125 C 0.9375 -5.328125 0.921875 -5.328125 0.890625 -5.3125 C 1.109375 -5.96875 1.65625 -6.328125 2.234375 -6.328125 C 3.140625 -6.328125 3.5625 -5.515625 3.5625 -4.703125 C 3.5625 -3.90625 3.078125 -3.125 2.515625 -2.5 L 0.609375 -0.375 C 0.5 -0.265625 0.5 -0.234375 0.5 0 L 4.203125 0 L 4.46875 -1.734375 L 4.234375 -1.734375 C 4.171875 -1.4375 4.109375 -1 4 -0.84375 C 3.9375 -0.765625 3.28125 -0.765625 3.0625 -0.765625 Z "
+             style="stroke:none;" />
+        </symbol>
+        <symbol
+           id="textext-caf6a709-5"
+           overflow="visible">
+          <path
+             id="path9283"
+             d=""
+             style="stroke:none;" />
+        </symbol>
+        <symbol
+           id="textext-caf6a709-6"
+           overflow="visible">
+          <path
+             id="path9286"
+             d="M 1.734375 -0.734375 C 1.671875 -0.5 1.4375 -0.125 1.078125 -0.125 C 1.0625 -0.125 0.84375 -0.125 0.703125 -0.21875 C 0.984375 -0.3125 1.015625 -0.5625 1.015625 -0.609375 C 1.015625 -0.765625 0.890625 -0.859375 0.734375 -0.859375 C 0.53125 -0.859375 0.328125 -0.703125 0.328125 -0.4375 C 0.328125 -0.09375 0.71875 0.0625 1.0625 0.0625 C 1.390625 0.0625 1.671875 -0.125 1.84375 -0.421875 C 2.015625 -0.0625 2.390625 0.0625 2.671875 0.0625 C 3.484375 0.0625 3.90625 -0.796875 3.90625 -1 C 3.90625 -1.09375 3.8125 -1.09375 3.796875 -1.09375 C 3.6875 -1.09375 3.6875 -1.046875 3.65625 -0.96875 C 3.515625 -0.484375 3.09375 -0.125 2.703125 -0.125 C 2.421875 -0.125 2.28125 -0.3125 2.28125 -0.578125 C 2.28125 -0.765625 2.453125 -1.390625 2.640625 -2.171875 C 2.78125 -2.703125 3.09375 -2.875 3.328125 -2.875 C 3.34375 -2.875 3.546875 -2.875 3.703125 -2.78125 C 3.484375 -2.71875 3.390625 -2.515625 3.390625 -2.390625 C 3.390625 -2.25 3.515625 -2.140625 3.671875 -2.140625 C 3.828125 -2.140625 4.0625 -2.265625 4.0625 -2.5625 C 4.0625 -2.953125 3.609375 -3.078125 3.34375 -3.078125 C 2.984375 -3.078125 2.703125 -2.84375 2.5625 -2.578125 C 2.4375 -2.859375 2.109375 -3.078125 1.71875 -3.078125 C 0.9375 -3.078125 0.5 -2.21875 0.5 -2 C 0.5 -1.921875 0.59375 -1.921875 0.609375 -1.921875 C 0.703125 -1.921875 0.703125 -1.9375 0.75 -2.03125 C 0.921875 -2.578125 1.359375 -2.875 1.703125 -2.875 C 1.9375 -2.875 2.125 -2.75 2.125 -2.421875 C 2.125 -2.28125 2.03125 -1.9375 1.96875 -1.6875 Z "
+             style="stroke:none;" />
+        </symbol>
+      </g>
+    </defs>
+    <g
+       id="textext-caf6a709-7"
+       style="fill:#008000">
+      <g
+         id="g9289"
+         style="fill:#008000;fill-opacity:1">
+        <use
+           id="use9291"
+           y="134.765"
+           x="223.432"
+           xlink:href="#textext-caf6a709-1"
+           style="fill:#008000" />
+      </g>
+      <g
+         id="g9293"
+         style="fill:#008000;fill-opacity:1">
+        <use
+           id="use9295"
+           y="134.765"
+           x="231.441"
+           xlink:href="#textext-caf6a709-3"
+           style="fill:#008000" />
+      </g>
+      <g
+         id="g9297"
+         style="fill:#008000;fill-opacity:1">
+        <use
+           id="use9299"
+           y="134.765"
+           x="241.959513"
+           xlink:href="#textext-caf6a709-4"
+           style="fill:#008000" />
+      </g>
+      <g
+         id="g9301"
+         style="fill:#008000;fill-opacity:1">
+        <use
+           id="use9303"
+           y="131.15"
+           x="246.939"
+           xlink:href="#textext-caf6a709-6"
+           style="fill:#008000" />
+      </g>
+    </g>
+  </g>
+</svg>

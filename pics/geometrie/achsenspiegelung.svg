@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:ns0="http://www.iki.fi/pav/software/textext/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="achsenspiegelung.svg"
+   inkscape:version="0.48.4 r9939"
+   version="1.1"
+   id="svg2"
+   height="744.09448"
+   width="1052.3622">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.52773438"
+     inkscape:cx="417.33825"
+     inkscape:cy="449.06216"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1600"
+     inkscape:window-height="1150"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:snap-global="true"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     inkscape:object-paths="true"
+     inkscape:object-nodes="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-center="true">
+    <sodipodi:guide
+       orientation="1,0"
+       position="526.18109,372.04724"
+       id="guide9093" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="526.18109,372.04724"
+       id="guide9095" />
+  </sodipodi:namedview>
+  <title
+     id="title11851">Punktspiegelung</title>
+  <defs
+     id="defs4">
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Mend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path6925" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Punktspiegelung</dc:title>
+        <dc:date>2014-08-23</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Bernhard Grotz</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Bernhard Grotz</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Bernhard Grotz</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:language>de-DE</dc:language>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>Mathematik</rdf:li>
+            <rdf:li>Geometrie</rdf:li>
+            <rdf:li>Planimetrie</rdf:li>
+            <rdf:li>Kongruenz</rdf:li>
+            <rdf:li>Punktspiegelung</rdf:li>
+            <rdf:li>Zentrische Sterckung</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:prohibits
+           rdf:resource="http://creativecommons.org/ns#CommercialUse" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1"
+     transform="translate(0,-308.2677)">
+    <g
+       ns0:text="$b$"
+       ns0:preamble="/home/waldgeist/data/sphinx/test.tex"
+       transform="matrix(7.4449455,0,0,7.4449455,-1139.9653,-447.43445)"
+       id="g3817">
+      <defs
+         id="defs3819">
+        <g
+           id="g3821">
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="textext-7eb8a748-0">
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:none"
+               d="m 2.375,-6.8125 c 0,0 0,-0.109375 -0.125,-0.109375 -0.21875,0 -0.953125,0.078125 -1.21875,0.109375 -0.078125,0 -0.1875,0.015625 -0.1875,0.1875 0,0.125 0.09375,0.125 0.25,0.125 0.46875,0 0.484375,0.0625 0.484375,0.171875 0,0.0625 -0.078125,0.40625 -0.125,0.609375 l -0.828125,3.25 c -0.109375,0.5 -0.15625,0.671875 -0.15625,1.015625 0,0.9375 0.53125,1.5625 1.265625,1.5625 1.171875,0 2.40625,-1.484375 2.40625,-2.921875 0,-0.90625 -0.53125,-1.59375 -1.328125,-1.59375 -0.453125,0 -0.875,0.296875 -1.171875,0.59375 z M 1.453125,-3.046875 C 1.5,-3.265625 1.5,-3.28125 1.59375,-3.390625 2.078125,-4.03125 2.53125,-4.1875 2.796875,-4.1875 c 0.359375,0 0.625,0.296875 0.625,0.9375 0,0.59375 -0.328125,1.734375 -0.515625,2.109375 -0.328125,0.671875 -0.78125,1.03125 -1.171875,1.03125 -0.34375,0 -0.671875,-0.265625 -0.671875,-1 0,-0.203125 0,-0.390625 0.15625,-1.015625 z m 0,0"
+               id="path3824" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="textext-7eb8a748-1">
+        <g
+           style="fill:#000000;fill-opacity:1"
+           id="g3827" />
+      </g>
+    </g>
+    <use
+       transform="matrix(3.4997807,0,0,3.4997807,-690.00194,115.42685)"
+       height="1052.3622"
+       width="744.09448"
+       xlink:href="#textext-28c1ecfe-0"
+       x="223.43201"
+       y="134.765"
+       id="use3030-8"
+       style="fill:#000000;fill-opacity:1" />
+    <use
+       transform="matrix(3.4997807,0,0,3.4997807,-200.5737,-112.9098)"
+       height="1052.3622"
+       width="744.09448"
+       xlink:href="#textext-28c1ecfe-0"
+       x="223.43201"
+       y="134.765"
+       id="use3030-8-7"
+       style="fill:#000000;fill-opacity:1" />
+    <use
+       transform="matrix(3.4997807,0,0,3.4997807,-200.5737,-112.9098)"
+       height="1052.3622"
+       width="744.09448"
+       xlink:href="#textext-28c1ecfe-0"
+       x="223.43201"
+       y="134.765"
+       id="use3030-8-3"
+       style="fill:#000000;fill-opacity:1" />
+    <rect
+       y="388.76929"
+       x="16.957045"
+       height="583.09131"
+       width="1026.7335"
+       id="rect3851"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/geometrie/achsenspiegelung.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       inkscape:transform-center-y="-0.053576217"
+       inkscape:transform-center-x="-14.83702"
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path9108"
+       d="m 782.70718,730.9139 -89.20783,51.48268 -0.37138,-206.57375 z"
+       style="fill:#f9f9f9;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/geometrie/achsenspiegelung.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <g
+       inkscape:export-ydpi="150"
+       inkscape:export-xdpi="150"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/geometrie/achsenspiegelung.png"
+       id="g8181"
+       transform="matrix(4.5876391,-2.4872967e-8,-5.3210436e-8,4.5690469,-802.74449,128.26585)"
+       ns0:preamble="/home/waldgeist/data/sphinx/inkscape-preamble.tex"
+       ns0:text="$\\rm{P_3\'}$">
+      <defs
+         id="defs8183">
+        <g
+           id="g8185">
+          <symbol
+             style="overflow:visible"
+             id="textext-56713a99-0"
+             overflow="visible">
+            <path
+               inkscape:connector-curvature="0"
+               id="path8188"
+               d=""
+               style="stroke:none" />
+          </symbol>
+          <symbol
+             style="overflow:visible"
+             id="textext-56713a99-1"
+             overflow="visible">
+            <path
+               inkscape:connector-curvature="0"
+               id="path8191"
+               d="m 2.265625,-3.15625 1.6875,0 c 1.1875,0 2.265625,-0.796875 2.265625,-1.796875 C 6.21875,-5.9375 5.234375,-6.8125 3.875,-6.8125 l -3.53125,0 0,0.3125 0.25,0 c 0.765625,0 0.78125,0.109375 0.78125,0.46875 l 0,5.25 c 0,0.359375 -0.015625,0.46875 -0.78125,0.46875 l -0.25,0 0,0.3125 c 0.359375,-0.03125 1.09375,-0.03125 1.46875,-0.03125 0.375,0 1.125,0 1.484375,0.03125 l 0,-0.3125 -0.25,0 c -0.765625,0 -0.78125,-0.109375 -0.78125,-0.46875 z m -0.03125,-0.25 0,-2.6875 C 2.234375,-6.4375 2.25,-6.5 2.71875,-6.5 l 0.890625,0 c 1.578125,0 1.578125,1.0625 1.578125,1.546875 0,0.46875 0,1.546875 -1.578125,1.546875 z m 0,0"
+               style="stroke:none" />
+          </symbol>
+          <symbol
+             style="overflow:visible"
+             id="textext-56713a99-2"
+             overflow="visible">
+            <path
+               inkscape:connector-curvature="0"
+               id="path8194"
+               d=""
+               style="stroke:none" />
+          </symbol>
+          <symbol
+             style="overflow:visible"
+             id="textext-56713a99-3"
+             overflow="visible">
+            <path
+               inkscape:connector-curvature="0"
+               id="path8197"
+               d="m 2.015625,-3.296875 c 0.0625,-0.109375 0.0625,-0.171875 0.0625,-0.21875 0,-0.21875 -0.1875,-0.375 -0.40625,-0.375 -0.265625,0 -0.34375,0.21875 -0.375,0.328125 L 0.375,-0.546875 c -0.015625,0.015625 -0.046875,0.09375 -0.046875,0.109375 0,0.078125 0.21875,0.15625 0.28125,0.15625 0.046875,0 0.046875,-0.015625 0.09375,-0.125 z m 0,0"
+               style="stroke:none" />
+          </symbol>
+          <symbol
+             style="overflow:visible"
+             id="textext-56713a99-4"
+             overflow="visible">
+            <path
+               inkscape:connector-curvature="0"
+               id="path8200"
+               d=""
+               style="stroke:none" />
+          </symbol>
+          <symbol
+             style="overflow:visible"
+             id="textext-56713a99-5"
+             overflow="visible">
+            <path
+               inkscape:connector-curvature="0"
+               id="path8203"
+               d="m 1.90625,-2.328125 c 0.546875,0 0.9375,0.375 0.9375,1.125 0,0.859375 -0.515625,1.125 -0.90625,1.125 -0.28125,0 -0.90625,-0.078125 -1.1875,-0.5 0.328125,0 0.40625,-0.234375 0.40625,-0.390625 0,-0.21875 -0.171875,-0.375 -0.390625,-0.375 -0.1875,0 -0.390625,0.125 -0.390625,0.40625 0,0.65625 0.71875,1.078125 1.5625,1.078125 0.96875,0 1.640625,-0.65625 1.640625,-1.34375 0,-0.546875 -0.4375,-1.09375 -1.203125,-1.25 0.71875,-0.265625 0.984375,-0.78125 0.984375,-1.21875 0,-0.546875 -0.625,-0.953125 -1.40625,-0.953125 -0.765625,0 -1.359375,0.375 -1.359375,0.9375 0,0.234375 0.15625,0.359375 0.359375,0.359375 0.21875,0 0.359375,-0.15625 0.359375,-0.34375 0,-0.203125 -0.140625,-0.359375 -0.359375,-0.375 0.25,-0.296875 0.71875,-0.375 0.984375,-0.375 0.3125,0 0.75,0.15625 0.75,0.75 0,0.296875 -0.09375,0.625 -0.28125,0.828125 -0.21875,0.265625 -0.421875,0.28125 -0.765625,0.3125 -0.171875,0.015625 -0.1875,0.015625 -0.21875,0.015625 -0.015625,0 -0.078125,0.015625 -0.078125,0.09375 0,0.09375 0.0625,0.09375 0.1875,0.09375 z m 0,0"
+               style="stroke:none" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="textext-56713a99-6">
+        <g
+           id="g8206"
+           style="fill:#000000;fill-opacity:1">
+          <use
+             height="744.09448"
+             width="1052.3622"
+             id="use8208"
+             y="134.765"
+             x="223.43201"
+             xlink:href="#textext-56713a99-1" />
+        </g>
+        <g
+           id="g8210"
+           style="fill:#000000;fill-opacity:1">
+          <use
+             height="744.09448"
+             width="1052.3622"
+             id="use8212"
+             y="131.149"
+             x="230.21201"
+             xlink:href="#textext-56713a99-3" />
+        </g>
+        <g
+           id="g8214"
+           style="fill:#000000;fill-opacity:1">
+          <use
+             height="744.09448"
+             width="1052.3622"
+             id="use8216"
+             y="137.237"
+             x="230.21201"
+             xlink:href="#textext-56713a99-5" />
+        </g>
+      </g>
+    </g>
+    <path
+       inkscape:export-ydpi="150"
+       inkscape:export-xdpi="150"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/geometrie/achsenspiegelung.png"
+       style="fill:#f9f9f9;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 268.41954,730.91391 89.20781,51.48267 0.37138,-206.57373 z"
+       id="path9103"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc"
+       inkscape:transform-center-x="212.35424"
+       inkscape:transform-center-y="-67.05648" />
+    <g
+       inkscape:export-ydpi="150"
+       inkscape:export-xdpi="150"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/geometrie/achsenspiegelung.png"
+       id="g4436"
+       transform="matrix(4.5690469,4.3382147e-8,-4.3382147e-8,4.5690469,-337.17687,-51.781248)"
+       ns0:preamble="/home/waldgeist/data/sphinx/inkscape-preamble.tex"
+       ns0:text="$\\rm{P_1}$">
+      <defs
+         id="defs4438">
+        <g
+           id="g4440">
+          <symbol
+             id="textext-e4d8dd63-0"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path4443"
+               d=""
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+          <symbol
+             id="textext-e4d8dd63-1"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path4446"
+               d="m 2.265625,-3.15625 1.6875,0 c 1.1875,0 2.265625,-0.796875 2.265625,-1.796875 C 6.21875,-5.9375 5.234375,-6.8125 3.875,-6.8125 l -3.53125,0 0,0.3125 0.25,0 c 0.765625,0 0.78125,0.109375 0.78125,0.46875 l 0,5.25 c 0,0.359375 -0.015625,0.46875 -0.78125,0.46875 l -0.25,0 0,0.3125 c 0.359375,-0.03125 1.09375,-0.03125 1.46875,-0.03125 0.375,0 1.125,0 1.484375,0.03125 l 0,-0.3125 -0.25,0 c -0.765625,0 -0.78125,-0.109375 -0.78125,-0.46875 z m -0.03125,-0.25 0,-2.6875 C 2.234375,-6.4375 2.25,-6.5 2.71875,-6.5 l 0.890625,0 c 1.578125,0 1.578125,1.0625 1.578125,1.546875 0,0.46875 0,1.546875 -1.578125,1.546875 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+          <symbol
+             id="textext-e4d8dd63-2"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path4449"
+               d=""
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+          <symbol
+             id="textext-e4d8dd63-3"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path4452"
+               d="m 2.328125,-4.4375 c 0,-0.1875 0,-0.1875 -0.203125,-0.1875 -0.453125,0.4375 -1.078125,0.4375 -1.359375,0.4375 l 0,0.25 c 0.15625,0 0.625,0 1,-0.1875 l 0,3.546875 c 0,0.234375 0,0.328125 -0.6875,0.328125 l -0.265625,0 0,0.25 c 0.125,0 0.984375,-0.03125 1.234375,-0.03125 0.21875,0 1.09375,0.03125 1.25,0.03125 l 0,-0.25 -0.265625,0 c -0.703125,0 -0.703125,-0.09375 -0.703125,-0.328125 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="textext-e4d8dd63-4">
+        <g
+           id="g4455"
+           style="fill:#000000;fill-opacity:1">
+          <use
+             id="use4457"
+             y="134.765"
+             x="223.43201"
+             xlink:href="#textext-e4d8dd63-1"
+             width="1052.3622"
+             height="744.09448" />
+        </g>
+        <g
+           id="g4459"
+           style="fill:#000000;fill-opacity:1">
+          <use
+             id="use4461"
+             y="136.259"
+             x="230.21201"
+             xlink:href="#textext-e4d8dd63-3"
+             width="1052.3622"
+             height="744.09448" />
+        </g>
+      </g>
+    </g>
+    <g
+       inkscape:export-ydpi="150"
+       inkscape:export-xdpi="150"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/geometrie/achsenspiegelung.png"
+       ns0:text="$\\rm{P_2}$"
+       ns0:preamble="/home/waldgeist/data/sphinx/inkscape-preamble.tex"
+       transform="matrix(4.5690469,4.3382147e-8,-4.3382147e-8,4.5690469,-342.08675,212.85635)"
+       id="g4693">
+      <defs
+         id="defs4695">
+        <g
+           id="g4697">
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="textext-06b69bbb-0">
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:none"
+               d=""
+               id="path4700" />
+          </symbol>
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="textext-06b69bbb-1">
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:none"
+               d="m 2.265625,-3.15625 1.6875,0 c 1.1875,0 2.265625,-0.796875 2.265625,-1.796875 C 6.21875,-5.9375 5.234375,-6.8125 3.875,-6.8125 l -3.53125,0 0,0.3125 0.25,0 c 0.765625,0 0.78125,0.109375 0.78125,0.46875 l 0,5.25 c 0,0.359375 -0.015625,0.46875 -0.78125,0.46875 l -0.25,0 0,0.3125 c 0.359375,-0.03125 1.09375,-0.03125 1.46875,-0.03125 0.375,0 1.125,0 1.484375,0.03125 l 0,-0.3125 -0.25,0 c -0.765625,0 -0.78125,-0.109375 -0.78125,-0.46875 z m -0.03125,-0.25 0,-2.6875 C 2.234375,-6.4375 2.25,-6.5 2.71875,-6.5 l 0.890625,0 c 1.578125,0 1.578125,1.0625 1.578125,1.546875 0,0.46875 0,1.546875 -1.578125,1.546875 z m 0,0"
+               id="path4703" />
+          </symbol>
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="textext-06b69bbb-2">
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:none"
+               d=""
+               id="path4706" />
+          </symbol>
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="textext-06b69bbb-3">
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:none"
+               d="m 3.515625,-1.265625 -0.234375,0 c -0.015625,0.15625 -0.09375,0.5625 -0.1875,0.625 -0.046875,0.046875 -0.578125,0.046875 -0.6875,0.046875 l -1.28125,0 c 0.734375,-0.640625 0.984375,-0.84375 1.390625,-1.171875 0.515625,-0.40625 1,-0.84375 1,-1.5 0,-0.84375 -0.734375,-1.359375 -1.625,-1.359375 -0.859375,0 -1.453125,0.609375 -1.453125,1.25 0,0.34375 0.296875,0.390625 0.375,0.390625 0.15625,0 0.359375,-0.125 0.359375,-0.375 0,-0.125 -0.046875,-0.375 -0.40625,-0.375 C 0.984375,-4.21875 1.453125,-4.375 1.78125,-4.375 c 0.703125,0 1.0625,0.546875 1.0625,1.109375 0,0.609375 -0.4375,1.078125 -0.65625,1.328125 L 0.515625,-0.265625 C 0.4375,-0.203125 0.4375,-0.1875 0.4375,0 l 2.875,0 z m 0,0"
+               id="path4709" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="textext-06b69bbb-4">
+        <g
+           style="fill:#000000;fill-opacity:1"
+           id="g4712">
+          <use
+             height="744.09448"
+             width="1052.3622"
+             xlink:href="#textext-06b69bbb-1"
+             x="223.43201"
+             y="134.765"
+             id="use4714" />
+        </g>
+        <g
+           style="fill:#000000;fill-opacity:1"
+           id="g4716">
+          <use
+             height="744.09448"
+             width="1052.3622"
+             xlink:href="#textext-06b69bbb-3"
+             x="230.21201"
+             y="136.259"
+             id="use4718" />
+        </g>
+      </g>
+    </g>
+    <g
+       inkscape:export-ydpi="150"
+       inkscape:export-xdpi="150"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/geometrie/achsenspiegelung.png"
+       id="g4962"
+       transform="matrix(4.5876391,-2.4872967e-8,-5.3210436e-8,4.5690469,-235.51344,132.73436)"
+       ns0:preamble="/home/waldgeist/data/sphinx/inkscape-preamble.tex"
+       ns0:text="$\\rm{P_3}$">
+      <defs
+         id="defs4964">
+        <g
+           id="g4966">
+          <symbol
+             id="textext-a149d7e4-0"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path4969"
+               d=""
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+          <symbol
+             id="textext-a149d7e4-1"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path4972"
+               d="m 2.265625,-3.15625 1.6875,0 c 1.1875,0 2.265625,-0.796875 2.265625,-1.796875 C 6.21875,-5.9375 5.234375,-6.8125 3.875,-6.8125 l -3.53125,0 0,0.3125 0.25,0 c 0.765625,0 0.78125,0.109375 0.78125,0.46875 l 0,5.25 c 0,0.359375 -0.015625,0.46875 -0.78125,0.46875 l -0.25,0 0,0.3125 c 0.359375,-0.03125 1.09375,-0.03125 1.46875,-0.03125 0.375,0 1.125,0 1.484375,0.03125 l 0,-0.3125 -0.25,0 c -0.765625,0 -0.78125,-0.109375 -0.78125,-0.46875 z m -0.03125,-0.25 0,-2.6875 C 2.234375,-6.4375 2.25,-6.5 2.71875,-6.5 l 0.890625,0 c 1.578125,0 1.578125,1.0625 1.578125,1.546875 0,0.46875 0,1.546875 -1.578125,1.546875 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+          <symbol
+             id="textext-a149d7e4-2"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path4975"
+               d=""
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+          <symbol
+             id="textext-a149d7e4-3"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path4978"
+               d="m 1.90625,-2.328125 c 0.546875,0 0.9375,0.375 0.9375,1.125 0,0.859375 -0.515625,1.125 -0.90625,1.125 -0.28125,0 -0.90625,-0.078125 -1.1875,-0.5 0.328125,0 0.40625,-0.234375 0.40625,-0.390625 0,-0.21875 -0.171875,-0.375 -0.390625,-0.375 -0.1875,0 -0.390625,0.125 -0.390625,0.40625 0,0.65625 0.71875,1.078125 1.5625,1.078125 0.96875,0 1.640625,-0.65625 1.640625,-1.34375 0,-0.546875 -0.4375,-1.09375 -1.203125,-1.25 0.71875,-0.265625 0.984375,-0.78125 0.984375,-1.21875 0,-0.546875 -0.625,-0.953125 -1.40625,-0.953125 -0.765625,0 -1.359375,0.375 -1.359375,0.9375 0,0.234375 0.15625,0.359375 0.359375,0.359375 0.21875,0 0.359375,-0.15625 0.359375,-0.34375 0,-0.203125 -0.140625,-0.359375 -0.359375,-0.375 0.25,-0.296875 0.71875,-0.375 0.984375,-0.375 0.3125,0 0.75,0.15625 0.75,0.75 0,0.296875 -0.09375,0.625 -0.28125,0.828125 -0.21875,0.265625 -0.421875,0.28125 -0.765625,0.3125 -0.171875,0.015625 -0.1875,0.015625 -0.21875,0.015625 -0.015625,0 -0.078125,0.015625 -0.078125,0.09375 0,0.09375 0.0625,0.09375 0.1875,0.09375 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="textext-a149d7e4-4">
+        <g
+           id="g4981"
+           style="fill:#000000;fill-opacity:1">
+          <use
+             id="use4983"
+             y="134.765"
+             x="223.43201"
+             xlink:href="#textext-a149d7e4-1"
+             width="1052.3622"
+             height="744.09448" />
+        </g>
+        <g
+           id="g4985"
+           style="fill:#000000;fill-opacity:1">
+          <use
+             id="use4987"
+             y="136.259"
+             x="230.21201"
+             xlink:href="#textext-a149d7e4-3"
+             width="1052.3622"
+             height="744.09448" />
+        </g>
+      </g>
+    </g>
+    <g
+       inkscape:export-ydpi="150"
+       inkscape:export-xdpi="150"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/geometrie/achsenspiegelung.png"
+       ns0:text="$\\rm{P_1\'}$"
+       ns0:preamble="/home/waldgeist/data/sphinx/inkscape-preamble.tex"
+       transform="matrix(4.5690469,4.3382147e-8,-4.3382147e-8,4.5690469,-680.89626,208.38784)"
+       id="g7886">
+      <defs
+         id="defs7888">
+        <g
+           id="g7890">
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="textext-05efe511-0">
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:none"
+               d=""
+               id="path7893" />
+          </symbol>
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="textext-05efe511-1">
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:none"
+               d="m 2.265625,-3.15625 1.6875,0 c 1.1875,0 2.265625,-0.796875 2.265625,-1.796875 C 6.21875,-5.9375 5.234375,-6.8125 3.875,-6.8125 l -3.53125,0 0,0.3125 0.25,0 c 0.765625,0 0.78125,0.109375 0.78125,0.46875 l 0,5.25 c 0,0.359375 -0.015625,0.46875 -0.78125,0.46875 l -0.25,0 0,0.3125 c 0.359375,-0.03125 1.09375,-0.03125 1.46875,-0.03125 0.375,0 1.125,0 1.484375,0.03125 l 0,-0.3125 -0.25,0 c -0.765625,0 -0.78125,-0.109375 -0.78125,-0.46875 z m -0.03125,-0.25 0,-2.6875 C 2.234375,-6.4375 2.25,-6.5 2.71875,-6.5 l 0.890625,0 c 1.578125,0 1.578125,1.0625 1.578125,1.546875 0,0.46875 0,1.546875 -1.578125,1.546875 z m 0,0"
+               id="path7896" />
+          </symbol>
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="textext-05efe511-2">
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:none"
+               d=""
+               id="path7899" />
+          </symbol>
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="textext-05efe511-3">
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:none"
+               d="m 2.015625,-3.296875 c 0.0625,-0.109375 0.0625,-0.171875 0.0625,-0.21875 0,-0.21875 -0.1875,-0.375 -0.40625,-0.375 -0.265625,0 -0.34375,0.21875 -0.375,0.328125 L 0.375,-0.546875 c -0.015625,0.015625 -0.046875,0.09375 -0.046875,0.109375 0,0.078125 0.21875,0.15625 0.28125,0.15625 0.046875,0 0.046875,-0.015625 0.09375,-0.125 z m 0,0"
+               id="path7902" />
+          </symbol>
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="textext-05efe511-4">
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:none"
+               d=""
+               id="path7905" />
+          </symbol>
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="textext-05efe511-5">
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:none"
+               d="m 2.328125,-4.4375 c 0,-0.1875 0,-0.1875 -0.203125,-0.1875 -0.453125,0.4375 -1.078125,0.4375 -1.359375,0.4375 l 0,0.25 c 0.15625,0 0.625,0 1,-0.1875 l 0,3.546875 c 0,0.234375 0,0.328125 -0.6875,0.328125 l -0.265625,0 0,0.25 c 0.125,0 0.984375,-0.03125 1.234375,-0.03125 0.21875,0 1.09375,0.03125 1.25,0.03125 l 0,-0.25 -0.265625,0 c -0.703125,0 -0.703125,-0.09375 -0.703125,-0.328125 z m 0,0"
+               id="path7908" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="textext-05efe511-6">
+        <g
+           style="fill:#000000;fill-opacity:1"
+           id="g7911">
+          <use
+             height="744.09448"
+             width="1052.3622"
+             xlink:href="#textext-05efe511-1"
+             x="223.43201"
+             y="134.765"
+             id="use7913" />
+        </g>
+        <g
+           style="fill:#000000;fill-opacity:1"
+           id="g7915">
+          <use
+             height="744.09448"
+             width="1052.3622"
+             xlink:href="#textext-05efe511-3"
+             x="230.21201"
+             y="131.149"
+             id="use7917" />
+        </g>
+        <g
+           style="fill:#000000;fill-opacity:1"
+           id="g7919">
+          <use
+             height="744.09448"
+             width="1052.3622"
+             xlink:href="#textext-05efe511-5"
+             x="230.21201"
+             y="137.237"
+             id="use7921" />
+        </g>
+      </g>
+    </g>
+    <g
+       inkscape:export-ydpi="150"
+       inkscape:export-xdpi="150"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/geometrie/achsenspiegelung.png"
+       ns0:text="$\\rm{P_2\'}$"
+       ns0:preamble="/home/waldgeist/data/sphinx/inkscape-preamble.tex"
+       transform="matrix(4.5690469,4.3382147e-8,-4.3382147e-8,4.5690469,-680.21947,-56.249758)"
+       id="g8520">
+      <defs
+         id="defs8522">
+        <g
+           id="g8524">
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="textext-14a508b0-0">
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:none"
+               d=""
+               id="path8527" />
+          </symbol>
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="textext-14a508b0-1">
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:none"
+               d="m 2.265625,-3.15625 1.6875,0 c 1.1875,0 2.265625,-0.796875 2.265625,-1.796875 C 6.21875,-5.9375 5.234375,-6.8125 3.875,-6.8125 l -3.53125,0 0,0.3125 0.25,0 c 0.765625,0 0.78125,0.109375 0.78125,0.46875 l 0,5.25 c 0,0.359375 -0.015625,0.46875 -0.78125,0.46875 l -0.25,0 0,0.3125 c 0.359375,-0.03125 1.09375,-0.03125 1.46875,-0.03125 0.375,0 1.125,0 1.484375,0.03125 l 0,-0.3125 -0.25,0 c -0.765625,0 -0.78125,-0.109375 -0.78125,-0.46875 z m -0.03125,-0.25 0,-2.6875 C 2.234375,-6.4375 2.25,-6.5 2.71875,-6.5 l 0.890625,0 c 1.578125,0 1.578125,1.0625 1.578125,1.546875 0,0.46875 0,1.546875 -1.578125,1.546875 z m 0,0"
+               id="path8530" />
+          </symbol>
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="textext-14a508b0-2">
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:none"
+               d=""
+               id="path8533" />
+          </symbol>
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="textext-14a508b0-3">
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:none"
+               d="m 2.015625,-3.296875 c 0.0625,-0.109375 0.0625,-0.171875 0.0625,-0.21875 0,-0.21875 -0.1875,-0.375 -0.40625,-0.375 -0.265625,0 -0.34375,0.21875 -0.375,0.328125 L 0.375,-0.546875 c -0.015625,0.015625 -0.046875,0.09375 -0.046875,0.109375 0,0.078125 0.21875,0.15625 0.28125,0.15625 0.046875,0 0.046875,-0.015625 0.09375,-0.125 z m 0,0"
+               id="path8536" />
+          </symbol>
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="textext-14a508b0-4">
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:none"
+               d=""
+               id="path8539" />
+          </symbol>
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="textext-14a508b0-5">
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:none"
+               d="m 3.515625,-1.265625 -0.234375,0 c -0.015625,0.15625 -0.09375,0.5625 -0.1875,0.625 -0.046875,0.046875 -0.578125,0.046875 -0.6875,0.046875 l -1.28125,0 c 0.734375,-0.640625 0.984375,-0.84375 1.390625,-1.171875 0.515625,-0.40625 1,-0.84375 1,-1.5 0,-0.84375 -0.734375,-1.359375 -1.625,-1.359375 -0.859375,0 -1.453125,0.609375 -1.453125,1.25 0,0.34375 0.296875,0.390625 0.375,0.390625 0.15625,0 0.359375,-0.125 0.359375,-0.375 0,-0.125 -0.046875,-0.375 -0.40625,-0.375 C 0.984375,-4.21875 1.453125,-4.375 1.78125,-4.375 c 0.703125,0 1.0625,0.546875 1.0625,1.109375 0,0.609375 -0.4375,1.078125 -0.65625,1.328125 L 0.515625,-0.265625 C 0.4375,-0.203125 0.4375,-0.1875 0.4375,0 l 2.875,0 z m 0,0"
+               id="path8542" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="textext-14a508b0-6">
+        <g
+           style="fill:#000000;fill-opacity:1"
+           id="g8545">
+          <use
+             height="744.09448"
+             width="1052.3622"
+             xlink:href="#textext-14a508b0-1"
+             x="223.43201"
+             y="134.765"
+             id="use8547" />
+        </g>
+        <g
+           style="fill:#000000;fill-opacity:1"
+           id="g8549">
+          <use
+             height="744.09448"
+             width="1052.3622"
+             xlink:href="#textext-14a508b0-3"
+             x="230.21201"
+             y="131.149"
+             id="use8551" />
+        </g>
+        <g
+           style="fill:#000000;fill-opacity:1"
+           id="g8553">
+          <use
+             height="744.09448"
+             width="1052.3622"
+             xlink:href="#textext-14a508b0-5"
+             x="230.21201"
+             y="137.237"
+             id="use8555" />
+        </g>
+      </g>
+    </g>
+    <path
+       inkscape:connector-curvature="0"
+       id="path13082"
+       d="m 525.56335,946.30994 0,-531.98999"
+       style="fill:none;stroke:#5f8dd3;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/geometrie/achsenspiegelung.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <g
+       id="g13260"
+       transform="matrix(4.5690469,4.3382147e-8,-4.3382147e-8,4.5690469,-487.82084,-176.70062)"
+       ns0:preamble="/home/waldgeist/data/sphinx/inkscape-preamble.tex"
+       ns0:text="$s\n$"
+       style="fill:#5f8dd3"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/geometrie/achsenspiegelung.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <defs
+         id="defs13262">
+        <g
+           id="g13264">
+          <symbol
+             id="textext-30e4e463-0"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path13267"
+               d=""
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+          <symbol
+             id="textext-30e4e463-1"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path13270"
+               d="M 3.890625,-3.734375 C 3.625,-3.71875 3.421875,-3.5 3.421875,-3.28125 c 0,0.140625 0.09375,0.296875 0.3125,0.296875 0.21875,0 0.453125,-0.171875 0.453125,-0.5625 C 4.1875,-4 3.765625,-4.40625 3,-4.40625 c -1.3125,0 -1.6875,1.015625 -1.6875,1.453125 0,0.78125 0.734375,0.921875 1.03125,0.984375 0.515625,0.109375 1.03125,0.21875 1.03125,0.765625 0,0.25 -0.21875,1.09375 -1.421875,1.09375 -0.140625,0 -0.90625,0 -1.140625,-0.53125 0.390625,0.046875 0.640625,-0.25 0.640625,-0.53125 0,-0.21875 -0.171875,-0.34375 -0.375,-0.34375 -0.265625,0 -0.5625,0.203125 -0.5625,0.65625 0,0.5625 0.578125,0.96875 1.421875,0.96875 1.625,0 2.015625,-1.203125 2.015625,-1.65625 0,-0.359375 -0.1875,-0.609375 -0.3125,-0.71875 -0.265625,-0.28125 -0.5625,-0.34375 -1,-0.421875 -0.359375,-0.078125 -0.75,-0.15625 -0.75,-0.609375 C 1.890625,-3.578125 2.125,-4.1875 3,-4.1875 c 0.25,0 0.75,0.078125 0.890625,0.453125 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="textext-30e4e463-2"
+         style="fill:#5f8dd3">
+        <g
+           id="g13273"
+           style="fill:#5f8dd3;fill-opacity:1">
+          <use
+             id="use13275"
+             y="134.765"
+             x="223.43201"
+             xlink:href="#textext-30e4e463-1"
+             style="fill:#5f8dd3"
+             width="1052.3622"
+             height="744.09448" />
+        </g>
+      </g>
+    </g>
+    <path
+       style="fill:none;stroke:#5f8dd3;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 693.12797,575.82283 -167.56462,0"
+       id="path13429"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/geometrie/achsenspiegelung.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="fill:none;stroke:#5f8dd3;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 782.70718,730.9139 -257.14383,0"
+       id="path13431"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/geometrie/achsenspiegelung.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="fill:none;stroke:#5f8dd3;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 693.49935,782.39658 -167.936,0"
+       id="path13433"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/geometrie/achsenspiegelung.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path13435"
+       d="m 525.56335,782.39658 -167.936,0"
+       style="fill:none;stroke:#5f8dd3;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/geometrie/achsenspiegelung.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path13437"
+       d="m 525.56335,730.9139 -257.14383,0"
+       style="fill:none;stroke:#5f8dd3;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/geometrie/achsenspiegelung.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path13439"
+       d="m 525.56335,575.82283 -167.56462,0"
+       style="fill:none;stroke:#5f8dd3;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/geometrie/achsenspiegelung.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+  </g>
+</svg>

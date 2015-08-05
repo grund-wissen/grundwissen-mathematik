@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:ns0="http://www.iki.fi/pav/software/textext/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1052.3622"
+   height="744.09448"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="symmetrie-achsensymmetrie-mehrfach.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.71280263"
+     inkscape:cx="370.14935"
+     inkscape:cy="451.71087"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1600"
+     inkscape:window-height="1150"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:snap-global="true"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     inkscape:object-paths="true"
+     inkscape:object-nodes="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-midpoints="true">
+    <sodipodi:guide
+       id="guide11092"
+       orientation="744.0945,0"
+       position="0.0,0" />
+    <sodipodi:guide
+       id="guide11094"
+       orientation="744.0945,0"
+       position="526.1811,0" />
+    <sodipodi:guide
+       id="guide11096"
+       orientation="744.0945,0"
+       position="1052.3622,0" />
+    <sodipodi:guide
+       id="guide11098"
+       orientation="0,1052.3622"
+       position="0,0.0" />
+    <sodipodi:guide
+       id="guide11100"
+       orientation="0,1052.3622"
+       position="0,372.0472" />
+    <sodipodi:guide
+       id="guide11102"
+       orientation="0,1052.3622"
+       position="0,744.0945" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="415.40516,346.20444"
+       id="guide11251" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="636.95703,337.91456"
+       id="guide11253" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="1029.2704,313.53459"
+       id="guide11255" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="571.31013,262.91635"
+       id="guide11263" />
+  </sodipodi:namedview>
+  <title
+     id="title10655">Achsensymmetrie (mehrfach)</title>
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend"
+       style="overflow:visible">
+      <path
+         id="path3786"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)"
+         inkscape:connector-curvature="0" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Achsensymmetrie (mehrfach)</dc:title>
+        <dc:date>2013-10-05</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Bernhard Grotz</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Bernhard Grotz</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Bernhard Grotz</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:language>de-DE</dc:language>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>Mathematik</rdf:li>
+            <rdf:li>Geometrie</rdf:li>
+            <rdf:li>Symmetrie</rdf:li>
+            <rdf:li>Achsensymmetrie</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:prohibits
+           rdf:resource="http://creativecommons.org/ns#CommercialUse" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-308.2677)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <g
+       ns0:text="$b$"
+       ns0:preamble="/home/waldgeist/data/sphinx/test.tex"
+       transform="matrix(7.4449455,0,0,7.4449455,-1139.9653,-447.43445)"
+       id="g3817">
+      <defs
+         id="defs3819">
+        <g
+           id="g3821">
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="textext-7eb8a748-0">
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:none"
+               d="m 2.375,-6.8125 c 0,0 0,-0.109375 -0.125,-0.109375 -0.21875,0 -0.953125,0.078125 -1.21875,0.109375 -0.078125,0 -0.1875,0.015625 -0.1875,0.1875 0,0.125 0.09375,0.125 0.25,0.125 0.46875,0 0.484375,0.0625 0.484375,0.171875 0,0.0625 -0.078125,0.40625 -0.125,0.609375 l -0.828125,3.25 c -0.109375,0.5 -0.15625,0.671875 -0.15625,1.015625 0,0.9375 0.53125,1.5625 1.265625,1.5625 1.171875,0 2.40625,-1.484375 2.40625,-2.921875 0,-0.90625 -0.53125,-1.59375 -1.328125,-1.59375 -0.453125,0 -0.875,0.296875 -1.171875,0.59375 z M 1.453125,-3.046875 C 1.5,-3.265625 1.5,-3.28125 1.59375,-3.390625 2.078125,-4.03125 2.53125,-4.1875 2.796875,-4.1875 c 0.359375,0 0.625,0.296875 0.625,0.9375 0,0.59375 -0.328125,1.734375 -0.515625,2.109375 -0.328125,0.671875 -0.78125,1.03125 -1.171875,1.03125 -0.34375,0 -0.671875,-0.265625 -0.671875,-1 0,-0.203125 0,-0.390625 0.15625,-1.015625 z m 0,0"
+               id="path3824" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="textext-7eb8a748-1">
+        <g
+           style="fill:#000000;fill-opacity:1"
+           id="g3827" />
+      </g>
+    </g>
+    <use
+       transform="matrix(3.4997807,0,0,3.4997807,-690.00194,115.42685)"
+       height="1052.3622"
+       width="744.09448"
+       xlink:href="#textext-28c1ecfe-0"
+       x="223.43201"
+       y="134.765"
+       id="use3030-8"
+       style="fill:#000000;fill-opacity:1" />
+    <use
+       transform="matrix(3.4997807,0,0,3.4997807,-200.5737,-112.9098)"
+       height="1052.3622"
+       width="744.09448"
+       xlink:href="#textext-28c1ecfe-0"
+       x="223.43201"
+       y="134.765"
+       id="use3030-8-7"
+       style="fill:#000000;fill-opacity:1" />
+    <use
+       transform="matrix(3.4997807,0,0,3.4997807,-200.5737,-112.9098)"
+       height="1052.3622"
+       width="744.09448"
+       xlink:href="#textext-28c1ecfe-0"
+       x="223.43201"
+       y="134.765"
+       id="use3030-8-3"
+       style="fill:#000000;fill-opacity:1" />
+    <g
+       ns0:text="$C$"
+       ns0:preamble="/home/waldgeist/data/sphinx/test.tex"
+       transform="matrix(4.5876391,0,0,4.5690468,-669.68862,-249.57461)"
+       id="g4633">
+      <defs
+         id="defs4635">
+        <g
+           id="g4637">
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="textext-5bc8ccaa-0">
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:none"
+               d="m 7.578125,-6.921875 c 0,-0.03125 -0.015625,-0.109375 -0.109375,-0.109375 -0.03125,0 -0.046875,0.015625 -0.15625,0.125 L 6.625,-6.140625 C 6.53125,-6.28125 6.078125,-7.03125 4.96875,-7.03125 2.734375,-7.03125 0.5,-4.828125 0.5,-2.515625 0.5,-0.875 1.671875,0.21875 3.203125,0.21875 c 0.859375,0 1.625,-0.390625 2.15625,-0.859375 0.921875,-0.8125 1.09375,-1.71875 1.09375,-1.75 C 6.453125,-2.5 6.34375,-2.5 6.328125,-2.5 c -0.0625,0 -0.109375,0.03125 -0.125,0.109375 -0.09375,0.28125 -0.328125,1 -1.015625,1.578125 -0.6875,0.546875 -1.3125,0.71875 -1.828125,0.71875 -0.890625,0 -1.953125,-0.515625 -1.953125,-2.0625 0,-0.578125 0.203125,-2.1875 1.203125,-3.359375 0.609375,-0.703125 1.546875,-1.203125 2.4375,-1.203125 1.015625,0 1.609375,0.765625 1.609375,1.921875 0,0.40625 -0.03125,0.40625 -0.03125,0.515625 0,0.09375 0.109375,0.09375 0.140625,0.09375 0.125,0 0.125,-0.015625 0.1875,-0.203125 z m 0,0"
+               id="path4640" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="textext-5bc8ccaa-1">
+        <g
+           style="fill:#000000;fill-opacity:1"
+           id="g4643" />
+      </g>
+    </g>
+    <g
+       ns0:text="$b$"
+       ns0:preamble="/home/waldgeist/data/sphinx/test.tex"
+       transform="matrix(7.4449455,0,0,7.4449455,-1164.4,-446.37074)"
+       id="g3817-7">
+      <defs
+         id="defs3819-1">
+        <g
+           id="g3821-2">
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="textext-7eb8a748-0-2">
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:none"
+               d="m 2.375,-6.8125 c 0,0 0,-0.109375 -0.125,-0.109375 -0.21875,0 -0.953125,0.078125 -1.21875,0.109375 -0.078125,0 -0.1875,0.015625 -0.1875,0.1875 0,0.125 0.09375,0.125 0.25,0.125 0.46875,0 0.484375,0.0625 0.484375,0.171875 0,0.0625 -0.078125,0.40625 -0.125,0.609375 l -0.828125,3.25 c -0.109375,0.5 -0.15625,0.671875 -0.15625,1.015625 0,0.9375 0.53125,1.5625 1.265625,1.5625 1.171875,0 2.40625,-1.484375 2.40625,-2.921875 0,-0.90625 -0.53125,-1.59375 -1.328125,-1.59375 -0.453125,0 -0.875,0.296875 -1.171875,0.59375 z M 1.453125,-3.046875 C 1.5,-3.265625 1.5,-3.28125 1.59375,-3.390625 2.078125,-4.03125 2.53125,-4.1875 2.796875,-4.1875 c 0.359375,0 0.625,0.296875 0.625,0.9375 0,0.59375 -0.328125,1.734375 -0.515625,2.109375 -0.328125,0.671875 -0.78125,1.03125 -1.171875,1.03125 -0.34375,0 -0.671875,-0.265625 -0.671875,-1 0,-0.203125 0,-0.390625 0.15625,-1.015625 z m 0,0"
+               id="path3824-1" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="textext-7eb8a748-1-7">
+        <g
+           style="fill:#000000;fill-opacity:1"
+           id="g3827-5" />
+      </g>
+    </g>
+    <g
+       id="g8176"
+       transform="matrix(4.6372342,0,0,4.6372342,-787.90475,-87.72926)"
+       ns0:preamble="/home/waldgeist/data/sphinx/test.tex"
+       ns0:text="$c$">
+      <defs
+         id="defs8178">
+        <g
+           id="g8180">
+          <symbol
+             id="textext-26a702f7-0"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path8183"
+               d="m 3.953125,-3.78125 c -0.171875,0 -0.296875,0 -0.4375,0.125 -0.171875,0.15625 -0.1875,0.328125 -0.1875,0.390625 0,0.25 0.1875,0.359375 0.375,0.359375 0.28125,0 0.546875,-0.25 0.546875,-0.640625 0,-0.484375 -0.46875,-0.859375 -1.171875,-0.859375 -1.34375,0 -2.671875,1.421875 -2.671875,2.828125 0,0.90625 0.578125,1.6875 1.625,1.6875 1.421875,0 2.25,-1.0625 2.25,-1.171875 0,-0.0625 -0.046875,-0.140625 -0.109375,-0.140625 -0.0625,0 -0.078125,0.03125 -0.140625,0.109375 -0.78125,0.984375 -1.875,0.984375 -1.984375,0.984375 -0.625,0 -0.90625,-0.484375 -0.90625,-1.09375 0,-0.40625 0.203125,-1.375 0.546875,-1.984375 0.3125,-0.578125 0.859375,-1 1.40625,-1 0.328125,0 0.71875,0.125 0.859375,0.40625 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="textext-26a702f7-1">
+        <g
+           id="g8186"
+           style="fill:#000000;fill-opacity:1" />
+      </g>
+    </g>
+    <g
+       ns0:text="$b$"
+       ns0:preamble="/home/waldgeist/data/sphinx/test.tex"
+       transform="matrix(7.4449455,0,0,7.4449455,-202.85485,129.25427)"
+       id="g3817-4">
+      <defs
+         id="defs3819-7">
+        <g
+           id="g3821-1">
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="textext-7eb8a748-0-7">
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:none"
+               d="m 2.375,-6.8125 c 0,0 0,-0.109375 -0.125,-0.109375 -0.21875,0 -0.953125,0.078125 -1.21875,0.109375 -0.078125,0 -0.1875,0.015625 -0.1875,0.1875 0,0.125 0.09375,0.125 0.25,0.125 0.46875,0 0.484375,0.0625 0.484375,0.171875 0,0.0625 -0.078125,0.40625 -0.125,0.609375 l -0.828125,3.25 c -0.109375,0.5 -0.15625,0.671875 -0.15625,1.015625 0,0.9375 0.53125,1.5625 1.265625,1.5625 1.171875,0 2.40625,-1.484375 2.40625,-2.921875 0,-0.90625 -0.53125,-1.59375 -1.328125,-1.59375 -0.453125,0 -0.875,0.296875 -1.171875,0.59375 z M 1.453125,-3.046875 C 1.5,-3.265625 1.5,-3.28125 1.59375,-3.390625 2.078125,-4.03125 2.53125,-4.1875 2.796875,-4.1875 c 0.359375,0 0.625,0.296875 0.625,0.9375 0,0.59375 -0.328125,1.734375 -0.515625,2.109375 -0.328125,0.671875 -0.78125,1.03125 -1.171875,1.03125 -0.34375,0 -0.671875,-0.265625 -0.671875,-1 0,-0.203125 0,-0.390625 0.15625,-1.015625 z m 0,0"
+               id="path3824-8" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="textext-7eb8a748-1-5">
+        <g
+           style="fill:#000000;fill-opacity:1"
+           id="g3827-8" />
+      </g>
+    </g>
+    <use
+       transform="matrix(3.4997807,0,0,3.4997807,247.10851,692.11557)"
+       height="1052.3622"
+       width="744.09448"
+       xlink:href="#textext-28c1ecfe-0"
+       x="223.43201"
+       y="134.765"
+       id="use3030-8-2"
+       style="fill:#000000;fill-opacity:1" />
+    <use
+       transform="matrix(3.4997807,0,0,3.4997807,736.53675,463.77892)"
+       height="1052.3622"
+       width="744.09448"
+       xlink:href="#textext-28c1ecfe-0"
+       x="223.43201"
+       y="134.765"
+       id="use3030-8-7-5"
+       style="fill:#000000;fill-opacity:1" />
+    <use
+       transform="matrix(3.4997807,0,0,3.4997807,736.53675,463.77892)"
+       height="1052.3622"
+       width="744.09448"
+       xlink:href="#textext-28c1ecfe-0"
+       x="223.43201"
+       y="134.765"
+       id="use3030-8-3-1"
+       style="fill:#000000;fill-opacity:1" />
+    <rect
+       y="491.41641"
+       x="23.091778"
+       height="377.79706"
+       width="1006.1786"
+       id="rect3851-1"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/geometrie/symmetrie-achsensymmetrie-mehrfach.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <g
+       ns0:text="$b$"
+       ns0:preamble="/home/waldgeist/data/sphinx/test.tex"
+       transform="matrix(7.4449455,0,0,7.4449455,-227.28955,130.31798)"
+       id="g3817-7-2">
+      <defs
+         id="defs3819-1-7">
+        <g
+           id="g3821-2-2">
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="textext-7eb8a748-0-2-5">
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:none"
+               d="m 2.375,-6.8125 c 0,0 0,-0.109375 -0.125,-0.109375 -0.21875,0 -0.953125,0.078125 -1.21875,0.109375 -0.078125,0 -0.1875,0.015625 -0.1875,0.1875 0,0.125 0.09375,0.125 0.25,0.125 0.46875,0 0.484375,0.0625 0.484375,0.171875 0,0.0625 -0.078125,0.40625 -0.125,0.609375 l -0.828125,3.25 c -0.109375,0.5 -0.15625,0.671875 -0.15625,1.015625 0,0.9375 0.53125,1.5625 1.265625,1.5625 1.171875,0 2.40625,-1.484375 2.40625,-2.921875 0,-0.90625 -0.53125,-1.59375 -1.328125,-1.59375 -0.453125,0 -0.875,0.296875 -1.171875,0.59375 z M 1.453125,-3.046875 C 1.5,-3.265625 1.5,-3.28125 1.59375,-3.390625 2.078125,-4.03125 2.53125,-4.1875 2.796875,-4.1875 c 0.359375,0 0.625,0.296875 0.625,0.9375 0,0.59375 -0.328125,1.734375 -0.515625,2.109375 -0.328125,0.671875 -0.78125,1.03125 -1.171875,1.03125 -0.34375,0 -0.671875,-0.265625 -0.671875,-1 0,-0.203125 0,-0.390625 0.15625,-1.015625 z m 0,0"
+               id="path3824-1-3" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="textext-7eb8a748-1-7-0">
+        <g
+           style="fill:#000000;fill-opacity:1"
+           id="g3827-5-0" />
+      </g>
+    </g>
+    <g
+       id="g8176-2"
+       transform="matrix(4.6372342,0,0,4.6372342,149.2057,488.95946)"
+       ns0:preamble="/home/waldgeist/data/sphinx/test.tex"
+       ns0:text="$c$">
+      <defs
+         id="defs8178-0">
+        <g
+           id="g8180-7">
+          <symbol
+             id="textext-26a702f7-0-2"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path8183-4"
+               d="m 3.953125,-3.78125 c -0.171875,0 -0.296875,0 -0.4375,0.125 -0.171875,0.15625 -0.1875,0.328125 -0.1875,0.390625 0,0.25 0.1875,0.359375 0.375,0.359375 0.28125,0 0.546875,-0.25 0.546875,-0.640625 0,-0.484375 -0.46875,-0.859375 -1.171875,-0.859375 -1.34375,0 -2.671875,1.421875 -2.671875,2.828125 0,0.90625 0.578125,1.6875 1.625,1.6875 1.421875,0 2.25,-1.0625 2.25,-1.171875 0,-0.0625 -0.046875,-0.140625 -0.109375,-0.140625 -0.0625,0 -0.078125,0.03125 -0.140625,0.109375 -0.78125,0.984375 -1.875,0.984375 -1.984375,0.984375 -0.625,0 -0.90625,-0.484375 -0.90625,-1.09375 0,-0.40625 0.203125,-1.375 0.546875,-1.984375 0.3125,-0.578125 0.859375,-1 1.40625,-1 0.328125,0 0.71875,0.125 0.859375,0.40625 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="textext-26a702f7-1-4">
+        <g
+           id="g8186-5"
+           style="fill:#000000;fill-opacity:1" />
+      </g>
+    </g>
+    <path
+       sodipodi:type="star"
+       style="color:#000000;fill:#ececec;fill-opacity:1;fill-rule:nonzero;stroke:#4d4d4d;stroke-width:4.77788687;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path8061"
+       sodipodi:sides="7"
+       sodipodi:cx="221.08208"
+       sodipodi:cy="338.20004"
+       sodipodi:r1="181.08868"
+       sodipodi:r2="90.544342"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="0.97239773"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 377.90948,428.74439 -105.82196,-15.7331 -24.01558,104.25483 -53.67828,-92.54437 -96.48317,46.22569 38.88624,-99.66783 -96.296976,-46.61234 102.168626,-31.7394 -23.59719,-104.35032 88.51595,60.08946 66.87176,-83.51039 8.20897,106.66972 106.98491,0.21458 -78.27954,72.92551 z"
+       inkscape:transform-center-y="-35.698867"
+       transform="matrix(0.60011858,-0.18468043,0.18468043,0.60011858,330.88396,523.0631)"
+       inkscape:transform-center-x="5.3294874"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/geometrie/symmetrie-achsensymmetrie-mehrfach.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       transform="matrix(1.0471297,0,0,1.0471297,-117.31732,240.44943)"
+       d="m 1011.8727,420.06784 c 0,57.55862 -46.66052,104.21909 -104.21914,104.21909 -57.55861,0 -104.21909,-46.66047 -104.21909,-104.21909 0,-57.55862 46.66048,-104.21909 104.21909,-104.21909 57.55862,0 104.21914,46.66047 104.21914,104.21909 z"
+       sodipodi:ry="104.21909"
+       sodipodi:rx="104.21909"
+       sodipodi:cy="420.06784"
+       sodipodi:cx="907.65356"
+       id="path11087"
+       style="color:#000000;fill:#ececec;fill-opacity:1;fill-rule:nonzero;stroke:#4d4d4d;stroke-width:2.8649745;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/geometrie/symmetrie-achsensymmetrie-mehrfach.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       inkscape:export-ydpi="150"
+       inkscape:export-xdpi="150"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/geometrie/symmetrie-achsensymmetrie-mehrfach.png"
+       inkscape:connector-curvature="0"
+       id="path11261"
+       d="m 526.17449,828.46247 0.0132,-296.29505"
+       style="fill:none;stroke:#5f8dd3;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2, 4;stroke-dashoffset:0;marker-start:none;marker-end:none"
+       inkscape:transform-center-x="1.4799513"
+       inkscape:transform-center-y="-135.3575" />
+    <rect
+       style="color:#000000;fill:#ececec;stroke:#4d4d4d;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect11265"
+       width="218.26186"
+       height="113.89681"
+       x="110.11755"
+       y="623.36652"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/geometrie/symmetrie-achsensymmetrie-mehrfach.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       inkscape:export-ydpi="150"
+       inkscape:export-xdpi="150"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/geometrie/symmetrie-achsensymmetrie-mehrfach.png"
+       inkscape:connector-curvature="0"
+       id="path11595"
+       d="m 219.24188,828.46247 0.0132,-296.29506"
+       style="fill:none;stroke:#5f8dd3;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2, 4;stroke-dashoffset:0;marker-start:none;marker-end:none" />
+    <path
+       style="fill:none;stroke:#5f8dd3;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2, 4;stroke-dashoffset:0;marker-start:none;marker-end:none"
+       d="M 369.36667,680.32152 69.130297,680.30832"
+       id="path11267"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/geometrie/symmetrie-achsensymmetrie-mehrfach.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="fill:none;stroke:#5f8dd3;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3, 3;stroke-dashoffset:0;marker-start:none;marker-end:none"
+       d="m 833.10708,828.46247 0.0132,-296.29506"
+       id="path11269"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/geometrie/symmetrie-achsensymmetrie-mehrfach.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="fill:none;stroke:#5f8dd3;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2, 4;stroke-dashoffset:0;marker-start:none;marker-end:none"
+       d="M 410.37359,777.78949 641.66308,592.59788"
+       id="path11271"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/geometrie/symmetrie-achsensymmetrie-mehrfach.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       inkscape:export-ydpi="150"
+       inkscape:export-xdpi="150"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/geometrie/symmetrie-achsensymmetrie-mehrfach.png"
+       inkscape:connector-curvature="0"
+       id="path11273"
+       d="M 641.66308,777.78949 410.37359,592.59788"
+       style="fill:none;stroke:#5f8dd3;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2, 4;stroke-dashoffset:0;marker-start:none;marker-end:none" />
+    <path
+       style="fill:none;stroke:#5f8dd3;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2, 4;stroke-dashoffset:0;marker-start:none;marker-end:none"
+       d="M 670.4077,718.35094 381.62898,652.03644"
+       id="path11275"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/geometrie/symmetrie-achsensymmetrie-mehrfach.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       inkscape:export-ydpi="150"
+       inkscape:export-xdpi="150"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/geometrie/symmetrie-achsensymmetrie-mehrfach.png"
+       inkscape:connector-curvature="0"
+       id="path11277"
+       d="M 871.4507,823.41617 794.77666,537.21371"
+       style="fill:none;stroke:#5f8dd3;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3, 3;stroke-dashoffset:0;marker-start:none;marker-end:none" />
+    <path
+       style="fill:none;stroke:#5f8dd3;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3, 3;stroke-dashoffset:0;marker-start:none;marker-end:none"
+       d="M 907.18173,808.61776 759.04563,552.01212"
+       id="path11279"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/geometrie/symmetrie-achsensymmetrie-mehrfach.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       inkscape:export-ydpi="150"
+       inkscape:export-xdpi="150"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/geometrie/symmetrie-achsensymmetrie-mehrfach.png"
+       inkscape:connector-curvature="0"
+       id="path11281"
+       d="M 937.86514,785.07573 728.36222,575.55415"
+       style="fill:none;stroke:#5f8dd3;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3, 3;stroke-dashoffset:0;marker-start:none;marker-end:none" />
+    <path
+       style="fill:none;stroke:#5f8dd3;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3, 3;stroke-dashoffset:0;marker-start:none;marker-end:none"
+       d="M 976.21149,718.66471 690.01587,641.96517"
+       id="path11283"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/geometrie/symmetrie-achsensymmetrie-mehrfach.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       inkscape:export-ydpi="150"
+       inkscape:export-xdpi="150"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/geometrie/symmetrie-achsensymmetrie-mehrfach.png"
+       inkscape:connector-curvature="0"
+       id="path11285"
+       d="m 981.26121,680.32154 -296.29506,-0.0132"
+       style="fill:none;stroke:#5f8dd3;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3, 3;stroke-dashoffset:0;marker-start:none;marker-end:none" />
+    <path
+       style="fill:none;stroke:#5f8dd3;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3, 3;stroke-dashoffset:0;marker-start:none;marker-end:none"
+       d="M 961.4165,606.24689 704.81086,754.38299"
+       id="path11287"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/geometrie/symmetrie-achsensymmetrie-mehrfach.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       inkscape:export-ydpi="150"
+       inkscape:export-xdpi="150"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/geometrie/symmetrie-achsensymmetrie-mehrfach.png"
+       inkscape:connector-curvature="0"
+       id="path11289"
+       d="M 937.87447,575.56348 728.35289,785.0664"
+       style="fill:none;stroke:#5f8dd3;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3, 3;stroke-dashoffset:0;marker-start:none;marker-end:none" />
+    <path
+       inkscape:export-ydpi="150"
+       inkscape:export-xdpi="150"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/geometrie/symmetrie-achsensymmetrie-mehrfach.png"
+       inkscape:connector-curvature="0"
+       id="path13924"
+       d="M 961.4099,754.39441 704.81746,606.23547"
+       style="fill:none;stroke:#5f8dd3;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3, 3;stroke-dashoffset:0;marker-start:none;marker-end:none" />
+    <path
+       style="fill:none;stroke:#5f8dd3;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3, 3;stroke-dashoffset:0;marker-start:none;marker-end:none"
+       d="M 976.21491,641.97791 690.01245,718.65197"
+       id="path13926"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/geometrie/symmetrie-achsensymmetrie-mehrfach.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="fill:none;stroke:#5f8dd3;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3, 3;stroke-dashoffset:0;marker-start:none;marker-end:none"
+       d="M 907.19316,552.01871 759.0342,808.61117"
+       id="path13928"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/geometrie/symmetrie-achsensymmetrie-mehrfach.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       inkscape:export-ydpi="150"
+       inkscape:export-xdpi="150"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/geometrie/symmetrie-achsensymmetrie-mehrfach.png"
+       inkscape:connector-curvature="0"
+       id="path13930"
+       d="M 871.46346,537.21712 794.7639,823.41276"
+       style="fill:none;stroke:#5f8dd3;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3, 3;stroke-dashoffset:0;marker-start:none;marker-end:none" />
+  </g>
+</svg>

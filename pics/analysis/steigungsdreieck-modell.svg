@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:ns0="http://www.iki.fi/pav/software/textext/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="steigungsdreieck-modell.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.55187129"
+     inkscape:cx="348.2548"
+     inkscape:cy="536.30136"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:object-paths="true"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     inkscape:object-nodes="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-global="true"
+     inkscape:window-width="1280"
+     inkscape:window-height="974"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1">
+    <sodipodi:guide
+       orientation="1,0"
+       position="412.81085,316.85445"
+       id="guide70996" />
+  </sodipodi:namedview>
+  <title
+     id="title13841">Modell eines Steigungsdreiecks</title>
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="TriangleInM"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="TriangleInM"
+       style="overflow:visible">
+      <path
+         id="path68768"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none"
+         transform="scale(-0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="TriangleOutM"
+       style="overflow:visible">
+      <path
+         id="path68777"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none"
+         transform="scale(0.4)" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Modell eines Steigungsdreiecks</dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
+        <dc:date>2012-06-26</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Bernhard Grotz</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Bernhard Grotz</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Bernhard Grotz</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:language>de-DE</dc:language>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>Mathematik</rdf:li>
+            <rdf:li>Modell</rdf:li>
+            <rdf:li>Steigungsdreieck</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:prohibits
+           rdf:resource="http://creativecommons.org/ns#CommercialUse" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Ebene 1">
+    <g
+       transform="translate(-0.5000152,0.57071702)"
+       id="g3024" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3, 1;stroke-dashoffset:0"
+       id="rect71040"
+       width="677.69427"
+       height="757.42297"
+       x="33.200104"
+       y="147.4696"
+       rx="0.7112937"
+       ry="0.7112937"
+       inkscape:export-filename="/home/waldgeist/data/pics/physik/Own/mathematik/steigungsdreieck-modell.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#path69258"
+       id="use69262"
+       transform="translate(-322.57415,0)"
+       width="744.09448"
+       height="1052.3622"
+       style="stroke-width:1.5"
+       inkscape:export-filename="/home/waldgeist/data/pics/physik/Own/mathematik/steigungsdreieck-modell.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="fill:none;stroke:#b3b3b3;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.99999998, 0.99999997;stroke-dashoffset:0"
+       d="m 413.76086,772.71003 0,89.64118"
+       id="path69258"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/waldgeist/data/pics/physik/Own/mathematik/steigungsdreieck-modell.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <use
+       height="1052.3622"
+       width="744.09448"
+       transform="matrix(2.3200706,0,0,2.3194441,-235.90654,19.094809)"
+       id="use3034"
+       inkscape:transform-center-y="-2.5595186"
+       inkscape:transform-center-x="-527.36951"
+       xlink:href="#rect2985"
+       y="0"
+       x="0"
+       inkscape:export-filename="/home/waldgeist/data/pics/physik/Own/mathematik/steigungsdreieck-modell.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <use
+       height="1052.3622"
+       width="744.09448"
+       transform="matrix(2.3200706,0,0,2.3194441,-235.57036,5.7232732)"
+       id="use3059"
+       xlink:href="#rect3038"
+       y="0"
+       x="0"
+       inkscape:export-filename="/home/waldgeist/data/pics/physik/Own/mathematik/steigungsdreieck-modell.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <g
+       transform="matrix(2.3200706,0,0,2.3194441,-230.2972,0.48136323)"
+       id="g68530"
+       inkscape:export-filename="/home/waldgeist/data/pics/physik/Own/mathematik/steigungsdreieck-modell.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <rect
+         style="fill:#b3b3b3;fill-opacity:1;fill-rule:nonzero;stroke:#333333;stroke-width:0.43107957;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect68016"
+         width="4.0406103"
+         height="244.25587"
+         x="279.81226"
+         y="81.605591"
+         ry="0.43932259"
+         rx="0.43932259" />
+    </g>
+    <g
+       transform="matrix(1.660941,-1.6194399,1.6198773,1.6604925,-668.54631,444.84249)"
+       inkscape:transform-center-y="-205.29825"
+       inkscape:transform-center-x="-196.89607"
+       id="g3055"
+       inkscape:export-filename="/home/waldgeist/data/pics/physik/Own/mathematik/steigungsdreieck-modell.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <rect
+         style="fill:#784421;fill-opacity:1;fill-rule:nonzero;stroke:#28170b;stroke-width:0.64661932;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect2985"
+         width="247.48122"
+         height="7.0755267"
+         x="144.67639"
+         y="315.06421"
+         inkscape:transform-center-x="-129.85764"
+         inkscape:transform-center-y="0.92371127"
+         transform="matrix(0.99992504,0.01224357,-0.01224333,0.99992505,0,0)"
+         rx="0.7112937"
+         ry="0.7112937" />
+      <rect
+         y="323.10147"
+         x="140.58928"
+         height="1.7600144"
+         width="57.308895"
+         id="rect3038"
+         style="fill:#c8ab37;fill-opacity:1;fill-rule:nonzero;stroke:#28170b;stroke-width:0.21553978;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    </g>
+    <path
+       id="rect68528"
+       d="m 413.61439,735.38273 0,5.58116 0,5.58116 0,26.16623 84.39257,0 0,-31.74739 -62.85941,0 0,-5.58116 -21.53316,0 z"
+       style="fill:#666666;fill-opacity:1;fill-rule:nonzero;stroke:#333333;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/waldgeist/data/pics/physik/Own/mathematik/steigungsdreieck-modell.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       transform="matrix(0.6369383,0,0,0.63676633,-1.5342288,548.72132)"
+       d="m 157.5,323.25504 a 7.3214288,7.3214288 0 1 1 -14.64286,0 7.3214288,7.3214288 0 1 1 14.64286,0 z"
+       sodipodi:ry="7.3214288"
+       sodipodi:rx="7.3214288"
+       sodipodi:cy="323.25504"
+       sodipodi:cx="150.17857"
+       id="path2987"
+       style="fill:#c8ab37;fill-opacity:1;fill-rule:nonzero;stroke:#28170b;stroke-width:0.78511137;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/waldgeist/data/pics/physik/Own/mathematik/steigungsdreieck-modell.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <g
+       id="g70998"
+       transform="translate(0.80354124,1.3965343)"
+       inkscape:export-filename="/home/waldgeist/data/pics/physik/Own/mathematik/steigungsdreieck-modell.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <path
+         sodipodi:nodetypes="cssssscc"
+         inkscape:connector-curvature="0"
+         id="rect68534"
+         d="m 416.59136,443.05229 32.91194,0 c 0.96114,0 1.73488,0.77354 1.73488,1.73441 l 0,0.50826 c 0,0.96085 -0.77374,1.74735 -1.73488,1.74735 l -34.95815,0 c -0.96111,0 -1.71833,0 -1.71833,0 1.17687,-1.35928 2.99593,-3.23284 3.76454,-3.99002 z"
+         style="fill:#666666;fill-opacity:1;fill-rule:nonzero;stroke:#333333;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0" />
+      <path
+         sodipodi:type="arc"
+         style="fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:#333333;stroke-width:0.2215656;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="path68538"
+         sodipodi:cx="284.45767"
+         sodipodi:cy="191.61249"
+         sodipodi:rx="0.85733503"
+         sodipodi:ry="0.85733503"
+         d="m 285.31501,191.61249 c 0,0.47349 -0.38384,0.85733 -0.85734,0.85733 -0.47349,0 -0.85733,-0.38384 -0.85733,-0.85733 0,-0.4735 0.38384,-0.85734 0.85733,-0.85734 0.4735,0 0.85734,0.38384 0.85734,0.85734 z"
+         transform="matrix(4.5139453,0,0,4.5127265,-861.2557,-419.65393)" />
+    </g>
+    <path
+       sodipodi:type="arc"
+       style="fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:#333333;stroke-width:0.2215656;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path68543"
+       sodipodi:cx="284.45767"
+       sodipodi:cy="191.61249"
+       sodipodi:rx="0.85733503"
+       sodipodi:ry="0.85733503"
+       d="m 285.31501,191.61249 a 0.85733503,0.85733503 0 1 1 -1.71467,0 0.85733503,0.85733503 0 1 1 1.71467,0 z"
+       transform="matrix(4.5139453,0,0,4.5127265,-860.1592,-120.80421)"
+       inkscape:export-filename="/home/waldgeist/data/pics/physik/Own/mathematik/steigungsdreieck-modell.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       transform="matrix(4.6745123,0,0,4.6732502,-905.83373,-129.90177)"
+       d="m 285.31501,191.61249 a 0.85733503,0.85733503 0 1 1 -1.71467,0 0.85733503,0.85733503 0 1 1 1.71467,0 z"
+       sodipodi:ry="0.85733503"
+       sodipodi:rx="0.85733503"
+       sodipodi:cy="191.61249"
+       sodipodi:cx="284.45767"
+       id="path68545"
+       style="fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:#333333;stroke-width:0.21395493;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/waldgeist/data/pics/physik/Own/mathematik/steigungsdreieck-modell.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <use
+       height="1052.3622"
+       width="744.09448"
+       transform="translate(64.42446,0)"
+       id="use68547"
+       xlink:href="#path68545"
+       y="0"
+       x="0"
+       style="fill:#ececec;stroke:#f2f2f2"
+       inkscape:export-filename="/home/waldgeist/data/pics/physik/Own/mathematik/steigungsdreieck-modell.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path68624"
+       d="m 450.35714,448.35875 137.16353,0"
+       style="fill:none;stroke:#b3b3b3;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3, 0.99999999;stroke-dashoffset:0"
+       inkscape:export-filename="/home/waldgeist/data/pics/physik/Own/mathematik/steigungsdreieck-modell.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#TriangleInM);marker-end:url(#TriangleOutM)"
+       d="m 543.89588,754.80949 0,-302.38953"
+       id="path68626"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/waldgeist/data/pics/physik/Own/mathematik/steigungsdreieck-modell.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path69264"
+       d="m 98.547184,815.96233 307.863486,0"
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#TriangleInM);marker-end:url(#TriangleOutM)"
+       inkscape:export-filename="/home/waldgeist/data/pics/physik/Own/mathematik/steigungsdreieck-modell.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <g
+       transform="matrix(4.128388,0,0,4.128388,-352.54504,59.049303)"
+       ns0:text="$h$"
+       ns0:preamble="/home/waldgeist/data/sphinx/test.tex"
+       id="g69297"
+       inkscape:export-filename="/home/waldgeist/data/pics/physik/Own/mathematik/steigungsdreieck-modell.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <defs
+         id="defs69299">
+        <g
+           id="g69301">
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="textext-6224594f-0">
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:none"
+               d="m 2.859375,-6.8125 c 0,0 0,-0.109375 -0.125,-0.109375 -0.234375,0 -0.953125,0.078125 -1.21875,0.109375 -0.078125,0 -0.1875,0.015625 -0.1875,0.1875 0,0.125 0.09375,0.125 0.234375,0.125 0.484375,0 0.5,0.0625 0.5,0.171875 L 2.03125,-6.125 0.59375,-0.390625 c -0.046875,0.140625 -0.046875,0.15625 -0.046875,0.21875 0,0.234375 0.203125,0.28125 0.296875,0.28125 0.15625,0 0.3125,-0.125 0.359375,-0.265625 l 0.1875,-0.75 0.21875,-0.890625 C 1.671875,-2.03125 1.734375,-2.25 1.78125,-2.46875 1.796875,-2.53125 1.890625,-2.859375 1.890625,-2.921875 1.921875,-3.015625 2.234375,-3.5625 2.578125,-3.84375 2.796875,-4 3.09375,-4.1875 3.53125,-4.1875 c 0.421875,0 0.53125,0.34375 0.53125,0.703125 0,0.53125 -0.375,1.625 -0.609375,2.234375 C 3.375,-1.03125 3.3125,-0.90625 3.3125,-0.703125 c 0,0.46875 0.359375,0.8125 0.828125,0.8125 0.9375,0 1.296875,-1.453125 1.296875,-1.53125 0,-0.109375 -0.078125,-0.109375 -0.109375,-0.109375 -0.109375,0 -0.109375,0.03125 -0.15625,0.1875 -0.140625,0.53125 -0.46875,1.234375 -1.015625,1.234375 -0.171875,0 -0.234375,-0.09375 -0.234375,-0.328125 0,-0.25 0.078125,-0.484375 0.171875,-0.703125 0.15625,-0.4375 0.609375,-1.625 0.609375,-2.203125 0,-0.640625 -0.390625,-1.0625 -1.140625,-1.0625 -0.625,0 -1.109375,0.3125 -1.484375,0.765625 z m 0,0"
+               id="path69304" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="textext-6224594f-1">
+        <g
+           style="fill:#000000;fill-opacity:1"
+           id="g69307">
+          <use
+             height="1052.3622"
+             width="744.09448"
+             xlink:href="#textext-6224594f-0"
+             x="223.43201"
+             y="134.765"
+             id="use69309" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g70895"
+       transform="matrix(4.128388,0,0,4.128388,-676.15992,305.35687)"
+       ns0:preamble="/home/waldgeist/data/sphinx/test.tex"
+       ns0:text="$l$"
+       inkscape:export-filename="/home/waldgeist/data/pics/physik/Own/mathematik/steigungsdreieck-modell.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <defs
+         id="defs70897">
+        <g
+           id="g70899">
+          <symbol
+             id="textext-d99ff377-0"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path70902"
+               d="m 2.578125,-6.8125 c 0,0 0,-0.109375 -0.140625,-0.109375 -0.21875,0 -0.953125,0.078125 -1.21875,0.109375 -0.078125,0 -0.1875,0.015625 -0.1875,0.203125 0,0.109375 0.109375,0.109375 0.25,0.109375 0.484375,0 0.5,0.09375 0.5,0.171875 L 1.75,-6.125 0.484375,-1.140625 C 0.453125,-1.03125 0.4375,-0.96875 0.4375,-0.8125 c 0,0.578125 0.4375,0.921875 0.90625,0.921875 0.328125,0 0.578125,-0.203125 0.75,-0.5625 0.171875,-0.375 0.296875,-0.953125 0.296875,-0.96875 0,-0.109375 -0.09375,-0.109375 -0.125,-0.109375 -0.09375,0 -0.109375,0.046875 -0.125,0.1875 C 1.96875,-0.703125 1.78125,-0.109375 1.375,-0.109375 c -0.296875,0 -0.296875,-0.3125 -0.296875,-0.453125 0,-0.25 0.015625,-0.296875 0.0625,-0.484375 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="textext-d99ff377-1">
+        <g
+           id="g70905"
+           style="fill:#000000;fill-opacity:1">
+          <use
+             id="use70907"
+             y="134.765"
+             x="223.43201"
+             xlink:href="#textext-d99ff377-0"
+             width="744.09448"
+             height="1052.3622" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

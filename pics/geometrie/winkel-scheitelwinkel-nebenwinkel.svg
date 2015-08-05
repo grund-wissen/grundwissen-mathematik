@@ -1,0 +1,921 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:ns0="http://www.iki.fi/pav/software/textext/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="winkel-scheitelwinkel-nebenwinkel.svg">
+  <title
+     id="title13859">Stufenwinkel und Wechselwinkel</title>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.56266218"
+     inkscape:cx="513.20559"
+     inkscape:cy="773.16626"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="974"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:snap-global="true"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     inkscape:object-paths="true"
+     inkscape:object-nodes="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-center="true">
+    <sodipodi:guide
+       id="guide5062"
+       position="648.43225,566.22076"
+       orientation="1,0" />
+    <sodipodi:guide
+       id="guide12005"
+       position="361.78571,583.21429"
+       orientation="0,1" />
+    <sodipodi:guide
+       id="guide12007"
+       position="361.78571,583.21429"
+       orientation="1,0" />
+    <sodipodi:guide
+       orientation="-0.25881911,0.96592581"
+       position="522.66482,793.47019"
+       id="guide5099" />
+    <sodipodi:guide
+       orientation="-0.26161166,0.96517322"
+       position="211.64788,542.76139"
+       id="guide5799" />
+    <sodipodi:guide
+       orientation="0.96592583,-0.25881903"
+       position="200.32487,707.5982"
+       id="guide5956" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="412.42417,764.43004"
+       id="guide5960" />
+    <sodipodi:guide
+       orientation="0.96592583,-0.25881903"
+       position="423.82102,737.6054"
+       id="guide5964" />
+  </sodipodi:namedview>
+  <defs
+     id="defs4">
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mstart"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(0.6,0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path10062" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path3786" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mstart-8"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(0.6,0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path10062-6" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Stufenwinkel und Wechselwinkel</dc:title>
+        <dc:date>2013-09-17</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Bernhard Grotz</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Bernhard Grotz</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Bernhard Grotz</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:language>de-DE</dc:language>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>Mathematik</rdf:li>
+            <rdf:li>Geometrie</rdf:li>
+            <rdf:li>Winkel</rdf:li>
+            <rdf:li>Stufenwinkel</rdf:li>
+            <rdf:li>Wechselwinkel</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:prohibits
+           rdf:resource="http://creativecommons.org/ns#CommercialUse" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g3817"
+       transform="matrix(7.4449455,0,0,7.4449455,-1139.9653,-447.43445)"
+       ns0:preamble="/home/waldgeist/data/sphinx/test.tex"
+       ns0:text="$b$">
+      <defs
+         id="defs3819">
+        <g
+           id="g3821">
+          <symbol
+             id="textext-7eb8a748-0"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path3824"
+               d="m 2.375,-6.8125 c 0,0 0,-0.109375 -0.125,-0.109375 -0.21875,0 -0.953125,0.078125 -1.21875,0.109375 -0.078125,0 -0.1875,0.015625 -0.1875,0.1875 0,0.125 0.09375,0.125 0.25,0.125 0.46875,0 0.484375,0.0625 0.484375,0.171875 0,0.0625 -0.078125,0.40625 -0.125,0.609375 l -0.828125,3.25 c -0.109375,0.5 -0.15625,0.671875 -0.15625,1.015625 0,0.9375 0.53125,1.5625 1.265625,1.5625 1.171875,0 2.40625,-1.484375 2.40625,-2.921875 0,-0.90625 -0.53125,-1.59375 -1.328125,-1.59375 -0.453125,0 -0.875,0.296875 -1.171875,0.59375 z M 1.453125,-3.046875 C 1.5,-3.265625 1.5,-3.28125 1.59375,-3.390625 2.078125,-4.03125 2.53125,-4.1875 2.796875,-4.1875 c 0.359375,0 0.625,0.296875 0.625,0.9375 0,0.59375 -0.328125,1.734375 -0.515625,2.109375 -0.328125,0.671875 -0.78125,1.03125 -1.171875,1.03125 -0.34375,0 -0.671875,-0.265625 -0.671875,-1 0,-0.203125 0,-0.390625 0.15625,-1.015625 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="textext-7eb8a748-1">
+        <g
+           id="g3827"
+           style="fill:#000000;fill-opacity:1" />
+      </g>
+    </g>
+    <use
+       style="fill:#000000;fill-opacity:1"
+       id="use3030-8"
+       y="134.765"
+       x="223.43201"
+       xlink:href="#textext-28c1ecfe-0"
+       width="744.09448"
+       height="1052.3622"
+       transform="matrix(3.4997807,0,0,3.4997807,-690.00194,115.42685)" />
+    <use
+       style="fill:#000000;fill-opacity:1"
+       id="use3030-8-7"
+       y="134.765"
+       x="223.43201"
+       xlink:href="#textext-28c1ecfe-0"
+       width="744.09448"
+       height="1052.3622"
+       transform="matrix(3.4997807,0,0,3.4997807,-200.5737,-112.9098)" />
+    <use
+       style="fill:#000000;fill-opacity:1"
+       id="use3030-8-3"
+       y="134.765"
+       x="223.43201"
+       xlink:href="#textext-28c1ecfe-0"
+       width="744.09448"
+       height="1052.3622"
+       transform="matrix(3.4997807,0,0,3.4997807,-200.5737,-112.9098)" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.00000118999999987;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3851"
+       width="623.45905"
+       height="472.78668"
+       x="60.317719"
+       y="289.78775"
+       inkscape:export-filename="/home/waldgeist/data/pics/Homepage/mathematik/geometrie/winkel-scheitelwinkel-nebenwinkel.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <g
+       id="g3817-7"
+       transform="matrix(7.4449455,0,0,7.4449455,-1164.4,-446.37074)"
+       ns0:preamble="/home/waldgeist/data/sphinx/test.tex"
+       ns0:text="$b$"
+       inkscape:export-filename="/home/waldgeist/data/pics/physik/Own/mathematik/dreieck-gleichseitig.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <defs
+         id="defs3819-1">
+        <g
+           id="g3821-2">
+          <symbol
+             id="textext-7eb8a748-0-2"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path3824-1"
+               d="m 2.375,-6.8125 c 0,0 0,-0.109375 -0.125,-0.109375 -0.21875,0 -0.953125,0.078125 -1.21875,0.109375 -0.078125,0 -0.1875,0.015625 -0.1875,0.1875 0,0.125 0.09375,0.125 0.25,0.125 0.46875,0 0.484375,0.0625 0.484375,0.171875 0,0.0625 -0.078125,0.40625 -0.125,0.609375 l -0.828125,3.25 c -0.109375,0.5 -0.15625,0.671875 -0.15625,1.015625 0,0.9375 0.53125,1.5625 1.265625,1.5625 1.171875,0 2.40625,-1.484375 2.40625,-2.921875 0,-0.90625 -0.53125,-1.59375 -1.328125,-1.59375 -0.453125,0 -0.875,0.296875 -1.171875,0.59375 z M 1.453125,-3.046875 C 1.5,-3.265625 1.5,-3.28125 1.59375,-3.390625 2.078125,-4.03125 2.53125,-4.1875 2.796875,-4.1875 c 0.359375,0 0.625,0.296875 0.625,0.9375 0,0.59375 -0.328125,1.734375 -0.515625,2.109375 -0.328125,0.671875 -0.78125,1.03125 -1.171875,1.03125 -0.34375,0 -0.671875,-0.265625 -0.671875,-1 0,-0.203125 0,-0.390625 0.15625,-1.015625 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="textext-7eb8a748-1-7">
+        <g
+           id="g3827-5"
+           style="fill:#000000;fill-opacity:1" />
+      </g>
+    </g>
+    <g
+       ns0:text="$c$"
+       ns0:preamble="/home/waldgeist/data/sphinx/test.tex"
+       transform="matrix(4.6372342,0,0,4.6372342,-787.90475,-87.72926)"
+       id="g8176"
+       inkscape:export-filename="/home/waldgeist/data/pics/physik/Own/mathematik/dreieck-gleichseitig.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <defs
+         id="defs8178">
+        <g
+           id="g8180">
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="textext-26a702f7-0">
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:none"
+               d="m 3.953125,-3.78125 c -0.171875,0 -0.296875,0 -0.4375,0.125 -0.171875,0.15625 -0.1875,0.328125 -0.1875,0.390625 0,0.25 0.1875,0.359375 0.375,0.359375 0.28125,0 0.546875,-0.25 0.546875,-0.640625 0,-0.484375 -0.46875,-0.859375 -1.171875,-0.859375 -1.34375,0 -2.671875,1.421875 -2.671875,2.828125 0,0.90625 0.578125,1.6875 1.625,1.6875 1.421875,0 2.25,-1.0625 2.25,-1.171875 0,-0.0625 -0.046875,-0.140625 -0.109375,-0.140625 -0.0625,0 -0.078125,0.03125 -0.140625,0.109375 -0.78125,0.984375 -1.875,0.984375 -1.984375,0.984375 -0.625,0 -0.90625,-0.484375 -0.90625,-1.09375 0,-0.40625 0.203125,-1.375 0.546875,-1.984375 0.3125,-0.578125 0.859375,-1 1.40625,-1 0.328125,0 0.71875,0.125 0.859375,0.40625 z m 0,0"
+               id="path8183" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="textext-26a702f7-1">
+        <g
+           style="fill:#000000;fill-opacity:1"
+           id="g8186" />
+      </g>
+    </g>
+    <g
+       id="g7224"
+       transform="translate(1.2109375e-6,-81.283724)"
+       inkscape:export-filename="/home/waldgeist/data/pics/Homepage/mathematik/geometrie/winkel-scheitelwinkel-nebenwinkel.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <g
+         id="g12303"
+         style="fill:#000000;stroke:#000000;stroke-width:1.00319254"
+         transform="matrix(3.3630127,-7.7576423e-8,7.7576423e-8,3.3630127,-173.85612,107.45768)"
+         ns0:preamble="/home/waldgeist/data/sphinx/inkscape-preamble.tex"
+         ns0:text="$g _{\\rm{1}}$"
+         inkscape:export-filename="/home/waldgeist/data/pics/Homepage/mathematik/geometrie/winkel-stufenwinkel-wechselwinkel.png"
+         inkscape:export-xdpi="150"
+         inkscape:export-ydpi="150">
+        <defs
+           id="defs12305">
+          <g
+             id="g12307">
+            <symbol
+               id="textext-b3c96df1-0"
+               overflow="visible"
+               style="overflow:visible">
+              <path
+                 id="path12310"
+                 d=""
+                 style="stroke:none"
+                 inkscape:connector-curvature="0" />
+            </symbol>
+            <symbol
+               id="textext-b3c96df1-1"
+               overflow="visible"
+               style="overflow:visible">
+              <path
+                 id="path12313"
+                 d="M 4.6875,-3.765625 C 4.703125,-3.8125 4.71875,-3.875 4.71875,-3.9375 c 0,-0.171875 -0.109375,-0.265625 -0.28125,-0.265625 -0.09375,0 -0.375,0.0625 -0.40625,0.421875 -0.1875,-0.359375 -0.53125,-0.625 -0.9375,-0.625 -1.125,0 -2.359375,1.390625 -2.359375,2.828125 0,0.984375 0.59375,1.578125 1.3125,1.578125 0.59375,0 1.0625,-0.46875 1.15625,-0.578125 L 3.21875,-0.5625 C 3.015625,0.3125 2.890625,0.734375 2.890625,0.75 2.84375,0.84375 2.515625,1.828125 1.453125,1.828125 1.265625,1.828125 0.9375,1.8125 0.65625,1.71875 0.953125,1.640625 1.0625,1.375 1.0625,1.203125 c 0,-0.15625 -0.109375,-0.34375 -0.375,-0.34375 -0.21875,0 -0.53125,0.171875 -0.53125,0.578125 0,0.40625 0.359375,0.609375 1.3125,0.609375 1.25,0 1.96875,-0.78125 2.125,-1.375 z M 3.40625,-1.28125 C 3.34375,-1.015625 3.109375,-0.765625 2.890625,-0.578125 2.6875,-0.40625 2.375,-0.21875 2.078125,-0.21875 c -0.5,0 -0.640625,-0.515625 -0.640625,-0.921875 0,-0.46875 0.28125,-1.65625 0.5625,-2.15625 C 2.265625,-3.78125 2.6875,-4.1875 3.109375,-4.1875 c 0.65625,0 0.796875,0.8125 0.796875,0.859375 0,0.046875 -0.015625,0.109375 -0.03125,0.140625 z"
+                 style="stroke:none"
+                 inkscape:connector-curvature="0" />
+            </symbol>
+            <symbol
+               id="textext-b3c96df1-2"
+               overflow="visible"
+               style="overflow:visible">
+              <path
+                 id="path12316"
+                 d=""
+                 style="stroke:none"
+                 inkscape:connector-curvature="0" />
+            </symbol>
+            <symbol
+               id="textext-b3c96df1-3"
+               overflow="visible"
+               style="overflow:visible">
+              <path
+                 id="path12319"
+                 d="m 2.328125,-4.4375 c 0,-0.1875 0,-0.1875 -0.203125,-0.1875 -0.453125,0.4375 -1.078125,0.4375 -1.359375,0.4375 l 0,0.25 c 0.15625,0 0.625,0 1,-0.1875 l 0,3.546875 c 0,0.234375 0,0.328125 -0.6875,0.328125 l -0.265625,0 0,0.25 c 0.125,0 0.984375,-0.03125 1.234375,-0.03125 0.21875,0 1.09375,0.03125 1.25,0.03125 l 0,-0.25 -0.265625,0 c -0.703125,0 -0.703125,-0.09375 -0.703125,-0.328125 z"
+                 style="stroke:none"
+                 inkscape:connector-curvature="0" />
+            </symbol>
+          </g>
+        </defs>
+        <g
+           id="textext-b3c96df1-4"
+           style="stroke-width:1.00319254">
+          <g
+             id="g12322"
+             style="fill:#000000;fill-opacity:1;stroke-width:1.00319254">
+            <use
+               id="use12324"
+               y="134.765"
+               x="223.43201"
+               xlink:href="#textext-b3c96df1-1"
+               width="744.09448"
+               height="1052.3622"
+               style="stroke-width:1.00319254" />
+          </g>
+          <g
+             id="g12326"
+             style="fill:#000000;fill-opacity:1;stroke-width:1.00319254">
+            <use
+               id="use12328"
+               y="136.259"
+               x="228.18401"
+               xlink:href="#textext-b3c96df1-3"
+               width="744.09448"
+               height="1052.3622"
+               style="stroke-width:1.00319254" />
+          </g>
+        </g>
+      </g>
+      <g
+         ns0:text="$g _{\\rm{2}}$"
+         ns0:preamble="/home/waldgeist/data/sphinx/inkscape-preamble.tex"
+         transform="matrix(3.3630127,-7.7576423e-8,7.7576423e-8,3.3630127,-346.65328,-32.389413)"
+         style="fill:#000000;stroke:#000000;stroke-width:1.00319254"
+         id="g12478"
+         inkscape:export-filename="/home/waldgeist/data/pics/Homepage/mathematik/geometrie/winkel-stufenwinkel-wechselwinkel.png"
+         inkscape:export-xdpi="150"
+         inkscape:export-ydpi="150">
+        <defs
+           id="defs12480">
+          <g
+             id="g12482">
+            <symbol
+               style="overflow:visible"
+               overflow="visible"
+               id="textext-54f9e436-0">
+              <path
+                 inkscape:connector-curvature="0"
+                 style="stroke:none"
+                 d=""
+                 id="path12485" />
+            </symbol>
+            <symbol
+               style="overflow:visible"
+               overflow="visible"
+               id="textext-54f9e436-1">
+              <path
+                 inkscape:connector-curvature="0"
+                 style="stroke:none"
+                 d="M 4.6875,-3.765625 C 4.703125,-3.8125 4.71875,-3.875 4.71875,-3.9375 c 0,-0.171875 -0.109375,-0.265625 -0.28125,-0.265625 -0.09375,0 -0.375,0.0625 -0.40625,0.421875 -0.1875,-0.359375 -0.53125,-0.625 -0.9375,-0.625 -1.125,0 -2.359375,1.390625 -2.359375,2.828125 0,0.984375 0.59375,1.578125 1.3125,1.578125 0.59375,0 1.0625,-0.46875 1.15625,-0.578125 L 3.21875,-0.5625 C 3.015625,0.3125 2.890625,0.734375 2.890625,0.75 2.84375,0.84375 2.515625,1.828125 1.453125,1.828125 1.265625,1.828125 0.9375,1.8125 0.65625,1.71875 0.953125,1.640625 1.0625,1.375 1.0625,1.203125 c 0,-0.15625 -0.109375,-0.34375 -0.375,-0.34375 -0.21875,0 -0.53125,0.171875 -0.53125,0.578125 0,0.40625 0.359375,0.609375 1.3125,0.609375 1.25,0 1.96875,-0.78125 2.125,-1.375 z M 3.40625,-1.28125 C 3.34375,-1.015625 3.109375,-0.765625 2.890625,-0.578125 2.6875,-0.40625 2.375,-0.21875 2.078125,-0.21875 c -0.5,0 -0.640625,-0.515625 -0.640625,-0.921875 0,-0.46875 0.28125,-1.65625 0.5625,-2.15625 C 2.265625,-3.78125 2.6875,-4.1875 3.109375,-4.1875 c 0.65625,0 0.796875,0.8125 0.796875,0.859375 0,0.046875 -0.015625,0.109375 -0.03125,0.140625 z"
+                 id="path12488" />
+            </symbol>
+            <symbol
+               style="overflow:visible"
+               overflow="visible"
+               id="textext-54f9e436-2">
+              <path
+                 inkscape:connector-curvature="0"
+                 style="stroke:none"
+                 d=""
+                 id="path12491" />
+            </symbol>
+            <symbol
+               style="overflow:visible"
+               overflow="visible"
+               id="textext-54f9e436-3">
+              <path
+                 inkscape:connector-curvature="0"
+                 style="stroke:none"
+                 d="m 3.515625,-1.265625 -0.234375,0 c -0.015625,0.15625 -0.09375,0.5625 -0.1875,0.625 -0.046875,0.046875 -0.578125,0.046875 -0.6875,0.046875 l -1.28125,0 c 0.734375,-0.640625 0.984375,-0.84375 1.390625,-1.171875 0.515625,-0.40625 1,-0.84375 1,-1.5 0,-0.84375 -0.734375,-1.359375 -1.625,-1.359375 -0.859375,0 -1.453125,0.609375 -1.453125,1.25 0,0.34375 0.296875,0.390625 0.375,0.390625 0.15625,0 0.359375,-0.125 0.359375,-0.375 0,-0.125 -0.046875,-0.375 -0.40625,-0.375 C 0.984375,-4.21875 1.453125,-4.375 1.78125,-4.375 c 0.703125,0 1.0625,0.546875 1.0625,1.109375 0,0.609375 -0.4375,1.078125 -0.65625,1.328125 L 0.515625,-0.265625 C 0.4375,-0.203125 0.4375,-0.1875 0.4375,0 l 2.875,0 z"
+                 id="path12494" />
+            </symbol>
+          </g>
+        </defs>
+        <g
+           id="textext-54f9e436-4"
+           style="stroke-width:1.00319254">
+          <g
+             style="fill:#000000;fill-opacity:1;stroke-width:1.00319254"
+             id="g12497">
+            <use
+               height="1052.3622"
+               width="744.09448"
+               xlink:href="#textext-54f9e436-1"
+               x="223.43201"
+               y="134.765"
+               id="use12499"
+               style="stroke-width:1.00319254" />
+          </g>
+          <g
+             style="fill:#000000;fill-opacity:1;stroke-width:1.00319254"
+             id="g12501">
+            <use
+               height="1052.3622"
+               width="744.09448"
+               xlink:href="#textext-54f9e436-3"
+               x="228.18401"
+               y="136.259"
+               id="use12503"
+               style="stroke-width:1.00319254" />
+          </g>
+        </g>
+      </g>
+      <g
+         ns0:text="$\\alpha _{\\rm{1}}$"
+         ns0:preamble="/home/waldgeist/data/sphinx/inkscape-preamble.tex"
+         transform="matrix(3.3630127,-7.7576423e-8,7.7576423e-8,3.3630127,-457.05664,191.74384)"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.00319254"
+         id="g7970"
+         inkscape:export-filename="/home/waldgeist/data/pics/Homepage/mathematik/geometrie/winkel-stufenwinkel-wechselwinkel.png"
+         inkscape:export-xdpi="150"
+         inkscape:export-ydpi="150">
+        <defs
+           id="defs7972">
+          <g
+             id="g7974">
+            <symbol
+               style="overflow:visible"
+               overflow="visible"
+               id="textext-180a08d9-0">
+              <path
+                 inkscape:connector-curvature="0"
+                 style="stroke:none"
+                 d=""
+                 id="path7977" />
+            </symbol>
+            <symbol
+               style="overflow:visible"
+               overflow="visible"
+               id="textext-180a08d9-1">
+              <path
+                 inkscape:connector-curvature="0"
+                 style="stroke:none"
+                 d="m 4.75,-2.359375 c 0,-1.5625 -0.921875,-2.046875 -1.65625,-2.046875 -1.375,0 -2.6875,1.421875 -2.6875,2.828125 0,0.9375 0.59375,1.6875 1.625,1.6875 0.625,0 1.34375,-0.234375 2.09375,-0.84375 0.125,0.53125 0.453125,0.84375 0.90625,0.84375 0.53125,0 0.84375,-0.546875 0.84375,-0.703125 0,-0.078125 -0.0625,-0.109375 -0.125,-0.109375 -0.0625,0 -0.09375,0.03125 -0.125,0.109375 -0.1875,0.484375 -0.546875,0.484375 -0.5625,0.484375 -0.3125,0 -0.3125,-0.78125 -0.3125,-1.015625 0,-0.203125 0,-0.234375 0.109375,-0.34375 C 5.796875,-2.65625 6,-3.8125 6,-3.8125 6,-3.84375 5.984375,-3.921875 5.875,-3.921875 c -0.09375,0 -0.09375,0.03125 -0.140625,0.21875 -0.1875,0.625 -0.515625,1.375 -0.984375,1.96875 z m -0.65625,1.375 c -0.890625,0.765625 -1.65625,0.875 -2.046875,0.875 -0.59375,0 -0.90625,-0.453125 -0.90625,-1.09375 0,-0.484375 0.265625,-1.5625 0.578125,-2.0625 C 2.1875,-4 2.734375,-4.1875 3.078125,-4.1875 c 0.984375,0 0.984375,1.3125 0.984375,2.078125 0,0.375 0,0.953125 0.03125,1.125 z"
+                 id="path7980" />
+            </symbol>
+            <symbol
+               style="overflow:visible"
+               overflow="visible"
+               id="textext-180a08d9-2">
+              <path
+                 inkscape:connector-curvature="0"
+                 style="stroke:none"
+                 d=""
+                 id="path7983" />
+            </symbol>
+            <symbol
+               style="overflow:visible"
+               overflow="visible"
+               id="textext-180a08d9-3">
+              <path
+                 inkscape:connector-curvature="0"
+                 style="stroke:none"
+                 d="m 2.328125,-4.4375 c 0,-0.1875 0,-0.1875 -0.203125,-0.1875 -0.453125,0.4375 -1.078125,0.4375 -1.359375,0.4375 l 0,0.25 c 0.15625,0 0.625,0 1,-0.1875 l 0,3.546875 c 0,0.234375 0,0.328125 -0.6875,0.328125 l -0.265625,0 0,0.25 c 0.125,0 0.984375,-0.03125 1.234375,-0.03125 0.21875,0 1.09375,0.03125 1.25,0.03125 l 0,-0.25 -0.265625,0 c -0.703125,0 -0.703125,-0.09375 -0.703125,-0.328125 z"
+                 id="path7986" />
+            </symbol>
+          </g>
+        </defs>
+        <g
+           id="textext-180a08d9-4"
+           style="stroke-width:1.00319254">
+          <g
+             style="fill:#000000;fill-opacity:1;stroke-width:1.00319254"
+             id="g7989">
+            <use
+               height="1052.3622"
+               width="744.09448"
+               xlink:href="#textext-180a08d9-1"
+               x="223.43201"
+               y="134.765"
+               id="use7991"
+               style="stroke-width:1.00319254" />
+          </g>
+          <g
+             style="fill:#000000;fill-opacity:1;stroke-width:1.00319254"
+             id="g7993">
+            <use
+               height="1052.3622"
+               width="744.09448"
+               xlink:href="#textext-180a08d9-3"
+               x="229.80499"
+               y="136.259"
+               id="use7995"
+               style="stroke-width:1.00319254" />
+          </g>
+        </g>
+      </g>
+      <g
+         id="g8239"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.00319254"
+         transform="matrix(3.3630127,-7.7576423e-8,7.7576423e-8,3.3630127,-381.38352,117.30796)"
+         ns0:preamble="/home/waldgeist/data/sphinx/inkscape-preamble.tex"
+         ns0:text="$\\alpha _{\\rm{2}}$"
+         inkscape:export-filename="/home/waldgeist/data/pics/Homepage/mathematik/geometrie/winkel-stufenwinkel-wechselwinkel.png"
+         inkscape:export-xdpi="150"
+         inkscape:export-ydpi="150">
+        <defs
+           id="defs8241">
+          <g
+             id="g8243">
+            <symbol
+               id="textext-7c6380c5-0"
+               overflow="visible"
+               style="overflow:visible">
+              <path
+                 id="path8246"
+                 d=""
+                 style="stroke:none"
+                 inkscape:connector-curvature="0" />
+            </symbol>
+            <symbol
+               id="textext-7c6380c5-1"
+               overflow="visible"
+               style="overflow:visible">
+              <path
+                 id="path8249"
+                 d="m 4.75,-2.359375 c 0,-1.5625 -0.921875,-2.046875 -1.65625,-2.046875 -1.375,0 -2.6875,1.421875 -2.6875,2.828125 0,0.9375 0.59375,1.6875 1.625,1.6875 0.625,0 1.34375,-0.234375 2.09375,-0.84375 0.125,0.53125 0.453125,0.84375 0.90625,0.84375 0.53125,0 0.84375,-0.546875 0.84375,-0.703125 0,-0.078125 -0.0625,-0.109375 -0.125,-0.109375 -0.0625,0 -0.09375,0.03125 -0.125,0.109375 -0.1875,0.484375 -0.546875,0.484375 -0.5625,0.484375 -0.3125,0 -0.3125,-0.78125 -0.3125,-1.015625 0,-0.203125 0,-0.234375 0.109375,-0.34375 C 5.796875,-2.65625 6,-3.8125 6,-3.8125 6,-3.84375 5.984375,-3.921875 5.875,-3.921875 c -0.09375,0 -0.09375,0.03125 -0.140625,0.21875 -0.1875,0.625 -0.515625,1.375 -0.984375,1.96875 z m -0.65625,1.375 c -0.890625,0.765625 -1.65625,0.875 -2.046875,0.875 -0.59375,0 -0.90625,-0.453125 -0.90625,-1.09375 0,-0.484375 0.265625,-1.5625 0.578125,-2.0625 C 2.1875,-4 2.734375,-4.1875 3.078125,-4.1875 c 0.984375,0 0.984375,1.3125 0.984375,2.078125 0,0.375 0,0.953125 0.03125,1.125 z"
+                 style="stroke:none"
+                 inkscape:connector-curvature="0" />
+            </symbol>
+            <symbol
+               id="textext-7c6380c5-2"
+               overflow="visible"
+               style="overflow:visible">
+              <path
+                 id="path8252"
+                 d=""
+                 style="stroke:none"
+                 inkscape:connector-curvature="0" />
+            </symbol>
+            <symbol
+               id="textext-7c6380c5-3"
+               overflow="visible"
+               style="overflow:visible">
+              <path
+                 id="path8255"
+                 d="m 3.515625,-1.265625 -0.234375,0 c -0.015625,0.15625 -0.09375,0.5625 -0.1875,0.625 -0.046875,0.046875 -0.578125,0.046875 -0.6875,0.046875 l -1.28125,0 c 0.734375,-0.640625 0.984375,-0.84375 1.390625,-1.171875 0.515625,-0.40625 1,-0.84375 1,-1.5 0,-0.84375 -0.734375,-1.359375 -1.625,-1.359375 -0.859375,0 -1.453125,0.609375 -1.453125,1.25 0,0.34375 0.296875,0.390625 0.375,0.390625 0.15625,0 0.359375,-0.125 0.359375,-0.375 0,-0.125 -0.046875,-0.375 -0.40625,-0.375 C 0.984375,-4.21875 1.453125,-4.375 1.78125,-4.375 c 0.703125,0 1.0625,0.546875 1.0625,1.109375 0,0.609375 -0.4375,1.078125 -0.65625,1.328125 L 0.515625,-0.265625 C 0.4375,-0.203125 0.4375,-0.1875 0.4375,0 l 2.875,0 z"
+                 style="stroke:none"
+                 inkscape:connector-curvature="0" />
+            </symbol>
+          </g>
+        </defs>
+        <g
+           id="textext-7c6380c5-4"
+           style="stroke-width:1.00319254">
+          <g
+             id="g8258"
+             style="fill:#000000;fill-opacity:1;stroke-width:1.00319254">
+            <use
+               id="use8260"
+               y="134.765"
+               x="223.43201"
+               xlink:href="#textext-7c6380c5-1"
+               width="744.09448"
+               height="1052.3622"
+               style="stroke-width:1.00319254" />
+          </g>
+          <g
+             id="g8262"
+             style="fill:#000000;fill-opacity:1;stroke-width:1.00319254">
+            <use
+               id="use8264"
+               y="136.259"
+               x="229.80499"
+               xlink:href="#textext-7c6380c5-3"
+               width="744.09448"
+               height="1052.3622"
+               style="stroke-width:1.00319254" />
+          </g>
+        </g>
+      </g>
+      <g
+         ns0:text="$\\beta _{\\rm{1}}$"
+         ns0:preamble="/home/waldgeist/data/sphinx/inkscape-preamble.tex"
+         transform="matrix(3.3630127,-7.7576423e-8,7.7576423e-8,3.3630127,-391.24529,182.66064)"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.00319254"
+         id="g8564"
+         inkscape:export-filename="/home/waldgeist/data/pics/Homepage/mathematik/geometrie/winkel-stufenwinkel-wechselwinkel.png"
+         inkscape:export-xdpi="150"
+         inkscape:export-ydpi="150">
+        <defs
+           id="defs8566">
+          <g
+             id="g8568">
+            <symbol
+               style="overflow:visible"
+               overflow="visible"
+               id="textext-24554eff-0">
+              <path
+                 inkscape:connector-curvature="0"
+                 style="stroke:none"
+                 d=""
+                 id="path8571" />
+            </symbol>
+            <symbol
+               style="overflow:visible"
+               overflow="visible"
+               id="textext-24554eff-1">
+              <path
+                 inkscape:connector-curvature="0"
+                 style="stroke:none"
+                 d="m 5.734375,-5.671875 c 0,-0.75 -0.546875,-1.359375 -1.359375,-1.359375 -0.578125,0 -0.859375,0.15625 -1.203125,0.40625 C 2.625,-6.21875 2.078125,-5.25 1.890625,-4.5 L 0.296875,1.828125 C 0.296875,1.875 0.34375,1.9375 0.421875,1.9375 0.5,1.9375 0.53125,1.90625 0.53125,1.890625 L 1.234375,-0.875 c 0.1875,0.609375 0.625,0.96875 1.359375,0.96875 C 3.3125,0.09375 4.0625,-0.25 4.515625,-0.6875 5,-1.140625 5.3125,-1.78125 5.3125,-2.515625 c 0,-0.71875 -0.375,-1.25 -0.734375,-1.484375 0.578125,-0.34375 1.15625,-0.953125 1.15625,-1.671875 z M 3.9375,-4.015625 c -0.125,0.046875 -0.234375,0.0625 -0.484375,0.0625 -0.140625,0 -0.328125,0.015625 -0.4375,-0.03125 0.03125,-0.109375 0.390625,-0.078125 0.5,-0.078125 0.203125,0 0.296875,0 0.421875,0.046875 z M 5.171875,-5.90625 c 0,0.703125 -0.375,1.421875 -0.890625,1.734375 C 4,-4.28125 3.8125,-4.296875 3.515625,-4.296875 c -0.21875,0 -0.78125,-0.015625 -0.78125,0.3125 0,0.28125 0.515625,0.25 0.6875,0.25 0.375,0 0.53125,0 0.828125,-0.125 0.375,0.359375 0.421875,0.671875 0.4375,1.125 0.015625,0.578125 -0.21875,1.328125 -0.5,1.71875 C 3.796875,-0.484375 3.125,-0.125 2.5625,-0.125 c -0.765625,0 -1.140625,-0.578125 -1.140625,-1.28125 0,-0.09375 0,-0.25 0.046875,-0.4375 L 2.109375,-4.359375 C 2.328125,-5.21875 3.046875,-6.8125 4.25,-6.8125 c 0.578125,0 0.921875,0.3125 0.921875,0.90625 z"
+                 id="path8574" />
+            </symbol>
+            <symbol
+               style="overflow:visible"
+               overflow="visible"
+               id="textext-24554eff-2">
+              <path
+                 inkscape:connector-curvature="0"
+                 style="stroke:none"
+                 d=""
+                 id="path8577" />
+            </symbol>
+            <symbol
+               style="overflow:visible"
+               overflow="visible"
+               id="textext-24554eff-3">
+              <path
+                 inkscape:connector-curvature="0"
+                 style="stroke:none"
+                 d="m 2.328125,-4.4375 c 0,-0.1875 0,-0.1875 -0.203125,-0.1875 -0.453125,0.4375 -1.078125,0.4375 -1.359375,0.4375 l 0,0.25 c 0.15625,0 0.625,0 1,-0.1875 l 0,3.546875 c 0,0.234375 0,0.328125 -0.6875,0.328125 l -0.265625,0 0,0.25 c 0.125,0 0.984375,-0.03125 1.234375,-0.03125 0.21875,0 1.09375,0.03125 1.25,0.03125 l 0,-0.25 -0.265625,0 c -0.703125,0 -0.703125,-0.09375 -0.703125,-0.328125 z"
+                 id="path8580" />
+            </symbol>
+          </g>
+        </defs>
+        <g
+           id="textext-24554eff-4"
+           style="stroke-width:1.00319254">
+          <g
+             style="fill:#000000;fill-opacity:1;stroke-width:1.00319254"
+             id="g8583">
+            <use
+               height="1052.3622"
+               width="744.09448"
+               xlink:href="#textext-24554eff-1"
+               x="223.43201"
+               y="134.765"
+               id="use8585"
+               style="stroke-width:1.00319254" />
+          </g>
+          <g
+             style="fill:#000000;fill-opacity:1;stroke-width:1.00319254"
+             id="g8587">
+            <use
+               height="1052.3622"
+               width="744.09448"
+               xlink:href="#textext-24554eff-3"
+               x="229.067"
+               y="136.259"
+               id="use8589"
+               style="stroke-width:1.00319254" />
+          </g>
+        </g>
+      </g>
+      <g
+         id="g8892"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.00319254"
+         transform="matrix(3.3630127,-7.7576423e-8,7.7576423e-8,3.3630127,-444.55298,126.0399)"
+         ns0:preamble="/home/waldgeist/data/sphinx/inkscape-preamble.tex"
+         ns0:text="$\\beta _{\\rm{2}}$"
+         inkscape:export-filename="/home/waldgeist/data/pics/Homepage/mathematik/geometrie/winkel-stufenwinkel-wechselwinkel.png"
+         inkscape:export-xdpi="150"
+         inkscape:export-ydpi="150">
+        <defs
+           id="defs8894">
+          <g
+             id="g8896">
+            <symbol
+               id="textext-3f0b6a63-0"
+               overflow="visible"
+               style="overflow:visible">
+              <path
+                 id="path8899"
+                 d=""
+                 style="stroke:none"
+                 inkscape:connector-curvature="0" />
+            </symbol>
+            <symbol
+               id="textext-3f0b6a63-1"
+               overflow="visible"
+               style="overflow:visible">
+              <path
+                 id="path8902"
+                 d="m 5.734375,-5.671875 c 0,-0.75 -0.546875,-1.359375 -1.359375,-1.359375 -0.578125,0 -0.859375,0.15625 -1.203125,0.40625 C 2.625,-6.21875 2.078125,-5.25 1.890625,-4.5 L 0.296875,1.828125 C 0.296875,1.875 0.34375,1.9375 0.421875,1.9375 0.5,1.9375 0.53125,1.90625 0.53125,1.890625 L 1.234375,-0.875 c 0.1875,0.609375 0.625,0.96875 1.359375,0.96875 C 3.3125,0.09375 4.0625,-0.25 4.515625,-0.6875 5,-1.140625 5.3125,-1.78125 5.3125,-2.515625 c 0,-0.71875 -0.375,-1.25 -0.734375,-1.484375 0.578125,-0.34375 1.15625,-0.953125 1.15625,-1.671875 z M 3.9375,-4.015625 c -0.125,0.046875 -0.234375,0.0625 -0.484375,0.0625 -0.140625,0 -0.328125,0.015625 -0.4375,-0.03125 0.03125,-0.109375 0.390625,-0.078125 0.5,-0.078125 0.203125,0 0.296875,0 0.421875,0.046875 z M 5.171875,-5.90625 c 0,0.703125 -0.375,1.421875 -0.890625,1.734375 C 4,-4.28125 3.8125,-4.296875 3.515625,-4.296875 c -0.21875,0 -0.78125,-0.015625 -0.78125,0.3125 0,0.28125 0.515625,0.25 0.6875,0.25 0.375,0 0.53125,0 0.828125,-0.125 0.375,0.359375 0.421875,0.671875 0.4375,1.125 0.015625,0.578125 -0.21875,1.328125 -0.5,1.71875 C 3.796875,-0.484375 3.125,-0.125 2.5625,-0.125 c -0.765625,0 -1.140625,-0.578125 -1.140625,-1.28125 0,-0.09375 0,-0.25 0.046875,-0.4375 L 2.109375,-4.359375 C 2.328125,-5.21875 3.046875,-6.8125 4.25,-6.8125 c 0.578125,0 0.921875,0.3125 0.921875,0.90625 z"
+                 style="stroke:none"
+                 inkscape:connector-curvature="0" />
+            </symbol>
+            <symbol
+               id="textext-3f0b6a63-2"
+               overflow="visible"
+               style="overflow:visible">
+              <path
+                 id="path8905"
+                 d=""
+                 style="stroke:none"
+                 inkscape:connector-curvature="0" />
+            </symbol>
+            <symbol
+               id="textext-3f0b6a63-3"
+               overflow="visible"
+               style="overflow:visible">
+              <path
+                 id="path8908"
+                 d="m 3.515625,-1.265625 -0.234375,0 c -0.015625,0.15625 -0.09375,0.5625 -0.1875,0.625 -0.046875,0.046875 -0.578125,0.046875 -0.6875,0.046875 l -1.28125,0 c 0.734375,-0.640625 0.984375,-0.84375 1.390625,-1.171875 0.515625,-0.40625 1,-0.84375 1,-1.5 0,-0.84375 -0.734375,-1.359375 -1.625,-1.359375 -0.859375,0 -1.453125,0.609375 -1.453125,1.25 0,0.34375 0.296875,0.390625 0.375,0.390625 0.15625,0 0.359375,-0.125 0.359375,-0.375 0,-0.125 -0.046875,-0.375 -0.40625,-0.375 C 0.984375,-4.21875 1.453125,-4.375 1.78125,-4.375 c 0.703125,0 1.0625,0.546875 1.0625,1.109375 0,0.609375 -0.4375,1.078125 -0.65625,1.328125 L 0.515625,-0.265625 C 0.4375,-0.203125 0.4375,-0.1875 0.4375,0 l 2.875,0 z"
+                 style="stroke:none"
+                 inkscape:connector-curvature="0" />
+            </symbol>
+          </g>
+        </defs>
+        <g
+           id="textext-3f0b6a63-4"
+           style="stroke-width:1.00319254">
+          <g
+             id="g8911"
+             style="fill:#000000;fill-opacity:1;stroke-width:1.00319254">
+            <use
+               id="use8913"
+               y="134.765"
+               x="223.43201"
+               xlink:href="#textext-3f0b6a63-1"
+               width="744.09448"
+               height="1052.3622"
+               style="stroke-width:1.00319254" />
+          </g>
+          <g
+             id="g8915"
+             style="fill:#000000;fill-opacity:1;stroke-width:1.00319254">
+            <use
+               id="use8917"
+               y="136.259"
+               x="229.067"
+               xlink:href="#textext-3f0b6a63-3"
+               width="744.09448"
+               height="1052.3622"
+               style="stroke-width:1.00319254" />
+          </g>
+        </g>
+      </g>
+      <path
+         sodipodi:type="arc"
+         style="color:#000000;fill:none;stroke:#f9f9f9;stroke-width:2.73008776;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.73008762, 5.46017524;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path9078"
+         sodipodi:cx="374.35425"
+         sodipodi:cy="626.44232"
+         sodipodi:rx="70.64576"
+         sodipodi:ry="70.64576"
+         d="m 445.00001,626.44232 c 0,39.01658 -31.62919,70.64576 -70.64576,70.64576 -39.01658,0 -70.64576,-31.62918 -70.64576,-70.64576 0,-39.01657 31.62918,-70.64576 70.64576,-70.64576 39.01657,0 70.64576,31.62919 70.64576,70.64576 z"
+         transform="matrix(0.54943295,-0.95164579,0.95164579,0.54943295,-454.75588,613.23072)"
+         inkscape:export-filename="/home/waldgeist/data/pics/Homepage/mathematik/geometrie/winkel-stufenwinkel-wechselwinkel.png"
+         inkscape:export-xdpi="150"
+         inkscape:export-ydpi="150" />
+      <path
+         transform="matrix(0.54943295,-0.95164579,0.95164579,0.54943295,-454.75588,613.23072)"
+         d="m 328.37981,572.80302 c 29.62417,-25.39098 74.22275,-21.9593 99.61374,7.66486 6.87581,8.02215 11.86469,17.4844 14.59926,27.68997"
+         sodipodi:ry="70.64576"
+         sodipodi:rx="70.64576"
+         sodipodi:cy="626.44232"
+         sodipodi:cx="374.35425"
+         id="path9080"
+         style="color:#000000;fill:none;stroke:#000000;stroke-width:2.73008776;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-start:url(#Arrow2Mstart);visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc"
+         sodipodi:start="4.0037853"
+         sodipodi:end="6.0213859"
+         sodipodi:open="true"
+         inkscape:export-filename="/home/waldgeist/data/pics/Homepage/mathematik/geometrie/winkel-stufenwinkel-wechselwinkel.png"
+         inkscape:export-xdpi="150"
+         inkscape:export-ydpi="150" />
+      <path
+         inkscape:export-ydpi="150"
+         inkscape:export-xdpi="150"
+         inkscape:export-filename="/home/waldgeist/data/pics/Homepage/mathematik/geometrie/winkel-stufenwinkel-wechselwinkel.png"
+         style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 288.73918,818.88913 402.04112,396.0405"
+         id="path4429"
+         inkscape:connector-curvature="0"
+         inkscape:transform-center-x="-212.91953"
+         inkscape:transform-center-y="-58.146205" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4930"
+         d="M 609.93611,531.11954 134.15837,659.31233"
+         style="fill:none;stroke:#000000;stroke-width:3.00000024;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         inkscape:export-filename="/home/waldgeist/data/pics/Homepage/mathematik/geometrie/winkel-stufenwinkel-wechselwinkel.png"
+         inkscape:export-xdpi="150"
+         inkscape:export-ydpi="150" />
+      <path
+         transform="matrix(0.54943295,-0.95164579,0.95164579,0.54943295,-454.75588,613.23072)"
+         d="m 443.45623,611.75424 c 4.92827,23.1857 -2.09973,47.29769 -18.71386,64.20435"
+         sodipodi:ry="70.64576"
+         sodipodi:rx="70.64576"
+         sodipodi:cy="626.44232"
+         sodipodi:cx="374.35425"
+         id="path9818"
+         style="color:#000000;fill:none;stroke:#000000;stroke-width:2.73008776;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-start:url(#Arrow2Mstart);visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc"
+         sodipodi:start="6.0737458"
+         sodipodi:end="7.0598568"
+         sodipodi:open="true"
+         inkscape:export-filename="/home/waldgeist/data/pics/Homepage/mathematik/geometrie/winkel-stufenwinkel-wechselwinkel.png"
+         inkscape:export-xdpi="150"
+         inkscape:export-ydpi="150" />
+      <path
+         transform="matrix(0.54943295,-0.95164579,0.95164579,0.54943295,-454.75588,613.23072)"
+         d="m 420.79502,679.67838 c -29.40146,25.64853 -74.0283,22.60618 -99.67683,-6.79528 -6.97292,-7.99321 -12.05638,-17.454 -14.87319,-27.68036"
+         sodipodi:ry="70.64576"
+         sodipodi:rx="70.64576"
+         sodipodi:cy="626.44232"
+         sodipodi:cx="374.35425"
+         id="path10004"
+         style="color:#000000;fill:none;stroke:#000000;stroke-width:2.73008776;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-start:url(#Arrow2Mstart);visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc"
+         sodipodi:start="0.853466"
+         sodipodi:end="2.8728119"
+         sodipodi:open="true"
+         inkscape:export-filename="/home/waldgeist/data/pics/Homepage/mathematik/geometrie/winkel-stufenwinkel-wechselwinkel.png"
+         inkscape:export-xdpi="150"
+         inkscape:export-ydpi="150" />
+      <path
+         transform="matrix(0.54943295,-0.95164579,0.95164579,0.54943295,-454.75588,613.23072)"
+         d="m 305.00645,639.92217 c -4.4812,-23.0538 2.78709,-46.82734 19.3937,-63.43394"
+         sodipodi:ry="70.64576"
+         sodipodi:rx="70.64576"
+         sodipodi:cy="626.44232"
+         sodipodi:cx="374.35425"
+         id="path10190"
+         style="color:#000000;fill:none;stroke:#000000;stroke-width:2.73008776;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-start:url(#Arrow2Mstart);visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc"
+         sodipodi:start="2.9496064"
+         sodipodi:end="3.9269908"
+         sodipodi:open="true"
+         inkscape:export-filename="/home/waldgeist/data/pics/Homepage/mathematik/geometrie/winkel-stufenwinkel-wechselwinkel.png"
+         inkscape:export-xdpi="150"
+         inkscape:export-ydpi="150" />
+    </g>
+  </g>
+</svg>

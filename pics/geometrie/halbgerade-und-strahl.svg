@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:ns0="http://www.iki.fi/pav/software/textext/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1052.3622"
+   height="744.09448"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="halbgerade-und-strahl.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.28133109"
+     inkscape:cx="180.62933"
+     inkscape:cy="928.64259"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="974"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     inkscape:snap-nodes="true"
+     inkscape:object-paths="true"
+     inkscape:object-nodes="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-global="true">
+    <sodipodi:guide
+       id="guide18392"
+       orientation="744.0945,0"
+       position="0.0,0" />
+    <sodipodi:guide
+       id="guide18394"
+       orientation="744.0945,0"
+       position="526.1811,0" />
+    <sodipodi:guide
+       id="guide18396"
+       orientation="744.0945,0"
+       position="1052.3622,0" />
+    <sodipodi:guide
+       id="guide18398"
+       orientation="0,1052.3622"
+       position="0,0.0" />
+    <sodipodi:guide
+       id="guide18400"
+       orientation="0,1052.3622"
+       position="0,372.0472" />
+    <sodipodi:guide
+       id="guide18402"
+       orientation="0,1052.3622"
+       position="0,744.0945" />
+  </sodipodi:namedview>
+  <title
+     id="title12258">Halbgerade und Strahl</title>
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow2Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mstart"
+       style="overflow:visible">
+      <path
+         id="path10062"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(0.6,0.6)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Sstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Sstart"
+       style="overflow:visible">
+      <path
+         id="path10068"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(0.3,0,0,0.3,-0.69,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Send"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Send"
+       style="overflow:visible">
+      <path
+         id="path10071"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-0.3,0,0,-0.3,0.69,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="StopL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="StopL"
+       style="overflow:visible">
+      <path
+         id="path3928"
+         d="M 0,5.65 0,-5.65"
+         style="fill:none;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.8,0.8)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend"
+       style="overflow:visible">
+      <path
+         id="path3762"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend"
+       style="overflow:visible">
+      <path
+         id="path3786"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <defs
+       id="defs13164">
+      <g
+         id="g13166">
+        <symbol
+           style="overflow:visible"
+           overflow="visible"
+           id="textext-29579761-0">
+          <path
+             inkscape:connector-curvature="0"
+             style="stroke:none"
+             d=""
+             id="path13169" />
+        </symbol>
+        <symbol
+           style="overflow:visible"
+           overflow="visible"
+           id="textext-29579761-1">
+          <path
+             inkscape:connector-curvature="0"
+             style="stroke:none"
+             d="m 2.21875,-3.65625 0,-2.4375 C 2.21875,-6.4375 2.234375,-6.5 2.703125,-6.5 l 1.234375,0 c 0.96875,0 1.3125,0.84375 1.3125,1.375 0,0.640625 -0.484375,1.46875 -1.59375,1.46875 z M 4.5625,-3.5625 C 5.53125,-3.75 6.21875,-4.390625 6.21875,-5.125 6.21875,-5.984375 5.296875,-6.8125 4,-6.8125 l -3.640625,0 0,0.3125 0.234375,0 c 0.765625,0 0.796875,0.109375 0.796875,0.46875 l 0,5.25 c 0,0.359375 -0.03125,0.46875 -0.796875,0.46875 l -0.234375,0 0,0.3125 3.90625,0 c 1.328125,0 2.21875,-0.890625 2.21875,-1.828125 0,-0.859375 -0.8125,-1.609375 -1.921875,-1.734375 z m -0.609375,3.25 -1.25,0 c -0.46875,0 -0.484375,-0.0625 -0.484375,-0.390625 l 0,-2.71875 1.875,0 C 5.078125,-3.421875 5.5,-2.5 5.5,-1.828125 5.5,-1.125 4.96875,-0.3125 3.953125,-0.3125 z"
+             id="path13172" />
+        </symbol>
+      </g>
+    </defs>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Halbgerade und Strahl</dc:title>
+        <dc:date>2013-09-08</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Bernhard Grotz</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Bernhard Grotz</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Bernhard Grotz</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:language>de_DE</dc:language>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>Mathematik</rdf:li>
+            <rdf:li>Geometrie</rdf:li>
+            <rdf:li>Halbgerade</rdf:li>
+            <rdf:li>Strahl</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:prohibits
+           rdf:resource="http://creativecommons.org/ns#CommercialUse" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-308.2677)">
+    <g
+       id="g4492"
+       transform="matrix(3.3737494,0,0,3.3737494,-254.33287,-175.74676)"
+       ns0:preamble="/home/waldgeist/data/sphinx/inkscape-preamble.tex"
+       ns0:text="$\\vec{c}$">
+      <defs
+         id="defs4494">
+        <g
+           id="g4496">
+          <symbol
+             id="textext-23843a60-0"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path4499"
+               d="m 5.359375,-5.9375 c -0.140625,0.140625 -0.46875,0.421875 -0.46875,0.59375 0,0.09375 0.09375,0.203125 0.1875,0.203125 0.09375,0 0.140625,-0.078125 0.203125,-0.140625 C 5.390625,-5.421875 5.625,-5.703125 6.0625,-5.921875 6.125,-5.96875 6.234375,-6.015625 6.234375,-6.125 6.234375,-6.234375 6.15625,-6.28125 6.09375,-6.328125 5.875,-6.484375 5.765625,-6.65625 5.6875,-6.890625 5.65625,-6.984375 5.625,-7.125 5.484375,-7.125 c -0.140625,0 -0.203125,0.140625 -0.203125,0.21875 0,0.046875 0.078125,0.359375 0.234375,0.578125 l -3.359375,0 c -0.15625,0 -0.34375,0 -0.34375,0.203125 0,0.1875 0.1875,0.1875 0.34375,0.1875 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+          <symbol
+             id="textext-23843a60-1"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path4502"
+               d="m 3.953125,-3.78125 c -0.171875,0 -0.296875,0 -0.4375,0.125 -0.171875,0.15625 -0.1875,0.328125 -0.1875,0.390625 0,0.25 0.1875,0.359375 0.375,0.359375 0.28125,0 0.546875,-0.25 0.546875,-0.640625 0,-0.484375 -0.46875,-0.859375 -1.171875,-0.859375 -1.34375,0 -2.671875,1.421875 -2.671875,2.828125 0,0.90625 0.578125,1.6875 1.625,1.6875 1.421875,0 2.25,-1.0625 2.25,-1.171875 0,-0.0625 -0.046875,-0.140625 -0.109375,-0.140625 -0.0625,0 -0.078125,0.03125 -0.140625,0.109375 -0.78125,0.984375 -1.875,0.984375 -1.984375,0.984375 -0.625,0 -0.90625,-0.484375 -0.90625,-1.09375 0,-0.40625 0.203125,-1.375 0.546875,-1.984375 0.3125,-0.578125 0.859375,-1 1.40625,-1 0.328125,0 0.71875,0.125 0.859375,0.40625 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="textext-23843a60-2">
+        <g
+           id="g4505"
+           style="fill:#000000;fill-opacity:1" />
+        <g
+           id="g4509"
+           style="fill:#000000;fill-opacity:1" />
+      </g>
+    </g>
+    <rect
+       ry="2.2183616"
+       y="578.53027"
+       x="23.828827"
+       height="203.56927"
+       width="1004.7045"
+       id="rect4674-6"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.39586639;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       inkscape:export-filename="/home/waldgeist/data/pics/Homepage/mathematik/geometrie/halbgerade-und-strahl.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       inkscape:export-ydpi="150"
+       inkscape:export-xdpi="150"
+       inkscape:export-filename="/home/waldgeist/data/pics/Homepage/mathematik/geometrie/halbgerade-und-strahl.png"
+       inkscape:connector-curvature="0"
+       id="path11595"
+       d="M 63.957081,747.00885 559.48922,609.10779"
+       style="fill:none;stroke:#808080;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3, 9;stroke-dashoffset:0;marker-start:none;marker-end:none" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;marker-start:none;marker-end:none"
+       d="M 99.223441,736.94234 517.11375,620.95158"
+       id="path2985"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/waldgeist/data/pics/Homepage/mathematik/geometrie/halbgerade-und-strahl.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <g
+       id="g12303"
+       style="fill:#000000;stroke:#000000;stroke-width:1"
+       transform="matrix(3.3737494,0,0,3.3737494,-650.90408,304.00599)"
+       ns0:preamble="/home/waldgeist/data/sphinx/inkscape-preamble.tex"
+       ns0:text="$g _{\\rm{1}}$"
+       inkscape:export-filename="/home/waldgeist/data/pics/Homepage/mathematik/geometrie/halbgerade-und-strahl.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <defs
+         id="defs12305">
+        <g
+           id="g12307">
+          <symbol
+             id="textext-b3c96df1-0"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path12310"
+               d=""
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+          <symbol
+             id="textext-b3c96df1-1"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path12313"
+               d="M 4.6875,-3.765625 C 4.703125,-3.8125 4.71875,-3.875 4.71875,-3.9375 c 0,-0.171875 -0.109375,-0.265625 -0.28125,-0.265625 -0.09375,0 -0.375,0.0625 -0.40625,0.421875 -0.1875,-0.359375 -0.53125,-0.625 -0.9375,-0.625 -1.125,0 -2.359375,1.390625 -2.359375,2.828125 0,0.984375 0.59375,1.578125 1.3125,1.578125 0.59375,0 1.0625,-0.46875 1.15625,-0.578125 L 3.21875,-0.5625 C 3.015625,0.3125 2.890625,0.734375 2.890625,0.75 2.84375,0.84375 2.515625,1.828125 1.453125,1.828125 1.265625,1.828125 0.9375,1.8125 0.65625,1.71875 0.953125,1.640625 1.0625,1.375 1.0625,1.203125 c 0,-0.15625 -0.109375,-0.34375 -0.375,-0.34375 -0.21875,0 -0.53125,0.171875 -0.53125,0.578125 0,0.40625 0.359375,0.609375 1.3125,0.609375 1.25,0 1.96875,-0.78125 2.125,-1.375 z M 3.40625,-1.28125 C 3.34375,-1.015625 3.109375,-0.765625 2.890625,-0.578125 2.6875,-0.40625 2.375,-0.21875 2.078125,-0.21875 c -0.5,0 -0.640625,-0.515625 -0.640625,-0.921875 0,-0.46875 0.28125,-1.65625 0.5625,-2.15625 C 2.265625,-3.78125 2.6875,-4.1875 3.109375,-4.1875 c 0.65625,0 0.796875,0.8125 0.796875,0.859375 0,0.046875 -0.015625,0.109375 -0.03125,0.140625 z"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+          <symbol
+             id="textext-b3c96df1-2"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path12316"
+               d=""
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+          <symbol
+             id="textext-b3c96df1-3"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path12319"
+               d="m 2.328125,-4.4375 c 0,-0.1875 0,-0.1875 -0.203125,-0.1875 -0.453125,0.4375 -1.078125,0.4375 -1.359375,0.4375 l 0,0.25 c 0.15625,0 0.625,0 1,-0.1875 l 0,3.546875 c 0,0.234375 0,0.328125 -0.6875,0.328125 l -0.265625,0 0,0.25 c 0.125,0 0.984375,-0.03125 1.234375,-0.03125 0.21875,0 1.09375,0.03125 1.25,0.03125 l 0,-0.25 -0.265625,0 c -0.703125,0 -0.703125,-0.09375 -0.703125,-0.328125 z"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="textext-b3c96df1-4"
+         style="stroke-width:1">
+        <g
+           id="g12322"
+           style="fill:#000000;fill-opacity:1;stroke-width:1">
+          <use
+             id="use12324"
+             y="134.765"
+             x="223.43201"
+             xlink:href="#textext-b3c96df1-1"
+             width="744.09448"
+             height="1052.3622"
+             style="stroke-width:1" />
+        </g>
+        <g
+           id="g12326"
+           style="fill:#000000;fill-opacity:1;stroke-width:1">
+          <use
+             id="use12328"
+             y="136.259"
+             x="228.18401"
+             xlink:href="#textext-b3c96df1-3"
+             width="744.09448"
+             height="1052.3622"
+             style="stroke-width:1" />
+        </g>
+      </g>
+    </g>
+    <g
+       ns0:text="$g _{\\rm{2}}$"
+       ns0:preamble="/home/waldgeist/data/sphinx/inkscape-preamble.tex"
+       transform="matrix(3.3737494,0,0,3.3737494,-252.12848,192.93895)"
+       style="fill:#000000;stroke:#000000;stroke-width:1"
+       id="g12478"
+       inkscape:export-filename="/home/waldgeist/data/pics/Homepage/mathematik/geometrie/halbgerade-und-strahl.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <defs
+         id="defs12480">
+        <g
+           id="g12482">
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="textext-54f9e436-0">
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:none"
+               d=""
+               id="path12485" />
+          </symbol>
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="textext-54f9e436-1">
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:none"
+               d="M 4.6875,-3.765625 C 4.703125,-3.8125 4.71875,-3.875 4.71875,-3.9375 c 0,-0.171875 -0.109375,-0.265625 -0.28125,-0.265625 -0.09375,0 -0.375,0.0625 -0.40625,0.421875 -0.1875,-0.359375 -0.53125,-0.625 -0.9375,-0.625 -1.125,0 -2.359375,1.390625 -2.359375,2.828125 0,0.984375 0.59375,1.578125 1.3125,1.578125 0.59375,0 1.0625,-0.46875 1.15625,-0.578125 L 3.21875,-0.5625 C 3.015625,0.3125 2.890625,0.734375 2.890625,0.75 2.84375,0.84375 2.515625,1.828125 1.453125,1.828125 1.265625,1.828125 0.9375,1.8125 0.65625,1.71875 0.953125,1.640625 1.0625,1.375 1.0625,1.203125 c 0,-0.15625 -0.109375,-0.34375 -0.375,-0.34375 -0.21875,0 -0.53125,0.171875 -0.53125,0.578125 0,0.40625 0.359375,0.609375 1.3125,0.609375 1.25,0 1.96875,-0.78125 2.125,-1.375 z M 3.40625,-1.28125 C 3.34375,-1.015625 3.109375,-0.765625 2.890625,-0.578125 2.6875,-0.40625 2.375,-0.21875 2.078125,-0.21875 c -0.5,0 -0.640625,-0.515625 -0.640625,-0.921875 0,-0.46875 0.28125,-1.65625 0.5625,-2.15625 C 2.265625,-3.78125 2.6875,-4.1875 3.109375,-4.1875 c 0.65625,0 0.796875,0.8125 0.796875,0.859375 0,0.046875 -0.015625,0.109375 -0.03125,0.140625 z"
+               id="path12488" />
+          </symbol>
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="textext-54f9e436-2">
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:none"
+               d=""
+               id="path12491" />
+          </symbol>
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="textext-54f9e436-3">
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:none"
+               d="m 3.515625,-1.265625 -0.234375,0 c -0.015625,0.15625 -0.09375,0.5625 -0.1875,0.625 -0.046875,0.046875 -0.578125,0.046875 -0.6875,0.046875 l -1.28125,0 c 0.734375,-0.640625 0.984375,-0.84375 1.390625,-1.171875 0.515625,-0.40625 1,-0.84375 1,-1.5 0,-0.84375 -0.734375,-1.359375 -1.625,-1.359375 -0.859375,0 -1.453125,0.609375 -1.453125,1.25 0,0.34375 0.296875,0.390625 0.375,0.390625 0.15625,0 0.359375,-0.125 0.359375,-0.375 0,-0.125 -0.046875,-0.375 -0.40625,-0.375 C 0.984375,-4.21875 1.453125,-4.375 1.78125,-4.375 c 0.703125,0 1.0625,0.546875 1.0625,1.109375 0,0.609375 -0.4375,1.078125 -0.65625,1.328125 L 0.515625,-0.265625 C 0.4375,-0.203125 0.4375,-0.1875 0.4375,0 l 2.875,0 z"
+               id="path12494" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="textext-54f9e436-4"
+         style="stroke-width:1">
+        <g
+           style="fill:#000000;fill-opacity:1;stroke-width:1"
+           id="g12497">
+          <use
+             height="1052.3622"
+             width="744.09448"
+             xlink:href="#textext-54f9e436-1"
+             x="223.43201"
+             y="134.765"
+             id="use12499"
+             style="stroke-width:1" />
+        </g>
+        <g
+           style="fill:#000000;fill-opacity:1;stroke-width:1"
+           id="g12501">
+          <use
+             height="1052.3622"
+             width="744.09448"
+             xlink:href="#textext-54f9e436-3"
+             x="228.18401"
+             y="136.259"
+             id="use12503"
+             style="stroke-width:1" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g12681"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1"
+       transform="matrix(3.3737494,0,0,3.3737494,-457.60566,266.8593)"
+       ns0:preamble="/home/waldgeist/data/sphinx/inkscape-preamble.tex"
+       ns0:text="$\\rm{P}$"
+       inkscape:export-filename="/home/waldgeist/data/pics/Homepage/mathematik/geometrie/halbgerade-und-strahl.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <defs
+         id="defs12683">
+        <g
+           id="g12685">
+          <symbol
+             id="textext-9247dc32-0"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path12688"
+               d=""
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+          <symbol
+             id="textext-9247dc32-1"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path12691"
+               d="m 2.265625,-3.15625 1.6875,0 c 1.1875,0 2.265625,-0.796875 2.265625,-1.796875 C 6.21875,-5.9375 5.234375,-6.8125 3.875,-6.8125 l -3.53125,0 0,0.3125 0.25,0 c 0.765625,0 0.78125,0.109375 0.78125,0.46875 l 0,5.25 c 0,0.359375 -0.015625,0.46875 -0.78125,0.46875 l -0.25,0 0,0.3125 c 0.359375,-0.03125 1.09375,-0.03125 1.46875,-0.03125 0.375,0 1.125,0 1.484375,0.03125 l 0,-0.3125 -0.25,0 c -0.765625,0 -0.78125,-0.109375 -0.78125,-0.46875 z m -0.03125,-0.25 0,-2.6875 C 2.234375,-6.4375 2.25,-6.5 2.71875,-6.5 l 0.890625,0 c 1.578125,0 1.578125,1.0625 1.578125,1.546875 0,0.46875 0,1.546875 -1.578125,1.546875 z"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="textext-9247dc32-2"
+         style="fill:#000000;fill-opacity:1;stroke-width:1">
+        <g
+           id="g12694"
+           style="fill:#000000;fill-opacity:1;stroke-width:1">
+          <use
+             id="use12696"
+             y="134.765"
+             x="223.43201"
+             xlink:href="#textext-9247dc32-1"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#000000;fill-opacity:1;stroke-width:1" />
+        </g>
+      </g>
+    </g>
+    <path
+       style="fill:#808080;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 300.27841,669.21363 5.94918,22.20262"
+       id="path12863"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/waldgeist/data/pics/Homepage/mathematik/geometrie/halbgerade-und-strahl.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <g
+       ns0:text="$\\rm{A}$"
+       ns0:preamble="/home/waldgeist/data/sphinx/inkscape-preamble.tex"
+       transform="matrix(3.3737494,0,0,3.3737494,-553.83182,232.014)"
+       style="fill:#808080;fill-opacity:1;stroke:#000000;stroke-width:1"
+       id="g12959"
+       inkscape:export-filename="/home/waldgeist/data/pics/Homepage/mathematik/geometrie/halbgerade-und-strahl.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <defs
+         id="defs12961">
+        <g
+           id="g12963">
+          <symbol
+             overflow="visible"
+             id="textext-66788d6b-0"
+             style="overflow:visible">
+            <path
+               style="stroke:none"
+               d=""
+               id="path12966"
+               inkscape:connector-curvature="0" />
+          </symbol>
+          <symbol
+             overflow="visible"
+             id="textext-66788d6b-1"
+             style="overflow:visible">
+            <path
+               style="stroke:none"
+               d="m 3.96875,-6.9375 c -0.046875,-0.125 -0.078125,-0.203125 -0.234375,-0.203125 -0.15625,0 -0.1875,0.0625 -0.234375,0.203125 L 1.4375,-0.984375 C 1.25,-0.46875 0.859375,-0.3125 0.3125,-0.3125 l 0,0.3125 c 0.234375,-0.015625 0.671875,-0.03125 1.015625,-0.03125 0.3125,0 0.828125,0.015625 1.15625,0.03125 l 0,-0.3125 c -0.5,0 -0.75,-0.25 -0.75,-0.5 0,-0.03125 0.015625,-0.140625 0.015625,-0.15625 l 0.46875,-1.296875 2.453125,0 0.53125,1.515625 c 0.015625,0.046875 0.03125,0.109375 0.03125,0.140625 0,0.296875 -0.5625,0.296875 -0.828125,0.296875 l 0,0.3125 c 0.359375,-0.03125 1.0625,-0.03125 1.4375,-0.03125 0.421875,0 0.890625,0.015625 1.296875,0.03125 l 0,-0.3125 -0.171875,0 C 6.375,-0.3125 6.234375,-0.375 6.125,-0.703125 z m -0.53125,1.109375 1.125,3.25 -2.234375,0 z"
+               id="path12969"
+               inkscape:connector-curvature="0" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="textext-66788d6b-2"
+         style="fill:#808080;fill-opacity:1;stroke-width:1">
+        <g
+           style="fill:#808080;fill-opacity:1;stroke-width:1"
+           id="g12972">
+          <use
+             xlink:href="#textext-66788d6b-1"
+             x="223.43201"
+             y="134.765"
+             id="use12974"
+             width="744.09448"
+             height="1052.3622"
+             style="fill:#808080;fill-opacity:1;stroke-width:1" />
+        </g>
+      </g>
+    </g>
+    <g
+       style="fill:#808080;fill-opacity:1;stroke:#000000;stroke-width:1"
+       id="textext-29579761-2"
+       transform="matrix(3.3737494,0,0,3.3737494,-371.38641,182.06285)"
+       inkscape:export-filename="/home/waldgeist/data/pics/Homepage/mathematik/geometrie/halbgerade-und-strahl.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <g
+         style="fill:#808080;fill-opacity:1;stroke-width:1"
+         id="g13175">
+        <use
+           style="fill:#808080;fill-opacity:1;stroke-width:1"
+           height="1052.3622"
+           width="744.09448"
+           xlink:href="#textext-29579761-1"
+           x="223.43201"
+           y="134.765"
+           id="use13177" />
+      </g>
+    </g>
+    <g
+       style="fill:#808080;fill-opacity:1;stroke:#808080;stroke-width:1.32154548"
+       id="g21309"
+       transform="matrix(2.2700694,0,0,2.2700694,-174.94578,-11.981928)"
+       inkscape:export-filename="/home/waldgeist/data/pics/Homepage/mathematik/geometrie/halbgerade-und-strahl.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <path
+         style="fill:#808080;fill-opacity:1;stroke:#808080;stroke-width:1.32154548;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 248.02823,289.41659 5.16832,8.95176"
+         id="path21305"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path21307"
+         d="m 253.19655,289.41659 -5.16832,8.95176"
+         style="fill:#808080;fill-opacity:1;stroke:#808080;stroke-width:1.32154548;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       inkscape:export-ydpi="150"
+       inkscape:export-xdpi="150"
+       inkscape:export-filename="/home/waldgeist/data/pics/Homepage/mathematik/geometrie/halbgerade-und-strahl.png"
+       transform="matrix(2.2700694,0,0,2.2700694,-356.36325,38.299212)"
+       id="g13295"
+       style="stroke:#808080;stroke-width:1.32154548">
+      <path
+         inkscape:connector-curvature="0"
+         id="path13297"
+         d="m 248.02823,289.41659 5.16832,8.95176"
+         style="fill:none;stroke:#808080;stroke-width:1.32154548;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         style="fill:none;stroke:#808080;stroke-width:1.32154548;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 253.19655,289.41659 -5.16832,8.95176"
+         id="path13299"
+         inkscape:connector-curvature="0" />
+    </g>
+    <path
+       style="fill:none;stroke:#808080;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3.00000007, 9.00000022;stroke-dashoffset:0;marker-start:none;marker-end:none"
+       d="M 741.63606,681.31932 988.4051,611.36444"
+       id="path13326"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/waldgeist/data/pics/Homepage/mathematik/geometrie/halbgerade-und-strahl.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       inkscape:export-ydpi="150"
+       inkscape:export-xdpi="150"
+       inkscape:export-filename="/home/waldgeist/data/pics/Homepage/mathematik/geometrie/halbgerade-und-strahl.png"
+       inkscape:connector-curvature="0"
+       id="path13324"
+       d="M 587.05116,725.03607 948.57579,622.79651"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:none;marker-end:url(#Arrow2Mend)" />
+    <g
+       ns0:text="$\\rm{P}$"
+       ns0:preamble="/home/waldgeist/data/sphinx/inkscape-preamble.tex"
+       transform="matrix(3.3737494,0,0,3.3737494,-172.29269,311.40085)"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1"
+       id="g13392"
+       inkscape:export-filename="/home/waldgeist/data/pics/Homepage/mathematik/geometrie/halbgerade-und-strahl.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <defs
+         id="defs13394">
+        <g
+           id="g13396">
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="symbol13398">
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:none"
+               d=""
+               id="path13400" />
+          </symbol>
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="symbol13402">
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:none"
+               d="m 2.265625,-3.15625 1.6875,0 c 1.1875,0 2.265625,-0.796875 2.265625,-1.796875 C 6.21875,-5.9375 5.234375,-6.8125 3.875,-6.8125 l -3.53125,0 0,0.3125 0.25,0 c 0.765625,0 0.78125,0.109375 0.78125,0.46875 l 0,5.25 c 0,0.359375 -0.015625,0.46875 -0.78125,0.46875 l -0.25,0 0,0.3125 c 0.359375,-0.03125 1.09375,-0.03125 1.46875,-0.03125 0.375,0 1.125,0 1.484375,0.03125 l 0,-0.3125 -0.25,0 c -0.765625,0 -0.78125,-0.109375 -0.78125,-0.46875 z m -0.03125,-0.25 0,-2.6875 C 2.234375,-6.4375 2.25,-6.5 2.71875,-6.5 l 0.890625,0 c 1.578125,0 1.578125,1.0625 1.578125,1.546875 0,0.46875 0,1.546875 -1.578125,1.546875 z"
+               id="path13404" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         style="fill:#000000;fill-opacity:1;stroke-width:1"
+         id="g13406">
+        <g
+           style="fill:#000000;fill-opacity:1;stroke-width:1"
+           id="g13408">
+          <use
+             style="fill:#000000;fill-opacity:1;stroke-width:1"
+             height="1052.3622"
+             width="744.09448"
+             xlink:href="#textext-9247dc32-1"
+             x="223.43201"
+             y="134.765"
+             id="use13410" />
+        </g>
+      </g>
+    </g>
+    <path
+       inkscape:connector-curvature="0"
+       id="path13412"
+       d="m 584.07657,713.93476 5.94918,22.20262"
+       style="fill:#808080;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/waldgeist/data/pics/Homepage/mathematik/geometrie/halbgerade-und-strahl.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <g
+       style="fill:#808080;fill-opacity:1;stroke:#000000;stroke-width:1"
+       id="textext-29579761-2-3"
+       transform="matrix(3.3737494,0,0,3.3737494,39.863331,189.65546)"
+       inkscape:export-filename="/home/waldgeist/data/pics/Homepage/mathematik/geometrie/halbgerade-und-strahl.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <g
+         style="fill:#808080;fill-opacity:1;stroke-width:1"
+         id="g13175-3">
+        <use
+           style="fill:#808080;fill-opacity:1;stroke-width:1"
+           height="1052.3622"
+           width="744.09448"
+           xlink:href="#textext-29579761-1"
+           x="223.43201"
+           y="134.765"
+           id="use13177-8" />
+      </g>
+    </g>
+    <g
+       style="fill:#808080;fill-opacity:1;stroke:#808080;stroke-width:1.32154548"
+       id="g21309-0"
+       transform="matrix(2.2700694,0,0,2.2700694,236.30396,-3.8162078)"
+       inkscape:export-filename="/home/waldgeist/data/pics/Homepage/mathematik/geometrie/halbgerade-und-strahl.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <path
+         style="fill:#808080;fill-opacity:1;stroke:#808080;stroke-width:1.32154548;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 248.02823,289.41659 5.16832,8.95176"
+         id="path21305-0"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path21307-0"
+         d="m 253.19655,289.41659 -5.16832,8.95176"
+         style="fill:#808080;fill-opacity:1;stroke:#808080;stroke-width:1.32154548;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       ns0:text="$\\rm{[PB}$"
+       ns0:preamble="/home/waldgeist/data/sphinx/inkscape-preamble.tex"
+       transform="matrix(3.3737494,0,0,3.3737494,168.04957,212.57402)"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1"
+       id="g18231"
+       inkscape:export-filename="/home/waldgeist/data/pics/Homepage/mathematik/geometrie/halbgerade-und-strahl.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <defs
+         id="defs18233">
+        <g
+           id="g18235">
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="textext-fead6868-0">
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:none"
+               d=""
+               id="path18238" />
+          </symbol>
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="textext-fead6868-1">
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:none"
+               d="m 2.546875,2.5 0,-0.40625 -0.96875,0 0,-9.171875 0.96875,0 0,-0.40625 -1.375,0 0,9.984375 z"
+               id="path18241" />
+          </symbol>
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="textext-fead6868-2">
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:none"
+               d="m 2.265625,-3.15625 1.6875,0 c 1.1875,0 2.265625,-0.796875 2.265625,-1.796875 C 6.21875,-5.9375 5.234375,-6.8125 3.875,-6.8125 l -3.53125,0 0,0.3125 0.25,0 c 0.765625,0 0.78125,0.109375 0.78125,0.46875 l 0,5.25 c 0,0.359375 -0.015625,0.46875 -0.78125,0.46875 l -0.25,0 0,0.3125 c 0.359375,-0.03125 1.09375,-0.03125 1.46875,-0.03125 0.375,0 1.125,0 1.484375,0.03125 l 0,-0.3125 -0.25,0 c -0.765625,0 -0.78125,-0.109375 -0.78125,-0.46875 z m -0.03125,-0.25 0,-2.6875 C 2.234375,-6.4375 2.25,-6.5 2.71875,-6.5 l 0.890625,0 c 1.578125,0 1.578125,1.0625 1.578125,1.546875 0,0.46875 0,1.546875 -1.578125,1.546875 z"
+               id="path18244" />
+          </symbol>
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="textext-fead6868-3">
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:none"
+               d="m 2.21875,-3.65625 0,-2.4375 C 2.21875,-6.4375 2.234375,-6.5 2.703125,-6.5 l 1.234375,0 c 0.96875,0 1.3125,0.84375 1.3125,1.375 0,0.640625 -0.484375,1.46875 -1.59375,1.46875 z M 4.5625,-3.5625 C 5.53125,-3.75 6.21875,-4.390625 6.21875,-5.125 6.21875,-5.984375 5.296875,-6.8125 4,-6.8125 l -3.640625,0 0,0.3125 0.234375,0 c 0.765625,0 0.796875,0.109375 0.796875,0.46875 l 0,5.25 c 0,0.359375 -0.03125,0.46875 -0.796875,0.46875 l -0.234375,0 0,0.3125 3.90625,0 c 1.328125,0 2.21875,-0.890625 2.21875,-1.828125 0,-0.859375 -0.8125,-1.609375 -1.921875,-1.734375 z m -0.609375,3.25 -1.25,0 c -0.46875,0 -0.484375,-0.0625 -0.484375,-0.390625 l 0,-2.71875 1.875,0 C 5.078125,-3.421875 5.5,-2.5 5.5,-1.828125 5.5,-1.125 4.96875,-0.3125 3.953125,-0.3125 z"
+               id="path18247" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         style="stroke-width:1"
+         id="textext-fead6868-4">
+        <g
+           style="fill:#000000;fill-opacity:1;stroke-width:1"
+           id="g18250">
+          <use
+             style="stroke-width:1"
+             height="744.09448"
+             width="1052.3622"
+             xlink:href="#textext-fead6868-1"
+             x="223.43201"
+             y="134.765"
+             id="use18252" />
+          <use
+             style="stroke-width:1"
+             height="744.09448"
+             width="1052.3622"
+             xlink:href="#textext-fead6868-2"
+             x="226.19962"
+             y="134.765"
+             id="use18254" />
+          <use
+             style="stroke-width:1"
+             height="744.09448"
+             width="1052.3622"
+             xlink:href="#textext-fead6868-3"
+             x="232.98016"
+             y="134.765"
+             id="use18256" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

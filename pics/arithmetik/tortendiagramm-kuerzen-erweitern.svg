@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:ns0="http://www.iki.fi/pav/software/textext/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1052.3622"
+   height="744.09448"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="tortendiagramm-kuerzen-erweitern.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.66855469"
+     inkscape:cx="1069.3431"
+     inkscape:cy="588.94374"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1600"
+     inkscape:window-height="1150"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:object-nodes="false"
+     inkscape:snap-smooth-nodes="false"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     inkscape:object-paths="false"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-global="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-midpoints="false"
+     inkscape:snap-nodes="true">
+    <sodipodi:guide
+       orientation="1,0"
+       position="487.29664,460.52105"
+       id="guide7367" />
+    <sodipodi:guide
+       id="guide7768"
+       position="347.92378,460.52105"
+       orientation="1,0" />
+    <sodipodi:guide
+       id="guide8584"
+       position="713.07407,454.66768"
+       orientation="1,0" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="580.29871,454.6677"
+       id="guide9005" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="886.6864,454.66768"
+       id="guide10059" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="191.71474,429.02775"
+       id="guide11167" />
+  </sodipodi:namedview>
+  <title
+     id="title13516">Tortendiagramm -- Kuerzen und Erweitern</title>
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       id="perspective12895"
+       inkscape:persp3d-origin="526.18109 : 248.03149 : 1"
+       inkscape:vp_z="1052.3622 : 372.04724 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 372.04724 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <marker
+       style="overflow:visible"
+       id="TriangleOutM"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(0.4,0.4)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         id="path3904" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Tortendiagramm -- Kuerzen und Erweitern</dc:title>
+        <dc:date>2012-07-12</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Bernhard Grotz</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Bernhard Grotz</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Bernhard Grotz</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:language>de-DE</dc:language>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>Mathematik</rdf:li>
+            <rdf:li>Arithmetik</rdf:li>
+            <rdf:li>Rationale Zahlen</rdf:li>
+            <rdf:li>Tortendiagramm</rdf:li>
+            <rdf:li>Stammbrueche</rdf:li>
+            <rdf:li>Kuerzen und Erweitern</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:prohibits
+           rdf:resource="http://creativecommons.org/ns#CommercialUse" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-308.2677)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <rect
+       y="452.21124"
+       x="36.269165"
+       height="456.2074"
+       width="979.82385"
+       id="rect5422"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.02405363000000005, 8.09621454000000007;stroke-dashoffset:0"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/arithmetik/tortendiagramm-kuerzen-erweitern.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <g
+       ns0:text="$\\Leftrightarrow$"
+       ns0:preamble="/home/waldgeist/data/sphinx/inkscape-preamble.tex"
+       transform="matrix(4.8379621,0,0,4.8379621,-578.88873,40.38409)"
+       style="fill:#000000;stroke:#000000;stroke-width:1.17977619"
+       id="g14214"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/arithmetik/tortendiagramm-kuerzen-erweitern.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <defs
+         id="defs14216">
+        <g
+           id="g14218">
+          <symbol
+             overflow="visible"
+             id="textext-aeae798e-0"
+             style="overflow:visible">
+            <path
+               style="stroke:none"
+               d="m 2.53125,-3.65625 c 0.5625,-0.65625 0.875,-1.375 0.875,-1.453125 0,-0.125 -0.109375,-0.125 -0.203125,-0.125 -0.15625,0 -0.15625,0.015625 -0.25,0.203125 C 2.546875,-4.109375 1.8125,-3.1875 0.515625,-2.625 0.375,-2.578125 0.34375,-2.5625 0.34375,-2.5 c 0,0.03125 0,0.046875 0,0.0625 C 0.375,-2.40625 0.375,-2.40625 0.578125,-2.3125 1.671875,-1.859375 2.5,-1 3,0.15625 3.046875,0.234375 3.078125,0.25 3.203125,0.25 c 0.09375,0 0.203125,0 0.203125,-0.125 0,-0.078125 -0.3125,-0.796875 -0.875,-1.453125 l 4.890625,0 C 6.859375,-0.671875 6.5625,0.046875 6.5625,0.125 6.5625,0.25 6.671875,0.25 6.765625,0.25 6.90625,0.25 6.90625,0.234375 7,0.046875 7.40625,-0.875 8.140625,-1.796875 9.453125,-2.359375 9.59375,-2.40625 9.625,-2.421875 9.625,-2.5 c 0,-0.015625 0,-0.03125 -0.015625,-0.046875 C 9.59375,-2.578125 9.578125,-2.578125 9.375,-2.671875 8.28125,-3.125 7.46875,-3.984375 6.953125,-5.140625 6.921875,-5.21875 6.875,-5.234375 6.765625,-5.234375 c -0.09375,0 -0.203125,0 -0.203125,0.125 0,0.078125 0.296875,0.796875 0.859375,1.453125 z m -0.390625,1.9375 C 1.84375,-2.015625 1.5,-2.25 1.09375,-2.5 1.640625,-2.8125 1.9375,-3.0625 2.140625,-3.265625 l 5.671875,0 C 8.109375,-2.96875 8.453125,-2.734375 8.859375,-2.5 8.3125,-2.171875 8.015625,-1.921875 7.8125,-1.71875 z m 0,0"
+               id="path14221"
+               inkscape:connector-curvature="0" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="textext-aeae798e-1"
+         style="stroke-width:1.17977619">
+        <g
+           style="fill:#000000;fill-opacity:1;stroke-width:1.17977619"
+           id="g14224">
+          <use
+             xlink:href="#textext-aeae798e-0"
+             x="223.43201"
+             y="134.765"
+             id="use14226"
+             width="1052.3622"
+             height="744.09448"
+             style="stroke-width:1.17977619" />
+        </g>
+      </g>
+    </g>
+    <path
+       transform="matrix(0.8476184,0,0,0.8476184,-230.47016,284.51815)"
+       d="m 790.00002,466.95163 c 0,123.86958 -100.41614,224.28572 -224.28573,224.28572 -123.86958,0 -224.28572,-100.41614 -224.28572,-224.28572 0,-123.86958 100.41614,-224.28572 224.28572,-224.28572 123.86959,0 224.28573,100.41614 224.28573,224.28572 z"
+       sodipodi:ry="224.28572"
+       sodipodi:rx="224.28572"
+       sodipodi:cy="466.95163"
+       sodipodi:cx="565.71429"
+       id="path14079"
+       style="color:#000000;fill:none;stroke:#4d4d4d;stroke-width:3.53932858;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/arithmetik/tortendiagramm-kuerzen-erweitern.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       transform="matrix(0.11230943,0,0,0.11230943,224.41183,665.65598)"
+       d="m 222.85715,130.52306 c 0,1.97244 -1.59898,3.57142 -3.57143,3.57142 -1.97244,0 -3.57143,-1.59898 -3.57143,-3.57142 0,-1.97245 1.59899,-3.57143 3.57143,-3.57143 1.97245,0 3.57143,1.59898 3.57143,3.57143 z"
+       sodipodi:ry="3.5714285"
+       sodipodi:rx="3.5714285"
+       sodipodi:cy="130.52306"
+       sodipodi:cx="219.28572"
+       id="path14081"
+       style="color:#000000;fill:#4d4d4d;stroke:#000000;stroke-width:8.90397167;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/arithmetik/tortendiagramm-kuerzen-erweitern.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path14083"
+       d="m 249.03968,490.20624 0,190.1087"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:transform-center-y="-95.05436"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/arithmetik/tortendiagramm-kuerzen-erweitern.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       inkscape:transform-center-y="2.005506e-05"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 439.14841,680.31497 -190.10874,0"
+       id="path14085"
+       inkscape:connector-curvature="0"
+       inkscape:transform-center-x="-95.05434"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/arithmetik/tortendiagramm-kuerzen-erweitern.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <g
+       id="g14336"
+       style="fill:#000000;stroke:#000000;stroke-width:1.17977619"
+       transform="matrix(4.8379621,0,0,4.8379621,-770.62733,-40.0725)"
+       ns0:preamble="/home/waldgeist/data/sphinx/inkscape-preamble.tex"
+       ns0:text="$\\frac{1}{4}$"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/arithmetik/tortendiagramm-kuerzen-erweitern.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <defs
+         id="defs14338">
+        <g
+           id="g14340">
+          <symbol
+             id="textext-c6a575a0-0"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path14343"
+               d="m 2.328125,-4.4375 c 0,-0.1875 0,-0.1875 -0.203125,-0.1875 -0.453125,0.4375 -1.078125,0.4375 -1.359375,0.4375 l 0,0.25 c 0.15625,0 0.625,0 1,-0.1875 l 0,3.546875 c 0,0.234375 0,0.328125 -0.6875,0.328125 l -0.265625,0 0,0.25 c 0.125,0 0.984375,-0.03125 1.234375,-0.03125 0.21875,0 1.09375,0.03125 1.25,0.03125 l 0,-0.25 -0.265625,0 c -0.703125,0 -0.703125,-0.09375 -0.703125,-0.328125 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+          <symbol
+             id="textext-c6a575a0-1"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path14346"
+               d="m 3.6875,-1.140625 0,-0.25 -0.78125,0 0,-3.109375 c 0,-0.140625 0,-0.203125 -0.140625,-0.203125 -0.09375,0 -0.125,0 -0.1875,0.109375 l -2.3125,3.203125 0,0.25 2.0625,0 0,0.5625 c 0,0.25 0,0.328125 -0.578125,0.328125 l -0.1875,0 0,0.25 C 1.921875,-0.015625 2.359375,-0.03125 2.609375,-0.03125 2.875,-0.03125 3.3125,-0.015625 3.671875,0 l 0,-0.25 -0.1875,0 C 2.90625,-0.25 2.90625,-0.328125 2.90625,-0.578125 l 0,-0.5625 z M 2.375,-3.9375 l 0,2.546875 -1.84375,0 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="textext-c6a575a0-2"
+         style="stroke-width:1.17977619">
+        <g
+           id="g14349"
+           style="fill:#000000;fill-opacity:1;stroke-width:1.17977619">
+          <use
+             id="use14351"
+             y="130.842"
+             x="224.62801"
+             xlink:href="#textext-c6a575a0-0"
+             width="1052.3622"
+             height="744.09448"
+             style="stroke-width:1.17977619" />
+        </g>
+        <path
+           id="path14353"
+           transform="matrix(1,0,0,-1,224.628,132.274)"
+           d="m -0.128,-0.226 4,0"
+           style="fill:none;stroke:#000000;stroke-width:1.17977619;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
+           inkscape:connector-curvature="0" />
+        <g
+           id="g14355"
+           style="fill:#000000;fill-opacity:1;stroke-width:1.17977619">
+          <use
+             id="use14357"
+             y="138.2"
+             x="224.62801"
+             xlink:href="#textext-c6a575a0-1"
+             width="1052.3622"
+             height="744.09448"
+             style="stroke-width:1.17977619" />
+        </g>
+      </g>
+    </g>
+    <path
+       inkscape:export-ydpi="150"
+       inkscape:export-xdpi="150"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/arithmetik/tortendiagramm-kuerzen-erweitern.png"
+       sodipodi:type="arc"
+       style="color:#000000;fill:none;stroke:#4d4d4d;stroke-width:3.53932858;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path11493"
+       sodipodi:cx="565.71429"
+       sodipodi:cy="466.95163"
+       sodipodi:rx="224.28572"
+       sodipodi:ry="224.28572"
+       d="m 790.00002,466.95163 c 0,123.86958 -100.41614,224.28572 -224.28573,224.28572 -123.86958,0 -224.28572,-100.41614 -224.28572,-224.28572 0,-123.86958 100.41614,-224.28572 224.28572,-224.28572 123.86959,0 224.28573,100.41614 224.28573,224.28572 z"
+       transform="matrix(0.8476184,0,0,0.8476184,323.81265,284.51815)" />
+    <path
+       inkscape:export-ydpi="150"
+       inkscape:export-xdpi="150"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/arithmetik/tortendiagramm-kuerzen-erweitern.png"
+       sodipodi:type="arc"
+       style="color:#000000;fill:#4d4d4d;stroke:#000000;stroke-width:8.90397167;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path12009"
+       sodipodi:cx="219.28572"
+       sodipodi:cy="130.52306"
+       sodipodi:rx="3.5714285"
+       sodipodi:ry="3.5714285"
+       d="m 222.85715,130.52306 c 0,1.97244 -1.59898,3.57142 -3.57143,3.57142 -1.97244,0 -3.57143,-1.59898 -3.57143,-3.57142 0,-1.97245 1.59899,-3.57143 3.57143,-3.57143 1.97245,0 3.57143,1.59898 3.57143,3.57143 z"
+       transform="matrix(0.11230943,0,0,0.11230943,778.69465,665.65598)" />
+    <path
+       inkscape:export-ydpi="150"
+       inkscape:export-xdpi="150"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/arithmetik/tortendiagramm-kuerzen-erweitern.png"
+       inkscape:transform-center-y="-95.05436"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 803.3225,490.20624 0,190.1087"
+       id="path12011"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="150"
+       inkscape:export-xdpi="150"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/arithmetik/tortendiagramm-kuerzen-erweitern.png"
+       inkscape:transform-center-x="-95.05434"
+       inkscape:connector-curvature="0"
+       id="path12685"
+       d="m 993.43122,680.31497 -190.10873,0"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:transform-center-y="2.005506e-05" />
+    <g
+       inkscape:export-ydpi="150"
+       inkscape:export-xdpi="150"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/arithmetik/tortendiagramm-kuerzen-erweitern.png"
+       ns0:text="$\\frac{1}{8}$"
+       ns0:preamble="/home/waldgeist/data/sphinx/inkscape-preamble.tex"
+       transform="matrix(4.8379621,0,0,4.8379621,-176.83651,-9.6639444)"
+       style="fill:#000000;stroke:#000000;stroke-width:1.17977619"
+       id="g12809">
+      <defs
+         id="defs12811">
+        <g
+           id="g12813">
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="textext-e3fd27fb-0">
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:none"
+               d="m 2.328125,-4.4375 c 0,-0.1875 0,-0.1875 -0.203125,-0.1875 -0.453125,0.4375 -1.078125,0.4375 -1.359375,0.4375 l 0,0.25 c 0.15625,0 0.625,0 1,-0.1875 l 0,3.546875 c 0,0.234375 0,0.328125 -0.6875,0.328125 l -0.265625,0 0,0.25 c 0.125,0 0.984375,-0.03125 1.234375,-0.03125 0.21875,0 1.09375,0.03125 1.25,0.03125 l 0,-0.25 -0.265625,0 c -0.703125,0 -0.703125,-0.09375 -0.703125,-0.328125 z m 0,0"
+               id="path12816" />
+          </symbol>
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="textext-e3fd27fb-1">
+            <path
+               inkscape:connector-curvature="0"
+               style="stroke:none"
+               d="m 2.46875,-2.515625 c 0.546875,-0.265625 0.890625,-0.59375 0.890625,-1.078125 0,-0.671875 -0.703125,-1.03125 -1.375,-1.03125 -0.765625,0 -1.390625,0.5 -1.390625,1.15625 0,0.328125 0.15625,0.5625 0.28125,0.703125 0.125,0.15625 0.171875,0.1875 0.578125,0.421875 C 1.0625,-2.171875 0.375,-1.796875 0.375,-1.0625 c 0,0.765625 0.796875,1.203125 1.59375,1.203125 0.890625,0 1.609375,-0.5625 1.609375,-1.3125 0,-0.46875 -0.265625,-0.859375 -0.671875,-1.09375 -0.09375,-0.0625 -0.328125,-0.1875 -0.4375,-0.25 z m -1.125,-0.65625 c -0.1875,-0.109375 -0.375,-0.296875 -0.375,-0.5625 0,-0.4375 0.5,-0.6875 1,-0.6875 0.546875,0 1.03125,0.34375 1.03125,0.828125 0,0.625 -0.734375,0.9375 -0.734375,0.9375 -0.015625,0 -0.03125,0 -0.078125,-0.03125 z m 0.328125,0.96875 0.96875,0.546875 c 0.171875,0.109375 0.515625,0.3125 0.515625,0.71875 0,0.53125 -0.578125,0.859375 -1.171875,0.859375 -0.640625,0 -1.1875,-0.421875 -1.1875,-0.984375 0,-0.515625 0.375,-0.921875 0.875,-1.140625 z m 0,0"
+               id="path12819" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         style="fill:#000000;stroke:#000000;stroke-width:1.17977619"
+         id="textext-e3fd27fb-2">
+        <g
+           style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.17977619"
+           id="g12822">
+          <use
+             style="fill:#000000;stroke:#000000;stroke-width:1.17977619"
+             height="744.09448"
+             width="1052.3622"
+             xlink:href="#textext-e3fd27fb-0"
+             x="224.62801"
+             y="130.842"
+             id="use12824" />
+        </g>
+        <path
+           inkscape:connector-curvature="0"
+           style="fill:#000000;stroke:#000000;stroke-width:1.17977619;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
+           d="m -0.128,-0.226 4,0"
+           transform="matrix(1,0,0,-1,224.628,132.274)"
+           id="path12826" />
+        <g
+           style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.17977619"
+           id="g12828">
+          <use
+             style="fill:#000000;stroke:#000000;stroke-width:1.17977619"
+             height="744.09448"
+             width="1052.3622"
+             xlink:href="#textext-e3fd27fb-1"
+             x="224.62801"
+             y="138.2"
+             id="use12830" />
+        </g>
+      </g>
+    </g>
+    <path
+       inkscape:transform-center-y="-67.21356"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 937.74965,545.88782 803.3225,680.31496"
+       id="path14075"
+       inkscape:connector-curvature="0"
+       inkscape:transform-center-x="-67.213581"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/arithmetik/tortendiagramm-kuerzen-erweitern.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <g
+       id="g14418"
+       style="fill:#000000;stroke:#000000;stroke-width:1.17977619"
+       transform="matrix(4.8379621,0,0,4.8379621,-247.96394,-77.850217)"
+       ns0:preamble="/home/waldgeist/data/sphinx/inkscape-preamble.tex"
+       ns0:text="$\\frac{1}{8}$"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/arithmetik/tortendiagramm-kuerzen-erweitern.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <defs
+         id="defs14420">
+        <g
+           id="g14422">
+          <symbol
+             id="symbol14424"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path14426"
+               d="m 2.328125,-4.4375 c 0,-0.1875 0,-0.1875 -0.203125,-0.1875 -0.453125,0.4375 -1.078125,0.4375 -1.359375,0.4375 l 0,0.25 c 0.15625,0 0.625,0 1,-0.1875 l 0,3.546875 c 0,0.234375 0,0.328125 -0.6875,0.328125 l -0.265625,0 0,0.25 c 0.125,0 0.984375,-0.03125 1.234375,-0.03125 0.21875,0 1.09375,0.03125 1.25,0.03125 l 0,-0.25 -0.265625,0 c -0.703125,0 -0.703125,-0.09375 -0.703125,-0.328125 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+          <symbol
+             id="symbol14428"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path14430"
+               d="m 2.46875,-2.515625 c 0.546875,-0.265625 0.890625,-0.59375 0.890625,-1.078125 0,-0.671875 -0.703125,-1.03125 -1.375,-1.03125 -0.765625,0 -1.390625,0.5 -1.390625,1.15625 0,0.328125 0.15625,0.5625 0.28125,0.703125 0.125,0.15625 0.171875,0.1875 0.578125,0.421875 C 1.0625,-2.171875 0.375,-1.796875 0.375,-1.0625 c 0,0.765625 0.796875,1.203125 1.59375,1.203125 0.890625,0 1.609375,-0.5625 1.609375,-1.3125 0,-0.46875 -0.265625,-0.859375 -0.671875,-1.09375 -0.09375,-0.0625 -0.328125,-0.1875 -0.4375,-0.25 z m -1.125,-0.65625 c -0.1875,-0.109375 -0.375,-0.296875 -0.375,-0.5625 0,-0.4375 0.5,-0.6875 1,-0.6875 0.546875,0 1.03125,0.34375 1.03125,0.828125 0,0.625 -0.734375,0.9375 -0.734375,0.9375 -0.015625,0 -0.03125,0 -0.078125,-0.03125 z m 0.328125,0.96875 0.96875,0.546875 c 0.171875,0.109375 0.515625,0.3125 0.515625,0.71875 0,0.53125 -0.578125,0.859375 -1.171875,0.859375 -0.640625,0 -1.1875,-0.421875 -1.1875,-0.984375 0,-0.515625 0.375,-0.921875 0.875,-1.140625 z m 0,0"
+               style="stroke:none"
+               inkscape:connector-curvature="0" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="g14432"
+         style="fill:#000000;stroke:#000000;stroke-width:1.17977619">
+        <g
+           id="g14434"
+           style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.17977619">
+          <use
+             id="use14436"
+             y="130.842"
+             x="224.62801"
+             xlink:href="#textext-e3fd27fb-0"
+             width="1052.3622"
+             height="744.09448"
+             style="fill:#000000;stroke:#000000;stroke-width:1.17977619" />
+        </g>
+        <path
+           id="path14438"
+           transform="matrix(1,0,0,-1,224.628,132.274)"
+           d="m -0.128,-0.226 4,0"
+           style="fill:#000000;stroke:#000000;stroke-width:1.17977619;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
+           inkscape:connector-curvature="0" />
+        <g
+           id="g14440"
+           style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.17977619">
+          <use
+             id="use14442"
+             y="138.2"
+             x="224.62801"
+             xlink:href="#textext-e3fd27fb-1"
+             width="1052.3622"
+             height="744.09448"
+             style="fill:#000000;stroke:#000000;stroke-width:1.17977619" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
