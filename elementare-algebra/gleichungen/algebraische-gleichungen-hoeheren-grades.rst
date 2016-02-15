@@ -6,13 +6,13 @@ Algebraische Gleichungen höheren Grades
 
 .. index:: Polynom
 
-Bei einer algebraischen Gleichung :math:`n`-ter Grades tritt die Variable
+Bei einer algebraischen Gleichung :math:`n`-ten Grades tritt die Variable
 :math:`x` in der Potenz :math:`x^n` und gegebenenfalls in Potenzen niederen
 Grades auf; sie darf dabei nicht im Nenner stehen. Jede algebraische Gleichung
 kann durch äquivalente Umformungen in die allgemeine Form gebracht werden:
 
 .. math::
-    
+
     a _{\rm{n}} \cdot x^n + a _{\rm{n-1}} \cdot x ^{n-1} + \ldots + a  _{\rm{1}}
     \cdot x +  a _{\rm{0}} = 0
 
@@ -20,7 +20,7 @@ Der Term auf der linken Seite der obigen Gleichung, der aus einer Summe von
 Vielfachen von Potenzen einer Variablen (meist :math:`x`) besteht, wird
 allgemein als "Polynom" bezeichnet.
 
-Algebraische Gleichungen lassen sich im Allgemeinen nur näherungsweis mit Hilfe
+Algebraische Gleichungen lassen sich im Allgemeinen nur näherungsweise mit Hilfe
 eines geeigneten Computerprogramms [#CAS]_ lösen. Eine Gleichung :math:`n`-ten
 Grades hat dabei maximal :math:`n` Lösungen. Unmittelbar rechnerisch lösbar sind
 Gleichungen dritten oder höheren Grades jedoch dann, wenn einer der
@@ -43,7 +43,7 @@ folgenden Sonderfälle vorliegt:
   bezeichnet. Es gilt:
 
   .. math::
-      
+
       a \cdot x^4 + b \cdot x^2 + c = 0 \quad
       \overset{u=x^2}{\Longleftrightarrow} \quad a \cdot u^2 + b \cdot u + c = 0
 
@@ -53,14 +53,14 @@ folgenden Sonderfälle vorliegt:
   werden ("Rücksubstitution"). [#SUB]_ Es folgt:
 
   .. math::
-      
+
       x   _{\rm{1,2}}   &=   \pm   \sqrt{u   _{\rm{1}}}    \quad    \text{und}\\
       x _{\rm{3,4}} &= \pm \sqrt{u _{\rm{2}}}
-      
+
   Da Potenzieren und Wurzelziehen nicht unbedingt äquivalente Umformungen einer
   Gleichung darstellen, muss durch Einsetzen überprüft werden, ob die so
   gefundenen Werte tatsächlich Lösungen der ursprünglichen Gleichung sind.
- 
+
   Die Substitutions-Methode ist allgemein für Gleichungen der Form :math:`a
   \cdot x^{2 \cdot n} + b \cdot x^n + c = 0` anwendbar, wenn :math:`u = x^n`
   eingesetzt wird.
@@ -77,7 +77,7 @@ folgenden Sonderfälle vorliegt:
   _{\rm{1}})` teilt. Es gilt somit:
 
   .. math::
-      
+
       (a _{\rm{n}} \cdot x^n + a  _{\rm{n-1}}  \cdot  x  ^{n-1}  +  \ldots  +  a
       _{\rm{1}} \cdot n + a _{\rm{0}}) : (x -  x  _{\rm{1}})  =  \text{Restterm}
 
@@ -97,7 +97,7 @@ folgenden Sonderfälle vorliegt:
 
   Der Restterm hat nur noch den Grad :math:`n-1` und kann üblicherweise leichter
   ausgewertet werden.
-  
+
 .. raw:: html
 
     <hr />

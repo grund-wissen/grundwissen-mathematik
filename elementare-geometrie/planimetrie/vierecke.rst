@@ -17,16 +17,16 @@ In einem Quadrat besitzen alle Seiten die gleiche Länge. Alle Winkel betragen
     :alt:  fig-quadrat
 
     Grundform eines Quadrats.
-    
+
     .. only:: html
 
-        :download:`SVG: Quadrat 
+        :download:`SVG: Quadrat
         <../../pics/geometrie/quadrat.svg>`
 
-Für die Fläche und den Umfang eines Quadrats gilt: 
+Für die Fläche und den Umfang eines Quadrats gilt:
 
 .. math::
-    
+
     \text{Fl\"ache} &= a \cdot a = a^2 \\[10pt]
     \text{Umfang} &= 4 \cdot a
 
@@ -45,16 +45,16 @@ Länge. Alle Winkel betragen :math:`90°`.
     :alt:  fig-rechteck
 
     Grundform eines Rechtecks.
-    
+
     .. only:: html
 
-        :download:`SVG: Rechteck 
+        :download:`SVG: Rechteck
         <../../pics/geometrie/rechteck.svg>`
 
 Für die Fläche und den Umfang eines Rechtecks gilt:
 
 .. math::
-    
+
     \text{Fl\"ache} &= a \cdot b \\[10pt]
     \text{Umfang} &= 2 \cdot a + 2 \cdot b
 
@@ -74,7 +74,7 @@ gleich.
     :alt:  fig-parallelogramm
 
     Grundform eines Parallelogramms.
-    
+
     .. only:: html
 
         :download:`SVG: Parallelogramm
@@ -83,7 +83,7 @@ gleich.
 Für die Fläche und den Umfang eines Parallelogramms gilt:
 
 .. math::
-    
+
     \text{Fl\"ache} &= a \cdot b \cdot \sin{\alpha } = a \cdot h \\[10pt]
     \text{Umfang} &= 2 \cdot a + 2 \cdot b
 
@@ -100,7 +100,7 @@ Für die Fläche und den Umfang eines Parallelogramms gilt:
     :alt:  fig-trapez
 
     Grundform eines Trapezes.
-    
+
     .. only:: html
 
         :download:`SVG: Trapez
@@ -109,7 +109,7 @@ Für die Fläche und den Umfang eines Parallelogramms gilt:
 Für die Fläche und den Umfang eines Trapezes gilt:
 
 .. math::
-    
+
     \text{Fl\"ache} &=  \frac{a + c}{2} \cdot h = m \cdot h \\[10pt]
     \text{Umfang} &= a + b + c + d
 

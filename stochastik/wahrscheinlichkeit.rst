@@ -3,10 +3,12 @@
 Wahrscheinlichkeitsmaße
 =======================
 
-.. index:: 
+.. index::
     single: Häufigkeit
     single: Häufigkeit; absolute Häufigkeit
     single: Häufigkeit; relative Häufigkeit
+
+.. _Relative Häufigkeit:
 
 Die relative Häufigkeit
 -----------------------
@@ -17,7 +19,7 @@ gezählt, wie oft das Ereignis :math:`M` eintritt. Die relative Häufigkeit
 :math:`h(M)` ist dabei folgendermaßen definiert:
 
 .. math::
-    
+
     h(M) = \frac{z(M)}{n}
 
 Die Größe :math:`z(M)` wird dabei "absolute" Häufigkeit des Ereignisses
@@ -25,8 +27,8 @@ Die Größe :math:`z(M)` wird dabei "absolute" Häufigkeit des Ereignisses
 Zufallsexperiment insgesamt eingetreten ist.
 
 Bei großen Versuchszahlen gilt für die relative Häufigkeit das so genannte
-Gesetz der großen Zahlen: Die relativen Häufigkeit :math:`h(M)` eines
-Ereignisses :math:`M`  weicht bei einem genügend großem Wert von :math:`n` nur
+Gesetz der großen Zahlen: Die relative Häufigkeit :math:`h(M)` eines
+Ereignisses :math:`M`  weicht bei einem genügend großen Wert von :math:`n` nur
 wenig von einem bestimmten, für das Ereignis charakteristischen Wert ab.
 
 Besteht die Menge :math:`M` aus den Elementen :math:`\omega _1, \ldots,
@@ -34,7 +36,7 @@ Besteht die Menge :math:`M` aus den Elementen :math:`\omega _1, \ldots,
 Versuchen:
 
 .. math::
-    
+
     h(M) = \frac{z(M)}{n} = \frac{z(\{\omega_1\}) + z(\{\omega_2\}) + \ldots +
     z(\{\omega _{\rm{n}}\})}{n} = h(\{\omega_1\}) + h(\{\omega_2\}) + \ldots +
     h(\{\omega _{\rm{n}}\})
@@ -49,19 +51,19 @@ unvereinbar, d.h. gilt :math:`M_1 \cap M_2 = \emptyset`, so gilt :math:`h(M_1
 \cup (M_2) = h(M_1) + h(M_2)`.
 
 .. index:: Wahrscheinlichkeit
-.. _Die Wahrscheinlichkeit:
+.. _Wahrscheinlichkeit:
 
 Die Wahrscheinlichkeit
 ----------------------
 
 Als Wahrscheinlichkeit bezeichnet man ein Maß für das Eintreten eines
-Ereignisses :math:`M`. 
+Ereignisses :math:`M`.
 
-Prinzipiell kann nach dem empirischen Gesetz der großen Zahlen 
+Prinzipiell kann nach dem empirischen Gesetz der großen Zahlen
 für die Wahrscheinlichkeit folgende Festsetzung genutzt werden:
 
 .. math::
-    
+
     P(M) = \lim _{n \rightarrow \infty} h(M)
 
 In der Praxis lassen sich jedoch stets nur eine begrenzte Zahl :math:`n` an
@@ -69,7 +71,7 @@ Versuchen durchführen. Man definiert den Wahrscheinlichkeitsbegriff daher
 über folgende Axiome:
 
 *Definition:*
-    
+
     Eine Abbildung der Form :math:`M \subset \mathcal{ P }(\Omega ) \rightarrow P(A) \in
     \mathbb{R}` heißt Wahrscheinlichkeitsmaß, wenn folgende Eigenschaften
     ("Axiome von Kolmogoroff") erfüllt sind:
@@ -77,32 +79,32 @@ Versuchen durchführen. Man definiert den Wahrscheinlichkeitsbegriff daher
     * Nichtnegativität: Für alle :math:`M \in \mathcal{ P }(\Omega)` gilt:
 
       .. math::
-          
+
           P(M) \ge 0
 
     * Normiertheit: Ist :math:`M = \Omega`, so gilt:
 
       .. math::
-          
+
           P(\Omega) = 1
-        
+
     * Additivität: Für :math:`M_1 \cap M_2 = \emptyset` gilt:
 
       .. math::
-          
+
           P(M_1 \cup M_2) = P(M_1) + P(M_2)
 
       Die Additivität gilt auch für mehrere Ereignisse :math:`M_1 ,\, M_2 ,\,
-      \ldots`, wenn diese paarweise uvereinbar sind, d.h. wenn :math:`M_i \cap
-      M_j = \emptyset` für :math:`i \ne j` gilt. 
-      
+      \ldots`, wenn diese paarweise unvereinbar sind, d.h. wenn :math:`M_i \cap
+      M_j = \emptyset` für :math:`i \ne j` gilt.
+
 ..  Insbesondere ist die Wahrscheinlichkeit eines Ereignisses :math:`M` somit gleich
 ..  der Summe der Wahrscheinlichkeiten aller jeweiligen Elementarereignisse:
 
 ..  ..  .. math::
 
-..  ..  P(M) = \sum_{\omega \in M}^{} P(\{\omega\}) 
-      
+..  ..  P(M) = \sum_{\omega \in M}^{} P(\{\omega\})
+
 Die Zahl :math:`p(M)` wird dabei als Wahrscheinlichkeit des Ereignisses
 :math:`M` bezeichnet.
 
@@ -112,7 +114,7 @@ von den physikalischen Gegebenheiten des Experiments ab. Bei einem "normalen"
 Würfel erwartet man beispielsweise, dass die Wahrscheinlichkeit :math:`P` für
 jede Augenzahl gleich :math:`\frac{1}{6}` ist; hat der Würfel jedoch kleine
 Unregelmäßigkeiten, so können diese zur Folge haben, dass nicht mehr alle
-Elementarereignisse gleich wahrscheinlich sind. 
+Elementarereignisse gleich wahrscheinlich sind.
 
 Zusätzlich zu den obigen Axiomen gelten als Folgerungen einige weitere
 Eigenschaften für Wahrscheinlichkeitsmaße:
@@ -121,10 +123,11 @@ Eigenschaften für Wahrscheinlichkeitsmaße:
   :math:`P(\bar{M}) = 1-P(M)` die Wahrscheinlichkeit des Gegenereignisses
   :math:`\bar{M}`. [#]_
 
-* Ist :math:`M_1 \subset M_2`, so gilt :math:`P(M_1) \le P(M_2)`. [#]_
-  Diese Eigenschaft wird auch "Monotonieregel" genannt.
+* Ist :math:`M_1 \subset M_2`, so gilt :math:`P(M_1) \le P(M_2)`.
+  Diese Eigenschaft wird auch "Monotonieregel" genannt. [#]_
 
-* Es gilt stets: :math:`P(M_1 \cap \bar{M_2}) = P(M_1) - P(M_1 \cap M_2)`. [#]_
+* Es gilt stets: :math:`P(M_1 \cap \bar{M_2}) = P(M_1) - P(M_1 \cap M_2)`.
+  Diese Eigenschaft wird auch "Zerlegungsregel" genannt. [#]_
 
 * Es gilt stets: :math:`P(M_1 \cup M_2) = P(M_1) + P(M_2) - P(M_1 \cap M_2)`
   Diese Eigenschaft wird auch "Additionsregel" genannt. [#]_
@@ -143,7 +146,7 @@ Elementarereignis :math:`\{\omega\}`. Für ein Ereignis :math:`M = \{ \omega _1
 entsprechend:
 
 .. math::
-    
+
     P(M) = \frac{\text{Anzahl der günstigen Ergebnisse}}{\text{Anzahl der
     möglichen Ergebnisse}}= \frac{|M|}{|\Omega|}
 
@@ -168,10 +171,10 @@ Um die Anzahl der günstigen und der möglichen Ergebnisse zu bestimmen, werden
     \bar{M}) = P(M) + P(\bar{M})`.
 
 .. [#] Dass diese Gleichung gilt, lässt sich wegen :math:`M_2 = (M_2 \cap
-    \bar{M_1}) \cup M_1` zeigen: 
+    \bar{M_1}) \cup M_1` zeigen:
 
     .. math::
-        
+
         P(M_2) = P((M_2 \cap \bar{M_1}) \cup M_1) = P(M_2 \cap \bar{M_1}) +
         P(M_1)
 

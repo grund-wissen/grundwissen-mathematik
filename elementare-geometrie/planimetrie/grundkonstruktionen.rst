@@ -25,9 +25,9 @@ Grundkonstruktionen sind:
       :width: 50%
 
       Halbierung einer Strecke durch geometrische Konstruktion.
-      
+
       .. only:: html
-    
+
           :download:`SVG: Halbierung einer Strecke
           <../../pics/geometrie/grundkonstruktion-strecke-halbieren.svg>`
 
@@ -48,22 +48,22 @@ Grundkonstruktionen sind:
       :width: 50%
 
       Konstruktion einer Senkrechten zu einer Strecke durch einen bestimmten
-      Punkt auf der Strecke. 
+      Punkt auf der Strecke.
 
       .. only:: html
-    
+
           :download:`SVG: Senkrechte zu einer Strecke (durch Punkt auf der Strecke)
           <../../pics/geometrie/grundkonstruktion-senkrechte-zu-strecke-durch-punkt-auf-der-strecke.svg>`
 
 * Eine Senkrechte zu einer Strecke :math:`\overline{\rm{AB}}` errichten, die
   durch einen externen Punkt :math:`\rm{P}` verläuft:
 
-  Zeichne um den Punkt :math:`\rm{P}` einen Kreis Radius :math:`r _{\rm{1}}`, so
+  Zeichne um den Punkt :math:`\rm{P}` einen Kreis mit Radius :math:`r _{\rm{1}}`, so
   dass dieser die Strecke in den Punkten :math:`\rm{S_1}` und :math:`\rm{S_2}`
   schneidet. Zeichne anschliessend um die beiden Schnittpunkte :math:`\rm{S_1}`
   und :math:`\rm{S_2}` zwei weitere Kreise, jeweils mit Radius :math:`r
   _{\rm{2}} > r _{\rm{1}}`. Die Strecke vom Punkt :math:`\rm{P}` zu einem der
-  beiden sich ergebenden Schnittpunkte, vorzugsweise zum gegenueber liegenden
+  beiden sich ergebenden Schnittpunkte, vorzugsweise zum gegenüber liegenden
   Punkt :math:`\rm{S_3}`, entspricht der gesuchten Senkrechten.
 
   .. figure:: ../../pics/geometrie/grundkonstruktion-senkrechte-zu-strecke-durch-externen-punkt.png
@@ -73,10 +73,10 @@ Grundkonstruktionen sind:
       :width: 50%
 
       Konstruktion einer Senkrechten zu einer Strecke durch einen bestimmten
-      Punkt außerhalb der Strecke. 
+      Punkt außerhalb der Strecke.
 
       .. only:: html
-    
+
           :download:`SVG: Senkrechte zu einer Strecke (durch externen Punkt)
           <../../pics/geometrie/grundkonstruktion-senkrechte-zu-strecke-durch-externen-punkt.svg>`
 
@@ -101,9 +101,9 @@ Grundkonstruktionen sind:
       :width: 50%
 
       Konstruktion einer Parallelen zu einer Strecke
-      
+
       .. only:: html
-    
+
           :download:`SVG: Parallele zu einer Strecke
           <../../pics/geometrie/grundkonstruktion-parallele-zu-strecke.svg>`
 

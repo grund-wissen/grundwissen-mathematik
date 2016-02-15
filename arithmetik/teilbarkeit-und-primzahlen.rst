@@ -29,35 +29,35 @@ Hat eine natürliche Zahl :math:`p > 1` nur zwei Teiler (:math:`1` und die Zahl
 100)` sind:
 
 .. math::
-     
+
      2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71,
      73, 79, 83, 89, 97.
 
 Jede Zahl, die keine Primzahl ist, wird zerlegbar genannt, denn sie lässt sich
 ohne Rest in mehrere andere Zahlen aufteilen. Hierzu ist folgendes Vorgehen
-nützlich: 
+nützlich:
 
 1. Zunächst wird geprüft, ob die zu prüfende Zahl :math:`a` durch eine
-   beliebige, betraglich kleinere Primzahl :math:`p < a` teilbar ist. 
+   beliebige, betraglich kleinere Primzahl :math:`p < a` teilbar ist.
 2. Wird eine Primzahl :math:`p` gefunden ist, die ein Teiler von :math:`a` ist,
    so wird diese Primzahl notiert und :math:`a` durch :math:`p` geteilt.
 3. Mit dem Ergebnis der Division wird erneut mit dem 1. Schritt begonnen. Diese
    Wiederholung wird so lange fortgesetzt, bis keine weitere Aufteilung
-   in Primzahlen möglich ist. 
+   in Primzahlen möglich ist.
 
 Das obige Verfahren wird auch als "Primfaktorzerlegung" einer Zahl bezeichnet.
 
 *Beispiel:*
-    
+
 .. math::
-    
+
     17\,640 \; &= 2 \cdot 8820 \\ &= 2 \cdot 2 \cdot 4410 \\ &= 2 \cdot 2  \cdot 2
     \cdot 2205 \\ &= 2 \cdot 2 \cdot 2 \cdot 3 \cdot 735 \\ &= 2 \cdot 2 \cdot 2
     \cdot 3 \cdot 3 \cdot 245 \\ &= 2 \cdot 2 \cdot 2
     \cdot 3 \cdot 3 \cdot 5 \cdot 49 \\ &= 2 \cdot 2 \cdot 2
     \cdot 3 \cdot 3 \cdot 5 \cdot 7 \cdot 7 \\[10pt]
     \Rightarrow 17\,640 \; &=  \quad  \; 2^3 \;\;\;  \cdot \;\; 3^2 \; \cdot 5^1 \cdot \, 7^2
-        
+
 Multipliziert man alle Primfaktoren einer Zahl miteinander, wobei einzelne
 Faktoren mehrfach auftreten dürfen, so erhält man als Ergebnis wiederum die
 ursprüngliche Zahl. Die gleiche Methode wird auch zur Ermittlung von Primzahlen

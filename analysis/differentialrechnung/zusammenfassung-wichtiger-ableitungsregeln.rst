@@ -4,7 +4,7 @@
 Zusammenfassung wichtiger Ableitungsregeln
 ==========================================
 
-Im folgenden sind die wichtigsten Ableitungsregeln der vorherigen Abschnitte
+Im Folgenden sind die wichtigsten Ableitungsregeln der vorherigen Abschnitte
 nochmals kurz zusammengefasst.
 
 .. index:: Ableitungsregeln
@@ -19,11 +19,11 @@ Die folgenden Ableitungsregeln sind allgemein für beliebige Funktionen gültig:
 * Lässt sich eine Funktion :math:`f(x)` als Summe einer anderen Funktion
   :math:`f _{\rm{1}}(x)` mit einem konstanten Summanden :math:`c` darstellen, so
   ist ihre Ableitungsfunktion :math:`f'(x)` mit der Ableitung :math:`f
-  _{\rm{1}}'(x)` der anderen Funktion identisch: 
+  _{\rm{1}}'(x)` der anderen Funktion identisch:
 
   .. math::
       :label: eqn-ableitungsregel-konstanter-wert
-      
+
       f _{\rm{1}}(x) = f _{\rm{2}}(x) + c \quad \Rightarrow \quad f _{\rm{1}}'(x)
       = f _{\rm{2}}'(x) {\color{white} +c}
 
@@ -34,16 +34,16 @@ Die folgenden Ableitungsregeln sind allgemein für beliebige Funktionen gültig:
   Funktion :math:`f _{\rm{2}}(x)` mit einem konstanten Faktor :math:`c`
   darstellen, so entspricht ihre Ableitungsfunktion :math:`f _{\rm{1}}'(x)`
   derjenigen der anderen Funktion :math:`f _{\rm{2}}(x)`, wenn diese mit dem
-  gleichen Faktor :math:`c` multipliziert wird. 
+  gleichen Faktor :math:`c` multipliziert wird.
 
   .. math::
       :label: eqn-ableitungsregel-konstanter-faktor
-      
+
       f_1(x) = c \, \cdot \; f _2(x) \quad \Rightarrow \quad f_{1}'(x) = c \cdot f_{2}'(x)
 
 Für jede beliebige Funktion :math:`f(x)`, die man sich aus zwei Teilfunktionen
 :math:`f _{\rm{1}}(x)` und :math:`f _{\rm{2}}(x)` zusammengesetzt denken kann,
-sind folgende Ableitungsregeln nützlich: 
+sind folgende Ableitungsregeln nützlich:
 
 .. _Additionsregel:
 
@@ -56,7 +56,7 @@ sind folgende Ableitungsregeln nützlich:
 
   .. math::
       :label: eqn-additionsregel
-      
+
       \left[ f _{\rm{1}}(x) + f _{\rm{2}}(x) \right]' = f _{\rm{1}}'(x) + f
       _{\rm{2}}'(x) {\color{white} \quad \;\; \ldots}
 
@@ -71,7 +71,7 @@ sind folgende Ableitungsregeln nützlich:
 
   .. math::
       :label: eqn-produktregel
-      
+
       {\color{white} \ldots \quad \qquad} \left[ f _{\rm{1}}(x) \, \cdot \; f _{\rm{2}}(x) \right]' = f _{\rm{1}}'(x)
       \, \cdot \; f _{\rm{2}}(x) \, + \, f _{\rm{2}}'(x) \, \cdot \; f _{\rm{1}}(x)
 
@@ -86,11 +86,11 @@ sind folgende Ableitungsregeln nützlich:
 
   .. math::
       :label: eqn-quotientenregel
-      
+
       {\color{white} \ldots \qquad \qquad \quad \;\;\, } \left[ \frac{f _{\rm{1}}(x)}{f _{\rm{2}}(x)}
       \right]' = \frac{f _{\rm{1}}'(x) \, \cdot \; f _{\rm{2}}(x) \, - \, f
       _{\rm{2}}'(x) \, \cdot \; f _{\rm{1}}(x)}{ \left( f _{\rm{2}}(x)
-      \right)^2} 
+      \right)^2}
 
 
 .. index:: Ableitungsregeln; Kettenregel
@@ -104,18 +104,18 @@ sind folgende Ableitungsregeln nützlich:
 
   .. math::
       :label: eqn-kettenregel
-      
+
       \left[ f _{\rm{1}}\big(f _{\rm{2}}(x)\big) \right]' = f _{\rm{1}}'\big(f
-      _{\rm{2}}(x)\big) \, \cdot \; f _{\rm{2}}'(x) 
+      _{\rm{2}}(x)\big) \, \cdot \; f _{\rm{2}}'(x)
 
   Hierbei wird zunächst die Ableitung :math:`f_1'` der äußeren Funktion
   gebildet, wobei die innere Funktion unverändert gelassen wird. Der
   resultierende Term wird anschließend mit der Ableitung der inneren Funktion
-  multipliziert. 
+  multipliziert.
 
 .. index:: Satz von Rolle
 .. _Satz von Rolle und Mittelwertsatz:
-  
+
 Satz von Rolle und Mittelwertsatz
 ---------------------------------
 
@@ -123,7 +123,7 @@ Ist eine Funktion :math:`f(x)` in einem Intervall :math:`]a;b[` stetig
 differenzierbar und gilt zudem :math:`f(a) = f(b)`, so existiert mindestens eine
 Stelle :math:`x_0` innerhalb des Intervalls, für die
 :math:`f'(x_0) = 0` gilt. Dieser Zusammenhang wird "Satz von `Rolle
-<https://de.wikipedia.org/wiki/Michel_Rolle>`_" genannt. 
+<https://de.wikipedia.org/wiki/Michel_Rolle>`_" genannt.
 
 .. todo pic
 
@@ -141,7 +141,7 @@ existiert mindestens eine Stelle :math:`x_0` innerhalb des Intervalls, für die
 gilt:
 
 .. math::
-    
+
     f'(x_0) = \frac{f(b)-f(a)}{b-a}
 
 Dieser so genannte Mittelwertsatz besagt anschaulich, dass es entlang eines
@@ -158,7 +158,7 @@ somit als Erweiterung des Satzes von Rolle aufgefasst werden, da er diesen für
 Ableitungsregeln wichtiger Funktionen
 -------------------------------------
 
-.. list-table:: 
+.. list-table::
     :name: tab-ableitungsregeln
     :widths: 60 20 40 50
 
@@ -166,7 +166,7 @@ Ableitungsregeln wichtiger Funktionen
       - :math:`f(x)`
       - :math:`f'(x)`
       - Bedingung(en)
-    * - Potenzfunktion 
+    * - Potenzfunktion
       - :math:`x^n`
       - :math:`n \cdot x ^{n-1}`
       - :math:`n \in \mathbb{R}`
@@ -177,7 +177,7 @@ Ableitungsregeln wichtiger Funktionen
     * - Natürliche Exponentialfunktion
       - :math:`e ^{x}`
       - :math:`e ^{x}`
-      - 
+      -
     * - Logarithmusfunktion
       - :math:`\log{(x)}`
       - :math:`\frac{1}{x \cdot \ln{(a)}}`
@@ -189,11 +189,11 @@ Ableitungsregeln wichtiger Funktionen
     * - Sinusfunktion
       - :math:`\sin{(x)}`
       - :math:`\cos{(x)}`
-      - 
+      -
     * - Cosinusfunktion
       - :math:`\cos{(x)}`
       - :math:`-\sin{(x)}`
-      - 
+      -
     * - Tangensfunktion
       - :math:`\tan{(x)}`
       - :math:`\frac{1}{\cos^2{(x)}} = 1 + \tan^2{(x)}`
@@ -204,7 +204,7 @@ Ableitungsregeln wichtiger Funktionen
       - :math:`x \ne n \cdot \pi` mit :math:`n \in \mathbb{N}`
 
 
-..  
+..
     * - Arcussinus
       - :math:`\text{asin}(x)`
       - :math:`\frac{1}{\sqrt{1 - x^2}}`

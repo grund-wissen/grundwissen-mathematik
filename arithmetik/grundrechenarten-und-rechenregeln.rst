@@ -18,7 +18,7 @@ mit ihrem Stellenwert.
 
 Die Zahlen :math:`1 ,\, 10 ,\, 100 ,\, 1000` beziehungsweise :math:`\frac{1}{10}
 ,\, \frac{1}{100} ,\, \frac{1}{1000}` usw. werden als Stufenzahlen oder
-Zehnerpotenzen bezeichnet. Mit ihrer Hilfe lässt sich jede Zahl lässt eindeutig
+Zehnerpotenzen bezeichnet. Mit ihrer Hilfe lässt sich jede Zahl eindeutig
 als Summe von Vielfachen der Stufenzahlen schreiben.
 
 .. figure:: ../pics/arithmetik/ziffern-und-zahlen.png
@@ -30,11 +30,11 @@ als Summe von Vielfachen der Stufenzahlen schreiben.
     Ziffern als Repräsentanten von Zahlenwerten.
 
     .. only:: html
-    
+
         :download:`SVG: Ziffern und Zahlen
         <../pics/arithmetik/ziffern-und-zahlen.svg>`
-        
-In der Dezimal-Schreibweise werden bei der Darstellung großer Zahlen nach den
+
+In der Dezimal-Schreibweise wird bei der Darstellung großer Zahlen nach den
 Ziffern für :math:`1\,000 ,\; 1\,000\,000 ,\; 1\,000\,000` usw. nach
 Möglichkeit je ein kleiner Zwischenraum eingefügt, um die Lesbarkeit zu erhöhen.
 Ziffern mit einer Wertigkeit kleiner als Eins werden im deutschen Sprachraum mit
@@ -52,7 +52,7 @@ Addition, Subtraktion, Multiplikation und Division stellen im alltäglichen
 Leben die wohl gebräuchlichsten Verknüpfungen von Zahlen dar; sie werden daher
 auch als Grundrechenarten bezeichnet.
 
-.. index:: 
+.. index::
     single: Grundrechenarten; Addition
     single: Addition
 .. _Addition:
@@ -61,7 +61,7 @@ auch als Grundrechenarten bezeichnet.
 
 Werden zwei Zahlen oder Terme mit einem Pluszeichen verbunden, so bezeichnet man
 den Rechenausdruck als Summe. Die einzelnen Zahlen, die addiert werden, heißen
-Summanden. 
+Summanden.
 
 Ohne Computer oder Taschenrechner lassen sich Zahlen am einfachsten addieren,
 indem sie untereinander geschrieben werden. Dabei müssen die Ziffern mit
@@ -80,10 +80,10 @@ Zehnerstelle wird als "Übertrag" in die nächste Ziffernstelle übernommen. [#A
     Beispiel einer schriftlichen Addition.
 
     .. only:: html
-    
+
         :download:`SVG: Schriftliche Addtion (Beispiel)
         <../pics/arithmetik/beispiel-addition.svg>`
-        
+
 Der Grundgedanke hierbei besteht darin, dass  jeweils zehn "Einer" mit einem
 "Zehner", zehn "Zehner" mit einem "Hunderter" usw. gleichwertig sind. Bei der
 Addition der einzelnen Stellenwerte kann man somit jeweils zehn Repräsentanten
@@ -91,7 +91,7 @@ einer Wertigkeit durch einen Repräsentanten der nächst höheren Wertigkeit
 ersetzen und diesen zur Addition des nächsten Stellenwertes hinzunehmen.
 
 
-.. index:: 
+.. index::
     single: Grundrechenarten; Subtraktion
     single: Subtraktion
 .. _Subtraktion:
@@ -100,7 +100,7 @@ ersetzen und diesen zur Addition des nächsten Stellenwertes hinzunehmen.
 
 Werden zwei Zahlen oder Terme mit einem Minuszeichen verbunden, so bezeichnet
 man den Rechenausdruck als Differenz. Vor dem Minuszeichen steht der Minuend,
-dahinter der Subtrahend. 
+dahinter der Subtrahend.
 
 Auch bei der schriftlichen Subtraktion werden die Ziffern mit gleicher
 Wertigkeit jeweils untereinander geschrieben. Anschließend werden spaltenweise
@@ -108,7 +108,7 @@ von rechts nach links die Ziffern des Subtrahenden von der jeweiligen Ziffer des
 Minuenden subtrahiert. Ist dabei die Ziffer des Minuenden kleiner als die des
 Subtrahenden, so wird die Ziffer des Minuenden um 10 erhöht und der so gebildete
 Differenzwert unter den Strich geschrieben. Der "Übertrag" lässt sich dadurch
-ausgeglichen, indem die nächste, um das 10-fache größere Ziffer des Minuenden um
+ausgleichen, indem die nächste, um das 10-fache größere Ziffer des Minuenden um
 Eins erniedrigt wird. [#S1]_
 
 .. figure:: ../pics/arithmetik/beispiel-subtraktion.png
@@ -120,18 +120,18 @@ Eins erniedrigt wird. [#S1]_
     Beispiel einer schriftlichen Subtraktion.
 
     .. only:: html
-    
+
         :download:`SVG: Schriftliche Subtraktion (Beispiel)
         <../pics/arithmetik/beispiel-subtraktion.svg>`
-        
+
 Der Grundgedanke hierbei besteht wiederum darin, dass jeweils ein "Zehner" mit
 zehn "Einern", ein "Hunderter" mit zehn "Zehnern" usw. gleichwertig ist. Bei der
 Subtraktion der einzelnen Stellenwerte kann man somit im Minuenden jeweils einen
-Repräsentant einer Wertigkeit durch zehn Repräsentanten der nächst niedrigeren
+Repräsentanten einer Wertigkeit durch zehn Repräsentanten der nächst niedrigeren
 Wertigkeit ersetzen.
 
 
-.. index:: 
+.. index::
     single: Grundrechenarten; Multiplikation
     single: Multiplikation
 .. _Multiplikation:
@@ -140,7 +140,7 @@ Wertigkeit ersetzen.
 
 Werden zwei Zahlen oder Terme mit einem Malzeichen verbunden, so bezeichnet man
 den Rechenausdruck als Produkt. Die einzelnen Zahlen beziehungsweise Terme, die
-miteinander multipliziert werden, heißen Faktoren. 
+miteinander multipliziert werden, heißen Faktoren.
 
 Bei einer schriftlichen Multiplikation wird der erste Faktor spaltenweise von
 rechts mit allen Ziffern des zweiten Faktors multipliziert. An jedes so
@@ -157,10 +157,10 @@ werden gemäß ihrer Wertigkeiten untereinander geschrieben und aufaddiert.
     Beispiel einer schriftlichen Multiplikation.
 
     .. only:: html
-    
+
         :download:`SVG: Schriftliche Multiplikation (Beispiel)
         <../pics/arithmetik/beispiel-multiplikation.svg>`
-        
+
 Der Grundgedanke dieser Rechenmethode liegt darin, dass es sich bei jeder
 Multiplikation um eine mehrfache Addition handelt. In gleicher Weise, wie man
 sich eine einzelne Zahl anhand ihrer Ziffern aus den jeweiligen Vielfachen der
@@ -168,7 +168,7 @@ Stufenzahlen aufgebaut denken kann, kann man sich auch jedes Produkt zweier
 Zahlen als Summe einzelner Teilfaktoren vorstellen.
 
 
-.. index:: 
+.. index::
     single: Grundrechenarten; Division
     single: Division
 .. _Division:
@@ -181,8 +181,8 @@ dahinter der Divisor. Für das Geteilt-Zeichen gibt es mehrere gleichwertige
 Schreibweisen:
 
 .. math::
-    
-    a_1 : a_2 \; = \; a_1 / a_2 \; = \; \frac{a _1 }{a_2 } 
+
+    a_1 : a_2 \; = \; a_1 / a_2 \; = \; \frac{a _1 }{a_2 }
 
 Bei einer schriftlichen Division werden der Dividend, der Divisor und das zu
 berechnende Ergebnis in eine Zeile geschrieben. Zunächst werden nur (von links
@@ -206,10 +206,10 @@ gleichen Rechenmethode fortgesetzt werden.
     Beispiel einer schriftlichen Division.
 
     .. only:: html
-    
+
         :download:`SVG: Schriftliche Division (Beispiel)
         <../pics/arithmetik/beispiel-division.svg>`
-        
+
 Durch die Verwendung von Taschenrechnern und Computern werden die schriftliche
 Multiplikation und Division im alltäglichen Leben kaum noch angewendet. Das
 Rechenschema der schriftlichen Division ist allerdings für die Methode der
@@ -223,30 +223,30 @@ Klammern und Reihenfolge der Auswertung
 
 Die vier Grundrechenarten sind als Operatoren für jeweils zwei Operanden
 festgelegt. Sollen drei oder mehr Zahlen durch die vier Grundrechenarten
-verknüpft werden, so kann dies nur schrittweise erfolgen. 
+verknüpft werden, so kann dies nur schrittweise erfolgen.
 
 Die Reihenfolge, in der die einzelnen Operationen ausgeführt werden müssen, ist
-durch Vorrang-Regeln sowie durch die Verwendung von Klammern festgelegt: 
+durch Vorrang-Regeln sowie durch die Verwendung von Klammern festgelegt:
 
 1. Was in Klammern steht, wird zuerst ausgewertet (bei Zahlen) bzw.
    zusammengefasst (bei Variablen)
 2. Ist durch Klammern keine andere Reihenfolge der Auswertung festgelegt, so
-   werden zunächst die Rechenoperatoren der dritten Stufe (Potenzen und Wurzeln) 
+   werden zunächst die Rechenoperatoren der dritten Stufe (Potenzen und Wurzeln)
    ausgewertet.
 3. Als nächstes werden die Rechenoperatoren der zweiten Stufe (Multiplikation
    und Division) ausgewertet.
 4. Zuletzt werden die Rechenoperationen der ersten Stufe (Addition und
    Multiplikation) ausgeführt.
-   
+
 Durch das Setzen von Klammern kann somit eine von der üblichen Regel "(Hoch vor)
 Punkt vor Strich" abweichende Reihenfolge der Auswertung erreicht werden. In
 allgemeiner Form kann die Auswertungsreihenfolge somit als "Klammer vor Hoch vor
-Punkt vor Strich" zusammengefasst werden. Die Rechenoperation gleicher Stufe
+Punkt vor Strich" zusammengefasst werden. Die Rechenoperationen gleicher Stufe
 werden dabei von links nach rechts ausgeführt.
 
 Bei der Verwendung von Klammern sind folgende Regeln zu beachten:
 
-* Zur besseren Lesbarket werden verschiedene Klammer-Symbole verwendet:
+* Zur besseren Lesbarkeit werden verschiedene Klammer-Symbole verwendet:
 
 .. math::
 
@@ -277,10 +277,10 @@ angewendet werden. Es gelten damit folgende Regeln:
 * Steht vor einer Klammer ein Minuszeichen :math:`(-)`, so werden alle additiven
   Rechenzeichen in der Klammer in die jeweils entgegengesetzten umgewandelt (Plus
   wird zu Minus und umgekehrt).
-      
+
   .. math::
       :label: eqn-klammer-minus
-      
+
       - (+a) = -a \\
       - (-a) = +a \\
 
@@ -294,8 +294,8 @@ Rechenregeln sind im nächsten Abschnitt zusammengefasst.
 Rechengesetze für die Grundrechenarten
 --------------------------------------
 
-Häufig muss man bei mathemtaischen Aufgaben Terme aus Zahlen und/oder Variablen
-auszuwerten, welche durch die vier Grundrechenarten verknüpft sind. Zur
+Häufig muss man bei mathematischen Aufgaben Terme aus Zahlen und/oder Variablen
+auswerten, welche durch die vier Grundrechenarten verknüpft sind. Zur
 Vereinfachung können dabei bestimmte Umformungen vorgenommen werden, die für
 beliebige Variablenwerte aus dem Definitionsbereich stets unveränderte
 Ergebniswerte liefern. Die drei wichtigsten dieser Rechenregeln werden als
@@ -311,7 +311,7 @@ Faktoren miteinander vertauscht werden. Es gelten somit folgende Rechenregeln:
 
 .. math::
     :label: eqn-kommutativgesetz
-    
+
     a_1 + a_2 &= a_2 + a_1 \\[6pt]
     a_1 \cdot a_2 &= a_2 \cdot a_1
 
@@ -329,14 +329,14 @@ gruppiert werden. Es gilt somit:
 
 .. math::
     :label: eqn-assoziativgesetz
-    
+
     a_1 + (a_2 + a_3) &= (a_1 + a_2) + a_3 = a_1 + a_2 + a_3 \\[6pt]
     a_1 \; \cdot \, (a_2 \; \cdot \; a_3) &= (a _1 \; \cdot \; a_2) \, \cdot
-    \; a_3  = a_1 \; \cdot \; a_2 \; \cdot \; a_3 
+    \; a_3  = a_1 \; \cdot \; a_2 \; \cdot \; a_3
 
 Das Assoziativgesetz gilt in entsprechender Form auch für die Subtraktion und
 die Division. [#ASD]_
-    
+
 
 .. index:: Distributivgesetz
 .. _Distributivgesetz:
@@ -348,14 +348,14 @@ Verknüpfungsregeln:
 
 .. math::
     :label: eqn-distributivgesetz
-    
+
     a_1 \cdot (a_2 + a_3 ) = a_1 \cdot a _2 + a_1 \cdot a_3  \\[6pt]
     (a_2 + a_3 ) \cdot a_1 = a_2 \cdot a _1 + a_3  \cdot a_1
 
 Ist ein Summenterm mit einem Faktor zu multiplizieren, so kann man jeden
 Summanden einzeln mit dem Faktor multiplizieren und anschließend beide Produkte
 addieren. Die Reihenfolge der Faktoren bzw. Summanden spielt dabei gemäß dem
-Kommutativgesetz :eq:`eqn-kommutativgesetz` keine Rolle. 
+Kommutativgesetz :eq:`eqn-kommutativgesetz` keine Rolle.
 
 Besitzen im umgekehrten Fall alle Summanden einer Summe einen gemeinsamen
 Faktor, so kann dieser gemäß der obigen Gleichung "ausgeklammert" werden. Dieser
@@ -377,7 +377,7 @@ ersten Terms ist dabei mit jedem Summanden des zweiten Terms (unter
 Berücksichtigung des Vorzeichens) zu multiplizieren. Beispielsweise gilt:
 
 .. math::
-    
+
     (a_1 +  a_2)  \cdot (a_3 +  a_4) =  a_1 \cdot  a_3 + a_1 \cdot a_4 + a_2
     \cdot a_3 + a_2 \cdot a_4
 
@@ -387,7 +387,7 @@ für vielerlei Aufgaben nützliche "binomische Formeln":
 
 .. math::
     :label: eqn-binomische-formeln
-    
+
     (a_1 + a_2)^2 = \; &(a_1 + a_2) \cdot (a_1 + a_2) = a^2 + 2 \cdot a_1 \cdot a_2 + a_2^2 \\
     (a_1 - a_2)^2 = \; &(a_1 - a_2) \cdot (a_1 - a_2) = a^2 - 2 \cdot a_1 \cdot a_2 + a_2^2 \\
     &(a_1 + a_2) \cdot (a_1 - a_2) = a_1^2 - a_2^2
@@ -397,16 +397,16 @@ Eigenschaften>` und des so genannten :ref:`Binomialkoeffizienten <Kombinationen
 ohne Wiederholung>` eine allgemeine binomische Formel angegeben werden:
 
 .. math::
-    
+
     (a_1 + a_2) ^n = \sum_{i=0}^{n} \binom{n}{i} \cdot a_1^{(n-i)} \cdot a_2^i
 
-Für :math:`(a_1 - a_2)^n` welchseln sich die Vorzeichen der einzelnen Produkte
+Für :math:`(a_1 - a_2)^n` wechseln sich die Vorzeichen der einzelnen Produkte
 ab. Dies kann in der obigen Formel durch einen Faktor :math:`(-1)^i`
 berücksichtigt werden, der je nach Wert der Indexvariablen :math:`i` ein
 positives oder negatives Vorzeichen liefert. Somit gilt:
 
 .. math::
-    
+
     {\color{white}1 \qquad \;}(a_1 - a_2) ^n = \sum_{i=0}^{n} \binom{n}{i} \cdot (-1)^i \cdot a_1^{(n-i)}
     \cdot a_2^i
 
@@ -423,15 +423,15 @@ Der Betrag :math:`| a |` einer Zahl ist die nicht-negative der beiden Zahlen
 :math:`a` und :math:`-a`:
 
 .. math::
-        
+
     | a | = \begin{cases}
     +a  & \text{ falls } a > 0 \\
     \;\;0  & \text{ falls } a = 0 \\
     -a & \text{ falls } a < 0
     \end{cases}
-    
+
 Anschaulich entspricht der Betrag :math:`| a |` einer Zahl :math:`a` dem
-Abstand zwischen :math:`0` und :math:`a` auf der Zahlengeraden. 
+Abstand zwischen :math:`0` und :math:`a` auf der Zahlengeraden.
 
 
 .. _Rechnen mit Beträgen:
@@ -440,7 +440,7 @@ Abstand zwischen :math:`0` und :math:`a` auf der Zahlengeraden.
 
 Da Beträge letztlich nichts anderes sind als positive reelle Zahlen, können sie
 beliebig mit den vier Grundrechenarten verknüpft werden. Für die Beträge von
-Produkten und Quotienten gelten dabei folgende Rechenregeln: 
+Produkten und Quotienten gelten dabei folgende Rechenregeln:
 
 .. math::
     | a_1 \cdot a_2  | &= | a_1 | \cdot | a_2 | \\[4pt]
@@ -450,11 +450,11 @@ Die Gleichung :math:`| a_1  + a_2  | = | a_1 | + | a_2 |` gilt nicht allgemein,
 sondern nur dann, wenn :math:`a_1` und :math:`a_2` das gleiche Vorzeichen
 besitzen; andernfalls ist der Betrag der Summen :math:`|a_1 + a_2 |` kleiner als
 die Summe der Beträge :math:`| a_1 | + | a_2 |`. Beide Fälle lassen sich durch
-folgende Ungleichung beschreiben: 
+folgende Ungleichung beschreiben:
 
 .. math::
-    
-    | a_1 + a_2 | &\le | a_1 | + | a_2 | 
+
+    | a_1 + a_2 | &\le | a_1 | + | a_2 |
 
 Häufig ist auch der Differenzbetrag zweier Zahlen :math:`a_1` und :math:`a_2`
 von Interesse, d.h. der Abstand :math:`|a_2 - a_1|` zwischen :math:`a_1` und
@@ -462,7 +462,7 @@ von Interesse, d.h. der Abstand :math:`|a_2 - a_1|` zwischen :math:`a_1` und
 Differenz beider Zahlen ohne Berücksichtigung des Vorzeichens. Hierbei gilt:
 
 .. math::
-    
+
     | a_1 - a_2 | = | a_2 - a_1 |
 
 
@@ -476,8 +476,8 @@ nicht nur einen bestimmten Betrag bzw. Zahlenwert, sondern auch eine bestimmte
 Einheit.
 
 .. math::
-    
-    \text{Größe} = \text{Zahlenwert} \cdot \rm{Einheit} 
+
+    \text{Größe} = \text{Zahlenwert} \cdot \rm{Einheit}
 
 Wird in einer Gleichung mit Größen gerechnet, so müssen sich die jeweiligen
 Einheiten auf beiden Seiten der Gleichung stets entsprechen. Dabei sind folgende
@@ -491,19 +491,19 @@ Regeln zu beachten:
   *Beispiele:*
 
 .. math::
-  
+
   \unit[1]{m} = \unit[100]{cm} = \unit[1\,000]{mm} \\[8pt]
 
   \unit[1]{MW} = \unit[1\,000]{kW} = \unit[1\,000\,000]{W} \\[8pt]
-  
+
 * Identische Größen haben im allgemeinen Sprachgebrauch teilweise
   unterschiedliche Bezeichnungen. Auch hierbei sind die jeweiligen
   Umrechnungsfaktoren zu berücksichtigen.
-  
+
   *Beispiele:*
-      
+
 .. math::
-  
+
   \unit[1]{Liter} = \unit[1]{Kubikdezimeter} \\[8pt]
   \unit[1]{Tonne} = \unit[1\,000]{Kilogramm}
 
@@ -511,7 +511,7 @@ Regeln zu beachten:
 .. raw:: html
 
     <hr />
-    
+
 .. only:: html
 
     .. rubric:: Anmerkungen:
@@ -522,16 +522,16 @@ Regeln zu beachten:
 
 .. [#S1] Alternativ zur Erniedrigung der nächst größeren Ziffer des Minuenden
     kann der Übertrag auch dadurch berücksichtigt werden, dass die nächst
-    größere Ziffer des Subtrahenden um Eins erhöht wird. 
+    größere Ziffer des Subtrahenden um Eins erhöht wird.
 
     Sollen mehrere Zahlen auf einmal vom Minuenden subtrahiert werden, so kann
     man die einzelnen Subtrahenden -- Ziffer für Ziffer -- zunächst
     aufaddieren, um sie dann als Summe vom Minuenden abzuziehen.
 
 .. [#ASD] Für das Assoziativgesetz bzgl. der Addition und Subtraktion gilt:
-    
+
     .. math::
-    
+
         a_1 + (a_2 + a_3 ) &= (a_1 + a _2) + a_3  = a_1 + a_2 + a_3  \\
         a_1 + (a_2 - a_3 ) &= (a_1 + a _2) - a_3  = a_1 + a_2 - a_3  \\
         a_1 - (a_2 + a_3 ) &= (a_1 - a _2) - a_3  = a_1 - a_2 - a_3 \\
@@ -543,7 +543,7 @@ Regeln zu beachten:
 
     * Steht vor einer Multiplikations- bzw. Divisionsklammer ein Malzeichen
       :math:`(\cdot )`, so kann die Klammer ohne Änderung der Rechenzeichen in
-      der Klammer weggelassen werden. 
+      der Klammer weggelassen werden.
 
       .. math::
 
@@ -558,7 +558,7 @@ Regeln zu beachten:
       ist "Mal" durch "Geteilt" und "Geteilt" durch "Mal" zu ersetzen).
 
       .. math::
-          
+
           a_1 : (a_2 \cdot a_3 ) &= (a_1 : a _2) : a_3  = a_1 : a_2 : a_3 \\
           a_1 : (a_2 : a_3 ) &= (a_1 : a _2) \cdot a_3 \,  = a_1 : a_2 \cdot a_3
 
@@ -571,15 +571,15 @@ Regeln zu beachten:
     Distributivgesetz in folgender Form:
 
     .. math::
-        
+
         a_1 \cdot (a_2 - a_3 ) = a_1 \cdot a _2 - a_1 \cdot a_3 \\[4pt]
-        (a_2 - a_3) \cdot  a_1  = a_2 \cdot a _1 - a_3 \cdot a_1 
+        (a_2 - a_3) \cdot  a_1  = a_2 \cdot a _1 - a_3 \cdot a_1
 
     Für die Kombination der Addition oder Subtraktion mit der Division gilt
     (jeweils mit :math:`a_1 \ne 0`):
-    
+
     .. math::
-        
+
         (a_2 + a_3 ) : a_1 = a_2 : a_1 + a_3 : a_1 \\[4pt]
-        (a_2 - a_3 ) : a_1 = a_2 : a_1 - a_3 : a_1 
+        (a_2 - a_3 ) : a_1 = a_2 : a_1 - a_3 : a_1
 

@@ -22,14 +22,14 @@ Funktionsgraph und der :math:`x`-Achse.
 
     Untersumme und Obersumme als Näherungen für den Flächeninhalt zwischen einem
     Funktionsgraphen und der :math:`x`-Achse.
-    
+
     .. only:: html
 
         :download:`SVG: Untersumme und Obersumme
         <../pics/analysis/untersumme-und-obersumme.svg>`
 
 Je nachdem, ob man als Höhe jedes Rechtecks jeweils den kleineren oder größeren
-der Funktionswerte beider Randpunkte wählt, füllen die Rechtecke Fläche
+der Funktionswerte beider Randpunkte wählt, füllen die Rechtecke die Fläche
 unterhalb des Funktionsgraphen entweder nicht ganz aus, oder sie ragen stets an
 einer Seite über den Funktionsgraphen hinaus. Die Summen der so gewählten
 Rechteck-Flächen werden dementsprechend als Untersumme :math:`U` bzw. Obersumme
@@ -37,18 +37,18 @@ Rechteck-Flächen werden dementsprechend als Untersumme :math:`U` bzw. Obersumme
 :math:`\Delta x` gilt:
 
 .. math::
-    
+
     U _{\rm{n}}(x) = \sum_{i=1}^{n} f(x _{\rm{i-1}})  \cdot  \Delta x \\
     O _{\rm{n}}(x) = \sum_{i=1}^{n} f(x _{\rm{i}}) \cdot  \Delta x {\color{white}_{-1} }
 
-..  O _{\rm{n}}(x) = \sum_{i=1}^{n} f(x _{\rm{i}})\phantom{_{-1}}  \cdot  \Delta x 
+..  O _{\rm{n}}(x) = \sum_{i=1}^{n} f(x _{\rm{i}})\phantom{_{-1}}  \cdot  \Delta x
 
 
 Für die Fläche :math:`A _{\rm{[x_1;x_2]}}\left(f(x)\right)` unterhalb des Funktionsgraphen
 :math:`f` zwischen den zwei Punkten :math:`x_1` und :math:`x_2` gilt somit: [#]_
 
 .. math::
-    
+
     U _{\rm{n}}(x) \; \le \; A _{\rm{[x_1;x_2]}}\left( f(x)\right) \; \le \; O _{\rm{n}}(x)
 
 Unterteilt man bei einer beliebigen Funktion den Bereich zwischen :math:`x_1`
@@ -67,7 +67,7 @@ gesuchten Fläche :math:`A _{\rm{[x_1;x_2]}}\left(f(x)\right)` identisch ist.
 
     Integral als Riemann-Summe für infinitessimal kleine Unterteilungen von
     :math:`[x1;x2]`.
-    
+
     .. only:: html
 
         :download:`SVG: Integral als Riemann-Summe
@@ -80,14 +80,14 @@ anstelle von :math:`\Delta x` für die Breite jedes einzelnen Rechtecks
 :math:`\mathrm{d} x` geschrieben:
 
 .. math::
-    
+
     \lim _{n \to \infty} U _{\rm{n}}(x) = \int_{x_1}^{x_2} f(x) \cdot \mathrm{d}
     x = \lim _{n \to \infty} O _{\rm{n}}(x)
 
-Der Ausdruck :math:`\int_{x_1}^{x_2} f(x) \cdot \mathrm{d} x` wird dabei dabei
+Der Ausdruck :math:`\int_{x_1}^{x_2} f(x) \cdot \mathrm{d} x` wird dabei
 Integral von :math:`f(x)` über :math:`[x_1 ; x_2]` genannt. Die Funktion
 :math:`f(x)` wird als Integrand und :math:`x_1` bzw. :math:`x_2` als
-Integrationsgrenzen bezeichnet. 
+Integrationsgrenzen bezeichnet.
 
 .. Integrierbarkeit: Zu f exittiert bestimmtes Integral über Intervall [a;b].
 
@@ -114,7 +114,7 @@ und der zu integrierenden Funktion gilt für alle :math:`x \in [a;b]` also:
 
 .. math::
     :label: eqn-stammfunktion
-    
+
     F'(x) = f(x)
 
 Die Integration kann also als Umkehrung der Differentiation angesehen werden.
@@ -132,7 +132,7 @@ konkrete Integrationsgrenzen geschrieben.
 
 Aus der Menge aller Stammfunktionen soll üblicherweise eine bestimmt werden,
 die durch einen gegebenen Punkt :math:`P (x_1, y_1)` verläuft. Eine solche
-Forderung nennt man Anfangsbedingung. 
+Forderung nennt man Anfangsbedingung.
 
 .. index:: Integralfunktion
 
@@ -143,19 +143,19 @@ besteht somit darin, dass die Stammfunktion an der Stelle :math:`x=a` eine
 Nullstelle aufweisen muss. Es muss also gelten:
 
 .. math::
-    
+
     F(a) + C  = 0 \quad \Leftrightarrow \quad C = - F(a)
 
 Dieser Gedanke folgt daraus, dass man :math:`F(x) = \int_{a}^{x} f(x) \cdot
 \mathrm{d} x` als so genannte Integralfunktion interpretiert, die jeweils den
 Wert des Integrals liefert, wenn die untere Grenze :math:`a` und die oberen
-Grenze :math:`x` entspricht. Mit der obigen Anfangsbedingung erhält man man
-somit als Wert für das bestimmte Integral über die Funktion :math:`f(x)` von
+Grenze :math:`x` entspricht. Mit der obigen Anfangsbedingung erhält man somit
+als Wert für das bestimmte Integral über die Funktion :math:`f(x)` von
 :math:`a` bis :math:`x=b`:
 
 .. math::
     :label: eqn-integralwert
-    
+
     \int_{a}^{b} f(x) \cdot \mathrm{d} x = F(b) - F(a)
 
 Als Kurzschreibweise ist hierbei :math:`F(x)\big | _{\rm{a}} ^{b} := F(x) -
@@ -166,12 +166,12 @@ Stammfunktion einzusetzen und die Differenz beider Werte zu berechnen:
 
 .. math::
     :label: eqn-integral-a-b
-    
+
     \int_{a}^{b} f(x)  \cdot  \mathrm{d}x = F(x) \big | _{\rm{a}}^{b} = F(b) -
     F(a)
 
 Die Schwierigkeit bei der Integralrechnung besteht folglich darin, eine
-Stammfunktion :math:`F(x)` zur gegebenen Funktion :math:`f(x)` zu finden. 
+Stammfunktion :math:`F(x)` zur gegebenen Funktion :math:`f(x)` zu finden.
 
 
 .. _Grundintegrale:
@@ -193,9 +193,9 @@ Stammfunktion.
 
   .. math::
       :label: eqn-stammfunktion-von-konstanten-funktionen
-      
+
       f(x) = c \quad \Leftrightarrow \quad F(x) = c \cdot x + C
-  
+
   Anschaulich entspricht der Wert von :math:`c \cdot x` der Fläche des Rechtecks
   mit der Breite :math:`c`, das zwischen der konstanten Funktion und der
   :math:`x`-Achse liegt und die Länge :math:`x` hat.
@@ -206,7 +206,7 @@ Stammfunktion.
 
   .. math::
       :label: eqn-stammfunktion-von-potenzfunktionen
-      
+
       f(x) = x^n \quad \Leftrightarrow \quad F(x) = \frac{x ^{n+1}}{n+1} + C
 
   Dieses Ergebnis folgt daraus, dass die Ableitung der Funktion :math:`x ^{n+1}`
@@ -219,7 +219,7 @@ Stammfunktion.
   :math:`\frac{1}{2} \cdot x^2` der Fläche eines Dreiecks, das zwischen dem
   Graphen :math:`f(x)=x` und der :math:`x`-Achse liegt; diese Fläche ist gleich
   der Hälfte der Quadratfläche von :math:`f(x) \cdot x = x \cdot x = x^2`.
-  
+
   Integrale von linearen Funktionen treten in den Naturwissenschaften häufig
   auf, beispielsweise gilt für die zurückgelegte Wegstrecke :math:`s` bei einer
   :ref:`Bewegung mit konstanter Beschleunigung <gwp:Wegstrecke bei konstanter
@@ -235,19 +235,19 @@ Stammfunktion.
   :math:`f(x) = \sqrt{x} = x ^{\frac{1}{2}}` mit :math:`n = \frac{1}{2}`:
 
   .. math::
-      
+
       f(x) = \sqrt{x} = x ^{\frac{1}{2}} \quad \Longleftrightarrow \quad F(x) =
       \frac{x ^{\frac{3}{2}}}{\frac{3}{2}} = \frac{2 \cdot \sqrt{x^3}}{3}
-  
+
 
 * Ist :math:`f(x) = x ^{-1} = \frac{1}{x}` mit :math:`x \ne 0`, so ist eine
   Anwendung der obigen Regel :eq:`eqn-stammfunktion-von-potenzfunktionen` nicht
   möglich. Für diesen Sonderfall gilt vielmehr folgender Zusammenhang:
 
   .. math::
-      
+
       f(x) = \frac{1}{x} \quad \Longleftrightarrow \quad F(x) = \ln{(x)} + C
-  
+
   Die Stammfunktion der :ref:`Hyperbelfunktion <Hyperbeln>` :math:`f(x) =
   \frac{1}{x}` ist also die natürliche :ref:`Logarithmusfunktion
   <Logarithmusfunktionen>` :math:`F(x) = \ln{(x)}`. [#]_
@@ -268,18 +268,18 @@ Stammfunktion.
   Ebenso wie die natürliche Exponentialfunktion beim Ableiten unverändert
   bleibt, so bleibt sie auch beim Integrieren unverändert.
 
-* Ist :math:`f(x) = a^x` mit :math:`a > 0` und :math:`a \ne 1`, so 
+* Ist :math:`f(x) = a^x` mit :math:`a > 0` und :math:`a \ne 1`, so
   gilt für die Stammfunktion :math:`F(x)`:
 
   .. math::
       :label: eqn-stammfunktion-von-exponentialfunktionen
-      
+
       f(x) = a ^{x} \quad \Longleftrightarrow \quad F(x) = \frac{1}{\ln{(a)}}
       \cdot a ^{x}
 
-  Auch die allgemeine Exponentialfunktionfunktion ergibt beim Integrieren wieder
+  Auch die allgemeine Exponentialfunktion ergibt beim Integrieren wieder
   eine Exponentialfunktion, wobei der Vorfaktor :math:`\frac{1}{\ln{(a)}}`
-  berücksichtigt werden muss. 
+  berücksichtigt werden muss.
 
 
 .. _Integralregeln für trigonometrische Funktionen und Arcusfunktionen:
@@ -290,7 +290,7 @@ Stammfunktion.
 
   .. math::
       :label: eqn-stammfunktion-der-sinusfunktion
-      
+
       f(x) = \sin{(x)} \quad \Longleftrightarrow \quad F(x) = -\cos{(x)} + C
 
   Dieser Zusammenhang ergibt sich daraus, dass die :ref:`Ableitung der
@@ -301,7 +301,7 @@ Stammfunktion.
 
   .. math::
       :label: eqn-stammfunktion-der-cosinusfunktion
-      
+
       f(x) = \cos{(x)} \quad \Longleftrightarrow \quad F(x) = +\sin{(x)} + C
 
   Dieser Zusammenhang ergibt sich daraus, dass die :ref:`Ableitung der
@@ -311,8 +311,8 @@ Stammfunktion.
   ..  \frac{1}{\sin ^2{(x)}}` existieren ebenfalls unmittelbare Stammfunktionen:
 
   ..  .. math::
-      
-      ..  f(x) = \frac{1}{\cos^2{(x)}} \quad \Longleftrightarrow \quad F(x) =  
+
+      ..  f(x) = \frac{1}{\cos^2{(x)}} \quad \Longleftrightarrow \quad F(x) =
 
 
 
@@ -329,42 +329,42 @@ Für jedes Integral gelten folgende Eigenschaften:
 
   .. math::
       :label: eqn-integral-vorzeichenregel
-      
+
       \int_{x_1}^{x_2} f(x) \cdot \mathrm{d} x = - \int_{x_2}^{x_1} f(x) \cdot
-      \mathrm{d}x 
+      \mathrm{d}x
 
   Der Grund dafür liegt darin, dass hierbei die Breiten aller Rechtecke
   :math:`\mathrm{d} x _{\rm{i}} = (x _{\rm{i+1}} - x _{\rm{i}})` für :math:`x
   _{\rm{i+1}} < x _{\rm{i}}` ein negatives Vorzeichen bekommen und somit bei der
-  Auswertung des Integrals über gleich große, aber negative Werte summiert wird. 
+  Auswertung des Integrals über gleich große, aber negative Werte summiert wird.
 
 * Ist die obere Integrationsgrenze :math:`x_2` gleich der unteren Grenze
-  :math:`x_1`, so ist das Integral für jede beliebe Funktion :math:`f(x)`
+  :math:`x_1`, so ist das Integral für jede beliebige Funktion :math:`f(x)`
   gleich Null:
 
   .. math::
       :label: eqn-integral-gleiche-grenzen
-      
+
       \int_{x_1}^{x_1} f(x)  \cdot  \mathrm{d}x  = 0
-  
+
   Anschaulich lässt sich dies dadurch erklären, dass die Fläche zwischen
   :math:`x_1` und :math:`x_1` eine Breite von Null hat.
-  
+
 * Jedes Integral lässt sich auf folgende Weise in zwei Teilintegrale zerlegen:
 
   .. math::
       :label: eqn-integral-additivitaet
-      
-      \int_{x_1}^{x_3} f(x)  \cdot \mathrm{d}x = 
+
+      \int_{x_1}^{x_3} f(x)  \cdot \mathrm{d}x =
       \int_{x_1}^{x_2} f(x)  \cdot \mathrm{d}x +
-      \int_{x_2}^{x_3} f(x)  \cdot \mathrm{d}x 
+      \int_{x_2}^{x_3} f(x)  \cdot \mathrm{d}x
 
   Ist :math:`x_1 < x_2 < x_3`, so ist umittelbar einleuchtend, dass die Fläche
   zwischen :math:`x_1` und :math:`x_3` gleich der Summe der Teilflächen sein
   muss, da sich das Intervall :math:`[x_1 ; x_3]` in zwei Teilintegrale
   :math:`[x_1;x_2] \cup [x_2;x_3]` zerlegen lässt und die entsprechenden
-  Teilsummen gebildet werden können. 
-  
+  Teilsummen gebildet werden können.
+
   Die Regel gilt jedoch auch dann, wenn :math:`x_2` außerhalb von
   :math:`[x_1;x_3]` liegt; ist beispielsweise :math:`x_2 > x_3`, so wird die --
   gegenüber dem Gesamtintegral -- mit dem ersten Teilintervall zusätzlich
@@ -375,16 +375,16 @@ Für jedes Integral gelten folgende Eigenschaften:
 * Lässt sich eine zu integrierende Funktion als Summe zweier Funktion
   :math:`f_1` und :math:`f_2` darstellen, so ist das Ergebnis gleich der Summe
   der Integrale beider Funktionen:
-  
+
   .. math::
       :label: eqn-integral-distributivgesetz
-      
+
       \int_{x_1}^{x_2} \big(f_1(x) + f_2(x)\big) \cdot \mathrm{d} x =
       \int_{x_1}^{x_2} f_1 (x) \cdot \mathrm{d} x + \int_{x_1}^{x_2} f_2(x)
-      \cdot \mathrm{d} x  
-  
+      \cdot \mathrm{d} x
+
   Die obige Regel entspricht formal dem :ref:`Distributivgesetz
-  <Distributivgesetz>`. 
+  <Distributivgesetz>`.
 
 * Lässt sich eine zu integrierende Funktion als Produkt einer Funktion
   :math:`f(x)` und eines konstanten Faktors :math:`c` darstellen, so kann dieser
@@ -392,9 +392,9 @@ Für jedes Integral gelten folgende Eigenschaften:
 
   .. math::
       :label: eqn-integral-assoziativgesetz
-      
+
       \int_{x_1}^{x_2} c \cdot f(x) \cdot \mathrm{d} x = c \cdot
-      \int_{x_1}^{x_2} f(x)  \cdot  \mathrm{d}x 
+      \int_{x_1}^{x_2} f(x)  \cdot  \mathrm{d}x
 
   Die obige Regel entspricht dem :ref:`Assoziativgesetz <Assoziativgesetz>` der
   Multiplikation. Anschaulich kann man sich jeden Funktionswert und damit die
@@ -405,9 +405,9 @@ Für jedes Integral gelten folgende Eigenschaften:
   Bedingung :math:`f_1(x) < f_2(x)`, so gilt:
 
   .. math::
-      
+
       f_1(x) < f_2(x) \text{ für alle } x \in [x_1;x_2] \quad \Leftrightarrow
-      \quad \int_{x_1}^{x_2} f_1(x) < \int_{x_1}^{x_2} f_2(x) 
+      \quad \int_{x_1}^{x_2} f_1(x) < \int_{x_1}^{x_2} f_2(x)
 
 
 .. rubric:: Bestimmung der Fläche zwischen zwei Graphen
@@ -422,7 +422,7 @@ folgendem Integral: [#]_
 
 .. math::
     :label: eqn-flaeche-zwischen-zwei-graphen
-    
+
     \int_{a}^{b} f_2(x) \cdot \mathrm{d} x - \int_{a}^{b}  f_1(x) \cdot
     \mathrm{d} x = \int_{a}^{b} \big(f_2(x) -f_1(x)\big) \cdot \mathrm{d} x
 
@@ -449,11 +449,11 @@ weitere Integrationsmethoden angewendet werden.
 .. rubric:: Partielle Integration
 
 Die Methode der partiellen Integration entspricht formal einer umgekehrten
-Anwendung der :ref:`Produktregel <Produktregel>` bei Ableitungen: 
+Anwendung der :ref:`Produktregel <Produktregel>` bei Ableitungen:
 
 .. math::
     :label: eqn-partielle-integration
-    
+
     \int_{a}^{b} f_1(x) \cdot f_2'(x) = \Big(f_1(x) \cdot
     f_2(x)\Big)\Big|_{\rm{a}}^b - \int_{a}^{b} f_1'(x) \cdot f_2(x) \cdot
     \mathrm{d} x
@@ -471,7 +471,7 @@ f_2(x) \cdot \mathrm{d} x` berechnet werden und dessen Wert vom Zwischenergebnis
 subtrahiert werden.
 
 Die Methode der partiellen Integration wird insbesondere dann verwendet, wenn
-eine der beiden Teilfunktion eine Potenzfunktion :math:`x^n` mit :math:`n \in
+eine der beiden Teilfunktionen eine Potenzfunktion :math:`x^n` mit :math:`n \in
 \mathbb{N}` ist. Bei einer derartigen Funktion ist die :math:`n`-te Ableitung
 ein konstanter Wert, der beim Integrieren gemäß Gleichung
 :eq:`eqn-integral-assoziativgesetz` als konstanter Faktor vor das Integral
@@ -485,12 +485,12 @@ f_1'(x) \cdot f_2(x) \cdot \mathrm{d} x` schrittweise zu berechnen.
 .. rubric:: Integration durch Substitution
 
 Die Methode der Integration durch Substitution entspricht formal einer
-umgekehrten Anwendung der :ref:`Kettenregel <Kettenregel>` bei Ableitungen: 
+umgekehrten Anwendung der :ref:`Kettenregel <Kettenregel>` bei Ableitungen:
 
 .. math::
-    
+
     \int_{}^{} f_1\big(f_2(x)\big) \cdot f_2'(x) \cdot \mathrm{d} x =
-    \int_{}^{} f_1(z) \cdot \mathrm{d} z 
+    \int_{}^{} f_1(z) \cdot \mathrm{d} z
 
 Hierbei wurde :math:`z = f_2(x)` geschrieben. Man kann mit dieser Substitution
 nach einer Stammfunktion  :math:`F_1(z)` von :math:`f_1(z)` suchen, in gleicher
@@ -504,9 +504,9 @@ Möchte man mit dieser Methode ein bestimmtes Integral von :math:`a` bis
 werden. Es gilt:
 
 .. math::
-    
+
     \int_{a}^{b} f_1\big(f_2(x)\big) \cdot f_2'(x) \cdot \mathrm{d} x =
-    \int_{f_2(a)}^{f_2(b)} f_1(z) \cdot \mathrm{d} z 
+    \int_{f_2(a)}^{f_2(b)} f_1(z) \cdot \mathrm{d} z
 
 Da :math:`f_2(x)` bekannt ist, müssen lediglich die Integrationsgrenzen in
 diese Funktion eingesetzt werden, um die neuen Integrationsgrenzen zu erhalten.
@@ -520,7 +520,7 @@ Zähler der Ableitung des Nenners entspricht, so kann folgende Regel verwendet
 werden:
 
 .. math::
-    
+
     \int_{}^{} \left(\frac{f'(x)}{f(x)}\right) \cdot \mathrm{d} x =
     \ln{(|f(x)|)} + C
 
@@ -528,7 +528,7 @@ Hat die Funktion :math:`f(x)` im Intervall :math:`[a;b]` keine Nullstelle, so
 gilt für das bestimmte Integral über :math:`f(x)` von :math:`a` bis :math:`b`:
 
 .. math::
-    
+
     \int_{a}^{b} \left(\frac{f'(x)}{f(x)}\right) \cdot \mathrm{d} x =
     \ln{(|f(x)|)}\Big | _{\rm{a}}^b
 
@@ -547,7 +547,7 @@ Weitere Integrale können Integraltabellen entnommen werden, beispielsweise
 
     .. rubric:: Anmerkungen:
 
-    
+
 .. [#] Das Gleichheitszeichen in der obigen Gleichung gilt nur für konstante
     :math:`y`-Werte, also Funktionen der Form :math:`y = f(x) = \text{konst.}`
 
@@ -559,5 +559,5 @@ Weitere Integrale können Integraltabellen entnommen werden, beispielsweise
 .. [#] Formal ist Gleichung :eq:`eqn-flaeche-zwischen-zwei-graphen` zur
     Berechnung der Fläche zwischen zwei Funktionsgraphen mit Gleichung
     :eq:`eqn-integral-distributivgesetz` als Distributivgesetz der
-    Integralrechnung identisch. 
+    Integralrechnung identisch.
 

@@ -23,10 +23,10 @@ wird.
     :math:`l` kann die Steigung einer schrägen Holzleiste bestimmt werden.
 
     .. only:: html
-    
+
         :download:`SVG: Steigungsdreieck (Modell)
         <../../pics/analysis/steigungsdreieck-modell.svg>`
-        
+
 
 Umso schneller die Höhe :math:`h`  entlang der horizontalen Wegstrecke :math:`l`
 zunimmt, d.h. umso steiler das Lineal aufgestellt ist, desto größer ist die
@@ -37,24 +37,24 @@ jede Gerade angelegt werden. Wandert man von einem (frei wählbaren) Punkt auf
 der Geraden beispielsweise fünf Kästchen horizontal nach rechts und zählt dann
 die Anzahl an Kästchen, die man horizontal nach oben oder unten zurücklegen
 muss um wieder auf die Gerade zu treffen, so hat man ein Maß für die Steigung
-der Gerade gewonnen. 
+der Gerade gewonnen.
 
 *Beispiele:*
 
-* Eine Gerade die entlang einer horizontalen Strecke von fünf Kästchen nach
-  rechts um drei Kästchen nach oben ansteigt ist weniger steil als eine Gerade
+* Eine Gerade, die entlang einer horizontalen Strecke von fünf Kästchen nach
+  rechts um drei Kästchen nach oben ansteigt, ist weniger steil als eine Gerade,
   die entlang der gleichen horizontalen Strecke (fünf Kästchen) um sieben
   Kästchen nach oben steigt.
 
-* Eine Gerade die entlang einer horizontalen Strecke von drei Kästchen nach
-  rechts um vier Kästchen nach oben ansteigt ist steiler als eine Gerade
+* Eine Gerade, die entlang einer horizontalen Strecke von drei Kästchen nach
+  rechts um vier Kästchen nach oben ansteigt, ist steiler als eine Gerade,
   die entlang der gleichen horizontalen Strecke (drei Kästchen) um zwei
   Kästchen nach oben steigt.
 
-* Eine Gerade die entlang einer horizontalen Strecke von vier Kästchen nach
-  rechts um acht Kästchen nach oben ansteigt ist genauso steil wie eine Gerade
+* Eine Gerade, die entlang einer horizontalen Strecke von vier Kästchen nach
+  rechts um acht Kästchen nach oben ansteigt, ist genauso steil wie eine Gerade,
   die entlang einer horizontalen Strecke von sechs Kästchen um zwölf Kästchen
-  nach oben steigt. 
+  nach oben steigt.
 
 Mathematisch kann das Verhältnis zwischen der vertikalen Änderung :math:`\Delta
 y = y _{\rm{2}} - y _{\rm{1}}` und der horizontalen Änderung :math:`\Delta x = x
@@ -62,18 +62,18 @@ _{\rm{2}} - x _{\rm{1}}` als Bruch geschrieben werden:
 
 .. math::
     :label: eqn-steigung
-    
+
     \text{ Steigung } = \frac{ \text{ Vertikale Änderung }}{ \text{ Horizontale
     Änderung }} = \frac{y _{\rm{2}} - y _{\rm{1}} }{x _{\rm{2}} - x _{\rm{1}} }
-    \equiv \frac{\Delta y}{\Delta x} 
+    \equiv \frac{\Delta y}{\Delta x}
 
 Da die beiden Änderungsgrößen :math:`\Delta y` und :math:`\Delta x` die gleiche
-Einheit (z.B. Kästchen oder cm) besitzen, besitzt die Steigung keine Einheit. 
+Einheit (z.B. Kästchen oder cm) besitzen, besitzt die Steigung keine Einheit.
 
 * Der Wert der Steigung ist positiv, wenn mit zunehmenden :math:`x`-Werten die
   zugehörigen :math:`y`-Werte größer werden.
 * Die Steigung ist gleich Null, wenn mit zunehmenden :math:`x`-Werten die
-  zugehörigen :math:`y`-Werte unverändert (konstant) bleiben. 
+  zugehörigen :math:`y`-Werte unverändert (konstant) bleiben.
 * Eine negative Steigung bedeutet entsprechend, dass mit zunehmenden
   :math:`x`-Werten die zugehörigen :math:`y`-Werte kleiner werden.
 
@@ -87,10 +87,10 @@ Einheit (z.B. Kästchen oder cm) besitzen, besitzt die Steigung keine Einheit.
     Steigung von 12 Prozent hin.
 
     .. only:: html
-    
+
         :download:`SVG: Verkehrszeichen Steigung
         <../../pics/analysis/verkehrszeichen-steigung.svg>`
-        
+
 Die Steigung kann auch in Prozent angegeben werden. Eine Steigung von 100%
 bedeutet beispielsweise, dass die Gerade mit jedem Kästchen nach rechts um genau
 ein Kästchen nach oben steigt. Da jedes Steigungsdreiecks rechtwinklig ist, kann
@@ -99,14 +99,14 @@ trigonometrischen Beziehung :math:`\tan{\alpha } = \frac{\text{ Gegenkathete
 }}{\text{ Ankathete }}` berechnet werden:
 
 .. math::
-    
+
     \tan{\alpha } = \frac{\text{ Gegenkathete }}{\text{ Ankathete }} =
-    \frac{\Delta y}{\Delta x} 
-    
+    \frac{\Delta y}{\Delta x}
+
 Eine Steigung von :math:`1` oder :math:`100\%` bedeutet gerade, dass je
 horizontaler Wegdifferenz :math:`\Delta x` eine ebenso große vertikale
 Wegdifferenz :math:`\Delta y` vorliegt; dies ist genau dann der Fall, wenn
-:math:`\alpha = \text{atan}\left(\frac{\Delta y}{\Delta x}\right) = 45 ^{\circ}`
+:math:`\alpha = \text{atan}\left(\frac{\Delta y}{\Delta x}\right) = 45 \degree`
 ist.
 
 
@@ -124,7 +124,7 @@ unterschiedlichen Bereichen auch das Vorzeichen wechseln.
 .. index:: Differenzenquotient
 
 Um die durchschnittliche Steigung einer beliebigen Funktion :math:`f` in einen
-bestimmten Bereich zwischen einem Startwert :math:`x_0` un einem Endwert
+bestimmten Bereich zwischen einem Startwert :math:`x_0` und einem Endwert
 :math:`x_0 + \Delta x` angeben zu können, kann man die Funktionswerte
 :math:`f(x_0)` und :math:`f(x_0 + \Delta x)` an den Bereichsgrenzen mit einer
 Geraden verbinden und ein entsprechendes Steigungsdreieck einzeichnen. Die
@@ -135,12 +135,12 @@ Funktion :math:`f` im betrachteten Bereich.
 
 .. math::
     :label: eqn-differenzenquotient
-    
+
     \text{ Durchschnittliche Steigung } = \tan{(\alpha _{\rm{S}})} = \frac{\Delta
-    y}{\Delta x} = \frac{f (x_0 + \Delta x) - f(x_0) }{\Delta x } 
+    y}{\Delta x} = \frac{f (x_0 + \Delta x) - f(x_0) }{\Delta x }
 
 Dabei bezeichnet :math:`\alpha _{\rm{S}}` den Winkel, den die
-Sekante mit der horizontalen einschließt.
+Sekante mit der Horizontalen einschließt.
 
 .. figure:: ../../pics/analysis/differenzenquotient.png
     :width: 50%
@@ -152,29 +152,29 @@ Sekante mit der horizontalen einschließt.
     verlaufenden Sekante als Veranschaulichung des Differenzenquotienten.
 
     .. only:: html
-    
+
         :download:`SVG: Differenzenquotient
         <../../pics/analysis/differenzenquotient.svg>`
 
 .. index:: Differentialquotient
-        
+
 Der Wert der Steigung einer Funktion :math:`f` an einer einzigen Stelle :math:`x
-_{\rm{0}}` lässt sich zunehmender Genauigkeit ermitteln, wenn der Bereich um die
-Stelle :math:`x _{\rm{0}}` immer kleiner ("feinmaschiger") gewählt wird. Im
+_{\rm{0}}` lässt sich mit zunehmender Genauigkeit ermitteln, wenn der Bereich um
+die Stelle :math:`x _{\rm{0}}` immer kleiner ("feinmaschiger") gewählt wird. Im
 Grenzfall ist :math:`\Delta x` und somit auch das Steigungsdreieck winzig klein.
-Die Sekante wird hierbei zu einer Tangente, die den Funktiosgraphen
+Die Sekante wird hierbei zu einer Tangente, die den Funktionsgraphen
 augenscheinlich nur noch in einem einzigen Punkt berührt. Für die Steigung der
 Tangente gilt also:
-    
+
 .. math::
     :label: eqn-differentialquotient
 
     \text{ Punktuelle Steigung } = \tan{(\alpha _{\,\rm{T}})} = \lim _{\Delta x
     \to 0} \left( \frac{\Delta y}{\Delta x}\right) = \lim _{\Delta x \to 0}
-    \left( \frac{f (x_0 + \Delta x) - f(x_0) }{\Delta x }\right) 
+    \left( \frac{f (x_0 + \Delta x) - f(x_0) }{\Delta x }\right)
 
 Dabei bezeichnet :math:`\alpha _{\,\rm{T}}` den Winkel, den die
-Sekante mit der horizontalen einschließt.
+Sekante mit der Horizontalen einschließt.
 
 .. figure:: ../../pics/analysis/differentialquotient.png
     :width: 50%
@@ -186,10 +186,10 @@ Sekante mit der horizontalen einschließt.
     Veranschaulichung des Differentialquotienten.
 
     .. only:: html
-    
+
         :download:`SVG: Differentialquotient
         <../../pics/analysis/differentialquotient.svg>`
-        
+
 
 .. 2 Pics nebeneinander als Vergleich
 
@@ -202,15 +202,15 @@ y}{\Delta x}` wird dabei zum so genannten Differentialquotienten
 :math:`\frac{\mathrm{d} y}{\mathrm{d} x }`:
 
 .. math::
-    
+
     \frac{\Delta y}{\Delta x} \quad \stackrel{\text{ Grenzwertbildung }}{
-    \Rightarrow } \quad \frac{\mathrm{d} y}{\mathrm{d} x} 
+    \Rightarrow } \quad \frac{\mathrm{d} y}{\mathrm{d} x}
 
 
 .. index:: Differenzierbarkeit
-.. _Differenzierbarkeit: 
+.. _Differenzierbarkeit:
 
-Differenzierbarkeit an einer Stelle :math:`x _{\rm{0}}` 
+Differenzierbarkeit an einer Stelle :math:`x _{\rm{0}}`
 --------------------------------------------------------
 
 Die Steigung einer Funktion :math:`f` an einer Stelle :math:`x _{\rm{0}}` ist
@@ -235,14 +235,14 @@ doch es gibt Ausnahmen.
     :name: fig-betragsfunktion
     :alt:  fig-betragsfunktion
 
-    Graph der Betragsfunktion :math:`y=|x|`. An der Stelle :math:`x _{\rm{0}} = 0` 
+    Graph der Betragsfunktion :math:`y=|x|`. An der Stelle :math:`x _{\rm{0}} = 0`
     ist die Funktion nicht differenzierbar.
 
     .. only:: html
-    
+
         :download:`SVG: Betragsfunktion
         <../../pics/analysis/betragsfunktion.svg>`
-        
+
 Anschaulich sind Funktionen dann differenzierbar, wenn sich die Steigung ihrer
 Graphen *kontinuierlich* ändert, die Graphen also keinen "Knick" besitzen.
 Hierauf ist insbesondere an den Bereichsgrenzen von abschnittsweise definierten
@@ -264,16 +264,16 @@ Mathematisch lassen sich die beiden unmittelbar angrenzenden Steigungen wie
 folgt ausdrücken:
 
 .. math::
-    
+
     \text{ Steigung links von $x_0$: } = \lim _{\substack{\Delta x \to 0,\\[3pt] \Delta x < 0\;} }
     \left( \frac{f(x_0 + \Delta x) - f(x_0)}{\Delta x}\right) \\[12pt]
     \text{ Steigung rechts von $x_0$: } = \lim _{\substack{\Delta x \to 0,\\[3pt] \Delta x > 0 \;} }
-    \left( \frac{f(x_0 + \Delta x) - f(x_0)}{\Delta x}\right) 
+    \left( \frac{f(x_0 + \Delta x) - f(x_0)}{\Delta x}\right)
 
 ..  \text{ Steigung links von $x_0$: } = \lim _{ \stackrel{x < x_0}
 ..  {\rightarrow} x_0 } \left( \frac{f(x) - f(x_0}{x - x_0}\right) \\[12pt]
 ..  \text{ Steigung rechts von $x_0$: } = \lim _{x \stackrel{x > x_0}
-..  } {\rightarrow} x_0 } \left( \frac{f(x) - f(x_0)}{x - x_0}\right) 
+..  } {\rightarrow} x_0 } \left( \frac{f(x) - f(x_0)}{x - x_0}\right)
 
 
 Stimmen die beiden Grenzwerte auf linken und auf der rechten Seite der Stelle
@@ -282,7 +282,7 @@ differenzierbar, und der Wert ihre Steigung ist gleich dem Steigungswert der
 beiden Grenzwerte.
 
 *Beispiel:*
-    
+
 * Die Funktion :math:`f(x) = |x|` soll auf Differenzierbarkeit an der Stelle
   :math:`x_0=0` hin untersucht werden.
 
@@ -292,7 +292,7 @@ beiden Grenzwerte.
   linksseitigen Grenzwert:
 
   .. math::
-      
+
       \lim _{\substack{\Delta x \to 0,\\[3pt] \Delta x < 0\;} } \left(
       \frac{f(x_0 + \Delta x) - f(x_0)}{\Delta x}\right) &= \lim
       _{\substack{\Delta x \to 0,\\[3pt] \Delta x < 0\;} } \left( \frac{|x_0 +
@@ -308,14 +308,14 @@ beiden Grenzwerte.
 
   Hierbei wurde jeweils :math:`x_0 = 0` eingesetzt und die Betragsfunktion in
   Abhängigkeit des Vorzeichens von :math:`\Delta x` ausgewertet. Der
-  linksseitige und der rechtsseitige Grenzwerte stimmen nicht überein, die
+  linksseitige und der rechtsseitige Grenzwert stimmen nicht überein, die
   Funktion ist somit an der Stelle :math:`x_0 = 0` nicht differenzierbar.
 
   An jeder anderen Stelle, beispielsweise :math:`x_0 = -5`, ist die Funktion
   :math:`f(x) = |x|` jedoch differenzierbar, denn dabei gilt:
 
   .. math::
-      
+
       \lim _{\substack{\Delta x \to 0,\\[3pt] \Delta x < 0\;} } \left(
       \frac{f(x_0 + \Delta x) - f(x_0)}{\Delta x}\right) &= \lim
       _{\substack{\Delta x \to 0,\\[3pt] \Delta x < 0\;} } \left(\frac{|x_0 +
@@ -323,7 +323,7 @@ beiden Grenzwerte.
       \to 0,\\[3pt] \Delta x < 0\;} } \left( \frac{|-5 + \Delta x| -
       |-5|}{\Delta x}\right) &=  \lim _{\substack{\Delta x \to 0,\\[3pt] \Delta
       x < 0\;} } \left(\frac{+5 - \Delta x - 5}{\Delta x}\right) = -1 \\[6pt]
-      
+
   Dieser Wert des Differentialquotienten gilt in diesem Fall sowohl für positive
   wie für negative :math:`\Delta x`-Werte, da diese im Vergleich zu :math:`x_0`
   klein sind und daher keine Auswirkung auf das Vorzeichen der Betragsfunktion
@@ -350,14 +350,14 @@ konvergierende Terme). Als Ergebnis erhält man dann einen Ausdruck, der die
 Ableitung :math:`f'(x)` der Funktion angibt.
 
 *Beispiele:*
-    
+
 * Die Ableitung für die Funktion :math:`f(x) = x^2` soll anhand des
   Differentialquotienten bestimmt werden.
 
-  Der Differentialquotient für diese Funktion lautet allgemein: 
+  Der Differentialquotient für diese Funktion lautet allgemein:
 
   .. math::
-      
+
       &\phantom{=\;} \lim _{\Delta x \to 0} \left( \frac{f(x + \Delta x) - f(x)}{\Delta
       x}\right) = \lim _{\Delta x \to 0} \left( \frac{(x + \Delta x)^2 -
       x^2}{\Delta x}\right) \\[6pt] &= \lim _{\Delta x \to 0} \left( \frac{x^2 + 2 \cdot x
@@ -375,12 +375,12 @@ Ableitung :math:`f'(x)` der Funktion angibt.
 * Die Ableitung für die Funktion :math:`f(x) = 4 \cdot x^3 - 5 \cdot x` soll
   anhand des Differentialquotienten bestimmt werden.
 
-  Der Differentialquotient für diese Funktion lautet allgemein: 
-  
+  Der Differentialquotient für diese Funktion lautet allgemein:
+
   .. only:: html
-  
+
       .. math::
-      
+
           &\phantom{=\;} \lim _{\Delta x \to 0} \left( \frac{f(x + \Delta x) -
           f(x)}{\Delta x}\right) = \lim _{\Delta x \to 0} \left( \frac{\big(4 \cdot
           (x + \Delta x)^3 - 5 \cdot  (x+ \Delta x)\big) - \big(4 \cdot x^3 - 5
@@ -394,9 +394,9 @@ Ableitung :math:`f'(x)` der Funktion angibt.
           x - 5 \right) = 12 \cdot x^2 - 5
 
   .. only:: latex
-  
+
       .. math::
-      
+
           &\lim _{\Delta x \to 0} \left( \frac{f(x + \Delta x) -
           f(x)}{\Delta x}\right) = \lim _{\Delta x \to 0} \left( \frac{\big(4\!\cdot\!
           (x + \Delta x)^3 - 5\!\cdot\!(x+ \Delta x)\big) - \big(4\!\cdot\!x^3 - 5\!

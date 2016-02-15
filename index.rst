@@ -1,4 +1,4 @@
-.. meta:: 
+.. meta::
     :description: Ein freies Lehrbuch zur Mathematik.
     :keywords:  Mathematik, Grundwissen, Schule, Lehrbuch, Grundwissen Mathematik, Lehrbuch Mathematik, Mathematik Schule, Freies Lehrbuch
 
@@ -10,7 +10,7 @@ Mathematik
 .. only:: html
 
     Mathematik ist eine Wissenschaft, die aus der Kunst des Rechnens mit Zahlen
-    (Arithmetik) und der Untersuchung von Formen (Geometrie) entstanden ist. 
+    (Arithmetik) und der Untersuchung von Formen (Geometrie) entstanden ist.
 
     .. sidebar:: Hinweis
 

@@ -21,5 +21,5 @@ zusammengefasst.
     teilbarkeit-und-primzahlen.rst
     zahlensysteme.rst
     komplexe-zahlen.rst
-    
+
 

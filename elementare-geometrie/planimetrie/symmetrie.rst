@@ -7,7 +7,7 @@ Symmetrie
 Als Symmetrie wird die Eigenschaft mancher geometrischer Formen bezeichnet, nach
 einer bestimmten Transformation wiederum unverändert zu erscheinen.
 
-.. index:: 
+.. index::
     single: Symmetrie; Achsensymmetrie
     single: Transversale
     single: Achsensymmetrie
@@ -30,14 +30,14 @@ einander entsprechend bezeichnet und die Transversale Symmetrieachse genannt.
     :width: 40%
 
     Beispiel einer achsensymmetrischen Figur.
-    
+
     .. only:: html
 
         :download:`SVG: Achsensymmetrie
         <../../pics/geometrie/symmetrie-achsensymmetrie.svg>`
 
 Eine Figur kann auch mehrere Symmetrieachsen besitzen. Beispielsweise besitzt
-ein Rechteck zwei Symmetrieachsen, ein Kreis sogar beliebig viele. 
+ein Rechteck zwei Symmetrieachsen, ein Kreis sogar beliebig viele.
 
 .. figure:: ../../pics/geometrie/symmetrie-achsensymmetrie-mehrfach.png
     :name: fig-symmetrie-achsensymmetrie-mehrfach
@@ -46,7 +46,7 @@ ein Rechteck zwei Symmetrieachsen, ein Kreis sogar beliebig viele.
     :width: 60%
 
     Beispiel von mehrfach achsensymmetrischen Figuren.
-    
+
     .. only:: html
 
         :download:`SVG: Achsensymmetrie (mehrfach)
@@ -62,15 +62,15 @@ haben stets folgende Eigenschaften:
 * Verbindungslinien zwischen einander entsprechenden Punkten stehen senkrecht
   auf der Symmetrieachse.
 * Einander entsprechende Geraden (sowie Strecken und ihre Verlängerungen)
-  schneiden die auf Symmetrieachse im gleichen Punkt und im gleichen Winkel. 
+  schneiden die Symmetrieachse im gleichen Punkt und im gleichen Winkel.
 * Der Umlaufsinn beider Figuren ist umgekehrt, d.h. entsprechende Ecken folgen
-  in der einen Figuren im Uhrzeigersinn aufeinander, in der anderen entgegen dem
+  in der einen Figur im Uhrzeigersinn aufeinander, in der anderen entgegen dem
   Uhrzeigersinn.
 
 Achsensymmetrische Figuren können ebenso als Paare von achsensymmetrisch
 liegenden Figuren aufgefasst werden, deren Flächen sich zum Teil überschneiden.
 
-.. index:: 
+.. index::
     single: Symmetrie; Punktsymmetrie
     single: Punktsymmetrie
 .. _Punktsymmetrie:
@@ -81,7 +81,7 @@ Punktsymmetrie
 Ist eine Figur bei einer :math:`180°`-Drehung um einen im Inneren gelegenen
 Punkt völlig deckungsgleich mit sich selbst, so heißt die Figur (einfach)
 punktsymmetrisch. Der Drehpunkt wird dabei als Symmetriezentrum, der Drehwinkel
-als Symmetriewinkel bezeichnet. 
+als Symmetriewinkel bezeichnet.
 
 .. figure:: ../../pics/geometrie/symmetrie-punktsymmetrie.png
     :name: fig-symmetrie-punktsymmetrie
@@ -90,7 +90,7 @@ als Symmetriewinkel bezeichnet.
     :width: 40%
 
     Beispiel einer punktsymmetrischen Figur.
-    
+
     .. only:: html
 
         :download:`SVG: Punktsymmetrie
@@ -108,8 +108,8 @@ deckungsgleich.
     :align: center
     :width: 60%
 
-    Beispiel von mehrfach punktsymmetrischen Figur.
-    
+    Beispiel von mehrfach punktsymmetrischen Figuren.
+
     .. only:: html
 
         :download:`SVG: Punktsymmetrie (mehrfach)

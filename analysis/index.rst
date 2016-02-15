@@ -16,7 +16,7 @@ eindeutige Zuordnungen zwischen zwei (oder mehreren) Größen auch als
 
 Zur Untersuchung von Funktionen zählen insbesondere das Steigungs- und
 Krümmungsverhalten von Funktionsgraphen, ihr Verhalten im Unendlichen sowie die
-Bestimmung von Flächeninhalten zwischen verschiedenen Funktionsgraphen. 
+Bestimmung von Flächeninhalten zwischen verschiedenen Funktionsgraphen.
 
 .. toctree::
     :maxdepth: 2

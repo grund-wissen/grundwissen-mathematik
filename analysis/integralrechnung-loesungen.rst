@@ -20,7 +20,7 @@ Integralrechnung>` zum Abschnitt :ref:`Integralrechnung <Integralrechnung>`.
   das Integral gilt mit :math:`a=0` und :math:`b=1`:
 
   .. math::
-      
+
       \int_{0}^{1} f_1(x) \cdot f_2'(x) = \big(f_1(x) \cdot
       f_2(x)\big)\big|_0^1 - \int_{0}^{1} f_1'(x) \cdot f_2(x) \cdot
       \mathrm{d} x
@@ -29,7 +29,7 @@ Integralrechnung>` zum Abschnitt :ref:`Integralrechnung <Integralrechnung>`.
   in diese Gleichung ein, so ergibt sich:
 
   .. math::
-      
+
     \int_{0}^{1} \left(x  \cdot e^x \right) \cdot \mathrm{d} x = \left( x \cdot
     e^x \right) \big |_0^1 -  \int_{0}^{1} \left(1  \cdot e^x\right) \cdot
     \mathrm{d} x
@@ -41,7 +41,7 @@ Integralrechnung>` zum Abschnitt :ref:`Integralrechnung <Integralrechnung>`.
 .. raw:: html
 
     <hr/>
-    
+
 .. only:: html
 
     :ref:`Zurück zum Skript <Integralrechnung>`

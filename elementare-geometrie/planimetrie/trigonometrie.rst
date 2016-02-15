@@ -24,11 +24,11 @@ gegenüber liegende Seite wird Hypothenuse genannt.
     :name: fig-rechtwinkliges-dreieck
     :alt:  fig-rechtwinkliges-dreieck
 
-    Gegenkathete, Ankathete und Hypothenuse in einem rechtwinkligen Dreieck. 
-    
+    Gegenkathete, Ankathete und Hypothenuse in einem rechtwinkligen Dreieck.
+
     .. only:: html
 
-        :download:`SVG: Rechtwinkliges Dreieck 
+        :download:`SVG: Rechtwinkliges Dreieck
         <../../pics/geometrie/rechtwinkliges-dreieck.svg>`
 
 .. index:: Sinus, Cosinus, Tangens, Cotangens
@@ -40,8 +40,8 @@ ein. Diese bezeichnen folgende Seitenverhältnisse:
 
 .. math::
     :label: eqn-sinus
-    
-    \sin{\alpha } &= \frac{\text{Gegenkathete von } \alpha }{\text{Hypothenuse} }  
+
+    \sin{\alpha } &= \frac{\text{Gegenkathete von } \alpha }{\text{Hypothenuse} }
 
 .. math::
     :label: eqn-cosinus
@@ -53,7 +53,7 @@ ein. Diese bezeichnen folgende Seitenverhältnisse:
 
     {\color{white}\ldots \qquad \,\, }\tan{\alpha } &= \frac{\text{Gegenkathete
     von } \alpha }{\text{\phantom{geg}Ankathete von } \alpha } =
-    \frac{\sin{\alpha }}{\cos{\alpha }} 
+    \frac{\sin{\alpha }}{\cos{\alpha }}
 
 Bisweilen definiert man zusätzlich zum Tangens auch einen so genannten
 "Cotangens", der als Kehrwert des Tangens definiert ist:
@@ -63,54 +63,54 @@ Bisweilen definiert man zusätzlich zum Tangens auch einen so genannten
 
     {\color{white}\ldots \qquad \,\, }\cot{\alpha } = \frac{\text{\phantom{geg}Ankathete
     von } \alpha }{\text{Gegenkathete von } \alpha } =
-    \frac{\cos{\alpha }}{\sin{\alpha }} 
+    \frac{\cos{\alpha }}{\sin{\alpha }}
 
 Die Sinus- und Cosinuswerte sind als Längenverhältnis einer Kathete zur
 Hypothenuse, da die Hypothenuse die längste Seite im rechtwinkligen Dreieck ist,
-stets kleiner als eins. Die Werte des Tangens können für :math:`0 ^{\circ} \le
-\alpha < 90 ^{\circ}` alle Werte zwischen :math:`0` und :math:`+\infty`
-annehmen; für :math:`\alpha = 90 ^{\circ}` ist der Tangens nicht definiert, da
-in diesem Fall durch :math:`\cos{(90 ^{\circ})} = 0` dividiert würde. 
+stets kleiner als eins. Die Werte des Tangens können für :math:`0 \degree \le
+\alpha < 90 \degree` alle Werte zwischen :math:`0` und :math:`+\infty`
+annehmen; für :math:`\alpha = 90 \degree` ist der Tangens nicht definiert, da
+in diesem Fall durch :math:`\cos{(90 \degree)} = 0` dividiert würde.
 
 .. list-table:: Werte von Sinus, Cosinus und Tangens für besondere Winkel.
-    :widths: 50 50 50 50 50 50 
+    :widths: 50 50 50 50 50 50
     :header-rows: 0
 
-    * - :math:`{\color{white}1}\alpha` 
+    * - :math:`{\color{white}1}\alpha`
       - :math:`{\color{white}\frac{1}{2}111}0°{\color{white}111}`
       - :math:`{\color{white}\frac{1}{2}11}30°{\color{white}111}`
       - :math:`{\color{white}\frac{1}{2}11}45°{\color{white}111}`
       - :math:`{\color{white}\frac{1}{2}11}60°{\color{white}111}`
       - :math:`{\color{white}\frac{1}{2}11}90°{\color{white}111}`
-    * - :math:`\sin{\alpha }` 
+    * - :math:`\sin{\alpha }`
       - :math:`{\color{white}1111}0{\color{white}1111}`
       - :math:`{\color{white}111.}\frac{1}{2}{\color{white}1111}`
       - :math:`{\color{white}11}\frac{1}{2} \cdot \sqrt{2}`
       - :math:`{\color{white}11}\frac{1}{2} \cdot \sqrt{3}`
       - :math:`{\color{white}111.}1{\color{white}1111}`
-    * - :math:`\cos{\alpha }` 
+    * - :math:`\cos{\alpha }`
       - :math:`{\color{white}1111}1{\color{white}1111}`
       - :math:`{\color{white}11}\frac{1}{2} \cdot \sqrt{3}`
       - :math:`{\color{white}11}\frac{1}{2} \cdot \sqrt{2}`
       - :math:`{\color{white}111.}\frac{1}{2}`
       - :math:`{\color{white}111.}0{\color{white}1111}`
-    * - :math:`\tan{\alpha }` 
+    * - :math:`\tan{\alpha }`
       - :math:`{\color{white}1111}0{\color{white}1111}`
-      - :math:`{\color{white}11}\frac{1}{3} \cdot \sqrt{3}` 
+      - :math:`{\color{white}11}\frac{1}{3} \cdot \sqrt{3}`
       - :math:`{\color{white}111}1{\color{white}1111}`
-      - :math:`{\color{white}111}\sqrt{3}` 
+      - :math:`{\color{white}111}\sqrt{3}`
       - :math:`{\color{white}111}\text{n.d.}`
 
 Eine weitere Eigenschaft von Sinus und Cosinus ergibt sich daraus, dass der
 Sinus des Winkels :math:`\alpha` mit dem Cosinus des Winkels :math:`\beta`
-identisch ist. Wegen :math:`\alpha + \beta = 90 ^{\circ}` oder :math:`\alpha =
-90 ^{\circ} - \beta` folgt somit:
+identisch ist. Wegen :math:`\alpha + \beta = 90 \degree` oder :math:`\alpha =
+90 \degree - \beta` folgt somit:
 
 .. math::
-    
-    \sin{(\beta)} &= \sin{(90 ^{\circ} - \alpha)}\, = \cos{(\alpha)} \\
-    \cos{(\beta)} &= \cos{(90 ^{\circ} - \alpha)}\;\! = \sin{(\alpha)} \\
-    \cot{(\beta)} &= \tan{(90 ^{\circ} - \alpha)} = \tan{(\alpha)}
+
+    \sin{(\beta)} &= \sin{(90 \degree - \alpha)}\, = \cos{(\alpha)} \\
+    \cos{(\beta)} &= \cos{(90 \degree - \alpha)}\;\! = \sin{(\alpha)} \\
+    \cot{(\beta)} &= \tan{(90 \degree - \alpha)} = \tan{(\alpha)}
 
 
 .. index:: Sinus-Satz
@@ -122,7 +122,7 @@ Der Sinus-Satz
 Jedes spitzwinklige Dreieck lässt sich durch Einzeichnen einer Höhenlinie in
 zwei rechtwinklige Dreiecke zerlegen. Bezeichnet man den Schnittpunkt der Höhe
 :math:`h_c` mit der Strecke :math:`c` als :math:`\rm{D}`, so gilt für das Teildreieck
-:math:`\rm{ADC}`: 
+:math:`\rm{ADC}`:
 
 .. figure:: ../../pics/geometrie/dreieck-sinussatz.png
     :width: 40%
@@ -131,21 +131,21 @@ zwei rechtwinklige Dreiecke zerlegen. Bezeichnet man den Schnittpunkt der Höhe
     :alt:  fig-sinussatz
 
     Unterteilung eines Dreiecks zum Nachweis des Sinus-Satzes.
-    
+
     .. only:: html
 
         :download:`SVG: Sinussatz
         <../../pics/geometrie/dreieck-sinussatz.svg>`
 
 .. math::
-    
+
     \sin{(\alpha)} = \frac{h_c}{b} \quad \Leftrightarrow \quad h_c = b \cdot
     \sin{(\alpha)}
 
 Für das Teildreieck :math:`\rm{DBC}` gilt entsprechend:
 
 .. math::
-    
+
     \sin{(\beta)} = \frac{h_c}{a} \quad \Leftrightarrow \quad h_c = a \cdot
     \sin{(\beta)}
 
@@ -153,25 +153,25 @@ Setzt man die beiden obigen Gleichungen für :math:`h_c` gleich, so erhält man 
 Beziehung:
 
 .. math::
-    
+
     b \cdot \sin{(\alpha)} = a \cdot \sin{(\beta)}
-    
+
 Zeichnet man alle drei Höhenlinien ein, so erhält man jeweils eine entsprechende
 Größengleichung. Formt man diese in Verhältnisgleichungen um, so ergibt sich der
 folgende "Sinussatz":
 
 .. math::
-    
-    \frac{a}{b} = \frac{\sin{(\alpha)}}{\sin{(\beta)}} \quad ; \quad 
-    \frac{b}{c} = \frac{\sin{(\beta)}}{\sin{(\gamma)}} \quad ; \quad 
-    \frac{c}{a} = \frac{\sin{(\gamma)}}{\sin{(\alpha)}} 
+
+    \frac{a}{b} = \frac{\sin{(\alpha)}}{\sin{(\beta)}} \quad ; \quad
+    \frac{b}{c} = \frac{\sin{(\beta)}}{\sin{(\gamma)}} \quad ; \quad
+    \frac{c}{a} = \frac{\sin{(\gamma)}}{\sin{(\alpha)}}
 
 Der Sinussatz wird üblicherweise weiter in eine einzige Gleichung
 zusammengefasst:
 
 .. math::
     :label: eqn-sinussatz
-    
+
     \frac{a}{\sin{(\alpha)}} = \frac{b}{\sin{(\beta)}} = \frac{c}{\sin{(\gamma)}}
 
 Die Seitenlängen eines Dreiecks stehen also im gleichen Verhältnis zueinander
@@ -192,22 +192,22 @@ Der Cosinus-Satz
 In jedem Dreieck ist das Quadrat einer Seitenlänge gleich der Summe der
 Quadrate der beiden anderen Seitenlängen, abzüglich dem doppelten Produkt aus
 diesen beiden Seitenlängen und dem Cosinuswert des eingeschlossenen Winkels.
-Beispielsweise gilt für beliebige Winkelwerte: 
+Beispielsweise gilt für beliebige Winkelwerte:
 
 .. math::
     :label: eqn-cosinussatz
-    
+
     c^2 = a^2 + b^2 - 2 \cdot a \cdot b \cdot \cos{(\gamma)}
 
-Ist :math:`\gamma = 90 ^{\circ}`, so ist  :math:`\cos{(\gamma)} = \cos{(90
-^{\circ})} = 0`, und damit :math:`c^2 = a^2 + b^2`. Der :ref:`Satz von
+Ist :math:`\gamma = 90 \degree`, so ist  :math:`\cos{(\gamma)} = \cos{(90
+\degree)} = 0`, und damit :math:`c^2 = a^2 + b^2`. Der :ref:`Satz von
 Pythagoras <Satz von Pythagoras>` ist somit ein Sonderfall des Cosinus-Satzes
 für rechtwinklige Dreiecke.
 
 Für die beiden anderen Seiten :math:`a` und :math:`b` gilt entsprechend:
 
 .. math::
-    
+
     a^2 = b^2 + c^2 - 2 \cdot b \cdot c \cdot \cos{(\alpha)} \\
     b^2 = c^2 + a^2 - 2 \cdot c \cdot a \cdot \cos{(\beta)}
 
@@ -216,7 +216,7 @@ alle drei Seitenlängen oder zwei Seitenlängen und der von ihnen eingeschlossen
 Winkel gegeben sind.
 
 *Beispiel:*
-    
+
 * Welche Werte haben die Winkel eines Dreiecks, dessen Seiten
   :math:`a=\unit[5]{cm}`, :math:`b=\unit[6]{cm}` und :math:`c=\unit[7]{cm}` lang
   sind?
@@ -224,7 +224,7 @@ Winkel gegeben sind.
   Nach dem Cosinus-Satz gilt:
 
   .. math::
-      
+
     a^2 &= b^2 + c^2 - 2 \cdot b \cdot c \cdot \cos{(\alpha)} \quad
     \Leftrightarrow \quad \alpha = \text{acos}\left( \frac{b^2 + c^2 - a^2}{2 \cdot b \cdot c}\right) \\[4pt]
     b^2 &= c^2 + a^2 - 2 \cdot c \cdot a \cdot \cos{(\beta)} \quad
@@ -235,12 +235,12 @@ Winkel gegeben sind.
   Setzt man die gegebenen Werte ein, so erhält man:
 
   .. math::
-      
-      \alpha &= \text{acos}\left( \frac{6^2 + 7^2 - 5^2}{2 \cdot 6 \cdot 7}\right) \approx 44,415 ^{\circ} \\
-      \beta &= \text{acos}\left( \frac{7^2 + 5^2 - 6^2}{2 \cdot 7 \cdot 5}\right) \approx 57,122 ^{\circ} \\
-      \gamma &= \text{acos}\left( \frac{5^2 + 6^2 - 7^2}{2 \cdot 5 \cdot 6}\right) \approx 78,463 ^{\circ} \\
 
-  Für die Summe der Innenwinkel gilt erwartungsgemäß :math:`\alpha + \beta + \gamma = 180 ^{\circ}`.
+      \alpha &= \text{acos}\left( \frac{6^2 + 7^2 - 5^2}{2 \cdot 6 \cdot 7}\right) \approx 44,415 \degree \\
+      \beta &= \text{acos}\left( \frac{7^2 + 5^2 - 6^2}{2 \cdot 7 \cdot 5}\right) \approx 57,122 \degree \\
+      \gamma &= \text{acos}\left( \frac{5^2 + 6^2 - 7^2}{2 \cdot 5 \cdot 6}\right) \approx 78,463 \degree \\
+
+  Für die Summe der Innenwinkel gilt erwartungsgemäß :math:`\alpha + \beta + \gamma = 180 \degree`.
 
 
 

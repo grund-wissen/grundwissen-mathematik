@@ -19,14 +19,14 @@ Funktionen <Eigenschaften von Funktionen>`.
 * Untersuche die folgende Funktion auf Stetigkeit an der Stelle :math:`x_0 = 1`:
 
   .. math::
-      
+
       f(x) = \begin{cases}
       1-x^2 \quad &\text{für } x \in \; ]-\infty; 1] \\
-      x-1 \quad &\text{für } x \in [\phantom{-}1; \; \infty[ 
+      x-1 \quad &\text{für } x \in [\phantom{-}1; \; \infty[
       \end{cases}
-      
+
   :ref:`Lösung <Stetigkeit-01-Lösung>`
-  
+
 ----
 
 .. _Stetigkeit-02:
@@ -35,7 +35,7 @@ Funktionen <Eigenschaften von Funktionen>`.
   \mathbb{R}\setminus \{ 0 \}` global stetig?
 
   :ref:`Lösung <Stetigkeit-02-Lösung>`
-  
+
 
 .. raw:: latex
 
@@ -44,7 +44,7 @@ Funktionen <Eigenschaften von Funktionen>`.
 .. raw:: html
 
     <hr/>
-    
+
 .. only:: html
 
     :ref:`Zurück zum Skript <Eigenschaften von Funktionen>`

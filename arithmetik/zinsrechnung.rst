@@ -7,12 +7,12 @@ Zinsrechnung
 Ein Anwendungsbeispiel für geometrische Reihen ist die Zinsrechnung. Unter
 Zinsen versteht man allgemein einen Betrag, der für das Überlassen einer
 Geldmenge ("Kapital") innerhalb einer bestimmten Zeit ("Zinsperiode",
-üblicherweise ein Kalenderjahr) zu bezahlen ist. 
+üblicherweise ein Kalenderjahr) zu bezahlen ist.
 
 Die Höhe der Zinsen ist von drei Größen abhängig: Der überlassenen Geldmenge
 :math:`K _0`, der Dauer :math:`t` der Überlassung ("Laufzeit"), und dem so
 genannten Zinssatz :math:`p`. Der Zinssatz gibt prozentual den Anteil an Geld
-an, am Ende einer Zinsperiode bezahlt werden muss. 
+an, der am Ende einer Zinsperiode bezahlt werden muss.
 
 In der Bankenpraxis entspricht ein Jahr 360 Tagen beziehungsweise jeder Monat 30
 Tagen. Bezeichnet man man bei kürzeren Zeiträumen als einem Jahr die Zahl der
@@ -37,8 +37,8 @@ folgendermaßen berechnet:
 
 .. math::
     :label: eqn-zinsen
-    
-    Z _{\rm{t}} &= K_0 \cdot p \cdot t \\[5pt]        
+
+    Z _{\rm{t}} &= K_0 \cdot p \cdot t \\[5pt]
 
 Die Zeit :math:`t` wird dabei als Bruchteil oder Vielfaches der Zinsperiode
 angegeben. Die Zinsen :math:`Z _{\rm{t}}` werden am Ende einer Zinsperiode dem
@@ -46,7 +46,7 @@ Kapital aufaddiert:
 
 .. math::
     :label: eqn-kapital-mit-zinsen
-    
+
     K _{\rm{t}} &= K_0 + Z _{\rm{t}} = K_0 \cdot (1 + p \cdot t)
 
 *Beispiele*:
@@ -55,13 +55,13 @@ Kapital aufaddiert:
   einem jährlichen Zinssatz von :math:`p=1,5\%` auf eine Bank eingezahlt und am 1.
   September wieder abgehoben. Auf welchen Betrag  :math:`K _{\rm{t}}` hat das
   Kapital in diesem Fall zugenommen?
- 
+
   Das Kapital wird für sechs Monate, also :math:`\unit[180]{Tage}`
   beziehungsweise :math:`t=\unit[\frac{180}{360}]{Jahr}` verzinst. Für den
   Betrag der Zinsen gilt mit :math:`K_0=\unit[2000]{Eur}` und :math:`p=0,015`:
-  
+
   .. math::
-      
+
      Z _{\rm{t}} = K_0 \cdot p \cdot t = \unit[2000]{Eur} \cdot 0,015 \cdot
      \frac{180}{360} = \unit[15]{Eur}
 
@@ -76,32 +76,33 @@ Kapital aufaddiert:
   :math:`p=0,07` und :math:`t=1`:
 
   .. math::
-      
+
      Z _{\rm{t}} = K_0 \cdot p \cdot t = \unit[10\,000]{Eur} \cdot 0,07 \cdot
      1 = \unit[700]{Eur}
 
   Am Endes des Jahres müssen somit :math:`\unit[(10\,000 + 700)]{Eur}` gezahlt
   werden.
-      
+
 .. rubric:: Barwertvergleich
 
 Das Endkapital :math:`K _{\rm{t}}` nach der Zeit :math:`t` wird auch als
 Zeitwert bezeichnet; entsprechend wird der Kapitalwert :math:`K_0` zum Zeitpunkt
 :math:`t=0` auch Barwert genannt. Kennt man das Endkapital :math:`K _{\rm{t}}`
 zu einem Zeitpunkt :math:`t>0`, so kann nach Umstellung der obigen Formel auch
-zugrunde liegende Barwert berechnet werden:
+der zugrunde liegende Barwert berechnet werden:
 
 .. math::
     :label: eqn-barwert
-    
+
     K_0 = \frac{K _{\rm{t}}}{1 + p \cdot t}
 
-Ein so genannter Barwertvergleich insbesondere genutzt werden, wenn Zahlungen zu
-unterschiedlichen Zeitpunkten miteinander verglichen werden sollen. In diesem
-Fall bezieht man üblicherweise alle Zahlungen auf den Zeitpunkt :math:`t=0`.
+Ein so genannter Barwertvergleich kann insbesondere genutzt werden, wenn
+Zahlungen zu unterschiedlichen Zeitpunkten miteinander verglichen werden sollen.
+In diesem Fall bezieht man üblicherweise alle Zahlungen auf den Zeitpunkt
+:math:`t=0`.
 
 *Beispiel:*
-    
+
 * Eine Rechnung kann entweder innerhalb von :math:`\unit[7]{Tagen}` mit
   :math:`2\%` Preisnachlass ("Skonto") oder innerhalb von
   :math:`\unit[30]{Tagen}` ohne Preisnachlass gezahlt werden. Welchem Zinssatz
@@ -113,34 +114,34 @@ Fall bezieht man üblicherweise alle Zahlungen auf den Zeitpunkt :math:`t=0`.
   :math:`\unit[25]{T}`, also ist :math:`t = \frac{25}{360}`. Somit gilt:
 
   .. math::
-      
+
       0,98 \cdot K _{\rm{t}} = \frac{K _{\rm{t}}}{1 + p \cdot \frac{25}{360}}
 
   Multipliziert man diese Gleichung mit dem Nenner der rechten Seite und
   dividiert durch :math:`K _{\rm{t}}`, so ergibt sich folgende Gleichung:
 
   .. math::
-      
+
       0,98 + 0,98 \cdot p \cdot \frac{25}{360} &= 1 \\
-      \Rightarrow \; p & \approx 0,294 
+      \Rightarrow \; p & \approx 0,294
 
   Der Preisnachlass entspricht, bezogen auf den angegebenen Zeitraum, somit
   einem Zinssatz von etwa :math:`p = 29,4\%`.
- 
+
 .. _Zinseszinsrechnung:
 
 Zinseszinsrechnung
 ------------------
 
 Werden die Zinsen nach einer Zinsperiode weiter verzinst, so entstehen so
-genannte Zinseszinsen. 
+genannte Zinseszinsen.
 
 Nach einer Zinsperiode ist das ursprüngliche Kapital :math:`K_0` entsprechend
 der einfachen Verzinsung um die Zinsmenge :math:`Z _1` auf den Betrag
 :math:`K_1` angewachsen. Es gilt also:
 
 .. math::
-    
+
     K_1 = K_0 + Z_1 = K_0 + \left( 1 + p \right)
 
 Im zweiten Jahr wird das Kapital :math:`K_1` verzinst. Für die sich ergebenden
@@ -148,7 +149,7 @@ Zinsen :math:`Z_2` beziehungsweise das Kapital :math:`K_2` nach zwei Jahren
 gilt:
 
 .. math::
-    
+
     K_2 = K_1 + Z_2 = K_1 \cdot \left(1 + p \right) = K _0 \cdot (1 + p)^2
 
 Der Faktor :math:`(1+p)^n` wird Aufzinsungsfaktor genannt und häufig auch mit
@@ -157,7 +158,7 @@ Zins- bzw. Kapitalmenge:
 
 .. math::
     :label: eqn-zinseszins
-    
+
     K _{\rm{n}} = K_0 \cdot (1 + p)^n = K_0 \cdot q^n
 
 Diese nach dem Mathematiker `Gottfried Wilhelm Leibniz
@@ -172,7 +173,7 @@ Als Barwert-Formel der Zinseszinsrechung ergibt sich:
 
 .. math::
     :label: eqn-barwert-zinseszins
-    
+
     K_0 = \frac{K _{\rm{n}}}{(1 + p)^n}
 
 Die Größe :math:`\frac{1}{(1+p)^n} = \frac{1}{q^n}` wird auch Abzinsungsfaktor
@@ -181,7 +182,7 @@ kann beispielsweise verwendet werden, um monatliche Ratenzahlungen mit einer
 einmaligen Zahlung zu vergleichen.
 
 Ist in der obigen Gleichung der Zinssatz :math:`p` oder die Laufzeit :math:`t`
-gesucht, während alle anderen Größen gegeben sind, so kann die Gleichung 
+gesucht, während alle anderen Größen gegeben sind, so kann die Gleichung
 entsprechend aufgelöst werden:
 
 * Kennt man das Anfangskapital :math:`K_0`, das Endkapital :math:`K _{\rm{n}}`
@@ -189,7 +190,7 @@ entsprechend aufgelöst werden:
   :math:`p`:
 
   .. math::
-      
+
      (1+p)^n = \frac{K _{\rm{n}}}{K_0} \quad \Leftrightarrow \quad p =
      \sqrt[n]{\frac{K _{\rm{n}}}{K_0}}-1
 
@@ -199,7 +200,7 @@ entsprechend aufgelöst werden:
   :math:`n` an Zinsperioden:
 
   .. math::
-      
+
      (1+p)^n = \frac{K _{\rm{n}}}{K_0} \quad \Leftrightarrow \quad n \cdot \ln{(1
      + p)} = \ln{\left(\frac{K _{\rm{n}}}{K_0}\right)} \quad \Longleftrightarrow
      \quad n = \frac{\ln{(K _{\rm{n}})} - \ln{(K_0)}}{\ln{(1-p)}}

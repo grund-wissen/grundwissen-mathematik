@@ -9,7 +9,7 @@ Eine Potenzfunktion hat allgemein folgende Funktionsgleichung:
 
 .. math::
     :label: eqn-potenzfunktion
-    
+
     f(x) = x^n
 
 In praktischen Anwendungen treten Potenzfunktionen sehr häufig auf;
@@ -19,7 +19,7 @@ Wichtige Sonderfälle sind hierbei mit :math:`f(x)=x^0 = 1` die konstante
 Funktion und mit :math:`f(x)=x` die lineare Funktion. Wurzelfunktionen lassen
 sich ebenfalls als Potenzfunktion mit rationalem Exponenten auffassen.
 
-Einige wichtige Eigenschaften von Potenzfunktionen werden im folgenden näher
+Einige wichtige Eigenschaften von Potenzfunktionen werden im Folgenden näher
 beschrieben.
 
 
@@ -39,7 +39,7 @@ Bedingung gilt:
 
 .. math::
     :label: eqn-gerade-funktion
-  
+
     f(-x) = f(x)
 
 Zu jedem Punkt des Funktionsgraphen existiert in diesem Fall ein zweiter
@@ -68,7 +68,7 @@ Zusätzlich haben alle geraden Potenzfunktionen folgende Eigenschaften:
   :math:`(0,0)` und :math:`(1,1)`.
 
 * Die Funktionen sind streng monoton fallend für :math:`x < 0` und streng monoton
-  steigend für :math:`x > 0`. [#]_ 
+  steigend für :math:`x > 0`. [#]_
 
 * Der Definitionsbereich der Funktionen ist :math:`\mathbb{R}`, ihr Wertebereich
   :math:`\mathbb{R}_0 ^{+}`; sie sind also nach unten beschränkt, und für die untere
@@ -81,7 +81,7 @@ folgende Bedingung gilt:
 
 .. math::
     :label: eqn-ungerade-funktion
-  
+
     -f(-x) = f(x)
 
 Zu jedem Punkt des Funktionsgraphen existiert somit ein zweiter Kurvenpunkt,
@@ -119,12 +119,12 @@ Zusätzlich haben alle ungeraden Potenzfunktionen folgende Eigenschaften:
 
 Wurzelfunktionen
 ----------------
-  
+
 Wurzelfunktionen haben allgemein folgende Funktionsgleichung:
 
 .. math::
     :label: eqn-wurzelfunktion
-    
+
     f(x) = \sqrt[n]{x}
 
 Dabei ist der Wurzelexponent :math:`n` eine feste natürliche und die Variable
@@ -137,7 +137,7 @@ Zugleich ist die :math:`n`-te Wurzelfunktion :math:`y=\sqrt[n]{x}` die
 Umkehrfunktion der :math:`n`-ten Potenzfunktion :math:`y = x^n`, da gilt:
 
 .. math::
-    
+
     x = f _{\rm{U}}(y) = \sqrt[n]{x^n} = x ^{\frac{n}{n}} = x^1 = x
 
 .. figure:: ../../pics/analysis/wurzelfunktionen.png
@@ -161,7 +161,7 @@ Spiegelung der jeweiligen Potenzfunktion :math:`x^n` an der Geraden :math:`y=x`.
 .. raw:: html
 
     <hr />
-    
+
 .. only:: html
 
     .. rubric:: Anmerkungen:
@@ -174,10 +174,10 @@ Spiegelung der jeweiligen Potenzfunktion :math:`x^n` an der Geraden :math:`y=x`.
 .. [#] Um die Umkehrfunktion einer geraden Potenzfunktion zu bilden, muss somit
     der Definitionsbereich eingeschränkt werden (meist auf :math:`\mathbb{R}_0
     ^{+}`).
-    
+
 .. [#] | Diese Einschränkung ist zumindest für reellwertige Funktionen
          notwendig, da in diesem Fall keine Wurzeln mit negativen Argumenten
-         definiert sind. 
+         definiert sind.
     | Im Bereich der :ref:`komplexen Zahlen <Komplexe Zahlen>`
       gilt die Beziehung :math:`\sqrt{-1} = i`.
 

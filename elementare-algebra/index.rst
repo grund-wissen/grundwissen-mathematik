@@ -1,4 +1,4 @@
-.. index:: 
+.. index::
     single: Algebra
     single: Algebra; elementare Algebra
     single: Elementare Algebra

@@ -25,7 +25,7 @@ Die folgenden Aufgaben beziehen sich auf den Abschnitt
   \mathbb{R}^{+}`):
 
   .. math::
-      
+
       f(x) = \frac{c \cdot x}{x^2 - c^2}
 
   :ref:`Lösung <Quotientenregel-01-Lösung>`
@@ -38,7 +38,7 @@ Die folgenden Aufgaben beziehen sich auf den Abschnitt
 .. raw:: html
 
     <hr/>
-    
+
 .. only:: html
 
     :ref:`Zurück zum Skript <Differentialrechnung>`

@@ -17,7 +17,7 @@ Ableitungsregeln>` hergeleitet werden. Für eine Exponentialfunktion :math:`f(x)
 = a^x` gilt:
 
 .. math::
-    
+
     f'(x) = \frac{\mathrm{d} f(x)}{\mathrm{d} x} = \lim _{\Delta x \to 0}
     \left(\frac{f(x + \Delta x)-f(x)}{\Delta x} \right) = \lim _{\Delta x \to 0}
     \left( \frac{a ^{(x + \Delta x)} - a ^x}{\Delta x}\right)
@@ -26,7 +26,7 @@ Mit Hilfe der :ref:`Rechenregeln für Potenzen <Rechenregeln für Potenzen mit
 gleicher Basis>` kann dieser Term weiter umgeformt werden. Es folgt:
 
 .. math::
-    
+
     f'(x) = \lim _{\Delta x \to 0} \left( \frac{a ^{(x + \Delta x)} - a
     ^x}{\Delta x}\right) = \lim _{\Delta x \to 0} \left( \frac{a ^x + a ^{\Delta
     x} - a^x}{\Delta x}\right) = \lim _{\Delta x \to 0} \left( \frac{a ^{\Delta
@@ -39,7 +39,7 @@ abhängigen Faktor multipliziert wird. Es lässt sich ein bestimmter Wert
 muss gelten:
 
 .. math::
-    
+
     \lim _{\Delta x \to 0}  \left( \frac{a_0 ^{\Delta x} - 1}{\Delta x} \right)
     = 1 \quad \Longleftrightarrow \quad a_0 = \lim _{\Delta x \to 0}  \left( 1 +
     \Delta x \right)^{\frac{1}{\Delta x}}
@@ -47,12 +47,12 @@ muss gelten:
 .. index:: Eulersche Zahl
 
 Dieser Grenzwert entspricht formal dem Grenzwert einer Folge :math:`\lim _{t \to
-0} (1 + t) ^{\frac{1}{t}}` reeller Zahlen. Dieser Grenzwert konnte erstmals von  
+0} (1 + t) ^{\frac{1}{t}}` reeller Zahlen. Dieser Grenzwert konnte erstmals von
 `Leonhard Euler <https://de.wikipedia.org/wiki/Leonhard_Euler>`_ bestimmt
 werden und wird zu dessen Ehren "Eulersche Zahl" :math:`e` genannt:
 
 .. math::
-    
+
     e = \lim _{t \to 0} (1 + t) ^{\frac{1}{t}} = 2,718281\ldots
 
 Diese Zahl ist irrational und für die Mathematik von ähnlicher Bedeutung wie
@@ -61,7 +61,7 @@ Exponentialfunktion, ist also :math:`f(x) = e^x`, so ist die Ableitungsfunktion
 mit der ursprünglichen Funktion identisch, es gilt in diesem Fall also:
 
 .. math::
-    :label: eqn-ableitungsregel-natuerliche-exponentialfunktion    
+    :label: eqn-ableitungsregel-natuerliche-exponentialfunktion
 
     f(x) = e^x \quad \rightarrow \quad f'(x) = e^x
 
@@ -75,20 +75,20 @@ Basis :math:`a` zueinander Umkehrfunktionen sind, also beispielsweise :math:`e
 geschrieben werden:
 
 .. math::
-    
+
     f(x) = a ^{x} = (e ^{\ln{(a)}})^x = e ^{x \cdot \ln{(a)}}
 
 Um diese Funktion ableiten zu können, muss -- wie schon im Abschnitt
 :ref:`Ableitungen von Potenzfunktionen mit rationalem Exponenten <Ableitungen
 von Potenzfunktionen mit rationalem Exponenten>` die so genannte "Kettenregel"
-genutzt werden: 
+genutzt werden:
 
 * Die Ableitung einer verketteten Funktion :math:`f(x) = f_1\big(f_2(x)\big)`
   ist gleich der Ableitung der äußeren Funktion multipliziert mit der
   Ableitung der inneren Funktion:
 
   .. math::
-    
+
       \Big(f_1\big(f_2(x)\big)\Big)' = \Big(f_1'\big(f_2(x)\big)\Big) \cdot f_2'(x)
 
   Beim Ableiten der äußeren Funktion wird die innere Funktion dabei
@@ -99,7 +99,7 @@ Für die obige Gleichung :math:`f(x) = e ^{x \cdot \ln{(a)}}` entspricht
 inneren Funktion. Da :math:`\ln{(a)} = \text{konstant}` ist, gilt: [#]_
 
 .. math::
-    
+
     f'(x) = \underbrace{e ^{x \cdot \ln{(a)}}}_{\text{Ableitung der äußeren
     Funktion}} \cdot \underbrace{\ln{(a)}}_{\text{Ableitung der inneren Funktion}}
 
@@ -109,8 +109,8 @@ c \cdot x` ergibt den Wert :math:`f_2'(x) = \ln{(a)}`. Für
 Exponentialfunktionen mit beliebiger Basis :math:`a` gilt also:
 
 .. math::
-    :label: eqn-ableitungsregel-exponentialfunktion    
-    
+    :label: eqn-ableitungsregel-exponentialfunktion
+
     f(x) = a ^{x} \quad \Rightarrow \quad f'(x) = \ln{(a)} \cdot a^x
 
 In dieser Formel ist wegen :math:`\ln{(e)} = 1` der Sonderfall für die natürliche
@@ -131,7 +131,7 @@ weitere, als "Umkehrregel" bezeichnete Ableitungsregel verwendet:
   :math:`f _{\rm{u}}(y)`:
 
   .. math::
-      
+
       \frac{\mathrm{d} y}{\mathrm{d} x} = \frac{1}{\frac{\mathrm{d}
       x}{\mathrm{d} y}} \quad \text{beziehungsweise} f'(x) = \frac{1}{f
       _{\rm{u}}'(y)}
@@ -142,23 +142,23 @@ _{\rm{u}}(y) = a ^{y}` . Somit gilt nach der Ableitungsregel
 :eq:`eqn-ableitungsregel-exponentialfunktion` für Exponentialfunktionen:
 
 .. math::
-    
+
     f _{\rm{u}}'(y) = \frac{\mathrm{d} x}{\mathrm{d} y} = \ln{(a)} \cdot a ^{y}
     = \ln{(a)} \cdot x
 
 Für die Ableitung der Logarithmusfunktion gilt schließlich:
 
 .. math::
-    :label: eqn-ableitungsregel-logarithmusfunktion    
-    
+    :label: eqn-ableitungsregel-logarithmusfunktion
+
     f(x) = \log_{a}{(x)} \quad \Rightarrow \quad f'(x) = \frac{1}{\ln{(a)} \cdot x}
 
 Im Sonderfall der natürlichen Logarithmusfunktion :math:`\ln{(x)} =
 \log_{e}{(x)}` ist :math:`\ln{(e)}=1` und somit:
 
 .. math::
-    :label: eqn-ableitungsregel-natuerliche-logarithmusfunktion    
-    
+    :label: eqn-ableitungsregel-natuerliche-logarithmusfunktion
+
     f(x) = \ln{(x)} \quad \Rightarrow \quad f'(x) = \frac{1}{x}
 
 Alle weiteren Ableitungen der Logarithmusfunktion lassen sich dann gemäß den

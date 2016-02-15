@@ -14,11 +14,11 @@ Ganzrationale Funktionen haben allgemein folgende Funktionsgleichung:
 
 .. math::
     :label: eqn-ganzrationale-funktion
-    
+
     y = \sum_{i=0}^{n} a_i \cdot x^i = a _{\rm{n}} \cdot x^n + a
     _{\rm{n-1}} \cdot x ^{n-1} + \ldots + a_2 \cdot x^2 + a_1 \cdot x + a_0
 
-Hierbei bezeichnet man den größten Exponent :math:`n \in \mathbb{N}` des
+Hierbei bezeichnet man den größten Exponenten :math:`n \in \mathbb{N}` des
 Polynoms als "Grad" der Funktion, die reellen Zahlen :math:`a_0` bis :math:`a_n`
 nennt man Koeffizienten. Ganzrationale Funktionen haben allgemein folgende
 Eigenschaften:
@@ -34,14 +34,14 @@ Eigenschaften:
    Koeffizient.
 
 3. Jede ganzrationale Funktion :math:`n`-ten Grades hat maximal :math:`n`
-   verschiedene Nullstellen. 
-  
+   verschiedene Nullstellen.
+
    Ebenso ist es möglich, dass bei der Bestimmung der Nullstellen ein Wert
-   mehrfach vorkommt. In diesem Fall ist die Nullstell mehrfach zu zählen, wobei
-   der Vielfachheit folgende Bedeutung zukommt: 
+   mehrfach vorkommt. In diesem Fall ist die Nullstelle mehrfach zu zählen, wobei
+   der Vielfachheit folgende Bedeutung zukommt:
 
    - Bei geradzahlig-mehrfachen Nullstellen berührt der Funktionsgraph die
-     :math:`x`-Achse, verbleibt allerdings auf der selben Seite der Achse. 
+     :math:`x`-Achse, verbleibt allerdings auf der selben Seite der Achse.
    - Bei ungeradzahlig-mehrfachen Nullstellen schneidet der Funktionsgraph die
      :math:`x`-Achse.
 
@@ -61,7 +61,7 @@ Stellen unterscheiden sich dabei nur in ihrem Vorzeichen, es ist also :math:`x_1
   stets (mindestens) eine Nullstelle. Die Gesamtzahl der Nullstellen ist stets
   ungerade.
 
-Im folgenden werden die obigen und weitere Eigenschaften am Beispiel der häufig
+Im Folgenden werden die obigen und weitere Eigenschaften am Beispiel der häufig
 vorkommenden linearen und quadratischen Funktionen, also den einfachsten
 Vertretern von ganzrationalen Funktionen (mit :math:`n=1` beziehungsweise
 :math:`n=2`), näher beschrieben.
@@ -78,7 +78,7 @@ so nennt man den Zusammenhang direkt proportional oder linear. Die zugehörige
 mathematische Funktion hat folgende Form:
 
 .. math::
-    
+
     y = a \cdot x + b
 
 Lineare Zusammenhänge zweier Größen treten im Alltag -- beispielsweise bei
@@ -88,7 +88,7 @@ sehr häufig auf.
 *Beispiele:*
 
 * Je größer die Geschwindigkeit eines Fahrzeugs ist, desto länger ist die
-  Wegstrecke, die es in einer bestimmten Zeit zurücklegt. 
+  Wegstrecke, die es in einer bestimmten Zeit zurücklegt.
 * Je mehr Plätzchen auf Vorrat gebacken werden, desto länger kann man davon
   naschen (vorausgesetzt, jeden Tag werden gleich viele Plätzchen verspeist).
 * Je mehr Geld man ausgeben möchte, desto mehr muss man verdienen. Oder: Je
@@ -107,17 +107,17 @@ Anfangswert dar (das Ergebnis der Funktion, wenn :math:`x=0` ist).
     :alt:  fig-lineare-funktionen
 
     Graphen der linearen Funktionen :math:`y = a \cdot x` bzw. :math:`y = x + b`
-    mit unterschiedlichen Paramtern :math:`a` (links) und :math:`b` (rechts).   
+    mit unterschiedlichen Parametern :math:`a` (links) und :math:`b` (rechts).
 
     .. only:: html
-    
+
         :download:`SVG: Lineare Funktionen
         <../../pics/analysis/lineare-funktionen.svg>`
 
 Eine Funktion heißt proportional, wenn das Verhältnis der Größen
 :math:`\frac{y}{x}` immer einen konstanten Wert hat, d.h. wenn
 :math:`\frac{y}{x} = k` gilt. Das ist genau dann der Fall, wenn :math:`y = k
-\cdot x` ist. Bei proportionale Funktionen handelt es sich folglich um lineare
+\cdot x` ist. Bei proportionalen Funktionen handelt es sich folglich um lineare
 Funktionen, die üblicherweise durch den Koordinatenursprung verlaufen und eine
 positive Steigung aufweisen.
 
@@ -133,13 +133,13 @@ Quadratische Funktionen
 In manchen Situationen wächst eine Größe durch den Einfluss einer anderen Größe
 stärker als proportional. Nimmt eine Messgröße um das :math:`2,4,9,16,n^2`-fache
 zu, während die Ausgangsgröße den  :math:`1,2,3,4,n`-fachen Wert annimmt, so
-nennt die zugehörige Funktion quadratisch.
+nennt man die zugehörige Funktion quadratisch.
 
 *Beispiele:*
 
 * Ein Quadrat mit einer :math:`2,3,4,\ldots`-fachen Seitenlänge :math:`l` besitzt einen
-  :math:`4,9,16,\ldots`-fachen Flächeninhalt :math:`A _{\rm{Quadrat}}`.  
-    
+  :math:`4,9,16,\ldots`-fachen Flächeninhalt :math:`A _{\rm{Quadrat}}`.
+
   .. math::
 
       A _{\rm{Quadrat}} = l^2
@@ -167,13 +167,13 @@ Der Graph einer quadratischen Funktion ist eine Parabel bzw. ein Stück davon.
 .. index:: Parabel
 .. _Normalparabel:
 
-.. rubric:: Die Normalparabel 
+.. rubric:: Die Normalparabel
 
 Allgemein besitzt eine quadratische Funktion folgende Form:
 
 .. math::
     :label: eqn-parabel
-    
+
     y = a \cdot x^2 + b \cdot x + c
 
 Im einfachsten Fall sind die beiden Parameter :math:`b,c = 0` sowie :math:`a =
@@ -181,7 +181,7 @@ Im einfachsten Fall sind die beiden Parameter :math:`b,c = 0` sowie :math:`a =
 
 .. math::
     :label: eqn-normalparabel
-    
+
     y = x^2
 
 Den zu Gleichung :eq:`eqn-normalparabel` gehörigen Funktionsgraphen nennt man
@@ -197,7 +197,7 @@ eingesetzten :math:`x`-Werte.
     Graph der Normalparabel :math:`y = x^2`.
 
     .. only:: html
-    
+
         :download:`SVG: Normalparabel
         <../../pics/analysis/normalparabel.svg>`
 
@@ -241,7 +241,7 @@ gegenüber der Normalparabel folgende Veränderungen:
     Parameter :math:`a`.
 
     .. only:: html
-    
+
         :download:`SVG: Parabel (a).
         <../../pics/analysis/parabel-a.svg>`
 
@@ -259,7 +259,7 @@ gegenüber der Normalparabel folgende Veränderungen:
   c` in vertikaler Richtung. Im Falle einer Normalparabel (:math:`a=1` und
   :math:`c=0`) bewirkt :math:`b \cdot x` eine Verschiebung um :math:`-
   \frac{b}{2}` in :math:`x`-Richtung sowie eine Verschiebung um :math:`-
-  \frac{b^2}{4}` in :math:`y`-Richtung.  
+  \frac{b^2}{4}` in :math:`y`-Richtung.
 
 .. figure:: ../../pics/analysis/parabel-b.png
     :width: 100%
@@ -271,12 +271,12 @@ gegenüber der Normalparabel folgende Veränderungen:
     \cdot x` für verschiedene Parameter :math:`b`.
 
     .. only:: html
-    
+
         :download:`SVG: Parabel (b).
         <../../pics/analysis/parabel-a.svg>`
 
 * Ist der Parameter :math:`c \ne 0`, so ist die Parabel nach oben (:math:`c >
-  0`) bzw. nach unten (:math:`c < 0`) verschoben. 
+  0`) bzw. nach unten (:math:`c < 0`) verschoben.
 
 .. figure:: ../../pics/analysis/parabel-c.png
     :width: 50%
@@ -288,7 +288,7 @@ gegenüber der Normalparabel folgende Veränderungen:
     Parameter :math:`c`.
 
     .. only:: html
-    
+
         :download:`SVG: Parabel (c).
         <../../pics/analysis/parabel-c.svg>`
 
@@ -306,7 +306,7 @@ Gebrochenrationale Funktionen haben allgemein folgende Funktionsgleichung:
 
 .. math::
     :label: eqn-gebrochenrationale-funktion
-    
+
     y = \frac{Z(x)}{N(x)} = \frac{\sum_{i=0}^{n} a_i \cdot x^i}{\sum_{k=0}^{m}
     b_k \cdot x^k} = \frac{a _{\rm{n}} \cdot x^n + a _{\rm{n-1}} \cdot x ^{n-1}
     +\ldots + a_2 \cdot x^2 + a_1 \cdot x + a_0}{b _{\rm{m}} \cdot x^m + b
@@ -316,7 +316,7 @@ Gebrochenrationale Funktionen haben allgemein folgende Funktionsgleichung:
 Gebrochenrationale Funktionen bestehen also aus einem Zählerpolynom
 :math:`Z(x)` mit Grad :math:`n` und einem Nennerpolynom :math:`N(x)` mit Grad
 :math:`m`. Ist :math:`n<m`, so nennt man die Funktion "echt" gebrochenrational;
-andernfalls lässt sie die Funktion mittels :ref:`Polynomdivision
+andernfalls lässt sich die Funktion mittels :ref:`Polynomdivision
 <Polynomdivision>` als Summe einer ganzrationalen Funktion und einer echt
 gebrochenrationalen Funktion schreiben.
 
@@ -338,7 +338,7 @@ werden:
   bezeichnet, für die der Nennerterm :math:`N(x)` gleich Null wird, ohne dass
   der der Zählerterm :math:`Z(x)` ebenfalls gleich Null wird. Die Funktion ist
   (wegen der Division durch Null) an solchen Stellen nicht definiert. Der
-  Graph der Funktion an Polstellen nicht stetig, sondern nähert sich
+  Graph der Funktion ist an Polstellen nicht stetig, sondern nähert sich
   asymptotisch einer durch entsprechenden :math:`x`-Wert verlaufenden und zur
   :math:`y`-Achse parallelen Geraden an. [#]_
 
@@ -347,7 +347,7 @@ werden:
 * Die folgende Funktion soll auf Nullstellen und Polstellen hin untersucht werden:
 
   .. math::
-      
+
       y = \frac{x}{(x+1)(x-2)}
 
   Der Zählerterm ist nur für :math:`x_0 = 0` gleich Null, der Funktionsgraph
@@ -355,10 +355,10 @@ werden:
   Nennerterm gleich Null gesetzt werden:
 
   .. math::
-      
+
       (x+1) \cdot (x-2) \stackrel{!}= 0 \\[6pt]
       \Rightarrow x_1 = -1 \quad ; \quad x_2 = +2
-  
+
   Die Funktion hat also zwei Polstellen bei :math:`x_1 = -1` und :math:`x_2 = 2`.
 
 .. figure:: ../../pics/analysis/gebrochenrationale-funktion-nullstellen-und-polstellen-beispiel.png
@@ -368,9 +368,9 @@ werden:
     :alt:  fig-gebrochenrationale-funktion-nullstellen-und-polstellen
 
     Beispiel von Nullstellen und Polstellen einer gebrochenrationalen Funktion.
-    
+
     .. only:: html
-    
+
         :download:`SVG: Polstellen und Nullstellen
         <../../pics/analysis/gebrochenrationale-funktion-nullstellen-und-polstellen-beispiel.svg>`
 
@@ -401,9 +401,9 @@ für :math:`x \to \pm \infty` ist die :math:`x`-Achse.
     :alt:  fig-hyperbeln
 
     Beispiele von Hyperbelfunktionen.
-    
+
     .. only:: html
-    
+
         :download:`SVG: Hyperbeln
         <../../pics/analysis/hyperbeln.svg>`
 
@@ -417,7 +417,7 @@ ungerade Potenzfunktionen>` unterteilt werden:
 
 * Die Funktionsgraphen von Hyperbeln mit geraden Exponenten sind
   achsensymmetrisch zur :math:`y`-Achse, sie verlaufen also im ersten und
-  zweiten Quadranten und gehen zusätzlich durch den Punkt :math:`(-1,1)`. 
+  zweiten Quadranten und gehen zusätzlich durch den Punkt :math:`(-1,1)`.
   Im Bereich :math:`x<0` sind gerade Hyperbeln streng monoton steigend, im
   Bereich :math:`x>0` streng monoton fallend. Nach unten sind gerade Hyperbeln
   mit der unteren Schranke :math:`s=0` beschränkt.
@@ -427,7 +427,7 @@ ungerade Potenzfunktionen>` unterteilt werden:
   ersten und dritten Quadranten und gehen zusätzlich durch den Punkt
   :math:`(-1,-1)`. Im gesamten Definitionsbereich sind ungerade Hyperbeln streng
   monoton steigend.
-  
+
 Aufgrund der Beziehung :math:`y = \frac{c}{x} \; \Leftrightarrow \; x
 \cdot y = c` können mit Hyperbeln :ref:`indirekte Proportionalitäten
 <Produktgleichungen>` zwischen :math:`x` und :math:`y` beschrieben werden.
@@ -441,27 +441,27 @@ Aufgrund der Beziehung :math:`y = \frac{c}{x} \; \Leftrightarrow \; x
     .. rubric:: Anmerkungen:
 
 .. [#] Für die erste Ableitung der Parabelgleichung :eq:`eqn-parabel` gilt:
-  
+
     .. math::
-  
+
         f' (x) = 2 \cdot a \cdot x + b
 
     Der Parabelscheitel ist die einzige Stelle einer Parabel, an der ihre
     Steigung :math:`f'(x)` gleich Null ist (Extremwert). Der :math:`x`-Wert des
     Scheitelpunktes lässt sich somit bestimmen, wenn in Gleichung
-    :eq:`eqn-parabel-ableitung` :math:`f'(x) = 0` gesetzt wird: 
+    :eq:`eqn-parabel-ableitung` :math:`f'(x) = 0` gesetzt wird:
 
     .. math::
-  
+
         f'(x) = 0 \quad &\Leftrightarrow \quad 2 \cdot a \cdot x + b = 0 \\[6pt]
-        &\Rightarrow x = - \frac{b}{2 \cdot a} 
+        &\Rightarrow x = - \frac{b}{2 \cdot a}
 
     Den zugehörigen :math:`y`-Wert des Parabelscheitels erhält man, wenn
     man :math:`x _{\rm{S}} = - \frac{b}{2 \cdot a}` in die ursprüngliche
     Parabelgleichung :eq:`eqn-parabel` einsetzt. Es ergibt sich:
-    
+
     .. math::
-        
+
         y _{\rm{S}} = f\left(-\frac{b}{2 \cdot a}\right) &= a \cdot \left( -
         \frac{b}{2 \cdot a}  \right)^2  + b \cdot \left( - \frac{b}{2 \cdot
         a}  \right)  + c \\[6pt]
@@ -469,16 +469,18 @@ Aufgrund der Beziehung :math:`y = \frac{c}{x} \; \Leftrightarrow \; x
         &= \frac{b^2}{4 \cdot a} - \frac{2 \cdot b^2}{4 \cdot a}  + c \\[6pt]
         &= - \frac{b^2}{4 \cdot a} + c
 
+.. TODO parabel-ableitung-ref ändern!!
+
 .. index:: Asymptote
 
 .. [#] Als Asymptote bezeichnet man allgemein eine Gerade oder Kurve, an die
-    sich eine Funktion an einer Polstelle oder im Unendlichen annähert. 
+    sich eine Funktion an einer Polstelle oder im Unendlichen annähert.
 
     Bei einer gebrochenrationalen Funktion erhält man für :math:`x \to \pm
     \infty` eine schräg verlaufende Gerade als Asymptote, wenn der Grad des
     Zählers um :math:`1` größer ist als der Grad des Nenners. Ist der Grad
     des Zählers um :math:`\ge 2` größer als der Grad des Nenners, so nähert
-    sich die gebrochenrationale Funktion asymptotisch an eine schräge Kurve an. 
+    sich die gebrochenrationale Funktion asymptotisch an eine schräge Kurve an.
     In beiden Fällen kann die Funktionsgleichung der Asymptote mittels einer
     :ref:`Polynomdivision <Polynomdivision>` bestimmt werden.
 

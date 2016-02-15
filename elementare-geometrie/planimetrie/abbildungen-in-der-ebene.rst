@@ -11,7 +11,7 @@ ihrer Punkte auf, so ist eine geometrische Abbildung formal mit einer
 :ref:`Abbildung von Mengen <Abbildungen>` identisch.
 
 
-.. index:: 
+.. index::
     single: Ähnlichkeit
     single: Zentrische Streckung
     single: Maßstab
@@ -42,7 +42,7 @@ gegenüber der Original-Figur verschoben und :math:`n`-mal so groß erscheint.
     Beispiel einer zentrischen Streckung mit :math:`n > 1`.
 
     .. only:: html
-    
+
         :download:`SVG: Zentrische Streckung
         <../../pics/geometrie/zentrische-streckung.svg>`
 
@@ -50,13 +50,13 @@ Der Faktor :math:`n` wird dabei als Streckungsfaktor oder Maßstab bezeichnet.
 Für :math:`n` ergibt sich folgender Zusammenhang:
 
 .. math::
-   
+
     \overline{\rm{ZP'}} = n \cdot \overline{\rm{ZP}} \quad
     \Leftrightarrow \quad n =
     \frac{\overline{\rm{ZP'}}}{\overline{\rm{ZP}}}
 
 Ist :math:`n>0`, so bleibt die Orientierungsrichtung der Figur, d.h. der
-Umlaufsinn ihrer Punkt, erhalten. Gilt :math:`1 > n > 0`, so wird die Figur
+Umlaufsinn ihrer Punkte, erhalten. Gilt :math:`1 > n > 0`, so wird die Figur
 verkleinert ("gestaucht"), im Fall :math:`n > 1` wird sie vergrößert
 ("gestreckt"). Für :math:`n=1` wird die Figur identisch auf sich selbst
 abgebildet.
@@ -76,7 +76,7 @@ Fall :math:`|n|>1` vergrößert.
     Beispiel einer zentrischen Streckung mit :math:`n = -\frac{1}{2}`.
 
     .. only:: html
-    
+
         :download:`SVG: Zentrische Streckung (negativer Maßstab)
         <../../pics/geometrie/zentrische-streckung-negativer-massstab.svg>`
 
@@ -91,6 +91,7 @@ Strecken im gleichen Maßstab zueinander stehen. In der mathematischen Kurzform
 schreibt man hierfür :math:`F \sim F'`.
 
 .. index:: Kongruenz
+.. _Kongruenz:
 .. _Kongruenzabbildungen:
 
 Kongruenzabbildungen
@@ -114,7 +115,7 @@ Um eine Verschiebung ("Translation") zu beschreiben, geht man von einem Vektor
 :math:`\vec{v}` aus, für deren Länge :math:`v = |\vec{v}|` gelten soll. Trägt
 man an jedem Punkt :math:`\rm{P}` einer geometrischen Figur einen ebenso langen,
 zu :math:`\vec{v}` parallelen Vektor mit :math:`\rm{P}` als Anfangspunkt an, so
-ergibt sich zu jedem Original-Punkt ein zugehöriger Bildpunkt :math:`\rm{P'}`. 
+ergibt sich zu jedem Original-Punkt ein zugehöriger Bildpunkt :math:`\rm{P'}`.
 
 .. figure:: ../../pics/geometrie/translation.png
     :width: 55%
@@ -125,7 +126,7 @@ ergibt sich zu jedem Original-Punkt ein zugehöriger Bildpunkt :math:`\rm{P'}`.
     Beispiel einer Translation.
 
     .. only:: html
-    
+
         :download:`SVG: Translation
         <../../pics/geometrie/translation.svg>`
 
@@ -156,7 +157,7 @@ gehörenden Bildpunkt :math:`\rm{P'}` so, dass der Winkel :math:`\varangle
     Beispiel einer Rotation.
 
     .. only:: html
-    
+
         :download:`SVG: Rotation
         <../../pics/geometrie/rotation.svg>`
 
@@ -166,7 +167,7 @@ negativen Drehsinn. Die Form und Größe der Figur sowie die Reihenfolge ihrer
 Punkte bleibt bei einer Drehung erhalten.
 
 
-.. index:: 
+.. index::
     single: Spiegelung
     single: Spiegelung; an einer Geraden
     single: Achsenspiegelung
@@ -175,11 +176,11 @@ Punkte bleibt bei einer Drehung erhalten.
 .. rubric:: Spiegelung einer geometrischen Figur an einer Geraden
 
 Um eine Spiegelung an einer Geraden zu beschreiben, geht man von einer festen
-Gerade :math:`s` als Spiegelachse aus. Durch jeden Punkt :math:`\rm{P}` einer Figur
+Geraden :math:`s` als Spiegelachse aus. Durch jeden Punkt :math:`\rm{P}` einer Figur
 konstruiert man eine Gerade senkrecht zu :math:`s` und bestimmt auf dieser den
 Bildpunkt :math:`\rm{P'}` so, dass :math:`\rm{P}` und :math:`\rm{P'}` von
 der Spiegelachse :math:`s` den gleichen Abstand haben und auf verschiedenen
-Seiten von :math:`s` liegen. 
+Seiten von :math:`s` liegen.
 
 .. figure:: ../../pics/geometrie/achsenspiegelung.png
     :width: 55%
@@ -190,7 +191,7 @@ Seiten von :math:`s` liegen.
     Beispiel einer Achsenspiegelung.
 
     .. only:: html
-    
+
         :download:`SVG: Achsenspiegelung
         <../../pics/geometrie/achsenspiegelung.svg>`
 
@@ -199,10 +200,10 @@ bezüglich :math:`s` bezeichnet. Bei einer Achsenspiegelung bleibt die Form und
 Größe der Figur erhalten, es ändert sich jedoch der Umlaufsinn ihrer Punkte.
 
 ..  Man kann eine Achsenspiegelung ebenso als (räumliche) Drehung der Figur um
-..  die Spiegelachse :math:`s` deuten. 
+..  die Spiegelachse :math:`s` deuten.
 
 
-.. index:: 
+.. index::
     single: Spiegelung; an einem Punkt
     single: Punktspiegelung
 .. _Spiegelung einer geometrischen Figur an einem Punkt:
@@ -214,7 +215,7 @@ Punkt :math:`\rm{S}` als Symmetriezentrum aus. Durch jeden Punkt :math:`\rm{P}`
 einer Figur legt man dann eine Gerade durch :math:`\rm{S}` und bestimmt auf
 dieser den Bildpunkt :math:`\rm{P'}` so, dass :math:`\rm{P}` und :math:`\rm{P'}`
 von :math:`\rm{S}` den gleichen Abstand haben und auf verschiedenen Seiten von
-:math:`\rm{S}` liegen. 
+:math:`\rm{S}` liegen.
 
 .. figure:: ../../pics/geometrie/punktspiegelung.png
     :width: 55%
@@ -225,7 +226,7 @@ von :math:`\rm{S}` den gleichen Abstand haben und auf verschiedenen Seiten von
     Beispiel einer Punktspiegelung.
 
     .. only:: html
-    
+
         :download:`SVG: Punktspiegelung
         <../../pics/geometrie/punktspiegelung.svg>`
 

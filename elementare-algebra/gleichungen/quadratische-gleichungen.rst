@@ -12,12 +12,14 @@ Umformungen in die allgemeine Form gebracht werden:
 
 .. math::
     :label: eqn-quadratische-gleichung
-    
+
     a \cdot x^2 + b \cdot x + c = 0
 
-Hierbei sind :math:`a \ne 0`, :math:`b` und :math:`c` beliebige Konstanten. 
+Hierbei sind :math:`a \ne 0`, :math:`b` und :math:`c` beliebige Konstanten.
 
 .. index:: Diskriminante, Mitternachtsformel
+.. _Mitternachtsformel:
+.. _Lösungsformel für quadratische Gleichungen:
 
 Eine quadratische Gleichung hat höchstens zwei Lösungen. Wie viele und welche
 Lösungen eine quadratische Gleichung im konkreten Fall hat, kann direkt bestimmt
@@ -25,23 +27,23 @@ werden, wenn die Gleichung in der allgemeinen Form vorliegt. Die Anzahl an
 Lösungen ist durch den Wert ihrer so genannten "Diskriminante" :math:`D = b^2 -
 4 \cdot a \cdot c` bestimmt, die anhand der allgemeinen Gleichungsform
 :eq:`eqn-quadratische-gleichung` unmittelbar berechnet werden kann. Damit lassen
-sich die folgenden drei Fälle unterscheiden: 
+sich die folgenden drei Fälle unterscheiden:
 
 .. math::
     :label: eqn-quadratische-gleichung-mitternachtsformel
-    
+
     D > 0 \quad &\Leftrightarrow \quad \mathbb{L} = \Big \lbrace
     \frac{-b - \sqrt{b^2 - 4 \cdot a \cdot c} }{2 \cdot a} ,\, \frac{-b +
     \sqrt{b^2 - 4 \cdot a \cdot c} }{2 \cdot a} \Big \rbrace  \\[4pt]
     D = 0 \quad &\Leftrightarrow \quad \mathbb{L} =
     \Big \lbrace \frac{-b}{2 \cdot a} \Big \rbrace  \\[4pt]
-    D < 0 \quad &\Leftrightarrow \quad \mathbb{L} = \big \lbrace \big \rbrace 
+    D < 0 \quad &\Leftrightarrow \quad \mathbb{L} = \big \lbrace \big \rbrace
 
 Dieses Verfahren, anhand der Diskriminante :math:`D` auf die Anzahl und die
 Werte der Lösungen schließen zu können, wird umgangssprachlich auch als
 "Mitternachtsformel" bezeichnet. [#MF]_ [#MFC]_ Sie lässt sich auf jede
-quadratische Gleichung anwenden, in der allgemeinen Form
-:eq:`eqn-quadratische-gleichung` vorliegt. 
+quadratische Gleichung anwenden, die in der allgemeinen Form
+:eq:`eqn-quadratische-gleichung` vorliegt.
 
 Liegen Spezialfälle von quadratischen Gleichungen vor, so können auch andere,
 teilweise einfachere Lösungsverfahren genutzt werden:
@@ -50,16 +52,16 @@ teilweise einfachere Lösungsverfahren genutzt werden:
   vor:
 
   .. math::
-      
+
       a \cdot x^2 + c = 0
 
   Diese Gleichung kann direkt nach :math:`x` aufgelöst werden:
 
   .. math::
-      
+
       a \cdot x^2 + c = 0 \quad \Leftrightarrow \quad x _{\rm{1,2}} = \pm
       \sqrt{-\frac{c}{a}}
-  
+
   Die Gleichung hat nur dann die beiden obigen Lösungen, wenn :math:`a` und
   :math:`c` unterschiedliche Vorzeichen haben, andernfalls ist die Lösungsmenge
   gleich :math:`\lbrace 0 \rbrace` (falls :math:`c = 0` ist) oder gleich
@@ -75,19 +77,19 @@ teilweise einfachere Lösungsverfahren genutzt werden:
   quadratische Gleichung folgender Form vor:
 
   .. math::
-      
+
       a \cdot x^2 + b \cdot x = 0
-  
+
   Die Mitternachtsformel liefert in diesem Fall die beiden Werte :math:`x
   _{\rm{1}} =0` und :math:`x _{\rm{2}} = - \frac{b}{a}` als Lösungen. Die
   gleichen Lösungen erhält man, indem man auf der linken Seite der Gleichung
   :math:`x` als gemeinsamen Faktor ausklammert:
 
   .. math::
-      
+
       a \cdot x^2 + b \cdot x = 0 \quad \Leftrightarrow \quad x \cdot (a \cdot x
       + b) = 0
-  
+
   Da ein Produkt nur dann gleich Null ist, wenn (mindestens) einer der beiden
   Faktoren gleich Null ist, folgt aus der obigen Gleichungsform, dass entweder
   der :math:`x=0` oder :math:`a \cdot x + b = 0` gelten muss. Aus dem ersten
@@ -97,23 +99,23 @@ teilweise einfachere Lösungsverfahren genutzt werden:
 .. index:: Satz von Vieta
 .. _Satz von Vieta:
 
-* Ist :math:`a = 1`, so liegt eine "normierte" quadratische Gleichung vor: 
+* Ist :math:`a = 1`, so liegt eine "normierte" quadratische Gleichung vor:
 
   .. math::
-      
+
       1 \cdot x^2 + b \cdot x + c = 0
-  
+
   Jede allgemeine quadratische Gleichung mit :math:`a \ne 1` kann ebenfalls
   mittels Division durch :math:`a` ebenfalls in eine normierte Form gebracht
   werden. Setzt man :math:`p = \frac{b}{a}` und :math:`q = \frac{c}{a}`, so
-  lässt sich jede quadratische Gleichung in normierter Form darstellen: 
+  lässt sich jede quadratische Gleichung in normierter Form darstellen:
 
   .. math::
       :label: eqn-quadratische-gleichung-normalform
-    
-      
+
+
       x^2 + p \cdot x + q = 0
-  
+
   Sind :math:`p` und :math:`q` ganze Zahlen, so lassen sich die Lösungen der
   Gleichung bisweilen auch schnell mit Hilfe des nach dem Mathematiker `François
   Viète <https://de.wikipedia.org/wiki/Vieta>`_ benannten "Satz von Vieta"
@@ -122,10 +124,10 @@ teilweise einfachere Lösungsverfahren genutzt werden:
   x _{\rm{2}}` gelten kann, folgender Zusammenhang besteht: [#SV]_
 
   .. math::
-      
+
       x _{\rm{1}} \, \cdot \, x _{\rm{2}} &= +q \quad \text{und} \\
-      x _{\rm{1}} + x _{\rm{2}} &= -p 
-  
+      x _{\rm{1}} + x _{\rm{2}} &= -p
+
   Kennt man die möglichen ganzzahligen Faktoren der Zahl :math:`q`, so lässt
   sich durch Kopfrechnen oftmals ein Zahlenpaar finden, das als Summe
   genau den negativen Wert von :math:`p` ergibt. Dieses Zahlenpaar stellt dann
@@ -140,7 +142,7 @@ quadratischen Gleichung, wobei auch :math:`x _{\rm{1}} = x _{\rm{2}}` zulässig
 ist, so kann diese allgemein auch in folgender Form dargestellt werden:
 
   .. math::
-      
+
       a \cdot x^2 + b \cdot x + c &= 0 \\
       \Rightarrow a \cdot (x - x _{\rm{1}}) \cdot (x - x
       _{\rm{2}}) &= 0
@@ -155,7 +157,7 @@ nützlicher Weise auch bei Gleichungen höheren Grades angewendet werden.
 .. raw:: html
 
     <hr />
-    
+
 .. only:: html
 
     .. rubric:: Anmerkungen:
@@ -165,7 +167,7 @@ nützlicher Weise auch bei Gleichungen höheren Grades angewendet werden.
     :math:`\pm` auch verkürzt in folgender Form dargestellt werden:
 
     .. math::
-        
+
         D > 0 \quad \Rightarrow \quad x _{\rm{1,2}} = \frac{-b \pm \sqrt{b^2 - 4
         \cdot a \cdot c}}{2 \cdot a}
 
@@ -177,24 +179,24 @@ nützlicher Weise auch bei Gleichungen höheren Grades angewendet werden.
     sofern mit reellen Zahlen :math:`x \in \mathbb{R}` gerechnet wird. Rechnet
     man mit :ref:`komplexen Zahlen <Komplexe Zahlen>`, so hat eine quadratische
     Gleichung auch im Fall :math:`D<0` zwei Lösungen. In diesem Fall gilt:
-    
+
     .. math::
-        
+
         \sqrt{D} = \sqrt{(-1) \cdot (-D)} = \sqrt{i^2 \cdot (-D)} = i \cdot \sqrt{-D}
 
     Damit ergeben sich als Lösungen:
 
     .. math::
-        
+
         x _{\rm{1,2}} = \frac{-b}{2 \cdot a} \pm i \cdot \frac{\sqrt{-(b^2 - 4
         \cdot a \cdot c)}}{2 \cdot a}
 
 .. [#SV] Nach der Mitternachtsformel
     :eq:`eqn-quadratische-gleichung-mitternachtsformel` gilt mit :math:`a=1` und
-    :math:`D = p^2 - 4 \cdot q`: 
+    :math:`D = p^2 - 4 \cdot q`:
 
     .. math::
-        
+
         x _{\rm{1}} \cdot x _{\rm{2}} &= \frac{-p + \sqrt{D}}{2} \cdot \frac{-p -
         \sqrt{D}}{2} \\[2pt]
         &= \left(-\frac{p}{2} + \frac{\sqrt{D}}{2} \right) \cdot \left(- \frac{p}{2} -
@@ -202,11 +204,11 @@ nützlicher Weise auch bei Gleichungen höheren Grades angewendet werden.
         &= \Bigg( \!\! -\frac{p}{2} \; \Bigg)^2 - \left( \frac{\sqrt{D}}{2}\right)^2 \\
         &= \;\; + \frac{p^2}{4} \quad \;\, - \quad \; \frac{D}{4} \\[2pt]
         &= \;\; + \frac{p^2}{4} \quad \;\, - \left(\frac{p^2}{4} - q \right) \\[2pt] &= + q \qquad \checkmark
-    
+
     Ebenso gilt:
 
     .. math::
-        
+
         x _{\rm{1}} + x _{\rm{2}} &= \frac{-p + \sqrt{D}}{2} + \frac{-p -
         \sqrt{D}}{2} \\[2pt]
         &= \left(-\frac{p}{2} + \frac{\sqrt{D}}{2} \right) + \left(- \frac{p}{2} -

@@ -14,7 +14,7 @@ Differentialrechnung>` zum Abschnitt :ref:`Differentialrechnung
 .. _Differenzierbarkeit-01-Lösung:
 
 * Differenzierbarkeit setzt Stetigkeit voraus, jede an einer Stelle :math:`x_0`
-  differenzierbare Funktion ist somit an dieser Stelle auch stetig. 
+  differenzierbare Funktion ist somit an dieser Stelle auch stetig.
 
   Die Umkehrung gilt jedoch nicht: Beispielsweise ist die Funktion :math:`y=|x|`
   an der Stelle :math:`x_0=0` zwar stetig (weil der linksseitige und rechtsseitige
@@ -33,7 +33,7 @@ Differentialrechnung>` zum Abschnitt :ref:`Differentialrechnung
   Mit :math:`f_1(x) = c \cdot x` und :math:`f_2(x) = x^2 - c^2` gilt:
 
   .. math::
-      
+
       \left(\frac{f_1(x)}{f_2(x)} \right)' &= \frac{f_1'(x) \cdot f_2(x) - f_1(x)
       \cdot f_2'(x)}{\big(f_2(x)\big)^2} \\[4pt] &= \frac{(c \cdot 1) \cdot (x^2 - c^2) -
       c \cdot x \cdot (2 \cdot x - 0)}{(x^2 - c^2)^2} \\[4pt] &= \frac{c \cdot
@@ -49,7 +49,7 @@ Differentialrechnung>` zum Abschnitt :ref:`Differentialrechnung
 .. raw:: html
 
     <hr/>
-    
+
 .. only:: html
 
     :ref:`Zurück zum Skript <Differentialrechnung>`

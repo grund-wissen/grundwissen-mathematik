@@ -1,7 +1,7 @@
 
 .. _Lösungen zur Analysis:
 
-Lösungen zur Analysis 
+Lösungen zur Analysis
 =====================
 
 .. toctree::
@@ -10,7 +10,7 @@ Lösungen zur Analysis
     eigenschaften-von-funktionen-loesungen.rst
     differentialrechnung/loesungen.rst
     integralrechnung-loesungen.rst
- 
-     
- 
+
+
+
 

@@ -30,7 +30,7 @@ Beschreibung seiner geometrischen Eigenschaften berücksichtigt werden müssen.
 .. index:: Gerade
 .. _Geraden und Halbgerden:
 
-.. rubric:: Geraden und Halbgerden
+.. rubric:: Geraden und Halbgeraden
 
 Eine Gerade :math:`g` entspricht anschaulich einer Bahn, die sich ergibt, wenn
 sich ein Punkt ohne Änderung der Richtung unbegrenzt hin- und herbewegt. Eine
@@ -47,15 +47,15 @@ sich auf der geradlinigen Bahn befinden.
     :alt:  fig-gerade
 
     Richtung und Richtungssinn einer Gerade.
-    
+
     .. only:: html
 
         :download:`SVG: Gerade
         <../pics/geometrie/gerade.svg>`
 
-Die Richtung einer Gerade wird bereits durch die Angabe zweier auf ihr liegender
+Die Richtung einer Geraden wird bereits durch die Angabe zweier auf ihr liegender
 Punkte eindeutig festgelegt. Da jede Gerade stets nur entlang einer Raumrichtung
-verläuft, ist ihre Dimension gleich eins. 
+verläuft, ist ihre Dimension gleich eins.
 
 .. index:: Halbgerade
 .. _Halbgerade:
@@ -63,8 +63,8 @@ verläuft, ist ihre Dimension gleich eins.
 Betrachtet man einen Punkt :math:`\rm{P}`, der auf einer Geraden liegt, so wird
 diese durch den Punkt in zwei Halbgeraden unterteilt. Liegt ein weiterer Punkt
 :math:`\rm{A}` auf der einen, ein Punkt :math:`\rm{B}` auf der anderen
-Halbgerade, so schreibt man für beide Halbgeraden auch kurz :math:`\mathrm{[PA}`
-bzw. :math:`\mathrm{[PB}`.
+Halbgeraden, so schreibt man für beide Halbgeraden auch kurz
+:math:`\mathrm{[PA}` bzw. :math:`\mathrm{[PB}`.
 
 .. figure:: ../pics/geometrie/halbgerade-und-strahl.png
     :width: 75%
@@ -73,7 +73,7 @@ bzw. :math:`\mathrm{[PB}`.
     :alt:  fig-halbgerade-und-strahl
 
     Darstellung einer Halbgeraden und eines Strahls.
-    
+
     .. only:: html
 
         :download:`SVG: Halbgerade und Strahl
@@ -106,7 +106,7 @@ eindeutigen Richtungssinn aufweist.
     :alt:  fig-strecke-und-vektor
 
     Darstellung einer Strecke und eines Vektors.
-    
+
     .. only:: html
 
         :download:`SVG: Strecke und Vektor
@@ -130,9 +130,9 @@ voneinander und somit keinen gemeinsamen Punkt ("Schnittpunkt").
     :name: fig-abstand-parallele-geraden
     :alt:  fig-abstand-parallele-geraden
 
-    Abstand :math:`a` zweier pareller Geraden :math:`g _{\rm{1}}` und :math:`g
+    Abstand :math:`a` zweier paralleler Geraden :math:`g _{\rm{1}}` und :math:`g
     _{\rm{2}}`.
-    
+
     .. only:: html
 
         :download:`SVG: Abstand paralleler Geraden.
@@ -142,7 +142,7 @@ Der Abstand eines Punktes zu einer Geraden wird stets senkrecht zu dieser
 Geraden gemessen; dies entspricht der kürzest möglichen Strecke zwischen diesem
 Punkt und einem Punkt auf der Geraden. Der Abstand zweier paralleler Geraden
 entspricht dem Abstand irgendeines Punktes der einen Geraden zur anderen
-Geraden. 
+Geraden.
 
 .. figure:: ../pics/geometrie/abstand-punkt-gerade.png
     :width: 50%
@@ -151,13 +151,13 @@ Geraden.
     :alt:  fig-abstand-punkt-gerade
 
     Abstand :math:`a` zwischen einem Punkt :math:`\rm{P}` und einer Geraden.
-    
+
     .. only:: html
 
         :download:`SVG: Abstand Punkt-Gerade
         <../pics/geometrie/abstand-punkt-gerade.svg>`
 
-..  
+..
     Quelle: Simon
 
 .. index:: Gradmaß
@@ -179,7 +179,7 @@ Liegen auf den zwei Strahlen (auch "Winkelschenkel" genannt) die Punkte
     :alt:  fig-winkel
 
     Winkel zwischen zwei Strahlen.
-    
+
     .. only:: html
 
         :download:`SVG: Winkel
@@ -196,7 +196,7 @@ Winkelarten:
 * Gilt :math:`{\color{white}1}90 < \alpha < 180 °`, so nennt man den Winkel "stumpf".
 * Gilt :math:`180 < \alpha < 360 °`, so nennt man den Winkel "überstumpf".
 
-Gilt für einen Winkel :math:`\alpha = 90 °`, so wird er als "rechter Winkel",
+Gilt für einen Winkel :math:`\alpha = 90 °`, so wird er als "rechter Winkel"
 bezeichnet, bei :math:`\alpha = 180 °` wird ein Winkel "gestreckter Winkel"
 genannt. Im Fall :math:`\alpha = 360 °`, d.h. einer vollen Umdrehung,
 bezeichnet man den Winkel auch als "Vollwinkel".
@@ -207,9 +207,9 @@ Winkelminuten, eine Winkelminute wiederum :math:`60` Winkelsekunden. Dabei ist
 folgende Schreibweise üblich:
 
 .. math::
-    
-    1° &= 60' \\ 
-    1'\, &= 60'' 
+
+    1° &= 60' \\
+    1'\, &= 60''
 
 Das Bogenmaß, das ebenfalls häufig für Winkelangaben Verwendung findet, wird im
 Abschnitt :ref:`Gradmaß und Bogenmaß <Gradmaß und Bogenmaß>` näher beschrieben.
@@ -224,7 +224,7 @@ Winkel jeweils zu :math:`180°`. Für je zwei so genannte "Nebenwinkel"
 :math:`\alpha` und :math:`\beta` gilt also:
 
 .. math::
-    
+
     \alpha _{\rm{1}} + \beta _{\rm{1}} = \alpha _{\rm{2}} + \beta _{\rm{2}} =
     180 ° \\
     \alpha _{\rm{1}} + \beta _{\rm{2}} = \alpha _{\rm{2}} + \beta _{\rm{1}} =
@@ -240,9 +240,9 @@ Winkel jeweils zu :math:`180°`. Für je zwei so genannte "Nebenwinkel"
     :name: fig-winkel-scheitelwinkel-nebenwinkel
     :alt:  fig-winkel-scheitelwinkel-nebenwinkel
 
-    Schweitelwinkel und Nebenwinkel zweier sich schneidender Geraden :math:`g
+    Scheitelwinkel und Nebenwinkel zweier sich schneidender Geraden :math:`g
     _{\rm{1}}` und :math:`g _{\rm{2}}`.
-    
+
     .. only:: html
 
         :download:`SVG: Scheitelwinkel und Nebenwinkel
@@ -253,9 +253,9 @@ Die einander gegenüberliegenden Winkel zweier sich schneidender Geraden heißen
 immer:
 
 .. math::
-    
-    \alpha _{\rm{1}} &= \alpha _{\rm{2}} \\     
-    \beta _{\rm{1}}  &= \beta _{\rm{2}}      
+
+    \alpha _{\rm{1}} &= \alpha _{\rm{2}} \\
+    \beta _{\rm{1}}  &= \beta _{\rm{2}}
 
 .. index:: Stufenwinkel, Wechselwinkel
 .. _Stufenwinkel und Wechselwinkel:
@@ -277,7 +277,7 @@ einander gegenüber liegenden Winkel "Wechselwinkel" (oder kurz: "Z"-Winkel).
     Stufenwinkel und Wechselwinkel zweier paralleler Geraden :math:`g_{\rm{1}}`
     und :math:`g _{\rm{2}}`, die von einer weiteren Geraden :math:`g _{\rm{3}}`
     geschnitten werden.
-    
+
     .. only:: html
 
         :download:`SVG: Stufenwinkel und Wechselwinkel
@@ -308,7 +308,7 @@ Gleichheit von :math:`\alpha`.
     :alt:  fig-winkel-zueinander-senkrechte-winkel
 
     Gleichheit von zueinander senkrecht stehenden Winkeln.
-    
+
     .. only:: html
 
         :download:`SVG: Zueinander senkrechte Winkel
@@ -318,20 +318,20 @@ Eine naturwissenschaftliche Anwendung dieses Zusammenhangs stellt beispielsweise
 das :ref:`Kraftverhältnis an einer schiefen Ebene <gwp:Schiefe Ebene>` dar.
 
 
-.. Winkelhalbierende?
+.. todo Winkelhalbierende?
 
 
 .. raw:: html
 
     <hr />
-    
+
 .. only:: html
 
 
 
     .. rubric:: Anmerkungen:
 
-.. [#RSG] Wird einer Gerade willkürlich ein Richtungssinn zugewiesen, so spricht
+.. [#RSG] Wird einer Geraden willkürlich ein Richtungssinn zugewiesen, so spricht
     man von einer "orientierten" Geraden.
 
 .. [#POG] Sind zwei orientierte Geraden :math:`g _{\rm{1}}` und :math:`g

@@ -2,19 +2,19 @@
 
 # sys.path.append(os.path.abspath('_exts'))
 
-extensions = [ 
+extensions = [
     'sphinx.ext.autodoc',
-    'sphinx.ext.doctest', 
+    'sphinx.ext.doctest',
     'sphinx.ext.intersphinx',
-    'sphinx.ext.todo', 
-    'sphinx.ext.coverage', 
+    'sphinx.ext.todo',
+    'sphinx.ext.coverage',
     'sphinx.ext.pngmath',
-    'sphinx.ext.ifconfig', 
+    'sphinx.ext.ifconfig',
     'sphinx.ext.viewcode',
-] 
+]
 
-# 'ipython_console_highlighting', 
-# 'inheritance_diagram', 
+# 'ipython_console_highlighting',
+# 'inheritance_diagram',
 # 'numpydoc', 'lily',
 
 templates_path = ['_templates']
@@ -22,10 +22,10 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 project = 'Grundwissen Mathematik'
-copyright = '2011-2015, Bernhard Grotz'
+copyright = '2011-2016, Bernhard Grotz'
 
-version = '0.3.0'
-release = '0.3.0'
+version = '0.3.2a'
+release = '0.3.2a'
 
 language = 'de'
 spelling_lang = 'de_DE'
@@ -44,7 +44,7 @@ htmlhelp_basename = "Grundwissen Mathematik"
 html_logo    = "logo.png"
 html_favicon = "favicon.ico"
 html_static_path = ['_static']
-html_last_updated_fmt = '%d. %b %Y'
+html_last_updated_fmt = '%d.%m.%Y'
 html_use_smartypants = True
 html_additional_pages = {'home': 'home.html'}
 html_domain_indices = False
@@ -69,14 +69,14 @@ latex_preamble = r'''
 \usepackage[version=3]{mhchem}
 \usepackage{amsmath, units, cancel}
 \usepackage{amsfonts, amssymb,color}
-\usepackage{nicefrac,marvosym,mathtools,wasysym} 
+\usepackage{nicefrac,marvosym,mathtools,wasysym,textcomp,gensymb}
 \setcounter{secnumdepth}{-1}
 \setlength{\headheight}{15pt}
 \setcounter{tocdepth}{2}
 \clubpenalty  = 10000 % Disable single lines at the start of a page ("Schusterjungen")
 \widowpenalty = 10000 % Disable single lines at the end   of a page ("Hurenkinder")
 \displaywidowpenalty = 10000
-\hyphenation{Soft-rutti}
+\hyphenation{Soft-rutti Ele-men-tar-er-eig-nis}
 '''
 
 pngmath_latex_preamble = latex_preamble
@@ -87,8 +87,9 @@ latex_elements = {
     "papersize": 'a4paper',
     "pointsize": '12pt',
     "fontpkg": '',
-    "fncychap": '\\usepackage[Conny]{fncychap}'
+    "fncychap": ''
 }
+# "fncychap": '\\usepackage[Conny]{fncychap}'
 # Latex-Elements zum Vermeiden leerer Seiten:
 # "classoptions": ",openany",
 

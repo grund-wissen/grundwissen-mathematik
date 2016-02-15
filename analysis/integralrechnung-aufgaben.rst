@@ -23,7 +23,7 @@ Die folgenden Aufgaben beziehen sich auf den Abschnitt :ref:`Integralrechnung
 .. raw:: html
 
     <hr/>
-    
+
 .. only:: html
 
     :ref:`Zurück zum Skript <Integralrechnung>`

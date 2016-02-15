@@ -12,18 +12,18 @@ Links und Quellen
 .. rubric:: Computer-Algebra-Systeme
 
 
-.. _L-Maxima:
+.. _Maxima:
 
-* `Maxima <http://wiki.ubuntuusers.de/Maxima>`_ 
+* `Maxima <http://wiki.ubuntuusers.de/Maxima>`__
 
   Maxima ist ein einfach zu erlernendes Computer-Algebra-System, das häufig als
-  Lehr- und Lernplattform Anwendung findet. 
-  
+  Lehr- und Lernplattform Anwendung findet.
+
   Unter Linux Mint, Ubuntu, Debian u.ä. lässt sich Maxima einfach über folgendes
   Paket installieren:
 
   .. code-block:: bash
-  
+
       sudo aptitude install wxmaxima
 
   Anschließend kann ``wxMaxima`` als graphische Oberfläche über einen Eintrag im
@@ -40,32 +40,47 @@ Links und Quellen
 
 ..  http://math-blog.com/2007/06/04/a-10-minute-tutorial-for-solving-math-problems-with-maxima/
 
-.. _L-Sage:
+.. _Sympy:
 
-* `Sage <http://wiki.ubuntuusers.de/SAGE>`_ 
+* `Sympy <http://www.sympy.org>`__
+
+  Sympy steht für "Symbolic Python" und bietet ein Computer-Algebra-System, das
+  in die Programmiersprache :ref:`Python <gwip:Grundkurs Python 3>` eingebunden
+  ist. Wer Python-Syntax kennt, findet sich also sehr schnell mit Sympy zurecht.
+
+  Sympy hat einen erheblichen Funktionsumfang. Es kann beispielsweise Terme
+  vereinfachen und vielerlei Arten von Gleichungen und Gleichungssystemen lösen;
+  zudem kann Sympy unmittelbar mit der Matplotlib, dem bekanntesten
+  Funktionenplotter in Python, kombiniert werden, um Lösungen als Diagramme
+  darzustellen.
+
+  Sympy wird auch für das Erstellen der Grund-Wissen-Seite genutzt; dort findet
+  sich folglich auch ein :ref:`einführendes Tutorial <gwip:Sympy>`.
+
+.. _Sage:
+
+* `Sage <http://wiki.ubuntuusers.de/SAGE>`__
 
   Sage ist ein riesiges Software-Projekt (rund 2 Gigabyte!) mit dem Ziel, eine
   Vielzahl an mathematischen Funktionalitäten zu vereinen. Auf der
   `Sage-Projektseite
   <http://sagemath.org/doc/installation/binary.html#linux-and-os-x>`_ gibt es
-  vorkompilierte Pakete als Downloads. 
-  
+  vorkompilierte Pakete als Downloads.
+
   Unter Linux Mint, Ubuntu, Debian u.ä. lässt sich Sage auch über folgende
   Installationsroutine installieren:
 
   .. code-block:: bash
-  
+
       sudo add-apt-repository ppa:aims/sagemath
       sudo apt-get update
-      sudo apt-get install sagemath-upstream-binary 
+      sudo apt-get install sagemath-upstream-binary
 
   Anschließend kann Sage über einen Eintrag im Startmenü, oder über die Eingabe
   von ``sage`` in einem Anwendungsstarter (``F2``) oder einer Shell gestartet
-  werden.
-
-  Eine entsprechend ausführliche, englischsprachige Dokumentation findet sich
-  als `Reference Manual <http://sagemath.org/doc/reference/>`_ ebenfalls auf der
-  Projektseite.
+  werden. Eine entsprechend ausführliche, englischsprachige Dokumentation findet
+  sich als `Reference Manual <http://sagemath.org/doc/reference/>`_ ebenfalls
+  auf der Projektseite.
 
 .. _Funktionen-Plotter:
 
@@ -76,26 +91,26 @@ integriert. Zusätzlich gibt es (skriptbare) Funktionenplotter, die wahlweise
 direkt als Interpreter genutzt werden können oder als Skriptsprache von anderen
 Programmen genutzt werden können.
 
-.. _L-Gnuplot:
+.. _Gnuplot:
 
-* `Gnuplot <http://wiki.ubuntuusers.de/Gnuplot>`_
+* `Gnuplot <http://wiki.ubuntuusers.de/Gnuplot>`__
 
   Gnuplot ist weit entwickelter Funktionenplotter für 2D- und 3D-Plots, der als
-  eigener Interpreter oder als Skriptsprache genutzt werden kann. 
-  
+  eigener Interpreter oder als Skriptsprache genutzt werden kann.
+
   Unter Linux Mint, Ubuntu, Debian u.ä. lässt sich gnuplot einfach über
-  folgendes Paket installieren: 
+  folgendes Paket installieren:
 
   .. code-block:: bash
-  
-      sudo aptitude install gnuplot gnuplot-x11 gnuplot-doc 
+
+      sudo aptitude install gnuplot gnuplot-x11 gnuplot-doc
 
   Anschließend kann Gnuplot über einen Eintrag im Startmenü, oder über die
   Eingabe von ``gnuplot`` in einem Anwendungsstarter (``F2``) oder einer Shell
   gestartet werden.
 
   Zu Gnuplot gibt es u.a. eine einführende `PDF-Präsentation
-  <http://fsr.physik.uni-goettingen.de/~mhunder/ccc/gnuplot07.pdf>`_ eine
+  <http://fsr.physik.uni-goettingen.de/~mhunder/ccc/gnuplot07.pdf>`_ und eine
   englischsprachige `Kurz-Einführung
   <http://www.usm.uni-muenchen.de/people/puls/lessons/intro_general/gnuplot/gnuplot_for_beginners.pdf>`_.
   Weitere Dokumentationen und Beispiel-Plots finden sich auf der
@@ -103,22 +118,22 @@ Programmen genutzt werden können.
 
 
 
-.. _L-Matplotlib:
+.. _Matplotlib:
 
-* `Matplotlib <http://matplotlib.org/index.html>`_
+* `Matplotlib <http://matplotlib.org/index.html>`__
 
   Die Matplotlib ist eine Codebibliothek für die Programmiersprache Python. Sie
-  kann von Interpretern wie `BPython <http://wiki.ubuntuusers.de/bpython>`_ aus
-  aufrufen oder kann von anderen in Python geschriebenen Werkzeugen
-  (insbesondere auch in `Sphinx-Dokumentationen
+  kann von Interpretern wie `IPython <https://ipython.org/>`_ aus aufgerufen
+  oder kann von anderen in Python geschriebenen Werkzeugen (insbesondere auch in
+  `Sphinx-Dokumentationen
   <http://matplotlib.org/sampledoc/extensions.html#inserting-matplotlib-plots>`_)
   genutzt werden.
 
   Unter Linux Mint, Ubuntu, Debian u.ä. lässt sich die Matplotlib auf folgende
-  Weise installieren: 
+  Weise installieren:
 
   .. code-block:: bash
-  
+
       sudo aptitude install bpython ipython python-setuptools
       sudo easy_install matplotlib
 
@@ -129,7 +144,7 @@ Programmen genutzt werden können.
   <http://www.pro-linux.de/artikel/2/168/matplotlib-und-pylab.html>`_ und ein
   weiteres `Tutorial mit bunten Bildchen
   <http://scienceblogs.de/diaxs-rake/2009/04/09/wissenschaftliches-arbeiten-mit-python-und-pylab-ii-bunte-bildchen-mit-matplotlib/>`_.
-  
+
 
 
 .. _Geometrie-Software:
@@ -137,19 +152,19 @@ Programmen genutzt werden können.
 .. rubric:: Geometrie-Software
 
 
-.. _L-Geogebra:
+.. _Geogebra:
 
-* `Geogebra <http://wiki.ubuntuusers.de/GeoGebra>`_
+* `Geogebra <http://wiki.ubuntuusers.de/GeoGebra>`__
 
   Geogebra ist ein Programm zur Konstruktion und Auswertung geometrischer von
   Konstruktionen. Die erstellten Zeichnungen können in einer Vielzahl an
   Formaten, u.a. PDF, PNG und SVG, ausgegeben werden.
 
   Unter Linux Mint, Ubuntu, Debian u.ä. lässt sich Geogebra einfach über folgendes
-  Paket installieren: 
+  Paket installieren:
 
   .. code-block:: bash
-  
+
       sudo aptitude install geogebra-gnome
 
   Wer KDE benutzt, kann anstelle ``geogebra-gnome`` auch ``geogebra-kde``
@@ -158,7 +173,7 @@ Programmen genutzt werden können.
   oder einer Shell gestartet werden.
 
   Zu Geogebra existiert ein umfangreiches `Wiki
-  <http://wiki.geogebra.org/de/Hauptseite>`_, das neben Tutorials, Tips und
+  <http://wiki.geogebra.org/de/Hauptseite>`_, das neben Tutorials, Tipps und
   Tricks auch ein deutschsprachiges `Handbuch
   <http://wiki.geogebra.org/de/Handbuch>`_ enthält.
 
@@ -168,15 +183,15 @@ Programmen genutzt werden können.
 .. rubric:: Simulations-Werkzeuge
 
 
-.. _L-Scilab:
+.. _Scilab:
 
-* `Scilab <http://wiki.ubuntuusers.de/Scilab>`_ 
+* `Scilab <http://wiki.ubuntuusers.de/Scilab>`__
 
   Unter Linux Mint, Ubuntu, Debian u.ä. lässt sich Scilab einfach über folgendes
   Paket installieren:
 
   .. code-block:: bash
-  
+
       sudo aptitude install scilab
 
   Anschließend kann Scilab über einen Eintrag im Startmenü, oder über die
@@ -186,32 +201,32 @@ Programmen genutzt werden können.
   Zu Scilab gibt es im deutschsprachigen Bereich neben mehreren kommerziellen
   Büchern auch Anleitungen (zu etwas fortgeschrittenen Anwendungen) als
   PDF-Dateien, und zwar  `hier
-  <http://alexanderstoffel.selfip.org/scimat/scilabein.pdf>`_, `hier
-  <http://zogg-jm.ch/Dateien/Arbeiten%20mit%20Scilab%20und%20Scicos_v1.pdf>`_
-  und `hier <http://homepage.univie.ac.at/scharif.purhassan/sda/PinconD.pdf>`_.
+  <http://alexanderstoffel.selfip.org/scimat/scilabein.pdf>`__, `hier
+  <http://zogg-jm.ch/Dateien/Arbeiten%20mit%20Scilab%20und%20Scicos_v1.pdf>`__
+  und `hier <http://homepage.univie.ac.at/scharif.purhassan/sda/PinconD.pdf>`__.
 
   Umfangreiche, englischsprachige Dokumentationen finden sich auf der
   `Scilab-Projektseite <http://www.scilab.org/scilab/features>`_ sowie in den internen
   Hilfe-Seiten, die sich mittels des Pakets ``scilab-doc`` installieren lassen.
 
 
-.. _L-Octave:
+.. _Octave:
 
-* `Octave <http://wiki.ubuntuusers.de/Octave>`_
+* `Octave <http://wiki.ubuntuusers.de/Octave>`__
 
   Unter Linux Mint, Ubuntu, Debian u.ä. lässt sich Octave einfach über folgendes
   Paket installieren:
 
   .. code-block:: bash
-  
+
       sudo aptitude install octave3.2
 
   Zusätzlich ist eine Installation der Pakete ``gnuplot`` und ``octave-epstk``
   als Funktionenplotter sinnvoll. Anschließend kann Octave über einen Eintrag im
-  Startmenü, oder über die Eingabe von ``octave`` in einem Anwendungsstarter
+  Startmenü oder über die Eingabe von ``octave`` in einem Anwendungsstarter
   (``F2``) oder einer Shell gestartet werden.
 
-  
+
   Zu Octave gibt es im deutschsprachigen Raum mehrere Tutorials, u.a. `hier
   <http://www.christianherta.de/octaveMatlabTutorial.html>`_. Eine komplette,
   englischsprachige Dokumentation existiert als `Online-Handbuch
@@ -223,11 +238,11 @@ Programmen genutzt werden können.
 
 .. rubric:: Statistik-Software
 
-.. _L-Gnumeric:
+.. _Gnumeric:
 
-* `Gnumeric <http://wiki.ubuntuusers.de/Gnumeric>`_
+* `Gnumeric <http://wiki.ubuntuusers.de/Gnumeric>`__
 
-  Gnumeric ist als Tabelleneditor und eine schlanke Alternative zum
+  Gnumeric ist als Tabelleneditor eine schlanke Alternative zum
   Tabellenkalkulationsprogramm `Calc
   <http://wiki.ubuntuusers.de/Office_Komponenten#Calc-Tabellenkalkulation>`_ von
   LibreOffice. Neben vielen Import- und Export-Funktionen verfügt es auch über
@@ -237,7 +252,7 @@ Programmen genutzt werden können.
   folgendes Paket installieren:
 
   .. code-block:: bash
-  
+
       sudo aptitude install gnumeric
 
   Anschließend kann Gnumeric über einen Eintrag im Startmenü, oder über die
@@ -249,9 +264,9 @@ Programmen genutzt werden können.
   englischsprachiger Form auf der `Gnumeric-Projektseite
   <https://www.gnumeric.org/>`_.
 
-.. _L-R:
+.. _R:
 
-* `R <http://wiki.ubuntuusers.de/R>`_
+* `R <http://wiki.ubuntuusers.de/R>`__
 
   R ist eine Interpreter-Software für statistische Funktionen und gleichzeitig
   eine skriptbare Programmiersprache. Im wissenschaftlichen Bereich hat sich R
@@ -259,10 +274,10 @@ Programmen genutzt werden können.
   Analysen etabliert.
 
   Unter Linux Mint, Ubuntu, Debian u.ä. lässt sich R einfach über folgendes
-  Paket installieren: 
+  Paket installieren:
 
   .. code-block:: bash
-  
+
       sudo aptitude install r-base r-recommended
 
   Anschließend kann R in einer Shell mittels ``R`` aufgerufen werden. Als
@@ -276,7 +291,7 @@ Programmen genutzt werden können.
   `R Reader <http://cran.r-project.org/doc/contrib/Grosz+Peters-R-Reader.pdf>`_
   als PDF-Dateien. Weitere Dokumentationen in anderen Sprachen sind in einer
   `Manual-Liste <http://cran.r-project.org/other-docs.html#nenglish>`_
-  aufgeführt. Auf der `R-Projektseite <http://cran.r-project.org/>`_ sind
+  aufgeführt. Auf der `R-Projektseite <http://cran.r-project.org/>`_ ist
   zusätzlich eine Vielzahl an Erweiterungen mitsamt Beschreibungen zu finden.
 
 .. `Advanced R Programming <http://adv-r.had.co.nz/>`_
@@ -297,7 +312,7 @@ Programmen genutzt werden können.
 
 * `FH-Lehrmaterialien Mathematik von Alexander Stoffel <http://alexanderstoffel.selfip.org/lehrmat.html>`_
 
-  
+
 .. _Quellen:
 
 .. raw:: html
@@ -310,7 +325,7 @@ Der strukturelle Aufbau dieses Abschnitts orientiert sich an [Simon1980]_ (Seite
 33 ff). Ähnliche inhaltliche Zusammenfassungen sind in vielerlei Fachbüchern zu
 finden.
 
-.. 
+..
 
 .. Induktionsbeweis Summenformel: Walz2010 S. 47
 
@@ -339,11 +354,11 @@ aufgeführten Regeln sind in ausführlicher Form (inklusive Beweisen) in
 .. rubric:: Quellenangaben zu elementarer Algebra
 
 Der Beweis zum Satz des Vieta wird in ähnlicher Form [Simon1980]_ (Seiten 257f.
-und 263) geführt. 
+und 263) geführt.
 
 .. rubric:: Quellenangaben zu elementarer Geometrie
 
-Der Aufbau dieses Kapitels orientiert sich an [Bewert1985]_ und [Voelkel1991]_. 
+Der Aufbau dieses Kapitels orientiert sich an [Bewert1985]_ und [Voelkel1991]_.
 
 ..  Aus Voelkel insbesondere Beweis der Euklidschen Saetze, Struktur des
 ..  Dreiecke-Kapitels
@@ -356,12 +371,12 @@ Der bisherige Aufbau dieses Abschnitts orientiert sich an [Olmscheid1994]_.
 .. raw:: html
 
     <hr />
-    
+
 .. only:: html
 
     .. rubric:: Quellen-Liste:
 
-.. [Bewert1971] Fritz Bewert: Lehr- und Übungsbuch Mathemaik 1: Arithmetik,
+.. [Bewert1971] Fritz Bewert: Lehr- und Übungsbuch Mathematik 1: Arithmetik,
     Algebra und elementare Funktionenlehre. Harri Deutsch Verlag, Frankfurt am
     Main, 1971.
 
@@ -374,16 +389,16 @@ Der bisherige Aufbau dieses Abschnitts orientiert sich an [Olmscheid1994]_.
     Frankfurt, 1982.
 
 .. [Bittner1979] Rudolf Bittner, Dieter Ilse, Siegmar Kubicek, Werner Tietz:
-    Kompendium der Mathematik. Volk und Wissen Verlag, Berlin, 1979. 
+    Kompendium der Mathematik. Volk und Wissen Verlag, Berlin, 1979.
 
 .. [Cramer2009] Erhard Cramer, Johanna Neslehova: Vorkurs Mathematik. Springer
-    Verlag, Berlin, 2009. 
+    Verlag, Berlin, 2009.
 
 .. [Hoffmann2004] Manfred Hoffmann: Mathematik -- Formeln, Regeln und
     Merksätze. Compact Verlag, München, 2004.
 
 .. [Mueller-Fonfara2006] Robert Müller-Fonfara und Wolfgang Scholl: Mathematik
-    verständlich. Weltbild Verlag, 2006. 
+    verständlich. Weltbild Verlag, 2006.
 
 .. [Olmscheid1994] Werner Olmscheid: Einführung in die
     Wahrscheinlichkeitsrechnung. Softrutti Verlag, 1994.

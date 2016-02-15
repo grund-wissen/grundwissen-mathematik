@@ -5,12 +5,12 @@ Eigenschaften von Gleichungen
 
 Eine Gleichung entspricht einer :ref:`Aussageform <Aussageform>`, bei der zwei
 Terme :math:`T _{\rm{1}}` und :math:`T _{\rm{2}}` durch die Gleichheits-Relation
-:math:`=` miteinander verbunden sind: 
+:math:`=` miteinander verbunden sind:
 
 .. math::
     :label: eqn-term
-    
-    T _{\rm{1}} = T _{\rm{2}} 
+
+    T _{\rm{1}} = T _{\rm{2}}
 
 Als Aussageform ist eine Variablengleichung weder wahr noch falsch. Belegt man
 allerdings die Variablen mit zulässigen Werten, so nehmen die einzelnen Terme
@@ -25,7 +25,7 @@ Im einfachsten Fall entsprechen die beiden Terme :math:`T _{\rm{1}}` und
 _{\rm{2}}` einer Menge :math:`\mathbb{M}`. Diese können entweder gleich :math:`(x
 _{\rm{1}} = x _{\rm{2}})` oder ungleich :math:`(x _{\rm{1}} \ne x _{\rm{2}})`
 sein. Im ersten Fall stehen die Variablen :math:`x _{\rm{1}}` und :math:`x
-_{\rm{2}}` für das selbe Objekt. 
+_{\rm{2}}` für das selbe Objekt.
 
 .. _Lösbarkeit:
 .. _Lösbarkeit von Gleichungen:
@@ -33,17 +33,17 @@ _{\rm{2}}` für das selbe Objekt.
 .. rubric:: Lösbarkeit von Gleichungen
 
 Ob eine Gleichung lösbar ist, hängt von der Gleichung selbst sowie von dem
-vorgegebenen Variablenbereich ("Definitinosmenge" :math:`\mathbb{D}`) ab. 
+vorgegebenen Variablenbereich ("Definitionsmenge" :math:`\mathbb{D}`) ab.
 
 * Ist die Lösungsmenge leer :math:`(\mathbb{L} = \emptyset)`, so ist die
-  Gleichung bezüglich :math:`\mathbb{D}` unerfüllbar. 
-* Ist die Lösungsmgenge gleich der Definitionsmenge :math:`(\mathbb{L} =
+  Gleichung bezüglich :math:`\mathbb{D}` unerfüllbar.
+* Ist die Lösungsmenge gleich der Definitionsmenge :math:`(\mathbb{L} =
   \mathbb{D})`, so ist die Gleichung bzgl. :math:`\mathbb{D}` stets erfüllt
-  ("allgemeingültig"). 
+  ("allgemeingültig").
 * Grundsätzlich ist die Lösungsmenge eine Teilmenge der Definitionsmenge
-  :math:`(\mathbb{L} \subseteq \mathbb{D})`. 
+  :math:`(\mathbb{L} \subseteq \mathbb{D})`.
 
-.. index:: 
+.. index::
     single: Gleichung; Identität
     single: Identität
 
@@ -56,10 +56,10 @@ nämlich :math:`a=b` und :math:`b=c`, so folgt aus der `Äquivalenz
 
 .. math::
     :label: eqn-drittengleichheit
-    
+
     a = b \quad \text{und} \quad b = c \quad \Rightarrow \quad a = c
 
-.. index:: 
+.. index::
     single: Gleichung; Bestimmungsgleichung
     single: Bestimmungsgleichung
 
@@ -70,12 +70,12 @@ derartige Gleichungen, deren Lösungsmenge erst gefunden werden muss, auch
 
 
 *Beispiele:*
-    
+
 * Folgende Gleichung ist für jede reelle Zahl :math:`x \in \mathbb{R}`
-  unerfüllbar: 
+  unerfüllbar:
 
   .. math::
-      
+
       x = x + 1
 
   Für die Lösungsmenge gilt somit :math:`\mathbb{L} = \emptyset`.
@@ -84,26 +84,26 @@ derartige Gleichungen, deren Lösungsmenge erst gefunden werden muss, auch
   allgemeingültig:
 
   .. math::
-      
+
       x - x = 0
 
   Für die Lösungsmenge gilt somit :math:`\mathbb{L} = \mathbb{R}`.
- 
-* Folgende Gleichung liefert nicht für jedes :math:`x \in \mathbb{R}` 
+
+* Folgende Gleichung liefert nicht für jedes :math:`x \in \mathbb{R}`
   eine wahre Aussage:
 
   .. math::
-    
+
       3 \cdot x = 2 \cdot x + 5
 
-  Die Lösungsmenge ist somit eine Teilmenge der Definitionsbereichs. Konkret
+  Die Lösungsmenge ist somit eine Teilmenge des Definitionsbereichs. Konkret
   gilt :math:`\mathbb{L} = \lbrace 5 \rbrace`.
 
 Ist die Lösungsmenge einer Gleichung nicht unmittelbar erkennbar, so kann diese
 durch entsprechende Umformungen in eine einfacher zu lösende Form gebracht
 werden.
 
-..  
+..
     Unterteilung in Gleichungen mit einer Variablen, mit mehreren Variablen.
 
 .. index:: Äquivalente Umformung
@@ -126,15 +126,15 @@ rechte Seite einer Gleichung vertauscht werden:
 
 .. math::
     :label: eqn-umformung-links-rechts
-    
+
     T _{\rm{1}} = T _{\rm{2}} \quad \Leftrightarrow \quad T _{\rm{2}} = T
-    _{\rm{1}} 
+    _{\rm{1}}
 
 Termumformungen, die sich nur auf eine Seite einer Gleichung auswirken,
 beispielsweise :ref:`Zusammenfassen <Assoziativgesetz>` und
 :ref:`Ausmultiplizieren bzw. Ausklammern <Distributivgesetz>` von
 Summentermen sowie :ref:`Kürzen und Erweitern <Erweitern und Vereinfachen>` von
-Bruchtermen, dürfen ebenso jederzeit vorgenommen werden. 
+Bruchtermen, dürfen ebenso jederzeit vorgenommen werden.
 
 Addiert oder subtrahiert man auf beiden Seiten einen beliebigen Term :math:`T`,
 so ist die neue Gleichung äquivalent zur ursprünglichen. Der Wahrheitswert einer
@@ -144,12 +144,12 @@ Gleichung bleibt auch unverändert, wenn beiden Seiten mit einem Term :math:`T
 
   .. math::
     :label: eqn-äquivalente-umformungen
-      
+
       T _{\rm{1}}  = T _{\rm{2}} \quad &\Leftrightarrow  \quad T _{\rm{1}} + T =
       T _{\rm{2}} + T \\[2pt]
       T _{\rm{1}}  = T _{\rm{2}} \quad &\Leftrightarrow  \quad T _{\rm{1}} - T =
       T _{\rm{2}} - T \\[2pt]
-      %\phantom{\qquad (T \ne 0) T + + T} 
+      %\phantom{\qquad (T \ne 0) T + + T}
       T _{\rm{1}}  = T _{\rm{2}}  \quad &\Leftrightarrow \quad T _{\rm{1}} \,
       \cdot \; T = T _{\rm{2}} \, \cdot \; T \qquad (T \ne 0)\\[2pt]
       T _{\rm{1}}  = T _{\rm{2}}  \quad &\Leftrightarrow \quad T _{\rm{1}} \, :
@@ -171,13 +171,13 @@ gültige Lösung verschwinden.
   folgende Gleichung:
 
   .. math::
-      
+
       x \cdot (2 \cdot x -3) = x \cdot (4 \cdot x + 1)
 
   Die neue Gleichung hat neben der ursprünglichen Lösung :math:`(-2)` auch
   die Lösung :math:`x=0`; die Lösungsmenge der neuen Gleichung ist also
   :math:`\mathbb{L} = \lbrace -2 ; 0 \rbrace`. Somit ist die neue Gleichung
-  nicht äquivalent zur ursprünglichen Gleichung. 
+  nicht äquivalent zur ursprünglichen Gleichung.
 
 * Die Gleichung :math:`(3 \cdot x + 1) \cdot (x + 2) = (2 \cdot x - 6) \cdot (x
   + 2)` hat, wie man durch Einsetzen überprüfen kann, die Lösungsmenge
@@ -185,14 +185,14 @@ gültige Lösung verschwinden.
   Gleichung durch den Term :math:`(x+2)`, so erhält man folgende Gleichung:
 
   .. math::
-      
+
       3 \cdot x + 1 = 2 \cdot x - 6
 
   Die neue Gleichung hat die Lösungsmenge :math:`\mathbb{L} = \lbrace -7
   \rbrace`; bei der Division ist die zweite ursprüngliche Lösung :math:`x =
   -2` entfallen. Somit ist die neue Gleichung nicht äquivalent zur
   ursprünglichen Gleichung.
-  
+
 
 Die äquivalenten Umformungs-Verfahren von Gleichungen beziehen sich auf die
 Anwendung der vier grundlegenden Rechenoperationen (Addition, Subtraktion,
@@ -209,7 +209,7 @@ werden.
 .. raw:: html
 
     <hr />
-    
+
 .. only:: html
 
     .. rubric:: Anmerkungen:
@@ -223,5 +223,5 @@ werden.
 .. [#AU] :math:`T` ist eine Zahl oder ein Term, der für alle Elemente des
     Definitionsbereichs der Ausgangsgleichung :math:`T _{\rm{1}} = T _{\rm{2}}`
     definiert sein muss.
-    
+
 

@@ -1,5 +1,5 @@
 .. _Bruchgleichungen und Wurzelgleichungen:
-  
+
 Bruch-, Produkt- und Wurzelgleichungen
 ======================================
 
@@ -26,17 +26,17 @@ Um eine Bruchgleichung zu lösen, wendet man folgende Methode an:
 1. Zunächst werden die einzelnen Bruchterme durch passende Erweiterungen auf
    den Hauptnenner gebracht -- wahlweise durch Multiplikation aller
    Nennerterme oder durch Bildung des kleinsten gemeinsamen Vielfachen der
-   Nennerterme. [#BGL]_ 
+   Nennerterme. [#BGL]_
 2. Multipliziert man dann die Gleichung mit dem Hauptnenner :math:`N \ne 0`, so
    entfallen alle Brüche (da der Hauptnenner in allen Bruchtermen gekürzt
-   werden kann beziehungsweise :math:`0 \cdot N = 0` gilt). 
+   werden kann beziehungsweise :math:`0 \cdot N = 0` gilt).
 
 Die übrig bleibenden Terme stellen oftmals eine algebraische Gleichung dar,
 häufig ersten oder zweiten Grades, die mit Hilfe der in den vorherigen
 Abschnitten beschriebenen Verfahren gelöst werden kann.
 
 *Beispiel:*
-    
+
 
 *   Die Lösungsmenge folgender Gleichung soll bestimmt werden:
 
@@ -51,7 +51,7 @@ Abschnitten beschriebenen Verfahren gelöst werden kann.
     anschließend gekürzt werden:
 
     .. math::
-       
+
         \frac{(4 \cdot x - 2\phantom{x}) \cdot (x-5) \cdot
         (x+2)\phantom{.}}{\phantom{\ldots\,}(x-5)} &= \; \frac{(3 \cdot x + 8)
         \cdot (x-5) \cdot (x+2)}{\phantom{xx}(x+2)} \\[8pt]
@@ -60,22 +60,22 @@ Abschnitten beschriebenen Verfahren gelöst werden kann.
 
     Die so gekürzte Gleichung entspricht einer algebraischen Gleichung zweiten
     Grades. Nach dem Ausmultiplizieren kann sie wie üblich umgeformt und gelöst
-    werden: 
+    werden:
 
     .. math::
-        
+
         {\color{white}\ldots\;\;}4 \cdot x^2 + 8 \cdot x - 2 \cdot x -4 &= 3
         \cdot x^2  - 15 \cdot x + 8 \cdot x - 40 \\[6pt]
-        \Rightarrow \quad 1 \cdot x^2 + 13 \cdot x + 36 &= 0 
-    
+        \Rightarrow \quad 1 \cdot x^2 + 13 \cdot x + 36 &= 0
+
     Nach der :ref:`Mitternachtsformel <Quadratische Gleichungen>` gilt:
 
     .. math::
-        
+
         {\color{white}\ldots\;\;\;}D = b^2 - 4 \cdot a \cdot c &= 13^2 - 4 \cdot
         1 \cdot 36 = 25\\[8pt]
         x _{\rm{1,2}} = \frac{-b \pm \sqrt{D}}{2 \cdot a} &= \frac{-13 \pm 5}{2}
-        \\[6pt] 
+        \\[6pt]
         \Rightarrow \quad x _{\rm{1}} = -9 \quad &\text{und} \quad x _{\rm{2}} =
         -4{\color{white}\;\;  \ldots \quad \qquad}
 
@@ -85,7 +85,7 @@ Abschnitten beschriebenen Verfahren gelöst werden kann.
 .. index:: Verhältnisgleichung
 .. _Verhältnisgleichungen:
 
-Verhältnisgleichungen 
+Verhältnisgleichungen
 ^^^^^^^^^^^^^^^^^^^^^^
 
 Ein (vergleichsweise) einfacher Sonderfall einer Bruchgleichung liegt vor, wenn
@@ -103,7 +103,7 @@ Terms, so genügt es, beide Seiten der Gleichung mit dem entsprechenden Nenner z
 multiplizieren, um den gesuchten Wert zu erhalten.
 
 *Beispiel:*
-    
+
 * Für ein Brotrezept werden :math:`\unit[500]{g}` Mehl für :math:`\unit[800]{g}`
   Brot benötigt. Wieviel Gramm Mehl würde man (theoretisch) benötigen, um
   :math:`\unit[3000]{g}` Brot zu backen?
@@ -112,16 +112,16 @@ multiplizieren, um den gesuchten Wert zu erhalten.
   Zahl :math:`3000` wie :math:`500` zu :math:`800`, also:
 
   .. math::
-      
+
       \frac{500}{800} = \frac{x}{3\,000}
-  
+
   Multipliziert man beide Seiten der Gleichung mit :math:`3000`, so lässt sich
   der gesuchte Wert (nach dem Kürzen des Bruchs) unmittelbar ablesen:
 
   .. math::
-      
+
       x = \frac{500 \cdot 3\,000}{800} = \frac{5 \cdot 3\,000}{8} = 1\,875
-  
+
   Für :math:`\unit[3000]{g}` Brot wären somit :math:`\unit[1\,875]{g}` Mehl
   nötig.
 
@@ -145,27 +145,27 @@ Größen :math:`x_1` und :math:`x_2` wird als indirekte Proportionalität
 bezeichnet und kann formal als Produktgleichung geschrieben werden:
 
 .. math::
-    
+
     x_1 \cdot x_2 = c
 
 Hierbei ist :math:`c` ein bekannter, konstanter Wert. Eine solche Gleichung kann
-nur in zwei Fällen eindeutig gelöst werden: 
+nur in zwei Fällen eindeutig gelöst werden:
 
 * wenn eine der beiden Größen :math:`x_1` oder :math:`x_2` ein ebenfalls
   bekannter Wert :math:`a` ist, die Gleichung also in der trivialen Form
   :math:`a \cdot x = c` mit der Lösung :math:`x = \frac{c}{a}` geschrieben
-  werden kann, oder 
+  werden kann, oder
 
 * wenn eine zweite Gleichung für :math:`x_1` oder :math:`x_2` angegeben werden
   kann. Bei indirekten Proportionalitäten handelt es bei dieser ebenfalls um
-  eine (triviale) Produktgleichung der Form :math:`b \cdot x_{1|2} = c`. 
-  
-Bei vielen Aufgaben bleibt somit eine Gleichung mit nur einer Unbekannten, die 
+  eine (triviale) Produktgleichung der Form :math:`b \cdot x_{1|2} = c`.
+
+Bei vielen Aufgaben bleibt somit eine Gleichung mit nur einer Unbekannten, die
 allgemein folgende Form hat:
 
 .. math::
     :label: eqn-produktgleichung
-    
+
     a \cdot b = c \cdot x
 
 Zur besseren Lesbarkeit wurde hierbei der Index von :math:`x` weggelassen, zumal
@@ -173,7 +173,7 @@ ohnehin nur *eine* Größe gesucht wird. Die Gleichung kann somit einfach gelös
 werden, indem durch den Faktor :math:`c` dividiert wird:
 
 .. math::
-    
+
     a \cdot b = c \cdot x \quad \Leftrightarrow \quad x = \frac{a \cdot
     b}{c}
 
@@ -182,7 +182,7 @@ beschreiben. Damit stimmen Produktgleichungen formal mit Verhältnisgleichungen
 überein, denn offensichtlich sind beide Gleichungsformen äquivalent:
 
 .. math::
-    
+
     \frac{a}{x} = \frac{c}{b} \quad \Leftrightarrow \quad x = \frac{a \cdot b}{c}
 
 Es hängt von der Aufgabenstellung ab, ob eine Gleichung eher als Produkt- oder
@@ -197,12 +197,11 @@ angegeben.
 
 
 Eine Sonderform der Produktgleichung :eq:`eqn-produktgleichung` liegt dann vor,
-wenn die gesuchte Größe :math:`s` gleich der gegebenen Größe :math:`c`
-entsprechen soll, also die Lösung für eine Gleichung mit folgender Form
-gesucht wird: 
+wenn die gesuchte Größe :math:`x` der gegebenen Größe :math:`c` entsprechen
+soll, also die Lösung für eine Gleichung mit folgender Form gesucht wird:
 
 .. math::
-    
+
     a \cdot b = c \cdot c = c^2 \quad \Leftrightarrow \quad x = c = \sqrt{a \cdot b}
 
 In diesem Fall wird :math:`x = a \cdot b` als mittlere Proportionale und
@@ -210,7 +209,7 @@ In diesem Fall wird :math:`x = a \cdot b` als mittlere Proportionale und
 :math:`b` bezeichnet. Formal beschreibt :math:`x` dabei das mittlere Folgenglied
 einer :ref:`geometrischen Folge <Geometrische Folgen>`, das zwischen :math:`a`
 und :math:`b` liegt; der konstante Faktor der Folge ist hierbei :math:`q =
-\sqrt{\frac{b}{a}}`. 
+\sqrt{\frac{b}{a}}`.
 
 
 .. index:: Dreisatz
@@ -224,16 +223,16 @@ Produktgleichungen so genannte "Dreisatz-Aufgaben" lösen. Diese heißen so, wei
 sie üblicherweise in drei Schritten gelöst werden:
 
 1. Zunächst wird ein *Bedingungssatz* formuliert, der eine Aussage über das
-   gegebene Größenverhältnis macht. 
+   gegebene Größenverhältnis macht.
 
    Beispiel: Ein Containerschiff benötigt für eine Strecke von
    :math:`s_1=\unit[800]{km}` eine Zeit von :math:`t_1= \unit[16]{h}`.
    Der Bedingungssatz lautet also:
 
    .. math::
-      
+
        \unit[800]{km} \; \hat{=} \; \unit[16]{h}
-  
+
    Über dem Ist-Gleich-Zeichen wird dabei häufig ein Dach-Symbol geschrieben,
    da die linke Seite der Gleichung mit der rechten Seite zwar in einem
    bestimmten Verhältnis seht, aber nicht mit dieser identisch ist.
@@ -247,9 +246,9 @@ sie üblicherweise in drei Schritten gelöst werden:
    \unit[2500]{km}` lange Strecke? Der Fragesatz lautet in diesem Fall:
 
    .. math::
-      
+
        \unit[2500]{km} \; \hat{=} \; ?
-  
+
 3. Mit dem *Schlußsatz* wird die gesuchte Größe (:math:`x` oder :math:`?`)
    berechnet, indem jeweils das Verhältnis der linken und der rechten Seiten der
    obigen Gleichungen gebildet wird. Vorzugsweise teilt man dabei die zweite
@@ -257,41 +256,41 @@ sie üblicherweise in drei Schritten gelöst werden:
    Es folgt für das obige Beispiel:
 
    .. math::
-      
-      \frac{\unit[2500]{km}}{\unit[800]{km}} &= \frac{?}{\unit[16]{h}} 
+
+      \frac{\unit[2500]{km}}{\unit[800]{km}} &= \frac{?}{\unit[16]{h}}
 
    Aus dem Schlusssatz kann die gesuchte Größe unmittelbar berechnet werden
 
    .. math::
-      
+
       ? &= \frac{25 \cdot \unit[16]{h}}{8} \\[4pt]
       \Rightarrow \; ? &= \unit[50]{h}
-      
+
 Bisweilen werden Dreisatz-Aufgaben auch gelöst, indem zunächst auf eine Einheit
 der Grundgröße "herunter gerechnet" wird; im obigen Beispiel könnte man
 zunächst ausrechnen, wie lange das Schiff für eine Strecke von
-:math:`\unit[1]{km}` benötigt (Ergebnis: :math:`\unit[0,02]{Stunden}`). 
+:math:`\unit[1]{km}` benötigt (Ergebnis: :math:`\unit[0,02]{Stunden}`).
 Damit kann dann auf die gesuchte Zeit "hoch gerechnet" werden, indem man die
 Zeit je Kilometer mit der gegebenen Anzahl an Kilometern multipliziert. Im
 Allgemeinen bedeutet dieses Lösungsverfahren gegenüber der oben genannten
 Methode jedoch einen erhöhten Rechenaufwand.
 
-  
+
 .. index:: Wurzelgleichung
 .. _Wurzelgleichungen:
 
 Wurzelgleichungen
 -----------------
 
-Als Bruchgleichung wird eine Gleichung bezeichnet, in der die Variable :math:`x`
-mindestens einmal im Argument einer Wurzel steht. Hierbei muss gegebenenfalls
-der Definitionsbereich der Variablen eingeschränkt werden, da im Bereich der
-reellen Zahlen negative Wurzeln nicht definiert sind. [#WG]_
+Als Wurzelgleichung wird eine Gleichung bezeichnet, in der die Variable
+:math:`x` mindestens einmal im Argument einer Wurzel steht. Hierbei muss
+gegebenenfalls der Definitionsbereich der Variablen eingeschränkt werden, da im
+Bereich der reellen Zahlen negative Wurzeln nicht definiert sind. [#WG]_
 
 Wurzelgleichungen lassen sich üblicherweise durch folgendes Verfahren lösen:
 
 1. Zunächst wird eine Wurzel durch geeignete Umformungen isoliert, d.h. allein
-   auf eine Seite der Gleichung gebracht. 
+   auf eine Seite der Gleichung gebracht.
 
 2. Anschließend werden beide Seiten der Gleichung mit dem Wurzelexponenten (bei
    einer Quadratwurzel mit zwei) potenziert. Falls bei der sich ergebenden noch
@@ -301,14 +300,14 @@ Wurzelgleichungen lassen sich üblicherweise durch folgendes Verfahren lösen:
 Die neue Gleichung entspricht oftmals einer algebraischen Gleichung, häufig
 ersten oder zweiten Grades, die mit Hilfe der in den vorherigen Abschnitten
 beschriebenen Verfahren gelöst werden kann.
- 
+
 Da das Potenzieren mit einem geradzahligen Exponenten keine Äquivalenzumformung
 darstellt, kann die umgeformte Gleichung (Schein-)Lösungen besitzen, die keine
 Lösungen der ursprünglichen Gleichung sind. Eine Probe durch Einsetzen der
 gefundenen Werte in die ursprüngliche Gleichung ist somit zwingend erforderlich.
 
 *Beispiel:*
-    
+
 *   Die Lösungsmenge folgender Gleichung soll bestimmt werden:
 
     .. math::
@@ -321,13 +320,13 @@ gefundenen Werte in die ursprüngliche Gleichung ist somit zwingend erforderlich
     gebracht:
 
     .. math::
-        
-        \sqrt{4 \cdot x - 3} \phantom{.} = + 2 \cdot x - 1 
+
+        \sqrt{4 \cdot x - 3} \phantom{.} = + 2 \cdot x - 1
 
     Nun kann die Gleichung quadriert werden. Es folgt:
 
     .. math::
-        
+
         {\color{white}\ldots}\left(\sqrt{4 \cdot x - 3}\,\right)^2 &= (2 \cdot x - 1)^2 \\
         4 \cdot x - 3 \phantom{\ldots\!} &= 4 \cdot x^2 - 4 \cdot x + 1
 
@@ -335,7 +334,7 @@ gefundenen Werte in die ursprüngliche Gleichung ist somit zwingend erforderlich
     Gleichung zweiten Grades. Sie kann wie üblich umgeformt und gelöst werden:
 
     .. math::
-        
+
         4 \cdot x^2 - 8 \cdot x + 4 &= 0 \\
         4 \cdot (x-1)^2 &= 0 \\
         (x-1)^2 &= 0 \\
@@ -349,7 +348,7 @@ gefundenen Werte in die ursprüngliche Gleichung ist somit zwingend erforderlich
 .. raw:: html
 
     <hr />
-    
+
 .. only:: html
 
     .. rubric:: Anmerkungen:
@@ -357,7 +356,7 @@ gefundenen Werte in die ursprüngliche Gleichung ist somit zwingend erforderlich
 .. [#BGL] Das kleinste gemeinsame Vielfache (kgV) der Nennerterme lässt sich
     oftmals mit weniger Rechenaufwand berechnen, sofern diese in Form von
     (Linear-)Faktoren vorliegen. Das kgV ist in diesem Fall gleich dem Produkt
-    der kleinsten Potenzen aller in den Nennern auftretenden Faktoren. 
+    der kleinsten Potenzen aller in den Nennern auftretenden Faktoren.
 
     Eine Zerlegung der Nennerterme in mehrere (Linear-)Faktoren ist genau dann
     möglich, wenn bereits eine oder mehrere Definitionslücken :math:`x

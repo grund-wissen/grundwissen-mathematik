@@ -20,7 +20,7 @@ x}` im Detail vorgestellt werden.
 
 Zunächst muss überprüft werden, für welche :math:`x`-Werte die Funktion
 definiert ist; beispielsweise muss ausgeschlossen werden können, dass durch Null
-dividiert wird. 
+dividiert wird.
 
 Die :math:`x`-Werte dürfen zudem nicht außerhalb des Definitionsbereichs der
 jeweiligen Funktion liegen, beispielsweise muss darauf geachtet werden, dass die
@@ -53,7 +53,7 @@ als nächstes die :ref:`Grenzwerte <Grenzwerte einer Funktion>` der Funktion fü
 unendlich große positive und negative :math:`x`-Werte untersucht. Bei Wurzel-
 und Logarithmusfunktionen allerdings kann beispielsweise nur der Grenzwert für
 unendlich große positive :math:`x`-Werte bestimmt werden, da diese beiden
-Funktionstypen nur für positive reelle Zahlen definiert sind. 
+Funktionstypen nur für positive reelle Zahlen definiert sind.
 
 Hat die Funktion Definitionslücken, so sind auch die Grenzwerte der Funktion an
 diesen Stellen zu bestimmen.
@@ -66,17 +66,17 @@ diesen Stellen zu bestimmen.
   Zähler schneller wächst als der Nenner. Es gilt also:
 
   .. math::
-     
+
       \lim _{x \to +\infty} \left( \frac{x^4 - 3 \cdot x^3 + 2 \cdot x^2}{2
       \cdot x} \right) = + \infty
 
-  Für sehr große negative :math:`x`-Werte gegen die Funktion gegen minus
+  Für sehr große negative :math:`x`-Werte geht die Funktion gegen minus
   Unendlich, da in diesem Fall die höchste Potenz des Zählers einen positiven
   Wert, der Nenner aber einen negativen Wert liefert, und der Zähler schneller
   wächst als der Nenner. Es gilt also:
 
   .. math::
-     
+
       \lim _{x \to -\infty} \left( \frac{x^4 - 3 \cdot x^3 + 2 \cdot x^2}{2
       \cdot x} \right) = - \infty
 
@@ -87,17 +87,17 @@ diesen Stellen zu bestimmen.
   gilt:
 
   .. math::
-     
+
       \lim _{x \to 0} \left( \frac{x^4 - 3 \cdot x^3 + 2 \cdot x^2}{2 \cdot x}
       \right) = \lim _{x \to 0} \left( x^3 - 3 \cdot x^2 + 2 \cdot x\right) = 0
 
   Sowohl für sehr kleine negative wie für sehr kleine positive :math:`x`-Werte
-  verschwinden gehen alle Terme beim betrachteten Grenzwert gegen Null. Da der
-  linksseitige und der rechtsseitige Grenzwert identisch sind, ist die Funktion
-  "stetig behebbar": Man könnte die Funktion abschnittsweise mit :math:`f(x) =
-  0` für :math:`x=0` und :math:`f(x) = \frac{x^4 - 3 \cdot x^3 + 2 \cdot x^2}{2
-  \cdot x}` für :math:`x \ne 0` definieren, um eine "nahtlose" Funktion zu
-  erhalten, die für alle reellen Zahlen definiert ist.
+  gehen alle Terme beim betrachteten Grenzwert gegen Null. Da der linksseitige
+  und der rechtsseitige Grenzwert identisch sind, ist die Funktion "stetig
+  behebbar": Man könnte die Funktion abschnittsweise mit :math:`f(x) = 0` für
+  :math:`x=0` und :math:`f(x) = \frac{x^4 - 3 \cdot x^3 + 2 \cdot x^2}{2 \cdot
+  x}` für :math:`x \ne 0` definieren, um eine "nahtlose" Funktion zu erhalten,
+  die für alle reellen Zahlen definiert ist.
 
 .. index:: Regel von L'Hospital
 
@@ -110,23 +110,23 @@ Null annimmt; gleichzeitig ist allerdings auch der Zähler :math:`f_1(x) =
 Grenzwert der Form :math:`\frac{"0"}{"0"}` ergibt, kann die sogenannte "Regel
 von `L'Hospital
 <https://de.wikipedia.org/wiki/Guillaume_François_Antoine,_Marquis_de_L’Hospital>`_"
-angewendet werden: 
+angewendet werden:
 
 .. math::
-    
+
     \lim _{x \to x_0} \frac{f_1(x)}{f_2(x)} = \frac{"0"}{"0"} \quad \Rightarrow
     \quad \lim _{x \to x_0} \frac{f_1(x)}{f_2(x)} = \lim _{x \to x_0}
-    \frac{f_1'(x)}{f_2'(x)} 
+    \frac{f_1'(x)}{f_2'(x)}
 
 Für das oben genannte Beispiel :math:`f(x) = \frac{f_1(x)}{f_2(x)} =
-\frac{\sqrt{x}}{x}` gilt: 
+\frac{\sqrt{x}}{x}` gilt:
 
 .. math::
-    
+
     f_1'(x) &= \left(x ^{\frac{1}{2}}\right)' = \frac{1}{2} \cdot x ^{-
     \frac{1}{2}} \quad \text{und} \\[4pt]
-    f_2'(x) &= \;\left(x ^1 \right)'\; = 1 
-    
+    f_2'(x) &= \;\left(x ^1 \right)'\; = 1
+
 Für die Stelle :math:`x_0 = 1` gilt somit :math:`\frac{f_1'(1)}{f_2'(1)} =
 \frac{1}{1} = 1`, der Grenzwert der Funktion für :math:`x \to x_o` ist also
 gleich :math:`1`.
@@ -136,29 +136,29 @@ Haben also zwei Funktionen :math:`f_1(x)` und :math:`f_2(x)` an einer Stelle
 dass in diesem Fall der Grenzwert gleich dem Quotienten der Ableitungen von
 :math:`f_1(x)` und :math:`f_2(x)` ist, sofern beide Funktionen differenzierbar
 sind und die Ableitung der Nennerfunktion an der Stelle :math:`x_0` nicht gleich
-Null ist. 
+Null ist.
 
 Die Regel von L'Hospital kann ebenfalls angewendet werden, wenn :math:`\lim _{x \to
-\infty} f_1(x) = \lim _{x \to \infty} f_2(x) = 0` ist: 
+\infty} f_1(x) = \lim _{x \to \infty} f_2(x) = 0` ist:
 
 .. math::
-    
+
     \lim _{x \to \pm \infty} \frac{f_1(x)}{f_2(x)} = \frac{"0"}{"0"} \quad \Rightarrow \quad
     \lim _{x \to \pm \infty} \frac{f_1(x)}{f_2(x)} = \lim _{x \to \pm \infty}
-    \frac{f_1'(x)}{f_2'(x)} 
+    \frac{f_1'(x)}{f_2'(x)}
 
 Weiterhin gilt die Regel von L'Hospital auch, wenn die Grenzwerte von
 :math:`f_1(x)` und :math:`f_2(x)` beide für :math:`x \to x_0` oder :math:`x \to
 \pm \infty` gegen Unendlich gehen:
 
 .. math::
-    
+
     \lim _{x \to x_0} \frac{f_1(x)}{f_2(x)} &= \frac{"\infty"}{"\infty"} \quad \Rightarrow
     \quad \;\;\lim _{x \to x_0} \frac{f_1(x)}{f_2(x)} =
     \;\;\lim _{x \to x_0} \frac{f_1'(x)}{f_2'(x)} \\[6pt]
     \lim _{x \to \pm \infty} \frac{f_1(x)}{f_2(x)} &= \frac{"\infty"}{"\infty"} \quad \Rightarrow \quad
     \lim _{x \to \pm \infty} \frac{f_1(x)}{f_2(x)} = \lim _{x \to \pm \infty}
-    \frac{f_1'(x)}{f_2'(x)} 
+    \frac{f_1'(x)}{f_2'(x)}
 
 Die Regel von L'Hospital ist somit in vielen Fällen nützlich, wenn ein
 Grenzwert auf andere Weise nicht bestimmt werden kann.
@@ -168,11 +168,11 @@ Grenzwert auf andere Weise nicht bestimmt werden kann.
 
 .. rubric:: 3.: Untersuchung auf Symmetrie
 
-Eine Funktion ist achsensymmetrsich zur :math:`x`-Achse, wenn :math:`f(-x) =
+Eine Funktion ist achsensymmetrisch zur :math:`x`-Achse, wenn :math:`f(-x) =
 f(x)` für alle :math:`x`-Werte des Definitionsbereichs gilt. Dies ist der Fall,
 wenn alle im Funktionsterm auftretenden Potenzen gerade sind.
 
-Eine Funktion ist punktsymmetrsich zum Koordinatenursprung :math:`(0,0)`, wenn
+Eine Funktion ist punktsymmetrisch zum Koordinatenursprung :math:`(0,0)`, wenn
 :math:`-f(-x) = f(x)` für alle :math:`x`-Werte des Definitionsbereichs gilt.
 Dies ist der Fall, wenn alle im Funktionsterm auftretenden Potenzen ungerade
 sind.
@@ -203,15 +203,15 @@ zugehörige Funktionswerte gleich Null sind, für die also :math:`f(x) = 0` gilt
   Gleichung gelöst werden:
 
   .. math::
-      
-      x^4 - 3 \cdot x^3 + 2 \cdot x^2 = 0 
+
+      x^4 - 3 \cdot x^3 + 2 \cdot x^2 = 0
 
   Auf der linken Seite kann :math:`x^2` als gemeinsamer Faktor ausgeklammert
-  werden. Es folgt: 
+  werden. Es folgt:
 
   .. math::
-      
-      x^2 \cdot \left(x^2 - 3 \cdot x^1 + 2 \right) = 0 
+
+      x^2 \cdot \left(x^2 - 3 \cdot x^1 + 2 \right) = 0
 
   Ein Produkt ist gleich Null, wenn einer der Faktoren gleich Null ist. Es wäre
   somit :math:`x=0` eine Nullstelle des Zählers, doch dieser Wert ist nicht in
@@ -220,14 +220,14 @@ zugehörige Funktionswerte gleich Null sind, für die also :math:`f(x) = 0` gilt
   Null wird:
 
   .. math::
-      
+
       x^2 - 3 \cdot x + 2 = 0
 
   Diese Gleichung kann mit Hilfe der Lösungsformel für quadratische Gleichungen
   gelöst werden. Mit :math:`a = 1`, :math:`b=-3` und :math:`c = 2` folgt:
 
   .. math::
-      
+
       x _{\rm{1,2}} = \frac{-b \pm \sqrt{b^2 - 4 \cdot a \cdot c}}{2 \cdot a} =
       \frac{3 \pm \sqrt{9 - 4 \cdot (1 \cdot 2)}}{2} = \frac{3 \pm 1}{2}
 
@@ -243,7 +243,7 @@ zugehörige Funktionswerte gleich Null sind, für die also :math:`f(x) = 0` gilt
 
 Bei der Untersuchung von :ref:`Extremstellen <Extremstellen>` wird geprüft, für
 welche :math:`x`-Werte der Funktionsgraph Hochpunkte, Tiefpunkte oder
-Terassenpunkte besitzt. Hierzu muss die erste Ableitung der Funktion bestimmt
+Terrassenpunkte besitzt. Hierzu muss die erste Ableitung der Funktion bestimmt
 und gleich Null gesetzt werden. Um zu prüfen, um welchen Extremstellen-Typ es
 sich handelt, kann man zu jeder Extremstelle :math:`x_0` einen etwas kleineren
 und einen etwas größeren :math:`x`-Wert in die erste Ableitungsfunktion
@@ -254,10 +254,10 @@ negative Steigung einen Hochpunkt an der Stelle :math:`x_0`.
 Eine zweite Möglichkeit zur Bestimmung des Nullstellentyps bietet die zweite
 Ableitungsfunktion :math:`f''(x)`. Da man diese für eine Bestimmung der
 Wendepunkte ohnehin berechnen muss, kann man dies auch gleich an dieser Stelle
-tun und die math:`x`-Werte der Extremstellen einsetzen. Ergibt sich für eine
+tun und die :math:`x`-Werte der Extremstellen einsetzen. Ergibt sich für eine
 Stelle :math:`x_0` ein positiver Wert, so handelt es sich um einen Tiefpunkt,
 ergibt sich ein negativer Wert, so handelt es sich um einen Hochpunkt. Ergibt
-sich der Wert Null, so handelt es sich um einen Terassenpunkt. [#]_
+sich der Wert Null, so handelt es sich um einen Terrassenpunkt. [#]_
 
 Die zu den Extremstellen gehörenden Funktionswerte erhält man durch Einsetzen
 in die ursprüngliche Funktion :math:`f(x)`.
@@ -270,21 +270,21 @@ in die ursprüngliche Funktion :math:`f(x)`.
   Funktion lautet:
 
   .. math::
-      
+
       f'(x) = \frac{1}{2} \cdot \left( 3 \cdot x^2 - 6 \cdot x + 2\right)
 
   Diese (Ableitungs-)Funktion ist gleich Null, wenn der Term :math:`3 \cdot x^2
   - 6 \cdot x + 2` gleich Null ist:
 
   .. math::
-      
+
       3 \cdot x^2 - 6 \cdot x + 2 = 0
 
   Diese Gleichung kann mit Hilfe der Lösungsformel für quadratische Gleichungen
   gelöst werden. Mit :math:`a = 3`, :math:`b=-6` und :math:`c = 2` folgt:
 
   .. math::
-      
+
       x _{\rm{3,4}} = \frac{-b \pm \sqrt{b^2 - 4 \cdot a \cdot c}}{2 \cdot a} =
       \frac{6 \pm \sqrt{36 - 4 \cdot (3 \cdot 2)}}{6} = \frac{6 \pm \sqrt{12}}{6}
 
@@ -293,7 +293,7 @@ in die ursprüngliche Funktion :math:`f(x)`.
   es sich handelt, wird die zweite Ableitung berechnet:
 
   .. math::
-      
+
       f''(x) = \frac{1}{2} \cdot (6 \cdot x - 6)
 
   Für :math:`x_3 \approx 0,42` ergibt sich beim Einsetzen ein Wert kleiner als
@@ -326,7 +326,7 @@ handelt es sich tatsächlich um einen Wendepunkt, andernfalls nicht.
   Funktion lautet:
 
   .. math::
-      
+
       f''(x) = \frac{1}{2} \cdot (6 \cdot x - 6)
 
   Setzt man diese Funktionsgleichung gleich Null, so erhält man :math:`6 \cdot
@@ -336,8 +336,8 @@ handelt es sich tatsächlich um einen Wendepunkt, andernfalls nicht.
   beispielsweise der Werte :math:`x=0` und :math:`x=2` in die zweite Ableitung
   :math:`f''(x)` überprüft werden: Es ist :math:`f''(0) = -3` und
   :math:`f''(2) = 3`, die Krümmung ändert also bei :math:`x=1` ihr Vorzeichen,
-  somit hat der Funktionsgraph dort eine Wendestelle.  
-    
+  somit hat der Funktionsgraph dort eine Wendestelle.
+
   Setzt man :math:`x=1` in die ursprüngliche Funktion :math:`f(x)` ein, erhält
   man :math:`f(1)=0`. Die Funktion hat also einen Wendepunkt bei :math:`(1,0)`.
 
@@ -369,7 +369,7 @@ Punkte des Funktionsgraphen zu erhalten.
     \cdot x^2}{2 \cdot x}`.
 
     .. only:: html
-    
+
         :download:`SVG: Funktionsgraph (Beispielfunktion)
         <../../pics/analysis/beispiel-kurvendiskussion.svg>`
 
@@ -385,7 +385,7 @@ Kombinationen elementarer Funktionen anwenden.
 
     .. rubric:: Anmerkungen:
 
-.. [#] Als einfach Merkregel kann man an die Normalparabel :math:`f(x)=x^2`
+.. [#] Als einfache Merkregel kann man an die Normalparabel :math:`f(x)=x^2`
     denken. Deren erste Ableitung ist :math:`f'(x) = 2 \cdot x`, die zweite
     Ableitung ist :math:`f''(x)=2`. Die Normalparabel hat einen Tiefpunkt bei
     :math:`x_0=0`, wobei der Wert der zweiten Ableitung an dieser Stelle positiv

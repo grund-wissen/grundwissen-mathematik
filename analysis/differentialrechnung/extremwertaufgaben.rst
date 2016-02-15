@@ -23,11 +23,11 @@ gesuchte Größe minimal oder maximal ist.
   folgende zwei Bedingungen:
 
   .. math::
-      
+
       A = l \cdot b = \text{max} \\
 
   .. math::
-      
+
       2 \cdot l + 2 \cdot b = \unit[100]{m} \quad \Longleftrightarrow \quad b =
       \unit[50]{m} - l
 
@@ -37,7 +37,7 @@ gesuchte Größe minimal oder maximal ist.
   gesuchte Länge :math:`l` enthält:
 
   .. math::
-      
+
       A = l \cdot b = l \cdot (50 - l) = -l^2 + \unit[50]{m} \cdot l
 
   Um die ideale Länge :math:`l_0` zu bestimmen, wird die Flächenfunktion
@@ -45,7 +45,7 @@ gesuchte Größe minimal oder maximal ist.
   kann dann gleich Null gesetzt werden:
 
   .. math::
-      
+
       A' = -2 \cdot l + \unit[50]{m}  &\stackrel{!}= 0 \\[4pt]
       \Rightarrow l &= \unit[25]{m}
 
@@ -58,5 +58,5 @@ Formulierung der Bedingungen, aus deren Kombination sich eine mathematische
 Funktion mit der gesuchten Variablen aufstellen lässt. Die Bestimmung der
 Extremwerte erfolgt dann stets nach dem gleichen Prinzip.
 
-  
+
 

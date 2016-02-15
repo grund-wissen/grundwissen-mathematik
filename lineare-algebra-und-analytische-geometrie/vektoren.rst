@@ -22,7 +22,7 @@ Pfeil über der Vektorgröße markiert.
     :alt:  fig-vektor
 
     Darstellung eines Vektors.
-    
+
     .. only:: html
 
         :download:`SVG: Vektor
@@ -38,13 +38,13 @@ jeweiligen Raumrichtung vom Anfangspunkt des Vektors  entfernt liegt.
 
 .. math::
     :label: eqn-vektor
-    
+
     \vec{a} = (a _{\rm{x}} \,,\, a _{\rm{y}} \,,\, a _{\rm{z}}) = \begin{pmatrix}
     a _{\rm{x}} \\
     a _{\rm{y}} \\
     a _{\rm{z}} \\
     \end{pmatrix}
-    
+
 
 .. figure:: ../pics/geometrie/ortsvektor.png
     :width: 50%
@@ -54,15 +54,15 @@ jeweiligen Raumrichtung vom Anfangspunkt des Vektors  entfernt liegt.
 
     Darstellung eines (dreidimensionalen) Ortsvektors in einem
     Koordinatensystem.
-    
+
     .. only:: html
 
         :download:`SVG: Ortsvektor
         <../pics/geometrie/ortsvektor.svg>`
 
-Ein Vektor, dessen Anfangspunktpunkt dem Ursprung des Koordinatensystems
+Ein Vektor, dessen Anfangspunkt dem Ursprung des Koordinatensystems
 :math:`\vec{0} = (0 \,,\, 0 \,,\, 0)` entspricht, wird als Ortsvektor
-bezeichnet. 
+bezeichnet.
 
 .. index:: Betrag eines Vektors
 .. _Betrag eines Vektors:
@@ -70,7 +70,7 @@ bezeichnet.
 .. rubric:: Betrag eines Vektors
 
 Die Länge der Verbindungsstrecke vom Anfangspunkt eines Vektors :math:`\vec{a}`
-seinem Endpunkt :math:`\rm{A}` wird Betrag des Vektors genannt. In Kurzform
+zu seinem Endpunkt :math:`\rm{A}` wird Betrag des Vektors genannt. In Kurzform
 schreibt man dafür :math:`| \vec{a} |` oder :math:`a` (ohne Vektorpfeil).
 
 .. figure:: ../pics/geometrie/vektor-betrag.png
@@ -80,7 +80,7 @@ schreibt man dafür :math:`| \vec{a} |` oder :math:`a` (ohne Vektorpfeil).
     :alt:  fig-vektor-betrag
 
     Betrag eines (zweidimensionalen) Vektors.
-    
+
     .. only:: html
 
         :download:`SVG: Betrag eines Vektors
@@ -104,7 +104,7 @@ anhand seiner Komponenten :math:`a _{\rm{x}}` und :math:`a _{\rm{y}}` (und
   folgenden Betrag:
 
   .. math::
-      
+
       \left| \vec{a} \right| = \sqrt{a _{\rm{x}} ^2 + a _{\rm{y}} ^2} =
       \sqrt{4^2 + 3^2} = \sqrt{25} = 5{\color{white} \; \; \qquad \quad \ldots}
 
@@ -112,10 +112,10 @@ anhand seiner Komponenten :math:`a _{\rm{x}}` und :math:`a _{\rm{y}}` (und
    hat folgenden Betrag:
 
   .. math::
-      
+
       \left| \vec{a} \right| = \sqrt{a _{\rm{x}} ^2 + a _{\rm{y}} ^2 + a
       _{\rm{z}} ^2} =
-      \sqrt{4^2 + 5^2 + 2^2} = \sqrt{45} 
+      \sqrt{4^2 + 5^2 + 2^2} = \sqrt{45}
 
 
 .. index:: Vektor; Gegenvektor
@@ -137,7 +137,7 @@ der Koordinatenwerte von Anfangspunkt und Endpunkt von Bedeutung ist.
     :alt:  fig-vektor-gleichheit
 
     Zwei identische Vektoren.
-    
+
     .. only:: html
 
         :download:`SVG: Gleichheit zweier Vektoren
@@ -145,7 +145,7 @@ der Koordinatenwerte von Anfangspunkt und Endpunkt von Bedeutung ist.
 
 Das Negative :math:`- \vec{a}` eines Vektors :math:`a`, auch "Gegenvektor"
 genannt, ist ein Vektor mit gleichem Betrag und gleicher Richtung wie
-:math:`\vec{a}`, jedoch mit umgekehrten Richtungssinn.
+:math:`\vec{a}`, jedoch mit umgekehrtem Richtungssinn.
 
 .. figure:: ../pics/geometrie/vektor-gegenvektor.png
     :width: 50%
@@ -154,7 +154,7 @@ genannt, ist ein Vektor mit gleichem Betrag und gleicher Richtung wie
     :alt:  fig-vektor-gegenvektor
 
     Vektor und Gegenvektor.
-    
+
     .. only:: html
 
         :download:`SVG: Vektor und Gegenvektor
@@ -166,7 +166,7 @@ Komponenten von :math:`\vec{a}` mit einem Minuszeichen versieht:
 
 .. math::
     :label: eqn-vektor-gegenvektor
-    
+
     {\color{white}+}\vec{a} = \begin{pmatrix}
     a _{\rm{x}} \\
     a _{\rm{y}} \\
@@ -176,8 +176,8 @@ Komponenten von :math:`\vec{a}` mit einem Minuszeichen versieht:
     - a _{\rm{x}} \\
     - a _{\rm{y}} \\
     - a _{\rm{z}} \\
-    \end{pmatrix} 
-    
+    \end{pmatrix}
+
 Bei zweidimensionalen Vektoren wird die dritte Komponente :math:`a _{\rm{z}} =
 0` weggelassen.
 
@@ -188,7 +188,7 @@ Bei zweidimensionalen Vektoren wird die dritte Komponente :math:`a _{\rm{z}} =
 .. rubric:: Normvektor und Nullvektor
 
 Ein Vektor, dessen Länge genau einer Längeneinheit :math:`(\unit[1]{LE})`
-entspricht, wird "normierter" Vektor :math:`\vec{a}_0` genannt. 
+entspricht, wird "normierter" Vektor :math:`\vec{a}_0` genannt.
 
 .. figure:: ../pics/geometrie/vektor-normvektor.png
     :name: fig-vektor-normvektor
@@ -199,7 +199,7 @@ entspricht, wird "normierter" Vektor :math:`\vec{a}_0` genannt.
     Normvektor :math:`\vec{a} _{\rm{0}}` eines Vektors :math:`\vec{a}`
 
     .. only:: html
-    
+
         :download:`SVG: Vektor und Normvektor
         <../pics/geometrie/vektor-normvektor.svg>`
 
@@ -218,7 +218,7 @@ Komponenten ändern. Dies kann genutzt werden, um zwei Vektoren zeichnerisch zu
 addieren bzw. subtrahieren.
 
 .. index:: Vektor; Summenvektor
-.. _Der Summenvektor:
+.. _Summenvektor:
 
 .. rubric:: Der Summenvektor
 
@@ -239,7 +239,7 @@ Endpunkt des zweiten Vektors verbindet.
     :math:`\vec{a}_{\rm{2}}`.
 
     .. only:: html
-    
+
         :download:`SVG: Vektor-Addition
         <../pics/geometrie/vektor-addition.svg>`
 
@@ -248,28 +248,28 @@ beider Vektoren addiert:
 
 .. math::
     :label: eqn-vektor-addition
-    
+
     \overrightarrow{a _{\rm{1}} + a _{\rm{2}}}  = \vec{a}_{\rm{1}} +
-    \vec{a}_{\rm{2}} = \begin{pmatrix} 
-    a _{\rm{1x}} \\ 
-    a _{\rm{1y}} \\ 
+    \vec{a}_{\rm{2}} = \begin{pmatrix}
+    a _{\rm{1x}} \\
+    a _{\rm{1y}} \\
     a _{\rm{1z}} \\
-    \end{pmatrix} + \begin{pmatrix} 
-    a _{\rm{2x}} \\ 
-    a _{\rm{2y}} \\ 
+    \end{pmatrix} + \begin{pmatrix}
+    a _{\rm{2x}} \\
+    a _{\rm{2y}} \\
     a _{\rm{2z}} \\
-    \end{pmatrix} = \begin{pmatrix} 
-    a _{\rm{1x}} + a _{\rm{2x}} \\ 
-    a _{\rm{1y}} + a _{\rm{2y}} \\ 
+    \end{pmatrix} = \begin{pmatrix}
+    a _{\rm{1x}} + a _{\rm{2x}} \\
+    a _{\rm{1y}} + a _{\rm{2y}} \\
     a _{\rm{1z}} + a _{\rm{2z}} \\
-    \end{pmatrix}  
- 
+    \end{pmatrix}
+
 ..  Additionen von Vektoren haben unmittelbar zahlreiche Anwendungen in der
 ..  Physik, z.B. beim Zusammenwirken mehrerer Kräfte.
 
 .. index:: Vektor; Differenzvektor
-.. _Der Differenzvektor:
-    
+.. _Differenzvektor:
+
 .. rubric:: Der Differenzvektor
 
 Die Differenz :math:`\vec{a}_{\rm{1}} - \vec{a}_{\rm{2}}` zweier Vektoren lässt
@@ -286,7 +286,7 @@ sich zeichnerisch auf ähnliche Weise bestimmen, indem man den Gegenvektor
     :math:`\vec{a}_{\rm{2}}`.
 
     .. only:: html
-    
+
         :download:`SVG: Vektor-Subtraktion
         <../pics/geometrie/vektor-subtraktion.svg>`
 
@@ -295,22 +295,22 @@ beider Vektoren subtrahiert:
 
 .. math::
     :label: eqn-vektor-subtraktion
-    
+
     \overrightarrow{a _{\rm{1}} - a _{\rm{2}}}  = \vec{a}_{\rm{1}} -
-    \vec{a}_{\rm{2}} = \begin{pmatrix} 
-    a _{\rm{1x}} \\ 
-    a _{\rm{1y}} \\ 
+    \vec{a}_{\rm{2}} = \begin{pmatrix}
+    a _{\rm{1x}} \\
+    a _{\rm{1y}} \\
     a _{\rm{1z}} \\
-    \end{pmatrix} - \begin{pmatrix} 
-    a _{\rm{2x}} \\ 
-    a _{\rm{2y}} \\ 
+    \end{pmatrix} - \begin{pmatrix}
+    a _{\rm{2x}} \\
+    a _{\rm{2y}} \\
     a _{\rm{2z}} \\
-    \end{pmatrix} = \begin{pmatrix} 
-    a _{\rm{1x}} - a _{\rm{2x}} \\ 
-    a _{\rm{1y}} - a _{\rm{2y}} \\ 
+    \end{pmatrix} = \begin{pmatrix}
+    a _{\rm{1x}} - a _{\rm{2x}} \\
+    a _{\rm{1y}} - a _{\rm{2y}} \\
     a _{\rm{1z}} - a _{\rm{2z}} \\
-    \end{pmatrix}  
- 
+    \end{pmatrix}
+
 
 .. _Multiplikation von Vektoren:
 
@@ -318,7 +318,7 @@ Multiplikation von Vektoren
 ---------------------------
 
 Vektoren können entweder mit einer reellen Zahl (einem so genannten "Skalar")
-als auch mit anderen Vektoren multipliziert werden. 
+als auch mit anderen Vektoren multipliziert werden.
 
 .. rubric:: Multiplikation eines Vektors mit einer reellen Zahl
 
@@ -326,9 +326,9 @@ Multipliziert man einen Vektor :math:`\vec{a}` mit einer reellen Zahl :math:`c`,
 so ergibt sich ein Vektor, der die gleiche Richtung und den gleichen
 Richtungssinn hat, dessen Betrag jedoch um den Faktor :math:`c` verändert ist.
 
-* Ist :math:`c > 1`, so wird der Vektor gestreckt. 
-* Ist :math:`0 < c < 1`, so wird der Vektor gestaucht. 
-* Ist :math:`c < 0`, so wird zusätzlich zusätzlich zur Streckung bzw. Stauchung
+* Ist :math:`c > 1`, so wird der Vektor gestreckt.
+* Ist :math:`0 < c < 1`, so wird der Vektor gestaucht.
+* Ist :math:`c < 0`, so wird zusätzlich zur Streckung bzw. Stauchung
   des Vektors der Richtungssinn umgedreht.
 
 .. figure:: ../pics/geometrie/vektor-produkt-mit-skalar.png
@@ -341,17 +341,17 @@ Richtungssinn hat, dessen Betrag jedoch um den Faktor :math:`c` verändert ist.
     :math:`c = 2`).
 
     .. only:: html
-    
+
         :download:`SVG: Produkt eines Vektors mit einem Skalar
         <../pics/geometrie/vektor-produkt-mit-skalar.svg>`
 
-Rechnerisch lässt sich ein Vektor :math:`\vec{a}` lässt sich mit einer rellen
-Zahl :math:`\lambda` multiplizieren, indem jede Komponente des Vektors mit
-dieser Zahl multipliziert wird:
+Rechnerisch lässt sich ein Vektor :math:`\vec{a}` mit einer reellen Zahl
+:math:`c` multiplizieren, indem jede Komponente des Vektors mit dieser
+Zahl multipliziert wird:
 
 .. math::
     :label: eqn-produkt-vektor-mit-skalar
-    
+
     c \cdot \vec{a} = c \cdot \begin{pmatrix}
     a _{\rm{x}} \\
     a _{\rm{y}} \\
@@ -368,17 +368,17 @@ seines Betrags :math:`\frac{1}{| \vec{a} |}`, so erhält man den zugehörigen, a
 
 
 .. index:: Skalarprodukt
-.. _Das Skalarprodukt:
+.. _Skalarprodukt:
 
 .. rubric:: Das Skalarprodukt
 
 Das Skalarprodukt zweier Vektoren :math:`\vec{a} _{\rm{1}}` und :math:`\vec{a}
 _{\rm{2}}` ist definiert als das Produkt ihrer Beträge :math:`|\vec{a}_1|` und
 :math:`|\vec{a}_2|`, multipliziert mit dem Cosinus des zwischen ihnen
-eingeschlossenen Winkels :math:`\alpha`: 
+eingeschlossenen Winkels :math:`\alpha`:
 
 .. math::
-    :label: eqn-skalarprodukt-winkel    
+    :label: eqn-skalarprodukt-winkel
 
     {\color{white}.\;}\vec{a}_1 \cdot \vec{a}_2 =  | \vec{a} _{\rm{1}} | \cdot |
     \vec{a} _{\rm{2}} | \cdot \cos{\alpha}
@@ -389,7 +389,7 @@ folgender Formel berechnet werden:
 
 .. math::
     :label: eqn-skalarprodukt
-    
+
     {\color{white}\ldots \qquad \qquad \quad  }\vec{a} _{\rm{1}} \cdot \vec{a} _{\rm{2}} &= \begin{pmatrix}
     a _{\rm{1x}} \\
     a _{\rm{1y}} \\
@@ -398,11 +398,11 @@ folgender Formel berechnet werden:
     a _{\rm{2x}} \\
     a _{\rm{2y}} \\
     a _{\rm{2z}} \\
-    \end{pmatrix} 
+    \end{pmatrix}
     \\[4pt] &= a _{\rm{1x}} \cdot a _{\rm{2x}} + a _{\rm{1y}} \cdot a _{\rm{2y}}+ a _{\rm{1z}} \cdot a _{\rm{2z}}
 
 Das Ergebnis ist ein skalarer Wert, also eine Zahl. Die Bedeutung des
-Skalarprodukts wird schnell deutlich, wenn man sich einige Sonderfälle 
+Skalarprodukts wird schnell deutlich, wenn man sich einige Sonderfälle
 betrachtet:
 
 * Stehen die beiden Vektoren :math:`\vec{a} _{\rm{1}}` und :math:`\vec{a}
@@ -410,11 +410,11 @@ betrachtet:
   Somit ergibt das Skalarprodukt in diesem Fall den Wert Null:
 
   .. math::
-    
+
       \vec{a} _{\rm{1}} \perp \vec{a} _{\rm{2}}  \quad \Leftrightarrow \quad
       \vec{a} _{\rm{1}} \cdot \vec{a} _{\rm{2}} = 0
 
-  Mit Hilfe dieser Beziehung kann einerseits leicht geprueft werden, *ob* zwei
+  Mit Hilfe dieser Beziehung kann einerseits leicht gepüeft werden, *ob* zwei
   Vektoren :math:`\vec{a} _{\rm{1}}` und :math:`\vec{a} _{\rm{2}}` senkrecht
   aufeinander stehen. Andererseits kann bei einem Vektor :math:`\vec{a}
   _{\rm{1}}` mit nur zwei gegebenen Komponenten unter Verwendung der
@@ -422,50 +422,50 @@ betrachtet:
   der Vektor auf dem zweiten Vektor :math:`\vec{a} _{\rm{2}}` senkrecht steht.
 
   *Beispiel:*
-      
+
     Die dritte Komponente des Vektors :math:`\vec{a}_1 = (2,6,?)` soll so
     bestimmt werden, dass er auf dem Vektor :math:`\vec{a}_2 = (3,-5,6)`
     senkrecht steht. Somit muss gelten:
 
     .. math::
-        
-        \vec{a}_1 \cdot \vec{a}_2 &= 0 \\ 2 \cdot 3 + 6 \cdot (-5) +\; ? \cdot 6 
-        &= 0 {\color{white}\qquad \qquad \qquad \qquad \ldots}\\ \Rightarrow 6 \cdot \; ? &= 24 \\  ? &= 4 
+
+        \vec{a}_1 \cdot \vec{a}_2 &= 0 \\ 2 \cdot 3 + 6 \cdot (-5) +\; ? \cdot 6
+        &= 0 {\color{white}\qquad \qquad \qquad \qquad \ldots}\\ \Rightarrow 6 \cdot \; ? &= 24 \\  ? &= 4
 
     Ist die gesuchte Komponente somit gleich :math:`4`, so stehen beide Vektoren
     senkrecht aufeinander.
-   
+
 
 * Stehen die beiden Vektoren :math:`\vec{a}_1` und :math:`\vec{a}_2` parallel
   zueinander, so ist :math:`\cos{\alpha} = \cos{0°} = 1`. Das Skalarprodukt ist
-  in diesem Fall gleich dem Produkt der Beträge beider Vektoren. 
-  
+  in diesem Fall gleich dem Produkt der Beträge beider Vektoren.
+
   .. math::
-      
-      {\color{white}\ldots \qquad \;\; }\vec{a}_1 \parallel \vec{a}_2 \quad \Leftrightarrow \quad 
+
+      {\color{white}\ldots \qquad \;\; }\vec{a}_1 \parallel \vec{a}_2 \quad \Leftrightarrow \quad
       \vec{a} _{\rm{1}} \cdot \vec{a} _{\rm{2}} = | \vec{a}_1 | \cdot | \vec{a}_2 |
 
-  
+
   Dieser Zusammenhang wurde implizit bereits verwendet, um den Betrag eines
   bestimmten Vektors :math:`\vec{a}` zu berechnen. Setzt man nämlich
   :math:`\vec{a} = \vec{a} _{\rm{1}} = \vec{a} _{\rm{2}}`, so gilt:
 
   .. math::
-    
+
       a = | \vec{a} | = \sqrt{ | \vec{a} | ^2 } = \sqrt{ \vec{a} \cdot \vec{a}}
 
   Der Betrag :math:`|\vec{a}|` des Vektors kann somit bestimmt werden, indem man
   das Skalarprodukt des Vektors mit sich selbst bildet und aus dem Ergebnis die
   Quadratwurzel zieht. Schreibt man die obige Gleichung komponentenweise, so
-  erhält man die übliche Betrags-Gleichung :eq:`eqn-vektor-betrag`. 
-  
+  erhält man die übliche Betrags-Gleichung :eq:`eqn-vektor-betrag`.
+
 * Für beliebige Winkel :math:`\alpha` lässt sich das Produkt :math:`a
   _{\rm{2}} \cdot \cos{\alpha}` geometrisch als "Projektion" des Vektors
   :math:`a _{\rm{2}}` auf den Vektor :math:`a _{\rm{1}}` deuten. Die Projektion
   entspricht dabei anschaulich dem "Schattenwurf" des Vektors :math:`a
   _{\rm{2}}`, der sich bei einer senkrecht auf :math:`a _{\rm{1}}` einfallenden
-  Beleuchtung ergeben würde. 
-  
+  Beleuchtung ergeben würde.
+
   Der Werkt des Skalarprodukts ist damit im Allgemeinen gleich dem Betrag des
   ersten Vektors, multipliziert mit der senkrechten Projektion des zweiten
   Vektors auf den ersten.
@@ -478,7 +478,7 @@ beispielsweise die :math:`x`-Achse durch den Vektor :math:`e _{\rm{x}} =
 (1,0,0)`. Es gilt:
 
 .. math::
-    
+
     {\color{white}\ldots \qquad \quad  }\vec{a} \cdot \vec{e} _{\rm{x}} &= \begin{pmatrix}
     a _{\rm{x}} \\
     a _{\rm{y}} \\
@@ -496,7 +496,7 @@ Skalarprodukts kann damit nach dem gesuchten Winkel :math:`\alpha` aufgelöst
 werden:
 
 .. math::
-    
+
     \vec{a} \cdot \vec{e} _{\rm{x}} = | \vec{a} | \cdot | \vec{e} _{\rm{x}} |
     \cdot \cos{\alpha} \quad \Leftrightarrow \quad \cos{\alpha} = \frac{\vec{a}
     \cdot \vec{e} _{\rm{x}}}{ | \vec{a} | \cdot |\vec{e} _{\rm{x}}| }
@@ -505,7 +505,7 @@ Setzt man :math:`\vec{a} \cdot \vec{e} _{\rm{x}} = a _{\rm{x}}` und :math:`|
 \vec{e} _{\rm{x}}| = 1` in die obige Gleichung ein, so folgt: [#]_
 
 .. math::
-    
+
     \cos{\alpha} = \frac{\vec{a} \cdot \vec{e} _{\rm{x}}}{ | \vec{a} | \cdot
     |\vec{e} _{\rm{x}}| } = \frac{a _{\rm{x}}}{| \vec{a} |}
 
@@ -514,21 +514,21 @@ den :math:`x ,\, y ,\, z`-Achsen gilt somit:
 
 .. math::
     :label: eqn-winkel-zwischen-vektor-und-raumachsen
-    
-    \alpha = \cos^{-1}{\left( \frac{a _{\rm{x}}}{| \vec{a} | }\right)} \quad ; \quad 
-    \beta  = \cos^{-1}{\left( \frac{a _{\rm{y}}}{| \vec{a} | }\right)} \quad ; \quad 
-    \gamma = \cos^{-1}{\left( \frac{a _{\rm{z}}}{| \vec{a} | }\right)} \quad 
+
+    \alpha = \cos^{-1}{\left( \frac{a _{\rm{x}}}{| \vec{a} | }\right)} \quad ; \quad
+    \beta  = \cos^{-1}{\left( \frac{a _{\rm{y}}}{| \vec{a} | }\right)} \quad ; \quad
+    \gamma = \cos^{-1}{\left( \frac{a _{\rm{z}}}{| \vec{a} | }\right)} \quad
 
 ..  Beispiel?
 
 
-.. _Das Vektorprodukt:
+.. _Vektorprodukt:
 
 .. rubric:: Das Vektorprodukt
 
 Das Vektorprodukt zweier Vektoren :math:`\vec{a} _{\rm{1}}` und :math:`\vec{a}
 _{\rm{2}}` ergibt einen Vektor, der auf jedem der beiden Vektoren und senkrecht
-steht. Diese Definition ist erst ab einem dreidimensionalen Raum sinnvoll. 
+steht. Diese Definition ist erst ab einem dreidimensionalen Raum sinnvoll.
 
 .. figure:: ../pics/geometrie/vektor-vektorprodukt.png
     :width: 50%
@@ -537,7 +537,7 @@ steht. Diese Definition ist erst ab einem dreidimensionalen Raum sinnvoll.
     :alt:  fig-vektorprodukt
 
     Anschauliche Interpretation eines Vektorprodukts.
-    
+
     .. only:: html
 
         :download:`SVG: Vektorprodukt
@@ -546,7 +546,7 @@ steht. Diese Definition ist erst ab einem dreidimensionalen Raum sinnvoll.
 Der Betrag des Vektorprodukts zweier Vektoren :math:`\vec{a} _{\rm{1}}` und
 :math:`\vec{a} _{\rm{2}}` ist gleich dem Produkt ihrer Beträge
 :math:`|\vec{a}_1|` und :math:`|\vec{a}_2|`, multipliziert mit dem Sinus des
-zwischen ihnen eingeschlossenen Winkels :math:`\alpha`: 
+zwischen ihnen eingeschlossenen Winkels :math:`\alpha`:
 
 .. math::
     :label: eqn-vektorprodukt-winkel
@@ -560,7 +560,7 @@ folgender Formel berechnet werden:
 
 .. math::
     :label: eqn-vektorprodukt
-    
+
     \vec{a} _{\rm{1}} \times \vec{a} _{\rm{2}} = \begin{pmatrix}
     a _{\rm{1x}} \\
     a _{\rm{1y}} \\
@@ -573,7 +573,7 @@ folgender Formel berechnet werden:
     a _{\rm{1y}} \cdot a _{\rm{2z}} - a _{\rm{1z}} \cdot a _{\rm{2y}} \\
     a _{\rm{1z}} \cdot a _{\rm{2x}} - a _{\rm{1x}} \cdot a _{\rm{2z}} \\
     a _{\rm{1x}} \cdot a _{\rm{2y}} - a _{\rm{1y}} \cdot a _{\rm{2x}} \\
-    \end{pmatrix} 
+    \end{pmatrix}
 
 Das Vektorprodukt findet Anwendung in der analytischen Geometrie und in der
 Technik. Beispielsweise kann zu zwei gegebenen Richtungsvektoren, die eine Ebene
@@ -596,4 +596,4 @@ beispielsweise bei der Berechnung von :ref:`Drehmomenten <gwp:Drehmoment>` und
 
 .. [#] Der Betrag des Vektors :math:`\vec{e} _{\rm{x}}` ist gleich Eins, da
     :math:`| \vec{e} _{\rm{x}}| = \sqrt{1^2 + 0^2 + 0^2} = 1` gilt.
-    
+

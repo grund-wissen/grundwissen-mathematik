@@ -15,7 +15,7 @@ Exponentialfunktionen haben allgemein folgende Funktionsgleichung:
 
 .. math::
     :label: eqn-exponentialfunktion
-    
+
     y = a ^x
 
 Dabei bezeichnet die "Basis" :math:`a>0` eine beliebige, konstante Zahl.
@@ -51,7 +51,7 @@ Potenzen <Rechenregeln für Potenzen mit gleicher Basis>` von Bedeutung:
 
 .. math::
     :label: eqn-exponentialfunktion-rechenregeln
-    
+
     a ^{x_1 + x_2} &= a ^{x_1} \cdot a ^{x_2} \\[4pt]
     a ^{x_1 - x_2} &= a ^{x_1} : a ^{x_2} \\[4pt]
     a ^{x_1 \;\cdot\, x_2} &= \left(a ^{x_1}\right)^{x_2} \\[4pt]
@@ -63,7 +63,7 @@ liegt darin, dass ihre Werte schneller wachsen als es bei einer Potenzfunktion
 also für beliebige Werte :math:`n \in \mathbb{R} ^{+}` und :math:`a >1`:
 
 .. math::
-    
+
     \lim _{x \to \infty} \frac{a^x}{x^n} = \infty
 
 Der Grund dafür liegt darin, dass die :ref:`Ableitung einer Exponentialfunktion
@@ -85,7 +85,7 @@ Funktionsgleichung:
 
 .. math::
     :label: eqn-logarithmusfunktion
-    
+
     y = \log_{a}{(x)}
 
 Da Exponentialfunktionen eindeutig umkehrbar sind, gibt es zu jeder
@@ -114,7 +114,7 @@ werden, wie bereits im Abschnitt :ref:`Rechenregeln für Logarithmen
 dekadischer Logarithmus bezeichnet:
 
 .. math::
-    
+
     \text{lb}\,(x) &= \log_{2}{(x)}\;\,: \quad \!\!\! \text{dualer Logarithmus}{\color{white}\qquad\qquad\qquad\;\; 1} \\
     \ln{(x)} &= \log_{e}{(x)}\;\,: \quad \!\!\! \text{natürlicher Logarithmus} \\
     \text{lg}\,(x) &= \log_{10}{(x)}: \quad \!\!\text{dekadischer Logarithmus}
@@ -122,11 +122,11 @@ dekadischer Logarithmus bezeichnet:
 Im Fall :math:`0 < a < 1` sind Logarithmusfunktionen streng monoton fallend, im
 Fall :math:`a > 1` streng monoton steigend. Die einzelnen Logarithmusfunktionen
 können jeweils durch einen Basiswechsel in einen Logarithmus mit einer anderen
-Basis umgeformt werden. Es gilt dabei:  
+Basis umgeformt werden. Es gilt dabei:
 
 .. math::
     :label: eqn-logarithmusfunktion-basiswechsel
-    
+
     \log_{a}{(x)} =
     \frac{\log_{b}{(x)}}{\log_{b}{(a)}}{\color{white}\qquad\qquad\qquad\quad
     \ldots}
@@ -142,7 +142,7 @@ Für Logarithmusfunktionen sind die folgenden Rechenregeln von Bedeutung:
 
 .. math::
     :label: eqn-logarithmusfunktion-rechenregeln
-    
+
     \log_{a}{(x_1 \cdot x_2)} &= \log_{a}{(x_1)} + \log_{a}{(x_2)} \\[4pt]
     \log_{a}{(x_1 : x_2)} &= \log_{a}{(x_1)} - \log_{a}{(x_2)} \\[4pt]
     \log_{a}{(x_1)^{x_2}} &= x_2 \cdot \log_{a}{(x_1)} \\[4pt]
@@ -156,7 +156,7 @@ Potenz- bzw. Wurzelfunktion :math:`x^n` mit beliebig kleinem (aber festem)
 ^{+}` und :math:`a >1`:
 
 .. math::
-    
+
     \lim _{x \to \infty} \frac{\log_{a}{(x)}}{x^n} = 0
 
 Der Grund dafür liegt darin, dass die :ref:`Ableitung einer Logarithmusfunktion
@@ -167,7 +167,7 @@ Funktion sehr schnell gegen Null geht; beispielsweise ist für :math:`x =
 :math:`\log_{2}{(x)}` beträgt für diesen Wert hingegen nur
 :math:`\log_{2}{(1\,000\,000)} \approx 19,93`. Dennoch ist der Grenzwert für
 :math:`x \to \infty` bei jeder Logarithmus-Funktion :math:`f(x) = \log_{a}{(x)}`
-mit :math:`a > 1` ebenfalls Unendlich. 
+mit :math:`a > 1` ebenfalls Unendlich.
 
 
 .. raw:: html
@@ -192,29 +192,29 @@ mit :math:`a > 1` ebenfalls Unendlich.
       Logarithmen gilt für beliebige erlaubte Zahlen :math:`a` und :math:`b`:
 
       .. math::
-          
+
           \log_{a}{(b)} = \frac{\log_{b}{(b)}}{\log_{b}{(a)}} =
           \frac{1}{\log_{b}(a)}{\color{white}\qquad\qquad\qquad\qquad\qquad 1}
 
       Hierbei wird die Identität :math:`\log_{b}{(b)} = 1` genutzt.
 
     * Ein Quotient als Argument eines Logarithmus kann als :ref:`Differenz
-      zweier Logarithmen <Summen und Differenzen von Logarithmen>` dargestelt
+      zweier Logarithmen <Summen und Differenzen von Logarithmen>` dargestellt
       werden. Somit gilt:
-       
+
       .. math::
-           
+
           \log_{b}{\left( \frac{1}{a}\right)} = \log_{b}{(1)} - \log_{b}{(a)}  =
-          0 - \log_{b}{(a)} = - \log_{b}{(a)} 
-       
+          0 - \log_{b}{(a)} = - \log_{b}{(a)}
+
       Hierbei wird die Identität :math:`\log_{b}{(1)} = 0` genutzt.
 
     Insgesamt gilt somit:
 
     .. math::
-        
+
         \log_{\frac{1}{a}}{(b)} = \frac{1}{\log_{b}{\left( \frac{1}{a}\right)}}
         = - \frac{1}{\log_{b}{(a)}} = - \log_{a}{(b)}\quad \checkmark
-    
+
 
 

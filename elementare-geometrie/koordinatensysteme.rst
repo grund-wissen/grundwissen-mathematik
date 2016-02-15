@@ -19,7 +19,7 @@ In einem so genannten kartesischen Koordinatensystem ist jeder Punkt der
 Ebene durch seine Abstände zu den beiden Achsen festgelegt. Diese Abstände
 werden durch zwei reelle Zahlen angegeben. Dadurch entspricht jedem Punkt
 ein Zahlenpaar :math:`(x,y)` und umgekehrt jedem Zahlenpaar :math:`(x,y)`
-ein Punkt :math:`\rm{P}`. 
+ein Punkt :math:`\rm{P}`.
 
 .. figure:: ../pics/geometrie/koordinatensystem-kartesisch.png
     :width: 50%
@@ -28,7 +28,7 @@ ein Punkt :math:`\rm{P}`.
     :alt:  fig-koordinatensystem-kartesisch
 
     Darstellung von Punkten in einem kartesischen Koordinatensystem.
-    
+
     .. only:: html
 
         :download:`SVG: Kartesisches Koordinatensystem.
@@ -50,7 +50,7 @@ abgelesen werden.
     :alt:  fig-koordinatensystem-kartesisch-quadranten
 
     Vorzeichen der Koordinaten in den vier Quadranten.
-    
+
     .. only:: html
 
         :download:`SVG: Quadrantentabelle.
@@ -64,7 +64,7 @@ abgelesen werden.
 In einem so genannten Polarkoordinatensystem ist jeder Punkt :math:`\rm{P}` der
 Ebene durch seinen Abstand :math:`r` vom Koordinatenursprung und den Winkel
 :math:`\varphi` seiner Verbindungslinie mit dem Koordinatenursprung und der
-Horizontalen eindeutig festgelegt. 
+Horizontalen eindeutig festgelegt.
 
 .. figure:: ../pics/geometrie/koordinatensystem-polar.png
     :width: 50%
@@ -73,7 +73,7 @@ Horizontalen eindeutig festgelegt.
     :alt:  fig-koordinatensystem-polar
 
     Darstellung von Punkten in einem polaren Koordinatensystem.
-    
+
     .. only:: html
 
         :download:`SVG: Polares Koordinatensystem.
@@ -82,13 +82,13 @@ Horizontalen eindeutig festgelegt.
 Die Koordinaten :math:`r` und :math:`\varphi` eines Punktes in einem
 Polarkoordinatensystem und die Koordinaten :math:`x` und :math:`y` des selben
 Punktes in einem kartesischen System lassen sich unmittelbar ineinander
-umrechnen. 
+umrechnen.
 
 Sind :math:`x` und :math:`y` bekannt, so gilt für die Polarkoordinaten :math:`r`
 und :math:`\varphi`:
 
 .. math::
-    
+
     r &= \sqrt{x^2 + y^2} \\[4pt]
     \tan{\varphi} = \frac{y}{x} \quad &\text{bzw.} \quad \varphi =
     \tan^{-1}{\left(\frac{y}{x}\right)}
@@ -97,11 +97,11 @@ Sind im umgekehrten Fall :math:`r` und :math:`\varphi` bekannt, so gilt für die
 kartesischen Koordinaten :math:`x` und :math:`y`:
 
 .. math::
-    
+
     x &= r \cdot \cos{\varphi} \\[4pt]
     y &= r \cdot \sin{\varphi} \\
 
-Bei der Umrechnung zwischen kartesischen und polaren Koordinanten werden die
+Bei der Umrechnung zwischen kartesischen und polaren Koordinaten werden die
 drei :ref:`trigonometrischen Größen <Winkelfunktionen am Einheitskreis>`
 Sinus, Cosinus und Tangens verwendet. Beide Koordinatensysteme haben Vor- und
 Nachteile, die je nach Art der mathematischen Aufgabenstellung überwiegen. In

@@ -30,10 +30,10 @@ Ergebnisse liefert, als Wertemenge :math:`\mathbb{W}`.
     :alt:  fig-definitionsmenge-wertemenge
 
     Eine Funktion weist jedem Wert der Definitionsmenge :math:`\mathbb{D}`
-    je einen eindeutigen Wert der Wertemenge :math:`\mathbb{W}` zu. 
+    je einen eindeutigen Wert der Wertemenge :math:`\mathbb{W}` zu.
 
     .. only:: html
-    
+
         :download:`SVG: Definitionsmenge und Wertemenge
         <../pics/analysis/definitionsmenge-wertemenge.svg>`
 
@@ -41,13 +41,13 @@ Ergebnisse liefert, als Wertemenge :math:`\mathbb{W}`.
 
 Bisweilen müssen einzelne Werte oder Intervalle aus der Definitionsmenge
 ausgeschlossen werden, um ein stets eindeutiges Verhalten der Funktion zu
-gewährleisten. 
+gewährleisten.
 
 *Beispiele:*
 
 * Bei der gebrochen-rationalen Funktion :math:`f(x) = \frac{x}{x-1}`
   muss der Wert :math:`x=1` aus der Definitionsmenge ausgeschlossen werden, da
-  hierbei ansonsten durch Null dividiert würde. 
+  hierbei ansonsten durch Null dividiert würde.
 
 * Bei der Wurzelfunktion :math:`f(x) = \sqrt{x}` müssen alle Werte von
   :math:`]-\infty ;\;  0[` ausgeschlossen werden, da die Wurzel nur für
@@ -62,7 +62,7 @@ häufig als Definitionsbereich und gibt sie ebenfalls als Vereinigungsmenge von
 Intervallen an.
 
 Im Folgenden werden ausschließlich "reellwertige" Funktionen untersucht, das
-heißt Vorschriften, die den reellen Werten einer (unabhänigen) Variablen
+heißt Vorschriften, die den reellen Werten einer (unabhängigen) Variablen
 :math:`x` ebenfalls reelle Werte der (von :math:`x` abhängigen) Variablen
 :math:`y` zuweisen. Hierbei gilt, sofern keine weiteren Einschränkungen zu
 beachten sind, somit :math:`\mathbb{D} = \mathbb{W} = \mathbb{R}`. [#]_
@@ -85,7 +85,7 @@ Fall ist. Bei einer großen Anzahl von Wertepaaren können tabellarische
 Darstellungen jedoch -- ohne die Verwendung von Computern -- schnell
 unübersichtlich werden. Ein zweiter Nachteil liegt darin, dass fehlende
 Funktionswerte zwischen zwei Wertepaaren nur durch Mittelwertbildung
-("Interpolation") abgeschätzt werden können. 
+("Interpolation") abgeschätzt werden können.
 
 .. Hinweis Interpolation und Arithmetische Folgen
 
@@ -98,18 +98,18 @@ Funktionswerte zwischen zwei Wertepaaren nur durch Mittelwertbildung
     Darstellung eines funktionalen Zusammenhangs mittels einer Wertetabelle.
 
     .. only:: html
-    
+
         :download:`SVG: Wertetabelle
         <../pics/analysis/darstellung-wertetabelle.svg>`
 
-Bei graphisches Darstellungen werden die einzelnen Wertepaare :math:`(x \,,\,
+Bei graphischen Darstellungen werden die einzelnen Wertepaare :math:`(x \,,\,
 y)` in eindeutiger Weise auf Punkte eines Koordinatensystems abgebildet. [#]_ Sind
 die Abstände zwischen den Wertepaaren nur sehr gering, so kann der funktionale
 Zusammenhang graphisch durch eine Kurve veranschaulicht werden. Dies ermöglicht
 oftmals ein schnelles Ablesen der Funktionswerte (zumindest näherungsweise).
 Beispielsweise kann auf diese Weise an Oszilloskopen oder Kardiogrammen der
 zeitliche Verlauf eines elektrischen Spannungssignals direkt beobachtet werden.
-[#]_ 
+[#]_
 
 .. figure:: ../pics/analysis/darstellung-funktionsgraph.png
     :width: 60%
@@ -122,8 +122,8 @@ zeitliche Verlauf eines elektrischen Spannungssignals direkt beobachtet werden.
 
 
     .. only:: html
-    
-        :download:`SVG: Wertepaare als Diagramm 
+
+        :download:`SVG: Wertepaare als Diagramm
         <../pics/analysis/darstellung-funktionsgraph.svg>`
 
 Wie das Bild einer Funktion bei einer graphischen Darstellung konkret aussieht,
@@ -131,23 +131,23 @@ hängt auch von der Wahl des Koordinatensystems, insbesondere von der Skalierung
 der Achsen ab. Weisen beispielsweise die :math:`x`- und die :math:`y`-Achse
 unterschiedliche Skalierungen auf, so erscheint das Funktionsbild verzerrt.
 
-..  
+..
     Pic Drei Darstellungen der Normalparabel
 
 Zur rechnerischen Untersuchung einer Funktion wird die "analytische" Form, d.h.
 eine Darstellung als Funktionsgleichung bevorzugt. Eine Funktionsgleichung
-kann wiederum bei Bedarf jederzeit eine Wertetabelle oder eine graphische Form
+kann wiederum bei Bedarf jederzeit in eine Wertetabelle oder eine graphische Form
 gebracht werden. Man unterscheidet zwischen zwei Arten von Funktionsgleichungen:
 
-* Bei der *expliziten* Form ist die Funktionsgleichung nach der (abhängigen) 
+* Bei der *expliziten* Form ist die Funktionsgleichung nach der (abhängigen)
   Variablen :math:`y` aufgelöst.
 
   *Beispiel:*
 
   .. math::
-      
+
       y = 2 \cdot x^3 - 5
-  
+
 * Bei einer *impliziten* Form treten die unabhängige Variable :math:`x` und die
   abhängige Variable :math:`y` auf der gleichen Seite der Gleichung auf; die
   Gleichung hat damit die Form :math:`f(x,y) = 0`.
@@ -155,8 +155,8 @@ gebracht werden. Man unterscheidet zwischen zwei Arten von Funktionsgleichungen:
   *Beispiel:*
 
   .. math::
-  
-      2 \cdot x^3 - y  + 5 = 0      
+
+      2 \cdot x^3 - y  + 5 = 0
 
 Nicht jede Funktion kann in einer nach :math:`y` aufgelösten Form dargestellt
 werden, beispielsweise :math:`x + y + \sin{y} = 0`. Sofern möglich, wird im
@@ -188,21 +188,21 @@ ermöglicht eine wichtige Einteilung von Funktionen.
       :align: center
       :name: fig-surjektivität
       :alt:  fig-surjektivität
-  
+
       Beispiel einer surjektiven Funktion (Sinus).
-  
+
       .. only:: html
-      
+
           :download:`SVG: Surjektive Funktion
           <../pics/analysis/funktion-surjektiv-sinus.svg>`
 
 
   Am Diagramm einer Funktion lässt sich diese Eigenschaft daran erkennen, dass
-  jede beliebige, zur :math:`x`-Achse parallele Gerade den Funktionsgraph im 
+  jede beliebige, zur :math:`x`-Achse parallele Gerade den Funktionsgraph im
   gesamten Wertebereich mindestens einmal schneidet.
-  
+
   *Beispiel:*
-  
+
       Die Sinus-Funktion :math:`f(x) = \sin{(x)}` mit der Definitionsmenge
       :math:`\mathbb{D} = \mathbb{R}` und der Wertemenge :math:`\mathbb{W} = [-1 ;\;
       +1]` ist surjektiv. Der Funktionsgraph wird von jeder zur :math:`x`-Achse
@@ -221,26 +221,26 @@ ermöglicht eine wichtige Einteilung von Funktionen.
       :align: center
       :name: fig-injektivität
       :alt:  fig-injektivität
-  
+
       Beispiel einer injektiven Funktion :math:`(y = 2^x)`.
-  
+
       .. only:: html
-      
+
           :download:`SVG: Injektive Funktion
           <../pics/analysis/funktion-injektiv-exponential.svg>`
 
   Am Diagramm einer Funktion lässt sich diese Eigenschaft daran erkennen, dass
-  jede beliebige, zur :math:`x`-Achse parallele Gerade den Funktionsgraph im 
+  jede beliebige, zur :math:`x`-Achse parallele Gerade den Funktionsgraph im
   gesamten Wertebereich höchstens einmal schneidet.
 
   *Beispiel:*
-  
+
       Die Funktion :math:`f(x) = 2^x` mit der Definitionsmenge :math:`\mathbb{D} =
       \mathbb{R}` und der Wertemenge :math:`\mathbb{W} = \mathbb{R}` ist injektiv.
       Der Funktionsgraph wird von jeder zur :math:`x`-Achse parallelen Geraden im
       positiven Wertebereich :math:`(y>0)` genau einmal, im negativen Wertebereich
       :math:`(y<0)` überhaupt nicht geschnitten.
-      
+
 .. _Bijektivität:
 
 * Eine Funktion heißt bijektiv, wenn jedes Element ihrer Wertemenge
@@ -253,20 +253,20 @@ ermöglicht eine wichtige Einteilung von Funktionen.
       :align: center
       :name: fig-bijektivität
       :alt:  fig-bijektivität
-  
+
       Beispiel einer bijektiven Funktion :math:`(y = x^3)`.
-  
+
       .. only:: html
-      
+
           :download:`SVG: Bijektive Funktion
           <../pics/analysis/funktion-bijektiv.svg>`
 
   Am Diagramm einer Funktion lässt sich diese Eigenschaft daran erkennen, dass
-  jede beliebige, zur :math:`x`-Achse parallele Gerade den Funktionsgraph im 
+  jede beliebige, zur :math:`x`-Achse parallele Gerade den Funktionsgraph im
   gesamten Wertebereich genau einmal schneidet.
-  
+
   *Beispiel:*
-  
+
       Die Funktion :math:`f(x) = x^3` mit der Definitionsmenge :math:`\mathbb{D} =
       \mathbb{R}` und der Wertemenge :math:`\mathbb{W} = \mathbb{R}` ist bijektiv;
       der Funktionsgraph wird von jeder zur :math:`x`-Achse parallelen Geraden im
@@ -292,10 +292,10 @@ Eine Funktion ist eine mathematische Beschreibung dafür, welche "Ursache"
 Ein derartiger Zusammenhang ist nur dann sinnvoll, wenn die Zuweisung eines
 beliebigen Wertes der Ausgangsgröße :math:`x` zu einem Ergebniswert :math:`y =
 f(x)` stets eindeutig ist, d.h. ein :math:`x`-Wert nicht zwei verschiedene
-:math:`y`-Werte als Ergebnis liefern kann. 
+:math:`y`-Werte als Ergebnis liefern kann.
 
 .. math::
-    
+
     y = f(x)
 
 Umgekehrt ist es jedoch möglich, dass verschiedene :math:`x`-Werte den gleichen
@@ -304,8 +304,8 @@ Umgekehrt ist es jedoch möglich, dass verschiedene :math:`x`-Werte den gleichen
 *Beispiele:*
 
 * Unterschiedliche Körper können eine gleich große Masse besitzen. Ein einzelner
-  Körper hingegen besitzt auch stets nur einen einzigen, eindeutigen Wert für
-  die Größe seiner Masse. 
+  Körper hingegen besitzt stets nur einen einzigen, eindeutigen Wert für die
+  Größe seiner Masse.
 * In einem Obstladen kostet eine bestimmte Sorte Äpfel (zu einem bestimmten
   Zeitpunkt) einen eindeutigen Preis je Menge. Unabhängig davon, wie viele
   Äpfel ein Kunde tatsächlich kauft, ist der zu zahlende Gesamtbetrag dadurch
@@ -330,7 +330,7 @@ und anschließend die Variablen :math:`x` und :math:`y` vertauscht.
   aufgelöst wird:
 
   .. math::
-    
+
      y = 2 \cdot x + 3 \quad \Leftrightarrow \quad x = \frac{1}{2} \cdot (y -3)
 
   Multipliziert man in der rechten Gleichung die Klammer aus und vertauscht die
@@ -338,7 +338,7 @@ und anschließend die Variablen :math:`x` und :math:`y` vertauscht.
   Umkehrfunktion :math:`f _{\rm{U}}`:
 
   .. math::
-       
+
      y = \frac{1}{2} \cdot x - 1,5
 
 Bildet man nach dem gleichen Prinzip erneut die Umkehrfunktion einer
@@ -398,14 +398,14 @@ Es gilt somit für jede Funktion :math:`f(x)` und :math:`x _{\rm{1}} < x
 _{\rm{2}}`:
 
 .. math::
-    
+
     f (x _{\rm{1}}) &\le f (x _{\rm{2}})\text{\;\; für alle $n$} \quad \rightarrow
     \quad \text{$f(x)$ ist monoton zunehmend. } \\
     f (x _{\rm{1}}) &\ge f (x _{\rm{2}}) \text{\;\; für alle $n$} \quad \rightarrow
     \quad \text{$f(x)$ ist monoton abnehmend. } \\
     f (x _{\rm{1}}) &=   f (x _{\rm{2}}) \text{\;\; für alle $n$} \quad \rightarrow
     \quad \text{$f(x)$ ist konstant. }
-    
+
 Gilt bei der obigen Unterscheidung anstelle der Kleiner-Gleich-Relation
 :math:`\le` die Kleiner-Relation :math:`<` bzw. anstelle der Größer-Gleich-Relation
 :math:`\ge` die Größer-Relation :math:`>`, so nennt man die Funktion *streng*
@@ -416,14 +416,14 @@ ursprüngliche Funktion.
 .. index:: Beschränktheit einer Funktion
 .. _Beschränktheit:
 
-.. rubric:: Beschränktheit 
+.. rubric:: Beschränktheit
 
 Eine Funktion :math:`f(x)` wird beschränkt genannt, wenn es zwei reelle Zahlen
 :math:`s` und :math:`S` gibt, so dass alle Funktionswerte :math:`y = f(x)`
 zwischen beiden begrenzenden Zahlen liegen, d.h. wenn gilt:
 
 .. math::
-    
+
     s \le f(x) \le S \text{\;\; für alle } x \in \mathbb{D}
 
 Hierbei wird :math:`s` als untere Schranke und :math:`S` als obere Schranke
@@ -452,22 +452,22 @@ da sie im negativen Bereich betraglich unendlich große Werte annimmt.
 
 
 Hat eine Funktion in einem bestimmten Bereich weder eine obere noch eine untere
-Schranke, so heißt die Funktion in diesem Bereich unbeschränkt. 
+Schranke, so heißt die Funktion in diesem Bereich unbeschränkt.
 
 ..  Beispiel :math:`\sin{x}` als beidseitig beschränkte Funktion, :math:`-x^4 +
 ..  2 \cdot x^2 + 3` für einseitig beschränkte Funktion. Simon 398
 
 .. index:: Grenzwert einer Funktion
-    
+
 .. _Grenzwerte einer Funktion:
 
 Grenzwerte einer Funktion
 -------------------------
 
 Die Werte einer Funktion können sich -- abhängig vom Funktionstyp -- ebenso wie
-die Werte einer Zahlenfolge mit zunehmenden x`-Werte einem bestimmten Zahlenwert
-annähern. Eine Funktion besitzt genau dann einen solchen Grenzwert, wenn sie
-:ref:`monoton <Monotonie>` und :ref:`beschränkt <Beschränktheit>` ist.
+die Werte einer Zahlenfolge mit zunehmenden :math:`x`-Werten einem bestimmten
+Zahlenwert annähern. Eine Funktion besitzt genau dann einen solchen Grenzwert,
+wenn sie :ref:`monoton <Monotonie>` und :ref:`beschränkt <Beschränktheit>` ist.
 
 
 .. rubric:: Grenzwerte für :math:`x \to \infty` und :math:`x \to -\infty`
@@ -490,7 +490,7 @@ wenn für alle :math:`x`-Werte ab einer gewissen Zahl :math:`x_0` das
 
 .. math::
     :label: eqn-cauchy-kriterium
-    
+
     | f(x) - g | < \varepsilon \; \text{ für alle } \; x > x_0 \quad
     \Leftrightarrow \quad g \text{ ist Grenzwert von } f(x)
 
@@ -504,15 +504,15 @@ negative beziehungsweise positive :math:`x`-Werte, so schreibt man:
 
 .. math::
     :label: eqn-grenzwert-unendlich
-    
+
     \text{Grenzwert für unendlich große, negative $x$-Werte}: \lim _{x \to -\infty} f(x) &= g_1 \\
     \text{Grenzwert für unendlich große,\, positive $x$-Werte}: \lim _{x \to +\infty} f(x) &= g_2
 
 Existiert für eine Funktion :math:`f(x)` einer der beiden obigen Grenzwerte, so
 nennt man die Funktion "konvergent" für :math:`x \to -\infty` beziehungsweise
 :math:`x \rightarrow +\infty`. Ebenso ist es möglich, dass eine Funktion keinen
-Grenzwert für :math:`x \rightarrow \pm \infty` besitzt; in diesem Fall nennt
-nennt man sie divergent.
+Grenzwert für :math:`x \rightarrow \pm \infty` besitzt; in diesem Fall nennt man
+sie divergent.
 
 *Beispiele:*
 
@@ -522,14 +522,14 @@ nennt man sie divergent.
   also:
 
   .. math::
-      
+
       \lim _{x \rightarrow \pm \infty}\left(  \frac{1}{x} \right) = 0
-  
+
 * Die Funktion :math:`f(x) = \frac{x}{x+1}` ist für :math:`x \rightarrow \pm
-  \infty` konvergent zum Grenzwert :math:`1`. Es gilt also: 
-  
+  \infty` konvergent zum Grenzwert :math:`1`. Es gilt also:
+
   .. math::
-    
+
       \lim _{x \rightarrow \pm \infty} \left( \frac{x}{x + 1}\right)  = 1
 
 * Die Funktion :math:`f(x) = x^2` (eine "Parabel") ist divergent, sie hat keinen
@@ -539,22 +539,22 @@ Werden die Funktionswerte einer divergierenden Funktion mit zunehmenden
 :math:`x`-Werten unendlich groß, so bezeichnet man :math:`\infty` als
 "uneigentlichen" Grenzwert -- tatsächlich existiert in diesem Fall keine
 bestimmte Zahl :math:`g` als obere Schranke, wie sie für einen Grenzwert
-eigentlich existieren muss. 
+eigentlich existieren muss.
 
 ..  Man lehnt sich dabei vielmehr an den Sprachgebrauch an, dass eine derartige
 ..  Funktion für große :math:`x`-Werte "gegen unendlich" geht.
 
-.. rubric:: Grenzwert für :math:`x \to x_0` 
+.. rubric:: Grenzwert für :math:`x \to x_0`
 
 Grenzwerte von Funktionen können nicht nur für unendlich große negative bzw.
 positive :math:`x`-Werte betrachtet werden; es ist ebenso möglich zu prüfen, ob
 ein Grenzwert existiert, wenn sich die :math:`x`-Werte einem frei wählbaren Wert
 :math:`x_0` annähern. Existiert ein solcher Grenzwert :math:`g`, so schreibt
-man: 
+man:
 
 .. math::
     :label: eqn-grenzwert-an-einer-stelle
-    
+
     \lim _{x \to x_0} f(x) = g
 
 Ist die Funktion :math:`f(x)` an der Stelle :math:`x_0` definiert, so ist ihr
@@ -563,7 +563,7 @@ Grenzwert an dieser Stelle gleich ihrem Funktionswert, d.h. es gilt
 allerdings auch dann existieren, wenn die Funktion an der Stelle :math:`x_0`
 nicht definiert ist. Vor allem an den Grenzen des Definitionsbereichs
 :math:`\mathbb{D}` (beispielsweise an Definitionslücken) werden Funktionen
-deshalb häufig auf mögliche Grenzwerte untersucht. 
+deshalb häufig auf mögliche Grenzwerte untersucht.
 
 Sofern möglich, nähert man dazu die :math:`x`-Werte der Stelle :math:`x_0`
 sowohl von links als auch von rechts an; man untersucht also das Verhalten der
@@ -572,13 +572,13 @@ Funktion an den Stellen :math:`x_0 - \delta` und :math:`x_0 + \delta`, wobei
 Grenzwerte:
 
 .. math::
-    
+
     g _{\rm{-}} = \lim _{\substack{x \to (x_0-h), \\ h \to 0}} \big(f(x)\big) \\[4pt]
     g _{\rm{+}} = \lim _{\substack{x \to (x_0+h), \\ h \to 0}} \big(f(x)\big) \\[4pt]
 
 
 Entsprechend bezeichnet man die beiden zugehörigen Grenzwerte :math:`g_{-}` und
-:math:`g _{+}` als "linksseitig" bzw. "rechtsseitig". 
+:math:`g _{+}` als "linksseitig" bzw. "rechtsseitig".
 
 
 .. _Rechenregeln für Grenzwerte:
@@ -589,19 +589,19 @@ Für das Rechnen mit Grenzwerten gibt es folgende Rechenregeln:
 
 .. math::
     :label: eqn-rechenregeln-grenzwerte
-    
+
     \lim _{} \big(f_1(x) \pm f_2(x)\big) &= \lim _{} \big(f_1(x)\big) \pm \lim _{} \big(f_2(x)\big) \\
     \lim _{} \big(f_1(x) \, \cdot \; f_2(x)\big) &= \lim _{}\big(f_1(x)\big)\, \cdot \; \lim _{}\big(f_2(x)\big) \\
-    \lim _{} \left( \frac{f_1(x)}{f_2(x)}\right) &= \frac{\lim _{}\big(f_1(x)\big)}{\lim _{}\big(f_2(x)\big)} 
+    \lim _{} \left( \frac{f_1(x)}{f_2(x)}\right) &= \frac{\lim _{}\big(f_1(x)\big)}{\lim _{}\big(f_2(x)\big)}
 
 Bei der Division zweier Funktionen bzw. Grenzwerte muss dabei darauf geachtet
 werden, dass nicht durch Null dividiert wird, d.h. es muss :math:`f_2(x) \ne 0`
-für alle :math:`x` sowie :math:`\lim _{}\big(f_2(x)\big) \ne 0` gelten. Ist 
+für alle :math:`x` sowie :math:`\lim _{}\big(f_2(x)\big) \ne 0` gelten. Ist
 im Speziellen :math:`f(x) =1` und :math:`g(x)` eine Funktion mit dem Grenzwert
 :math:`\infty` für :math:`x \to \infty`, so gilt:
 
 .. math::
-    
+
     \lim _{x \to \infty} f(x) = \infty \quad \Rightarrow \quad \lim _{x \to
     \infty} \frac{1}{f(x)} = 0
 
@@ -617,7 +617,7 @@ dies auch für den Grenzwert der "mittleren" Funktion.
 
 Stetigkeit
 ----------
-    
+
 Man bezeichnet eine Funktion an einer Stelle :math:`x_0 \in \mathbb{D}` als
 stetig, wenn an dieser Stelle der linksseitige Grenzwert :math:`g _{-}`, der
 rechtsseitige Grenzwert :math:`g_+` und der Funktionswert :math:`g=f(x_0)`
@@ -627,27 +627,27 @@ ist.
 
 Anschaulich bedeutet Stetigkeit, dass der Graph einer Funktion keine "Sprünge"
 macht, d.h. entlang des Definitionsbereichs als eine durchgezogene Linie (ohne
-Absetzen des Schreibstifts) gezeichnet werden kann. Dies ist sehr vielen
+Absetzen des Schreibstifts) gezeichnet werden kann. Dies ist bei sehr vielen
 Funktionen der Fall, beispielsweise bei allen ganzrationalen Funktionen, der
 Sinus- bzw. Cosinusfunktion. Auch die Tangens- und Hyperbelfunktion :math:`f(x)
-= \frac{1}{x}` ist sind stetig, da sich ihre Funktionswerte ihre
-Funktionsgraphen nur an den jeweils nicht definierten Stellen
-(Definitionslücken) sprunghaft ändern. Auch die Kombination zweier oder mehrerer
-stetiger Funktionen mittels den Grundrechenarten Addition, Subtraktion,
-Multiplikation oder Division ungleich Null ergibt wieder eine stetige Funktion.
+= \frac{1}{x}` sind stetig, da sich ihre Funktionswerte nur an den jeweils nicht
+definierten Stellen (Definitionslücken) sprunghaft ändern. Auch die Kombination
+zweier oder mehrerer stetiger Funktionen mittels den Grundrechenarten Addition,
+Subtraktion, Multiplikation oder Division ungleich Null ergibt wieder eine
+stetige Funktion.
 
 Ein anschauliches Beispiel für eine lokal, aber nicht global stetige Funktion
 ist die so genannte Signum-Funktion (auch Vorzeichenfunktion genannt). Sie ist
 abschnittsweise folgendermaßen definiert:
 
 .. math::
-    
+
     \text{sgn}(x) = \begin{cases}
     -1 &\quad \text{falls } \quad x < 0 \\
     \phantom{+}0 &\quad \text{falls } \quad  x = 0 \\
-    +1 &\quad \text{falls } \quad x > 0  
+    +1 &\quad \text{falls } \quad x > 0
     \end{cases}
-    
+
 .. figure:: ../pics/analysis/signumsfunktion.png
     :width: 50%
     :align: center
@@ -657,7 +657,7 @@ abschnittsweise folgendermaßen definiert:
     Funktionsgraph der Signumsfunktion :math:`y = \text{sgn}(x)`.
 
     .. only:: html
-    
+
         :download:`SVG: Signumsfunktion
         <../pics/analysis/signumsfunktion.svg>`
 
@@ -672,7 +672,7 @@ An dieser Stelle jedoch stimmen ihr linksseitiger Grenzwert :math:`g _{\rm{-}} =
 .. rubric:: Zwischenwertsatz und Extremwertsatz
 
 Ist eine Funktion :math:`f` in einem Intervall stetig, so ist sie dort auch
-begrenzt. Es exitieren also eine untere Schranke :math:`s` und eine obere
+begrenzt. Es existieren also eine untere Schranke :math:`s` und eine obere
 Schranke :math:`S`, so dass :math:`s \le f(x) \le S` für alle :math:`x`-Werte
 des Intervalls gilt.
 
@@ -697,10 +697,10 @@ Nullstellen
 -----------
 
 Als eine Nullstelle wird ein Ausgangswert :math:`x_0` einer Funktion bezeichnet,
-für den zugehörige Funktionswert :math:`y = f(x_0)` den Wert Null annimmt: 
+für den der zugehörige Funktionswert :math:`y = f(x_0)` den Wert Null annimmt:
 
 .. math::
-    
+
     f(x_0) = 0 \quad \Leftrightarrow \quad x_0 \text{ ist eine Nullstelle}
 
 Die Nullstellen einer Funktion lassen sich bestimmen, indem man in die implizite
@@ -718,12 +718,12 @@ oder auch keine Nullstelle besitzt.
     Funktionsgraph mit drei Nullstellen.
 
     .. only:: html
-    
+
         :download:`SVG: Nullstellen einer Funktion
         <../pics/analysis/nullstellen-einer-funktion.svg>`
 
 Zeichnet man eine Funktion als Graph in einem Koordinatensystem ein, so stellen
-Nullstellen Schnitt- oder Berührungspunkte mit der :math:`x`-Achse dar. 
+Nullstellen Schnitt- oder Berührungspunkte mit der :math:`x`-Achse dar.
 
 .. index:: Schnittpunkt zweier Funktionen
 .. _Schnittpunkte zweier Funktionen:
@@ -740,7 +740,7 @@ für welche Ausgangswerte :math:`{\color{white}|}x_0, x_1, \text{usw.}` die Bedi
 der Bestimmung der Nullstelle von :math:`f_1(x) - f2(x)` überein:
 
 .. math::
-    
+
     f_1(x) = f_2(x) \quad \Leftrightarrow \quad f_1(x) - f_2(x) = 0
 
 Existieren ein oder mehrere Schnittpunkte, so sind an den entsprechenden Stellen
@@ -755,7 +755,7 @@ beiden Funktionen einsetzt.
 Verknüpfung und Verkettung von Funktionen
 -----------------------------------------
 
-Aus den elementaren Funktionen, die in den nächsten Abschnitt näher beschrieben
+Aus den elementaren Funktionen, die in den nächsten Abschnitten näher beschrieben
 werden, lassen sich weitere Funktionen zusammensetzen. Dies ist auf zweierlei
 Arten möglich:
 
@@ -771,11 +771,11 @@ Arten möglich:
 
   .. math::
       :label: eqn-verknuepfte-funktion
-      
+
       y &= f_1(x) + f_2(x) \quad \text{mit} \quad \mathbb{D} = \mathbb{D}_1 \cap
       \mathbb{D}_2 \quad \text{oder} \\
       y &= f_1(x) \;\cdot \, f_2(x) \quad \text{mit} \quad \mathbb{D} = \mathbb{D}_1 \cap
-      \mathbb{D}_2 
+      \mathbb{D}_2
 
   Einfache Sonderfälle von Gleichung :eq:`eqn-verknuepfte-funktion` ergeben sich
   hierbei, wenn eine der beiden Funktionen konstant ist. Hierbei entstehen
@@ -783,9 +783,9 @@ Arten möglich:
 
   .. math::
       :label: eqn-funktion-verschoben-gestreckt
-      
+
       y = f(x) + c \quad \text{und/oder} \quad y = c \cdot f(x)
-  
+
   Im ersten Fall wird zu jedem Funktionswert die Konstante :math:`c` addiert
   (beziehungsweise subtrahiert, wenn :math:`c < 0` ist). Bei einer graphischen
   Darstellung wird der Funktionsgraph dadurch um :math:`c` Einheiten in
@@ -797,7 +797,7 @@ Arten möglich:
   vertikal gestaucht, im Fall :math:`|c|>1` vertikal gestreckt. Ist :math:`c<0`,
   so wird der Funktionsgraph (wie bei einer :ref:`zentrischen Streckung
   <Ähnlichkeitsabbildungen>`) an der :math:`x`-Achse gespiegelt.
-  
+
 
 * Bei einer so genannten Verkettung werden zwei Funktionen "hintereinander"
   ausgeführt, d.h. der Funktionswert der ersten Funktion wird als Ausgangswert
@@ -809,7 +809,7 @@ Arten möglich:
 
   .. math::
       :label: eqn-verkettete-funktion
-      
+
       y = f_2\big( f_1(x)\big) \quad \text{mit } \mathbb{D} = \mathbb{W}_1 \cap
       \mathbb{D}_2
 
@@ -855,7 +855,7 @@ Arten möglich:
     \sin{(x)}` mit :math:`\mathbb{D} = \mathbb{R}` und :math:`\mathbb{W} =
     [-1 ;\; +1]` durch eine Einschränkung des Definitionsbereichs auf
     :math:`\mathbb{D} = [- \pi ;\; + \pi]` zu einer bijektiven Funktion
-    gemacht werden. 
+    gemacht werden.
 
     Entsprechend kann die (injektive) Funktion :math:`f(x) = 2^x` mit
     :math:`\mathbb{D} = \mathbb{R}` und :math:`\mathbb{W} = \mathbb{R}` durch
@@ -867,7 +867,7 @@ Arten möglich:
     Hat eine Funktion beispielsweise für :math:`x \to \infty` den Grenzwert
     :math:`g`, so hat auch jede frei wählbare Folge :math:`x_n` die Folge
     :math:`f_n(x_n)` der zugehörigen Funktionswerte den gleichen Grenzwert
-    :math:`g`. 
+    :math:`g`.
 
 
 

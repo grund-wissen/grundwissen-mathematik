@@ -19,7 +19,7 @@ weit vom Mittelpunkt :math:`M` entfernt liegen.
     :width: 40%
 
     Grundform eines Kreises.
-    
+
     .. only:: html
 
         :download:`SVG: Kreis
@@ -29,10 +29,10 @@ Für den Umfang und die Fläche eines Kreises mit Radius :math:`r` gilt:
 
 .. math::
     :label: eqn-kreis
-    
+
     \text{Umfang} &= 2 \cdot \pi \cdot r \\[4pt]
-    \text{Fl\"ache} &= \pi \cdot r^2 
-    
+    \text{Fl\"ache} &= \pi \cdot r^2
+
 Dabei wird :math:`\pi \approx 3,14159265...` als "Kreiszahl" bezeichnet.
 
 
@@ -51,7 +51,7 @@ bezeichnet man den entsprechenden Kreisteil als Kreisbogen.
     :alt:  fig-kreisbogen
 
     Der Kreisesbogen als Teil des Kreisumfangs.
-    
+
     .. only:: html
 
         :download:`SVG: Kreisbogen
@@ -68,18 +68,18 @@ Anteil wird durch den Mittelpunktswinkel :math:`\alpha` beschrieben, wobei
 :math:`360°`:
 
 .. math::
-    
-    \frac{s}{2 \cdot \pi \cdot r} = \frac{\alpha }{360 °} 
+
+    \frac{s}{2 \cdot \pi \cdot r} = \frac{\alpha }{360 °}
 
 Nach dieser Gleichung, aufgelöst nach :math:`s`, ergibt sich für die Länge
-des Kreisbogens:  
+des Kreisbogens:
 
 .. math::
     :label: eqn-kreisbogen
-    
+
     s = \frac{\alpha }{360°} \cdot 2 \cdot \pi \cdot r
 
-.. index:: Kreis; Gradmaß und Bogenmaß
+.. index:: Kreis; Gradmaß und Bogenmaß, Radiant
 .. _Gradmaß und Bogenmaß:
 .. _Bogenmaß:
 .. _Gradmaß:
@@ -101,7 +101,7 @@ vollen Kreisumfang entspricht.
     :alt:  fig-gradmaß-und-bogenmaß
 
     Gradmaß und Bogenmaß an einem Einheitskreis :math:`(r = 1)`.
-    
+
     .. only:: html
 
         :download:`SVG: Gradmaß und Bogenmaß
@@ -112,8 +112,8 @@ Für einen Einheitskreis kann folgende "Umrechnung" zwischen dem Gradmaß und
 dem Bogenmaß verwendet werden:
 
 .. math::
-    
-    360° \stackrel{\wedge}= 2 \cdot \pi 
+
+    360° \stackrel{\wedge}= 2 \cdot \pi
 
 Um einen Winkel vom Gradmaß ins Bogenmaß umzurechnen, wird dieser durch
 :math:`360°` geteilt und mit :math:`2 \cdot \pi` multipliziert. Im umgekehrten
@@ -121,16 +121,16 @@ Fall lässt sich ein Winkel vom Bogenmaß ins Gradmaß umrechnen, indem er durch
 :math:`2 \cdot \pi` geteilt und mit :math:`360°` multipliziert wird. [#GB1]_
 
 Die Grundeinheit :math:`\frac{1}{2 \cdot \pi }` des Bogenmaßes wird auch als
-"Radiant" :math:`(\unit[1]{rad})` bezeichnet. Ein Radiant entspricht ungefaehr
-einem Winkelmaß von :math:`57,3 ^{\circ}`. 
-        
+"Radiant" :math:`(\unit[1]{rad})` bezeichnet. Ein Radiant entspricht ungefähr
+einem Winkelmaß von :math:`57,3 \degree`.
+
 .. _Kreissektor:
 
 .. rubric:: Der Kreissektor
 
 Verbindet man einen Kreisbogen mit dem Mittelpunkt, so ergibt sich eine Fläche
 in Form eines Tortenstücks. Mathematisch wird diese Fläche als Kreissektor
-bezeichnet. 
+bezeichnet.
 
 .. figure:: ../../pics/geometrie/kreissektor.png
     :width: 40%
@@ -139,7 +139,7 @@ bezeichnet.
     :alt:  fig-kreissektor
 
     Der Kreissektor als Teil der Kreisfläche.
-    
+
     .. only:: html
 
         :download:`SVG: Kreissektor
@@ -150,9 +150,9 @@ Der Flächeninhalt eines Kreissektors entspricht -- analog zum Kreisbogen -- dem
 :math:`\alpha / 360°`-sten Anteil der Gesamt-Kreisfläche :math:`\pi \cdot r^2`:
 
 .. math::
-    
-    \text{Fl\"ache des Kreissektors} &= \frac{\alpha }{360°} \cdot \pi \cdot r^2 
-    
+
+    \text{Fl\"ache des Kreissektors} &= \frac{\alpha }{360°} \cdot \pi \cdot r^2
+
 
 .. raw:: html
 
@@ -168,5 +168,4 @@ Der Flächeninhalt eines Kreissektors entspricht -- analog zum Kreisbogen -- dem
     werden. Umgekehrt ist bei der Umrechnung des Mittelpunktswinkels vom
     Bogenmaß ins Gradmaß die Kreisbogenlänge :math:`s` durch den Radius
     :math:`r` zu dividieren.
-
 

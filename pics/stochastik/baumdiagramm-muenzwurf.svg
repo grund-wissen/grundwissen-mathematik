@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="baumdiagramm-muenzwurf.svg">
+  <title
+     id="title8910">Baumdiagramm (Muenzwurf)</title>
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.66855468"
+     inkscape:cx="384.8129"
+     inkscape:cy="414.06045"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:object-paths="true"
+     inkscape:object-nodes="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-center="false"
+     inkscape:snap-page="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:window-width="1600"
+     inkscape:window-height="1150"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:snap-global="false"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Baumdiagramm (Muenzwurf)</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Bernhard Grotz</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Bernhard Grotz</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Bernhard Grotz</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:language>de-DE</dc:language>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
+        <dc:date>2015-10-15</dc:date>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>Mathematik</rdf:li>
+            <rdf:li>Stochastik</rdf:li>
+            <rdf:li>Zufallsexperiment</rdf:li>
+            <rdf:li>Baumdiagramm</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:prohibits
+           rdf:resource="http://creativecommons.org/ns#CommercialUse" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3076"
+       width="714.1792"
+       height="475.65295"
+       x="14.957638"
+       y="288.35461"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/stochastik/baumdiagramm-muenzwurf.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <g
+       id="g7795"
+       transform="translate(-45.255511,244.14978)"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/stochastik/baumdiagramm-muenzwurf.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <path
+         d="m 272.97693,220.71742 c 0,10.3261 -8.37096,18.69705 -18.69705,18.69705 -10.3261,0 -18.69705,-8.37095 -18.69705,-18.69705 0,-10.32609 8.37095,-18.69705 18.69705,-18.69705 10.32609,0 18.69705,8.37096 18.69705,18.69705 z"
+         sodipodi:ry="18.69705"
+         sodipodi:rx="18.69705"
+         sodipodi:cy="220.71742"
+         sodipodi:cx="254.27988"
+         id="path7776"
+         style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#b3b3b3;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text7780"
+         y="227.54742"
+         x="246.66988"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:MathJax_Main;-inkscape-font-specification:MathJax_Main"
+         xml:space="preserve"><tspan
+           y="227.54742"
+           x="246.66988"
+           id="tspan7782"
+           sodipodi:role="line">K</tspan></text>
+    </g>
+    <g
+       id="g7790"
+       transform="translate(-45.255511,311.56897)"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/stochastik/baumdiagramm-muenzwurf.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <path
+         transform="translate(0,108.44289)"
+         sodipodi:type="arc"
+         style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#b3b3b3;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path7784"
+         sodipodi:cx="254.27988"
+         sodipodi:cy="220.71742"
+         sodipodi:rx="18.69705"
+         sodipodi:ry="18.69705"
+         d="m 272.97693,220.71742 c 0,10.3261 -8.37096,18.69705 -18.69705,18.69705 -10.3261,0 -18.69705,-8.37095 -18.69705,-18.69705 0,-10.32609 8.37095,-18.69705 18.69705,-18.69705 10.32609,0 18.69705,8.37096 18.69705,18.69705 z" />
+      <text
+         xml:space="preserve"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:MathJax_Main;-inkscape-font-specification:MathJax_Main"
+         x="248.12988"
+         y="335.99033"
+         id="text7786"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan7788"
+           x="248.12988"
+           y="335.99033">Z</tspan></text>
+    </g>
+    <g
+       id="g7821"
+       transform="translate(-80.530024,252.43136)"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/stochastik/baumdiagramm-muenzwurf.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <path
+         transform="matrix(0.79746835,0,0,0.79746835,29.371857,60.833793)"
+         d="m 192.82243,300.36685 c 0,16.31523 -21.40029,29.54134 -47.79889,29.54134 -26.39859,0 -47.798885,-13.22611 -47.798885,-29.54134 0,-16.31523 21.400295,-29.54134 47.798885,-29.54134 26.3986,0 47.79889,13.22611 47.79889,29.54134 z"
+         sodipodi:ry="29.541338"
+         sodipodi:rx="47.798889"
+         sodipodi:cy="300.36685"
+         sodipodi:cx="145.02354"
+         id="path7774"
+         style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#b3b3b3;stroke-width:1.88095236;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+      <text
+         xml:space="preserve"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:MathJax_Main;-inkscape-font-specification:MathJax_Main"
+         x="122.76464"
+         y="307.19684"
+         id="text7780-0"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan7782-2"
+           x="122.76464"
+           y="307.19684">Start</tspan></text>
+    </g>
+    <path
+       style="color:#000000;fill:none;stroke:#b3b3b3;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 516.37307,398.91889 -125.42375,21.9827"
+       id="path7826"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/stochastik/baumdiagramm-muenzwurf.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="color:#000000;fill:none;stroke:#b3b3b3;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 190.32732,640.72928 -87.7157,-87.93107"
+       id="path7828"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/stochastik/baumdiagramm-muenzwurf.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <g
+       id="g7830"
+       transform="translate(117.97239,200.18417)"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/stochastik/baumdiagramm-muenzwurf.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <path
+         sodipodi:type="arc"
+         style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#b3b3b3;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path7832"
+         sodipodi:cx="254.27988"
+         sodipodi:cy="220.71742"
+         sodipodi:rx="18.69705"
+         sodipodi:ry="18.69705"
+         d="m 272.97693,220.71742 c 0,10.3261 -8.37096,18.69705 -18.69705,18.69705 -10.3261,0 -18.69705,-8.37095 -18.69705,-18.69705 0,-10.32609 8.37095,-18.69705 18.69705,-18.69705 10.32609,0 18.69705,8.37096 18.69705,18.69705 z" />
+      <text
+         xml:space="preserve"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:MathJax_Main;-inkscape-font-specification:MathJax_Main"
+         x="246.66988"
+         y="227.54742"
+         id="text7834"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan7836"
+           x="246.66988"
+           y="227.54742">K</tspan></text>
+    </g>
+    <g
+       id="g7838"
+       transform="translate(117.97239,376.04637)"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/stochastik/baumdiagramm-muenzwurf.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <path
+         sodipodi:type="arc"
+         style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#b3b3b3;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path7840"
+         sodipodi:cx="254.27988"
+         sodipodi:cy="220.71742"
+         sodipodi:rx="18.69705"
+         sodipodi:ry="18.69705"
+         d="m 272.97693,220.71742 c 0,10.3261 -8.37096,18.69705 -18.69705,18.69705 -10.3261,0 -18.69705,-8.37095 -18.69705,-18.69705 0,-10.32609 8.37095,-18.69705 18.69705,-18.69705 10.32609,0 18.69705,8.37096 18.69705,18.69705 z" />
+      <text
+         xml:space="preserve"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:MathJax_Main;-inkscape-font-specification:MathJax_Main"
+         x="246.66988"
+         y="227.54742"
+         id="text7842"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan7844"
+           x="246.66988"
+           y="227.54742">K</tspan></text>
+    </g>
+    <g
+       id="g7846"
+       transform="translate(117.97239,179.67244)"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/stochastik/baumdiagramm-muenzwurf.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <path
+         d="m 272.97693,220.71742 c 0,10.3261 -8.37096,18.69705 -18.69705,18.69705 -10.3261,0 -18.69705,-8.37095 -18.69705,-18.69705 0,-10.32609 8.37095,-18.69705 18.69705,-18.69705 10.32609,0 18.69705,8.37096 18.69705,18.69705 z"
+         sodipodi:ry="18.69705"
+         sodipodi:rx="18.69705"
+         sodipodi:cy="220.71742"
+         sodipodi:cx="254.27988"
+         id="path7848"
+         style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#b3b3b3;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc"
+         transform="translate(0,108.44289)" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text7850"
+         y="335.99033"
+         x="248.12988"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:MathJax_Main;-inkscape-font-specification:MathJax_Main"
+         xml:space="preserve"><tspan
+           y="335.99033"
+           x="248.12988"
+           id="tspan7852"
+           sodipodi:role="line">Z</tspan></text>
+    </g>
+    <g
+       transform="translate(117.97239,355.53451)"
+       id="g7854"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/stochastik/baumdiagramm-muenzwurf.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <path
+         transform="translate(0,108.44289)"
+         sodipodi:type="arc"
+         style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#b3b3b3;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path7856"
+         sodipodi:cx="254.27988"
+         sodipodi:cy="220.71742"
+         sodipodi:rx="18.69705"
+         sodipodi:ry="18.69705"
+         d="m 272.97693,220.71742 c 0,10.3261 -8.37096,18.69705 -18.69705,18.69705 -10.3261,0 -18.69705,-8.37095 -18.69705,-18.69705 0,-10.32609 8.37095,-18.69705 18.69705,-18.69705 10.32609,0 18.69705,8.37096 18.69705,18.69705 z" />
+      <text
+         xml:space="preserve"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:MathJax_Main;-inkscape-font-specification:MathJax_Main"
+         x="248.12988"
+         y="335.99033"
+         id="text7858"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan7860"
+           x="248.12988"
+           y="335.99033">Z</tspan></text>
+    </g>
+    <g
+       transform="translate(280.79024,178.20147)"
+       id="g7862"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/stochastik/baumdiagramm-muenzwurf.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <path
+         d="m 272.97693,220.71742 c 0,10.3261 -8.37096,18.69705 -18.69705,18.69705 -10.3261,0 -18.69705,-8.37095 -18.69705,-18.69705 0,-10.32609 8.37095,-18.69705 18.69705,-18.69705 10.32609,0 18.69705,8.37096 18.69705,18.69705 z"
+         sodipodi:ry="18.69705"
+         sodipodi:rx="18.69705"
+         sodipodi:cy="220.71742"
+         sodipodi:cx="254.27988"
+         id="path7864"
+         style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#b3b3b3;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text7866"
+         y="227.54742"
+         x="246.66988"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:MathJax_Main;-inkscape-font-specification:MathJax_Main"
+         xml:space="preserve"><tspan
+           y="227.54742"
+           x="246.66988"
+           id="tspan7868"
+           sodipodi:role="line">K</tspan></text>
+    </g>
+    <g
+       transform="translate(280.79024,113.72409)"
+       id="g7870"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/stochastik/baumdiagramm-muenzwurf.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <path
+         transform="translate(0,108.44289)"
+         sodipodi:type="arc"
+         style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#b3b3b3;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path7872"
+         sodipodi:cx="254.27988"
+         sodipodi:cy="220.71742"
+         sodipodi:rx="18.69705"
+         sodipodi:ry="18.69705"
+         d="m 272.97693,220.71742 c 0,10.3261 -8.37096,18.69705 -18.69705,18.69705 -10.3261,0 -18.69705,-8.37095 -18.69705,-18.69705 0,-10.32609 8.37095,-18.69705 18.69705,-18.69705 10.32609,0 18.69705,8.37096 18.69705,18.69705 z" />
+      <text
+         xml:space="preserve"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:MathJax_Main;-inkscape-font-specification:MathJax_Main"
+         x="248.12988"
+         y="335.99033"
+         id="text7874"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan7876"
+           x="248.12988"
+           y="335.99033">Z</tspan></text>
+    </g>
+    <g
+       id="g7878"
+       transform="translate(280.79024,266.13255)"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/stochastik/baumdiagramm-muenzwurf.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <path
+         sodipodi:type="arc"
+         style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#b3b3b3;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path7880"
+         sodipodi:cx="254.27988"
+         sodipodi:cy="220.71742"
+         sodipodi:rx="18.69705"
+         sodipodi:ry="18.69705"
+         d="m 272.97693,220.71742 c 0,10.3261 -8.37096,18.69705 -18.69705,18.69705 -10.3261,0 -18.69705,-8.37095 -18.69705,-18.69705 0,-10.32609 8.37095,-18.69705 18.69705,-18.69705 10.32609,0 18.69705,8.37096 18.69705,18.69705 z" />
+      <text
+         xml:space="preserve"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:MathJax_Main;-inkscape-font-specification:MathJax_Main"
+         x="246.66988"
+         y="227.54742"
+         id="text7882"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan7884"
+           x="246.66988"
+           y="227.54742">K</tspan></text>
+    </g>
+    <g
+       id="g7886"
+       transform="translate(280.79024,201.65517)"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/stochastik/baumdiagramm-muenzwurf.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <path
+         d="m 272.97693,220.71742 c 0,10.3261 -8.37096,18.69705 -18.69705,18.69705 -10.3261,0 -18.69705,-8.37095 -18.69705,-18.69705 0,-10.32609 8.37095,-18.69705 18.69705,-18.69705 10.32609,0 18.69705,8.37096 18.69705,18.69705 z"
+         sodipodi:ry="18.69705"
+         sodipodi:rx="18.69705"
+         sodipodi:cy="220.71742"
+         sodipodi:cx="254.27988"
+         id="path7888"
+         style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#b3b3b3;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc"
+         transform="translate(0,108.44289)" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text7890"
+         y="335.99033"
+         x="248.12988"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:MathJax_Main;-inkscape-font-specification:MathJax_Main"
+         xml:space="preserve"><tspan
+           y="335.99033"
+           x="248.12988"
+           id="tspan7892"
+           sodipodi:role="line">Z</tspan></text>
+    </g>
+    <g
+       transform="translate(280.79024,354.06357)"
+       id="g7894"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/stochastik/baumdiagramm-muenzwurf.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <path
+         d="m 272.97693,220.71742 c 0,10.3261 -8.37096,18.69705 -18.69705,18.69705 -10.3261,0 -18.69705,-8.37095 -18.69705,-18.69705 0,-10.32609 8.37095,-18.69705 18.69705,-18.69705 10.32609,0 18.69705,8.37096 18.69705,18.69705 z"
+         sodipodi:ry="18.69705"
+         sodipodi:rx="18.69705"
+         sodipodi:cy="220.71742"
+         sodipodi:cx="254.27988"
+         id="path7896"
+         style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#b3b3b3;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text7898"
+         y="227.54742"
+         x="246.66988"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:MathJax_Main;-inkscape-font-specification:MathJax_Main"
+         xml:space="preserve"><tspan
+           y="227.54742"
+           x="246.66988"
+           id="tspan7900"
+           sodipodi:role="line">K</tspan></text>
+    </g>
+    <g
+       transform="translate(280.79024,289.58619)"
+       id="g7902"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/stochastik/baumdiagramm-muenzwurf.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <path
+         transform="translate(0,108.44289)"
+         sodipodi:type="arc"
+         style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#b3b3b3;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path7904"
+         sodipodi:cx="254.27988"
+         sodipodi:cy="220.71742"
+         sodipodi:rx="18.69705"
+         sodipodi:ry="18.69705"
+         d="m 272.97693,220.71742 c 0,10.3261 -8.37096,18.69705 -18.69705,18.69705 -10.3261,0 -18.69705,-8.37095 -18.69705,-18.69705 0,-10.32609 8.37095,-18.69705 18.69705,-18.69705 10.32609,0 18.69705,8.37096 18.69705,18.69705 z" />
+      <text
+         xml:space="preserve"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:MathJax_Main;-inkscape-font-specification:MathJax_Main"
+         x="248.12988"
+         y="335.99033"
+         id="text7906"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan7908"
+           x="248.12988"
+           y="335.99033">Z</tspan></text>
+    </g>
+    <g
+       id="g7910"
+       transform="translate(280.79024,441.99466)"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/stochastik/baumdiagramm-muenzwurf.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <path
+         sodipodi:type="arc"
+         style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#b3b3b3;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path7912"
+         sodipodi:cx="254.27988"
+         sodipodi:cy="220.71742"
+         sodipodi:rx="18.69705"
+         sodipodi:ry="18.69705"
+         d="m 272.97693,220.71742 c 0,10.3261 -8.37096,18.69705 -18.69705,18.69705 -10.3261,0 -18.69705,-8.37095 -18.69705,-18.69705 0,-10.32609 8.37095,-18.69705 18.69705,-18.69705 10.32609,0 18.69705,8.37096 18.69705,18.69705 z" />
+      <text
+         xml:space="preserve"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:MathJax_Main;-inkscape-font-specification:MathJax_Main"
+         x="246.66988"
+         y="227.54742"
+         id="text7914"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan7916"
+           x="246.66988"
+           y="227.54742">K</tspan></text>
+    </g>
+    <g
+       id="g7918"
+       transform="translate(280.79024,377.51728)"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/stochastik/baumdiagramm-muenzwurf.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <path
+         d="m 272.97693,220.71742 c 0,10.3261 -8.37096,18.69705 -18.69705,18.69705 -10.3261,0 -18.69705,-8.37095 -18.69705,-18.69705 0,-10.32609 8.37095,-18.69705 18.69705,-18.69705 10.32609,0 18.69705,8.37096 18.69705,18.69705 z"
+         sodipodi:ry="18.69705"
+         sodipodi:rx="18.69705"
+         sodipodi:cy="220.71742"
+         sodipodi:cx="254.27988"
+         id="path7920"
+         style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#b3b3b3;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc"
+         transform="translate(0,108.44289)" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text7922"
+         y="335.99033"
+         x="248.12988"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:MathJax_Main;-inkscape-font-specification:MathJax_Main"
+         xml:space="preserve"><tspan
+           y="335.99033"
+           x="248.12988"
+           id="tspan7924"
+           sodipodi:role="line">Z</tspan></text>
+    </g>
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path7988"
+       d="M 353.55522,420.90159 227.72142,464.8672"
+       style="color:#000000;fill:none;stroke:#b3b3b3;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/stochastik/baumdiagramm-muenzwurf.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="color:#000000;fill:none;stroke:#b3b3b3;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 190.32732,464.8672 -87.7157,87.93101"
+       id="path7990"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/stochastik/baumdiagramm-muenzwurf.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="color:#000000;fill:none;stroke:#b3b3b3;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="M 353.55522,508.83275 227.72142,464.8672"
+       id="path7992"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/stochastik/baumdiagramm-muenzwurf.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path8042"
+       d="M 516.37307,442.8844 390.94932,420.90159"
+       style="color:#000000;fill:none;stroke:#b3b3b3;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/stochastik/baumdiagramm-muenzwurf.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="color:#000000;fill:none;stroke:#b3b3b3;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="M 516.37307,530.81548 390.94932,508.83275"
+       id="path8044"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/stochastik/baumdiagramm-muenzwurf.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path8046"
+       d="M 516.37307,618.7465 390.94932,596.76379"
+       style="color:#000000;fill:none;stroke:#b3b3b3;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/stochastik/baumdiagramm-muenzwurf.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="color:#000000;fill:none;stroke:#b3b3b3;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="M 516.37307,706.67759 390.94932,684.69482"
+       id="path8048"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/stochastik/baumdiagramm-muenzwurf.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path8050"
+       d="M 516.37307,486.84997 390.94932,508.83275"
+       style="color:#000000;fill:none;stroke:#b3b3b3;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/stochastik/baumdiagramm-muenzwurf.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="color:#000000;fill:none;stroke:#b3b3b3;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 516.37307,574.78099 -125.42375,21.9828"
+       id="path8052"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/stochastik/baumdiagramm-muenzwurf.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path8054"
+       d="M 516.37307,662.71208 390.94932,684.69482"
+       style="color:#000000;fill:none;stroke:#b3b3b3;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/stochastik/baumdiagramm-muenzwurf.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path8064"
+       d="M 353.55522,684.69482 227.72142,640.72928"
+       style="color:#000000;fill:none;stroke:#b3b3b3;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/stochastik/baumdiagramm-muenzwurf.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="color:#000000;fill:none;stroke:#b3b3b3;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 353.55522,596.76379 -125.8338,43.96549"
+       id="path8066"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/stochastik/baumdiagramm-muenzwurf.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="color:#000000;fill:none;stroke:#333333;stroke-width:1.99999976;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.99999994, 5.99999983;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 295.72563,324.32029 0,403.72161"
+       id="path8068"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/stochastik/baumdiagramm-muenzwurf.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path8838"
+       d="m 448.77886,324.32029 0,403.72161"
+       style="color:#000000;fill:none;stroke:#333333;stroke-width:1.99999976;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.99999994, 5.99999983;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/stochastik/baumdiagramm-muenzwurf.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:MathJax_Main;-inkscape-font-specification:MathJax_Main"
+       x="337.99319"
+       y="342.61215"
+       id="text8844"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/stochastik/baumdiagramm-muenzwurf.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><tspan
+         sodipodi:role="line"
+         id="tspan8846"
+         x="337.99319"
+         y="342.61215">2. Wurf</tspan></text>
+    <g
+       id="g8885"
+       transform="translate(-2.3217285,293.85937)"
+       inkscape:export-filename="/home/waldgeist/data/homepage/pics/mathematik/stochastik/baumdiagramm-muenzwurf.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <text
+         xml:space="preserve"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:MathJax_Main;-inkscape-font-specification:MathJax_Main"
+         x="176.55203"
+         y="48.7528"
+         id="text8840"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan8842"
+           x="176.55203"
+           y="48.7528">1. Wurf</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:MathJax_Main;-inkscape-font-specification:MathJax_Main"
+         x="503.00778"
+         y="48.7528"
+         id="text8848"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan8850"
+           x="503.00778"
+           y="48.7528">3. Wurf</tspan></text>
+    </g>
+  </g>
+</svg>

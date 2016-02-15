@@ -1,14 +1,14 @@
 .. index:: Determinante
 .. _Determinanten:
 
-Determinanten 
+Determinanten
 =============
 
 Determinanten stellen neben dem :ref:`Gaussschen Lösungsverfahren <Gaussscher
-Lösungsalgorithmus>` ein weiteres nützliches Werkzug im Umgang mit linearen
+Lösungsalgorithmus>` ein weiteres nützliches Werkzeug im Umgang mit linearen
 Gleichungssystemen dar. Sie ermöglichen unter anderem eine verhältnismäßig
 einfache und schnelle Untersuchung, ob ein lineares Gleichungssystem eine
-eindeutige Lösung besitzt oder nicht. 
+eindeutige Lösung besitzt oder nicht.
 
 .. index:: Determinante; zweireihig
 .. rubric:: Zweireihige Determinanten
@@ -19,7 +19,7 @@ Unbekannten betrachtet. Diese lassen sich im Allgemeinen in folgender Form
 darstellen:
 
 .. math::
-    
+
      a _{\rm{11}} \cdot x _{\rm{1}} +  a _{\rm{12}} \cdot x _{\rm{2}} &= b
      _{\rm{1}} \\
      a _{\rm{21}} \cdot x _{\rm{1}} +  a _{\rm{22}} \cdot x _{\rm{2}} &= b
@@ -30,7 +30,7 @@ beispielsweise die erste Gleichung mit :math:`a_{22}` und die zweite Gleichung
 mit :math:`a _{\rm{12}}` multipliziert. Es folgt:
 
 .. math::
-    
+
     a _{\rm{11}} \cdot a _{\rm{22}} \cdot x_1 + a _{\rm{12}} \cdot a _{\rm{22}}
     \cdot x_2 &=  b _{\rm{1}} \cdot a _{\rm{22}} \\
     a _{\rm{12}} \cdot a _{\rm{21}} \cdot x_1 + a _{\rm{12}} \cdot a _{\rm{22}}
@@ -41,7 +41,7 @@ identisch. Subtrahiert man die zweite Gleichung von der ersten, so erhält man
 eine einzelne Gleichung für :math:`x_1`:
 
 .. math::
-    
+
     a _{\rm{11}} \cdot a _{\rm{22}} \cdot x - a _{\rm{12}} \cdot a _{\rm{21}}
     \cdot x_1 &= b_1 \cdot a _{\rm{22}} - b _{\rm{2}} \cdot a _{\rm{12}} \\ x_1
     \cdot (a _{\rm{11}} \cdot a _{\rm{22}} - a _{\rm{12}} \cdot a _{\rm{21}}) &=
@@ -52,17 +52,17 @@ die verbleibende Klammer ungleich Null, so erhält man als Lösung für
 :math:`x_1`:
 
 .. math::
-    
+
     x_1 = \frac{b_1 \cdot a _{\rm{22}} - b_2 \cdot a _{\rm{12}}}{a _{\rm{11}}
     \cdot a _{\rm{22}} - a _{\rm{12}} \cdot a _{\rm{21}}}
 
 Nach dem gleichen Prinzip kann man im die erste Gleichung des ursprünglichen
 Gleichungssystems mit :math:`a _{\rm{11}}` und die zweite Gleichung mit :math:`a
 _{\rm{21}}` multiplizieren, um eine Bestimmungsgleichung für :math:`x_2` zu
-erhalten. Die Lösung lautet dabei: 
+erhalten. Die Lösung lautet dabei:
 
 .. math::
-    
+
     x_2 = \frac{b_2 \cdot a _{\rm{11}} - b_1 \cdot a _{\rm{21}}}{a _{\rm{11}}
     \cdot a _{\rm{22}} - a _{\rm{12}} \cdot a _{\rm{21}}}
 
@@ -75,10 +75,10 @@ definiert:
 
 .. math::
     :label: eqn-determinante-zweireihig
-    
+
     \begin{vmatrix}
     a _{\rm{11}} & a _{\rm{12}}  \\
-    a _{\rm{21}} & a _{\rm{22}} 
+    a _{\rm{21}} & a _{\rm{22}}
     \end{vmatrix}  = a _{\rm{11}} \cdot a _{\rm{22}} - a _{\rm{12}} \cdot a
     _{\rm{21}}
 
@@ -93,8 +93,8 @@ Gleichungssystem eindeutig lösbar.
 
 .. index:: Regel von Cramer
 
-Die Lösungen für :math:`x_1` und :math:`x_2` lassen nach der so genannten Regel
-von `Cramer <https://de.wikipedia.org/wiki/Gabriel_Cramer>`_ ebenfalls in
+Die Lösungen für :math:`x_1` und :math:`x_2` lassen sich nach der so genannten
+Regel von `Cramer <https://de.wikipedia.org/wiki/Gabriel_Cramer>`_ ebenfalls in
 Determinanten-Schreibweise darstellen. Im Nenner steht dabei immer die
 eigentliche Determinante des Gleichungssystems, im Zähler wird die erste bzw.
 zweite Spalte der Determinante durch die rechte Seite der Gleichung ersetzt.
@@ -102,11 +102,11 @@ Somit gilt:
 
 .. math::
     :label: eqn-determinante-zweireihig-loesungen
-    
+
     x_1 = \frac{\begin{vmatrix} b_1 & a _{\rm{12}} \\ b_2 &  a _{\rm{22}}
     \end{vmatrix} }{\begin{vmatrix} a _{\rm{11}} & a _{\rm{12}}  \\ a _{\rm{21}}
     & a _{\rm{22}} \end{vmatrix} }
-    \quad \text{und} \quad 
+    \quad \text{und} \quad
     x_2 = \frac{\begin{vmatrix}  a _{\rm{11}} & b_1 \\  a _{\rm{21}} &  b_2
     \end{vmatrix} }{\begin{vmatrix} a _{\rm{11}} & a _{\rm{12}}  \\ a _{\rm{21}}
     & a _{\rm{22}} \end{vmatrix} }
@@ -119,7 +119,7 @@ drei Unbekannten definieren. In allgemeiner Form lässt sich ein solches
 Gleichungssystem folgendermaßen beschreiben:
 
 .. math::
-    
+
      a _{\rm{11}} \cdot x_1 + a _{\rm{12}} \cdot x_2 + a _{\rm{13}} \cdot x_3 &= b_1 \\
      a _{\rm{21}} \cdot x_1 + a _{\rm{22}} \cdot x_2 + a _{\rm{23}} \cdot x_3 &= b_2 \\
      a _{\rm{31}} \cdot x_1 + a _{\rm{32}} \cdot x_2 + a _{\rm{33}} \cdot x_3 &= b_3 \\
@@ -129,11 +129,11 @@ definieren:
 
 .. math::
     :label: eqn-determinante-dreireihig
-    
+
     \begin{vmatrix}
         a _{\rm{11}} & a _{\rm{12}} & a _{\rm{13}} \\
         a _{\rm{21}} & a _{\rm{22}} & a _{\rm{23}} \\
-        a _{\rm{31}} & a _{\rm{32}} & a _{\rm{33}} \\ 
+        a _{\rm{31}} & a _{\rm{32}} & a _{\rm{33}} \\
     \end{vmatrix} &= \phantom{+}
     a _{\rm{11}} \cdot a _{\rm{22}} \cdot a _{\rm{33}} + a _{\rm{21}} \cdot a
     _{\rm{32}} \cdot a _{\rm{13}} + a _{\rm{31}} \cdot a _{\rm{12}} \cdot a
@@ -157,19 +157,19 @@ resultierende Zahl ungleich Null, so ist das Gleichungssystem eindeutig lösbar.
     Merkhilfe zur Regel von Sarrus
 
     .. only:: html
-    
+
         :download:`SVG: Regel von Sarrus
         <../pics/algebra/determinanten-regel-von-sarrus.svg>`
 
-Die Lösungen für :math:`x_1`, :math:`x_2` und :math:`x_3` lassen ebenfalls nach
-der Regel von Cramer in Determinanten-Schreibweise darstellen. Im Nenner steht
-wiederum die eigentliche Determinante des Gleichungssystems, im Zähler wird die
-erste, zweite bzw. dritte Spalte der Determinante durch die rechte Seite der
-Gleichung ersetzt. Somit gilt:
+Die Lösungen für :math:`x_1`, :math:`x_2` und :math:`x_3` lassen sich ebenfalls
+nach der Regel von Cramer in Determinanten-Schreibweise darstellen. Im Nenner
+steht wiederum die eigentliche Determinante des Gleichungssystems, im Zähler
+wird die erste, zweite bzw. dritte Spalte der Determinante durch die rechte
+Seite der Gleichung ersetzt. Somit gilt:
 
 .. math::
     :label: eqn-determinante-dreireihig-loesungen
-    
+
     x_1 = \frac{\begin{vmatrix} b_1 & a _{\rm{12}} & a _{\rm{13}} \\ b_2 &  a
     _{\rm{22}} & a _{\rm{23}} \\ b_3 & a _{\rm{32}} & a _{\rm{33}} \end{vmatrix}
     }{\begin{vmatrix} a _{\rm{11}} & a _{\rm{12}} & a _{\rm{13}} \\ a _{\rm{21}}
@@ -180,10 +180,10 @@ Gleichung ersetzt. Somit gilt:
     & a _{\rm{12}} & a _{\rm{13}} \\ a _{\rm{21}} & a _{\rm{22}}  & a _{\rm{23}}
     \\ a _{\rm{31}} & a _{\rm{32}} & a _{\rm{33}} \end{vmatrix} } \quad
     \text{und} \quad x_3 = \frac{\begin{vmatrix}  a _{\rm{11}} & a _{\rm{12}} &
-    b_1 \\  a _{\rm{21}} & a _{\rm{22}} &  b_2 \\ a _{\rm{31}} & a _{\rm{32}} 
+    b_1 \\  a _{\rm{21}} & a _{\rm{22}} &  b_2 \\ a _{\rm{31}} & a _{\rm{32}}
     & b_3 \end{vmatrix} }{\begin{vmatrix} a _{\rm{11}} & a _{\rm{12}} & a
     _{\rm{13}} \\ a _{\rm{21}} & a _{\rm{22}}  & a _{\rm{23}} \\ a _{\rm{31}} &
-    a _{\rm{32}} & a _{\rm{33}} \end{vmatrix} } 
+    a _{\rm{32}} & a _{\rm{33}} \end{vmatrix} }
 
 
 .. index:: Determinante; mehrreihig
@@ -228,7 +228,7 @@ einer vierreihigen Determinante vorgestellt werden.
     und der dritten Spalte.
 
     .. only:: html
-    
+
         :download:`SVG: Vorzeichen-Schema
         <../pics/algebra/determinanten-schnittpunktelement.svg>`
 
@@ -239,11 +239,11 @@ einer vierreihigen Determinante vorgestellt werden.
 
     Multipliziert man den Wert der Unterdeterminante :math:`D _{\rm{ij}}` mit dem
     Faktor :math:`(-1) ^{i +j}`, so spricht man von der zum Element :math:`a
-    _{\rm{ij}}` adjungierten Unterdeterminante :math:`A _{\rm{ij}}`: 
+    _{\rm{ij}}` adjungierten Unterdeterminante :math:`A _{\rm{ij}}`:
 
     .. math::
         :label: eqn-adjungierte-determinante
-        
+
         A _{\rm{ij}} = (-1) ^{i+j} \cdot D _{\rm{ij}}
 
 Das Vorzeichen des Faktors :math:`(-1) ^{i+j}` hängt von der Zeilen- und
@@ -260,13 +260,13 @@ Vorzeichen auch anhand einer schachbrettartigen Vorzeichentabelle ablesen.
     Vorzeichen-Schema für die Entwicklung von Unterdeterminanten
 
     .. only:: html
-    
+
         :download:`SVG: Vorzeichen-Schema
         <../pics/algebra/determinanten-vorzeichen.svg>`
 
 
 .. Determinanten nur für quadratische Matrizen definiert.
-.. simon s.332: regel von sarrus nur für dreireihige determinanten definiert. 
+.. simon s.332: regel von sarrus nur für dreireihige determinanten definiert.
 .. stimmt so nicht: wird nur schnell unhandlich (5 reihen: 120 summanden)
 
 .. index:: Entwicklungssatz von Leibniz
@@ -280,20 +280,20 @@ werden:
     erhält man den Wert der Determinante."
 
 Es ist frei wählbar, nach welcher Reihe (Zeile oder Spalte) man eine
-Determinante entwickelt. Entwickelt man eine Determinante :math:`D` nach der
+Determinante entwickelt. Entwickelt man eine Determinante :math:`A` nach der
 :math:`i`-ten Reihe, so gilt:
 
     .. math::
-        
+
         A = \sum_{j=1}^{n} a  _{\rm{ij}} \cdot A _{\rm{ij}}
-    
+
 Entwickelt man eine Determinante :math:`A` hingegen nach der :math:`j`-ten
 Reihe, so gilt:
 
     .. math::
-        
+
         A = \sum_{i=1}^{n} a  _{\rm{ij}} \cdot A _{\rm{ij}}
-    
+
 Zweckmäßig ist es, für die Entwicklung eine Reihe zu wählen, die möglichst
 viele Nullen enthält.
 
@@ -302,21 +302,21 @@ viele Nullen enthält.
 * Folgende Determinante :math:`A` mit :math:`n=4` Reihen soll berechnet werden:
 
   .. math::
-    
+
       A = \begin{vmatrix}
       \;\,\,1 & \;\,\,2 & \;\,\,3 & \;\,\, 0 \\ \;\,\, 0 & \;\,\,1 & \;\,\, 2 &
       -1 \\ -1 & -2 & \;\,\, 3 & \;\,\, 2 \\ \;\,\,1 & \;\,\, 2 & \;\,\, 1 &
       \;\,\, 0
       \end{vmatrix}
-    
+
   Zunächst wird die Determinante in Unterdeterminanten mit :math:`n=3` Reihen
   entwickelt. Vorteilhaft ist hierbei eine Entwicklung nach der vierten Spalte,
   da diese zwei Nullen enthält. Nach dem Leibnizschen Entwicklungssatz gilt:
 
   .. only:: html
-  
+
       .. math::
-      
+
           A = \begin{vmatrix}
           \;\,\,1 & \;\,\,2 & \;\,\,3 & \;\,\, 0 \\ \;\,\, 0 & \;\,\,1 & \;\,\, 2 &
           -1 \\ -1 & -2 & \;\,\, 3 & \;\,\, 2 \\ \;\,\,1 & \;\,\, 2 & \;\,\, 1 &
@@ -329,12 +329,12 @@ viele Nullen enthält.
           \;\,\, 1 & \;\,\, 2 & \;\,\, 3 \\ \;\,\, 0 & \;\,\, 1 & \;\,\, 2 \\ \;\,\, 1 & \;\,\,
           2 & \;\,\, 1 \end{vmatrix} + 0 \cdot  \begin{vmatrix} \;\,\, 1 & \;\,\, 2
           & \;\,\, 3 \\ \;\,\, 0 & \;\,\, 1 & \;\,\, 2 \\ -1 & -2 & \;\,\, 3
-          \end{vmatrix} 
-      
+          \end{vmatrix}
+
   .. only:: latex
-  
+
       .. math::
-      
+
           A = \begin{vmatrix}
           \;\,\,1 & \;\,\,2 & \;\,\,3 & \;\,\, 0 \\ \;\,\, 0 & \;\,\,1 & \;\,\, 2 &
           -1 \\ -1 & -2 & \;\,\, 3 & \;\,\, 2 \\ \;\,\,1 & \;\,\, 2 & \;\,\, 1 &
@@ -346,26 +346,26 @@ viele Nullen enthält.
           \;\;\, 1 & \;\;\, 2 & \;\;\, 3 \\ \;\,\, 0 & \;\;\, 1 & \;\;\, 2 \\ \;\;\, 1 & \;\;\,
           2 & \;\;\, 1 \end{vmatrix} + \phantom{(-)} 0 \cdot  \begin{vmatrix} \;\,\, 1 & \;\,\, 2
           & \;\,\, 3 \\ \;\,\, 0 & \;\,\, 1 & \;\,\, 2 \\ -1 & -2 & \;\,\, 3
-          \end{vmatrix} 
-      
+          \end{vmatrix}
+
   Alle Determinanten liefern reelle Zahlen als Ergebnisse; mit Null
   multipliziert ergeben sie ebenfalls Null. Es müssen somit nur die zweite und
   die dritte Unterdeterminante ausgewertet werden. Hierzu kann die Regel von
-  Sarrus genutzt werden: 
+  Sarrus genutzt werden:
 
   .. math::
-      
+
       A &= (-1) \cdot \begin{vmatrix}
       \;\,\, 1 & \;\,\, 2 & \;\,\, 3 \\ -1 & -2 & \;\,\, 3 \\ \;\,\, 1 & \;\,\,
       2 & \;\,\, 1 \end{vmatrix} - 2 \cdot  \begin{vmatrix}
       \;\,\, 1 & \;\,\, 2 & \;\,\, 3 \\ \;\,\, 0 & \;\,\, 1 & \;\,\, 2 \\ \;\,\, 1 & \;\,\,
-      2 & \;\,\, 1 \end{vmatrix} \\[5pt] 
+      2 & \;\,\, 1 \end{vmatrix} \\[5pt]
       &= (-1) \cdot \qquad \quad \;  0 \qquad \; - 2 \cdot \qquad (-2) \qquad  \quad = 4
 
   Die Determinante :math:`A` hat somit den Wert :math:`4`.
-  
+
 ..  &= (-1) \cdot (+(-2) + 6 + (-6) - (-6) - 6 - (-2) ) \\ &\phantom{=(}- 2 \,\cdot (1 + 4 + 0 -
-..  3  -4 - 0) \\ 
+..  3  -4 - 0) \\
 
 
 Um ein lineares Gleichungssystem mit :math:`n` Gleichungen und Unbekannten zu
@@ -376,7 +376,7 @@ Ergebnisspalte :math:`b` ersetzt. Für die Lösung :math:`x _{\rm{j}}` gilt dann
 mit :math:`j = 1 , \ldots, n`:
 
 .. math::
-    
+
     x _{\rm{j}} = \frac{ A _{\rm{j}}}{A}
 
 Voraussetzung ist bei dieser allgemeinen Regel von Cramer wiederum, dass die

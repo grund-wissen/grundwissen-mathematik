@@ -1,4 +1,4 @@
-.. index:: 
+.. index::
     single: Komplexe Zahlen
     single: Zahlenbereiche; Komplexe Zahlen
 .. _Exkurs Komplexe Zahlen:
@@ -20,7 +20,7 @@ Gleichung erfüllt:
 
 .. math::
     :label: eqn-imaginäre-einheit
-    
+
     i = \sqrt{-1}
 
 Die Menge :math:`\mathbb{I}` der imaginären Zahlen entspricht der Menge an
@@ -28,7 +28,7 @@ Zahlen, die man erhält, wenn man die imaginäre Einheit :math:`i` mit einem
 beliebigen (reellen) Vielfachen :math:`b` multipliziert:
 
 .. math::
-    
+
     \mathbb{I} = \lbrace b \cdot i \; | \; b \in \mathbb{R} \text{ und } i =
     \sqrt{-1} \rbrace
 
@@ -37,13 +37,13 @@ Zahl :math:`b \cdot i`, so erhält man eine komplexe Zahl :math:`z`:
 
 .. math::
     :label: eqn-komplexe-zahl
-    
+
      z = a + b \cdot i
 
 Für die Menge :math:`\mathbb{C}` der komplexen Zahlen gilt entsprechend:
 
 .. math::
-    
+
     \mathbb{C} = \lbrace a + b \cdot i \; | \; a,b \in \mathbb{R} \text{ und } i
     = \sqrt{-i} \rbrace
 
@@ -66,7 +66,7 @@ Die Rechenregeln für reelle Zahlen lassen sich weitgehend auf komplexe Zahlen
 
 .. math::
     :label: eqn-addition-komplexer-zahlen
-    
+
     z _{\rm{1}} + z _{\rm{2}} &= ( a _{\rm{1}} +  b _{\rm{1}} \cdot i) + ( a
     _{\rm{2}} + b2 \cdot i) =  (a _{\rm{1}} +  a _{\rm{2}}) + ( b _{\rm{1}} +  b
     _{\rm{2}}) \cdot i \\
@@ -81,7 +81,7 @@ Die Rechenregeln für reelle Zahlen lassen sich weitgehend auf komplexe Zahlen
 
 .. math::
     :label: eqn-multiplikation-komplexer-zahlen
-    
+
     z _{\rm{1}} \cdot z _{\rm{2}} = ( a _{\rm{1}} +  b _{\rm{1}} \cdot i) \cdot
     ( a _{\rm{2}} +  b _{\rm{2}} \cdot i) = ( a _{\rm{1}} \cdot  a _{\rm{2}} -
     b _{\rm{1}} \cdot  b _{\rm{2}}) + (b _{\rm{1}} \cdot  a _{\rm{2}}  + a
@@ -95,7 +95,7 @@ Die Rechenregeln für reelle Zahlen lassen sich weitgehend auf komplexe Zahlen
 
 .. math::
     :label: eqn-division-komplexer-zahlen
-    
+
     \frac{z _{\rm{1}}}{z _{\rm{2}}} = \frac{ a _{\rm{1}} +  b _{\rm{1}} \cdot
     i}{ a _{\rm{2}} +  b _{\rm{2}} \cdot i} = \frac{(a _{\rm{1}} +  b _{\rm{1}}
     \cdot i) \cdot ( a _{\rm{2}} -  b _{\rm{2}} \cdot i)}{(a _{\rm{2}} +  b
@@ -103,7 +103,7 @@ Die Rechenregeln für reelle Zahlen lassen sich weitgehend auf komplexe Zahlen
     _{\rm{1}} \cdot  a _{\rm{2}} + b _{\rm{1}} \cdot  b _{\rm{2}}) + ( b
     _{\rm{1}} \cdot  a _{\rm{2}} -  a _{\rm{1}} \cdot  b _{\rm{2}} ) \cdot i}{ a
     _{\rm{2}}\,\!^2 +  b _{\rm{2}}\,\!^2}
-      
+
 .. rubric:: Gaußsche Zahlenebene und Polarform
 
 Komplexe Zahlen lassen sich zwar nicht auf einer Zahlengeraden, dafür aber als
@@ -120,9 +120,9 @@ Zahlenachse aufgespannt wird.
 
     Darstellung der komplexen Zahl :math:`z = 4 + 3 \cdot i` anhand der
     Gauss'schen Zahlenebene.
-            
+
     .. only:: html
-    
+
         :download:`SVG: Gauss'sche Zahlenebene
         <../pics/arithmetik/gausssche-zahlenebene.svg>`
 
@@ -134,7 +134,7 @@ Zahl:
 
 .. math::
     :label: eqn-komplexe-zahl-betrag
-    
+
     | z | = \sqrt{z \cdot z ^{*}} = \sqrt{a^2 + b^2}
 
 Hierbei wird wiederum genutzt, dass das Produkt einer komplexen Zahl :math:`z =
@@ -149,26 +149,26 @@ trigonomischen Größen :math:`\sin{}` und :math:`\cos{}` formuliert werden. Es
 gilt:
 
 .. math::
-    
+
     a = | z | \cdot \cos{\varphi} \\
     b = | z | \cdot \sin{\varphi} \\
 
 Jede komplexe Zahl kann somit neben der Koordinatenform auch in einer so
 genannten "Polarform", d.h. über die Angabe ihres Betrags :math:`|z|` und
-Winkels :math:`\varphi`, in folgender Weise angegeben werden: 
+Winkels :math:`\varphi`, in folgender Weise angegeben werden:
 
 .. math::
-    
+
     z = a + b \cdot i = |z| \cdot \cos{\varphi} + |z| \cdot \sin{\varphi} \cdot
-    i 
+    i
 
 bzw.
 
 .. math::
-    
+
     z = |z| \cdot (\cos{\varphi} + i \cdot \sin{\varphi})
 
-..  Eulersche Form: 
+..  Eulersche Form:
     e ^{i \cdot \varphi} = \cos{\varphi} + i \cdot \sin{\varphi}
     e ^{-i \cdot \varphi} = \cos{\varphi} - i \cdot \sin{\varphi}
 
@@ -180,7 +180,7 @@ bzw.
 .. raw:: html
 
     <hr />
-    
+
 .. only:: html
 
     .. rubric:: Anmerkungen:
@@ -189,14 +189,14 @@ bzw.
     folgendermaßen zustande:
 
     .. math::
-        
+
         z _{\rm{1}} \cdot z _{\rm{2}} &= ( a _{\rm{1}} +  b _{\rm{1}} \cdot i)
         \cdot ( a _{\rm{2}} +  b _{\rm{2}} \cdot i) \\ &=  a _{\rm{1}} \cdot  a
         _{\rm{2}} +  a _{\rm{1}} \cdot  b _{\rm{2}} \cdot i +  b _{\rm{1}} \cdot
         a _{\rm{2}} \cdot i +  b _{\rm{1}} \cdot  b _{\rm{2}} \cdot i^2 \\  &= (
         a _{\rm{1}} \cdot  a _{\rm{2}} - b _{\rm{1}} \cdot  b _{\rm{2}}) + ( a
         _{\rm{1}} \cdot  b _{\rm{2}} +  b _{\rm{1}} \cdot  a _{\rm{2}} ) \cdot i
- 
+
     In der letzten Zeile wurde die Beziehung :math:`i^2= -1` genutzt.
     Zusätzlich wurden die bei der Multiplikation entstandenen realen und
     imaginären Anteile sortiert und durch Klammern zusammen gefasst.
@@ -206,18 +206,18 @@ bzw.
     (reelle) Zahl :math:`a^2 + b^2`:
 
     .. math::
-        
+
         (a + b \cdot i) \cdot (a - b \cdot i) = a^2 + a \cdot b \cdot i - b
         \cdot a \cdot i - b^2 \cdot i^2 = a^2 + b^2
 
     Hierbei wurde wiederum die Beziehung :math:`i^2= -1` genutzt.
-    
+
 .. [#KK] Mit Hilfe der Divisionsformel :eq:`eqn-division-komplexer-zahlen` kann
     beispielsweise auch der Kehrbruch einer komplexen Zahl bestimmt werden. Es
     gilt:
 
     .. math::
-    
+
         \frac{1}{z} = \frac{1}{a + b \cdot i} = \frac{1 \cdot (a - b \cdot
         i)}{(a + b \cdot i) \cdot (a - b \cdot i)} = \frac{a - b \cdot i}{a^2 +
         b^2}

@@ -12,11 +12,11 @@ Natürliche Zahlen
 
 Die Zahlen :math:`0 ,\, 1 ,\,  2 ,\,  3 ,\,  4 ,\,  5 ,\,  \ldots`, die zum
 Abzählen von Dingen verwendet werden, bezeichnet man als Menge der natürlichen
-Zahlen :math:`\mathbb{N}`: 
+Zahlen :math:`\mathbb{N}`:
 
 .. math::
     :label: eqn-natürliche-zahlen
-    
+
     \mathbb{N} = \lbrace 0 ,\; 1,\; 2,\; 3,\; \ldots \rbrace
 
 Die Menge der natürlichen Zahlen ohne die Zahl :math:`0` wird mit dem Symbol
@@ -31,8 +31,8 @@ Mit Hilfe der natürlichen Zahlen kann man abzählen wie viele Elemente in einer
 Menge von Dingen enthalten sind, beispielsweise wie viele Äpfel sich in einer
 Kiste befinden. [#]_ Somit ist es auch möglich, die Anzahl an Elementen zweier
 verschiedener Mengen zu vergleichen, beispielsweise zu prüfen, ob sich in zwei
-Kisten jeweils gleich viele Äpfel befinden, oder in welcher Kiste mehr
-mehr Äpfel enthalten sind.
+Kisten jeweils gleich viele Äpfel befinden, oder in welcher Kiste mehr Äpfel
+enthalten sind.
 
 .. figure:: ../pics/arithmetik/zahlenstrahl-natuerliche-zahlen.png
     :width: 35%
@@ -43,14 +43,14 @@ mehr Äpfel enthalten sind.
     Der Zahlenstrahl der natürlichen Zahlen.
 
     .. only:: html
-    
+
         :download:`SVG: Zahlenstrahl (natürliche Zahlen)
         <../pics/arithmetik/zahlenstrahl-natuerliche-zahlen.svg>`
-        
+
 Die Kisten können somit geordnet, d.h. anhand der Anzahl der darin enthaltenen
-Äpfel sortiert werden. Als graphische Darstellungform wird hierfür häufig ein
+Äpfel sortiert werden. Als graphische Darstellungsform wird hierfür häufig ein
 "Zahlenstrahl" gewählt, wobei die Zahlen ihrer Größe nach aufsteigend von
-links nach hlchts angeordnet werden. 
+links nach rechts angeordnet werden.
 
 
 .. _Rechnen mit natürlichen Zahlen:
@@ -70,10 +70,10 @@ Ergebnis einer Addition wird Summe genannt.
     Beispiel einer einfachen Addition.
 
     .. only:: html
-    
+
         :download:`SVG: Addition
         <../pics/arithmetik/addition.svg>`
-        
+
 Ebenso kann eine Menge an Dingen durch Herausnehmen einzelner Elemente
 verkleinert werden, mit der Bedingung, dass nicht mehr Elemente aus der Menge
 herausgenommen werden können als in ihr enthalten sind. Rechnerisch entspricht
@@ -90,11 +90,11 @@ Ergebnis einer Subtraktion wird Differenz genannt.
     Beispiel einer einfachen Subtraktion.
 
     .. only:: html
-    
+
         :download:`SVG: Subtraktion
         <../pics/arithmetik/subtraktion.svg>`
 
-Auch eine Multiplikation zwei natürlicher Zahlen ist stets möglich; sie
+Auch eine Multiplikation zweier natürlicher Zahlen ist stets möglich; sie
 entspricht rechnerisch einer mehrfachen Ausführung einer Addition. Das Ergebnis,
 Produkt genannt, ist erneut durch eine natürliche Zahl darstellbar, deren Größe
 dem jeweiligen Vielfachen der ursprünglichen Zahl entspricht.
@@ -108,15 +108,16 @@ dem jeweiligen Vielfachen der ursprünglichen Zahl entspricht.
     Beispiel einer einfachen Multiplikation.
 
     .. only:: html
-    
+
         :download:`SVG: Multiplikation
         <../pics/arithmetik/multiplikation.svg>`
 
 
 Eine Division zweier natürlicher Zahlen, d.h. ein Aufteilen einer Menge von
-Dingen nur auf mehrere Posten dann, wenn die Anzahl der Elemente in der Menge
-einem Vielfachen der Anzahl an Posten entspricht -- ansonsten bleibt ein Rest
-übrig, der sich als Ganzes nicht weiter aufteilen lässt.
+Dingen nur auf mehrere Posten, ergibt ein ganzzahliges Ergebnis genau dann, wenn
+die Anzahl der Elemente in der Menge einem Vielfachen der Anzahl an Posten
+entspricht -- ansonsten bleibt ein Rest übrig, der sich als Ganzes nicht weiter
+aufteilen lässt.
 
 
 .. index:: Zahlenbereiche; Ganze Zahlen
@@ -149,7 +150,7 @@ Wertes ausdrückt. Zur Darstellung des Falles, dass kein Element vorhanden ist
 
 Die ganzen Zahlen lassen sich somit in gleicher Weise wie die natürlichen Zahlen
 als Zahlenstrahl darstellen. Dabei werden wiederum die einzelnen Zahlen ihrer
-Größe nach aufhleigend von links nach rechts geordnet. 
+Größe nach aufsteigend von links nach rechts geordnet.
 
 .. figure:: ../pics/arithmetik/zahlenstrahl-ganze-zahlen.png
     :width: 55%
@@ -160,10 +161,10 @@ Größe nach aufhleigend von links nach rechts geordnet.
     Der Zahlenstrahl der ganzen Zahlen.
 
     .. only:: html
-    
+
         :download:`SVG: Zahlenstrahl (ganze Zahlen)
         <../pics/arithmetik/zahlenstrahl-ganze-zahlen.svg>`
-        
+
 Während bei negativen Zahlen das Minus-Zeichen stets dazu geschrieben werden
 muss, kann bei positiven Zahlen das Plus-Zeichen weggelassen werden.
 
@@ -185,10 +186,10 @@ jede Subtraktion uneingeschränkt ausgeführt werden.
     Beispiel einer Subtraktion am Zahlenstrahl.
 
     .. only:: html
-    
+
         :download:`SVG: Subtraktion am Zahlenstrahl
         <../pics/arithmetik/zahlenstrahl-ganze-zahlen-subtraktion.svg>`
-        
+
 Eine veranschaulichende Darstellung von negativen Zahlen ist nicht unmittelbar
 möglich, da die Anzahl an Elementen einer Menge stets größer oder gleich Null
 ist -- vielmehr lassen sich negative Zahlen als Mengenanzahlen auffassen, die
@@ -204,7 +205,7 @@ Haufen Erde ein entsprechend großes Erdloch ausfüllen kann.
     Bildliche Darstellung einer Subtraktion ganzer Zahlen.
 
     .. only:: html
-    
+
         :download:`SVG: Subtraktion (Beispiel)
         <../pics/arithmetik/subtraktion-beispiel.svg>`
 
@@ -214,12 +215,12 @@ Zahl (der Dividend) ein ganzzahliges Vielfaches der zweiten Zahl (des Divisors)
 ist -- ansonsten bleibt bei der Division ein nicht weiter teilbarer Rest übrig.
 
 
-.. index:: 
+.. index::
     single: Zahlenbereiche; Rationale Zahlen
     single: Rationale Zahlen
     single: Bruchzahlen
 .. _Rationale Zahlen:
-    
+
 Rationale Zahlen
 ----------------
 
@@ -239,8 +240,8 @@ Zahlen hinzu, die sich als Bruch zweier ganzer Zahlen :math:`m` und
 
 .. math::
     :label: eqn-rationale-zahlen
-    
-    \mathbb{Q} = \lbrace \frac{z}{n} \; | \; z,n \in \mathbb{Z} \text{ und } n \ne 0 \rbrace 
+
+    \mathbb{Q} = \lbrace \frac{z}{n} \; | \; z,n \in \mathbb{Z} \text{ und } n \ne 0 \rbrace
 
 Die Zahl :math:`z` oberhalb des Bruchstrichs wird Zähler genannt, die Zahl
 :math:`n` unterhalb des Bruchstrichs als Nenner des Bruchs bezeichnet. Die
@@ -249,7 +250,7 @@ einzige Bedingung liegt darin, dass nicht durch Null geteilt werden darf, d.h.
 
 Auch die rationalen Zahlen lassen sich ihrer Größe nach als Zahlengerade
 anordnen; die ganzen Zahlen sind dabei als Teil der rationalen Zahlen an den
-entsprechenden Stellen eingebettet. [#Q1]_ 
+entsprechenden Stellen eingebettet. [#Q1]_
 
 .. figure:: ../pics/arithmetik/zahlenstrahl-rationale-zahlen.png
     :width: 55%
@@ -257,10 +258,10 @@ entsprechenden Stellen eingebettet. [#Q1]_
     :name: fig-zahlenstrahl-rationale-zahlen
     :alt:  fig-zahlenstrahl-rationale-zahlen
 
-    Die Zahlenstrahl der rationalen Zahlen.
+    Der Zahlenstrahl der rationalen Zahlen.
 
     .. only:: html
-    
+
         :download:`SVG: Zahlenstrahl (rationale Zahlen)
         <../pics/arithmetik/zahlenstrahl-rationale-zahlen.svg>`
 
@@ -268,14 +269,14 @@ entsprechenden Stellen eingebettet. [#Q1]_
 
 Die rationalen Zahlen liegen "dicht" beieinander, d.h. in den "Lücken" zwischen
 je zwei ganzen Zahlen treten jeweils unendlich viele als rationale Zahlen
-darstellbare Werte auf. 
+darstellbare Werte auf.
 Anschaulich kann man sich dies dadurch erklären, dass beispielsweise jeder
 natürlichen Zahl :math:`n` ein Kehrwert :math:`\frac{1}{n}` zugeordnet werden
 kann, für den gilt:
 
 .. math::
-    
-   \frac{1}{n} \le 1  \quad \text{ für alle } \quad n \in \mathbb{Z} 
+
+   \frac{1}{n} \le 1  \quad \text{ für alle } \quad n \in \mathbb{Z}
 
 Betragsmäßig gilt das gleiche auch für Kehrwerte von negativen Zahlen; hierbei
 muss lediglich das Vorzeichen beachtet werden. [#Q2]_
@@ -287,14 +288,14 @@ muss lediglich das Vorzeichen beachtet werden. [#Q2]_
     :name: fig-tortendiagramm-stammbrüche
     :alt:  fig-tortendiagramm-stammbrüche
 
-    Darstellung von Stammbrüchen :math:`(1/n ,\, n \in \mathbb{N})` anhand 
+    Darstellung von Stammbrüchen :math:`(1/n ,\, n \in \mathbb{N})` anhand
     eines Tortendiagramms.
 
     .. only:: html
-    
+
         :download:`SVG: Tortendiagramm (Stammbrüche)
         <../pics/arithmetik/tortendiagramm-stammbrueche.svg>`
-        
+
 
 .. _Erweitern und Vereinfachen von Bruchzahlen:
 
@@ -304,9 +305,9 @@ Eine Besonderheit rationaler Zahlen ist es, dass sich ein und die selbe Zahl
 :math:`q` durch mehrere gleichwertige Brüche darstellen lässt. Es gilt:
 
 .. math::
-    
+
     \frac{z _{\rm{1}} }{n _{\rm{1}} } = \frac{z _{\rm{2}} }{n _{\rm{2}} } \quad \text{
-    falls } \quad n _{\rm{1}} \cdot z _{\rm{2}} = n _{\rm{2}} \cdot z _{\rm{1}} 
+    falls } \quad n _{\rm{1}} \cdot z _{\rm{2}} = n _{\rm{2}} \cdot z _{\rm{1}}
 
 Allgemein kann jede Bruchzahl :math:`q = \frac{z}{n}` in eine andere, gleich
 große Bruchzahl umgeformt werden, indem man sowohl den Zähler :math:`z` als
@@ -328,49 +329,49 @@ bzw. eines Bruches bezeichnet.
 
     Kürzen und Erweitern :math:`(\frac{1}{4} = \frac{2}{8})` am Beispiel eines
     Tortendiagramms.
-    
+
     .. only:: html
-    
+
         :download:`SVG: Tortendiagramm -- Kürzen und Erweitern
         <../pics/arithmetik/tortendiagramm-kuerzen-erweitern.svg>`
-        
+
 * | Die wohl am häufigsten genutzte Umrechnung bezieht sich auf die Umrechnung
     einer Bruchzahl :math:`q < 1` in eine wertgleiche Angabe mit dem Nenner
-    :math:`100` ("Einhundertstel" bzw. "Prozent" genannt). 
+    :math:`100` ("Einhundertstel" bzw. "Prozent" genannt).
   | Ist z.B. :math:`q = \frac{1}{4}`, so können Zähler und Nenner um den Faktor
     :math:`25` erweitert werden, und man erhält:
 
   .. math::
-      
-      \frac{1}{4} = \frac{1 \cdot 25}{4 \cdot 25} = \frac{25}{100} 
-  
+
+      \frac{1}{4} = \frac{1 \cdot 25}{4 \cdot 25} = \frac{25}{100}
+
   Somit entspricht der Bruch :math:`\frac{1}{4}` der Dezimalzahl :math:`0,25`
   bzw. der Prozentangabe :math:`25\%`.
 
 Im umgekehrten Fall kann eine Bruchzahl, deren Zähler und Nenner (mindestens)
 einen gemeinsamen Faktor besitzen, zu einer wertgleichen rationalen Zahl
 vereinfacht werden, indem der gemeinsame Faktor gekürzt wird (bzw. die
-gemeinsamen Faktoren gekürzt werden). 
+gemeinsamen Faktoren gekürzt werden).
 
 *Beispiel:*
-    
+
 * Bei der Bruchzahl :math:`\frac{15}{20}` enthalten sowohl der Zähler als auch
   der Nenner den gemeinsamen Faktor :math:`5`. Dieser kann "gekürzt" werden:
 
   .. math::
-      
-      \frac{15}{20} = \frac{3 \cdot 5}{4 \cdot 5} = \frac{3}{4} 
-  
-* Bei der Bruchzahl :math:`\frac{30}{60}` lässt sich der Zähler als Produkt der 
+
+      \frac{15}{20} = \frac{3 \cdot 5}{4 \cdot 5} = \frac{3}{4}
+
+* Bei der Bruchzahl :math:`\frac{30}{60}` lässt sich der Zähler als Produkt der
   Faktoren :math:`2 \cdot 3 \cdot 5`, der Nenner als :math:`2 \cdot 2 \cdot 3
   \cdot 5` darstellen. Es können somit die Faktoren :math:`2 ,\, 3 \text{ und }
   5` (bzw. der Faktor :math:`2 \cdot 3 \cdot 5 = 30`) gekürzt werden:
 
   .. math::
-      
+
       \frac{30}{60} = \frac{2 \cdot 3 \cdot 5}{2 \cdot 2 \cdot 3 \cdot 5} =
-      \frac{1}{2} 
-  
+      \frac{1}{2}
+
   Derartige Umrechnungen werden beispielsweise bei Zeitangaben genutzt (eine
   "halbe" Stunde usw).
 
@@ -387,42 +388,42 @@ Fälle auftreten:
 
 .. Anmerkung Modulo?
 
-* Manche Bruchzahlen lassen sich als Dezimalzahl mit endlich viele
+* Manche Bruchzahlen lassen sich als Dezimalzahl mit endlich vielen
   Nachkomma-Stellen darstellen.
 
   *Beispiel:*
-      
+
   .. math::
-      
+
     \frac{1}{16} = 0,0625
-  
+
 * Manche Bruchzahlen entsprechen einer Dezimalzahl mit einer endlichen Periode.
   Bei derartigen Zahlen wiederholen sich ab einer bestimmten Stelle eine oder
   mehrere Nachkomma-Stellen unendlich oft.
 
   *Beispiele:*
-      
+
   .. math::
-      
+
     \frac{1}{3} = 0,3\bar{3} = 0,3333 \ldots \\[8pt]
-    
-    \frac{1}{7} = 0,\overline{142\,857} = 0,142\,857\,142\,857 \ldots 
-  
+
+    \frac{1}{7} = 0,\overline{142\,857} = 0,142\,857\,142\,857 \ldots
+
 Bei der Rechnung mit Dezimalzahlen kann stets nur eine endliche Zahl an
 Nachkomma-Stellen berücksichtigt werden; rationale Zahlen werden daher
 entsprechend einer gewünschten Genauigkeit gerundet. Diese Genauigkeit wird
 durch die Angabe einer bestimmten Anzahl an "zählenden" Ziffern, d.h. Ziffern
 außer am Anfang oder am Ende stehenden Nullen, festgelegt.
-  
+
 *Beispiele:*
-    
+
 .. math::
-    
+
    \underbracket[0.5pt][5.pt]{78\,255\,300,00}_{10\text{ zählende Ziffern}}
    \\[10pt]
 
    0,000\,\!\!\!\!\!\!\!\!\underbracket[0.5pt][5.pt]{420\,800}_{6\text{
-   zählende Ziffern}} 
+   zählende Ziffern}}
 
 Übermäßig viele zählende Ziffern täuschen bei Ergebnissen von Messungen oder
 Schätzungen eine nicht gerechtfertigte Genauigkeit vor. Um dies zu vermeiden,
@@ -431,8 +432,8 @@ zunächst die überflüssigen Ziffern durch Nullen ersetzt. Anschließend wird d
 letzte nicht überflüssige Ziffer entweder um eins erhöht ("Aufrunden", falls die
 erste überflüssige Ziffer :math:`\ge 5` ist) oder unverändert gelassen
 ("Abrunden").
-      
-Bei physikalischen Größen wird anhand der Anzahl der zählenden Ziffern die
+
+Bei physikalischen Größen wird anhand der Anzahl der zählenden Ziffern
 implizit auch die Messgenauigkeit angegeben. Beispielsweise weist eine
 Längenangabe von :math:`\unit[2,170]{m}` auf eine Messgenauigkeit im
 Millimeter-Bereich hin, während eine Angabe von :math:`\unit[2,17]{m}` nur eine
@@ -440,7 +441,7 @@ Messgenauigkeit im Zentimeter-Bereich bedeutet. [#]_
 
 Um zu große Rundungsfehler zu vermeiden, sollte allerdings bei jeder Rechnung
 auf ein frühzeitiges Runden verzichtet und das Runden stattdessen erst am Ende
-(im Ergebnis) durchgeführt werden. 
+(im Ergebnis) durchgeführt werden.
 
 
 .. _Rechnen mit rationalen Zahlen:
@@ -449,23 +450,23 @@ auf ein frühzeitiges Runden verzichtet und das Runden stattdessen erst am Ende
 
 Durch die Verwendung rationaler Zahlen lassen sich alle vier
 Grundrechen-Operationen -- abgesehen von der Division durch Null --
-uneingeschränkt ausführen und beliebig miteinander kombinieren: 
+uneingeschränkt ausführen und beliebig miteinander kombinieren:
 
 * Die Addition zweier rationaler Zahlen :math:`q _{\rm{1}}` und :math:`q
   _{\rm{2}}` ist definiert als:
 
   .. math::
-      
+
       q _{\rm{1}} + q _{\rm{2}} = \frac{z _{\rm{1}} }{n _{\rm{1}} } + \frac{z
       _{\rm{2}} }{n _{\rm{2}} } = \frac{z _{\rm{1}} \cdot n _{\rm{2}} }{n
       _{\rm{1}}  \cdot n _{\rm{2}} } + \frac{z _{\rm{2}} \cdot n _{\rm{1}} }{n
       _{\rm{2}} \cdot n _{\rm{1}} } = \frac{z _{\rm{1}} \cdot n _{\rm{2}} + z
-      _{\rm{2}} \cdot n _{\rm{1}} }{n _{\rm{1}} \cdot n _{\rm{2}} } 
-  
+      _{\rm{2}} \cdot n _{\rm{1}} }{n _{\rm{1}} \cdot n _{\rm{2}} }
+
   Um zwei rationale Zahlen :math:`q _{\rm{1}}` und :math:`q _{\rm{2}}` zu
   addieren, müssen sie zunächst auf einen gemeinsamen Nenner :math:`n _{\rm{1}}
   \cdot n _{\rm{2}}` gebracht werden. Beide Zahlen werden hierzu jeweils mit dem
-  Nenner der anderen Zahl erweitert; anschließend werden die (erweiterteten)
+  Nenner der anderen Zahl erweitert; anschließend werden die (erweiterten)
   Zähler :math:`z _{\rm{1}} \cdot n _{\rm{2}}`  und :math:`z _{\rm{2}} \cdot n
   _{\rm{1}}` miteinander addiert und auf den gemeinsamen Nenner geschrieben.
 
@@ -474,28 +475,28 @@ uneingeschränkt ausführen und beliebig miteinander kombinieren:
   Minus-Zeichen zu ersetzen:
 
   .. math::
-    
+
         q _{\rm{1}} - q _{\rm{2}} = \frac{z _{\rm{1}} }{n _{\rm{1}} } - \frac{z
         _{\rm{2}} }{n _{\rm{2}} } = \frac{z _{\rm{1}} \cdot n _{\rm{2}} }{n
         _{\rm{1}}  \cdot n _{\rm{2}} } - \frac{z _{\rm{2}} \cdot n _{\rm{1}} }{n
         _{\rm{2}} \cdot n _{\rm{1}} } = \frac{z _{\rm{1}} \cdot n _{\rm{2}} - z
-        _{\rm{2}} \cdot n _{\rm{1}} }{n _{\rm{1}} \cdot n _{\rm{2}} } 
+        _{\rm{2}} \cdot n _{\rm{1}} }{n _{\rm{1}} \cdot n _{\rm{2}} }
 
 
 * Die Multiplikation zweier rationaler Zahlen :math:`q _{\rm{1}}` und :math:`q
   _{\rm{2}}` ist definiert als:
 
   .. math::
-      
+
       q _{\rm{1}} \cdot q _{\rm{2}} = \frac{z _{\rm{1}} }{n _{\rm{1}} } \cdot
       \frac{z _{\rm{2}} }{n _{\rm{2}} } = \frac{z _{\rm{1}} \cdot z _{\rm{2}}
-      }{n _{\rm{1}} \cdot n _{\rm{2}} } 
- 
+      }{n _{\rm{1}} \cdot n _{\rm{2}} }
+
   Um zwei rationale Zahlen :math:`q _{\rm{1}}` und :math:`q _{\rm{2}}`
   miteinander zu multiplizieren, werden beide Zähler :math:`z _{\rm{1}}` und
   :math:`z _{\rm{2}}`  miteinander multipliziert und das Ergebnis :math:`z
   _{\rm{1}} \cdot z _{\rm{2}}` auf den gemeinsamen Nenner :math:`n _{\rm{1}}
-  \cdot n _{\rm{2}}` geschrieben. 
+  \cdot n _{\rm{2}}` geschrieben.
 
 * Die Division zweier rationaler Zahlen :math:`q _{\rm{1}} = \frac{z _{\rm{1}}
   }{n _{\rm{1}} }` und :math:`q _{\rm{2}} = \frac{z _{\rm{2}} }{n _{\rm{2}} }`
@@ -505,17 +506,17 @@ uneingeschränkt ausführen und beliebig miteinander kombinieren:
   zweiten Zahl vertauscht werden:
 
   .. math::
-      
+
       \frac{q _{\rm{1}} }{q _{\rm{2}} } = \frac{z _{\rm{1}} }{n _{\rm{1}} } :
-      \frac{z _{\rm{2}} }{n _{\rm{2}} } = \frac{z _{\rm{1}} }{n _{\rm{1}} } \cdot 
+      \frac{z _{\rm{2}} }{n _{\rm{2}} } = \frac{z _{\rm{1}} }{n _{\rm{1}} } \cdot
       \frac{n _{\rm{2}} }{z _{\rm{2}} } = \frac{z _{\rm{1}} \cdot n _{\rm{2}}
-      }{n _{\rm{1}} \cdot z _{\rm{2}} } 
-  
+      }{n _{\rm{1}} \cdot z _{\rm{2}} }
+
 Weitere Hinweise zum Rechnen mit rationalen Zahlen sind im Abschnitt
 :ref:`Bruchrechnung <Bruchrechnung>` beschrieben.
 
 
-.. index:: 
+.. index::
     single: Zahlenbereiche; Reelle Zahlen
     single: Reelle Zahlen
 .. _Reelle Zahlen:
@@ -540,9 +541,9 @@ Zahlen erweitern.
 
     Anschauliche Beispiele für :math:`\sqrt{2}` und :math:`\pi` als irrationale
     Zahlen.
-        
+
     .. only:: html
-    
+
         :download:`SVG: Irrationale Zahlen (Beispiele)
         <../pics/arithmetik/irrationale-zahlen-beispiele.svg>`
 
@@ -550,9 +551,9 @@ Die neu hinzukommenden Zahlen, beispielsweise :math:`\sqrt{2} ,\, \pi` oder
 :math:`\sin{20 °}`, werden dabei als "irrationale" Zahlen bezeichnet. Sie lassen
 sich zwar ihrem Wert nach in den Zahlenstrahl einordnen, lassen sich jedoch
 durch keine rationale Zahl ausdrücken und besitzen in der Darstellung als
-Dezimalzahl unendlich viele, nicht periodische Nachkommastellen. 
+Dezimalzahl unendlich viele, nicht periodische Nachkommastellen.
 
-.. index:: 
+.. index::
     single: Reelle Zahlen; Kreiszahl Pi
 
 Für zwei besonders wichtige reelle Zahlen werden spezielle Symbole benutzt:
@@ -562,12 +563,12 @@ Für zwei besonders wichtige reelle Zahlen werden spezielle Symbole benutzt:
   :math:`u` eines Kreises an:
 
   .. math::
-      
+
       u = \pi \cdot d
-  
+
 .. index:: Reelle Zahlen; Eulersche Zahl e
 
-* Die Zahle :math:`e = 2,718281828459\ldots` wird als "Eulersche Zahl"
+* Die Zahl :math:`e = 2,718281828459\ldots` wird als "Eulersche Zahl"
   bezeichnet. Sie ist in Verbindung mit :ref:`Exponentialfunktionen
   <Exponentialfunktionen>` und :ref:`Logarithmen <Logarithmusfunktionen>` von
   besonderer Bedeutung.
@@ -587,10 +588,10 @@ reeller Zahlen liefert stets eindeutige Ergebnisse.
   \in \mathbb{N}`:
 
   .. math::
-      
+
       x ^{n} = \underbrace{x \cdot x \cdot \ldots \cdot x \cdot x}_{n
       \text{ Faktoren } }
-  
+
   Eine Potenz :math:`x ^{n}` mit Exponent :math:`n` entspricht somit einer
   :math:`n`-fachen Multiplikation der Grundzahl ("Basis") :math:`x` mit sich
   selbst. Das wohl bekannteste Beispiel hierfür sind die so genannten
@@ -603,32 +604,32 @@ reeller Zahlen liefert stets eindeutige Ergebnisse.
   Für eine beliebige reelle Zahl :math:`a \ge 0` gelte folgende Gleichung:
 
   .. math::
-      
-      a = x ^{n} 
+
+      a = x ^{n}
 
   | Dann ist mit gegebenem :math:`n \in \mathbb{N}` dem Wert nach genau eine
-    reelle Zahl :math:`x` bestimmt, welche die Gleichung löst. 
+    reelle Zahl :math:`x` bestimmt, welche die Gleichung löst.
   | Hierfür schreibt man: [#WUR]_
 
   .. math::
-      
-      x = \sqrt[n]{a} 
+
+      x = \sqrt[n]{a}
 
   Unter der :math:`n`-ten Wurzel aus einer nicht-negativen Zahl :math:`a`
   versteht man somit diejenige Zahl :math:`x`, deren :math:`n`-te Potenz gleich
-  :math:`a` ist. 
+  :math:`a` ist.
 
   Wohl am häufigsten treten die so genannten "Quadrat-Wurzeln" einer Zahl
   :math:`a` auf. Hierbei wird diejenige Zahl :math:`x` gesucht, die, mit sich
   selbst multipliziert, die Gleichung :math:`x^2 = a` löst. Beim Ergebnis
   :math:`x = \sqrt[2]{a} = \sqrt{a}` kann der "Wurzelexponent" :math:`n=2`
   weggelassen werden.
-  
+
 Berechnet man Quadrat-, Kubik- und allgemeinen Wurzeln mit Hilfe eines
 Taschenrechners oder Computers, so werden die häufig irrationalen Ergebnisse in
 gleicher Weise wie beim :ref:`Runden von Bruchzahlen <Runden von Bruchzahlen>`
 entsprechend der möglichen Anzeige-Genauigkeit gerundet.
-  
+
 
 .. _Komplexe Zahlen:
 
@@ -639,12 +640,12 @@ Komplexe Zahlen stellen eine Erweiterung des Zahlenbereichs der reellen Zahlen
 dar. Grundlegend hierfür waren Überlegungen von `Gerolamo Cardano
 <https://de.wikipedia.org/wiki/Gerolamo_Cardano>`_ und `Rafael Bombelli
 <https://de.wikipedia.org/wiki/Rafael_Bombelli>`_, auf welche Weise sich Wurzeln
-negativer Zahlen definieren ließen. 
+negativer Zahlen definieren ließen.
 
 Der so geschaffene Zahlenbereich :math:`\mathbb{C}` der komplexen Zahlen hat
 sich für vielerlei Anwendungen in den Natur- und Ingenieurwissenschaften als
 äußerst nützlich erwiesen. Eine komplexe Zahl lässt sich allerdings nicht mehr
-durch eine einzelne Zahlen darstellen, sondern bildet vielmehr ein geordnetes
+durch eine einzelne Zahl darstellen, sondern bildet vielmehr ein geordnetes
 Paar :math:`(a,b)` eines zweidimensionalen Vektorraums.
 
 Da komplexe Zahlen in den derzeitigen Lehrplänen keine Beachtung finden, wird an
@@ -655,7 +656,7 @@ Zahlen <Exkurs Komplexe Zahlen>` verwiesen.
 .. raw:: html
 
     <hr />
-    
+
 .. only:: html
 
     .. rubric:: Anmerkungen:
@@ -665,7 +666,7 @@ Zahlen <Exkurs Komplexe Zahlen>` verwiesen.
 
 .. [#]  Die Subtraktion stellt somit die "Umkehrung" der Addition dar.
 
-.. [#N] Eine Division durch :math:`n=0` ist grundsätzlich unmöglich: 
+.. [#N] Eine Division durch :math:`n=0` ist grundsätzlich unmöglich:
 
     * Gäbe es eine rationale Zahl :math:`q = \frac{z}{n}` mit :math:`n = 0` und
       :math:`z \ne 0`, so müsste ebenfalls :math:`q \cdot n  = q \cdot 0 = z`
@@ -678,28 +679,28 @@ Zahlen <Exkurs Komplexe Zahlen>` verwiesen.
 
 .. [#Q1] Die ganzen Zahlen können als so genannte "Scheinbrüche" aufgefasst
     werden, d.h. Brüche, deren Nenner :math:`n` gleich eins ist; für jede ganze
-    Zahl :math:`z` gilt somit: 
+    Zahl :math:`z` gilt somit:
 
     .. math::
-        
-        z = \frac{z}{1}  
 
-    Ein Scheinbruch liegt ebenfalls vor, wenn der Zähler :math:`z` ein ein
+        z = \frac{z}{1}
+
+    Ein Scheinbruch liegt ebenfalls vor, wenn der Zähler :math:`z` ein
     ganzzahliges Vielfaches :math:`n \cdot z` des Nenners :math:`n` ist:
 
     .. math::
-        
-        z = \frac{n \cdot z}{n} 
+
+        z = \frac{n \cdot z}{n}
 
 .. [#Q2] Das Minus-Zeichen einer negativen rationalen Zahl wird für gewöhnlich
     vor den Bruchstrich geschrieben. Es ist allerdings genauso richtig,
     stattdessen entweder den Zähler *oder* den Nenner mit einem Minus-Zeichen zu
-    versehen: 
+    versehen:
 
     .. math::
-        
-        - \frac{z}{n}  = \frac{-z\phantom{-}}{n} = \frac{z}{-n\phantom{-}} 
-    
+
+        - \frac{z}{n}  = \frac{-z\phantom{-}}{n} = \frac{z}{-n\phantom{-}}
+
     Tragen sowohl Zähler als auch Nenner ein Minus-Zeichen, so ist der Wert des
     Bruches positiv.
 
@@ -711,7 +712,7 @@ Zahlen <Exkurs Komplexe Zahlen>` verwiesen.
 .. [#WUR] Genau genommen gilt dies nur, wenn :math:`n` eine ungerade Zahl ist.
     Für Wurzeln mit geradzahligen :math:`n` erfüllt neben :math:`x =
     \sqrt[n]{a}` auch :math:`x = - \sqrt[n]{a}` die Bedingung :math:`a = x^n`.
-    In diesem heben sich beim Potenzieren, d.h. beim mehrfachen Multiplizieren,
+    In diesem Fall heben sich beim Potenzieren, d.h. beim mehrfachen Multiplizieren,
     die negativen Vorzeichen paarweise gegenseitig auf. (Siehe auch
     :ref:`Rechenregeln für Potenzen <Rechenregeln für Potenzen mit gleichen
     Exponenten>`)

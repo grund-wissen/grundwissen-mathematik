@@ -10,7 +10,7 @@ Eigenschaften von Funktionen>` zum Abschnitt :ref:`Eigenschaften von Funktionen
 
 .. _Lösungen zur Stetigkeit:
 
-.. rubric:: Lösungen zur Stetigkeit 
+.. rubric:: Lösungen zur Stetigkeit
 
 ----
 
@@ -22,24 +22,24 @@ Eigenschaften von Funktionen>` zum Abschnitt :ref:`Eigenschaften von Funktionen
   an der Stelle :math:`x_0 = 1`:
 
   .. math::
-      
+
       \lim _{\substack{x \to x_0, \\ x < x_0}} f(x) = \lim _{\substack{x_0 \to 1, \\ x < 1}} \left(1 -
       x^2\right) = 0
 
   Für den rechtsseitigen Grenzwert gilt:
 
   .. math::
-      
+
       \lim _{\substack{x \to x_0, \\ x > x_0}} f(x) = \lim _{\substack{x_0 \to 1, \\ x > 1}} \left(x -
       1\right) = 0
-      
+
   Beide Grenzwerte stimmen überein und sind mit dem Funktionswert
   :math:`f(x_0)` an der Stelle :math:`x_0` identisch. Damit ist die Funktion
   :math:`f(x)` an dieser Stelle stetig.
 
   :ref:`Zurück zur Aufgabe <Stetigkeit-01>`
 
-  
+
 ----
 
 .. _Stetigkeit-02-Lösung:
@@ -47,11 +47,11 @@ Eigenschaften von Funktionen>` zum Abschnitt :ref:`Eigenschaften von Funktionen
 * Die Funktion :math:`f(x) = \frac{1}{x^2}` ist als :ref:`Hyperbelfunktion
   <Hyperbeln>` an jeder Stelle außer :math:`x_0 = 0` stetig. An dieser Stelle
   ist die Funktion nicht definiert, somit kann an dieser Stelle auch keine
-  Aussage über ihre Stetigkeit getroffen werden. 
-  
+  Aussage über ihre Stetigkeit getroffen werden.
+
   Die Funktion :math:`f(x)` ist also an jeder Stelle ihres Definitionsbereichs
   und somit global stetig.
-  
+
   :ref:`Zurück zur Aufgabe <Stetigkeit-02>`
 
 
@@ -62,7 +62,7 @@ Eigenschaften von Funktionen>` zum Abschnitt :ref:`Eigenschaften von Funktionen
 .. raw:: html
 
     <hr/>
-    
+
 .. only:: html
 
     :ref:`Zurück zum Skript <Eigenschaften von Funktionen>`

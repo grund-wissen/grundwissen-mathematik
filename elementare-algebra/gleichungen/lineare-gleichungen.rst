@@ -1,4 +1,4 @@
-.. index:: Lineare Gleichung 
+.. index:: Lineare Gleichung
 
 .. _Lineare Gleichungen:
 
@@ -12,10 +12,10 @@ werden:
 
 .. math::
     :label: eqn-lineare-gleichung
-    
+
     a \cdot x + b = 0
 
-Hierbei sind :math:`a \ne 0` und :math:`b` beliebige Konstanten. 
+Hierbei sind :math:`a \ne 0` und :math:`b` beliebige Konstanten.
 
 Um eine beliebige lineare Gleichung zu lösen, werden zunächst durch geeignetes
 Addieren bzw. Subtrahieren alle die Variable :math:`x` enthaltenden Terme auf

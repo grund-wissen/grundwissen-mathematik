@@ -4,8 +4,8 @@ Mengenlehre
 ===========
 
 .. toctree::
-    :maxdepth: 2 
-    
+    :maxdepth: 2
+
     mengen.rst
     abbildungen.rst
     strukturen.rst

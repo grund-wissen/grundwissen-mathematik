@@ -20,7 +20,7 @@ Winkel betragen :math:`90 °`. Für das Volumen :math:`V` und die Oberfläche
 :math:`A` eines Quaders gilt:
 
 .. math::
-    
+
     V _{\text{Quader}} &= a \cdot b \cdot c \\
     A _{\text{Quader}} &= 2 \cdot (a \cdot b + a \cdot c + b \cdot c)
 
@@ -31,7 +31,7 @@ Winkel betragen :math:`90 °`. Für das Volumen :math:`V` und die Oberfläche
     :alt:  fig-quader
 
     Grundform eines Quaders.
-    
+
     .. only:: html
 
         :download:`SVG: Quader
@@ -42,7 +42,7 @@ gleich lang, alle Winkel betragen :math:`90 °`. Für das Volumen :math:`V` und
 die Oberfläche :math:`A` eines Würfels gilt:
 
 .. math::
-    
+
     V _{\text{Würfel}} &= a \cdot a \cdot a = a^3 \\
     A _{\text{Würfel}} &= 6 \cdot a^2
 
@@ -53,7 +53,7 @@ die Oberfläche :math:`A` eines Würfels gilt:
     :alt:  fig-würfel
 
     Grundform eines Würfels.
-    
+
     .. only:: html
 
         :download:`SVG: Würfel
@@ -62,12 +62,12 @@ die Oberfläche :math:`A` eines Würfels gilt:
 ..  In einem Würfel als einer Sonderform eines Quaders betragen alle Winkel
     :math:`90 °`, zusätzlich sind alle Seitenlängen :math:`a` gleich lang.
 
-.. rubric:: Prismen 
+.. rubric:: Prismen
 
 Für das Volumen :math:`V` und die Oberfläche :math:`A` eines Prismas gilt:
 
 .. math::
-    
+
     V _{\text{Prisma}} &= A _{\rm{G}} \cdot h \\
     A _{\text{M,Prisma}} &= A _{\rm{S1}} + A _{\rm{S2}} + \ldots + A _{\rm{Sn}} \\
     A _{\text{O,Prisma}} &= 2 \cdot A _{\rm{G}} + A _{\rm{M}}
@@ -80,7 +80,7 @@ Für das Volumen :math:`V` und die Oberfläche :math:`A` eines Prismas gilt:
     :alt:  fig-prisma-formen
 
     Prismen mit drei-, vier-, fünf- und sechseckigen Grundflächen.
-    
+
     .. only:: html
 
         :download:`SVG: Prisma-Formen
@@ -92,7 +92,7 @@ Pyramide und Pyramidenstumpf
 Für das Volumen :math:`V` und die Oberfläche :math:`A` einer Pyramide gilt:
 
 .. math::
-    
+
     V _{\rm{{Pyramide}}} &= \frac{A _{\rm{G}} \cdot h}{3} \\[4pt]
     A _{\rm{{M, Pyramide}}} &= A _{\rm{1}} + A _{\rm{2}} + \ldots + A _{\rm{n}}\\
     A _{\rm{{O, Pyramide}}} &= A _{\rm{G}} + A _{\rm{M}}
@@ -106,7 +106,7 @@ Für das Volumen :math:`V` und die Oberfläche :math:`A` einer Pyramide gilt:
 
     Pyramiden mit einem Dreieck, einem Rechteck oder einem Quadrat als
     Grundflächen.
-    
+
     .. only:: html
 
         :download:`SVG: Pyramide-Formen
@@ -116,7 +116,7 @@ Für das Volumen :math:`V` und die Oberfläche :math:`A` eines Pyramidenstumpfes
 gilt:
 
 .. math::
-    
+
     V _{\rm{{Pyramidenstumpf}}} &= \frac{1}{3} \cdot h \cdot (A _{\rm{G}} +
     \sqrt{A _{\rm{G}} \cdot A _{\rm{D}}} + A _{\rm{D}}) \\[4pt]
     A _{\rm{{M, Pyramidenstumpf}}} &= A _{\rm{1}} + A _{\rm{2}} + \ldots + A
@@ -130,7 +130,7 @@ gilt:
     :alt:  fig-pyramidestumpf
 
     Pyramidenstumpf einer Quadrat-Pyramide.
-    
+
     .. only:: html
 
         :download:`SVG: Pyramidestumpf
@@ -143,7 +143,7 @@ Kugel und Kreiszylinder
 Für das Volumen :math:`V` und die Oberfläche :math:`A` einer Kugel gilt:
 
 .. math::
-    
+
     V _{\rm{{Kugel}}} &= \frac{4}{3} \cdot \pi \cdot r^3 \\[4pt]
     A _{\rm{{O, Kugel}}} &= 4 \cdot \pi \cdot r^2
 
@@ -156,7 +156,7 @@ Für das Volumen :math:`V` und die Oberfläche :math:`A` einer Kugel gilt:
     :alt:  fig-kugel
 
     Grundform einer Kugel.
-    
+
     .. only:: html
 
         :download:`SVG: Kugel
@@ -166,7 +166,7 @@ Für das Volumen :math:`V` und die Oberfläche :math:`A` eines Kreiszylinders
 gilt:
 
 .. math::
-    
+
     V _{\rm{{Kreiszylinder}}} &= p \cdot r^2 \cdot h \\[4pt]
     A _{\rm{{M, Kreiszylinder}}} &= 2 \cdot \pi \cdot r \cdot h \\
     A _{\rm{{O, Kreiszylinder}}} &= 2 \cdot \pi \cdot r^2 + 2 \cdot \pi \cdot h
@@ -178,7 +178,7 @@ gilt:
     :alt:  fig-kreiszylinder
 
     Grundform eines Kreiszylinders.
-    
+
     .. only:: html
 
         :download:`SVG: Kreiszylinder
@@ -192,10 +192,10 @@ Für das Volumen :math:`V` und die Oberfläche :math:`A` eines Kreiskegels gilt
 mit :math:`s =  \sqrt{r ^2 + h^2}`:
 
 .. math::
-    
+
     V _{\rm{{Kreiskegel}}} &= \frac{\pi \cdot r^2 \cdot h}{3}  \\[4pt]
     A _{\rm{{M, Kreiskegel}}} &= \pi \cdot r \cdot s \\
-    A _{\rm{{O, Kreiskegel}}} &= \pi \cdot r^2 + \pi \cdot r \cdot s 
+    A _{\rm{{O, Kreiskegel}}} &= \pi \cdot r^2 + \pi \cdot r \cdot s
 
 .. figure:: ../pics/geometrie/kreiskegel.png
     :width: 70%
@@ -204,7 +204,7 @@ mit :math:`s =  \sqrt{r ^2 + h^2}`:
     :alt:  fig-kreiskegel
 
     Grundform eines Kreiskegels.
-    
+
     .. only:: html
 
         :download:`SVG: Kreiskegel
@@ -215,7 +215,7 @@ Für das Volumen :math:`V` und die Oberfläche :math:`A` eines Kreiskegelstumpfe
 gilt mit :math:`s =  \sqrt{(r _{\rm{1}} - r _{\rm{2}})^2 + h^2}`:
 
 .. math::
-    
+
     V _{\rm{{Kreiskegelstumpf}}} &= \frac{\pi}{3} \cdot h \cdot \left( r
     _{\rm{1}}^2 + r _{\rm{2}}^2 + r _{\rm{1}} \cdot r _{\rm{2}} \right) \\[4pt]
     A _{\rm{{M, Kreiskegelstumpf}}} &= \pi \cdot s \cdot (r _{\rm{1}} + r _{\rm{2}}) \\
@@ -230,7 +230,7 @@ gilt mit :math:`s =  \sqrt{(r _{\rm{1}} - r _{\rm{2}})^2 + h^2}`:
     :alt:  fig-kreiskegelstumpf
 
     Grundform eines Kreiskegelstumpfes.
-    
+
     .. only:: html
 
         :download:`SVG: Kreiskegelstumpf

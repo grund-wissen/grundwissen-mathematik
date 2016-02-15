@@ -15,7 +15,7 @@ R _{\rm{1}} ,\, \ldots ,\, R _{\rm{n}} ;\; \mathrm{Op} _{\rm{1}} ,\, \ldots ,\,
 \mathrm{Op} _{\rm{n}} ]`, das aus einer nichtleeren "Trägermenge"
 :math:`\mathbb{M}` sowie den Relationen :math:`R _{\rm{1}} ,\, \ldots ,\, R
 _{\rm{n}}` und den Operationen :math:`\mathrm{Op} _{\rm{1}} ,\, \ldots ,\, \mathrm{Op} _{\rm{n}}`
-besteht, so spricht man von einem (algebraischen) Bereich. 
+besteht, so spricht man von einem (algebraischen) Bereich.
 
 Trotz des begrifflichen Unterschieds ist es üblich, einen Bereich und seine
 Trägermenge mit dem selben Symbol darzustellen. Die wichtigsten Bereiche bzw.
@@ -27,5 +27,5 @@ Mengen der allgemeinen Mathematik sind:
 * :math:`\mathbb{R}`: Die Menge (bzw. der Bereich) der reellen Zahlen
 * :math:`\mathbb{C}`: Die Menge (bzw. der Bereich) der komplexen Zahlen
 
-.. TODO Handbuch Mathe Physik Chemie S. 53: 
+.. TODO Handbuch Mathe Physik Chemie S. 53:
 

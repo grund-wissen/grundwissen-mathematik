@@ -8,7 +8,7 @@ Experimente, die unter gleichen Bedingungen zu gleichen Ergebnissen führen,
 bezeichnet man als determiniert. Im Rahmen der Wahrscheinlichkeitsrechnung
 werden hingegen meist zufällige Vorgänge betrachtet.
 
-.. index:: 
+.. index::
     single: Zufallsexperiment; einstufig
 
 .. rubric:: Zufallsexperimente
@@ -17,7 +17,7 @@ Als Experiment bezeichnet man allgemein einen Vorgang, der (zumindest
 prinzipiell) beliebig oft wiederholt werden kann. Dabei ist klar festgelegt,
 welche Messgröße beobachtet werden soll, d.h. jedes mögliche Ergebnis kann
 eindeutig festgestellt werden. Eine einzelne Durchführung eines Experiments
-nennt man Versuch.  
+nennt man Versuch.
 
 Ein Experiment, bei dem die Menge aller möglichen Ergebnisse bekannt ist, jedoch
 nicht das bei der Durchführung eines Versuchs tatsächlich eintretende Ergebnis,
@@ -28,7 +28,7 @@ bezeichnet man als Zufallsexperiment.
 * In einer Urne befinden sich 50 gleichartige Kugeln mit den Nummern :math:`1,
   2, \ldots, 50`. Eine Kugel wird blind gezogen und anschließend ihre Nummer
   notiert. Es können dabei 50 mögliche Ergebnisse auftreten, wobei die Nummer
-  der gezogenen Kugel :math:`k` genannt wird. 
+  der gezogenen Kugel :math:`k` genannt wird.
 
 Für die einzelnen Versuchsergebnisse werden üblicherweise Kurzbezeichnungen
 eingeführt, beispielsweise :math:`k` für das Ergebnis "Die gezogene Kugel hat
@@ -37,7 +37,7 @@ genannten Ergebnismenge :math:`\Omega` zusammen. Im obigen Fall gilt
 beispielsweise:
 
 .. math::
-    
+
     \Omega = \{ \; 1 ,\, 2 ,\,  \ldots ,\,  50 \; \}
 
 Die einzelnen, voneinander verschiedenen Ergebnisse eines Zufallsexperiments
@@ -45,11 +45,11 @@ werden allgemein mit :math:`\omega _1 , \omega _2, \ldots` bezeichnet. Allgemein
 besteht eine Ergebnismenge also aus folgenden Elementen:
 
 .. math::
-    
+
     \Omega = \{ \; \omega_1 ,\,  \omega_2 ,\,  \ldots ,\,  \omega _{\rm{n}} \; \}
 
 
-.. index:: 
+.. index::
     single: Zufallsexperiment; mehrstufig
 
 .. rubric:: Mehrstufige Zufallsexperimente
@@ -60,21 +60,34 @@ Hierbei wird das zu Grunde liegende einstufige Zufallsexperiment mehrfach
 ausgeführt.
 
 *Beispiel:*
-    
+
 * Eine Münze wird zweimal geworfen. Bei jedem Wurf kann entweder das Ergebnis
-  "Kopf" :math:`(K)` oder "Zahl" :math:`(Z)` eintreten. Insgesamt sind die
-  möglichen Versuchsergebnisse durch ein Tupel zweier Werte beschreiben. Für die
-  Ergebnismenge gilt in diesem Fall also:
+  "Kopf" :math:`(K)` oder "Zahl" :math:`(Z)` eintreten. Insgesamt lassen sich
+  die möglichen Versuchsergebnisse durch ein Tupel zweier Werte beschreiben. Für
+  die Ergebnismenge gilt in diesem Fall also:
 
   .. math::
-     
+
       \Omega = \{ \; (K,K) ,\,  (K,Z) ,\,  (Z,K) ,\,  (Z,Z) \; \}
-    
+
 Die Ergebnismenge im obigen Beispiel lässt sich auch als :ref:`Produktmenge <Die
 Produktmenge>` :math:`\{K,Z\} \times \{K,Z\}` der Ergebnismengen eines
 einmaligen Werfens einer Münze darstellen. Allgemein lässt sich ein
-:math:`k`-stufiges Zufallsexperiment entsprechend mit Hilfe von geordneten
-Zahlenpaaren der Länge :math:`k` (so genannten ":math:`k`-Tupeln") beschreiben.
+:math:`k`-stufiges Zufallsexperiment mit Hilfe von geordneten Zahlenpaaren der
+Länge :math:`k` (so genannten ":math:`k`-Tupeln") beschreiben.
+
+.. figure:: ../pics/stochastik/baumdiagramm-muenzwurf.png
+    :name: fig-baumdiagramm-muenzwurf
+    :alt:  fig-baumdiagramm-muenzwurf
+    :align: center
+    :width: 60%
+
+    Baumdiagramm eines dreimailigen Münzwurfes.
+
+    .. only:: html
+
+        :download:`SVG: Baumdiagramm (Münzwurf)
+        <../pics/stochastik/baumdiagramm-muenzwurf.svg>`
 
 Eine Ergebnismenge kann durch einen so genannten Ergebnisbaum veranschaulicht
 werden. Jedem Ergebnis entspricht dabei einem Weg durch den Ergebnisbaum.
@@ -88,11 +101,11 @@ werden. Jedem Ergebnis entspricht dabei einem Weg durch den Ergebnisbaum.
 Ereignisse werden formal durch Teilmengen von :math:`\Omega` beschrieben.
 
 *Beispiel:*
-    
+
 * Eine Urne enthält :math:`15` Kugeln, wobei je zwei Kugeln mit den Nummern
   :math:`0,1,2,3,4` und je eine Kugel mit den Nummern :math:`5,6,7,8,9`
   vorkommen. Es wird eine Kugel blind gezogen und ihre Nummer notiert, die
-  Ergebnismenge ist also :math:`\Omega = \{ 0,1,2, \ldots, 9\}`. 
+  Ergebnismenge ist also :math:`\Omega = \{ 0,1,2, \ldots, 9\}`.
 
   Fasst man das Zufallsexperiment als Glücksspiel auf, bei dem man gewinnt,
   wenn eine Nummer :math:`\ge 5` gezogen wird, so tritt dieses Ereignis genau
@@ -115,7 +128,7 @@ Die Menge aller möglichen Ereignisse, d.h. die Menge aller Teilmengen von
 .. TODO:: Beispiel
 
 Da es sich bei Ereignissen um Mengen handelt, können diese ebenfalls durch
-Mengenoperationen miteinander verknüpft werden: 
+Mengenoperationen miteinander verknüpft werden:
 
 * Betrachtet man die Schnittmenge :math:`M_1 \cap M_1` zweier Ereignisse, so
   spricht man von einem UND-Ereignis (:math:`M_1` und :math:`M_1`).
@@ -136,14 +149,14 @@ Gegenereignis :math:`\overline{M}` der Fall, es sind jedoch auch weitere Fälle
 möglich.
 
 *Beispiel:*
-    
+
 * Ein Würfel wird zweimal geworfen und jeweils die Augenzahl notiert. Dabei
   werden folgende Ereignisse betrachtet:
 
-  * :math:`M_1`: "Die Summe der Augenzahlen ist gleich :math:`7`", d.h.
+  * :math:`M_1`: "Die Summe der Augenzahlen ist gleich :math:`7`", also
     :math:`M_1 = \{ (1,6),\, (2,5),\, (3,4),\, (4,3),\, (5,2),\, (6,1) \}`.
 
-  * :math:`M_2`: "Pasch: Die beiden Augenzahlen sind gleich", d.h. :math:`M_1 =
+  * :math:`M_2`: "Pasch: Die beiden Augenzahlen sind gleich", also :math:`M_1 =
     \{ (1,1),\, (2,2),\, (3,3),\, (4,4),\, (5,5),\, (6,6) \}`.
 
   In diesem Beispiel gilt :math:`M_1 \cap M_2 = \emptyset`, die Ergeignisse sind

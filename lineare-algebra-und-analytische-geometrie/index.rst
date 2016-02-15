@@ -19,5 +19,6 @@ Gleichheit von zwei oder mehreren linearen Funktionen beschreiben.
     vektoren.rst
     geraden-und-ebenen.rst
     determinanten.rst
+    matrizen.rst
 
 

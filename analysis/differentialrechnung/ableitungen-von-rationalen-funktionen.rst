@@ -12,7 +12,7 @@ Ableitungen von ganzrationalen Funktionen
 Eine ganzrationale Funktion hat allgemein folgende Form:
 
 .. math::
-    
+
     f(x) = \sum_{i=0}^{n} a_i \cdot x^i = a _{\rm{n}} \cdot x^n + a
     _{\rm{n-1}} \cdot x ^{n-1} + \ldots + a_3 \cdot x^3 + a_2 \cdot x^2 + a_1 \cdot x^1 + a_0
 
@@ -24,7 +24,7 @@ Ableitungsregeln verwendet werden:
   Für die Ableitung gilt somit:
 
   .. math::
-      
+
       \big( c \cdot f(x) \big)' = c \cdot f'(x)
 
   Ist :math:`c` negativ, so ist die Funktion gegenüber der ursprünglichen
@@ -36,15 +36,15 @@ Ableitungsregeln verwendet werden:
   Ableitungen der Einzelfunktion. Es gilt also:
 
   .. math::
-      
-      \big( f_1(x) + f_2(x) \big)' = f_1'(x) + f_2'(x) 
+
+      \big( f_1(x) + f_2(x) \big)' = f_1'(x) + f_2'(x)
 
 Mit den obigen Regeln und den :ref:`Ableitungsregeln für Potenzfunktionen
 <Ableitungen von Potenz- und Wurzelfunktionen>` ergibt sich somit für die erste
 Ableitung einer ganzrationalen Funktion :math:`n`-ten Grades:
 
 .. math::
-    
+
     f'(x) = n \cdot a_n \cdot x ^{n-1} + (n-1) \cdot a _{\rm{n-1}} \cdot x
     ^{n-2} + \ldots + 3 \cdot a_3 \cdot x^2 + 2 \cdot a_2 \cdot x^1 + a_1
 
@@ -54,7 +54,7 @@ zweites mal ab, so wird der Grad der Ableitungsfunktion wiederum um :math:`1`
 niedriger. Für die zweite Ableitung gilt entsprechend:
 
 .. math::
-    
+
     f''(x) = n \cdot (n-1) \cdot a_n \cdot x ^{n-2} + (n-1) \cdot (n-2) \cdot a _{\rm{n-1}} \cdot x
     ^{n-3} + \ldots + 3 \cdot 2 \cdot a_3 \cdot x^1 + 2 \cdot a_2
 
@@ -70,7 +70,7 @@ Eine :ref:`gebrochenrationale Funktion <Gebrochenrationale Funktionen>` hat
 allgemein folgende Form:
 
 .. math::
-    
+
     f(x) = \frac{Z(x)}{N(x)} = \frac{\sum_{i=0}^{n} a_i \cdot x^i}{\sum_{k=0}^{m}
     b_k \cdot x^k} = \frac{a _{\rm{n}} \cdot x^n + a _{\rm{n-1}} \cdot x ^{n-1}
     +\ldots + a_2 \cdot x^2 + a_1 \cdot x + a_0}{b _{\rm{m}} \cdot x^m + b
@@ -87,7 +87,7 @@ Ableitungsregel verwendet werden:
   Ableitung von :math:`f(x)` nach folgender Regel berechnen:
 
   .. math::
-      
+
       \left(\frac{f_1(x)}{f_2(x)}\right)' = \frac{f_1'(x) \cdot f_2(x) - f_1(x)
       \cdot f_2'(x)}{\big(f_2(x)\big)^2}
 
@@ -95,7 +95,7 @@ Für die Ableitung einer gebrochenrationalen Funktion gilt also:
 
 .. math::
     :label: eqn-ableitung-gebrochenrationaler-funktionen
-    
+
     f'(x) = \frac{Z'(x) \cdot N(x) - N'(x) \cdot Z}{\big(N(x)\big)^2}
 
 Die Ableitungen des Zähler- bzw. Nennerpolynoms werden dabei gemäß den Regeln
@@ -104,9 +104,9 @@ wiederum eine gebrochenrationale Funktion, wobei sich die Grade des
 Zählerpolynoms und des Nennerpolynoms der Ableitung um  :math:`n-m-1`
 unterscheiden.
 
-Echt Gebrochenrationale Funktionen mit :math:`n < m` lassen sich somit
+Echt gebrochen-rationale Funktionen mit :math:`n < m` lassen sich somit
 unbegrenzt oft ableiten, wobei die einzelnen Ableitungen niemals gleich Null
-sind. 
+sind.
 
 .. rubric:: Ableitungen von Hyperbelfunktionen
 
@@ -115,24 +115,24 @@ sind.
 Funktionen. Für ihre Ableitung gilt:
 
 .. math::
-    
+
     \left( \frac{1}{x^n}\right)' = \frac{0 \cdot x^n - n \cdot x ^{n-1} \cdot 1}{\left(x ^{n}\right)^2}
     = \frac{- n \cdot x ^{n-1}}{x ^{2 \cdot n}} = - n \cdot x ^{(n-1) - 2 \cdot
     n} = -n \cdot x ^{-n -1}
 
 Schreibt man für die Hyperbelfunktion :math:`f(x) = \frac{1}{x^n} = x ^{-n}`,
 so zeigt sich, dass die Ableitungen entsprechend der :ref:`Ableitungsregel für
-Potenzfunktionen <Ableitungen von Potenz- und Wurzelfunktionen>` gebildet werden 
+Potenzfunktionen <Ableitungen von Potenz- und Wurzelfunktionen>` gebildet werden
 können:
 
 .. math::
     :label: eqn-ableitung-von-hyperbelfunktionen
-    
+
     \left( x^{-n} \right)' = -n \cdot x ^{-n -1}
 
 Die Ableitungsregel für Potenzfunktionen gilt also nicht nur für positive
 rationale Werte von :math:`n`, sondern allgemein für negative ganzzahlige Werte
-von :math:`n`. 
+von :math:`n`.
 
 
 .. _Ableitungen von Potenzfunktionen mit rationalem Exponenten:
@@ -141,7 +141,7 @@ von :math:`n`.
 
 Um zu zeigen, dass die Ableitungsregel für Potenzfunktionen allgemein für
 jede rationale Zahl :math:`n = \frac{p}{q}` mit :math:`p,q \in \mathbb{Z}`
-gelten, muss eine weitere Ableitungsregel verwendet werden:
+gilt, muss eine weitere Ableitungsregel verwendet werden:
 
 * Besteht eine Funktion :math:`f(x)` aus einer :ref:`Verkettung zweier
   Einzelfunktionen <Verknüpfung und Verkettung von Funktionen>` :math:`f_1(x)`
@@ -149,19 +149,19 @@ gelten, muss eine weitere Ableitungsregel verwendet werden:
   der so genannten "Kettenregel" berechnen:
 
   .. math::
-      
+
       \Big(f_1\big(f_2(x)\big)\Big)' = \Big(f_1'\big(f_2(x)\big)\Big) \cdot f_2'(x)
 
   Dabei wird zunächst die äußere Funktion abgeleitet, die innere Funktion
   bleibt dabei unverändert. Anschließend wird der sich ergebende Term mit der
   Ableitung der inneren Funktion multipliziert.
 
-Für die Ableitung einer Potenzfunktionen :math:`f(x) = x ^{\frac{p}{q}}` mit
+Für die Ableitung einer Potenzfunktion :math:`f(x) = x ^{\frac{p}{q}}` mit
 rationalem Exponenten :math:`n = \frac{p}{q}` gilt damit:
 
 .. math::
-    
-    \left( x ^{\frac{p}{q}}\right)' = \left(\left( x ^{\tiny{p}}\right) ^{\frac{1}{q}}\right)' 
+
+    \left( x ^{\frac{p}{q}}\right)' = \left(\left( x ^{\tiny{p}}\right) ^{\frac{1}{q}}\right)'
     &= \frac{1}{q} \cdot \left( x ^{p}\right) ^{\left(\frac{1}{q} - 1\right)}
     \cdot p \cdot x ^{(p-1)} \\
     & = \frac{p}{q} \cdot x ^{p \cdot \left( \frac{1}{q} - 1\right)} \cdot x
