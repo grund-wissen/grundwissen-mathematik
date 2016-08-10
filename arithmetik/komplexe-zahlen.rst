@@ -1,6 +1,4 @@
-.. index::
-    single: Komplexe Zahlen
-    single: Zahlenbereiche; Komplexe Zahlen
+.. index:: Komplexe Zahlen, Zahlenbereiche; Komplexe Zahlen
 .. _Exkurs Komplexe Zahlen:
 
 Exkurs: Komplexe Zahlen
@@ -13,6 +11,7 @@ Zahlen des zugrunde liegenden Zahlenbereichs ausführbar zu machen, d.h. auch
 Wurzeln mit negativen Argumenten zu definieren.
 
 .. index:: Imaginäre Zahlen
+.. _Imaginäre Zahlen:
 
 Um eine Lösung für eine Wurzel mit negativem Argument angeben zu können, wird
 formal eine "imaginäre Einheit" :math:`i` eingeführt, welche die folgende
@@ -53,56 +52,54 @@ einem "Imaginärteil" :math:`b \cdot i` zusammen. Die Menge der reellen Zahlen
 :math:`\mathbb{R}` stellen dabei eine Teilmenge der komplexen Zahlen
 :math:`\mathbb{C}` dar, für die :math:`b=0` gilt.
 
+
+.. _Rechnen mit komplexen Zahlen:
+
 .. rubric:: Rechnen mit komplexen Zahlen
 
 Die Rechenregeln für reelle Zahlen lassen sich weitgehend auf komplexe Zahlen
 übertragen, wenn man :math:`i = \sqrt{-1}` bzw. die dazu äquivalente Beziehung
 :math:`i^2 = \sqrt{-1} \cdot \sqrt{-1} = -1` beachtet.
 
-* Addiert bzw. subtrahiert man zwei komplexe Zahlen :math:`z _{\rm{1}}` und
-  :math:`z _{\rm{2}}`, so erhält man eine neue komplexe Zahl, deren Real- und
+* Addiert bzw. subtrahiert man zwei komplexe Zahlen :math:`z_1` und
+  :math:`z_2`, so erhält man eine neue komplexe Zahl, deren Real- und
   Imaginärteil gleich der Summe bzw. Differenz der Real- und Imaginärteile von
-  :math:`z _{\rm{1}}` und :math:`z _{\rm{2}}` ist:
+  :math:`z_1` und :math:`z_2` ist:
 
 .. math::
     :label: eqn-addition-komplexer-zahlen
 
-    z _{\rm{1}} + z _{\rm{2}} &= ( a _{\rm{1}} +  b _{\rm{1}} \cdot i) + ( a
-    _{\rm{2}} + b2 \cdot i) =  (a _{\rm{1}} +  a _{\rm{2}}) + ( b _{\rm{1}} +  b
-    _{\rm{2}}) \cdot i \\
-    z _{\rm{1}} - z _{\rm{2}} &= ( a _{\rm{1}} +  b _{\rm{1}} \cdot i) - ( a
-    _{\rm{2}} + b2 \cdot i) =  (a _{\rm{1}} -  a _{\rm{2}}) + ( b _{\rm{1}} -  b
-    _{\rm{2}}) \cdot i \\
+    z_1 + z_2 &= ( a_1 +  b_1 \cdot i) + ( a_2 + b2 \cdot i) =  (a_1 +  a_2) + (
+    b_1 +  b_2) \cdot i \\
+    z_1 - z_2 &= ( a_1 +  b_1 \cdot i) - ( a_2 + b2 \cdot i) =  (a_1 -  a_2) + (
+    b_1 -  b_2) \cdot i \\
 
-* Multipliziert man zwei komplexe Zahlen :math:`z _{\rm{1}}` und :math:`z
-  _{\rm{2}}` miteinander, so erhält man eine neue komplexe Zahl, indem man alle
-  Komponenten beider Zahlen miteinander multipliziert und hierbei :math:`i^2 =
-  -1` setzt. [#KM]_
+* Multipliziert man zwei komplexe Zahlen :math:`z_1` und :math:`z_2`
+  miteinander, so erhält man eine neue komplexe Zahl, indem man alle Komponenten
+  beider Zahlen miteinander multipliziert und hierbei :math:`i^2 = -1` setzt.
+  [#]_
 
 .. math::
     :label: eqn-multiplikation-komplexer-zahlen
 
-    z _{\rm{1}} \cdot z _{\rm{2}} = ( a _{\rm{1}} +  b _{\rm{1}} \cdot i) \cdot
-    ( a _{\rm{2}} +  b _{\rm{2}} \cdot i) = ( a _{\rm{1}} \cdot  a _{\rm{2}} -
-    b _{\rm{1}} \cdot  b _{\rm{2}}) + (b _{\rm{1}} \cdot  a _{\rm{2}}  + a
-    _{\rm{1}} \cdot  b _{\rm{2}}) \cdot i
+    z_1 \cdot z_2 = ( a_1 +  b_1 \cdot i) \cdot ( a_2 +  b_2 \cdot i) = ( a_1
+    \cdot  a_2 - b_1 \cdot  b_2) + (b_1 \cdot  a_2  + a_1 \cdot  b_2) \cdot i
 
-* Dividiert man eine komplexe Zahl :math:`z _{\rm{1}}` durch eine andere
-  komplexe Zahl :math:`z _{\rm{2}}` miteinander, so erhält man eine neue
-  komplexe Zahl, indem man den Bruch um die so genannte "komplex konjugierte"
-  Zahl :math:`z _{\rm{2}} ^{*} =  a _{\rm{2}} -  b _{\rm{2}} \cdot i` des
-  Nenners erweitert: [#KD]_ [#KK]_
+* Dividiert man eine komplexe Zahl :math:`z_1` durch eine andere komplexe Zahl
+  :math:`z_2` miteinander, so erhält man eine neue komplexe Zahl, indem man den
+  Bruch um die so genannte "komplex konjugierte" Zahl :math:`z_2 ^{*} =  a_2 -
+  b_2 \cdot i` des Nenners erweitert: [#]_ [#]_
 
 .. math::
     :label: eqn-division-komplexer-zahlen
 
-    \frac{z _{\rm{1}}}{z _{\rm{2}}} = \frac{ a _{\rm{1}} +  b _{\rm{1}} \cdot
-    i}{ a _{\rm{2}} +  b _{\rm{2}} \cdot i} = \frac{(a _{\rm{1}} +  b _{\rm{1}}
-    \cdot i) \cdot ( a _{\rm{2}} -  b _{\rm{2}} \cdot i)}{(a _{\rm{2}} +  b
-    _{\rm{2}} \cdot i) \cdot ( a _{\rm{2}} -  b _{\rm{2}} \cdot i)} = \frac{( a
-    _{\rm{1}} \cdot  a _{\rm{2}} + b _{\rm{1}} \cdot  b _{\rm{2}}) + ( b
-    _{\rm{1}} \cdot  a _{\rm{2}} -  a _{\rm{1}} \cdot  b _{\rm{2}} ) \cdot i}{ a
-    _{\rm{2}}\,\!^2 +  b _{\rm{2}}\,\!^2}
+    \frac{z_1}{z_2} = \frac{ a_1 +  b_1 \cdot i}{ a_2 +  b_2 \cdot i} =
+    \frac{(a_1 +  b_1 \cdot i) \cdot ( a_2 -  b_2 \cdot i)}{(a_2 +  b_2 \cdot i)
+    \cdot ( a_2 -  b_2 \cdot i)} = \frac{( a_1 \cdot  a_2 + b_1 \cdot  b_2) + (
+    b_1 \cdot  a_2 -  a_1 \cdot  b_2 ) \cdot i}{ a_2\,\!^2 +  b_2\,\!^2}
+
+
+.. _Gaußsche Zahlenebene und Polarform:
 
 .. rubric:: Gaußsche Zahlenebene und Polarform
 
@@ -175,8 +172,6 @@ bzw.
 
 
 
-
-
 .. raw:: html
 
     <hr />
@@ -185,23 +180,23 @@ bzw.
 
     .. rubric:: Anmerkungen:
 
-.. [#KM] Explizit kommt Gleichung :eq:`eqn-multiplikation-komplexer-zahlen`
+.. [#] Explizit kommt Gleichung :eq:`eqn-multiplikation-komplexer-zahlen`
     folgendermaßen zustande:
 
     .. math::
 
-        z _{\rm{1}} \cdot z _{\rm{2}} &= ( a _{\rm{1}} +  b _{\rm{1}} \cdot i)
-        \cdot ( a _{\rm{2}} +  b _{\rm{2}} \cdot i) \\ &=  a _{\rm{1}} \cdot  a
-        _{\rm{2}} +  a _{\rm{1}} \cdot  b _{\rm{2}} \cdot i +  b _{\rm{1}} \cdot
-        a _{\rm{2}} \cdot i +  b _{\rm{1}} \cdot  b _{\rm{2}} \cdot i^2 \\  &= (
-        a _{\rm{1}} \cdot  a _{\rm{2}} - b _{\rm{1}} \cdot  b _{\rm{2}}) + ( a
-        _{\rm{1}} \cdot  b _{\rm{2}} +  b _{\rm{1}} \cdot  a _{\rm{2}} ) \cdot i
+        z_1 \cdot z_2 &= ( a_1 +  b_1 \cdot i)
+        \cdot ( a_2 +  b_2 \cdot i) \\ &=  a_1 \cdot  a
+       _2 +  a_1 \cdot  b_2 \cdot i +  b_1 \cdot
+        a_2 \cdot i +  b_1 \cdot  b_2 \cdot i^2 \\  &= (
+        a_1 \cdot  a_2 - b_1 \cdot  b_2) + ( a
+       _1 \cdot  b_2 +  b_1 \cdot  a_2 ) \cdot i
 
     In der letzten Zeile wurde die Beziehung :math:`i^2= -1` genutzt.
     Zusätzlich wurden die bei der Multiplikation entstandenen realen und
     imaginären Anteile sortiert und durch Klammern zusammen gefasst.
 
-.. [#KD] Die Multiplikation einer komplexen Zahl :math:`z = a + b \cdot i` mit
+.. [#] Die Multiplikation einer komplexen Zahl :math:`z = a + b \cdot i` mit
     ihrer komplex konjugierten Zahl :math:`z ^{*} = a - b \cdot i` ergibt die
     (reelle) Zahl :math:`a^2 + b^2`:
 
@@ -212,7 +207,7 @@ bzw.
 
     Hierbei wurde wiederum die Beziehung :math:`i^2= -1` genutzt.
 
-.. [#KK] Mit Hilfe der Divisionsformel :eq:`eqn-division-komplexer-zahlen` kann
+.. [#] Mit Hilfe der Divisionsformel :eq:`eqn-division-komplexer-zahlen` kann
     beispielsweise auch der Kehrbruch einer komplexen Zahl bestimmt werden. Es
     gilt:
 

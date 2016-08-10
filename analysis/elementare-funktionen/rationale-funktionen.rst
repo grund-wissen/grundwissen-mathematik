@@ -15,8 +15,8 @@ Ganzrationale Funktionen haben allgemein folgende Funktionsgleichung:
 .. math::
     :label: eqn-ganzrationale-funktion
 
-    y = \sum_{i=0}^{n} a_i \cdot x^i = a _{\rm{n}} \cdot x^n + a
-    _{\rm{n-1}} \cdot x ^{n-1} + \ldots + a_2 \cdot x^2 + a_1 \cdot x + a_0
+    y = \sum_{i=0}^{n} a_i \cdot x^i = a_{\mathrm{n}} \cdot x^n +
+    a_{\mathrm{n-1}} \cdot x ^{n-1} + \ldots + a_2 \cdot x^2 + a_1 \cdot x + a_0
 
 Hierbei bezeichnet man den größten Exponenten :math:`n \in \mathbb{N}` des
 Polynoms als "Grad" der Funktion, die reellen Zahlen :math:`a_0` bis :math:`a_n`
@@ -28,7 +28,7 @@ Eigenschaften:
    der Funktionsgraph ergibt eine kontinuierliche Kurve ohne Sprünge.
 
 2. Jede Potenzfunktion :math:`x^n` mit :math:`n \ge 1` wird für große
-   :math:`x`-Werte unendlich groß, da :math:`\lim _{x->\infty} x^n = \infty`
+   :math:`x`-Werte unendlich groß, da :math:`\lim_{x->\infty} x^n = \infty`
    ist. Bei einer ganzrationalen Funktion richtet sich der Grenzwert nach der
    höchsten Potenz und hat das gleiche Vorzeichen wie der dazugehörige
    Koeffizient.
@@ -138,19 +138,19 @@ nennt man die zugehörige Funktion quadratisch.
 *Beispiele:*
 
 * Ein Quadrat mit einer :math:`2,3,4,\ldots`-fachen Seitenlänge :math:`l` besitzt einen
-  :math:`4,9,16,\ldots`-fachen Flächeninhalt :math:`A _{\rm{Quadrat}}`.
+  :math:`4,9,16,\ldots`-fachen Flächeninhalt :math:`A_{\mathrm{Quadrat}}`.
 
   .. math::
 
-      A _{\rm{Quadrat}} = l^2
+      A_{\mathrm{Quadrat}} = l^2
 
-* Die Fläche :math:`A _{\rm{Kreis}}` eines Kreises wächst ebenfalls
+* Die Fläche :math:`A_{\mathrm{Kreis}}` eines Kreises wächst ebenfalls
   quadratisch mit zunehmendem Radius an. Zur exakten Berechnung muss der Radius
   :math:`r` quadriert und mit der Kreiszahl :math:`\pi` multipliziert werden.
 
   .. math::
 
-      A _{\rm{Kreis}} = \pi \cdot r^2
+      A_{\mathrm{Kreis}} = \pi \cdot r^2
 
 * Die Strecke, die ein Körper im freien Fall (ohne Reibung) zurücklegt, nimmt
   quadratisch mit der Zeit zu: Nach einer Sekunde hat der Körper knapp 5 Meter
@@ -308,9 +308,10 @@ Gebrochenrationale Funktionen haben allgemein folgende Funktionsgleichung:
     :label: eqn-gebrochenrationale-funktion
 
     y = \frac{Z(x)}{N(x)} = \frac{\sum_{i=0}^{n} a_i \cdot x^i}{\sum_{k=0}^{m}
-    b_k \cdot x^k} = \frac{a _{\rm{n}} \cdot x^n + a _{\rm{n-1}} \cdot x ^{n-1}
-    +\ldots + a_2 \cdot x^2 + a_1 \cdot x + a_0}{b _{\rm{m}} \cdot x^m + b
-    _{\rm{m-1}} \cdot x ^{m-1} + \ldots + b_2 \cdot x^2 + b_1 \cdot x + a_0}
+    b_k \cdot x^k} = \frac{a_{\mathrm{n}} \cdot x^n + a_{\mathrm{n-1}} \cdot x
+    ^{n-1} +\ldots + a_2 \cdot x^2 + a_1 \cdot x + a_0}{b_{\mathrm{m}} \cdot x^m
+    +b_{\mathrm{m-1}} \cdot x ^{m-1} + \ldots + b_2 \cdot x^2 + b_1 \cdot x +
+    a_0}
 
 
 Gebrochenrationale Funktionen bestehen also aus einem Zählerpolynom
@@ -359,7 +360,7 @@ werden:
       (x+1) \cdot (x-2) \stackrel{!}= 0 \\[6pt]
       \Rightarrow x_1 = -1 \quad ; \quad x_2 = +2
 
-  Die Funktion hat also zwei Polstellen bei :math:`x_1 = -1` und :math:`x_2 = 2`.
+  Die Funktion hat also zwei Polstellen bei :math:`x_1 = -1` und :math:`x_2=2`.
 
 .. figure:: ../../pics/analysis/gebrochenrationale-funktion-nullstellen-und-polstellen-beispiel.png
     :width: 50%
@@ -384,6 +385,7 @@ Term für :math:`x \ne x_i` gekürzt werden kann.
 
 .. index:: Hyperbel
 .. _Hyperbeln:
+.. _Hyperbel:
 
 Hyperbeln
 ^^^^^^^^^
@@ -457,19 +459,19 @@ Aufgrund der Beziehung :math:`y = \frac{c}{x} \; \Leftrightarrow \; x
         &\Rightarrow x = - \frac{b}{2 \cdot a}
 
     Den zugehörigen :math:`y`-Wert des Parabelscheitels erhält man, wenn
-    man :math:`x _{\rm{S}} = - \frac{b}{2 \cdot a}` in die ursprüngliche
+    man :math:`x_{\mathrm{S}} = - \frac{b}{2 \cdot a}` in die ursprüngliche
     Parabelgleichung :eq:`eqn-parabel` einsetzt. Es ergibt sich:
 
     .. math::
 
-        y _{\rm{S}} = f\left(-\frac{b}{2 \cdot a}\right) &= a \cdot \left( -
+        y_{\mathrm{S}} = f\left(-\frac{b}{2 \cdot a}\right) &= a \cdot \left( -
         \frac{b}{2 \cdot a}  \right)^2  + b \cdot \left( - \frac{b}{2 \cdot
         a}  \right)  + c \\[6pt]
         &= a \cdot \frac{b^2}{4 \cdot a^2}  - \frac{b^2}{2 \cdot a}  + c \\[6pt]
         &= \frac{b^2}{4 \cdot a} - \frac{2 \cdot b^2}{4 \cdot a}  + c \\[6pt]
         &= - \frac{b^2}{4 \cdot a} + c
 
-.. TODO parabel-ableitung-ref ändern!!
+.. todo parabel-ableitung-ref ändern!!
 
 .. index:: Asymptote
 
@@ -492,4 +494,5 @@ Aufgrund der Beziehung :math:`y = \frac{c}{x} \; \Leftrightarrow \; x
     x^3 + 2 \cdot x^2}`. Ist der Grad des Zählers kleiner als der Grad des
     Nenners, so hat die gebrochenrationale Funktion für :math:`x \to \pm \infty`
     die waagrechte Asymptote :math:`y=0`.
+
 

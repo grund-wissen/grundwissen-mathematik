@@ -41,12 +41,14 @@ ein. Diese bezeichnen folgende Seitenverhältnisse:
 .. math::
     :label: eqn-sinus
 
-    \sin{\alpha } &= \frac{\text{Gegenkathete von } \alpha }{\text{Hypothenuse} }
+    \sin{\alpha } &= \frac{\text{Gegenkathete von } \alpha }{\text{Hypothenuse}
+    }
 
 .. math::
     :label: eqn-cosinus
 
-    \cos{\alpha } &= \frac{\text{\phantom{geg}Ankathete von } \alpha }{\text{Hypothenuse} }
+    \cos{\alpha } &= \frac{\text{\phantom{geg}Ankathete von } \alpha
+    }{\text{Hypothenuse} }
 
 .. math::
     :label: eqn-tangens
@@ -61,9 +63,9 @@ Bisweilen definiert man zusätzlich zum Tangens auch einen so genannten
 .. math::
     :label: eqn-cotangens
 
-    {\color{white}\ldots \qquad \,\, }\cot{\alpha } = \frac{\text{\phantom{geg}Ankathete
-    von } \alpha }{\text{Gegenkathete von } \alpha } =
-    \frac{\cos{\alpha }}{\sin{\alpha }}
+    {\color{white}\ldots \qquad \,\, }\cot{\alpha} =
+    \frac{\text{\phantom{geg}Ankathete von } \alpha }{\text{Gegenkathete von }
+    \alpha } = \frac{ \cos{\alpha} }{ \sin{\alpha} }
 
 Die Sinus- und Cosinuswerte sind als Längenverhältnis einer Kathete zur
 Hypothenuse, da die Hypothenuse die längste Seite im rechtwinkligen Dreieck ist,
@@ -121,8 +123,8 @@ Der Sinus-Satz
 
 Jedes spitzwinklige Dreieck lässt sich durch Einzeichnen einer Höhenlinie in
 zwei rechtwinklige Dreiecke zerlegen. Bezeichnet man den Schnittpunkt der Höhe
-:math:`h_c` mit der Strecke :math:`c` als :math:`\rm{D}`, so gilt für das Teildreieck
-:math:`\rm{ADC}`:
+:math:`h_{\mathrm{c}}` mit der Strecke :math:`c` als :math:`\mathrm{D}`, so gilt
+für das Teildreieck :math:`\mathrm{ADC}`:
 
 .. figure:: ../../pics/geometrie/dreieck-sinussatz.png
     :width: 40%
@@ -139,17 +141,17 @@ zwei rechtwinklige Dreiecke zerlegen. Bezeichnet man den Schnittpunkt der Höhe
 
 .. math::
 
-    \sin{(\alpha)} = \frac{h_c}{b} \quad \Leftrightarrow \quad h_c = b \cdot
+    \sin{(\alpha)} = \frac{h_{\mathrm{c}}}{b} \quad \Leftrightarrow \quad h_{\mathrm{c}} = b \cdot
     \sin{(\alpha)}
 
-Für das Teildreieck :math:`\rm{DBC}` gilt entsprechend:
+Für das Teildreieck :math:`\mathrm{DBC}` gilt entsprechend:
 
 .. math::
 
-    \sin{(\beta)} = \frac{h_c}{a} \quad \Leftrightarrow \quad h_c = a \cdot
+    \sin{(\beta)} = \frac{h_{\mathrm{c}}}{a} \quad \Leftrightarrow \quad h_{\mathrm{c}} = a \cdot
     \sin{(\beta)}
 
-Setzt man die beiden obigen Gleichungen für :math:`h_c` gleich, so erhält man folgende
+Setzt man die beiden obigen Gleichungen für :math:`h_{\mathrm{c}}` gleich, so erhält man folgende
 Beziehung:
 
 .. math::
@@ -226,21 +228,28 @@ Winkel gegeben sind.
   .. math::
 
     a^2 &= b^2 + c^2 - 2 \cdot b \cdot c \cdot \cos{(\alpha)} \quad
-    \Leftrightarrow \quad \alpha = \text{acos}\left( \frac{b^2 + c^2 - a^2}{2 \cdot b \cdot c}\right) \\[4pt]
+    \Leftrightarrow \quad \alpha = \text{acos}\left( \frac{b^2 + c^2 - a^2}{2
+    \cdot b \cdot c}\right) \\[4pt]
     b^2 &= c^2 + a^2 - 2 \cdot c \cdot a \cdot \cos{(\beta)} \quad
-    \Leftrightarrow \quad \beta = \text{acos}\left( \frac{c^2 + a^2 - b^2}{2 \cdot c \cdot a}\right) \\[4pt]
+    \Leftrightarrow \quad \beta = \text{acos}\left( \frac{c^2 + a^2 - b^2}{2
+    \cdot c \cdot a}\right) \\[4pt]
     c^2 &= a^2 + b^2 - 2 \cdot a \cdot b \cdot \cos{(\gamma)} \quad
-    \Leftrightarrow \quad \gamma = \text{acos}\left( \frac{a^2 + b^2 - c^2}{2 \cdot a \cdot b}\right) \\[4pt]
+    \Leftrightarrow \quad \gamma = \text{acos}\left( \frac{a^2 + b^2 - c^2}{2
+    \cdot a \cdot b}\right) \\[4pt]
 
   Setzt man die gegebenen Werte ein, so erhält man:
 
   .. math::
 
-      \alpha &= \text{acos}\left( \frac{6^2 + 7^2 - 5^2}{2 \cdot 6 \cdot 7}\right) \approx 44,415 \degree \\
-      \beta &= \text{acos}\left( \frac{7^2 + 5^2 - 6^2}{2 \cdot 7 \cdot 5}\right) \approx 57,122 \degree \\
-      \gamma &= \text{acos}\left( \frac{5^2 + 6^2 - 7^2}{2 \cdot 5 \cdot 6}\right) \approx 78,463 \degree \\
+      \alpha &= \text{acos}\left( \frac{6^2 + 7^2 - 5^2}{2 \cdot 6 \cdot
+      7}\right) \approx 44,415 \degree \\
+      \beta &= \text{acos}\left( \frac{7^2 + 5^2 - 6^2}{2 \cdot 7 \cdot
+      5}\right) \approx 57,122 \degree \\
+      \gamma &= \text{acos}\left( \frac{5^2 + 6^2 - 7^2}{2 \cdot 5 \cdot
+      6}\right) \approx 78,463 \degree \\
 
-  Für die Summe der Innenwinkel gilt erwartungsgemäß :math:`\alpha + \beta + \gamma = 180 \degree`.
+  Für die Summe der Innenwinkel gilt erwartungsgemäß :math:`\alpha + \beta +
+  \gamma = 180 \degree`.
 
 
 

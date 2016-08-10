@@ -17,7 +17,7 @@ Zahlen :math:`\mathbb{N}`:
 .. math::
     :label: eqn-natürliche-zahlen
 
-    \mathbb{N} = \lbrace 0 ,\; 1,\; 2,\; 3,\; \ldots \rbrace
+    \mathbb{N} = \{ 0 ,\; 1,\; 2,\; 3,\; \ldots \}
 
 Die Menge der natürlichen Zahlen ohne die Zahl :math:`0` wird mit dem Symbol
 :math:`\mathbb{N} ^{*}` dargestellt.
@@ -145,8 +145,7 @@ Wertes ausdrückt. Zur Darstellung des Falles, dass kein Element vorhanden ist
 .. math::
     :label: eqn-ganze-zahlen
 
-    \mathbb{Z} = \lbrace \ldots,\; -3,\; -2,\; -1,\; 0,\; 1,\; 2,\; 3,\; \ldots
-    \rbrace
+    \mathbb{Z} = \{ \ldots,\; -3,\; -2,\; -1,\; 0,\; 1,\; 2,\; 3,\; \ldots \}
 
 Die ganzen Zahlen lassen sich somit in gleicher Weise wie die natürlichen Zahlen
 als Zahlenstrahl darstellen. Dabei werden wiederum die einzelnen Zahlen ihrer
@@ -215,10 +214,7 @@ Zahl (der Dividend) ein ganzzahliges Vielfaches der zweiten Zahl (des Divisors)
 ist -- ansonsten bleibt bei der Division ein nicht weiter teilbarer Rest übrig.
 
 
-.. index::
-    single: Zahlenbereiche; Rationale Zahlen
-    single: Rationale Zahlen
-    single: Bruchzahlen
+.. index:: Zahlenbereiche; Rationale Zahlen, Rationale Zahlen, Bruchzahlen
 .. _Rationale Zahlen:
 
 Rationale Zahlen
@@ -241,7 +237,7 @@ Zahlen hinzu, die sich als Bruch zweier ganzer Zahlen :math:`m` und
 .. math::
     :label: eqn-rationale-zahlen
 
-    \mathbb{Q} = \lbrace \frac{z}{n} \; | \; z,n \in \mathbb{Z} \text{ und } n \ne 0 \rbrace
+    \mathbb{Q} = \{ \frac{z}{n} \; | \; z,n \in \mathbb{Z} \text{ und } n \ne 0 \}
 
 Die Zahl :math:`z` oberhalb des Bruchstrichs wird Zähler genannt, die Zahl
 :math:`n` unterhalb des Bruchstrichs als Nenner des Bruchs bezeichnet. Die
@@ -306,8 +302,8 @@ Eine Besonderheit rationaler Zahlen ist es, dass sich ein und die selbe Zahl
 
 .. math::
 
-    \frac{z _{\rm{1}} }{n _{\rm{1}} } = \frac{z _{\rm{2}} }{n _{\rm{2}} } \quad \text{
-    falls } \quad n _{\rm{1}} \cdot z _{\rm{2}} = n _{\rm{2}} \cdot z _{\rm{1}}
+    \frac{z_1 }{n_1 } = \frac{z_2 }{n_2 } \quad \text{
+    falls } \quad n_1 \cdot z_2 = n_2 \cdot z_1
 
 Allgemein kann jede Bruchzahl :math:`q = \frac{z}{n}` in eine andere, gleich
 große Bruchzahl umgeformt werden, indem man sowohl den Zähler :math:`z` als
@@ -452,23 +448,21 @@ Durch die Verwendung rationaler Zahlen lassen sich alle vier
 Grundrechen-Operationen -- abgesehen von der Division durch Null --
 uneingeschränkt ausführen und beliebig miteinander kombinieren:
 
-* Die Addition zweier rationaler Zahlen :math:`q _{\rm{1}}` und :math:`q
-  _{\rm{2}}` ist definiert als:
+* Die Addition zweier rationaler Zahlen :math:`q_1` und :math:`q_2` ist
+  definiert als:
 
   .. math::
 
-      q _{\rm{1}} + q _{\rm{2}} = \frac{z _{\rm{1}} }{n _{\rm{1}} } + \frac{z
-      _{\rm{2}} }{n _{\rm{2}} } = \frac{z _{\rm{1}} \cdot n _{\rm{2}} }{n
-      _{\rm{1}}  \cdot n _{\rm{2}} } + \frac{z _{\rm{2}} \cdot n _{\rm{1}} }{n
-      _{\rm{2}} \cdot n _{\rm{1}} } = \frac{z _{\rm{1}} \cdot n _{\rm{2}} + z
-      _{\rm{2}} \cdot n _{\rm{1}} }{n _{\rm{1}} \cdot n _{\rm{2}} }
+      q_1 + q_2 = \frac{z_1}{n_1} + \frac{z_2}{n_2} = \frac{z_1 \cdot n_2}{n_1
+      \cdot n_2} + \frac{z_2 \cdot n_1}{n_2 \cdot n_1} = \frac{z_1 \cdot n_2 +
+      z_2 \cdot n_1}{n_1 \cdot n_2}
 
-  Um zwei rationale Zahlen :math:`q _{\rm{1}}` und :math:`q _{\rm{2}}` zu
-  addieren, müssen sie zunächst auf einen gemeinsamen Nenner :math:`n _{\rm{1}}
-  \cdot n _{\rm{2}}` gebracht werden. Beide Zahlen werden hierzu jeweils mit dem
-  Nenner der anderen Zahl erweitert; anschließend werden die (erweiterten)
-  Zähler :math:`z _{\rm{1}} \cdot n _{\rm{2}}`  und :math:`z _{\rm{2}} \cdot n
-  _{\rm{1}}` miteinander addiert und auf den gemeinsamen Nenner geschrieben.
+  Um zwei rationale Zahlen :math:`q_1` und :math:`q_2` zu addieren, müssen sie
+  zunächst auf einen gemeinsamen Nenner :math:`n_1 \cdot n_2` gebracht werden.
+  Beide Zahlen werden hierzu jeweils mit dem Nenner der anderen Zahl erweitert;
+  anschließend werden die (erweiterten) Zähler :math:`z_1 \cdot n_2`  und
+  :math:`z_2 \cdot n_1` miteinander addiert und auf den gemeinsamen Nenner
+  geschrieben.
 
 * Die Subtraktion zweier rationaler Zahlen funktioniert nach dem gleichen
   Prinzip wie die Addition, es sind lediglich die Plus-Zeichen durch
@@ -476,49 +470,40 @@ uneingeschränkt ausführen und beliebig miteinander kombinieren:
 
   .. math::
 
-        q _{\rm{1}} - q _{\rm{2}} = \frac{z _{\rm{1}} }{n _{\rm{1}} } - \frac{z
-        _{\rm{2}} }{n _{\rm{2}} } = \frac{z _{\rm{1}} \cdot n _{\rm{2}} }{n
-        _{\rm{1}}  \cdot n _{\rm{2}} } - \frac{z _{\rm{2}} \cdot n _{\rm{1}} }{n
-        _{\rm{2}} \cdot n _{\rm{1}} } = \frac{z _{\rm{1}} \cdot n _{\rm{2}} - z
-        _{\rm{2}} \cdot n _{\rm{1}} }{n _{\rm{1}} \cdot n _{\rm{2}} }
+        q_1 - q_2 = \frac{z_1}{n_1} - \frac{z_2}{n_2} = \frac{z_1 \cdot n_2}{n_1
+        \cdot n_2} - \frac{z_2 \cdot n_1}{n_2 \cdot n_1} = \frac{z_1 \cdot n_2 -
+        z_2 \cdot n_1}{n_1 \cdot n_2}
 
 
-* Die Multiplikation zweier rationaler Zahlen :math:`q _{\rm{1}}` und :math:`q
-  _{\rm{2}}` ist definiert als:
+* Die Multiplikation zweier rationaler Zahlen :math:`q_1` und :math:`q_2` ist
+  definiert als:
 
   .. math::
 
-      q _{\rm{1}} \cdot q _{\rm{2}} = \frac{z _{\rm{1}} }{n _{\rm{1}} } \cdot
-      \frac{z _{\rm{2}} }{n _{\rm{2}} } = \frac{z _{\rm{1}} \cdot z _{\rm{2}}
-      }{n _{\rm{1}} \cdot n _{\rm{2}} }
+      q_1 \cdot q_2 = \frac{z_1}{n_1} \cdot \frac{z_2 }{n_2} = \frac{z_1 \cdot
+      z_2}{n_1 \cdot n_2}
 
-  Um zwei rationale Zahlen :math:`q _{\rm{1}}` und :math:`q _{\rm{2}}`
-  miteinander zu multiplizieren, werden beide Zähler :math:`z _{\rm{1}}` und
-  :math:`z _{\rm{2}}`  miteinander multipliziert und das Ergebnis :math:`z
-  _{\rm{1}} \cdot z _{\rm{2}}` auf den gemeinsamen Nenner :math:`n _{\rm{1}}
-  \cdot n _{\rm{2}}` geschrieben.
+  Um zwei rationale Zahlen :math:`q_1` und :math:`q_2` miteinander zu
+  multiplizieren, werden beide Zähler :math:`z_1` und :math:`z_2`  miteinander
+  multipliziert und das Ergebnis :math:`z_1 \cdot z_2` auf den gemeinsamen
+  Nenner :math:`n_1 \cdot n_2` geschrieben.
 
-* Die Division zweier rationaler Zahlen :math:`q _{\rm{1}} = \frac{z _{\rm{1}}
-  }{n _{\rm{1}} }` und :math:`q _{\rm{2}} = \frac{z _{\rm{2}} }{n _{\rm{2}} }`
-  entspricht einer Multiplikation der ersten Zahl (des Dividenden) mit dem
-  Kehrbruch der zweiten Zahl (des Divisors). Die Division erfolgt somit nach dem
-  gleichen Prinzip wie die Multiplikation, nur müssen Zähler und Nenner der
-  zweiten Zahl vertauscht werden:
+* Die Division zweier rationaler Zahlen :math:`q_1 = \frac{z_1}{n_1}` und
+  :math:`q_2 = \frac{z_2}{n_2}` entspricht einer Multiplikation der ersten Zahl
+  (des Dividenden) mit dem Kehrbruch der zweiten Zahl (des Divisors). Die
+  Division erfolgt somit nach dem gleichen Prinzip wie die Multiplikation, nur
+  müssen Zähler und Nenner der zweiten Zahl vertauscht werden:
 
   .. math::
 
-      \frac{q _{\rm{1}} }{q _{\rm{2}} } = \frac{z _{\rm{1}} }{n _{\rm{1}} } :
-      \frac{z _{\rm{2}} }{n _{\rm{2}} } = \frac{z _{\rm{1}} }{n _{\rm{1}} } \cdot
-      \frac{n _{\rm{2}} }{z _{\rm{2}} } = \frac{z _{\rm{1}} \cdot n _{\rm{2}}
-      }{n _{\rm{1}} \cdot z _{\rm{2}} }
+      \frac{q_1}{q_2} = \frac{z_1}{n_1} : \frac{z_2}{n_2} = \frac{z_1}{n_1}
+      \cdot \frac{n_2}{z_2} = \frac{z_1 \cdot n_2}{n_1 \cdot z_2}
 
 Weitere Hinweise zum Rechnen mit rationalen Zahlen sind im Abschnitt
 :ref:`Bruchrechnung <Bruchrechnung>` beschrieben.
 
 
-.. index::
-    single: Zahlenbereiche; Reelle Zahlen
-    single: Reelle Zahlen
+.. index:: Zahlenbereiche; Reelle Zahlen, Reelle Zahlen
 .. _Reelle Zahlen:
 
 Reelle Zahlen
@@ -553,8 +538,10 @@ sich zwar ihrem Wert nach in den Zahlenstrahl einordnen, lassen sich jedoch
 durch keine rationale Zahl ausdrücken und besitzen in der Darstellung als
 Dezimalzahl unendlich viele, nicht periodische Nachkommastellen.
 
-.. index::
-    single: Reelle Zahlen; Kreiszahl Pi
+.. index:: Reelle Zahlen; Kreiszahl Pi
+.. _Pi:
+.. _Kreiszahl:
+.. _Kreiszahl Pi:
 
 Für zwei besonders wichtige reelle Zahlen werden spezielle Symbole benutzt:
 
@@ -567,6 +554,9 @@ Für zwei besonders wichtige reelle Zahlen werden spezielle Symbole benutzt:
       u = \pi \cdot d
 
 .. index:: Reelle Zahlen; Eulersche Zahl e
+.. _Reelle Zahlen:
+.. _Eulersche Zahl:
+.. _Eulersche Zahl e:
 
 * Die Zahl :math:`e = 2,718281828459\ldots` wird als "Eulersche Zahl"
   bezeichnet. Sie ist in Verbindung mit :ref:`Exponentialfunktionen
@@ -589,8 +579,7 @@ reeller Zahlen liefert stets eindeutige Ergebnisse.
 
   .. math::
 
-      x ^{n} = \underbrace{x \cdot x \cdot \ldots \cdot x \cdot x}_{n
-      \text{ Faktoren } }
+      x^{n} = \underbrace{x \cdot x \cdot \ldots \cdot x \cdot x}_{n \text{ Faktoren }}
 
   Eine Potenz :math:`x ^{n}` mit Exponent :math:`n` entspricht somit einer
   :math:`n`-fachen Multiplikation der Grundzahl ("Basis") :math:`x` mit sich
@@ -599,6 +588,7 @@ reeller Zahlen liefert stets eindeutige Ergebnisse.
   als Zehner-Stange, Hunderter-Quadrat und Tausender-Würfel darstellen.
 
 .. index:: Wurzel
+.. _Wurzel:
 
 * Das Wurzelziehen ("Radizieren") entspricht der Umkehrung des Potenzierens.
   Für eine beliebige reelle Zahl :math:`a \ge 0` gelte folgende Gleichung:
@@ -699,7 +689,7 @@ Zahlen <Exkurs Komplexe Zahlen>` verwiesen.
 
     .. math::
 
-        - \frac{z}{n}  = \frac{-z\phantom{-}}{n} = \frac{z}{-n\phantom{-}}
+        -\frac{z}{n}  = \frac{-z\phantom{-}}{n} = \frac{z}{-n\phantom{-}}
 
     Tragen sowohl Zähler als auch Nenner ein Minus-Zeichen, so ist der Wert des
     Bruches positiv.
@@ -712,8 +702,8 @@ Zahlen <Exkurs Komplexe Zahlen>` verwiesen.
 .. [#WUR] Genau genommen gilt dies nur, wenn :math:`n` eine ungerade Zahl ist.
     Für Wurzeln mit geradzahligen :math:`n` erfüllt neben :math:`x =
     \sqrt[n]{a}` auch :math:`x = - \sqrt[n]{a}` die Bedingung :math:`a = x^n`.
-    In diesem Fall heben sich beim Potenzieren, d.h. beim mehrfachen Multiplizieren,
-    die negativen Vorzeichen paarweise gegenseitig auf. (Siehe auch
-    :ref:`Rechenregeln für Potenzen <Rechenregeln für Potenzen mit gleichen
+    In diesem Fall heben sich beim Potenzieren, d.h. beim mehrfachen
+    Multiplizieren, die negativen Vorzeichen paarweise gegenseitig auf. (Siehe
+    auch :ref:`Rechenregeln für Potenzen <Rechenregeln für Potenzen mit gleichen
     Exponenten>`)
 

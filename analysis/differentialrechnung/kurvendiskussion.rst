@@ -67,7 +67,7 @@ diesen Stellen zu bestimmen.
 
   .. math::
 
-      \lim _{x \to +\infty} \left( \frac{x^4 - 3 \cdot x^3 + 2 \cdot x^2}{2
+      \lim_{x \to +\infty} \left( \frac{x^4 - 3 \cdot x^3 + 2 \cdot x^2}{2
       \cdot x} \right) = + \infty
 
   Für sehr große negative :math:`x`-Werte geht die Funktion gegen minus
@@ -77,7 +77,7 @@ diesen Stellen zu bestimmen.
 
   .. math::
 
-      \lim _{x \to -\infty} \left( \frac{x^4 - 3 \cdot x^3 + 2 \cdot x^2}{2
+      \lim_{x \to -\infty} \left( \frac{x^4 - 3 \cdot x^3 + 2 \cdot x^2}{2
       \cdot x} \right) = - \infty
 
   Die Funktion hat zudem :math:`x=0` als Definitionslücke. Um die Grenzwerte
@@ -88,8 +88,8 @@ diesen Stellen zu bestimmen.
 
   .. math::
 
-      \lim _{x \to 0} \left( \frac{x^4 - 3 \cdot x^3 + 2 \cdot x^2}{2 \cdot x}
-      \right) = \lim _{x \to 0} \left( x^3 - 3 \cdot x^2 + 2 \cdot x\right) = 0
+      \lim_{x \to 0} \left( \frac{x^4 - 3 \cdot x^3 + 2 \cdot x^2}{2 \cdot x}
+      \right) = \lim_{x \to 0} \left( x^3 - 3 \cdot x^2 + 2 \cdot x\right) = 0
 
   Sowohl für sehr kleine negative wie für sehr kleine positive :math:`x`-Werte
   gehen alle Terme beim betrachteten Grenzwert gegen Null. Da der linksseitige
@@ -114,8 +114,8 @@ angewendet werden:
 
 .. math::
 
-    \lim _{x \to x_0} \frac{f_1(x)}{f_2(x)} = \frac{"0"}{"0"} \quad \Rightarrow
-    \quad \lim _{x \to x_0} \frac{f_1(x)}{f_2(x)} = \lim _{x \to x_0}
+    \lim_{x \to x_0} \frac{f_1(x)}{f_2(x)} = \frac{"0"}{"0"} \quad \Rightarrow
+    \quad \lim_{x \to x_0} \frac{f_1(x)}{f_2(x)} = \lim_{x \to x_0}
     \frac{f_1'(x)}{f_2'(x)}
 
 Für das oben genannte Beispiel :math:`f(x) = \frac{f_1(x)}{f_2(x)} =
@@ -138,13 +138,13 @@ dass in diesem Fall der Grenzwert gleich dem Quotienten der Ableitungen von
 sind und die Ableitung der Nennerfunktion an der Stelle :math:`x_0` nicht gleich
 Null ist.
 
-Die Regel von L'Hospital kann ebenfalls angewendet werden, wenn :math:`\lim _{x \to
-\infty} f_1(x) = \lim _{x \to \infty} f_2(x) = 0` ist:
+Die Regel von L'Hospital kann ebenfalls angewendet werden, wenn :math:`\lim_{x \to
+\infty} f_1(x) = \lim_{x \to \infty} f_2(x) = 0` ist:
 
 .. math::
 
-    \lim _{x \to \pm \infty} \frac{f_1(x)}{f_2(x)} = \frac{"0"}{"0"} \quad \Rightarrow \quad
-    \lim _{x \to \pm \infty} \frac{f_1(x)}{f_2(x)} = \lim _{x \to \pm \infty}
+    \lim_{x \to \pm \infty} \frac{f_1(x)}{f_2(x)} = \frac{"0"}{"0"} \quad \Rightarrow \quad
+    \lim_{x \to \pm \infty} \frac{f_1(x)}{f_2(x)} = \lim_{x \to \pm \infty}
     \frac{f_1'(x)}{f_2'(x)}
 
 Weiterhin gilt die Regel von L'Hospital auch, wenn die Grenzwerte von
@@ -153,11 +153,11 @@ Weiterhin gilt die Regel von L'Hospital auch, wenn die Grenzwerte von
 
 .. math::
 
-    \lim _{x \to x_0} \frac{f_1(x)}{f_2(x)} &= \frac{"\infty"}{"\infty"} \quad \Rightarrow
-    \quad \;\;\lim _{x \to x_0} \frac{f_1(x)}{f_2(x)} =
-    \;\;\lim _{x \to x_0} \frac{f_1'(x)}{f_2'(x)} \\[6pt]
-    \lim _{x \to \pm \infty} \frac{f_1(x)}{f_2(x)} &= \frac{"\infty"}{"\infty"} \quad \Rightarrow \quad
-    \lim _{x \to \pm \infty} \frac{f_1(x)}{f_2(x)} = \lim _{x \to \pm \infty}
+    \lim_{x \to x_0} \frac{f_1(x)}{f_2(x)} &= \frac{"\infty"}{"\infty"} \quad \Rightarrow
+    \quad \;\;\lim_{x \to x_0} \frac{f_1(x)}{f_2(x)} =
+    \;\;\lim_{x \to x_0} \frac{f_1'(x)}{f_2'(x)} \\[6pt]
+    \lim_{x \to \pm \infty} \frac{f_1(x)}{f_2(x)} &= \frac{"\infty"}{"\infty"} \quad \Rightarrow \quad
+    \lim_{x \to \pm \infty} \frac{f_1(x)}{f_2(x)} = \lim_{x \to \pm \infty}
     \frac{f_1'(x)}{f_2'(x)}
 
 Die Regel von L'Hospital ist somit in vielen Fällen nützlich, wenn ein
@@ -228,7 +228,7 @@ zugehörige Funktionswerte gleich Null sind, für die also :math:`f(x) = 0` gilt
 
   .. math::
 
-      x _{\rm{1,2}} = \frac{-b \pm \sqrt{b^2 - 4 \cdot a \cdot c}}{2 \cdot a} =
+      x_{\mathrm{1,2}} = \frac{-b \pm \sqrt{b^2 - 4 \cdot a \cdot c}}{2 \cdot a} =
       \frac{3 \pm \sqrt{9 - 4 \cdot (1 \cdot 2)}}{2} = \frac{3 \pm 1}{2}
 
   Die Funktion hat also die zwei Nullstellen :math:`x_1 = 1` und :math:`x_1 =
@@ -285,7 +285,7 @@ in die ursprüngliche Funktion :math:`f(x)`.
 
   .. math::
 
-      x _{\rm{3,4}} = \frac{-b \pm \sqrt{b^2 - 4 \cdot a \cdot c}}{2 \cdot a} =
+      x_{\mathrm{3,4}} = \frac{-b \pm \sqrt{b^2 - 4 \cdot a \cdot c}}{2 \cdot a} =
       \frac{6 \pm \sqrt{36 - 4 \cdot (3 \cdot 2)}}{6} = \frac{6 \pm \sqrt{12}}{6}
 
   Die Funktion besitzt also die zwei Extremstellen :math:`x_3 \approx 0,42` und

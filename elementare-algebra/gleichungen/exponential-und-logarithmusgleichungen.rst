@@ -23,7 +23,7 @@ Verwendung der folgenden Identität: [#]_
 
 .. math::
 
-    \log_{a}{a ^{x}} = x
+    \log_{\mathrm{a}}{a ^{x}} = x
 
 
 Durch das "Logarithmieren" einer Gleichung kann somit ein im Exponenten
@@ -87,14 +87,14 @@ können ausschließlich die Exponenten verglichen werden.
 
   .. math::
 
-      e ^{3 \cdot x} = e ^{x^2-10}\\
+      e^{3 \cdot x} = e^{x^2-10}\\
 
   Hierbei bezeichnet :math:`e \approx 2,718` die Eulersche Zahl. Das
   Logarithmieren beider Seiten führt auf folgende Gleichung:
 
   .. math::
 
-      \ln{e ^{3 \cdot x}} &= \ln{e ^{x^2 - 10}} \\
+      \ln{e^{3 \cdot x}} &= \ln{e^{x^2 - 10}} \\
       \Rightarrow 3 \cdot x &= x^2 - 10 \\
 
   Somit muss nur die sich ergebende quadratische Gleichung gelöst werden. Die
@@ -104,12 +104,13 @@ können ausschließlich die Exponenten verglichen werden.
   .. math::
 
       x^2 + 3 \cdot x - 10 &= 0  \\
-      \Rightarrow x _{\rm{1}} = -5 \quad &\text{und} \quad x _{\rm{2}} = 2{\color{white} \quad \ldots}
+      \Rightarrow x_1 = -5 \quad &\text{und} \quad x_2 = 2{\color{white} \quad \ldots}
 
   Die Lösungsmenge der Gleichung lautet somit :math:`\mathbb{L} = \{ -5,\; +2 \}`.
 
 
 .. index:: Logarithmusgleichung
+.. _Logarithmusgleichung:
 .. _Lösen von Logarithmusgleichungen:
 
 .. rubric:: Lösen von Logarithmusgleichungen
@@ -120,7 +121,7 @@ näherungsweise unter Verwendung von Computerprogrammen lösbar.
 
 Logarithmusgleichungen sind -- ebenso wie Exponentialgleichungen -- nur dann
 unter Verwendung eines üblichen Taschenrechners lösbar, wenn auf beiden Seiten
-ausschließlich konstante Terme oder Terme der Form :math:`\log_{a}{T(x)}`
+ausschließlich konstante Terme oder Terme der Form :math:`\log_{\mathrm{a}}{T(x)}`
 auftreten, wobei :math:`a` die Basis des Logarithmus bezeichnet und :math:`T(x)`
 für einen beliebigen, von der Variablen :math:`x` abhängigen Term steht.
 
@@ -132,7 +133,7 @@ folgenden Identität: [#]_
 
 .. math::
 
-    a ^{\log_{a}{x}} = x
+    a ^{\log_{\mathrm{a}}{x}} = x
 
 Durch das "Exponenzieren" einer Gleichung kann somit ein im Argument eines
 Logarithmus stehender, von der Variablen :math:`x` abhängiger Term in einen
@@ -166,15 +167,25 @@ vereinfacht und ausgewertet werden.
 
     .. rubric:: Anmerkungen:
 
-.. [#] Der Logarithmus :math:`\log_{a}{a^x}` ist gleich derjenigen Zahl, mit
-    der man :math:`a` potenzieren muss, um :math:`a^x` zu erhalten.
+.. [#] Der Logarithmus :math:`\log_{\mathrm{a}}{a^x}` ist gleich derjenigen
+    Zahl, mit der man :math:`a` potenzieren muss, um :math:`a^x` zu erhalten.
     Offensichtlich muss man :math:`a` mit :math:`x` potenzieren, um :math:`a^x`
-    zu erhalten. Somit ist :math:`x=\log_{a}{a^x}` für jede frei wählbare Basis
-    :math:`a` und beliebige Werte der Variablen :math:`x`.
-.. [#] Der Logarithmus :math:`\log_{a}{x}` ist gleich derjenigen Zahl, mit
+    zu erhalten. Somit ist :math:`x=\log_{\mathrm{a}}{a^x}` für jede frei
+    wählbare Basis :math:`a` und beliebige Werte der Variablen :math:`x`.
+
+.. [#] Der Logarithmus :math:`\log_{\mathrm{a}}{x}` ist gleich derjenigen Zahl, mit
     der man :math:`a` potenzieren muss, um :math:`x` zu erhalten. Offensichtlich
     erhält man somit :math:`x`, wenn man :math:`a` mit dieser Zahl potenziert.
-    Somit gilt :math:`x = a^{\log_{a}{x}}` für jede frei wählbare Basis
+    Somit gilt :math:`x = a^{\log_{\mathrm{a}}{x}}` für jede frei wählbare Basis
     :math:`a` und beliebige Werte der Variablen :math:`x`.
+
+.. raw:: html
+
+    <hr />
+
+.. hint::
+
+    Zu diesem Abschnitt gibt es :ref:`Übungsaufgaben <Aufgaben Exponential- und
+    Logarithmusgleichungen>`.
 
 

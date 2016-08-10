@@ -4,6 +4,7 @@
 Ableitungen von ganz- und gebrochenrationalen Funktionen
 ========================================================
 
+
 .. _Ableitungen von ganzrationalen Funktionen:
 
 Ableitungen von ganzrationalen Funktionen
@@ -13,8 +14,9 @@ Eine ganzrationale Funktion hat allgemein folgende Form:
 
 .. math::
 
-    f(x) = \sum_{i=0}^{n} a_i \cdot x^i = a _{\rm{n}} \cdot x^n + a
-    _{\rm{n-1}} \cdot x ^{n-1} + \ldots + a_3 \cdot x^3 + a_2 \cdot x^2 + a_1 \cdot x^1 + a_0
+    f(x) = \sum_{i=0}^{n} a_i \cdot x^i = a_{\mathrm{n}} \cdot x^n +
+    a_{\mathrm{n-1}} \cdot x ^{n-1} + \ldots + a_3 \cdot x^3 + a_2 \cdot x^2 +
+    a_1 \cdot x^1 + a_0
 
 Um die Ableitung einer solchen Funktion zu bestimmen, müssen folgende zwei
 Ableitungsregeln verwendet werden:
@@ -45,7 +47,7 @@ Ableitung einer ganzrationalen Funktion :math:`n`-ten Grades:
 
 .. math::
 
-    f'(x) = n \cdot a_n \cdot x ^{n-1} + (n-1) \cdot a _{\rm{n-1}} \cdot x
+    f'(x) = n \cdot a_n \cdot x ^{n-1} + (n-1) \cdot a_{\mathrm{n-1}} \cdot x
     ^{n-2} + \ldots + 3 \cdot a_3 \cdot x^2 + 2 \cdot a_2 \cdot x^1 + a_1
 
 Die Ableitung einer ganzrationalen Funktion :math:`n`-ten Grades ist somit eine
@@ -55,8 +57,9 @@ niedriger. Für die zweite Ableitung gilt entsprechend:
 
 .. math::
 
-    f''(x) = n \cdot (n-1) \cdot a_n \cdot x ^{n-2} + (n-1) \cdot (n-2) \cdot a _{\rm{n-1}} \cdot x
-    ^{n-3} + \ldots + 3 \cdot 2 \cdot a_3 \cdot x^1 + 2 \cdot a_2
+    f''(x) = n \cdot (n-1) \cdot a_n \cdot x ^{n-2} + (n-1) \cdot (n-2) \cdot
+    a_{\mathrm{n-1}} \cdot x^{n-3} + \ldots + 3 \cdot 2 \cdot a_3 \cdot x^1 + 2
+    \cdot a_2
 
 Insgesamt lässt sich eine ganzrationale Funktion :math:`n`-ten Grades also
 :math:`n` mal ableiten; alle weiteren Ableitungen sind gleich Null.
@@ -72,9 +75,10 @@ allgemein folgende Form:
 .. math::
 
     f(x) = \frac{Z(x)}{N(x)} = \frac{\sum_{i=0}^{n} a_i \cdot x^i}{\sum_{k=0}^{m}
-    b_k \cdot x^k} = \frac{a _{\rm{n}} \cdot x^n + a _{\rm{n-1}} \cdot x ^{n-1}
-    +\ldots + a_2 \cdot x^2 + a_1 \cdot x + a_0}{b _{\rm{m}} \cdot x^m + b
-    _{\rm{m-1}} \cdot x ^{m-1} + \ldots + b_2 \cdot x^2 + b_1 \cdot x + a_0}
+    b_k \cdot x^k} = \frac{a_{\mathrm{n}} \cdot x^n + a_{\mathrm{n-1}} \cdot x
+    ^{n-1} +\ldots + a_2 \cdot x^2 + a_1 \cdot x + a_0}{b_{\mathrm{m}} \cdot x^m
+    +b_{\mathrm{m-1}} \cdot x ^{m-1} + \ldots + b_2 \cdot x^2 + b_1 \cdot x +
+    a_0}
 
 Gebrochenrationale Funktionen bestehen also aus einem Zählerpolynom :math:`Z(x)`
 mit Grad :math:`n` und einem Nennerpolynom :math:`N(x)` mit Grad :math:`m`; die
@@ -108,6 +112,9 @@ Echt gebrochen-rationale Funktionen mit :math:`n < m` lassen sich somit
 unbegrenzt oft ableiten, wobei die einzelnen Ableitungen niemals gleich Null
 sind.
 
+
+.. _Ableitungen von Hyperbelfunktionen:
+
 .. rubric:: Ableitungen von Hyperbelfunktionen
 
 :ref:`Hyperbeln <Hyperbeln>`, also Funktionen der Form :math:`f(x) =
@@ -116,9 +123,9 @@ Funktionen. Für ihre Ableitung gilt:
 
 .. math::
 
-    \left( \frac{1}{x^n}\right)' = \frac{0 \cdot x^n - n \cdot x ^{n-1} \cdot 1}{\left(x ^{n}\right)^2}
-    = \frac{- n \cdot x ^{n-1}}{x ^{2 \cdot n}} = - n \cdot x ^{(n-1) - 2 \cdot
-    n} = -n \cdot x ^{-n -1}
+    \left( \frac{1}{x^n}\right)' = \frac{0 \cdot x^n - n \cdot x ^{n-1} \cdot
+    1}{\left(x ^{n}\right)^2} = \frac{- n \cdot x ^{n-1}}{x ^{2 \cdot n}} = - n
+    \cdot x ^{(n-1) - 2 \cdot n} = -n \cdot x ^{-n -1}
 
 Schreibt man für die Hyperbelfunktion :math:`f(x) = \frac{1}{x^n} = x ^{-n}`,
 so zeigt sich, dass die Ableitungen entsprechend der :ref:`Ableitungsregel für

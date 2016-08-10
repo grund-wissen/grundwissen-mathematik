@@ -4,17 +4,17 @@ Algebraische Strukturen
 =======================
 
 Fasst man eine Menge :math:`\mathbb{M}` und eine Relation :math:`R` zu einem
-geordneten Paar :math:`[\mathbb{M} ;\; R ]` zusammen, so wird dadurch
+geordneten Paar :math:`[\mathbb{M} ;\; R]` zusammen, so wird dadurch
 dargestellt, dass die Relation :math:`R` in der Menge :math:`\mathbb{M}` erklärt
 ist. Entsprechend bedeutet :math:`[ \mathbb{M} ;\; \mathrm{Op}]`, dass in der Menge
-:math:`\mathbb{M}` die Operation :math:`\rm{Op}` erklärt ist. In beiden Fällen
+:math:`\mathbb{M}` die Operation :math:`\mathrm{Op}` erklärt ist. In beiden Fällen
 spricht man von einer (algebraischen) Struktur.
 
 Bildet man nach dem gleichen Prinzip ein geordnetes Paar :math:`[\mathbb{M} ;\;
-R _{\rm{1}} ,\, \ldots ,\, R _{\rm{n}} ;\; \mathrm{Op} _{\rm{1}} ,\, \ldots ,\,
-\mathrm{Op} _{\rm{n}} ]`, das aus einer nichtleeren "Trägermenge"
-:math:`\mathbb{M}` sowie den Relationen :math:`R _{\rm{1}} ,\, \ldots ,\, R
-_{\rm{n}}` und den Operationen :math:`\mathrm{Op} _{\rm{1}} ,\, \ldots ,\, \mathrm{Op} _{\rm{n}}`
+R_1 ,\, \ldots ,\, R _{\mathrm{n}} ;\; \mathrm{Op}_1 ,\, \ldots ,\, \mathrm{Op}
+_{\mathrm{n}}]`, das aus einer nichtleeren "Trägermenge" :math:`\mathbb{M}`
+sowie den Relationen :math:`R_1 ,\, \ldots ,\, R_{\mathrm{n}}` und den
+Operationen :math:`\mathrm{Op}_1 ,\, \ldots ,\, \mathrm{Op} _{\mathrm{n}}`
 besteht, so spricht man von einem (algebraischen) Bereich.
 
 Trotz des begrifflichen Unterschieds ist es üblich, einen Bereich und seine

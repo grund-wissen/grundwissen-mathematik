@@ -138,7 +138,7 @@ Umkehrfunktion der :math:`n`-ten Potenzfunktion :math:`y = x^n`, da gilt:
 
 .. math::
 
-    x = f _{\rm{U}}(y) = \sqrt[n]{x^n} = x ^{\frac{n}{n}} = x^1 = x
+    x = f_{\mathrm{U}}(y) = \sqrt[n]{x^n} = x ^{\frac{n}{n}} = x^1 = x
 
 .. figure:: ../../pics/analysis/wurzelfunktionen.png
     :width: 60%
@@ -167,7 +167,7 @@ Spiegelung der jeweiligen Potenzfunktion :math:`x^n` an der Geraden :math:`y=x`.
     .. rubric:: Anmerkungen:
 
 .. [#] Steht eine Potenzfunktion in Betragszeichen, ist also :math:`f(x) =
-    |x^n|`, so ist diese Funktion in jedem Fall gerade, da mögliche negative
+    | x^n|`, so ist diese Funktion in jedem Fall gerade, da mögliche negative
     Vorzeichen von Funktionswerten dadurch aufgehoben werden (siehe
     beispielsweise Abbildung :ref:`Betragsfunktion <fig-betragsfunktion>`).
 

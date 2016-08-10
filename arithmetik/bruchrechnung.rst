@@ -28,8 +28,8 @@ der Zähler :math:`z` wie auch der Nenner :math:`n` mit dem gleichen Faktor
 
 Ein Bruchterm lässt sich ebenso in umgekehrter Weise vereinfachen ("kürzen"),
 wenn sowohl der Zählerterm wie auch der Nennerterm einen gleichen Faktor
-:math:`c` (oder mehrere gleiche Faktoren :math:`c _{\rm{1}}`, :math:`c
-_{\rm{2}}` usw.) beinhalten.
+:math:`c` (oder mehrere gleiche Faktoren :math:`c_1`, :math:`c_2` usw.)
+beinhalten.
 
 *Beispiele:*
 
@@ -37,8 +37,7 @@ _{\rm{2}}` usw.) beinhalten.
 
     {\color{white} \ldots \qquad \qquad \quad \; }\frac{3 \cdot a^2 \cdot b }{9 \cdot b^3 }
     &= \frac{3 \cdot b \cdot \;\; a^2 \phantom{\;\;}}{3
-    \cdot b \cdot 3 \cdot b^2} = \frac{ a^2
-    }{ 3 \cdot b^2} \\[15pt]
+    \cdot b \cdot 3 \cdot b^2} = \frac{a^2}{3 \cdot b^2} \\[15pt]
     \frac{a^2 -1}{(a + 1)^2 } &= \frac{(a+1) \cdot (a-1)}{(a+1) \cdot (a+1)} =
     \frac{(a-1)}{(a+1)}
 
@@ -53,7 +52,7 @@ hilfreich sein:
   des Nenners auftretender Faktor ausgeklammert werden. Eine Summe kann damit
   als Produkt zweier Faktoren geschrieben werden.
 * Jede Summe :math:`a + b` kann, sofern man sie in Klammern setzt, ebenfalls als
-  einzelner Faktor :math:`1 \cdot (a+b)` angesehen werden. [#DG]_ Somit gilt
+  einzelner Faktor :math:`1 \cdot (a+b)` angesehen werden. [#]_ Somit gilt
   beispielsweise:
 
   .. math::
@@ -80,42 +79,38 @@ Grundrechenarten <Rechengesetze für die Grundrechenarten>` in gleicher Form auc
 für Bruchterme. Als Besonderheit muss dabei stets darauf geachtet werden, dass der
 Nennerterm nicht den Wert Null annehmen darf.
 
-Für :math:`n _{\rm{1}} ,\, n _{\rm{2}} ,\, n _{\rm{3}} \ne 0` gilt:
+Für :math:`n_1 ,\, n_2 ,\, n_3 \ne 0` gilt:
 
 * Kommutativgesetz:
 
   .. math::
 
-      \frac{z _{\rm{1}}}{n _{\rm{1}}} + \frac{z _{\rm{2}}}{n _{\rm{2}}} &=
-      \frac{z _{\rm{2}}}{n _{\rm{2}}} + \frac{z _{\rm{1}}}{n _{\rm{1}}} {\color{white} \qquad \! \ldots}
+      \frac{z_1}{n_1} + \frac{z_2}{n_2} &=
+      \frac{z_2}{n_2} + \frac{z_1}{n_1} {\color{white} \qquad \! \ldots}
       \\[2pt]
-      \frac{z _{\rm{1}}}{n _{\rm{1}}} \, \cdot \; \frac{z _{\rm{2}}}{n _{\rm{2}}} &=
-      \frac{z _{\rm{2}}}{n _{\rm{2}}} \; \cdot \, \frac{z _{\rm{1}}}{n _{\rm{1}}}
+      \frac{z_1}{n_1} \, \cdot \; \frac{z_2}{n_2} &=
+      \frac{z_2}{n_2} \; \cdot \, \frac{z_1}{n_1}
 
 
 * Assoziativgesetz:
 
   .. math::
 
-      \frac{z _{\rm{1}}}{n _{\rm{1}}} + \left( \frac{z _{\rm{2}}}{n
-      _{\rm{2}}} + \frac{z _{\rm{3}}}{n _{\rm{3}}} \right) &= \left( \frac{z
-      _{\rm{1}}}{n _{\rm{1}}} + \frac{z _{\rm{2}}}{n _{\rm{2}}}\right) + \frac{z
-      _{\rm{3}}}{n _{\rm{3}}} {\color{white} \qquad \ldots} \\[2pt]
-      \frac{z _{\rm{1}}}{n _{\rm{1}}} \, \cdot \; \left( \frac{z _{\rm{2}}}{n
-      _{\rm{2}}} \, \cdot \; \frac{z _{\rm{3}}}{n _{\rm{3}}} \right) &= \left( \frac{z
-      _{\rm{1}}}{n _{\rm{1}}} \, \cdot \; \frac{z _{\rm{2}}}{n _{\rm{2}}}\right)
-      \; \cdot \, \frac{z _{\rm{3}}}{n _{\rm{3}}}
+      \frac{z_1}{n_1} + \left( \frac{z_2}{n_2} + \frac{z_3}{n_3} \right)
+      &= \left( \frac{z_1}{n_1} + \frac{z_2}{n_2}\right) + \frac{z_3}{n_3}
+      {\color{white} \qquad \ldots} \\[2pt]
+      \frac{z_1}{n_1} \, \cdot \; \left( \frac{z_2}{n_2} \, \cdot \;
+      \frac{z_3}{n_3} \right) &= \left( \frac{z_ 1}{n_1} \, \cdot \;
+      \frac{z_2}{n_2}\right) \; \cdot \, \frac{z_3}{n_3}
 
 * Distributivgesetz:
 
   .. math::
 
-      \frac{z _{\rm{1}}}{n _{\rm{1}}} \cdot \left( \frac{z _{\rm{2}}}{n
-      _{\rm{2}}} + \frac{z _{\rm{3}}}{n _{\rm{3}}} \right) = \frac{z
-      _{\rm{1}}}{n _{\rm{1}}} \cdot \frac{z _{\rm{2}}}{n _{\rm{2}}} + \frac{z
-      _{\rm{1}}}{n _{\rm{1}}} \cdot \frac{z _{\rm{3}}}{n _{\rm{3}}} = \left(
-      \frac{z _{\rm{2}}}{n _{\rm{2}}} + \frac{z _{\rm{3}}}{n _{\rm{3}}} \right)
-      \cdot \frac{z _{\rm{1}}}{n _{\rm{1}}}{\color{white} \qquad \ldots}
+      \frac{z_1}{n_1} \cdot \left( \frac{z_2}{n_2} + \frac{z_3}{n_3}
+      \right) = \frac{z_1}{n_1} \cdot \frac{z_2}{n_2} + \frac{z_1}{n_1}
+      \cdot \frac{z_3}{n_3} = \left(\frac{z_2}{n_2} + \frac{z_3}{n_3}
+      \right) \cdot \frac{z_1}{n_1}{\color{white} \qquad \ldots}
 
 Auf weitere Besonderheiten, die sich bei der Verknüpfung von Bruchtermen durch
 die vier Grundrechenarten ergeben, wird in den folgenden Abschnitten näher
@@ -135,10 +130,8 @@ Dabei werden die Zählerterme addiert, der Nennerterm bleibt unverändert:
 .. math::
     :label: eqn-bruch-addition
 
-    \frac{z _{\rm{1}}}{n} + \frac{z _{\rm{2}}}{n} = \frac{z _{\rm{1}} + z
-    _{\rm{2}}}{n} \\[2pt]
-    \frac{z _{\rm{1}}}{n} - \frac{z _{\rm{2}}}{n} = \frac{z _{\rm{1}} - z
-    _{\rm{2}}}{n}
+    \frac{z_1}{n} + \frac{z_2}{n} = \frac{z_1 + z_2}{n} \\[2pt]
+    \frac{z_1}{n} - \frac{z_2}{n} = \frac{z_1 - z_2}{n}
 
 
 ..  Durch das Plus-Minus-Zeichen :math:`\pm` kann die obige Gleichung sowohl die
@@ -154,7 +147,7 @@ möglich ist. Hierzu empfiehlt es sich, zunächst die Nennerterme vollständig i
 einzelne Faktoren zu zerlegen. Von jedem Faktor, der in mindestens einem der
 Nenner vorkommt, wählt man anschließend die jeweils höchste Potenz aus und
 multipliziert diese Faktoren miteinander. Auf diese Weise erhält man das
-kleinste gemeinsame Vielfache der Nennerterme :math:`(\rm{kgV})`, das auch als
+kleinste gemeinsame Vielfache der Nennerterme :math:`(\mathrm{kgV})`, das auch als
 "Hauptnenner" bezeichnet wird.
 
 *Beispiele:*
@@ -164,11 +157,11 @@ kleinste gemeinsame Vielfache der Nennerterme :math:`(\rm{kgV})`, das auch als
 
   .. math::
 
-      20 &= 2^2 \; \phantom{\cdot \; 3 ^{2} \cdot \; } \, \cdot \; 5
+      20 &= 2^2 \; \phantom{\cdot \; 3^2 \cdot \; } \, \cdot \; 5
       {\color{white} \qquad \qquad \ldots}\\
       30 &= 2\phantom{^2} \; \cdot \; 3 \phantom{^2}\; \cdot \; 5 \\
       45 &= \phantom{2^2} \; \cdot \; 3^{2} \; \cdot \; 5 \\
-      \rm{kgV} &= 2^2 \; \cdot \; 3^2 \; \cdot \; 5 \; =  \; 180
+      \mathrm{kgV} &= 2^2 \; \cdot \; 3^2 \; \cdot \; 5 \; =  \; 180
 
   Bei einem Ausmultiplizieren der einzelnen Zahlen ohne Faktorisierung und
   Bildung des kleinsten gemeinsamen Vielfachen würde sich ein gemeinsamer
@@ -184,7 +177,7 @@ kleinste gemeinsame Vielfache der Nennerterme :math:`(\rm{kgV})`, das auch als
       (4 \cdot a^2 - 6 \cdot a) &= \, 2 \cdot a \cdot  (2 \cdot a - 3) \\
       (4 \cdot a^2 - 9 ) &= \phantom{ 2 \cdot a \cdot \;\;} (2 \cdot a - 3) \cdot
       (2 \cdot a + 3)\\
-      \rm{kgV} & = \, 2 \cdot a \cdot (2 \cdot a - 3) \cdot (2 \cdot a + 3) = 8 \cdot
+      \mathrm{kgV} & = \, 2 \cdot a \cdot (2 \cdot a - 3) \cdot (2 \cdot a + 3) = 8 \cdot
       a^3 - 18 \cdot a
 
   Bei einem Ausmultiplizieren der einzelnen Terme ohne Faktorisierung und
@@ -203,19 +196,19 @@ erweitert und die Zählerterme nach obiger Gleichung addiert werden.
 .. rubric:: Multiplikation und Division von Bruchtermen
 
 Bruchterme lassen sich miteinander multiplizieren, indem man sowohl ihre Zähler
-als auch ihre Nenner miteinander multipliziert:
+als auch ihre Nenner miteinander multipliziert: [#]_
 
 .. math::
     :label: eqn-bruch-multiplikation
 
-    \frac{z _{\rm{1}}}{n _{\rm{1}}} \cdot \frac{z _{\rm{2}}}{n _{\rm{2}}} =
-    \frac{z _{\rm{1}} \cdot z _{\rm{2}}}{n _{\rm{1}} \cdot n _{\rm{2}}}
+    \frac{z_1}{n_1} \cdot \frac{z_2}{n_2} =
+    \frac{z_1 \cdot z_2}{n_1 \cdot n_2}
 
 Um das Ergebnis in einer möglichst vereinfachten Form vorliegen zu haben, ist
 es (vor dem Ausmultiplizieren) sinnvoll, sowohl die Zähler wie auch die Nenner
 beider Brüche vollständig in Faktoren zu zerlegen. Kürzt man im Zähler und
 Nenner anschließend alle gemeinsamen Teiler, so erhält man als Endergebnis
-einen nicht weiter zu vereinfachenden Bruch. [#GGT]_
+einen nicht weiter zu vereinfachenden Bruch. [#]_
 
 Bruchterme lassen sich durcheinander dividieren, indem man -- durch Vertauschen
 von Zähler und Nenner -- den Kehrbruch des Divisors bildet und eine
@@ -224,9 +217,9 @@ Multiplikation nach obigem Schema durchführt:
 .. math::
     :label: eqn-bruch-division
 
-    \frac{z _{\rm{1}}}{n _{\rm{1}}} : \frac{z _{\rm{2}}}{n _{\rm{2}}} =
-    \frac{z _{\rm{1}}}{n _{\rm{1}}} \cdot  \frac{n _{\rm{2}}}{z _{\rm{2}}} =
-    \frac{z _{\rm{1}} \cdot n _{\rm{2}}}{n _{\rm{1}} \cdot z _{\rm{2}}}
+    \frac{z_1}{n_1} : \frac{z_2}{n_2} =
+    \frac{z_1}{n_1} \cdot  \frac{n_2}{z_2} =
+    \frac{z_1 \cdot n_2}{n_1 \cdot z_2}
 
 Auch hierbei ist eine Faktorisierung von Zähler und Nenner hilfreich, um das
 Endergebnis in einer möglichst vereinfachten Form zu erhalten. Das gleiche
@@ -234,7 +227,7 @@ Verfahren kann genutzt werden, um so genannte Doppelbrüche aufzulösen:
 
 .. math::
 
-    \frac{ \frac{z_1}{n_1}}{\frac{z_2}{n_2}} = \frac{z_1}{n_1} : \frac{z_2}{n_2}
+    \frac{\frac{z_1}{n_1}}{\frac{z_2}{n_2}} = \frac{z_1}{n_1} : \frac{z_2}{n_2}
     = \frac{z_1}{n_1} \cdot \frac{n_2}{z_2}
 
 .. todo Doppelbrüche
@@ -313,16 +306,39 @@ Kleinere Mengenangaben werden häufig in Tausendstel (Promille) oder Millionstel
 
     .. rubric:: Anmerkungen:
 
-.. [#DG] Hier wird wiederum das Distributivgesetz genutzt: Da für jede reelle
+
+.. [#] Hier wird wiederum das Distributivgesetz genutzt: Da für jede reelle
     Zahl :math:`a` die Beziehung :math:`a = 1 \cdot a` gilt, kann die :math:`1`
     jederzeit als gemeinsamer Faktor einer beliebigen Summe ausgeklammert
     werden.
 
-.. [#GGT] Das Produkt aller gemeinsamen Teiler wird bisweilen auch als größter
-    gemeinsamer Teiler :math:`(\rm{ggT})` bezeichnet. Die explizite Berechnung des
-    :math:`\rm{ggT}` ist meist nicht erforderlich; die Aussage, dass sich durch
+.. [#] Insbesondere kann ein Bruch :math:`\frac{z}{n}` mit einer ganzen Zahl
+    :math:`a` multipliziert werden, indem der Zähler :math:`z` mit dieser Zahl
+    multiplizert wird:
+
+    .. math::
+
+        a \cdot \frac{z}{n} = \frac{a}{1} \cdot \frac{z}{n} = \frac{a \cdot z}{1
+        \cdot n} = \frac{a \cdot z}{n}
+
+   Hierbei wird berücksichtigt, dass ein Zahlenwert unverändert bleibt, wenn man
+   ihn durch :math:`1` dividiert. Wendet man dann die Rechenregel für die
+   Multiplikation zweier Brüche an, so bleibt der Nenner gleich, da auch
+   eine Multiplikation mit :math:`1` den Wert einer Zahl nicht ändert.
+
+.. [#] Das Produkt aller gemeinsamen Teiler wird bisweilen auch als größter
+    gemeinsamer Teiler :math:`(\mathrm{ggT})` bezeichnet. Die explizite Berechnung des
+    :math:`\mathrm{ggT}` ist meist nicht erforderlich; die Aussage, dass sich durch
     Kürzen des größten gemeinsamen Teilers von Zähler und Nenner ein nicht
     weiter zu vereinfachender Bruch ergibt, gilt jedoch allgemein.
+
+.. raw:: html
+
+    <hr />
+
+.. hint::
+
+    Zu diesem Abschnitt gibt es :ref:`Übungsaufgaben <Aufgaben Bruchrechnung>`.
 
 
 

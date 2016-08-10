@@ -9,9 +9,9 @@ Allgemeine Eigenschaften
 ------------------------
 
 Dreiecke bestehen aus den Verbindungsstrecken zwischen drei Punkten
-:math:`\rm{A}`, :math:`\rm{B}` und :math:`\rm{C}`, die nicht auf einer
-gemeinsamen Geraden liegen. Die den Punkten jeweils gegenüber liegenden Strecken
-werden kurz als :math:`a`, :math:`b` und :math:`c`, die Innenwinkel als
+:math:`\mathrm{A}`, :math:`\mathrm{B}` und :math:`\mathrm{C}`, die nicht auf
+einer gemeinsamen Geraden liegen. Die den Punkten jeweils gegenüber liegenden
+Strecken werden kurz als :math:`a`, :math:`b` und :math:`c`, die Innenwinkel als
 :math:`\alpha`, :math:`\beta` und :math:`\gamma` bezeichnet. Die Nebenwinkel
 :math:`\alpha ^{*}`, :math:`\beta ^{*}` und :math:`\gamma ^{*}` der Innenwinkel
 heißen Außenwinkel.
@@ -29,8 +29,8 @@ heißen Außenwinkel.
         :download:`SVG: Allgemeines Dreieck
         <../../pics/geometrie/dreieck-allgemein.svg>`
 
-Legt man durch :math:`\rm{C}` eine Parallele zu Strecke
-:math:`\overline{\rm{AB}}`, so sind :math:`\alpha` und :math:`\alpha'` sowie
+Legt man durch :math:`\mathrm{C}` eine Parallele zu Strecke
+:math:`\overline{\mathrm{AB}}`, so sind :math:`\alpha` und :math:`\alpha'` sowie
 :math:`\beta` und :math:`\beta'` als :ref:`Wechselwinkel <Stufenwinkel und
 Wechselwinkel>` gleich groß. Gemeinsam mit dem Winkel :math:`\gamma` bilden
 :math:`\alpha'` und :math:`\beta'` einen :math:`180 \degree`-Winkel. Die Summe
@@ -83,7 +83,8 @@ Weiterhin gelten in allen Dreiecken drei weitere Beziehungen:
 
   .. math::
 
-      | a - b | < c \!\quad ; \quad\!\! | b - c | < a \!\!\quad ; \quad\! | c - a | < b
+      | a - b | < c \!\quad ; \quad\!\! | b - c | < a \!\!\quad ; \quad\! | c -
+      a | < b
 
 
 * | In jedem Dreieck liegen die größeren Seiten den größeren Winkeln gegenüber.
@@ -100,8 +101,8 @@ Weiterhin gelten in allen Dreiecken drei weitere Beziehungen:
 Kongruenz und Ähnlichkeit
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Zwei Dreiecke sind dann :ref:`kongruent <Kongruenzabbildungen>`, wenn sie eine der folgenden Bedingungen
-erfüllen:
+Zwei Dreiecke sind dann :ref:`kongruent <Kongruenzabbildungen>`, wenn sie eine
+der folgenden Bedingungen erfüllen:
 
 * Übereinstimmung dreier Seiten (SSS)
 * Übereinstimmung zweier Seiten und dem von ihnen eingeschlossenen Winkel (SWS)
@@ -115,8 +116,8 @@ Die obigen Kongruenzbedingungen werden einerseits für geometrische Beweise
 genutzt, können jedoch auch zur eindeutigen Festlegung von Dreiecken verwendet
 werden.
 
-Zwei Dreiecke sind dann einander :ref:`ähnlich <Ähnlichkeitsabbildungen>`, wenn sie eine der folgenden
-Bedingungen erfüllen:
+Zwei Dreiecke sind dann einander :ref:`ähnlich <Ähnlichkeitsabbildungen>`, wenn
+sie eine der folgenden Bedingungen erfüllen:
 
 * Gleiche Längenverhältnisse aller drei Seiten
 * Gleiche Längenverhältnisse zweier Seiten und Übereinstimmung des von ihnen
@@ -148,7 +149,7 @@ genannt wird.
 
 Verbindet man jeden Eckpunkt mit dem Mittelpunkt der gegenüber liegenden
 Dreiecksseite, so schneiden sich diese "Seitenhalbierenden" in einem gemeinsamen
-Punkt :math:`\rm{S}`, der Schwerpunkt des Dreiecks genannt wird.
+Punkt :math:`\mathrm{S}`, der Schwerpunkt des Dreiecks genannt wird.
 
 .. figure:: ../../pics/geometrie/dreieck-schwerpunkt.png
     :width: 30%
@@ -168,9 +169,9 @@ Es bestehen also folgende Proportionen:
 
 .. math::
 
-    \frac{\overline{\rm{AS}}}{\overline{\rm{SM_a}}} =
-    \frac{\overline{\rm{BS}}}{\overline{\rm{SM_b}}} =
-    \frac{\overline{\rm{CS}}}{\overline{\rm{SM_c}}} = \frac{2}{1}
+    \frac{\overline{\mathrm{AS}}}{\overline{\mathrm{SM_a}}} =
+    \frac{\overline{\mathrm{BS}}}{\overline{\mathrm{SM_b}}} =
+    \frac{\overline{\mathrm{CS}}}{\overline{\mathrm{SM_c}}} = \frac{2}{1}
 
 
 .. _Mittelpunkt:
@@ -180,7 +181,7 @@ Es bestehen also folgende Proportionen:
 Zeichnet man auf jeder Dreeicksseite den Mittelpunkt ein und konstruiert
 ausgehend von diesem eine senkrechte Gerade zur jeweiligen Dreiecksseite, so
 schneiden sich diese "Mittelsenkrechten" in einem gemeinsamen Punkt
-:math:`\rm{M}`. Dieser Punkt wird Mittelpunkt des Dreeicks genannt und ist der
+:math:`\mathrm{M}`. Dieser Punkt wird Mittelpunkt des Dreeicks genannt und ist der
 Mittelpunkt des so genannten Umkreises, also des Kreises, der durch alle
 Eckpunkte des Dreiecks verläuft.
 
@@ -203,7 +204,7 @@ Eckpunkte des Dreiecks verläuft.
 .. rubric:: Der Mittelpunkt des Inkreises
 
 Konstruiert man zu jedem Innenwinkel eines Dreiecks die Winkelhalbierende, so
-schneiden sich diese in einem gemeinsamen Punkt :math:`\rm{W}`. Dieser ist
+schneiden sich diese in einem gemeinsamen Punkt :math:`\mathrm{W}`. Dieser ist
 zugleich der Mittelpunkt des Inkreises, also des Kreises, der alle Strecken des
 Dreiecks berührt.
 
@@ -253,8 +254,8 @@ Gleichseitiges Dreieck
 ^^^^^^^^^^^^^^^^^^^^^^
 
 In einem gleichseitigen Dreieck besitzen alle Seiten die gleiche Länge. Alle
-Winkel betragen :math:`60°`, die besonderen Punkte :math:`\rm{S}`,
-:math:`\rm{M}`, :math:`\rm{W}` und :math:`\rm{H}` sind in einem Punkt vereint.
+Winkel betragen :math:`60°`, die besonderen Punkte :math:`\mathrm{S}`,
+:math:`\mathrm{M}`, :math:`\mathrm{W}` und :math:`\mathrm{H}` sind in einem Punkt vereint.
 
 
 .. figure:: ../../pics/geometrie/dreieck-gleichseitig.png
@@ -366,7 +367,7 @@ kleineren Quadrate :math:`a^2` und :math:`b^2` sind mit dem großen Quadrat
 :math:`c^2` flächengleich.
 
 .. figure:: ../../pics/geometrie/dreieck-rechtwinklig-pythagoras.png
-    :width: 80%
+    :width: 40%
     :align: center
     :name: fig-dreieck-rechtwinklig-pythagoras
     :alt:  fig-dreieck-rechtwinklig-pythagoras
@@ -387,12 +388,12 @@ nach der Länge der Verbindungslinie :math:`c` auf, so ergibt sich
 
     a^2 + b^2 = c^2 \quad \Longleftrightarrow \quad c = \sqrt{a^2 + b^2}
 
-Liegen die Eckpunkte :math:`\rm{A}` und :math:`\rm{B}` exakt um
+Liegen die Eckpunkte :math:`\mathrm{A}` und :math:`\mathrm{B}` exakt um
 :math:`c=\sqrt{a^2 + b^2}` voneinander entfernt, so beträgt der Winkel zwischen
 :math:`a` und :math:`b` genau :math:`90°`.
 
 .. figure:: ../../pics/geometrie/dreieck-rechtwinklig-pythagoras-konstruktionshilfe.png
-    :width: 40%
+    :width: 30%
     :align: center
     :name: fig-dreieck-rechtwinklig-pythagoras-konstruktionshilfe
     :alt:  fig-dreieck-rechtwinklig-pythagoras-konstruktionshilfe
@@ -444,20 +445,20 @@ Im rechtwinkligen Dreieck gelten darüber hinaus zwei weitere Beziehungen:
 
 Diese beiden Gesetzmäßigkeiten wurden bereits von `Euklid
 <https://de.wikipedia.org/wiki/Euklid>`_ entdeckt. Sie beruhen darauf, dass die
-Dreiecke :math:`\rm{ABC}` und die beiden durch die Höhe :math:`h` entstehenden
-Dreiecke :math:`\rm{AH_cC}` und :math:`\rm{H_cBC}` zueinander ähnlich sind: Alle
+Dreiecke :math:`\mathrm{ABC}` und die beiden durch die Höhe :math:`h` entstehenden
+Dreiecke :math:`\mathrm{AH_cC}` und :math:`\mathrm{H_cBC}` zueinander ähnlich sind: Alle
 enthalten einen rechten Winkel und haben je eine Dreiecksseite gemeinsam, zudem
 haben alle Dreiecke wegen Gleichung :eq:`eqn-innenwinkel` den Winkel
 :math:`\alpha` gemeinsam.
 
 Aufgrund der Ähnlichkeit sind die Verhältnisse der Seitenlängen gleich, es gilt
-beispielsweise für die Dreiecke :math:`\rm{H_cCB}` und :math:`\rm{AH_cC}` das
+beispielsweise für die Dreiecke :math:`\mathrm{H_cCB}` und :math:`\mathrm{AH_cC}` das
 Längenverhältnis :math:`\frac{p}{h} = \frac{h}{q}`, das sich auch als :math:`h^2
 = p \cdot q` schreiben lässt und somit dem Höhensatz entspricht. Ebenso folgen
 die beiden Kathetensätze aus den Längenverhältnissen :math:`\frac{c}{a} =
-\frac{a}{q}` der Dreiecke :math:`\rm{ABC}` und :math:`\rm{H_cBC}` sowie
-:math:`\frac{c}{b} = \frac{b}{p}` der Dreiecke :math:`\rm{ABC}` und
-:math:`\rm{AH_cC}`.
+\frac{a}{q}` der Dreiecke :math:`\mathrm{ABC}` und :math:`\mathrm{H_cBC}` sowie
+:math:`\frac{c}{b} = \frac{b}{p}` der Dreiecke :math:`\mathrm{ABC}` und
+:math:`\mathrm{AH_cC}`.
 
 
 .. raw:: html
@@ -468,10 +469,10 @@ die beiden Kathetensätze aus den Längenverhältnissen :math:`\frac{c}{a} =
 
     .. rubric:: Anmerkungen:
 
-.. [#]  Gilt :math:`\alpha = \beta = 45°`, so spricht man von einem
+.. [#] Gilt :math:`\alpha = \beta = 45°`, so spricht man von einem
     gleichschenklig-rechtwinkligen Dreieck.
 
-.. [#]  Da die Seiten :math:`a` und :math:`b` senkrecht aufeinander stehen,
+.. [#] Da die Seiten :math:`a` und :math:`b` senkrecht aufeinander stehen,
     stellen sie gegenseitig Basislinie und Höhe dar.
 
 .. [#] Der Kathetensatz von Euklid beinhaltet auch den Satz von Pythagoras.

@@ -20,6 +20,9 @@ Dabei werden allgemein folgende Schritt durchlaufen:
   oder Abhängigkeiten zwischen mehreren Größen untersucht werden.
 * Zuletzt können die Ergebnisse der Analyse interpretiert werden.
 
+.. Statistische Grundbegriffe
+.. --------------------------
+
 
 ..  Um Daten bearbeiten und auswerten zu können, brauchst Du zunächst Daten, die
 ..  noch nicht bearbeitet sind. Solche Daten bezeichnet man überlicherweise als "UrListe"
@@ -58,15 +61,15 @@ somit nicht nur Träger des Untersuchungsmerkmals sein, sondern auch
 
 Die Mächtigkeit :math:`n = |G|` der Grundgesamtheit ist gleich der Anzahl ihrer
 Objekte. In Tabellen werden die einzelnen zu untersuchenden Merkmale häufig
-einem Buchstaben :math:`\rm{A},\, \rm{B}\, \ldots` zugeordnet, die einzelnen zu
+einem Buchstaben :math:`\mathrm{A},\, \mathrm{B}\, \ldots` zugeordnet, die einzelnen zu
 einem jeweiligen Merkmalsträger gehörenden Merkmalswerte werden zeilenweise
 durchnummeriert und in der jeweiligen Spalte eingetragen.
 
 .. Die einzelnen Objekte werden üblicherweise mit einem
-.. Unterscheidungszeichen ("Schlüssel") :math:`\varepsilon _{\rm{i}}` versehen
+.. Unterscheidungszeichen ("Schlüssel") :math:`\varepsilon _{\mathrm{i}}` versehen
 .. (wobei :math:`i` eine Zahl aus der Menge :math:`1,\,2,\,3,\ldots,n` ist). Jeder
 .. Datensatz, der zu einem einzelnen Objekt gehört, umfasst zusätzlich ein oder
-.. mehrere Merkmale :math:`(\alpha _{\rm{i}})`.
+.. mehrere Merkmale :math:`(\alpha _{\mathrm{i}})`.
 
 
 Meist ist bei einer Datenerhebung nicht möglich, alle Mitglieder der
@@ -132,6 +135,8 @@ einerseits die statistischen Informationen der Einzelmessungen teilweise
 verloren, andererseits werden dafür die Ergebnisse "komprimiert" und somit
 übersichtlicher.
 
+.. Skalenniveaus
+
 
 .. _Statistische Mess-Skalen:
 
@@ -179,7 +184,7 @@ gewählt ist; in diesem Fall können zwar Differenzen zwischen zwei Werten
 sinnvoll interpretiert werden, Quotienten hingegen nicht; Beispielsweise
 entsprechen :math:`\unit[20]{\degree C}` nicht einer doppelt so hohen Temperatur
 wie :math:`\unit[10]{\degree C}`, wenn man vom absoluten Temperaturnullpunkt
-:math:`T _{\rm{0}} = \unit[-273]{\degree C}` ausgeht.
+:math:`T_0 = \unit[-273]{\degree C}` ausgeht.
 
 Ist der Nullpunkt einer Skala eindeutig festgelegt, so spricht man von einer
 Verhältnisskala. In diesem Fall sind auch Quotienten von einzelnen Werten

@@ -26,8 +26,8 @@ des Ergebnisbaums folgende Gesetzmäßigkeiten herleiten:
   :math:`p` sowie :math:`(n-k)` Teilstücken mit der Wahrscheinlichkeit
   :math:`q=(1-p)` zusammen.
   Nach der Multiplikationsregel für bedingte Wahrscheinlichkeiten ist somit die
-  Wahrscheinlichkeit für jeden Weg mit genau :math:`k` Treffern gleich :math:`p
-  ^k \cdot q ^{n-k}`.
+  Wahrscheinlichkeit für jeden Weg mit genau :math:`k` Treffern gleich
+  :math:`p^k \cdot q^{n-k}`.
 
 * Um die Anzahl an Wegen mit genau :math:`k` Einsen zu ermitteln, muss bestimmt
   werden, auf wie viele verschiedene Arten es möglich ist, :math:`k` Einsen auf
@@ -48,25 +48,27 @@ Bernoulli-Kette mit einer Länge :math:`n` und einer Wahrscheinlichkeit
 
 Diese Formel wird häufig als "Formel von Bernoulli" bezeichnet.
 
+
 .. _Summenwahrscheinlichkeiten bei Bernoulli-Ketten:
 
 .. rubric:: Summenwahrscheinlichkeiten bei Bernoulli-Ketten
 
 Bezeichnet man bei einer Bernoulli-Kette mit einer Länge :math:`n` und einer
 Trefferwahrscheinlichkeit :math:`p` das Ereignis "genau :math:`k` Treffer" mit
-:math:`M _{\rm{k}}`, so gilt:
+:math:`M_{\mathrm{k}}`, so gilt:
 
 .. math::
 
-    P (T \le k) = P (M _0 \cup M_1 \cup \ldots \cup M _{\rm{k}})
+    P(T \le k) = P (M_0 \cup M_1 \cup \ldots \cup M_{\mathrm{k}})
 
 und
 
 .. math::
 
-    P (T \ge k) = P (M _k \cup M _{\rm{k+1}} \cup \ldots \cup M _{\rm{n}})
+    P(T \ge k) = P (M_{\mathrm{k}} \cup M_{\mathrm{k+1}} \cup \ldots \cup
+    M_{\mathrm{n}})
 
-Alle Ereignisse :math:`M _{\rm{i}}`, die jeweils :math:`T=i` Treffer bedeuten,
+Alle Ereignisse :math:`M_{\mathrm{i}}`, die jeweils :math:`T=i` Treffer bedeuten,
 sind paarweise stochastisch unabhängig; die einzelnen Wahrscheinlichkeiten
 können also addiert werden.
 
@@ -77,7 +79,7 @@ Trefferwahrscheinlichkeit :math:`p` gelten somit folgende Regeln:
 
   .. math::
 
-      P (T \ge k) = \sum_{i=k}^{n}  \binom{n}{i} \cdot p^i \cdot q ^{n-i}
+      P(T \ge k) = \sum_{i=k}^{n}  \binom{n}{i} \cdot p^i \cdot q ^{n-i}
 
 
 * Für höchstens :math:`k` Treffer:
@@ -91,6 +93,8 @@ Trefferwahrscheinlichkeit :math:`p` gelten somit folgende Regeln:
   .. math::
 
       P (l \le T \le k) = \sum_{i=l}^{k}  \binom{n}{i} \cdot p^i \cdot q ^{n-i}
+
+... to be continued ...
 
 .. Häufig lässt sich der Rechenaufwand reduzieren, indem man die
 .. Wahrscheinlichkeit für das Gegenereignis berechnet. Es gilt:

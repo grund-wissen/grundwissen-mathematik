@@ -3,10 +3,9 @@
 Wahrscheinlichkeitsmaße
 =======================
 
-.. index::
-    single: Häufigkeit
-    single: Häufigkeit; absolute Häufigkeit
-    single: Häufigkeit; relative Häufigkeit
+.. index:: Häufigkeit
+.. index:: Häufigkeit; absolute Häufigkeit
+.. index:: Häufigkeit; relative Häufigkeit
 
 .. _Relative Häufigkeit:
 
@@ -38,8 +37,8 @@ Versuchen:
 .. math::
 
     h(M) = \frac{z(M)}{n} = \frac{z(\{\omega_1\}) + z(\{\omega_2\}) + \ldots +
-    z(\{\omega _{\rm{n}}\})}{n} = h(\{\omega_1\}) + h(\{\omega_2\}) + \ldots +
-    h(\{\omega _{\rm{n}}\})
+    z(\{\omega_{\mathrm{n}}\})}{n} = h(\{\omega_1\}) + h(\{\omega_2\}) + \ldots +
+    h(\{\omega_{\mathrm{n}}\})
 
 Die relative Häufigkeit von :math:`M` ist also gleich der Summe der relativen
 Häufigkeiten aller Elementarereignisse, die in :math:`M` enthalten sind.
@@ -49,6 +48,7 @@ wobei :math:`h(M) = 0` für ein unmögliches und :math:`h(M) = 1` für ein
 sicheres Ereignis gilt. Sind zudem zwei Ereignisse :math:`M_1` und :math:`M_2`
 unvereinbar, d.h. gilt :math:`M_1 \cap M_2 = \emptyset`, so gilt :math:`h(M_1
 \cup (M_2) = h(M_1) + h(M_2)`.
+
 
 .. index:: Wahrscheinlichkeit
 .. _Wahrscheinlichkeit:
@@ -132,6 +132,9 @@ Eigenschaften für Wahrscheinlichkeitsmaße:
 * Es gilt stets: :math:`P(M_1 \cup M_2) = P(M_1) + P(M_2) - P(M_1 \cap M_2)`
   Diese Eigenschaft wird auch "Additionsregel" genannt. [#]_
 
+
+.. _Wahrscheinlichkeit bei Laplace-Experimenten:
+
 .. rubric:: Wahrscheinlichkeit bei Laplace-Experimenten
 
 Sind alle Elementarereignisse gleich wahrscheinlich, so bezeichnet man das
@@ -142,7 +145,7 @@ dieser Annahme berechnet werden, nennt man entsprechend
 Hat ein Laplace-Experiment :math:`n` Elementarereignisse, d.h. ist
 :math:`|\Omega| = n`, so gilt :math:`P = \frac{1}{n}` für jedes
 Elementarereignis :math:`\{\omega\}`. Für ein Ereignis :math:`M = \{ \omega _1
-,\, \omega _2 ,\, \ldots ,\, \omega _{\rm{k}}\}` mit :math:`k \le n` gilt
+,\, \omega _2 ,\, \ldots ,\, \omega_{\mathrm{k}}\}` mit :math:`k \le n` gilt
 entsprechend:
 
 .. math::

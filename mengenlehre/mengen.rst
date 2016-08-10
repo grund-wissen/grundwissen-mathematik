@@ -10,14 +10,14 @@ eine "Zusammenfassung von bestimmten, klar unterscheidbaren Objekten unserer
 Anschauung und unseres Denkens zu einem Ganzen."
 
 Eine Menge (Kurzschreibweise: :math:`\mathbb{M}`) hat damit folgende
-Eigenschaften: [#C1]_
+Eigenschaften: [#]_
 
 * Eine Menge ist genau dann festgelegt, wenn sich von allen Objekten festlegen
   lässt, ob sie zur Menge gehören oder nicht.
 * Ein Objekt darf nicht mehrfach in der Menge enthalten sein.
 
-.. index::
-    single: Element
+.. index:: Element
+.. _Element:
 
 Die in einer Menge enthaltenen Objekte werden als Elemente bezeichnet.
 
@@ -35,8 +35,8 @@ Die in einer Menge enthaltenen Objekte werden als Elemente bezeichnet.
   usw. werden in der Mathematik nicht als Mengen angesehen, da sich nicht genau
   angeben lässt, welche Objekte dazugehören.
 
-.. index::
-    single: Menge; Leere Menge
+.. index:: Menge; Leere Menge
+.. _Leere Menge:
 
 Als Variablen für Mengen werden Großbuchstaben, als Variablen für Elemente einer
 Menge Kleinbuchstaben verwendet. :math:`\mathbb{M}` ist eine Menge, wenn für
@@ -68,8 +68,8 @@ Mengen lassen sich auf verschiedene Arten angeben:
 
     *Beispiele:*
 
-    * :math:`\mathbb{M}  _{\rm{1}} = \lbrace 1, 2, 3, \ldots \rbrace`
-    * :math:`\mathbb{M}  _{\rm{2}} = \lbrace a, b, c, d \rbrace`
+    * :math:`\mathbb{M} _1 = \{ 1, 2, 3, \ldots \}`
+    * :math:`\mathbb{M} _2 = \{ a, b, c, d \}`
 
 * Kennzeichnende Form:
     In der geschweiften Klammer wird eine Regel aufgeschrieben, anhand derer
@@ -77,9 +77,9 @@ Mengen lassen sich auf verschiedene Arten angeben:
 
     *Beispiel:*
 
-    * :math:`\mathbb{M} _{\rm{3}} = \lbrace  x \; | \; \text{$x$ ist eine Primzahl}  \rbrace`
+    * :math:`\mathbb{M}_3 = \{  x \; | \; \text{$x$ ist eine Primzahl}  \}`
 
-    Die Schreibweise :math:`\mathbb{M} = \lbrace x | A(x) \rbrace` bedeutet
+    Die Schreibweise :math:`\mathbb{M} = \{ x | A(x) \}` bedeutet
     somit, dass genau dann :math:`x \in \mathbb{M}` gilt, wenn die
     :ref:`Aussageform <Aussageform>` :math:`A(x)` wahr ist.
 
@@ -104,56 +104,50 @@ Mengen lassen sich auf verschiedene Arten angeben:
 
 .. rubric:: Mengengleichheit
 
-Zwei Mengen :math:`\mathbb{M} _{\rm{1}}`  und :math:`M _{\rm{2}}` sind gleich,
-wenn jedes Element von :math:`\mathbb{M} _{\rm{1}}` auch Element von
-:math:`\mathbb{M} _{\rm{2}}` ist, in Kurzschreibweise :math:`\mathbb{M}
-_{\rm{1}} = \mathbb{M} _{\rm{2}}`.
+Zwei Mengen :math:`\mathbb{M}_1`  und :math:`M_2` sind gleich,
+wenn jedes Element von :math:`\mathbb{M}_1` auch Element von
+:math:`\mathbb{M}_2` ist, in Kurzschreibweise :math:`\mathbb{M}
+_1 = \mathbb{M}_2`.
 
 .. math::
 
-    \mathbb{M}_{\rm{1}}  = \mathbb{M}_{\rm{2}} \quad \Longleftrightarrow \quad
-    (\mathbb{M}_{\rm{1}} \subset \mathbb{M}_{\rm{2}} \wedge \mathbb{M}_{\rm{2}}
-    \subset \mathbb{M}_{\rm{1}} )
+    \mathbb{M}_1  = \mathbb{M}_2 \quad \Longleftrightarrow \quad
+    (\mathbb{M}_1 \subset \mathbb{M}_2 \wedge \mathbb{M}_2
+    \subset \mathbb{M}_1 )
 
 
-.. index::
-    single: Menge; Teilmenge
-    single: Menge; Obermenge
+.. index:: Menge; Teilmenge, Menge; Obermenge
 .. _Teilmenge und Obermenge:
 
 Teilmenge und Obermenge
 -----------------------
 
-Sind alle Elemente der Menge :math:`\mathbb{M} _{\rm{1}}` auch Elemente der Menge
-:math:`\mathbb{M}_{\rm{2}}`, so ist :math:`\mathbb{M} _{\rm{1}}` eine Teilmenge
-von :math:`\mathbb{M}_{\rm{2}}`, in Kurzschreibweise :math:`\mathbb{M}_{\rm{1}}
-\subset \mathbb{M} _{\rm{2}}`. Hierbei gibt es zwei Möglichkeiten:
+Sind alle Elemente der Menge :math:`\mathbb{M}_1` auch Elemente der Menge
+:math:`\mathbb{M}_2`, so ist :math:`\mathbb{M}_1` eine Teilmenge
+von :math:`\mathbb{M}_2`, in Kurzschreibweise :math:`\mathbb{M}_1
+\subset \mathbb{M}_2`. Hierbei gibt es zwei Möglichkeiten:
 
-* :math:`\mathbb{M} _{\rm{1}}` heißt *echte* Teilmenge von :math:`\mathbb{M}
-  _{\rm{2}}`, wenn :math:`\mathbb{M} _{\rm{1}} \subset \mathbb{M} _{\rm{2}}` gilt
-  und :math:`\mathbb{M} _{\rm{2}}` mindestens ein Element besitzt, das nicht zu
-  :math:`\mathbb{M} _{\rm{1}}` gehört.
-* :math:`\mathbb{M} _{\rm{1}}` heißt *unechte* Teilmenge von :math:`\mathbb{M}
-  _{\rm{2}}`, wenn :math:`\mathbb{M} _{\rm{1}} \subset \mathbb{M} _{\rm{2}}`
-  gilt und :math:`\mathbb{M} _{\rm{2}}` kein Element besitzt, das nicht zu
-  :math:`\mathbb{M} _{\rm{1}}` gehört -- es gilt :math:`\mathbb{M} _{\rm{1}} =
-  \mathbb{M} _{\rm{2}}`.
+* :math:`\mathbb{M}_1` heißt *echte* Teilmenge von :math:`\mathbb{M}_2`, wenn
+  :math:`\mathbb{M}_1 \subset \mathbb{M}_2` gilt und :math:`\mathbb{M}_2`
+  mindestens ein Element besitzt, das nicht zu :math:`\mathbb{M}_1` gehört.
+* :math:`\mathbb{M}_1` heißt *unechte* Teilmenge von :math:`\mathbb{M}_2`, wenn
+  :math:`\mathbb{M}_1 \subset \mathbb{M}_2` gilt und :math:`\mathbb{M}_2` kein
+  Element besitzt, das nicht zu :math:`\mathbb{M}_1` gehört -- es gilt
+  :math:`\mathbb{M}_1 = \mathbb{M}_2`.
 
 .. math::
 
-    \mathbb{M} _{\rm{1}} \subset \mathbb{M} _{\rm{2}} \quad \Leftrightarrow
-    \quad \left( x \in \mathbb{M} _{\rm{1}} \Rightarrow x \in \mathbb{M}
-    _{\rm{2}} \right)
+    \mathbb{M}_1 \subset \mathbb{M}_2 \quad \Leftrightarrow \quad \left( x \in
+    \mathbb{M}_1 \Rightarrow x \in \mathbb{M}_2 \right)
 
-In beiden Fällen wird die Menge :math:`\mathbb{M} _{\rm{2}}`, die auch alle
-Elemente von :math:`\mathbb{M} _{\rm{1}}` enthält, als Obermenge von
-:math:`\mathbb{M} _{\rm{1}}` bezeichnet.
+In beiden Fällen wird die Menge :math:`\mathbb{M}_2`, die auch alle
+Elemente von :math:`\mathbb{M}_1` enthält, als Obermenge von
+:math:`\mathbb{M}_1` bezeichnet.
 
 *Beispiel:*
 
-* :math:`\mathbb{M} _{\rm{1}} = \lbrace  3,\, 5,\, 7 \rbrace,  \; \mathbb{M}
-  _{\rm{2}} = \lbrace 1,\,3,\, 5,\,7,\,9 \rbrace \; \Rightarrow \; \mathbb{M}
-  _{\rm{1}} \subset \mathbb{M} _{\rm{2}}`
+* :math:`\mathbb{M}_1 = \{  3,\, 5,\, 7 \},  \; \mathbb{M}_2 = \{ 1,\,3,\,
+  5,\,7,\,9 \} \; \Rightarrow \; \mathbb{M}_1 \subset \mathbb{M}_2`
 
 .. figure:: ../pics/mengenlehre/venn-diagramm-teilmenge.png
     :name: fig-venn-diagramm-teilmenge
@@ -174,28 +168,26 @@ Elemente von :math:`\mathbb{M} _{\rm{1}}` enthält, als Obermenge von
 Mengenoperationen
 -----------------
 
-.. index::
-    single: Mengenoperation; Schnittmenge
+.. index:: Mengenoperation; Schnittmenge
 .. _Schnittmenge:
 
 Die Schnittmenge
 ^^^^^^^^^^^^^^^^
 
-Unter der Schnittmenge zweier Mengen :math:`\mathbb{M} _{\rm{1}}` und
-:math:`\mathbb{M} _{\rm{2}}` versteht man die Menge aller Objekte, die sowohl zu
-:math:`\mathbb{M}  _{\rm{1}}` als auch zu :math:`\mathbb{M} _{\rm{2}}` gehören,
-in Kurzschreibweise :math:`\mathbb{M}_{\rm{1}} \cap \mathbb{M}_{\rm{2}}`.
+Unter der Schnittmenge zweier Mengen :math:`\mathbb{M}_1` und
+:math:`\mathbb{M}_2` versteht man die Menge aller Objekte, die sowohl zu
+:math:`\mathbb{M}_1` als auch zu :math:`\mathbb{M}_2` gehören, in
+Kurzschreibweise :math:`\mathbb{M}_1 \cap \mathbb{M}_2`.
 
 .. math::
 
-    x \in \mathbb{M}_{\rm{1}} \cap \mathbb{M}_{\rm{2}} \quad \Longleftrightarrow
-    \quad x \in \mathbb{M}_{\rm{1}} \wedge x \in \mathbb{M}_{\rm{2}}
+    x \in \mathbb{M}_1 \cap \mathbb{M}_2 \quad \Longleftrightarrow
+    \quad x \in \mathbb{M}_1 \wedge x \in \mathbb{M}_2
 
 *Beispiel:*
 
-* :math:`\mathbb{M} _{\rm{1}} = \lbrace  1,\, 3,\, 5 \rbrace,  \; \mathbb{M}
-  _{\rm{2}} = \lbrace 5,\,7,\,9 \rbrace \; \Rightarrow \; \mathbb{M}
-  _{\rm{1}} \cap \mathbb{M} _{\rm{2}} = \lbrace 5 \rbrace`
+* :math:`\mathbb{M}_1 = \{  1,\, 3,\, 5 \},  \; \mathbb{M}_2 = \{ 5,\,7,\,9 \}
+  \; \Rightarrow \; \mathbb{M}_1 \cap \mathbb{M}_2 = \{ 5 \}`
 
 .. figure:: ../pics/mengenlehre/venn-diagramm-schnittmenge.png
     :name: fig-venn-diagramm-schnittmenge
@@ -214,30 +206,26 @@ Nach dem gleichen Prinzip lässt sich auch die Schnittmenge mehrerer Mengen
 bilden. Mengen, die keine gemeinsamen Elemente haben, werden als disjunkte oder
 elementefremde Mengen bezeichnet.
 
-.. index::
-    single: Mengenoperation; Vereinigungsmenge
+.. index:: Mengenoperation; Vereinigungsmenge
 .. _Vereinigungsmenge:
 
 Die Vereinigungsmenge
 ^^^^^^^^^^^^^^^^^^^^^
 
-Die Menge aller Objekte, die zu mindestens einer der Mengen :math:`\mathbb{M}
-_{\rm{1}}` oder :math:`\mathbb{M} _{\rm{2}}`  gehören, heißt Vereinigungsmenge
-von :math:`\mathbb{M}_{\rm{1}}` und :math:`\mathbb{M}_{\rm{2}}`, in
-Kurzschreibweise: :math:`\mathbb{M}_{\rm{1}} \cup \mathbb{M} _{\rm{2}}`.
+Die Menge aller Objekte, die zu mindestens einer der Mengen :math:`\mathbb{M}_1`
+oder :math:`\mathbb{M}_2`  gehören, heißt Vereinigungsmenge von
+:math:`\mathbb{M}_1` und :math:`\mathbb{M}_2`, in Kurzschreibweise:
+:math:`\mathbb{M}_1 \cup \mathbb{M}_2`.
 
 .. math::
 
-    x \in \mathbb{M} _{\rm{1}} \cup \mathbb{M}_{\rm{2}} \quad
-    \Longleftrightarrow \quad x \in \mathbb{M} _{\rm{1}} \vee x \in \mathbb{M}
-    _{\rm{2}}
+    x \in \mathbb{M}_1 \cup \mathbb{M}_2 \quad \Longleftrightarrow
+    \quad x \in \mathbb{M}_1 \vee x \in \mathbb{M}_2
 
 *Beispiel:*
 
-* :math:`\mathbb{M} _{\rm{1}} = \lbrace  1,\, 3,\, 5 \rbrace,  \; \mathbb{M}
-  _{\rm{2}} = \lbrace 5,\,7,\,9 \rbrace \; \Rightarrow \; \mathbb{M}
-  _{\rm{1}} \cup \mathbb{M} _{\rm{2}} = \lbrace 1 ,\, 3 ,\, 5 ,\, 7 ,\, 9
-  \rbrace`
+* :math:`\mathbb{M}_1 = \{  1,\, 3,\, 5 \},  \; \mathbb{M}_2 = \{ 5,\,7,\,9 \}
+  \; \Rightarrow \; \mathbb{M} _1 \cup \mathbb{M}_2 = \{ 1,\, 3,\, 5,\, 7,\, 9 \}`
 
 .. figure:: ../pics/mengenlehre/venn-diagramm-vereinigungsmenge.png
     :width: 35%
@@ -255,31 +243,27 @@ Kurzschreibweise: :math:`\mathbb{M}_{\rm{1}} \cup \mathbb{M} _{\rm{2}}`.
 Nach dem gleichen Prinzip lässt sich auch die Vereinigungsmenge mehrerer Mengen
 bilden.
 
-.. index::
-    single: Mengenoperation; Differenzmenge
-    single: Mengenoperation; Komplementärmenge
+.. index:: Mengenoperation; Differenzmenge, Mengenoperation; Komplementärmenge
 .. _Differenz- und Komplementärmenge:
 
 Die Differenz- und Komplementärmenge
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Die Menge aller Objekte, die zu :math:`\mathbb{M} _{\rm{1}}` gehören, ohne
-zugleich auch zu :math:`\mathbb{M} _{\rm{2}}` zu gehören, heißt Differenzmenge
-(oder auch Restmenge) der Mengen :math:`\mathbb{M} _{\rm{1}}` und
-:math:`\mathbb{M} _{\rm{2}}`, in Kurzschreibweise :math:`\mathbb{M} _{\rm{1}}
-\setminus \mathbb{M} _{\rm{2}}`.
+Die Menge aller Objekte, die zu :math:`\mathbb{M}_1` gehören, ohne zugleich auch
+zu :math:`\mathbb{M}_2` zu gehören, heißt Differenzmenge (oder auch Restmenge)
+der Mengen :math:`\mathbb{M}_1` und :math:`\mathbb{M}_2`, in Kurzschreibweise
+:math:`\mathbb{M}_1 \setminus \mathbb{M}_2`.
 
 .. math::
 
-    x \in \mathbb{M}_{\rm{1}} \setminus \mathbb{M}_{\rm{2}} \quad
-    \Longleftrightarrow \quad x \in \mathbb{M}_{\rm{1}} \wedge x \notin
-    \mathbb{M} _{\rm{2}}
+    x \in \mathbb{M}_1 \setminus \mathbb{M}_2 \quad
+    \Longleftrightarrow \quad x \in \mathbb{M}_1 \wedge x \notin \mathbb{M}_2
 
 *Beispiel:*
 
-* :math:`\mathbb{M} _{\rm{1}} = \lbrace  1,\, 3,\, 5 ,\, 7 ,\, 9 \rbrace,  \;
-  \mathbb{M} _{\rm{2}} = \lbrace 7,\,9 \rbrace \; \Rightarrow \; \mathbb{M}
-  _{\rm{1}} \setminus \mathbb{M} _{\rm{2}} = \lbrace 1 ,\, 3 ,\, 5 \rbrace`
+* :math:`\mathbb{M}_1 = \{ 1,\, 3,\, 5 ,\, 7 ,\, 9 \},  \; \mathbb{M}_2 = \{
+  7,\,9 \} \; \Rightarrow \; \mathbb{M}_1 \setminus \mathbb{M}_2 = \{ 1 ,\, 3
+  ,\, 5 \}`
 
 .. figure:: ../pics/mengenlehre/venn-diagramm-differenzmenge.png
     :name: fig-venn-diagramm-differenzmenge
@@ -294,32 +278,29 @@ zugleich auch zu :math:`\mathbb{M} _{\rm{2}}` zu gehören, heißt Differenzmenge
         :download:`SVG: Venn-Diagramm Differenzmenge
         <../pics/mengenlehre/venn-diagramm-differenzmenge.svg>`
 
-Die Komplementärmenge :math:`\mathbb{M}^{*} _{\rm{1}}` einer Menge
-:math:`\mathbb{M}  _{\rm{1}}` ist diejenige Menge bezüglich einer Obermenge
-:math:`\mathbb{M}`, deren Elemente zwar zu :math:`\mathbb{M}`, aber nicht zu
-:math:`\mathbb{M} _{\rm{1}}` gehören. Somit gilt :math:`\mathbb{M}^{*} _{\rm{1}}
-= \mathbb{M} \setminus \mathbb{M} _{\rm{1}}`.
+Die Komplementärmenge :math:`\mathbb{M}^{*}_1` einer Menge :math:`\mathbb{M}_1`
+ist diejenige Menge bezüglich einer Obermenge :math:`\mathbb{M}`, deren Elemente
+zwar zu :math:`\mathbb{M}`, aber nicht zu :math:`\mathbb{M}_1` gehören. Somit
+gilt :math:`\mathbb{M}^{*}_1 = \mathbb{M} \setminus \mathbb{M}_1`.
 
 
-.. index::
-    single: Mengenoperation; Produktmenge
+.. index:: Mengenoperation; Produktmenge
 .. _Produktmenge:
 
 Die Produktmenge
 ^^^^^^^^^^^^^^^^
 
 Die Produktmenge (auch Kreuzmenge oder kartesisches Produkt) der Mengen
-:math:`\mathbb{M} _{\rm{1}}` und :math:`\mathbb{M} _{\rm{2}}` ist die Menge
-sämtlicher geordneter Paare, die mit den Elementen der Menge :math:`\mathbb{M}
-_{\rm{1}}` (an erster Stelle) und denen der Menge :math:`\mathbb{M} _{\rm{2}}`
-(an zweiter Stelle) gebildet werden können, in Kurzschreibweise
-:math:`\mathbb{M} _{\rm{1}} \times \mathbb{M} _{\rm{2}}`: [#PM1]_
+:math:`\mathbb{M}_1` und :math:`\mathbb{M}_2` ist die Menge sämtlicher
+geordneter Paare, die mit den Elementen der Menge :math:`\mathbb{M} _1` (an
+erster Stelle) und denen der Menge :math:`\mathbb{M}_2` (an zweiter Stelle)
+gebildet werden können, in Kurzschreibweise :math:`\mathbb{M}_1 \times
+\mathbb{M}_2`: [#]_
 
 .. math::
 
-    (x \, , \, y) \in \mathbb{M} _{\rm{1}} \times \mathbb{M} _{\rm{2}} \quad
-    \Longleftrightarrow \quad x \in \mathbb{M} _{\rm{1}} \wedge y \in \mathbb{M}
-    _{\rm{2}}
+    (x \, , \, y) \in \mathbb{M}_1 \times \mathbb{M}_2 \quad \Longleftrightarrow
+    \quad x \in \mathbb{M}_1 \wedge y \in \mathbb{M}_2
 
 .. figure:: ../pics/mengenlehre/venn-diagramm-produktmenge.png
     :name: fig-venn-diagramm-produktmenge
@@ -334,16 +315,14 @@ _{\rm{1}}` (an erster Stelle) und denen der Menge :math:`\mathbb{M} _{\rm{2}}`
         :download:`SVG: Venn-Diagramm Produktmenge
         <../pics/mengenlehre/venn-diagramm-produktmenge.svg>`
 
-
-Ordnet man die Elemente von :math:`\mathbb{M} _{\rm{1}}` als Punkte eines
-Zahlenstrahls und die Elemente von :math:`\mathbb{M} _{\rm{2}}` auf einem dazu
-senkrecht stehenden Zahlenstrahl an, dann stellen sich die Elemente :math:`(x
-_{\rm{i}} \, , \, y _{\rm{i}})` von :math:`\mathbb{M} _{\rm{1}} \times
-\mathbb{M} _{\rm{2}}` als Punkte der Ebene dar, die von den beiden
-Zahlenstrahlen aufgebaut wird. Führt man diesen Gedanken fort, so findet man,
-dass alle Punkte einer :math:`xy`-Koordinatenebene mit :math:`x \in \mathbb{R}`
-und :math:`y \in \mathbb{R}` durch die Elemente von :math:`\mathbb{R} ^2 =
-\mathbb{R} \times \mathbb{R}` dargestellt werden können.
+Ordnet man die Elemente von :math:`\mathbb{M}_1` als Punkte eines Zahlenstrahls
+und die Elemente von :math:`\mathbb{M}_2` auf einem dazu senkrecht stehenden
+Zahlenstrahl an, dann stellen sich die Elemente :math:`(x _{\mathrm{i}} \, , \,
+y _{\mathrm{i}})` von :math:`\mathbb{M}_1 \times \mathbb{M}_2` als Punkte der
+Ebene dar, die von den beiden Zahlenstrahlen aufgebaut wird. Führt man diesen
+Gedanken fort, so findet man, dass alle Punkte einer :math:`xy`-Koordinatenebene
+mit :math:`x \in \mathbb{R}` und :math:`y \in \mathbb{R}` durch die Elemente von
+:math:`\mathbb{R} ^2 = \mathbb{R} \times \mathbb{R}` dargestellt werden können.
 
 
 .. _Rechenregeln für Mengenoperationen:
@@ -358,52 +337,48 @@ Zahlen. Es gilt:
 
     .. math::
 
-        \mathbb{M} _{\rm{1}} \cap \mathbb{M} _{\rm{2}} &= \mathbb{M} _{\rm{2}} \cap
-        \mathbb{M} _{\rm{1}} \\
-        \mathbb{M} _{\rm{1}} \cup \mathbb{M} _{\rm{2}} &= \mathbb{M} _{\rm{2}} \cup
-        \mathbb{M} _{\rm{1}} \\
+        \mathbb{M}_1 \cap \mathbb{M}_2 &= \mathbb{M}_2 \cap
+        \mathbb{M}_1 \\
+        \mathbb{M}_1 \cup \mathbb{M}_2 &= \mathbb{M}_2 \cup
+        \mathbb{M}_1 \\
 
-* Assoziativgesetz: [#A1]_
-
-    .. math::
-
-          \mathbb{M} _{\rm{1}} \cap (\mathbb{M} _{\rm{2}} \cap \mathbb{M} _{\rm{3}})
-          &= (\mathbb{M} _{\rm{1}} \cap \mathbb{M} _{\rm{2}}) \cap \mathbb{M}
-          _{\rm{3}} \\
-          \mathbb{M} _{\rm{1}} \cup (\mathbb{M} _{\rm{2}} \cup \mathbb{M} _{\rm{3}})
-          &= (\mathbb{M} _{\rm{1}} \cup \mathbb{M} _{\rm{2}}) \cup \mathbb{M}
-          _{\rm{3}} \\
-
-* Distributivgesetz: [#D1]_
+* Assoziativgesetz: [#]_
 
     .. math::
 
-        \mathbb{M} _{\rm{1}} \cap (\mathbb{M} _{\rm{2}} \cup \mathbb{M}
-        _{\rm{3}}) &= (\mathbb{M} _{\rm{1}} \cap \mathbb{M} _{\rm{2}}) \cup
-        (\mathbb{M} _{\rm{1}} \cap \mathbb{M} _{\rm{3}}) \\
-        \mathbb{M} _{\rm{1}} \cup (\mathbb{M} _{\rm{2}} \cap \mathbb{M}
-        _{\rm{3}}) &= (\mathbb{M} _{\rm{1}} \cup \mathbb{M} _{\rm{2}}) \cap
-        (\mathbb{M} _{\rm{1}} \cup \mathbb{M} _{\rm{3}})
+          \mathbb{M}_1 \cap (\mathbb{M}_2 \cap \mathbb{M}_3)
+          &= (\mathbb{M}_1 \cap \mathbb{M}_2) \cap \mathbb{M}
+         _3 \\
+          \mathbb{M}_1 \cup (\mathbb{M}_2 \cup \mathbb{M}_3)
+          &= (\mathbb{M}_1 \cup \mathbb{M}_2) \cup \mathbb{M}
+         _3 \\
+
+* Distributivgesetz: [#]_
+
+    .. math::
+
+        \mathbb{M}_1 \cap (\mathbb{M}_2 \cup \mathbb{M}
+       _3) &= (\mathbb{M}_1 \cap \mathbb{M}_2) \cup
+        (\mathbb{M}_1 \cap \mathbb{M}_3) \\
+        \mathbb{M}_1 \cup (\mathbb{M}_2 \cap \mathbb{M}
+       _3) &= (\mathbb{M}_1 \cup \mathbb{M}_2) \cap
+        (\mathbb{M}_1 \cup \mathbb{M}_3)
 
 Zusätzlich gilt für beliebige Mengen:
 
 .. math::
 
-    \mathbb{M} _{\rm{1}} \setminus (\mathbb{M} _{\rm{2}} \cup \mathbb{M}
-    _{\rm{3}}) &= (\mathbb{M} _{\rm{1}} \setminus \mathbb{M} _{\rm{2}}) \cap
-    (\mathbb{M} _{\rm{1}} \setminus \mathbb{M} _{\rm{3}}) \\
-    \mathbb{M} _{\rm{1}} \setminus (\mathbb{M} _{\rm{2}} \cap \mathbb{M}
-    _{\rm{3}}) &= (\mathbb{M} _{\rm{1}} \setminus \mathbb{M} _{\rm{2}}) \cup
-    (\mathbb{M} _{\rm{1}} \setminus \mathbb{M} _{\rm{3}})
+    \mathbb{M}_1 \setminus (\mathbb{M}_2 \cup \mathbb{M}_3) &= (\mathbb{M}_1
+    \setminus \mathbb{M}_2) \cap (\mathbb{M}_1 \setminus \mathbb{M}_3) \\
+    \mathbb{M}_1 \setminus (\mathbb{M}_2 \cap \mathbb{M}_3) &= (\mathbb{M}_1
+    \setminus \mathbb{M}_2) \cup (\mathbb{M}_1 \setminus \mathbb{M}_3)
 
 .. math::
 
-    \mathbb{M} _{\rm{1}} \times (\mathbb{M} _{\rm{2}} \cup \mathbb{M} _{\rm{3}})
-    &= (\mathbb{M} _{\rm{1}} \times \mathbb{M} _{\rm{2}}) \cup (\mathbb{M}
-    _{\rm{1}} \times \mathbb{M} _{\rm{3}}) \\
-    \mathbb{M} _{\rm{1}} \times (\mathbb{M} _{\rm{2}} \cap \mathbb{M} _{\rm{3}})
-    &= (\mathbb{M} _{\rm{1}} \times \mathbb{M} _{\rm{2}}) \cap (\mathbb{M}
-    _{\rm{1}} \times \mathbb{M} _{\rm{3}})
+    \mathbb{M}_1 \times (\mathbb{M}_2 \cup \mathbb{M}_3) &= (\mathbb{M}_1 \times
+    \mathbb{M}_2) \cup (\mathbb{M}_1 \times \mathbb{M}_3) \\
+    \mathbb{M}_1 \times (\mathbb{M}_2 \cap \mathbb{M}_3) &= (\mathbb{M}_1 \times
+    \mathbb{M}_2) \cap (\mathbb{M}_1 \times \mathbb{M}_3)
 
 Für Verknüpfungen mit der leeren Menge :math:`\emptyset`  gilt:
 
@@ -421,11 +396,10 @@ Für Verknüpfungen mit der leeren Menge :math:`\emptyset`  gilt:
 Die Mächtigkeit von Mengen
 --------------------------
 
-Haben zwei endliche Mengen :math:`\mathbb{M} _{\rm{1}}` und :math:`\mathbb{M}
-_{\rm{2}}` die gleiche Anzahl an Elementen, so bezeichnet man :math:`\mathbb{M}
-_{\rm{1}}` und :math:`\mathbb{M} _{\rm{2}}` als gleichmächtig. Die Anzahl
-:math:`A` aller Elemente einer endlichen Menge :math:`\mathbb{M}` wird auch
-Kardinalzahl genannt.
+Haben zwei endliche Mengen :math:`\mathbb{M}_1` und :math:`\mathbb{M}_2` die
+gleiche Anzahl an Elementen, so bezeichnet man :math:`\mathbb{M}_1` und
+:math:`\mathbb{M}_2` als gleichmächtig. Die Anzahl :math:`A` aller Elemente
+einer endlichen Menge :math:`\mathbb{M}` wird auch Kardinalzahl genannt.
 
 .. index:: Abzählbarkeit
 .. _Abzählbarkeit:
@@ -433,7 +407,7 @@ Kardinalzahl genannt.
 .. rubric:: Die Abzählbarkeit
 
 Die Mächtigkeit von unendlichen Mengen wird an der Menge der natürlichen
-Zahlen :math:`\mathbb{N} = \lbrace 0 ,\, 1 ,\, 2 ,\, \ldots \rbrace` gemessen.
+Zahlen :math:`\mathbb{N} = \{ 0 ,\, 1 ,\, 2 ,\, \ldots \}` gemessen.
 Lässt sich jedes Element einer Menge :math:`\mathbb{M}` in eindeutiger Weise
 einem Element aus :math:`\mathbb{N}` zuordnen, so wird die Menge
 :math:`\mathbb{M}` als abzählbar bezeichnet; die Elemente von
@@ -459,7 +433,7 @@ der reellen Zahlen, so wird sie überabzählbar genannt.
 
     .. rubric:: Anmerkungen:
 
-.. [#C1] Genaugenommen lassen sich, wenn man den Begriff "Menge" nicht genauer
+.. [#] Genaugenommen lassen sich, wenn man den Begriff "Menge" nicht genauer
     fasst, paradoxe Aussagen formulieren. Am bekanntesten ist die `Russelsche
     Antinomie <http://de.wikipedia.org/wiki/Russellsche_Antinomie>`_:
 
@@ -475,34 +449,31 @@ der reellen Zahlen, so wird sie überabzählbar genannt.
     `ursprüngliche Mengenbegriff
     <http://de.wikipedia.org/wiki/Mengenlehre#19._Jahrhundert>`_.
 
-.. [#PM1] Ein Element :math:`(x,y)` einer Produktmenge ist nicht mit einer Menge
-    :math:`\lbrace x,y \rbrace` zu verwechseln. Während in letzterer die
+.. [#] Ein Element :math:`(x,y)` einer Produktmenge ist nicht mit einer Menge
+    :math:`\{ x,y \}` zu verwechseln. Während in letzterer die
     Reihenfolge von :math:`x` und :math:`y` keine Rolle spielt, d.h.
-    :math:`\lbrace x,y \rbrace = \lbrace y,x \rbrace` gilt, sind zwei Elemente
+    :math:`\{ x,y \} = \{ y,x \}` gilt, sind zwei Elemente
     einer Produktmenge nur gleich, wenn ihre Komponenten paarweise gleich sind,
-    d.h. wenn gilt:
+    wenn also gilt:
 
     .. math::
 
-        (x _{\rm{1}} ,\, y _{\rm{1}} ) = (x _{\rm{2}} ,\, y _{\rm{2}} )
-        \Leftrightarrow (x _{\rm{1}} = x _{\rm{2}}) \wedge (y _{\rm{1}} = y
-        _{\rm{2}})
+        (x_1 ,\, y_1 ) = (x_2 ,\, y_2 ) \Leftrightarrow (x_1 = x_2) \wedge (y_1
+        = y_2)
 
-.. [#A1] Da hierbei die Reihenfolge der Zusammenfassung beliebig ist, kann auf
+.. [#] Da hierbei die Reihenfolge der Zusammenfassung beliebig ist, kann auf
         die Klammern verzichtet werden.
 
-.. [#D1] Genau genommen entspricht die obige Darstellung nur der "linksseitigen"
+.. [#] Genau genommen entspricht die obige Darstellung nur der "linksseitigen"
     Distributivität. Für zwei Mengen gilt jedoch ebenso die "rechtsseitige"
     Distributivität:
 
     .. math::
 
-        (\mathbb{M} _{\rm{2}} \cup \mathbb{M} _{\rm{3}}) \cap \mathbb{M}
-        _{\rm{1}} &= (\mathbb{M} _{\rm{1}} \cap \mathbb{M} _{\rm{2}}) \cup
-        (\mathbb{M} _{\rm{1}} \cap \mathbb{M} _{\rm{3}}) \\
-        (\mathbb{M} _{\rm{2}} \cap \mathbb{M} _{\rm{3}}) \cup \mathbb{M}
-        _{\rm{1}} &= (\mathbb{M} _{\rm{1}} \cup \mathbb{M} _{\rm{2}}) \cap
-        (\mathbb{M} _{\rm{1}} \cup \mathbb{M} _{\rm{3}})
+        (\mathbb{M}_2 \cup \mathbb{M}_3) \cap \mathbb{M}_1 &= (\mathbb{M}_1 \cap
+        \mathbb{M}_2) \cup (\mathbb{M}_1 \cap \mathbb{M}_3) \\
+        (\mathbb{M}_2 \cap \mathbb{M}_3) \cup \mathbb{M} _1 &= (\mathbb{M}_1
+        \cup \mathbb{M}_2) \cap (\mathbb{M}_1 \cup \mathbb{M}_3)
 
     Gelten sowohl die linksseitige wie auch die rechtsseitige Distributivität,
     wird allgemein von "Distributivität" gesprochen.

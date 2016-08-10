@@ -74,6 +74,7 @@ diesem Fall exponentiell zu.
 
 
 .. index:: Logarithmusfunktion
+.. _Logarithmusfunktion:
 .. _Logarithmusfunktionen:
 
 Logarithmusfunktionen

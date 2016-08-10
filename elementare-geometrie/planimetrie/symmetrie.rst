@@ -7,10 +7,8 @@ Symmetrie
 Als Symmetrie wird die Eigenschaft mancher geometrischer Formen bezeichnet, nach
 einer bestimmten Transformation wiederum unverändert zu erscheinen.
 
-.. index::
-    single: Symmetrie; Achsensymmetrie
-    single: Transversale
-    single: Achsensymmetrie
+.. index:: Symmetrie; Achsensymmetrie, Transversale, Achsensymmetrie
+.. _Transversale:
 .. _Achsensymmetrie:
 
 Achsensymmetrie
@@ -70,9 +68,7 @@ haben stets folgende Eigenschaften:
 Achsensymmetrische Figuren können ebenso als Paare von achsensymmetrisch
 liegenden Figuren aufgefasst werden, deren Flächen sich zum Teil überschneiden.
 
-.. index::
-    single: Symmetrie; Punktsymmetrie
-    single: Punktsymmetrie
+.. index:: Symmetrie; Punktsymmetrie, Punktsymmetrie
 .. _Punktsymmetrie:
 
 Punktsymmetrie
@@ -116,12 +112,12 @@ deckungsgleich.
         <../../pics/geometrie/symmetrie-punktsymmetrie-mehrfach.svg>`
 
 Lassen sich zwei gleich große Figuren durch eine :math:`180°`-Drehung um einen
-zwischen beiden Figuren liegenden Punkt :math:`\rm{S}` zur Deckung bringen, so
+zwischen beiden Figuren liegenden Punkt :math:`\mathrm{S}` zur Deckung bringen, so
 bezeichnet man beide Figuren als punktsymmetrisch zueinander liegend.
 Punktsymmetrische Figuren haben stets folgende Eigenschaften:
 
 * Einander entsprechende Punkte liegen gleich weit vom Symmetriezentrum
-  :math:`\rm{S}` entfernt.
+  :math:`\mathrm{S}` entfernt.
 * Verbindungslinien zwischen einander entsprechenden Punkten verlaufen
   durch das Symmetriezentrum.
 * Einander entsprechende Geraden (sowie Strecken und ihre Verlängerungen)

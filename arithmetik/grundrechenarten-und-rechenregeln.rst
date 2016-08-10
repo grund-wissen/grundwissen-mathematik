@@ -213,7 +213,8 @@ gleichen Rechenmethode fortgesetzt werden.
 Durch die Verwendung von Taschenrechnern und Computern werden die schriftliche
 Multiplikation und Division im alltäglichen Leben kaum noch angewendet. Das
 Rechenschema der schriftlichen Division ist allerdings für die Methode der
-:ref:`Polynom-Division <Polynomdivision>` in der Analysis und Algebra von Bedeutung.
+:ref:`Polynom-Division <Polynomdivision>` in der Analysis und Algebra von
+Bedeutung.
 
 
 .. _Klammern und Reihenfolge der Auswertung:
@@ -228,7 +229,7 @@ verknüpft werden, so kann dies nur schrittweise erfolgen.
 Die Reihenfolge, in der die einzelnen Operationen ausgeführt werden müssen, ist
 durch Vorrang-Regeln sowie durch die Verwendung von Klammern festgelegt:
 
-1. Was in Klammern steht, wird zuerst ausgewertet (bei Zahlen) bzw.
+1. Was in Klammern steht, wird zuerst ausgewertet (bei Zahlen) beziehungsweise
    zusammengefasst (bei Variablen)
 2. Ist durch Klammern keine andere Reihenfolge der Auswertung festgelegt, so
    werden zunächst die Rechenoperatoren der dritten Stufe (Potenzen und Wurzeln)
@@ -265,8 +266,9 @@ zusammenzählen lassen oder sich gegenseitig aufheben (zu Null addieren). Hierzu
 muss das vor der Klammer stehende Rechenzeichen auf alle Glieder der Klammer
 angewendet werden. Es gelten damit folgende Regeln:
 
-* Steht vor einer Klammer ein Pluszeichen :math:`(+)`, so kann die Klammer ohne Änderung der
-  Rechenzeichen innerhalb der Klammer weggelassen werden. Somit gilt:
+* Steht vor einer Klammer ein Pluszeichen :math:`(+)`, so kann die Klammer ohne
+  Änderung der Rechenzeichen innerhalb der Klammer weggelassen werden. Somit
+  gilt:
 
   .. math::
       :label: eqn-klammer-plus
@@ -477,7 +479,7 @@ Einheit.
 
 .. math::
 
-    \text{Größe} = \text{Zahlenwert} \cdot \rm{Einheit}
+    \text{Größe} = \text{Zahlenwert} \cdot \mathrm{Einheit}
 
 Wird in einer Gleichung mit Größen gerechnet, so müssen sich die jeweiligen
 Einheiten auf beiden Seiten der Gleichung stets entsprechen. Dabei sind folgende

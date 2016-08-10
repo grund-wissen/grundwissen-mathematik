@@ -18,8 +18,8 @@ Ableitungsregeln>` hergeleitet werden. Für eine Exponentialfunktion :math:`f(x)
 
 .. math::
 
-    f'(x) = \frac{\mathrm{d} f(x)}{\mathrm{d} x} = \lim _{\Delta x \to 0}
-    \left(\frac{f(x + \Delta x)-f(x)}{\Delta x} \right) = \lim _{\Delta x \to 0}
+    f'(x) = \frac{\mathrm{d} f(x)}{\mathrm{d} x} = \lim_{\Delta x \to 0}
+    \left(\frac{f(x + \Delta x)-f(x)}{\Delta x} \right) = \lim_{\Delta x \to 0}
     \left( \frac{a ^{(x + \Delta x)} - a ^x}{\Delta x}\right)
 
 Mit Hilfe der :ref:`Rechenregeln für Potenzen <Rechenregeln für Potenzen mit
@@ -27,9 +27,9 @@ gleicher Basis>` kann dieser Term weiter umgeformt werden. Es folgt:
 
 .. math::
 
-    f'(x) = \lim _{\Delta x \to 0} \left( \frac{a ^{(x + \Delta x)} - a
-    ^x}{\Delta x}\right) = \lim _{\Delta x \to 0} \left( \frac{a ^x + a ^{\Delta
-    x} - a^x}{\Delta x}\right) = \lim _{\Delta x \to 0} \left( \frac{a ^{\Delta
+    f'(x) = \lim_{\Delta x \to 0} \left( \frac{a ^{(x + \Delta x)} - a
+    ^x}{\Delta x}\right) = \lim_{\Delta x \to 0} \left( \frac{a ^x + a ^{\Delta
+    x} - a^x}{\Delta x}\right) = \lim_{\Delta x \to 0} \left( \frac{a ^{\Delta
     x} - 1}{\Delta x}\right) \cdot a ^{x}
 
 Die Ableitung einer Exponentialfunktion ist somit wieder eine
@@ -40,20 +40,20 @@ muss gelten:
 
 .. math::
 
-    \lim _{\Delta x \to 0}  \left( \frac{a_0 ^{\Delta x} - 1}{\Delta x} \right)
-    = 1 \quad \Longleftrightarrow \quad a_0 = \lim _{\Delta x \to 0}  \left( 1 +
+    \lim_{\Delta x \to 0}  \left( \frac{a_0 ^{\Delta x} - 1}{\Delta x} \right)
+    = 1 \quad \Longleftrightarrow \quad a_0 = \lim_{\Delta x \to 0}  \left( 1 +
     \Delta x \right)^{\frac{1}{\Delta x}}
 
 .. index:: Eulersche Zahl
 
-Dieser Grenzwert entspricht formal dem Grenzwert einer Folge :math:`\lim _{t \to
+Dieser Grenzwert entspricht formal dem Grenzwert einer Folge :math:`\lim_{t \to
 0} (1 + t) ^{\frac{1}{t}}` reeller Zahlen. Dieser Grenzwert konnte erstmals von
 `Leonhard Euler <https://de.wikipedia.org/wiki/Leonhard_Euler>`_ bestimmt
 werden und wird zu dessen Ehren "Eulersche Zahl" :math:`e` genannt:
 
 .. math::
 
-    e = \lim _{t \to 0} (1 + t) ^{\frac{1}{t}} = 2,718281\ldots
+    e = \lim_{t \to 0} (1 + t) ^{\frac{1}{t}} = 2,718281\ldots
 
 Diese Zahl ist irrational und für die Mathematik von ähnlicher Bedeutung wie
 die Kreiszahl :math:`\pi`: Ist nämlich die Eulersche Zahl :math:`e` Basis einer
@@ -128,22 +128,22 @@ weitere, als "Umkehrregel" bezeichnete Ableitungsregel verwendet:
 
 * Die Ableitung :math:`\frac{\mathrm{d} y}{\mathrm{d} x}` einer Funktion
   :math:`y=f(x)` ist gleich dem Kehrwert der Ableitung ihrer Umkehrfunktion
-  :math:`f _{\rm{u}}(y)`:
+  :math:`f_{\mathrm{u}}(y)`:
 
   .. math::
 
-      \frac{\mathrm{d} y}{\mathrm{d} x} = \frac{1}{\frac{\mathrm{d}
-      x}{\mathrm{d} y}} \quad \text{beziehungsweise} f'(x) = \frac{1}{f
-      _{\rm{u}}'(y)}
+      \frac{\mathrm{d} y}{\mathrm{d} x} =
+      \frac{1}{\frac{\mathrm{d}x}{\mathrm{d}y}} \quad \text{beziehungsweise}
+      f'(x) = \frac{1}{f_{\mathrm{u}}'(y)}
 
 Im Fall einer Logarithmusfunktion ist :math:`y = f(x) = \log_{a}{(x)}` und, wenn
-man beide Seiten als Potenz zur Basis :math:`a` schreibt, :math:`x = f
-_{\rm{u}}(y) = a ^{y}` . Somit gilt nach der Ableitungsregel
+man beide Seiten als Potenz zur Basis :math:`a` schreibt, :math:`x =
+f_{\mathrm{u}}(y) = a^{y}` . Somit gilt nach der Ableitungsregel
 :eq:`eqn-ableitungsregel-exponentialfunktion` für Exponentialfunktionen:
 
 .. math::
 
-    f _{\rm{u}}'(y) = \frac{\mathrm{d} x}{\mathrm{d} y} = \ln{(a)} \cdot a ^{y}
+    f_{\mathrm{u}}'(y) = \frac{\mathrm{d} x}{\mathrm{d} y} = \ln{(a)} \cdot a ^{y}
     = \ln{(a)} \cdot x
 
 Für die Ableitung der Logarithmusfunktion gilt schließlich:

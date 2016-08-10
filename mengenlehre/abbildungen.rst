@@ -53,7 +53,7 @@ zugehöriges :math:`x \in \mathbb{M}_1` existiert, Wertebereich der Abbildung.
 
 .. rubric:: Inverse Abbildung
 
-Unter einer inversen Abbildung :math:`F _{\rm{U}}` (auch "Umkehrabbildung"
+Unter einer inversen Abbildung :math:`F_{\mathrm{U}}` (auch "Umkehrabbildung"
 genannt) versteht man die Menge aller geordneten Paare :math:`(y,x)`, für die
 :math:`(x,y) \in F` gilt.
 
@@ -69,18 +69,17 @@ Abbildung ist mit der ursprünglichen Abbildung identisch.
 Es sei :math:`F_1` eine Abbildung von :math:`\mathbb{M}_1` in
 :math:`\mathbb{M}_2` und :math:`F_2` eine Abbildung aus :math:`\mathbb{M}_2` in
 :math:`\mathbb{M}_3`. Eine Abbildung :math:`F_3 = F_2 \circ F_1` (gelesen:
-":math:`F _{\rm{2}}` verkettet mit :math:`F_1`") wird dann als Verkettung
+":math:`F_2` verkettet mit :math:`F_1`") wird dann als Verkettung
 (Hintereinanderausführung) bezeichnet, wenn für alle geordneten Paare
 :math:`(x,y) \in F_1` und :math:`(y,z) \in F_2` gilt: :math:`(x,z) \in F_3`.
 
-Allgemein gilt für Verkettungen von Abbildungen zwar das Assoziativgesetz
-nicht, d.h. die Reihenfolge der Abbildungen ist nicht vertauschbar; jedoch gilt
-das Assoziativ-Gesetz in folgender Form:
+Allgemein gilt für Verkettungen von Abbildungen zwar das Assoziativgesetz nicht,
+die Reihenfolge der Abbildungen ist also nicht vertauschbar; jedoch gilt das
+Assoziativ-Gesetz in folgender Form:
 
 .. math::
 
-    F_3 \circ (F_2 \circ F_1 ) = (F_3 \circ F
-   _2) \circ F_1
+    F_3 \circ (F_2 \circ F_1) = (F_3 \circ F_2) \circ F_1
 
 Für eindeutige Abbildungen (Funktionen) ist folgende Darstellung üblich:
 
@@ -95,19 +94,17 @@ Man nennt dabei die Funktion :math:`f_1` die innere Funktion und :math:`f_2` die
 *Beispiel:*
 
 * Es sei :math:`z = f_2(y) = \sqrt{y}` sowie :math:`y = f_1(x) =
-  x^2 + 1`. Somit gilt :math:`z = f_2 (f_1 (x)) = \sqrt{x^2 +
-  1}`.
+  x^2 + 1`. Somit gilt :math:`z = f_2 (f_1 (x)) = \sqrt{x^2 + 1}`.
 
 
-.. index::
-    single: Abbildung; Funktion
+.. index:: Abbildung; Funktion
 .. _Abbildungen-Funktionen:
 
 Funktionen
 ----------
 
 Eine Abbildung :math:`f` aus :math:`M_1` in :math:`M_2` heißt eindeutig, wenn
-jedem :math:`x \in M_1` höchstens ein :math:`y \in M _{\rm{2}}` zugeordnet wird.
+jedem :math:`x \in M_1` höchstens ein :math:`y \in M_2` zugeordnet wird.
 Eine derartige Abbildung :math:`f` wird Funktion genannt; man bezeichnet sie im
 Allgemeinen mit einem kleinen lateinischen Buchstaben.
 
@@ -117,21 +114,19 @@ Jedem :math:`x` im Definitionsbereich von :math:`f` wird somit *genau* ein Wert
 :math:`y = f(x)` eingeführt. Dabei wird die Variable :math:`x` als Argument der
 Funktion :math:`f` bezeichnet, :math:`y=f(x)` wird Funktionswert genannt.
 
-Zwei Funktionen sind gleich, wenn sie für jedes :math:`x \in \mathbb{M}
-_{\rm{1}}` den gleichen Funktionswert :math:`y \in \mathbb{M}_2` liefern, d.h.
-:math:`f_1 (x) = f_2 (x)` für alle :math:`x \in \mathbb{M}_1` gilt.
+Zwei Funktionen sind gleich, wenn sie für jedes :math:`x \in \mathbb{M}_1` den
+gleichen Funktionswert :math:`y \in \mathbb{M}_2` liefern, also :math:`f_1 (x) =
+f_2 (x)` für alle :math:`x \in \mathbb{M}_1` gilt.
 
-Ist auch die inverse Abbildung :math:`f _{\rm{U}}(x)` einer Funktion :math:`f(x)`
+Ist auch die inverse Abbildung :math:`f_{\mathrm{U}}(x)` einer Funktion :math:`f(x)`
 eindeutig, so nennt man die Funktion :math:`f(x)` (eindeutig) umkehrbar; die
-Funktion :math:`f _{\rm{U}}(x)` wird entsprechend als Umkehrfunktion bezeichnet. Sie
+Funktion :math:`f_{\mathrm{U}}(x)` wird entsprechend als Umkehrfunktion bezeichnet. Sie
 entspricht der Menge an geordneten Paaren :math:`(y,\, x)`, für die
 :math:`(x,\, y) \in f` gilt. Auch in diesem Fall ist der Definitionsbereich
 der Umkehrfunktion der Wertebereich der ursprünglichen Funktion und umgekehrt.
 
 
-.. index::
-    single: Abbildung; Relation
-    single: Relation
+.. index:: Abbildung; Relation, Relation
 .. _Relationen:
 
 Relationen
@@ -139,7 +134,7 @@ Relationen
 
 Eine Relation :math:`R` ist eine Abbildung aus einer Menge :math:`\mathbb{M}` in
 die gleiche Menge :math:`\mathbb{M}`. Von besonderer Bedeutung sind zweistellige
-Relationen, d.h. Teilmengen von :math:`\mathbb{M} \times \mathbb{M}`.
+Relationen, also Teilmengen von :math:`\mathbb{M} \times \mathbb{M}`.
 
 .. math::
 
@@ -172,11 +167,11 @@ mathematischer Form schreibt man:
 
 
 Nach dem gleichen Prinzip lassen sich auch drei- und mehrstellige Relationen
-bilden, beispielsweise ":math:`x` liegt zwischen :math:`y` und :math:`z`".
-[#R1]_ Darüber hinaus gelten auch für Relationen die allgemeinen Eigenschaften
-von Abbildungen; beispielsweise kann eine Relation :math:`R` mit :math:`(x
-_{\rm{1}} ,\, x_2 ) \in R` durch Bildung der entsprechenden Paare :math:`(x_2
-,\, x_1 ) \in R _{\rm{U}}` invertiert werden. Ebenfalls lassen sich zwei Relationen
+bilden, beispielsweise ":math:`x` liegt zwischen :math:`y` und :math:`z`". [#]_
+Darüber hinaus gelten auch für Relationen die allgemeinen Eigenschaften von
+Abbildungen; beispielsweise kann eine Relation :math:`R` mit :math:`(x_1 ,\,
+x_2) \in R` durch Bildung der entsprechenden Paare :math:`(x_2 ,\, x_1 ) \in
+R_{\mathrm{U}}` invertiert werden. Ebenfalls lassen sich zwei Relationen
 :math:`R_1` und :math:`R_2` zu einer einzigen Relation :math:`R_2 \circ R_1`
 verketten.
 
@@ -189,10 +184,11 @@ Verschiedene Relationen lassen sich hinsichtlich drei charakteristischer
 Eigenschaften unterscheiden:
 
 .. index:: Relation; Reflexivität
+.. _Reflexivität:
 
 * Reflexivität:
     Eine Relation :math:`R` in einer Menge :math:`\mathbb{M}` heißt reflexiv,
-    wenn jedes :math:`x \in \mathbb{M}` in Relation zu sich selbst steht, d.h.
+    wenn jedes :math:`x \in \mathbb{M}` in Relation zu sich selbst steht, also
     für alle :math:`x` gilt: :math:`(x,x) \in R`
 
     *Beispiele:*
@@ -205,12 +201,13 @@ Eigenschaften unterscheiden:
       :math:`\mathbb{R}` der reellen Zahlen, nicht reflexiv.
 
 .. index:: Relation; Symmetrie
+.. _Symmetrie_Abbildung:
 
 * Symmetrie:
     Eine Relation :math:`R` in einer Menge :math:`\mathbb{M}` heißt symmetrisch,
     wenn für alle :math:`x_1 ,\, x_2 \in \mathbb{M}` aus dem Zutreffen von
     :math:`R` auf :math:`(x_1 ,\, x_2)` auch das Zutreffen von :math:`R` auf
-    :math:`(x_2 ,\, x_1 )` folgt. [#S1]_
+    :math:`(x_2 ,\, x_1 )` folgt. [#]_
 
     *Beispiel:*
 
@@ -218,9 +215,8 @@ Eigenschaften unterscheiden:
       Relation ":math:`g_1` steht senkrecht auf :math:`g_2`"
       symmetrisch.
 
-.. index::
-    single: Relation; Transitivität
-    single: Transitivität
+.. index:: Relation; Transitivität, Transitivität
+.. _Transitivität:
 
 * Transitivität:
     Eine Relation :math:`R` in einer Menge :math:`M` heißt transitiv, wenn für
@@ -234,14 +230,13 @@ Eigenschaften unterscheiden:
       für je drei beliebige reelle Zahlen :math:`x_1 < x_2` sowie :math:`x_2 <
       x_3`, so gilt ebenfalls :math:`x_1 < x_3`.
 
-.. index::
-    single: Relation; Linearität
-    single: Linearität
+.. index:: Relation; Linearität, Linearität
+.. _Linearität:
 
 Eine weitere wichtige Eigenschaft vieler Relationen ist die so genannte
 "Linearität". Eine Relation :math:`R` in einer Menge :math:`\mathbb{M}` heißt
-linear, wenn entweder :math:`x_1 \; R \; x_2` oder :math:`x _{\rm{2}} \; R \;
-x_1` gilt. Ein Beispiel hierfür ist die "Kleiner-Gleich"-Relation :math:`\le`
+linear, wenn entweder :math:`x_1 \; R \; x_2` oder :math:`x_2 \; R
+\; x_1` gilt. Ein Beispiel hierfür ist die "Kleiner-Gleich"-Relation :math:`\le`
 für reelle Zahlen :math:`\mathbb{R}`, denn es gilt für alle :math:`x_1 ,\, x_2
 \in \mathbb{R}` stets entweder :math:`x_1 \le x_2` oder :math:`x_2 \le x_1`.
 
@@ -264,7 +259,7 @@ transitiv sind, unterscheiden sich jedoch in ihren weiteren Eigenschaften.
 
 * Eine wichtige Ordnungsrelation ist die so genannte "reflexive Ordnung",
   beispielsweise die "Kleiner/Gleich"-Relation :math:`\le` für die reellen
-  Zahlen. Sie ist reflexiv, antisymmetrisch, transitiv und linear. [#R2]_
+  Zahlen. Sie ist reflexiv, antisymmetrisch, transitiv und linear. [#]_
 
 .. index:: Äquivalenzrelation
 .. _Äquivalenzrelationen:
@@ -287,13 +282,13 @@ und transitiv sind.
   stellen ebenfalls Äquivalenzrelationen dar.
 
 Durch eine Äquivalenz-Relation wird eine Menge :math:`\mathbb{M}` in
-unterschiedliche Äquivalenz-Klassen zerlegt. [#Z1]_ Jedes Element einer solchen
+unterschiedliche Äquivalenz-Klassen zerlegt. [#]_ Jedes Element einer solchen
 Klasse heißt Repräsentant der Klasse und steht mit allen anderen Elementen der
-Klasse in der Relation :math:`R`, d.h. es gilt :math:`x_1 \; R \; x_2`
-für alle :math:`x_1 ,\, x _2` einer Äquivalenz-Klasse. [#G1]_
+Klasse in der Relation :math:`R`, es gilt also :math:`x_1 \; R \; x_2`
+für alle :math:`x_1 ,\, x_2` einer Äquivalenz-Klasse. [#]_
 
-Alle Repräsentanten werden als nicht voneinander verschieden betrachtet, d.h. es
-wird davon abgesehen, dass sich die Elemente einer Äquivalenz-Klasse in gewissen
+Alle Repräsentanten werden als nicht voneinander verschieden betrachtet, es wird
+also davon abgesehen, dass sich die Elemente einer Äquivalenz-Klasse in gewissen
 Eigenschaften unterscheiden. Somit sind Äquivalenzrelationen charakteristisch
 für mathematische Abstraktionsprozesse: Eine Menge :math:`\mathbb{M}` kann mit
 Hilfe einer Äquivalenzrelation :math:`R` in ein System von Äquivalenz-Klassen
@@ -301,9 +296,7 @@ zerlegt werden. Diese Klassen treten somit an die Stelle ihrer Repräsentanten,
 die wiederum anhand ihrer entsprechenden Klasse "identifiziert" werden.
 
 
-.. index::
-    single: Abbildung; Operation
-    single: Operator
+.. index:: Abbildung; Operation, Operator
 .. _Operationen:
 
 Operationen
@@ -316,12 +309,12 @@ schreibt man hierfür:
 
 .. math::
 
-    x_1 \; \mathrm{Op} \; x_2 = y  \quad \text{ oder } \quad \mathrm{Op}(x
-   _1 ,\, x_2) = y
+    x_1 \; \mathrm{Op} \; x_2 = y  \quad \text{ oder } \quad \mathrm{Op}(x_1 ,\,
+    x_2) = y
 
 Das jeweilige Zeichen :math:`\mathrm{Op}` wird dabei als Operationszeichen (oder
 kurz "Operator") bezeichnet, :math:`x_1` und :math:`x_2` werden Operanden
-genannt. [#O1]_
+genannt. [#]_
 
 *Beispiel:*
 
@@ -330,9 +323,9 @@ genannt. [#O1]_
   eine natürliche Zahl :math:`n_3 = n_1 + n_2` abgebildet.
 
 Nach dem gleichen Prinzip lassen sich auch ein- oder mehrstellige Operationen
-d.h. eindeutige Abbildungen von Elementen :math:`(x_1 ,\, x_2 ,\, \ldots )` aus
+als eindeutige Abbildungen von Elementen :math:`(x_1 ,\, x_2 ,\, \ldots )` aus
 :math:`\mathbb{M} \times \mathbb{M} \times \ldots` auf Elemente :math:`y \in
-\mathbb{M}`, bilden.
+\mathbb{M}` bilden.
 
 *Beispiele:*
 
@@ -390,10 +383,9 @@ mehrstellige Operationen zutreffen können:
 
     .. math::
 
-        x_1 \; \mathrm{Op}_1 \; (x_2 \; \mathrm{Op}
-       _2 \; x_3 ) = (x_1 \; \mathrm{Op}_1 \; x
-       _2 ) \; \mathrm{Op}_2 \; (x_1 \; \mathrm{Op}
-       _1 \; x_3 )
+        x_1 \; \mathrm{Op}_1 \; (x_2 \; \mathrm{Op}_2 \; x_3 ) = (x_1 \;
+        \mathrm{Op}_1 \; x_2 ) \; \mathrm{Op}_2 \; (x_1 \; \mathrm{Op}_1 \; x_3
+        )
 
     Ein Beispiel für eine distributive Operation mit den zwei Operatoren
     :math:`\cdot` und :math:`+` ist folgende Verknüpfung dreier reeller Zahlen
@@ -401,8 +393,7 @@ mehrstellige Operationen zutreffen können:
 
     .. math::
 
-        x_1 \cdot (x_2 + x_3 ) = x_1 \cdot x
-       _2 + x_1 \cdot x_3
+        x_1 \cdot (x_2 + x_3 ) = x_1 \cdot x_2 + x_1 \cdot x_3
 
 
 .. raw:: html
@@ -416,19 +407,19 @@ mehrstellige Operationen zutreffen können:
 .. [#] In diesem Zusammenhang wird :math:`x` auch als "Urbild" von :math:`y`
     bzw. :math:`y` als "Bild" von :math:`x`.
 
-.. [#R1] Eine :math:`n`-stellige Relation entsprechend eine Teilmenge
-    :math:`\mathbb{M} ^n = \mathbb{M} \times \mathbb{M} \times \ldots \times
+.. [#] Eine :math:`n`-stellige Relation entsprechend eine Teilmenge
+    :math:`\mathbb{M}^n = \mathbb{M} \times \mathbb{M} \times \ldots \times
     \mathbb{M}`.
 
-.. [#S1] Folgt im umgekehrten Fall aus dem Zutreffen von :math:`R` auf
-    :math:`(x_1 ,\, x_2 )` das Nicht-Zutreffen von :math:`R` auf :math:`(x_2
-    ,\, x_1 )`,  so nennt man die Relation antisymmetrisch.
+.. [#] Folgt im umgekehrten Fall aus dem Zutreffen von :math:`R` auf
+    :math:`(x_1 ,\, x_2)` das Nicht-Zutreffen von :math:`R` auf :math:`(x_2
+    ,\, x_1)`,  so nennt man die Relation antisymmetrisch.
 
-.. [#R2] Gilt die Linearität nicht, so spricht man von einer reflexiven
+.. [#] Gilt die Linearität nicht, so spricht man von einer reflexiven
     Halbordnung. Ein Beispiel hierfür ist die Teilbarkeitsrelation ":math:`n_1`
     teilt :math:`n_2`" für zwei natürliche Zahlen.
 
-.. [#Z1] Unter einer Zerlegung einer nichtleeren Menge :math:`\mathbb{M}`
+.. [#] Unter einer Zerlegung einer nichtleeren Menge :math:`\mathbb{M}`
     versteht man ein System von nichtleeren, paarweise elementfremden Teilmengen
     von :math:`\mathbb{M}` mit der Eigenschaft, dass :math:`\mathbb{M}` die
     Vereinigungsmenge des Systems ist.
@@ -438,7 +429,7 @@ mehrstellige Operationen zutreffen können:
     Äquivalenz-Relation :math:`R`, durch die die Zerlegung von
     :math:`\mathbb{M}` nach :math:`R` definiert ist.
 
-.. [#G1] Äquivalenz-Klassen reeller Zahlen, die durch Gleichheits-Relation
+.. [#] Äquivalenz-Klassen reeller Zahlen, die durch Gleichheits-Relation
     gebildet werden, bestehen jeweils aus genau einer Zahl, da jede Zahl nur mit
     sich selbst identisch ist. Zahlen können allerdings meist auf
     unterschiedliche Arten dargestellt werden; beispielsweise gilt :math:`2 =
@@ -449,7 +440,7 @@ mehrstellige Operationen zutreffen können:
     "hat die gleiche Farbe wie", so beinhalten die Äquivalenzklassen "rot",
     "grün", "blau", usw. jeweils eine große Anzahl an Fahrzeugen.
 
-.. [#O1] Bei speziellen Operationen haben die Operanden eigene Bezeichnungen; im
-    Term :math:`x ^{n}` bezeichnet man beispielsweise :math:`x` als Basis und
+.. [#] Bei speziellen Operationen haben die Operanden eigene Bezeichnungen; im
+    Term :math:`x^{n}` bezeichnet man beispielsweise :math:`x` als Basis und
     :math:`n` als Exponent.
 

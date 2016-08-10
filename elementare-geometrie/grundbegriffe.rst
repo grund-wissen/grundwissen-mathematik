@@ -15,13 +15,15 @@ Punkt, Gerade, Strecke und Strahl
 ---------------------------------
 
 .. index:: Punkt, Dimension
+.. _Punkt:
+
 .. rubric:: Punkt und Dimension
 
 Das vielleicht grundlegendste Objekt der Geometrie ist der Punkt. Ein Punkt ist
 dimensionslos, besitzt also keine räumliche Ausdehnung. Die Lage eines Punktes
 im Raum wird für gewöhnlich durch Koordinaten angegeben, beispielsweise
-:math:`\mathrm{P} (x\, , \,y)` für einen Punkt im zweidimensionalen Raum oder
-:math:`\mathrm{P}(x \, , \, y \, , \, z)` für einen Punkt im dreidimensionalen
+:math:`\mathrm{P} (x\, ,\, y)` für einen Punkt im zweidimensionalen Raum oder
+:math:`\mathrm{P}(x \, ,\, y \, ,\, z)` für einen Punkt im dreidimensionalen
 Raum. Die Dimension eines Objekts gibt an, wieviele Raumrichtungen zur
 Beschreibung seiner geometrischen Eigenschaften berücksichtigt werden müssen.
 
@@ -35,8 +37,8 @@ Beschreibung seiner geometrischen Eigenschaften berücksichtigt werden müssen.
 Eine Gerade :math:`g` entspricht anschaulich einer Bahn, die sich ergibt, wenn
 sich ein Punkt ohne Änderung der Richtung unbegrenzt hin- und herbewegt. Eine
 Gerade weist stets eine eindeutige Richtung im Raum auf, hat jedoch im
-Allgemeinen keinen "Richtungssinn", d.h. sie besitzt keinen klar definierten
-Anfang als Startpunkt und kein klar definiertes Ende als Zielpunkt. [#RSG]_
+Allgemeinen keinen "Richtungssinn", sie besitzt also keinen klar definierten
+Anfang als Startpunkt und kein klar definiertes Ende als Zielpunkt. [#]_
 Vielmehr besteht jede Gerade aus einer Menge von unendlich vielen Punkten, die
 sich auf der geradlinigen Bahn befinden.
 
@@ -60,9 +62,9 @@ verläuft, ist ihre Dimension gleich eins.
 .. index:: Halbgerade
 .. _Halbgerade:
 
-Betrachtet man einen Punkt :math:`\rm{P}`, der auf einer Geraden liegt, so wird
+Betrachtet man einen Punkt :math:`\mathrm{P}`, der auf einer Geraden liegt, so wird
 diese durch den Punkt in zwei Halbgeraden unterteilt. Liegt ein weiterer Punkt
-:math:`\rm{A}` auf der einen, ein Punkt :math:`\rm{B}` auf der anderen
+:math:`\mathrm{A}` auf der einen, ein Punkt :math:`\mathrm{B}` auf der anderen
 Halbgeraden, so schreibt man für beide Halbgeraden auch kurz
 :math:`\mathrm{[PA}` bzw. :math:`\mathrm{[PB}`.
 
@@ -89,14 +91,14 @@ zugewiesen wird.
 .. _Strecke:
 
 Eine Strecke :math:`\overline{\mathrm{AB}}` entspricht der Menge aller Punkte,
-die sich zwischen zwei auf Punkten :math:`\rm{A}` und :math:`\rm{B}` einer
+die sich zwischen zwei auf Punkten :math:`\mathrm{A}` und :math:`\mathrm{B}` einer
 Geraden befinden; diese werden ebenfalls zur Punktmenge hinzugenommen. Eine
 Strecke entspricht stets dem kürzesten Abstand zwischen beiden Endpunkten.
 
 .. _Pfeil:
 
-Als Pfeil (oder Vektor) :math:`\overrightarrow{\rm{AB}}` bezeichnet man eine
-Strecke zwischen zwei Punkten :math:`\rm{A}` und :math:`\rm{B}`, die einen
+Als Pfeil (oder Vektor) :math:`\overrightarrow{\mathrm{AB}}` bezeichnet man eine
+Strecke zwischen zwei Punkten :math:`\mathrm{A}` und :math:`\mathrm{B}`, die einen
 eindeutigen Richtungssinn aufweist.
 
 .. figure:: ../pics/geometrie/strecke-und-vektor.png
@@ -119,10 +121,10 @@ eindeutigen Richtungssinn aufweist.
 Parallelität und Winkel
 -----------------------
 
-Verlaufen zwei voneinander verschiedene Geraden :math:`g _{\rm{1}}` und :math:`g
-_{\rm{2}}` entlang der gleichen Richtung, so heißen sie zueinander parallel.
-[#POG]_ Beide Geraden haben an jeder Stelle den gleichen Abstand :math:`a \ne 0`
-voneinander und somit keinen gemeinsamen Punkt ("Schnittpunkt").
+Verlaufen zwei voneinander verschiedene Geraden :math:`g_1` und :math:`g_2`
+entlang der gleichen Richtung, so heißen sie zueinander parallel. [#]_ Beide
+Geraden haben an jeder Stelle den gleichen Abstand :math:`a \ne 0` voneinander
+und somit keinen gemeinsamen Punkt ("Schnittpunkt").
 
 .. figure:: ../pics/geometrie/abstand-parallele-geraden.png
     :width: 50%
@@ -130,8 +132,7 @@ voneinander und somit keinen gemeinsamen Punkt ("Schnittpunkt").
     :name: fig-abstand-parallele-geraden
     :alt:  fig-abstand-parallele-geraden
 
-    Abstand :math:`a` zweier paralleler Geraden :math:`g _{\rm{1}}` und :math:`g
-    _{\rm{2}}`.
+    Abstand :math:`a` zweier paralleler Geraden :math:`g_1` und :math:`g_2`.
 
     .. only:: html
 
@@ -150,27 +151,26 @@ Geraden.
     :name: fig-abstand-punkt-gerade
     :alt:  fig-abstand-punkt-gerade
 
-    Abstand :math:`a` zwischen einem Punkt :math:`\rm{P}` und einer Geraden.
+    Abstand :math:`a` zwischen einem Punkt :math:`\mathrm{P}` und einer Geraden.
 
     .. only:: html
 
         :download:`SVG: Abstand Punkt-Gerade
         <../pics/geometrie/abstand-punkt-gerade.svg>`
 
-..
-    Quelle: Simon
+.. Quelle: Simon
 
 .. index:: Gradmaß
 .. _Winkel und Gradmaß:
 
 .. rubric:: Winkel und Gradmaß
 
-Gehen zwei Strahlen von einem gemeinsamen Punkt :math:`\rm{S}` ("Scheitel") aus,
-so bezeichnet man den Richtungsunterschied zwischen beiden Strahlen als Winkel.
-Üblicherweise werden Winkel mit griechischen Kleinbuchstaben symbolisiert.
-Liegen auf den zwei Strahlen (auch "Winkelschenkel" genannt) die Punkte
-:math:`\rm{A}` und :math:`\rm{B}`, so schreibt man auch :math:`\alpha =
-\varangle \rm{ASB}`.
+Gehen zwei Strahlen von einem gemeinsamen Punkt :math:`\mathrm{S}` ("Scheitel")
+aus, so bezeichnet man den Richtungsunterschied zwischen beiden Strahlen als
+Winkel. Üblicherweise werden Winkel mit griechischen Kleinbuchstaben
+symbolisiert. Liegen auf den zwei Strahlen (auch "Winkelschenkel" genannt) die
+Punkte :math:`\mathrm{A}` und :math:`\mathrm{B}`, so schreibt man auch
+:math:`\alpha = \varangle \mathrm{ASB}`.
 
 .. figure:: ../pics/geometrie/winkel.png
     :width: 50%
@@ -187,18 +187,19 @@ Liegen auf den zwei Strahlen (auch "Winkelschenkel" genannt) die Punkte
 
 Die Größe eines Winkels wird üblicherweise in Grad angegeben. Ein Grad
 entspricht dabei einem :math:`360`-tel einer vollen Umdrehung; wird also ein
-Strahl um einen Winkel von :math:`360 °` gedreht, so ist er deckungsgleich mit
+Strahl um einen Winkel von :math:`360 \degree` gedreht, so ist er deckungsgleich mit
 dem ursprünglichen Strahl. Je nach Winkelgröße unterscheidet man folgende
 Winkelarten:
 
-* Gilt :math:`{\color{white}18}0 < \alpha < \phantom{3}90 °`, so nennt man den Winkel
-  "spitz".
-* Gilt :math:`{\color{white}1}90 < \alpha < 180 °`, so nennt man den Winkel "stumpf".
-* Gilt :math:`180 < \alpha < 360 °`, so nennt man den Winkel "überstumpf".
+* Gilt :math:`{\color{white}18}0 < \alpha < \phantom{3}90 \degree`, so nennt man den
+  Winkel "spitz".
+* Gilt :math:`{\color{white}1}90 < \alpha < 180 \degree`, so nennt man den Winkel
+  "stumpf".
+* Gilt :math:`180 < \alpha < 360 \degree`, so nennt man den Winkel "überstumpf".
 
-Gilt für einen Winkel :math:`\alpha = 90 °`, so wird er als "rechter Winkel"
-bezeichnet, bei :math:`\alpha = 180 °` wird ein Winkel "gestreckter Winkel"
-genannt. Im Fall :math:`\alpha = 360 °`, d.h. einer vollen Umdrehung,
+Gilt für einen Winkel :math:`\alpha = 90 \degree`, so wird er als "rechter Winkel"
+bezeichnet, bei :math:`\alpha = 180 \degree` wird ein Winkel "gestreckter Winkel"
+genannt. Im Fall :math:`\alpha = 360 \degree`, also einer vollen Umdrehung,
 bezeichnet man den Winkel auch als "Vollwinkel".
 
 Für die Angabe von sehr kleinen Winkelgrößen sind auch die Einheiten
@@ -208,7 +209,7 @@ folgende Schreibweise üblich:
 
 .. math::
 
-    1° &= 60' \\
+    1 \degree &= 60' \\
     1'\, &= 60''
 
 Das Bogenmaß, das ebenfalls häufig für Winkelangaben Verwendung findet, wird im
@@ -225,10 +226,8 @@ Winkel jeweils zu :math:`180°`. Für je zwei so genannte "Nebenwinkel"
 
 .. math::
 
-    \alpha _{\rm{1}} + \beta _{\rm{1}} = \alpha _{\rm{2}} + \beta _{\rm{2}} =
-    180 ° \\
-    \alpha _{\rm{1}} + \beta _{\rm{2}} = \alpha _{\rm{2}} + \beta _{\rm{1}} =
-    180 °
+    \alpha_1 + \beta_1 = \alpha_2 + \beta_2 = 180 \degree \\
+    \alpha_1 + \beta_2 = \alpha_2 + \beta_1 = 180 \degree
 
 .. Quelle: Hoffmann
 
@@ -240,8 +239,8 @@ Winkel jeweils zu :math:`180°`. Für je zwei so genannte "Nebenwinkel"
     :name: fig-winkel-scheitelwinkel-nebenwinkel
     :alt:  fig-winkel-scheitelwinkel-nebenwinkel
 
-    Scheitelwinkel und Nebenwinkel zweier sich schneidender Geraden :math:`g
-    _{\rm{1}}` und :math:`g _{\rm{2}}`.
+    Scheitelwinkel und Nebenwinkel zweier sich schneidender Geraden :math:`g_1`
+    und :math:`g_2`.
 
     .. only:: html
 
@@ -254,8 +253,8 @@ immer:
 
 .. math::
 
-    \alpha _{\rm{1}} &= \alpha _{\rm{2}} \\
-    \beta _{\rm{1}}  &= \beta _{\rm{2}}
+    \alpha_1 &= \alpha_2 \\
+    \beta_1  &= \beta_2
 
 .. index:: Stufenwinkel, Wechselwinkel
 .. _Stufenwinkel und Wechselwinkel:
@@ -274,9 +273,8 @@ einander gegenüber liegenden Winkel "Wechselwinkel" (oder kurz: "Z"-Winkel).
     :name: fig-winkel-stufenwinkel-wechselwinkel
     :alt:  fig-winkel-stufenwinkel-wechselwinkel
 
-    Stufenwinkel und Wechselwinkel zweier paralleler Geraden :math:`g_{\rm{1}}`
-    und :math:`g _{\rm{2}}`, die von einer weiteren Geraden :math:`g _{\rm{3}}`
-    geschnitten werden.
+    Stufenwinkel und Wechselwinkel zweier paralleler Geraden :math:`g_1` und
+    :math:`g_2`, die von einer weiteren Geraden :math:`g_3` geschnitten werden.
 
     .. only:: html
 
@@ -284,11 +282,10 @@ einander gegenüber liegenden Winkel "Wechselwinkel" (oder kurz: "Z"-Winkel).
         <../pics/geometrie/winkel-stufenwinkel-wechselwinkel.svg>`
 
 In der Abbildung :ref:`Stufenwinkel und Wechselwinkel
-<fig-winkel-stufenwinkel-wechselwinkel>` sind beispielsweise :math:`\beta
-_{\rm{1}}` und :math:`\beta _{\rm{3}}` als Stufenwinkel gleich groß, es gilt
-also :math:`\beta _{\rm{1}} = \beta _{\rm{3}}`. Ebenso gilt :math:`\alpha
-_{\rm{2}} = \alpha _{\rm{3}}`, da es sich bei diesen beiden Winkeln um
-Wechselwinkel handelt. [#WSW]_
+<fig-winkel-stufenwinkel-wechselwinkel>` sind beispielsweise :math:`\beta_1` und
+:math:`\beta_3` als Stufenwinkel gleich groß, es gilt also :math:`\beta_1 =
+\beta_3`. Ebenso gilt :math:`\alpha_2 = \alpha_3`, da es sich bei diesen beiden
+Winkeln um Wechselwinkel handelt. [#]_
 
 .. _Zueinander senkrechte Winkel:
 
@@ -297,9 +294,9 @@ Wechselwinkel handelt. [#WSW]_
 Stehen die Strahlen zweier Winkel senkrecht aufeinander, so sind die beiden
 Winkel gleich groß. Der Grund dafür ist, dass die beiden aneinander liegenden
 :math:`\beta`-Winkel Scheitelwinkel darstellen, also gleich groß sind. Da die
-Summe der Winkel in einem Dreieck stets 180° beträgt und in beiden Dreiecken je
-ein Winkel gleich 90° ist, folgt aus der Gleichheit von :math:`\beta` auch die
-Gleichheit von :math:`\alpha`.
+Summe der Winkel in einem Dreieck stets :math:`180 \degree` beträgt und in
+beiden Dreiecken je ein Winkel gleich :math:`90 \degree` ist, folgt aus der
+Gleichheit von :math:`\beta` auch die Gleichheit von :math:`\alpha`.
 
 .. figure:: ../pics/geometrie/winkel-zueinander-senkrechte-winkel.png
     :width: 50%
@@ -331,17 +328,15 @@ das :ref:`Kraftverhältnis an einer schiefen Ebene <gwp:Schiefe Ebene>` dar.
 
     .. rubric:: Anmerkungen:
 
-.. [#RSG] Wird einer Geraden willkürlich ein Richtungssinn zugewiesen, so spricht
+.. [#] Wird einer Geraden willkürlich ein Richtungssinn zugewiesen, so spricht
     man von einer "orientierten" Geraden.
 
-.. [#POG] Sind zwei orientierte Geraden :math:`g _{\rm{1}}` und :math:`g
-    _{\rm{2}}` zueinander parallel, so können sie "gleichsinnig parallel"
-    (Symbol: :math:`g _{\rm{1}} \uparrow \uparrow g _{\rm{2}})` oder
-    "antiparallel" (Symbol: :math:`g _{\rm{1}} \uparrow \downarrow g _{\rm{2}})`
-    zueinander verlaufen.
+.. [#] Sind zwei orientierte Geraden :math:`g_1` und :math:`g_2` zueinander
+    parallel, so können sie "gleichsinnig parallel" (Symbol: :math:`g_1 \uparrow
+    \uparrow g_2)` oder "antiparallel" (Symbol: :math:`g_1 \uparrow \downarrow
+    g_2)` zueinander verlaufen.
 
-.. [#WSW] Genau genommen gilt sogar :math:`\alpha _{\rm{1}} = \alpha _{\rm{2}} =
-    \alpha _{\rm{3}} = \alpha _{\rm{4}}` sowie :math:`\beta _{\rm{1}} = \beta
-    _{\rm{2}} = \beta _{\rm{3}} = \beta _{\rm{4}}`, da es sich jeweils paarweise
-    um Stufen- bzw. Wechselwinkel handelt.
+.. [#] Genau genommen gilt sogar :math:`\alpha_1 = \alpha_2 = \alpha_3 =
+    \alpha_4` sowie :math:`\beta_1 = \beta_2 = \beta_3 = \beta _{\mathrm{4}}`,
+    da es sich jeweils paarweise um Stufen- bzw. Wechselwinkel handelt.
 

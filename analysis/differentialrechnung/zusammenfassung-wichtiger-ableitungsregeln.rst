@@ -17,33 +17,34 @@ Allgemeine Ableitungsregeln
 Die folgenden Ableitungsregeln sind allgemein für beliebige Funktionen gültig:
 
 * Lässt sich eine Funktion :math:`f(x)` als Summe einer anderen Funktion
-  :math:`f _{\rm{1}}(x)` mit einem konstanten Summanden :math:`c` darstellen, so
-  ist ihre Ableitungsfunktion :math:`f'(x)` mit der Ableitung :math:`f
-  _{\rm{1}}'(x)` der anderen Funktion identisch:
+  :math:`f_1(x)` mit einem konstanten Summanden :math:`c` darstellen, so ist
+  ihre Ableitungsfunktion :math:`f'(x)` mit der Ableitung :math:`f_1'(x)` der
+  anderen Funktion identisch:
 
   .. math::
       :label: eqn-ableitungsregel-konstanter-wert
 
-      f _{\rm{1}}(x) = f _{\rm{2}}(x) + c \quad \Rightarrow \quad f _{\rm{1}}'(x)
-      = f _{\rm{2}}'(x) {\color{white} +c}
+      f_1(x) = f_2(x) + c \quad \Rightarrow \quad f_1'(x) = f_2'(x)
+      {\color{white} +c}
 
   Insbesondere ist die Ableitung beziehungsweise Steigung einer konstanten
   Funktion :math:`f(x) = c` gleich Null.
 
-* Lässt sich eine Funktion :math:`f _{\rm{1}}(x)` als Produkt einer anderen
-  Funktion :math:`f _{\rm{2}}(x)` mit einem konstanten Faktor :math:`c`
-  darstellen, so entspricht ihre Ableitungsfunktion :math:`f _{\rm{1}}'(x)`
-  derjenigen der anderen Funktion :math:`f _{\rm{2}}(x)`, wenn diese mit dem
-  gleichen Faktor :math:`c` multipliziert wird.
+* Lässt sich eine Funktion :math:`f_1(x)` als Produkt einer anderen Funktion
+  :math:`f_2(x)` mit einem konstanten Faktor :math:`c` darstellen, so entspricht
+  ihre Ableitungsfunktion :math:`f_1'(x)` derjenigen der anderen Funktion
+  :math:`f_2(x)`, wenn diese mit dem gleichen Faktor :math:`c` multipliziert
+  wird.
 
   .. math::
       :label: eqn-ableitungsregel-konstanter-faktor
 
-      f_1(x) = c \, \cdot \; f _2(x) \quad \Rightarrow \quad f_{1}'(x) = c \cdot f_{2}'(x)
+      f_1(x) = c \, \cdot \; f _2(x) \quad \Rightarrow \quad f_{1}'(x) = c \cdot
+      f_{2}'(x)
 
 Für jede beliebige Funktion :math:`f(x)`, die man sich aus zwei Teilfunktionen
-:math:`f _{\rm{1}}(x)` und :math:`f _{\rm{2}}(x)` zusammengesetzt denken kann,
-sind folgende Ableitungsregeln nützlich:
+:math:`f_1(x)` und :math:`f_2(x)` zusammengesetzt denken kann, sind folgende
+Ableitungsregeln nützlich:
 
 .. _Additionsregel:
 
@@ -57,8 +58,8 @@ sind folgende Ableitungsregeln nützlich:
   .. math::
       :label: eqn-additionsregel
 
-      \left[ f _{\rm{1}}(x) + f _{\rm{2}}(x) \right]' = f _{\rm{1}}'(x) + f
-      _{\rm{2}}'(x) {\color{white} \quad \;\; \ldots}
+      \left[ f_1(x) + f_2(x) \right]' = f_1'(x) + f_2'(x) {\color{white} \quad
+      \;\; \ldots}
 
 
 .. index:: Ableitungsregeln; Produktregel
@@ -72,8 +73,8 @@ sind folgende Ableitungsregeln nützlich:
   .. math::
       :label: eqn-produktregel
 
-      {\color{white} \ldots \quad \qquad} \left[ f _{\rm{1}}(x) \, \cdot \; f _{\rm{2}}(x) \right]' = f _{\rm{1}}'(x)
-      \, \cdot \; f _{\rm{2}}(x) \, + \, f _{\rm{2}}'(x) \, \cdot \; f _{\rm{1}}(x)
+      {\color{white} \ldots \quad \qquad} \left[ f_1(x) \, \cdot \; f_2(x)
+      \right]' = f_1'(x) \, \cdot \; f_2(x) \, + \, f_2'(x) \, \cdot \; f_1(x)
 
 
 .. index:: Ableitungsregeln; Quotientenregel
@@ -87,10 +88,9 @@ sind folgende Ableitungsregeln nützlich:
   .. math::
       :label: eqn-quotientenregel
 
-      {\color{white} \ldots \qquad \qquad \quad \;\;\, } \left[ \frac{f _{\rm{1}}(x)}{f _{\rm{2}}(x)}
-      \right]' = \frac{f _{\rm{1}}'(x) \, \cdot \; f _{\rm{2}}(x) \, - \, f
-      _{\rm{2}}'(x) \, \cdot \; f _{\rm{1}}(x)}{ \left( f _{\rm{2}}(x)
-      \right)^2}
+      {\color{white} \ldots \qquad \qquad \quad \;\;\, } \left[
+      \frac{f_1(x)}{f_2(x)} \right]' = \frac{f_1'(x) \, \cdot \; f_2(x) \, - \,
+      f_2'(x) \, \cdot \; f_1(x)}{ \left( f_2(x) \right)^2}
 
 
 .. index:: Ableitungsregeln; Kettenregel
@@ -105,8 +105,8 @@ sind folgende Ableitungsregeln nützlich:
   .. math::
       :label: eqn-kettenregel
 
-      \left[ f _{\rm{1}}\big(f _{\rm{2}}(x)\big) \right]' = f _{\rm{1}}'\big(f
-      _{\rm{2}}(x)\big) \, \cdot \; f _{\rm{2}}'(x)
+      \left[ f_1\big(f_2(x)\big) \right]' = f_1'\big(f_2(x)\big) \, \cdot \;
+      f_2'(x)
 
   Hierbei wird zunächst die Ableitung :math:`f_1'` der äußeren Funktion
   gebildet, wobei die innere Funktion unverändert gelassen wird. Der
@@ -121,8 +121,8 @@ Satz von Rolle und Mittelwertsatz
 
 Ist eine Funktion :math:`f(x)` in einem Intervall :math:`]a;b[` stetig
 differenzierbar und gilt zudem :math:`f(a) = f(b)`, so existiert mindestens eine
-Stelle :math:`x_0` innerhalb des Intervalls, für die
-:math:`f'(x_0) = 0` gilt. Dieser Zusammenhang wird "Satz von `Rolle
+Stelle :math:`x_0` innerhalb des Intervalls, für die :math:`f'(x_0) = 0` gilt.
+Dieser Zusammenhang wird "Satz von `Rolle
 <https://de.wikipedia.org/wiki/Michel_Rolle>`_" genannt.
 
 .. todo pic
@@ -136,7 +136,7 @@ Nullstellen einer stetigen Funktion stets eine Extremstelle befinden.
 .. index:: Mittelwertsatz
 
 Der Satz von Rolle kann auch allgemeiner formuliert werden: Ist eine Funktion
-:math:`f(x)` in einem Intervall :math:`]a;b[` stetig differenzierbar, so
+:math:`f(x)` in einem Intervall :math:`]a ;\, b[` stetig differenzierbar, so
 existiert mindestens eine Stelle :math:`x_0` innerhalb des Intervalls, für die
 gilt:
 
@@ -171,12 +171,12 @@ Ableitungsregeln wichtiger Funktionen
       - :math:`n \cdot x ^{n-1}`
       - :math:`n \in \mathbb{R}`
     * - Exponentialfunktion
-      - :math:`a ^{x}`
-      - :math:`a ^{x} \cdot \ln{(a)}`
+      - :math:`a^{x}`
+      - :math:`a^{x} \cdot \ln{(a)}`
       - :math:`a > 0`, :math:`a \ne 1`
     * - Natürliche Exponentialfunktion
-      - :math:`e ^{x}`
-      - :math:`e ^{x}`
+      - :math:`e^{x}`
+      - :math:`e^{x}`
       -
     * - Logarithmusfunktion
       - :math:`\log{(x)}`

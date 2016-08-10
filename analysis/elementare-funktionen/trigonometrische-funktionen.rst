@@ -21,11 +21,11 @@ Die beiden Winkelfunktionen Sinus und Cosinus lassen sich nicht nur als
 :ref:`Längenverhältnisse in einem rechtwinkligen Dreieck <Längenverhältnisse im
 rechtwinkligen Dreieck>`, sondern auch als Streckenanteile interpretieren.
 Zeichnet man in ein Koordinatensystem einen Kreis mit Radius eins um den
-Koordinatenursprung :math:`\rm{O} = (0,0)` und verbindet den Koordinatenursprung
-mit einem auf dem Kreis entlang wandernden Punkt :math:`\rm{P}`, so stellen
+Koordinatenursprung :math:`\mathrm{O} = (0,0)` und verbindet den Koordinatenursprung
+mit einem auf dem Kreis entlang wandernden Punkt :math:`\mathrm{P}`, so stellen
 Cosinus und Sinus die senkrechten Projektionen der Verbindungslinie auf die
 :math:`x`- bzw. :math:`y`-Achse dar. Der Tangens entspricht der Steigung, welche
-die Verbindungslinie :math:`\overline{\rm{OP}}` bei einem Winkel :math:`\alpha`
+die Verbindungslinie :math:`\overline{\mathrm{OP}}` bei einem Winkel :math:`\alpha`
 hat.
 
 .. figure:: ../../pics/analysis/einheitskreis-winkelfunktionen.png
@@ -35,9 +35,9 @@ hat.
     :alt:  fig-einheitskreis-winkelfunktionen
 
     Sinus und Cosinus am Einheitskreis. Die Verbindungslinie
-    :math:`\overline{\rm{OP}}` besitzt die Länge eins, so dass
+    :math:`\overline{\mathrm{OP}}` besitzt die Länge eins, so dass
     :math:`\cos{\alpha }` und :math:`\sin{\alpha }` den Längen des :math:`x`-
-    bzw. :math:`y`-Anteils von :math:`\overline{\rm{OP}}` entsprechen.
+    bzw. :math:`y`-Anteils von :math:`\overline{\mathrm{OP}}` entsprechen.
 
     .. only:: html
 
@@ -70,11 +70,11 @@ trigonometrischen Funktionen für beliebig große Winkelwerte gelten, kann
 beispielsweise auch :math:`\sin{(x)}` anstelle von :math:`\sin{(\alpha)}` für
 jedes :math:`x \in \mathbb{R}` geschrieben werden.
 Die Vorzeichen der Winkelfunktionen wiederum richten sich danach, in welchem
-Quadranten des Koordinatensystems sich der "Kreisvektor" :math:`\rm{OP}` gerade
+Quadranten des Koordinatensystems sich der "Kreisvektor" :math:`\mathrm{OP}` gerade
 befindet.
 
 Anhand des Einheitskreises lässt sich auch der so genannte "trigonometrische
-Pythagoras" ableiten; Mit der Hypothenusenlänge :math:`\rm{OP} = 1` und den
+Pythagoras" ableiten; Mit der Hypothenusenlänge :math:`\mathrm{OP} = 1` und den
 Kathetenlängen :math:`\sin{(\alpha)}` und :math:`\cos{(\alpha)}` lautet der
 :ref:`Satz des Pythagoras <Satz von Pythagoras>` hierbei:
 

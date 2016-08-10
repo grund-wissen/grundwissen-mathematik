@@ -1,20 +1,19 @@
 
-.. _Aufgaben zu Eigenschaften von Funktionen:
+.. _Aufgaben Eigenschaften von Funktionen:
 
-Aufgaben zu Eigenschaften von Funktionen
-========================================
+Eigenschaften von Funktionen
+============================
 
 Die folgenden Aufgaben beziehen sich auf den Abschnitt :ref:`Eigenschaften von
 Funktionen <Eigenschaften von Funktionen>`.
 
-.. _Aufgaben zur Stetigkeit:
+.. _Aufgaben Stetigkeit:
 
-.. rubric:: Aufgaben zur Stetigkeit
+.. rubric:: Stetigkeit
 
 ----
 
-
-.. _Stetigkeit-01:
+.. _fun01:
 
 * Untersuche die folgende Funktion auf Stetigkeit an der Stelle :math:`x_0 = 1`:
 
@@ -25,25 +24,21 @@ Funktionen <Eigenschaften von Funktionen>`.
       x-1 \quad &\text{für } x \in [\phantom{-}1; \; \infty[
       \end{cases}
 
-  :ref:`Lösung <Stetigkeit-01-Lösung>`
+  :ref:`Lösung <fun01l>`
 
 ----
 
-.. _Stetigkeit-02:
+.. _fun02:
 
-* Ist die Funktion :math:`f(x) = \frac{1}{x^2}` mit :math:`\mathbb{D} =
-  \mathbb{R}\setminus \{ 0 \}` global stetig?
+* Ist die Funktion :math:`f(x) = \frac{1}{x^2}` mit dem Definitionsbereich
+  :math:`\mathbb{D} = \mathbb{R}\setminus \{ 0 \}` global stetig?
 
-  :ref:`Lösung <Stetigkeit-02-Lösung>`
+  :ref:`Lösung <fun02l>`
 
 
-.. raw:: latex
+----
 
-    \rule{\linewidth}{0.5pt}
-
-.. raw:: html
-
-    <hr/>
+.. foo
 
 .. only:: html
 

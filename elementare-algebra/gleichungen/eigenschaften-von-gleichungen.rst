@@ -4,13 +4,13 @@ Eigenschaften von Gleichungen
 =============================
 
 Eine Gleichung entspricht einer :ref:`Aussageform <Aussageform>`, bei der zwei
-Terme :math:`T _{\rm{1}}` und :math:`T _{\rm{2}}` durch die Gleichheits-Relation
+Terme :math:`T_1` und :math:`T_2` durch die Gleichheits-Relation
 :math:`=` miteinander verbunden sind:
 
 .. math::
     :label: eqn-term
 
-    T _{\rm{1}} = T _{\rm{2}}
+    T_1 = T_2
 
 Als Aussageform ist eine Variablengleichung weder wahr noch falsch. Belegt man
 allerdings die Variablen mit zulässigen Werten, so nehmen die einzelnen Terme
@@ -20,12 +20,11 @@ die eingesetzten Zahlen erfüllt. Diese Zahlen werden als Lösungen der Gleichun
 bezeichnet, die Gesamtheit aller Lösungen wird Lösungsmenge :math:`\mathbb{L}`
 genannt.
 
-Im einfachsten Fall entsprechen die beiden Terme :math:`T _{\rm{1}}` und
-:math:`T _{\rm{2}}` zwei einzelnen Elementen :math:`x _{\rm{1}}` und :math:`x
-_{\rm{2}}` einer Menge :math:`\mathbb{M}`. Diese können entweder gleich :math:`(x
-_{\rm{1}} = x _{\rm{2}})` oder ungleich :math:`(x _{\rm{1}} \ne x _{\rm{2}})`
-sein. Im ersten Fall stehen die Variablen :math:`x _{\rm{1}}` und :math:`x
-_{\rm{2}}` für das selbe Objekt.
+Im einfachsten Fall entsprechen die beiden Terme :math:`T_1` und :math:`T_2`
+zwei einzelnen Elementen :math:`x_1` und :math:`x_2` einer Menge
+:math:`\mathbb{M}`. Diese können entweder gleich :math:`(x_1 = x_2)` oder
+ungleich :math:`(x_1 \ne x_2)` sein. Im ersten Fall stehen die Variablen
+:math:`x_1` und :math:`x_2` für das selbe Objekt.
 
 .. _Lösbarkeit:
 .. _Lösbarkeit von Gleichungen:
@@ -43,16 +42,20 @@ vorgegebenen Variablenbereich ("Definitionsmenge" :math:`\mathbb{D}`) ab.
 * Grundsätzlich ist die Lösungsmenge eine Teilmenge der Definitionsmenge
   :math:`(\mathbb{L} \subseteq \mathbb{D})`.
 
-.. index::
-    single: Gleichung; Identität
-    single: Identität
+.. index:: Identität, Gleichung; Identität
 
 Allgemeingültige Gleichungen  (auch "Identitäten" genannt) werden oftmals als
-Rechenregeln verwendet, die unabhängig vom Wert der Variablen stets wahr sind
-und zur Vereinfachung einzelner Terme dienen. Insbesondere können damit auch
-zwei Terme, die mit einem dritten übereinstimmen, gleichgesetzt werden. Gilt
-nämlich :math:`a=b` und :math:`b=c`, so folgt aus der `Äquivalenz
-<Äquivalenzrelationen>`_ der Gleichheitsrelation automatisch auch :math:`a=c`:
+Rechenregeln verwendet, da sie unabhängig vom Wert der Variablen stets wahr sind
+und somit zur Vereinfachung einzelner Terme genutzt werden können. Gilt nämlich
+:math:`a=b`, so kann in jeder Aussage nach Belieben :math:`a` durch :math:`b`
+ersetzt werden (Ersetzbarkeits-Theorem von `Leibniz
+<https://de.wikipedia.org/wiki/Leibniz>`_).
+
+Ebenfalls können nach diesem Prinzip auch zwei Terme, die jeweils mit einem
+dritten übereinstimmen, gleichgesetzt werden. Gilt nämlich :math:`a=b` und
+:math:`b=c`, so folgt aus der `Äquivalenz <Äquivalenzrelationen>`_ der
+Gleichheitsrelation automatisch auch :math:`a=c`:
+
 
 .. math::
     :label: eqn-drittengleichheit
@@ -67,6 +70,7 @@ Bei algebraischen Aufgaben muss die Lösungsmenge einer Gleichung meist erst
 bestimmt werden. Als Unterscheidung zu den stets wahren Identitäten werden
 derartige Gleichungen, deren Lösungsmenge erst gefunden werden muss, auch
 "Bestimmungsgleichungen" genannt.
+
 
 
 *Beispiele:*
@@ -97,7 +101,7 @@ derartige Gleichungen, deren Lösungsmenge erst gefunden werden muss, auch
       3 \cdot x = 2 \cdot x + 5
 
   Die Lösungsmenge ist somit eine Teilmenge des Definitionsbereichs. Konkret
-  gilt :math:`\mathbb{L} = \lbrace 5 \rbrace`.
+  gilt :math:`\mathbb{L} = \{ 5 \}`.
 
 Ist die Lösungsmenge einer Gleichung nicht unmittelbar erkennbar, so kann diese
 durch entsprechende Umformungen in eine einfacher zu lösende Form gebracht
@@ -127,8 +131,7 @@ rechte Seite einer Gleichung vertauscht werden:
 .. math::
     :label: eqn-umformung-links-rechts
 
-    T _{\rm{1}} = T _{\rm{2}} \quad \Leftrightarrow \quad T _{\rm{2}} = T
-    _{\rm{1}}
+    T_1 = T_2 \quad \Leftrightarrow \quad T_2 = T_1
 
 Termumformungen, die sich nur auf eine Seite einer Gleichung auswirken,
 beispielsweise :ref:`Zusammenfassen <Assoziativgesetz>` und
@@ -145,30 +148,28 @@ Gleichung bleibt auch unverändert, wenn beiden Seiten mit einem Term :math:`T
   .. math::
     :label: eqn-äquivalente-umformungen
 
-      T _{\rm{1}}  = T _{\rm{2}} \quad &\Leftrightarrow  \quad T _{\rm{1}} + T =
-      T _{\rm{2}} + T \\[2pt]
-      T _{\rm{1}}  = T _{\rm{2}} \quad &\Leftrightarrow  \quad T _{\rm{1}} - T =
-      T _{\rm{2}} - T \\[2pt]
+      T_1  = T_2 \quad &\Leftrightarrow  \quad T_1 + T = T_2 + T \\[2pt]
+      T_1  = T_2 \quad &\Leftrightarrow  \quad T_1 - T = T_2 - T \\[2pt]
       %\phantom{\qquad (T \ne 0) T + + T}
-      T _{\rm{1}}  = T _{\rm{2}}  \quad &\Leftrightarrow \quad T _{\rm{1}} \,
-      \cdot \; T = T _{\rm{2}} \, \cdot \; T \qquad (T \ne 0)\\[2pt]
-      T _{\rm{1}}  = T _{\rm{2}}  \quad &\Leftrightarrow \quad T _{\rm{1}} \, :
-      \, T = T _{\rm{2}} \, : \, T \qquad (T \ne 0)
+      T_1  = T_2  \quad &\Leftrightarrow \quad T_1 \, \cdot \; T = T_2 \, \cdot
+      \; T \qquad (T \ne 0)\\[2pt]
+      T_1  = T_2  \quad &\Leftrightarrow \quad T_1 \, : \, T = T_2 \, : \, T
+      \qquad (T \ne 0)
 
 
 Während eine Addition oder Subtraktion eines beliebigen Terms auf beiden Seiten
 der Gleichung jederzeit problemlos möglich ist, ist bei der Multiplikation und
 Division einer Gleichung mit bzw. durch einen Term :math:`T` stets Vorsicht
-geboten. Wird hierbei die Bedingung :math:`T \ne 0` nicht beachtet, so können
-in der neuen Gleichung zusätzliche Lösungen hinzukommen bzw. ursprünglich
-gültige Lösung verschwinden.
+geboten. Wird hierbei die Bedingung :math:`T \ne 0` nicht beachtet, so können in
+der neuen Gleichung zusätzliche Lösungen hinzukommen bzw. ursprünglich gültige
+Lösung verschwinden.
 
 *Beispiele:*
 
 * Die Gleichung :math:`2 \cdot x - 3 = 4 \cdot x + 1` hat, wie man durch
-  Einsetzen überprüfen kann, die Lösungsmenge :math:`\mathbb{L} = \lbrace -2
-  \rbrace`. Multipliziert man beide Seiten mit :math:`x`, so erhält man
-  folgende Gleichung:
+  Einsetzen überprüfen kann, die Lösungsmenge :math:`\mathbb{L} = \{ -2 \}`.
+  Multipliziert man beide Seiten mit :math:`x`, so erhält man folgende
+  Gleichung:
 
   .. math::
 
@@ -176,22 +177,21 @@ gültige Lösung verschwinden.
 
   Die neue Gleichung hat neben der ursprünglichen Lösung :math:`(-2)` auch
   die Lösung :math:`x=0`; die Lösungsmenge der neuen Gleichung ist also
-  :math:`\mathbb{L} = \lbrace -2 ; 0 \rbrace`. Somit ist die neue Gleichung
+  :math:`\mathbb{L} = \{ -2;\, 0 \}`. Somit ist die neue Gleichung
   nicht äquivalent zur ursprünglichen Gleichung.
 
 * Die Gleichung :math:`(3 \cdot x + 1) \cdot (x + 2) = (2 \cdot x - 6) \cdot (x
-  + 2)` hat, wie man durch Einsetzen überprüfen kann, die Lösungsmenge
-  :math:`\mathbb{L} = \lbrace -7 ; -2 \rbrace`. Teilt man beide Seiten der
-  Gleichung durch den Term :math:`(x+2)`, so erhält man folgende Gleichung:
+  +2)` hat, wie man durch Einsetzen überprüfen kann, die Lösungsmenge
+  :math:`\mathbb{L} = \{ -7;\, -2 \}`. Teilt man beide Seiten der Gleichung
+  durch den Term :math:`(x+2)`, so erhält man folgende Gleichung:
 
   .. math::
 
       3 \cdot x + 1 = 2 \cdot x - 6
 
-  Die neue Gleichung hat die Lösungsmenge :math:`\mathbb{L} = \lbrace -7
-  \rbrace`; bei der Division ist die zweite ursprüngliche Lösung :math:`x =
-  -2` entfallen. Somit ist die neue Gleichung nicht äquivalent zur
-  ursprünglichen Gleichung.
+  Die neue Gleichung hat die Lösungsmenge :math:`\mathbb{L} = \{ -7 \}`; bei der
+  Division ist die zweite ursprüngliche Lösung :math:`x = -2` entfallen. Somit
+  ist die neue Gleichung nicht äquivalent zur ursprünglichen Gleichung.
 
 
 Die äquivalenten Umformungs-Verfahren von Gleichungen beziehen sich auf die
@@ -221,7 +221,7 @@ werden.
     (gleichen oder verschiedenen) Werten belegt werden.
 
 .. [#AU] :math:`T` ist eine Zahl oder ein Term, der für alle Elemente des
-    Definitionsbereichs der Ausgangsgleichung :math:`T _{\rm{1}} = T _{\rm{2}}`
-    definiert sein muss.
+    Definitionsbereichs der Ausgangsgleichung :math:`T_1 = T_2` definiert sein
+    muss.
 
 

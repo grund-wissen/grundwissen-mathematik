@@ -38,18 +38,20 @@ Rechteck-Flächen werden dementsprechend als Untersumme :math:`U` bzw. Obersumme
 
 .. math::
 
-    U _{\rm{n}}(x) = \sum_{i=1}^{n} f(x _{\rm{i-1}})  \cdot  \Delta x \\
-    O _{\rm{n}}(x) = \sum_{i=1}^{n} f(x _{\rm{i}}) \cdot  \Delta x {\color{white}_{-1} }
+    U _{\mathrm{n}}(x) = \sum_{i=1}^{n} f(x _{\mathrm{i-1}})  \cdot  \Delta x \\
+    O _{\mathrm{n}}(x) = \sum_{i=1}^{n} f(x _{\mathrm{i}}) \cdot  \Delta x {\color{white}_{-1}}
 
-..  O _{\rm{n}}(x) = \sum_{i=1}^{n} f(x _{\rm{i}})\phantom{_{-1}}  \cdot  \Delta x
+..  O _{\mathrm{n}}(x) = \sum_{i=1}^{n} f(x _{\mathrm{i}})\phantom{_{-1}}  \cdot  \Delta x
 
 
-Für die Fläche :math:`A _{\rm{[x_1;x_2]}}\left(f(x)\right)` unterhalb des Funktionsgraphen
-:math:`f` zwischen den zwei Punkten :math:`x_1` und :math:`x_2` gilt somit: [#]_
+Für die Fläche :math:`A_{\mathrm{[x_1; x_2]}} \left( f(x) \right)` unterhalb des
+Funktionsgraphen :math:`f` zwischen den zwei Punkten :math:`x_1` und :math:`x_2`
+gilt somit: [#]_
 
 .. math::
 
-    U _{\rm{n}}(x) \; \le \; A _{\rm{[x_1;x_2]}}\left( f(x)\right) \; \le \; O _{\rm{n}}(x)
+    U _{\mathrm{n}}(x) \; \le \; A _{\mathrm{[x_1;x_2]}}\left( f(x)\right) \;
+    \le \; O _{\mathrm{n}}(x)
 
 Unterteilt man bei einer beliebigen Funktion den Bereich zwischen :math:`x_1`
 und :math:`x_2` in eine größere Zahl an schmaleren Rechtecken, so lassen sich
@@ -57,7 +59,7 @@ die Abweichungen der einzelnen Rechteckshöhen von den jeweiligen Funktionswerte
 verringern und damit die Werte der Unter- und Obersumme angleichen. Bei einer
 (theoretischen) Unterteilung in unendlich viele, dafür beliebig schmale
 Rechtecke haben die Unter- und Obersumme den gleichen Grenzwert, der mit der
-gesuchten Fläche :math:`A _{\rm{[x_1;x_2]}}\left(f(x)\right)` identisch ist.
+gesuchten Fläche :math:`A_{\mathrm{[x_1; x_2]}} \left( f(x) \right)` identisch ist.
 
 .. figure:: ../pics/analysis/riemann-integral.png
     :width: 50%
@@ -81,8 +83,8 @@ anstelle von :math:`\Delta x` für die Breite jedes einzelnen Rechtecks
 
 .. math::
 
-    \lim _{n \to \infty} U _{\rm{n}}(x) = \int_{x_1}^{x_2} f(x) \cdot \mathrm{d}
-    x = \lim _{n \to \infty} O _{\rm{n}}(x)
+    \lim _{n \to \infty} U _{\mathrm{n}}(x) = \int_{x_1}^{x_2} f(x) \cdot \mathrm{d}
+    x = \lim _{n \to \infty} O _{\mathrm{n}}(x)
 
 Der Ausdruck :math:`\int_{x_1}^{x_2} f(x) \cdot \mathrm{d} x` wird dabei
 Integral von :math:`f(x)` über :math:`[x_1 ; x_2]` genannt. Die Funktion
@@ -158,7 +160,7 @@ als Wert für das bestimmte Integral über die Funktion :math:`f(x)` von
 
     \int_{a}^{b} f(x) \cdot \mathrm{d} x = F(b) - F(a)
 
-Als Kurzschreibweise ist hierbei :math:`F(x)\big | _{\rm{a}} ^{b} := F(x) -
+Als Kurzschreibweise ist hierbei :math:`F(x)\big | _{\mathrm{a}} ^{b} := F(x) -
 F(a)` üblich. Möchte man das Integral über eine Funktion :math:`f(x)` zwischen
 zwei bestimmten Grenzen :math:`a` und :math:`b` berechnen, so genügt es also,
 die Stammfunktion zu bestimmen, die Werte :math:`a` und :math:`b` in die
@@ -167,7 +169,7 @@ Stammfunktion einzusetzen und die Differenz beider Werte zu berechnen:
 .. math::
     :label: eqn-integral-a-b
 
-    \int_{a}^{b} f(x)  \cdot  \mathrm{d}x = F(x) \big | _{\rm{a}}^{b} = F(b) -
+    \int_{a}^{b} f(x)  \cdot  \mathrm{d}x = F(x) \big | _{\mathrm{a}}^{b} = F(b) -
     F(a)
 
 Die Schwierigkeit bei der Integralrechnung besteht folglich darin, eine
@@ -334,8 +336,8 @@ Für jedes Integral gelten folgende Eigenschaften:
       \mathrm{d}x
 
   Der Grund dafür liegt darin, dass hierbei die Breiten aller Rechtecke
-  :math:`\mathrm{d} x _{\rm{i}} = (x _{\rm{i+1}} - x _{\rm{i}})` für :math:`x
-  _{\rm{i+1}} < x _{\rm{i}}` ein negatives Vorzeichen bekommen und somit bei der
+  :math:`\mathrm{d} x _{\mathrm{i}} = (x _{\mathrm{i+1}} - x _{\mathrm{i}})` für :math:`x
+  _{\mathrm{i+1}} < x _{\mathrm{i}}` ein negatives Vorzeichen bekommen und somit bei der
   Auswertung des Integrals über gleich große, aber negative Werte summiert wird.
 
 * Ist die obere Integrationsgrenze :math:`x_2` gleich der unteren Grenze
@@ -455,7 +457,7 @@ Anwendung der :ref:`Produktregel <Produktregel>` bei Ableitungen:
     :label: eqn-partielle-integration
 
     \int_{a}^{b} f_1(x) \cdot f_2'(x) = \Big(f_1(x) \cdot
-    f_2(x)\Big)\Big|_{\rm{a}}^b - \int_{a}^{b} f_1'(x) \cdot f_2(x) \cdot
+    f_2(x)\Big)\Big|_{\mathrm{a}}^b - \int_{a}^{b} f_1'(x) \cdot f_2(x) \cdot
     \mathrm{d} x
 
 Diese Methode kann immer dann genutzt werden, wenn die zu integrierende Funktion
@@ -511,6 +513,18 @@ werden. Es gilt:
 Da :math:`f_2(x)` bekannt ist, müssen lediglich die Integrationsgrenzen in
 diese Funktion eingesetzt werden, um die neuen Integrationsgrenzen zu erhalten.
 
+.. todo Sonderfall lineare Substitution
+
+.. \int_{a}^{b} f(c \cdot x + a) \mathrm{d}x = \frac{1}{c} \cdot F(c \cdot x + a) \big| _a^b
+.. mit c \ne 0 und F als Stammfunktion zu f
+
+.. Wichtiger Spezialfall
+
+.. \int_{a}^{b} f(x) \cdot f'(x) \mathrm{d}x = \frac{1}{2} \cdot \left( f(x)^2 \right)\big|_a^b
+
+.. Näherungsweise Integration: Keplersche Fassregel
+
+
 .. _Integration-Zähler-gleich-Ableitung-des-Nenners:
 
 .. rubric:: Integrale der Form :math:`\int_{}^{} \frac{f'(x)}{f(x)}`
@@ -530,7 +544,7 @@ gilt für das bestimmte Integral über :math:`f(x)` von :math:`a` bis :math:`b`:
 .. math::
 
     \int_{a}^{b} \left(\frac{f'(x)}{f(x)}\right) \cdot \mathrm{d} x =
-    \ln{(|f(x)|)}\Big | _{\rm{a}}^b
+    \ln{(|f(x)|)}\Big | _{\mathrm{a}}^b
 
 
 Weitere Integrale können Integraltabellen entnommen werden, beispielsweise
@@ -560,4 +574,12 @@ Weitere Integrale können Integraltabellen entnommen werden, beispielsweise
     Berechnung der Fläche zwischen zwei Funktionsgraphen mit Gleichung
     :eq:`eqn-integral-distributivgesetz` als Distributivgesetz der
     Integralrechnung identisch.
+
+.. raw:: html
+
+    <hr />
+
+.. hint::
+
+    Zu diesem Abschnitt gibt es :ref:`Übungsaufgaben <Aufgaben Integralrechnung>`.
 

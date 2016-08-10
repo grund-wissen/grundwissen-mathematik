@@ -8,7 +8,7 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinx.ext.todo',
     'sphinx.ext.coverage',
-    'sphinx.ext.pngmath',
+    'sphinx.ext.imgmath',
     'sphinx.ext.ifconfig',
     'sphinx.ext.viewcode',
 ]
@@ -24,8 +24,8 @@ master_doc = 'index'
 project = 'Grundwissen Mathematik'
 copyright = '2011-2016, Bernhard Grotz'
 
-version = '0.3.2a'
-release = '0.3.2a'
+version = '0.3.2b'
+release = '0.3.2b'
 
 language = 'de'
 spelling_lang = 'de_DE'
@@ -53,8 +53,8 @@ html_show_sourcelink = True
 html_show_sphinx = False
 html_show_copyright = False
 
-html_search_language = 'en'
-html_search_options = {'type': 'default'}
+html_search_language = 'de'
+# html_search_options = {'type': 'default'}
 
 latex_documents = [
    ('index', 'grundwissen-mathematik.tex', 'Grundwissen Mathematik',
@@ -68,7 +68,7 @@ latex_documents = [
 latex_preamble = r'''
 \usepackage[version=3]{mhchem}
 \usepackage{amsmath, units, cancel}
-\usepackage{amsfonts, amssymb,color}
+\usepackage{amsfonts, amssymb,color, booktabs}
 \usepackage{nicefrac,marvosym,mathtools,wasysym,textcomp,gensymb}
 \setcounter{secnumdepth}{-1}
 \setlength{\headheight}{15pt}
@@ -79,7 +79,9 @@ latex_preamble = r'''
 \hyphenation{Soft-rutti Ele-men-tar-er-eig-nis}
 '''
 
-pngmath_latex_preamble = latex_preamble
+imgmath_image_format='png'
+imgmath_latex_preamble = latex_preamble
+
 latex_elements = {
     "babel": "\\usepackage[ngerman]{babel}",
     "preamble": latex_preamble,

@@ -1,4 +1,6 @@
+.. _Bruch- und Wurzelgleichungen:
 .. _Bruchgleichungen und Wurzelgleichungen:
+.. _Bruch-, Produkt- und Wurzelgleichungen:
 
 Bruch-, Produkt- und Wurzelgleichungen
 ======================================
@@ -26,7 +28,7 @@ Um eine Bruchgleichung zu lösen, wendet man folgende Methode an:
 1. Zunächst werden die einzelnen Bruchterme durch passende Erweiterungen auf
    den Hauptnenner gebracht -- wahlweise durch Multiplikation aller
    Nennerterme oder durch Bildung des kleinsten gemeinsamen Vielfachen der
-   Nennerterme. [#BGL]_
+   Nennerterme. [#]_
 2. Multipliziert man dann die Gleichung mit dem Hauptnenner :math:`N \ne 0`, so
    entfallen alle Brüche (da der Hauptnenner in allen Bruchtermen gekürzt
    werden kann beziehungsweise :math:`0 \cdot N = 0` gilt).
@@ -74,9 +76,9 @@ Abschnitten beschriebenen Verfahren gelöst werden kann.
 
         {\color{white}\ldots\;\;\;}D = b^2 - 4 \cdot a \cdot c &= 13^2 - 4 \cdot
         1 \cdot 36 = 25\\[8pt]
-        x _{\rm{1,2}} = \frac{-b \pm \sqrt{D}}{2 \cdot a} &= \frac{-13 \pm 5}{2}
-        \\[6pt]
-        \Rightarrow \quad x _{\rm{1}} = -9 \quad &\text{und} \quad x _{\rm{2}} =
+        x_{\mathrm{1,2}} = \frac{-b \pm \sqrt{D}}{2 \cdot a} &= \frac{-13 \pm
+        5}{2} \\[6pt]
+        \Rightarrow \quad x_1 = -9 \quad &\text{und} \quad x_2 =
         -4{\color{white}\;\;  \ldots \quad \qquad}
 
     Die Lösungsmenge der Bruchgleichung lautet somit :math:`\mathbb{L} = \{ -9,\; -4 \}`.
@@ -86,7 +88,7 @@ Abschnitten beschriebenen Verfahren gelöst werden kann.
 .. _Verhältnisgleichungen:
 
 Verhältnisgleichungen
-^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^
 
 Ein (vergleichsweise) einfacher Sonderfall einer Bruchgleichung liegt vor, wenn
 die Variable :math:`x` nur ein einziges Mal auf einer Seite der Gleichung im
@@ -193,6 +195,8 @@ angegeben.
 
 .. Zusammenhang mit Steigung von linearen Funktionen und Hyperbeln.
 
+.. _Sonderform x konstant:
+
 .. rubric:: Die Sonderform :math:`x = c`
 
 
@@ -213,6 +217,7 @@ und :math:`b` liegt; der konstante Faktor der Folge ist hierbei :math:`q =
 
 
 .. index:: Dreisatz
+.. _Dreisatz:
 .. _Dreisatz-Aufgaben:
 
 Dreisatz-Aufgaben
@@ -285,11 +290,11 @@ Wurzelgleichungen
 Als Wurzelgleichung wird eine Gleichung bezeichnet, in der die Variable
 :math:`x` mindestens einmal im Argument einer Wurzel steht. Hierbei muss
 gegebenenfalls der Definitionsbereich der Variablen eingeschränkt werden, da im
-Bereich der reellen Zahlen negative Wurzeln nicht definiert sind. [#WG]_
+Bereich der reellen Zahlen negative Wurzeln nicht definiert sind. [#]_
 
 Wurzelgleichungen lassen sich üblicherweise durch folgendes Verfahren lösen:
 
-1. Zunächst wird eine Wurzel durch geeignete Umformungen isoliert, d.h. allein
+1. Zunächst wird eine Wurzel durch geeignete Umformungen isoliert, also allein
    auf eine Seite der Gleichung gebracht.
 
 2. Anschließend werden beide Seiten der Gleichung mit dem Wurzelexponenten (bei
@@ -304,7 +309,9 @@ beschriebenen Verfahren gelöst werden kann.
 Da das Potenzieren mit einem geradzahligen Exponenten keine Äquivalenzumformung
 darstellt, kann die umgeformte Gleichung (Schein-)Lösungen besitzen, die keine
 Lösungen der ursprünglichen Gleichung sind. Eine Probe durch Einsetzen der
-gefundenen Werte in die ursprüngliche Gleichung ist somit zwingend erforderlich.
+gefundenen Werte in die ursprüngliche Gleichung oder durch Vergleich der
+gefundenen Lösungen mit dem Definitionsbereich der Gleichung ist somit zwingend
+erforderlich.
 
 *Beispiel:*
 
@@ -353,18 +360,27 @@ gefundenen Werte in die ursprüngliche Gleichung ist somit zwingend erforderlich
 
     .. rubric:: Anmerkungen:
 
-.. [#BGL] Das kleinste gemeinsame Vielfache (kgV) der Nennerterme lässt sich
+.. [#] Das kleinste gemeinsame Vielfache (kgV) der Nennerterme lässt sich
     oftmals mit weniger Rechenaufwand berechnen, sofern diese in Form von
     (Linear-)Faktoren vorliegen. Das kgV ist in diesem Fall gleich dem Produkt
     der kleinsten Potenzen aller in den Nennern auftretenden Faktoren.
 
     Eine Zerlegung der Nennerterme in mehrere (Linear-)Faktoren ist genau dann
-    möglich, wenn bereits eine oder mehrere Definitionslücken :math:`x
-    _{\rm{i}}` gefunden wurden. Mit Hilfe dieser Werte lassen sich die
-    Nennerterme jeweils als :math:`(x-x _{\rm{i}}) \cdot \text{Rest}`
+    möglich, wenn bereits eine oder mehrere Definitionslücken
+    :math:`x_{\mathrm{i}}` gefunden wurden. Mit Hilfe dieser Werte lassen sich
+    die Nennerterme jeweils als :math:`(x - x_{\mathrm{i}}) \cdot \text{Rest}`
     darstellen.
 
-.. [#WG] Für jeden unter einer Wurzel stehenden Term :math:`\sqrt{T}` ist die
+.. [#] Für jeden unter einer Wurzel stehenden Term :math:`\sqrt{T}` ist die
     :ref:`Ungleichung <Ungleichungen>` :math:`T \ge 0` zu lösen. Die
     Definitionsmenge entspricht dann der Schnittmenge der Lösungsintervalle.
+
+.. raw:: html
+
+    <hr />
+
+.. hint::
+
+    Zu diesem Abschnitt gibt es :ref:`Übungsaufgaben <Aufgaben Bruchgleichungen
+    und Wurzelgleichungen>`.
 

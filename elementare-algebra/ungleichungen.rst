@@ -4,21 +4,21 @@
 Ungleichungen
 =============
 
-Sind zwei Terme :math:`T _{\rm{1}}` und :math:`T _{\rm{2}}` durch die
-Kleiner-als-Relation :math:`<` oder die Größer-als-Relation :math:`>`
-miteinander verbunden, so spricht man von einer Ungleichung. [#UG]_
+Sind zwei Terme :math:`T_1` und :math:`T_2` durch die Kleiner-als-Relation
+:math:`<` oder die Größer-als-Relation :math:`>` miteinander verbunden, so
+spricht man von einer Ungleichung. [#]_
 
 .. math::
     :label: eqn-ungleichung:
 
-    T _{\rm{1}} < T _{\rm{2}}  \quad \text{oder} \quad  T _{\rm{1}} > T _{\rm{2}}
+    T_1 < T_2  \quad \text{oder} \quad  T_1 > T_2
 
 Für Ungleichungen gilt ebenso wie für :ref:`Gleichungen <Eigenschaften von
 Gleichungen>`, dass man durch Belegung der Variablen mit konkreten Werten eine
 wahre oder falsche Aussage erhält. Die Definitionsmenge :math:`\mathbb{D}` einer
-Ungleichung ist, sofern durch die Terme :math:`T _{\rm{1}}` und :math:`T
-_{\rm{2}}` keine Einschränkung vorgegeben ist, gleich der Menge
-:math:`\mathbb{R}` der reellen Zahlen.
+Ungleichung ist, sofern durch die Terme :math:`T_1` und :math:`T_2` keine
+Einschränkung vorgegeben ist, gleich der Menge :math:`\mathbb{R}` der reellen
+Zahlen.
 
 .. index:: Intervall
 
@@ -41,6 +41,8 @@ nicht, unterscheidet man folgende Fälle:
   | Man schreibt dafür :math:`]a \,;\, b[`.
 
 
+.. _Lösen von Ungleichungen:
+
 .. rubric:: Lösen von Ungleichungen
 
 Ungleichungen lassen sich ebenso wie Gleichungen durch schrittweises Umformen
@@ -51,7 +53,7 @@ Relationszeichen "umgedreht" wird:
 
 .. math::
 
-    T _{\rm{1}} < T _{\rm{2}} \quad \Leftrightarrow \quad T _{\rm{2}} > T1
+    T_1 < T_2 \quad \Leftrightarrow \quad T_2 > T1
 
 Termumformungen, die sich nur auf eine Seite einer Gleichung auswirken,
 beispielsweise :ref:`Zusammenfassen <Assoziativgesetz>` und
@@ -64,10 +66,8 @@ beliebigen Term :math:`T` addiert oder subtrahiert.
 
 .. math::
 
-      T _{\rm{1}}  < T _{\rm{2}} \quad &\Leftrightarrow  \quad T _{\rm{1}} + T <
-      T _{\rm{2}} + T \\[2pt]
-      T _{\rm{1}}  < T _{\rm{2}} \quad &\Leftrightarrow  \quad T _{\rm{1}} - T <
-      T _{\rm{2}} - T \\[2pt]
+      T_1 < T_2 \quad &\Leftrightarrow  \quad T_1 + T < T_2 + T \\[2pt]
+      T_1 < T_2 \quad &\Leftrightarrow  \quad T_1 - T < T_2 - T \\[2pt]
 
 Multipliziert oder dividiert man eine Gleichung mit bzw. durch einen Term
 :math:`T`, so muss zum einen -- wie bei Gleichungen -- auf die Bedingung
@@ -78,19 +78,19 @@ ist. Somit gilt:
 
 .. math::
 
-      T _{\rm{1}}  < T _{\rm{2}}  \quad &\Leftrightarrow \quad T _{\rm{1}} \,
-      \cdot \; T < T _{\rm{2}} \, \cdot \; T \qquad (T > 0)\\[2pt]
-      T _{\rm{1}}  < T _{\rm{2}}  \quad &\Leftrightarrow \quad T _{\rm{1}} \, :
-      \, T < T _{\rm{2}} \, : \, T \qquad (T > 0)
+      T_1  < T_2  \quad &\Leftrightarrow \quad T_1 \, \cdot \; T < T_2 \, \cdot
+      \; T \qquad (T > 0)\\[2pt]
+      T_1  < T_2  \quad &\Leftrightarrow \quad T_1 \, : \, T < T_2 \, : \, T
+      \qquad (T > 0)
 
 bzw.
 
 .. math::
 
-      T _{\rm{1}}  < T _{\rm{2}}  \quad &\Leftrightarrow \quad T _{\rm{1}} \,
-      \cdot \; T > T _{\rm{2}} \, \cdot \; T \qquad (T < 0)\\[2pt]
-      T _{\rm{1}}  < T _{\rm{2}}  \quad &\Leftrightarrow \quad T _{\rm{1}} \, :
-      \, T > T _{\rm{2}} \, : \, T \qquad (T < 0)
+      T_1  < T_2  \quad &\Leftrightarrow \quad T_1 \, \cdot \; T > T_2 \, \cdot
+      \; T \qquad (T < 0)\\[2pt]
+      T_1  < T_2  \quad &\Leftrightarrow \quad T_1 \, : \, T > T_2 \, : \, T
+      \qquad (T < 0)
 
 Werden neben den vier grundlegenden Rechenoperationen (Addition, Subtraktion,
 Multiplikation und Division) weitere Rechenoperationen (z.B. Potenzieren,
@@ -102,6 +102,8 @@ Wurzelziehen oder Logarithmieren) angewendet, so sind wiederum zusätzliche
 ..  Elemente in die Ausgangsgleichung ("Probe") erfolgen. Bei einer Probe ist jede
 ..  Gleichungsseite getrennt auszurechnen, d.h. es dürfen keine
 ..  Gleichungsumformungen vorgenommen werden.
+
+.. _Lineare Ungleichungen:
 
 Lineare Ungleichungen
 ---------------------
@@ -125,7 +127,7 @@ dargestellt werden kann:
 
   .. math::
 
-      3 \cdot x - 4 < - 5 \cdot x + 9
+      3 \cdot x -4 < -5 \cdot x + 9
 
   Zunächst wird die Gleichung in die allgemeine Form :math:`a \cdot x + b < 0`
   gebracht:
@@ -171,12 +173,15 @@ haben. Mittels zweier Fallunterscheidung wird also geprüft, für welche
 Lösung der quadratischen Ungleichung ist dann die Vereinigungsmenge beider
 Teillösungen.
 
-..  TODO *Beispiel*:
+.. todo *Beispiel*:
 
 Lässt sich der Term auf der linken Seite nicht in Linearfaktoren zerlegen, so
 ist die Ungleichung entweder für alle :math:`x`-Werte wahr oder für alle
 :math:`x`-Werte falsch. Welcher Fall zutrifft, lässt sich durch ein probeweises
 Einsetzen eines beliebigen :math:`x`-Wertes leicht ermitteln.
+
+
+.. _Betragsungleichungen:
 
 Betragsungleichungen
 --------------------
@@ -198,7 +203,9 @@ und der jeweiligen Lösung der resultierenden Ungleichung. Die
 Gesamt-Lösungsmenge ist schließlich gleich der Vereinigungsmenge beider
 Teil-Lösungsmengen.
 
-..  TODO *Beispiel*:
+..  todo *Beispiel*:
+
+.. _Bruchungleichungen:
 
 Bruchungleichungen
 ------------------
@@ -234,8 +241,8 @@ zu keinem Ergebnis, so ist die Ungleichung nicht lösbar.
       \frac{x-2-6\cdot x-18}{x+3} &<0 \\[3pt]
       \frac{-5 \cdot x -20}{x+3} &< 0
 
-  Die erste Möglichkeit, dass die Ungleichung erfüllt wird, besteht darin, dass der
-  Zähler positiv und der Nenner negativ ist. Dabei muss gelten:
+  Die erste Möglichkeit, dass die Ungleichung erfüllt wird, besteht darin, dass
+  der Zähler positiv und der Nenner negativ ist. Dabei muss gelten:
 
   .. math::
 
@@ -268,7 +275,6 @@ positiv bzw. negativ ist; anschließend muss die sich ergebende Ungleichung
 mittels weiterer Fallunterscheidungen gelöst werden. Der insgesamte
 Rechenaufwand wird durch dieses Verfahren also meist nicht verringert.
 
-
 .. raw:: html
 
     <hr />
@@ -277,9 +283,8 @@ Rechenaufwand wird durch dieses Verfahren also meist nicht verringert.
 
     .. rubric:: Anmerkungen:
 
-.. [#UG] Eine Ungleichung der Form :math:`T _{\rm{1}} \le T _{\rm{2}}` stellt
-    eine Vereinigung der Fälle :math:`T _{\rm{1}} < T _{\rm{2}}` und :math:`T
-    _{\rm{1}} = T _{\rm{2}}` dar. Entsprechendes gilt für Ungleichungen mit der
-    Größer-als-Relation :math:`\ge`.
+.. [#] Eine Ungleichung der Form :math:`T_1 \le T_2` stellt eine Vereinigung
+    der Fälle :math:`T_1 < T_2` und :math:`T_1 = T_2` dar. Entsprechendes gilt
+    für Ungleichungen mit der Größer-als-Relation :math:`\ge`.
 
 

@@ -83,16 +83,17 @@ des Kreisbogens:
 .. _Gradmaß und Bogenmaß:
 .. _Bogenmaß:
 .. _Gradmaß:
+.. _Radiant:
 
 .. rubric:: Gradmaß und Bogenmaß
 
 Der Mittelpunktswinkel :math:`\alpha` eines Kreisbogens wird gewöhnlich im
 Gradmaß angegeben. :math:`360°` entsprechen dabei dem vollen Kreisumfang.
-Betrachtet man Einheitskreis (Radius :math:`r = 1`), so hat in diesem Fall der
-Kreisumfang beziehungsweise ein geschlossener Kreisbogen eine Länge von :math:`s
-= 2 \cdot \pi`. Damit kann der Mittelpunktswinkel :math:`\alpha` auch durch die
-Länge :math:`s` des Kreisbogens angegeben werden, wobei :math:`2 \cdot \pi` dem
-vollen Kreisumfang entspricht.
+Betrachtet man einen Einheitskreis (Radius :math:`r = 1`), so hat in diesem Fall
+der Kreisumfang beziehungsweise ein geschlossener Kreisbogen eine Länge von
+:math:`s = 2 \cdot \pi`. Damit kann der Mittelpunktswinkel :math:`\alpha` auch
+durch die Länge :math:`s` des Kreisbogens angegeben werden, wobei :math:`2 \cdot
+\pi` dem vollen Kreisumfang entspricht.
 
 .. figure:: ../../pics/geometrie/gradmass-und-bogenmass.png
     :width: 55%

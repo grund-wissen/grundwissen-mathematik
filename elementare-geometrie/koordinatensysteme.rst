@@ -19,7 +19,7 @@ In einem so genannten kartesischen Koordinatensystem ist jeder Punkt der
 Ebene durch seine Abstände zu den beiden Achsen festgelegt. Diese Abstände
 werden durch zwei reelle Zahlen angegeben. Dadurch entspricht jedem Punkt
 ein Zahlenpaar :math:`(x,y)` und umgekehrt jedem Zahlenpaar :math:`(x,y)`
-ein Punkt :math:`\rm{P}`.
+ein Punkt :math:`\mathrm{P}`.
 
 .. figure:: ../pics/geometrie/koordinatensystem-kartesisch.png
     :width: 50%
@@ -38,10 +38,10 @@ Die :math:`x`-Achse wird bisweilen auch "Abszisse", die :math:`y`-Achse
 "Ordinate" genannt. Auf der :math:`x`-Achse wird nach rechts positiv, nach links
 negativ gezählt, auf der :math:`y`-Achse nach oben positiv, nach unten negativ.
 Die Ebene des Koordinatensystems wird durch die Achsen in vier Felder
-aufgeteilt, die "Quadranten" genannt und mit den römischen Ziffern :math:`\rm{I} ,\,
-\rm{II} ,\, \rm{III} \text{ und } \rm{IV}` bezeichnet werden. In welchem
-Quadranten ein Punkt liegt, kann anhand der Vorzeichen seiner Koordinaten
-abgelesen werden.
+aufgeteilt, die "Quadranten" genannt und mit den römischen Ziffern
+:math:`\mathrm{I} ,\, \mathrm{II} ,\, \mathrm{III} \text{ und } \mathrm{IV}`
+bezeichnet werden. In welchem Quadranten ein Punkt liegt, kann anhand der
+Vorzeichen seiner Koordinaten abgelesen werden.
 
 .. figure:: ../pics/geometrie/koordinatensystem-kartesisch-quadrantentabelle.png
     :width: 35%
@@ -57,11 +57,13 @@ abgelesen werden.
         <../pics/geometrie/koordinatensystem-kartesisch-quadrantentabelle.svg>`
 
 .. index:: Koordinatensystem; Polare Koordinaten
+.. _Polarkoordinaten:
+.. _Polare Koordinaten:
 .. _Polarkoordinatensystem:
 
 .. rubric:: Das Polarkoordinatensystem
 
-In einem so genannten Polarkoordinatensystem ist jeder Punkt :math:`\rm{P}` der
+In einem so genannten Polarkoordinatensystem ist jeder Punkt :math:`\mathrm{P}` der
 Ebene durch seinen Abstand :math:`r` vom Koordinatenursprung und den Winkel
 :math:`\varphi` seiner Verbindungslinie mit dem Koordinatenursprung und der
 Horizontalen eindeutig festgelegt.

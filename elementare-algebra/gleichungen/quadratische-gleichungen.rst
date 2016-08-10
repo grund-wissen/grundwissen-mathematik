@@ -41,7 +41,7 @@ sich die folgenden drei Fälle unterscheiden:
 
 Dieses Verfahren, anhand der Diskriminante :math:`D` auf die Anzahl und die
 Werte der Lösungen schließen zu können, wird umgangssprachlich auch als
-"Mitternachtsformel" bezeichnet. [#MF]_ [#MFC]_ Sie lässt sich auf jede
+"Mitternachtsformel" bezeichnet. [#]_ [#]_ Sie lässt sich auf jede
 quadratische Gleichung anwenden, die in der allgemeinen Form
 :eq:`eqn-quadratische-gleichung` vorliegt.
 
@@ -59,7 +59,7 @@ teilweise einfachere Lösungsverfahren genutzt werden:
 
   .. math::
 
-      a \cdot x^2 + c = 0 \quad \Leftrightarrow \quad x _{\rm{1,2}} = \pm
+      a \cdot x^2 + c = 0 \quad \Leftrightarrow \quad x _{\mathrm{1,2}} = \pm
       \sqrt{-\frac{c}{a}}
 
   Die Gleichung hat nur dann die beiden obigen Lösungen, wenn :math:`a` und
@@ -80,10 +80,10 @@ teilweise einfachere Lösungsverfahren genutzt werden:
 
       a \cdot x^2 + b \cdot x = 0
 
-  Die Mitternachtsformel liefert in diesem Fall die beiden Werte :math:`x
-  _{\rm{1}} =0` und :math:`x _{\rm{2}} = - \frac{b}{a}` als Lösungen. Die
-  gleichen Lösungen erhält man, indem man auf der linken Seite der Gleichung
-  :math:`x` als gemeinsamen Faktor ausklammert:
+  Die Mitternachtsformel liefert in diesem Fall die beiden Werte :math:`x_1 =0`
+  und :math:`x_2 = - \frac{b}{a}` als Lösungen. Die gleichen Lösungen erhält
+  man, indem man auf der linken Seite der Gleichung :math:`x` als gemeinsamen
+  Faktor ausklammert:
 
   .. math::
 
@@ -93,8 +93,8 @@ teilweise einfachere Lösungsverfahren genutzt werden:
   Da ein Produkt nur dann gleich Null ist, wenn (mindestens) einer der beiden
   Faktoren gleich Null ist, folgt aus der obigen Gleichungsform, dass entweder
   der :math:`x=0` oder :math:`a \cdot x + b = 0` gelten muss. Aus dem ersten
-  Fall folgt :math:`x _{\rm{1}} = 0`, aus dem zweiten Fall (einer linearen
-  Gleichung) folgt :math:`x _{\rm{2}} = -\frac{b}{a}`.
+  Fall folgt :math:`x_1 = 0`, aus dem zweiten Fall (einer linearen
+  Gleichung) folgt :math:`x_2 = -\frac{b}{a}`.
 
 .. index:: Satz von Vieta
 .. _Satz von Vieta:
@@ -120,32 +120,30 @@ teilweise einfachere Lösungsverfahren genutzt werden:
   Gleichung bisweilen auch schnell mit Hilfe des nach dem Mathematiker `François
   Viète <https://de.wikipedia.org/wiki/Vieta>`_ benannten "Satz von Vieta"
   bestimmen. Hierbei wird genutzt, dass zwischen den beiden möglichen Lösungen
-  :math:`x _{\rm{1}}` und :math:`x _{\rm{2}}`, für die auch :math:`x _{\rm{1}} =
-  x _{\rm{2}}` gelten kann, folgender Zusammenhang besteht: [#SV]_
+  :math:`x_1` und :math:`x_2`, für die auch :math:`x_1 = x_2` gelten kann,
+  folgender Zusammenhang besteht: [#]_
 
   .. math::
 
-      x _{\rm{1}} \, \cdot \, x _{\rm{2}} &= +q \quad \text{und} \\
-      x _{\rm{1}} + x _{\rm{2}} &= -p
+      x_1 \, \cdot \, x_2 &= +q \quad \text{und} \\ x_1 + x_2 &= -p
 
   Kennt man die möglichen ganzzahligen Faktoren der Zahl :math:`q`, so lässt
-  sich durch Kopfrechnen oftmals ein Zahlenpaar finden, das als Summe
-  genau den negativen Wert von :math:`p` ergibt. Dieses Zahlenpaar stellt dann
-  die gesuchten Lösungen von Gleichung
-  :eq:`eqn-quadratische-gleichung-normalform` dar. [#SVM]_
+  sich durch Kopfrechnen oftmals ein Zahlenpaar finden, das als Summe genau den
+  negativen Wert von :math:`p` ergibt. Dieses Zahlenpaar stellt dann die
+  gesuchten Lösungen von Gleichung :eq:`eqn-quadratische-gleichung-normalform`
+  dar. [#]_
 
 .. _Linearfaktorzerlegung:
 .. index:: Linearfaktorzerlegung
 
-Sind :math:`x _{\rm{1}}` und :math:`x _{\rm{2}}` die Lösungen einer
-quadratischen Gleichung, wobei auch :math:`x _{\rm{1}} = x _{\rm{2}}` zulässig
+Sind :math:`x_1` und :math:`x_2` die Lösungen einer
+quadratischen Gleichung, wobei auch :math:`x_1 = x_2` zulässig
 ist, so kann diese allgemein auch in folgender Form dargestellt werden:
 
   .. math::
 
       a \cdot x^2 + b \cdot x + c &= 0 \\
-      \Rightarrow a \cdot (x - x _{\rm{1}}) \cdot (x - x
-      _{\rm{2}}) &= 0
+      \Rightarrow a \cdot (x - x_1) \cdot (x - x_2) &= 0
 
 Eine solche Aufteilung einer Gleichung in mehrere lineare Faktoren wird als
 Produktform oder Linearfaktorzerlegung bezeichnet. Diese Darstellung spielt für
@@ -162,20 +160,20 @@ nützlicher Weise auch bei Gleichungen höheren Grades angewendet werden.
 
     .. rubric:: Anmerkungen:
 
-.. [#MF] Im ersten Fall :math:`(D > 0)` können die beiden Lösungen :math:`x
-    _{\rm{1}}` und :math:`x _{\rm{2}}` mittels des Plus-Minus-Zeichens
-    :math:`\pm` auch verkürzt in folgender Form dargestellt werden:
+.. [#] Im ersten Fall :math:`(D > 0)` können die beiden Lösungen :math:`x_1` und
+    :math:`x_2` mittels des Plus-Minus-Zeichens :math:`\pm` auch verkürzt in
+    folgender Form dargestellt werden:
 
     .. math::
 
-        D > 0 \quad \Rightarrow \quad x _{\rm{1,2}} = \frac{-b \pm \sqrt{b^2 - 4
+        D > 0 \quad \Rightarrow \quad x _{\mathrm{1,2}} = \frac{-b \pm \sqrt{b^2 - 4
         \cdot a \cdot c}}{2 \cdot a}
 
-    Im Fall :math:`D=0` fallen die Lösungen :math:`x _{\rm{1}}` und :math:`x
-    _{\rm{2}}` wegen  :math:`\sqrt{D} = \pm 0` zusammen. Man spricht daher
-    bisweilen auch von einer "doppelten" Lösung.
+    Im Fall :math:`D=0` fallen die Lösungen :math:`x_1` und :math:`x_2` wegen
+    :math:`\sqrt{D} = \pm 0` zusammen. Man spricht daher bisweilen auch von
+    einer "doppelten" Lösung.
 
-.. [#MFC] Die Gleichung :eq:`eqn-quadratische-gleichung-mitternachtsformel` gilt,
+.. [#] Die Gleichung :eq:`eqn-quadratische-gleichung-mitternachtsformel` gilt,
     sofern mit reellen Zahlen :math:`x \in \mathbb{R}` gerechnet wird. Rechnet
     man mit :ref:`komplexen Zahlen <Komplexe Zahlen>`, so hat eine quadratische
     Gleichung auch im Fall :math:`D<0` zwei Lösungen. In diesem Fall gilt:
@@ -188,16 +186,16 @@ nützlicher Weise auch bei Gleichungen höheren Grades angewendet werden.
 
     .. math::
 
-        x _{\rm{1,2}} = \frac{-b}{2 \cdot a} \pm i \cdot \frac{\sqrt{-(b^2 - 4
+        x _{\mathrm{1,2}} = \frac{-b}{2 \cdot a} \pm i \cdot \frac{\sqrt{-(b^2 - 4
         \cdot a \cdot c)}}{2 \cdot a}
 
-.. [#SV] Nach der Mitternachtsformel
+.. [#] Nach der Mitternachtsformel
     :eq:`eqn-quadratische-gleichung-mitternachtsformel` gilt mit :math:`a=1` und
     :math:`D = p^2 - 4 \cdot q`:
 
     .. math::
 
-        x _{\rm{1}} \cdot x _{\rm{2}} &= \frac{-p + \sqrt{D}}{2} \cdot \frac{-p -
+        x_1 \cdot x_2 &= \frac{-p + \sqrt{D}}{2} \cdot \frac{-p -
         \sqrt{D}}{2} \\[2pt]
         &= \left(-\frac{p}{2} + \frac{\sqrt{D}}{2} \right) \cdot \left(- \frac{p}{2} -
         \frac{\sqrt{D}}{2} \right) \\[2pt]
@@ -209,13 +207,13 @@ nützlicher Weise auch bei Gleichungen höheren Grades angewendet werden.
 
     .. math::
 
-        x _{\rm{1}} + x _{\rm{2}} &= \frac{-p + \sqrt{D}}{2} + \frac{-p -
+        x_1 + x_2 &= \frac{-p + \sqrt{D}}{2} + \frac{-p -
         \sqrt{D}}{2} \\[2pt]
         &= \left(-\frac{p}{2} + \frac{\sqrt{D}}{2} \right) + \left(- \frac{p}{2} -
         \frac{\sqrt{D}}{2} \right) \\[2pt]
         &= -p \qquad \checkmark
 
-.. [#SVM] Die Mitternachtsformel
+.. [#] Die Mitternachtsformel
     :eq:`eqn-quadratische-gleichung-mitternachtsformel` kann selbstverständlich
     ebenso zur Lösung von Gleichung :eq:`eqn-quadratische-gleichung-normalform`
     genutzt werden.

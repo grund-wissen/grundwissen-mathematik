@@ -57,15 +57,14 @@ der Gerade gewonnen.
   nach oben steigt.
 
 Mathematisch kann das Verhältnis zwischen der vertikalen Änderung :math:`\Delta
-y = y _{\rm{2}} - y _{\rm{1}}` und der horizontalen Änderung :math:`\Delta x = x
-_{\rm{2}} - x _{\rm{1}}` als Bruch geschrieben werden:
+y = y_2 - y_1` und der horizontalen Änderung :math:`\Delta x = x_2 - x_1` als
+Bruch geschrieben werden:
 
 .. math::
     :label: eqn-steigung
 
     \text{ Steigung } = \frac{ \text{ Vertikale Änderung }}{ \text{ Horizontale
-    Änderung }} = \frac{y _{\rm{2}} - y _{\rm{1}} }{x _{\rm{2}} - x _{\rm{1}} }
-    \equiv \frac{\Delta y}{\Delta x}
+    Änderung }} = \frac{y_2 - y_1}{x_2 - x_1} \equiv \frac{\Delta y}{\Delta x}
 
 Da die beiden Änderungsgrößen :math:`\Delta y` und :math:`\Delta x` die gleiche
 Einheit (z.B. Kästchen oder cm) besitzen, besitzt die Steigung keine Einheit.
@@ -136,10 +135,10 @@ Funktion :math:`f` im betrachteten Bereich.
 .. math::
     :label: eqn-differenzenquotient
 
-    \text{ Durchschnittliche Steigung } = \tan{(\alpha _{\rm{S}})} = \frac{\Delta
+    \text{ Durchschnittliche Steigung } = \tan{(\alpha _{\mathrm{S}})} = \frac{\Delta
     y}{\Delta x} = \frac{f (x_0 + \Delta x) - f(x_0) }{\Delta x }
 
-Dabei bezeichnet :math:`\alpha _{\rm{S}}` den Winkel, den die
+Dabei bezeichnet :math:`\alpha _{\mathrm{S}}` den Winkel, den die
 Sekante mit der Horizontalen einschließt.
 
 .. figure:: ../../pics/analysis/differenzenquotient.png
@@ -159,8 +158,8 @@ Sekante mit der Horizontalen einschließt.
 .. index:: Differentialquotient
 
 Der Wert der Steigung einer Funktion :math:`f` an einer einzigen Stelle :math:`x
-_{\rm{0}}` lässt sich mit zunehmender Genauigkeit ermitteln, wenn der Bereich um
-die Stelle :math:`x _{\rm{0}}` immer kleiner ("feinmaschiger") gewählt wird. Im
+_{\mathrm{0}}` lässt sich mit zunehmender Genauigkeit ermitteln, wenn der Bereich um
+die Stelle :math:`x_0` immer kleiner ("feinmaschiger") gewählt wird. Im
 Grenzfall ist :math:`\Delta x` und somit auch das Steigungsdreieck winzig klein.
 Die Sekante wird hierbei zu einer Tangente, die den Funktionsgraphen
 augenscheinlich nur noch in einem einzigen Punkt berührt. Für die Steigung der
@@ -169,11 +168,11 @@ Tangente gilt also:
 .. math::
     :label: eqn-differentialquotient
 
-    \text{ Punktuelle Steigung } = \tan{(\alpha _{\,\rm{T}})} = \lim _{\Delta x
+    \text{ Punktuelle Steigung } = \tan{(\alpha _{\,\mathrm{T}})} = \lim _{\Delta x
     \to 0} \left( \frac{\Delta y}{\Delta x}\right) = \lim _{\Delta x \to 0}
     \left( \frac{f (x_0 + \Delta x) - f(x_0) }{\Delta x }\right)
 
-Dabei bezeichnet :math:`\alpha _{\,\rm{T}}` den Winkel, den die
+Dabei bezeichnet :math:`\alpha _{\,\mathrm{T}}` den Winkel, den die
 Sekante mit der Horizontalen einschließt.
 
 .. figure:: ../../pics/analysis/differentialquotient.png
@@ -204,16 +203,16 @@ y}{\Delta x}` wird dabei zum so genannten Differentialquotienten
 .. math::
 
     \frac{\Delta y}{\Delta x} \quad \stackrel{\text{ Grenzwertbildung }}{
-    \Rightarrow } \quad \frac{\mathrm{d} y}{\mathrm{d} x}
+    \Rightarrow } \quad \frac{\mathrm{d}y}{\mathrm{d}x}
 
 
 .. index:: Differenzierbarkeit
 .. _Differenzierbarkeit:
 
-Differenzierbarkeit an einer Stelle :math:`x _{\rm{0}}`
---------------------------------------------------------
+Differenzierbarkeit an einer Stelle :math:`x_0`
+-----------------------------------------------
 
-Die Steigung einer Funktion :math:`f` an einer Stelle :math:`x _{\rm{0}}` ist
+Die Steigung einer Funktion :math:`f` an einer Stelle :math:`x_0` ist
 nur dann eindeutig festgelegt, wenn die Steigungen in der unmittelbaren
 Umgebung links und rechts der Stelle gleich sind. Dies ist fast immer der Fall,
 doch es gibt Ausnahmen.
@@ -223,10 +222,10 @@ doch es gibt Ausnahmen.
 .. index:: Betragsfunktion
 
 * Der Graph der Betragsfunktion :math:`y = |x|` besitzt einen Knick an der
-  Stelle :math:`x _{\rm{0}} = 0`. Zeichnet man ein Steigungsdreieck links und
+  Stelle :math:`x_0 = 0`. Zeichnet man ein Steigungsdreieck links und
   rechts dieser Stelle ein, so besitzt die Steigungsgerade auf der linken Seite
   die Steigung :math:`-1`, auf der rechten Seite hingegen den Wert :math:`+1`.
-  An der Stelle :math:`x _{\rm{0}} = 0` ist die Steigung nicht festgelegt -- die
+  An der Stelle :math:`x_0 = 0` ist die Steigung nicht festgelegt -- die
   Funktion ist an dieser Stelle nicht differenzierbar.
 
 .. figure:: ../../pics/analysis/betragsfunktion.png
@@ -235,7 +234,7 @@ doch es gibt Ausnahmen.
     :name: fig-betragsfunktion
     :alt:  fig-betragsfunktion
 
-    Graph der Betragsfunktion :math:`y=|x|`. An der Stelle :math:`x _{\rm{0}} = 0`
+    Graph der Betragsfunktion :math:`y=|x|`. An der Stelle :math:`x_0 = 0`
     ist die Funktion nicht differenzierbar.
 
     .. only:: html
@@ -252,12 +251,11 @@ an Polstellen von gebrochen-rationalen Funktionen zu achten.
 Besitzt eine Funktion eine Definitionslücke, so kann an dieser Stelle nichts
 über die Differenzierbarkeit der Funktion ausgesagt werden.
 
-Um die Steigung unmittelbar links und unmittelbar rechts der Stelle :math:`x
-_{\rm{0}}` berechnen zu können, wählt man die Stelle :math:`x _{\rm{0}}` selbst
-als Bereichsgrenze. Wählt man als zweite Bereichsgrenze :math:`x`-Werte, die
-nur ein wenig kleiner bzw. größer als :math:`x _{\rm{0}}` sind, so erhält man
-Steigungsdreiecke, die unmittelbar links bzw. rechts der untersuchten Stelle an
-der Funktion anliegen.
+Um die Steigung unmittelbar links und unmittelbar rechts der Stelle :math:`x_0`
+berechnen zu können, wählt man die Stelle :math:`x_0` selbst als Bereichsgrenze.
+Wählt man als zweite Bereichsgrenze :math:`x`-Werte, die nur ein wenig kleiner
+bzw. größer als :math:`x_0` sind, so erhält man Steigungsdreiecke, die
+unmittelbar links bzw. rechts der untersuchten Stelle an der Funktion anliegen.
 
 
 Mathematisch lassen sich die beiden unmittelbar angrenzenden Steigungen wie
@@ -277,7 +275,7 @@ folgt ausdrücken:
 
 
 Stimmen die beiden Grenzwerte auf linken und auf der rechten Seite der Stelle
-:math:`x _{\rm{0}}` überein, so ist die Funktion an dieser Stelle
+:math:`x_0` überein, so ist die Funktion an dieser Stelle
 differenzierbar, und der Wert ihre Steigung ist gleich dem Steigungswert der
 beiden Grenzwerte.
 
@@ -358,11 +356,12 @@ Ableitung :math:`f'(x)` der Funktion angibt.
 
   .. math::
 
-      &\phantom{=\;} \lim _{\Delta x \to 0} \left( \frac{f(x + \Delta x) - f(x)}{\Delta
-      x}\right) = \lim _{\Delta x \to 0} \left( \frac{(x + \Delta x)^2 -
-      x^2}{\Delta x}\right) \\[6pt] &= \lim _{\Delta x \to 0} \left( \frac{x^2 + 2 \cdot x
-      \cdot \Delta x + (\Delta x)^2 - x^2}{\Delta x} \right) = \lim _{\Delta x \to 0}
-      \left(2 \cdot x + \Delta x \right) = 2 \cdot x
+      &\phantom{=\;} \lim _{\Delta x \to 0} \left( \frac{f(x + \Delta x) -
+      f(x)}{\Delta x}\right) = \lim _{\Delta x \to 0} \left( \frac{(x + \Delta
+      x)^2 - x^2}{\Delta x}\right) \\[6pt]
+      &= \lim _{\Delta x \to 0} \left( \frac{x^2 + 2 \cdot x \cdot \Delta x +
+      (\Delta x)^2 - x^2}{\Delta x} \right) = \lim _{\Delta x \to 0} \left(2
+      \cdot x + \Delta x \right) = 2 \cdot x
 
   In der zweiten Zeile wurde hierbei zunächst die binomische Formel
   ausmultipliziert, wobei sich die :math:`x^2`-Terme wegen des unterschiedlichen
@@ -384,14 +383,15 @@ Ableitung :math:`f'(x)` der Funktion angibt.
           &\phantom{=\;} \lim _{\Delta x \to 0} \left( \frac{f(x + \Delta x) -
           f(x)}{\Delta x}\right) = \lim _{\Delta x \to 0} \left( \frac{\big(4 \cdot
           (x + \Delta x)^3 - 5 \cdot  (x+ \Delta x)\big) - \big(4 \cdot x^3 - 5
-          \cdot x\big)}{\Delta x}\right) \\[6pt] &= \lim _{\Delta x \to 0} \left(
-          \frac{\big(4 \cdot (x^3 + 3\!\cdot\!x^2\!\cdot\!\Delta x + 3\!\cdot\!x\!\cdot
-          \!(\Delta x)^2 + (\Delta x)^3 - 5\!\cdot\!x  - 5\!\cdot\!\Delta x \big) - (4
-          \cdot x^3 - 5 \cdot x)}{\Delta x} \right) \\[6pt]
-          &=\lim _{\Delta x \to 0} \left( \frac{12\!\cdot\!x^2\!\cdot\!\Delta x +
-          12\!\cdot\!x\!\cdot\!(\Delta x)^2- 5 \cdot \Delta x}{\Delta x}\right)
-          =\lim _{\Delta x \to 0} \left( 12  \cdot x^2 + 12  \cdot x  \cdot  \Delta
-          x - 5 \right) = 12 \cdot x^2 - 5
+          \cdot x\big)}{\Delta x}\right) \\[6pt]
+          &= \lim _{\Delta x \to 0} \left( \frac{\big(4 \cdot (x^3 +
+          3\!\cdot\!x^2\!\cdot\!\Delta x + 3\!\cdot\!x\!\cdot \!(\Delta x)^2 +
+          (\Delta x)^3 - 5\!\cdot\!x  - 5\!\cdot\!\Delta x \big) - (4 \cdot x^3
+          -5 \cdot x)}{\Delta x} \right) \\[6pt]
+          &=\lim _{\Delta x \to 0} \left( \frac{12\!\cdot\!x^2\!\cdot\!\Delta x
+          +12\!\cdot\!x\!\cdot\!(\Delta x)^2- 5 \cdot \Delta x}{\Delta x}\right)
+          =\lim _{\Delta x \to 0} \left( 12  \cdot x^2 + 12  \cdot x \cdot
+          \Delta x - 5 \right) = 12 \cdot x^2 - 5
 
   .. only:: latex
 

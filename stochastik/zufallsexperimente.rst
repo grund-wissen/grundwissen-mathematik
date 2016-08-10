@@ -8,8 +8,8 @@ Experimente, die unter gleichen Bedingungen zu gleichen Ergebnissen führen,
 bezeichnet man als determiniert. Im Rahmen der Wahrscheinlichkeitsrechnung
 werden hingegen meist zufällige Vorgänge betrachtet.
 
-.. index::
-    single: Zufallsexperiment; einstufig
+.. index:: Zufallsexperiment; einstufig
+.. _Zufallsexperimente:
 
 .. rubric:: Zufallsexperimente
 
@@ -38,7 +38,7 @@ beispielsweise:
 
 .. math::
 
-    \Omega = \{ \; 1 ,\, 2 ,\,  \ldots ,\,  50 \; \}
+    \Omega = \{ \; 1 ,\, 2 ,\, \ldots ,\,  50 \; \}
 
 Die einzelnen, voneinander verschiedenen Ergebnisse eines Zufallsexperiments
 werden allgemein mit :math:`\omega _1 , \omega _2, \ldots` bezeichnet. Allgemein
@@ -46,11 +46,11 @@ besteht eine Ergebnismenge also aus folgenden Elementen:
 
 .. math::
 
-    \Omega = \{ \; \omega_1 ,\,  \omega_2 ,\,  \ldots ,\,  \omega _{\rm{n}} \; \}
+    \Omega = \{ \; \omega_1 ,\, \omega_2 ,\, \ldots ,\, \omega_{\mathrm{n}} \; \}
 
 
-.. index::
-    single: Zufallsexperiment; mehrstufig
+.. index:: Zufallsexperiment; mehrstufig
+.. _Mehrstufige Zufallsexperimente:
 
 .. rubric:: Mehrstufige Zufallsexperimente
 
@@ -92,9 +92,14 @@ Länge :math:`k` (so genannten ":math:`k`-Tupeln") beschreiben.
 Eine Ergebnismenge kann durch einen so genannten Ergebnisbaum veranschaulicht
 werden. Jedem Ergebnis entspricht dabei einem Weg durch den Ergebnisbaum.
 
-.. pic
+.. Baumdiagramme sind allgemein hilfreich, wenn Ergebnisse Tupel sind, also die
+.. Reihenfolge zu berücksichtigen ist.
+
+
+.. todo pic
 
 .. index:: Ereignis
+.. _Ereignisse:
 
 .. rubric:: Ereignisse
 
@@ -121,11 +126,12 @@ Beinhaltet die Teilmenge genau ein Element :math:`\omega`, so nennt man das
 Ereignis elementar. [#]_
 
 .. index:: Ereignismenge
+.. _Ereignismenge:
 
 Die Menge aller möglichen Ereignisse, d.h. die Menge aller Teilmengen von
 :math:`\Omega`, heißt Ereignismenge :math:`\mathcal{ P }(\Omega)`. [#]_
 
-.. TODO:: Beispiel
+.. todo Beispiel
 
 Da es sich bei Ereignissen um Mengen handelt, können diese ebenfalls durch
 Mengenoperationen miteinander verknüpft werden:
@@ -173,12 +179,20 @@ möglich.
 .. [#] Zwischen dem Ergebnis :math:`\omega` und dem Elementarereignis
     :math:`\{\omega\}` besteht ein formaler Unterschied: Während :math:`\omega`
     ein Element der Ergebnismenge :math:`\Omega` ist, ist :math:`\{\omega\}` ein
-    Element der Ereignismenge :math:`\mathcal{ P }(\Omega)`.
+    Element der Ereignismenge :math:`\mathcal{P}(\Omega)`.
 
-.. [#] In der Mengenlehre bezeichnet man :math:`\mathcal{ P }(\Omega)` als
+.. [#] In der Mengenlehre bezeichnet man :math:`\mathcal{P}(\Omega)` als
     Potenzmenge von :math:`\Omega`. Eine :math:`n`-elementige Menge besitzt
-    :math:`2^n` Teilmengen, d.h. für :math:`|\Omega| = n` ist :math:`|\mathcal{
-    P }(\Omega) = 2^n`. Zu einem Zufallsexperiment mit einer
+    :math:`2^n` Teilmengen, d.h. für :math:`|\Omega| = n` ist :math:`|
+    \mathcal{P}(\Omega) | = 2^n`. Zu einem Zufallsexperiment mit einer
     :math:`n`-elementigen Ergebnismenge gibt es also :math:`2^n` mögliche
     Ereignisse.
+
+.. raw:: html
+
+    <hr />
+
+.. hint::
+
+    Zu diesem Abschnitt gibt es :ref:`Übungsaufgaben <Aufgaben Zufallsexperimente und Ereignisse>`.
 

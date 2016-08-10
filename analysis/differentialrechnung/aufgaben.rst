@@ -1,25 +1,25 @@
 
-.. _Aufgaben zur Differentialrechnung:
+.. _Aufgaben Differentialrechnung:
 
-Aufgaben zur Differentialrechnung
-=================================
+Differentialrechnung
+====================
 
 Die folgenden Aufgaben beziehen sich auf den Abschnitt
 :ref:`Differentialrechnung <Differentialrechnung>`.
 
 ----
 
-.. _Differenzierbarkeit-01:
+.. _dif01:
 
 * Ist eine an einer Stelle :math:`x_0` differenzierbare Funktion an dieser
   Stelle auch stetig? Ist umgekehrt eine an einer Stelle :math:`x_0` stetige
   Funktion an dieser Stelle auch differenzierbar?
 
-  :ref:`Lösung <Differenzierbarkeit-01-Lösung>`
+  :ref:`Lösung <dif01l>`
 
 ----
 
-.. _Quotientenregel-01:
+.. _dif02:
 
 * Wie lautet die Ableitung der folgenden Funktion (mit :math:`c \in
   \mathbb{R}^{+}`):
@@ -28,16 +28,12 @@ Die folgenden Aufgaben beziehen sich auf den Abschnitt
 
       f(x) = \frac{c \cdot x}{x^2 - c^2}
 
-  :ref:`Lösung <Quotientenregel-01-Lösung>`
+  :ref:`Lösung <dif02l>`
 
 
-.. raw:: latex
+----
 
-    \rule{\linewidth}{0.5pt}
-
-.. raw:: html
-
-    <hr/>
+.. foo
 
 .. only:: html
 

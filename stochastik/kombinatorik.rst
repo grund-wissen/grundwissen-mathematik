@@ -86,14 +86,14 @@ Gleichung :eq:`eqn-permutationen` durch :math:`m!` dividiert werden. Die
 Anzahl an :math:`n`-Permutationen mit :math:`m` identischen Objekten ist somit
 gleich :math:`\frac{n!}{m!}`.
 
-Sind allgemein jeweils :math:`m _{\rm{1}}, m _{\rm{2}}, \ldots` der insgesamt
+Sind allgemein jeweils :math:`m_1, m_2, \ldots` der insgesamt
 :math:`n` Objekte identisch, so lässt sich die Anzahl an Permutationen
 (unterschiedlichen Anordnungen) folgendermaßen berechnen:
 
 .. math::
     :label: eqn-permutationen-mit-identischen-objekten
 
-    \frac{n}{m _{\rm{1}}! \cdot m _{\rm{2}}! \cdot \ldots}
+    \frac{n}{m_1! \cdot m_2! \cdot \ldots}
 
 *Beispiele:*
 
@@ -145,9 +145,8 @@ Elemente berücksichtigt.
 Wird aus einer Menge mit :math:`n` Elementen eine Anzahl an :math:`k \le n`
 Elementen entnommen, wobei kein Element mehrfach vorkommen darf, so ergibt sich
 (unter Berücksichtigung der Reihenfolge) eine bestimmte Anordnung der :math:`k`
-Elemente. Mathematisch wird eine solche Anordnung :math:`( a _{\rm{1}} ,\,  a
-_{\rm{2}} ,\,  a _{\rm{3}} ,\, \ldots ,\, a _{\rm{k}})` als "Tupel" bezeichnet.
-[#]_
+Elemente. Mathematisch wird eine solche Anordnung :math:`(a_1,\, a_2,\, a_3,\,
+\ldots ,\, a_{\mathrm{k}})` als "Tupel" bezeichnet. [#]_
 
 An der ersten Stelle des Tupels kann jedes der :math:`n` Elemente auftreten.
 Für die Besetzung der zweiten Stelle sind nur noch :math:`(n-1)` Möglichkeiten
@@ -178,8 +177,7 @@ Permutation der :math:`n` Elemente beziehungsweise der Gleichung
 Wird aus einer Menge mit :math:`n` Elementen eine Anzahl an :math:`k \le n`
 Elementen entnommen, wobei jedes Element mehrfach vorkommen darf, so spricht man
 von einer Variation mit Wiederholung. Jedes Ergebnis ist wiederum ein Tupel
-:math:`( a _{\rm{1}} ,\,  a _{\rm{2}} ,\,  a _{\rm{3}} ,\, \ldots ,\, a
-_{\rm{k}})`.
+:math:`(a_1,\, a_2,\, a_3,\, \ldots ,\, a_{\mathrm{k}})`.
 
 An jeder Stelle des Tupels kann, wenn eine Wiederholung der Elemente möglich
 ist, jedes der :math:`n` Elemente auftreten. Die Anzahl an möglichen Tupeln ist
@@ -223,9 +221,7 @@ Elemente *nicht* berücksichtigt.
 ..  die Reihenfolge nicht beachtet wird.
 
 
-.. index::
-    single: Kombination; ohne Wiederholung
-    single: Binomialkoeffizient
+.. index:: Kombination; ohne Wiederholung, Binomialkoeffizient
 .. _Kombinationen ohne Wiederholung:
 
 .. rubric:: Kombinationen ohne Wiederholung

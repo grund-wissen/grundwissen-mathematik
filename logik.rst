@@ -45,8 +45,7 @@ sich ihr Wahrheitswert mit großer Wahrscheinlichkeit nicht mehr feststellen
 lässt.
 
 
-.. index::
-    single: Aussage; Negation
+.. index:: Aussage; Negation
 .. _Negation:
 
 .. rubric:: Negation einer Aussage
@@ -89,26 +88,23 @@ sich mehrere (Teil-)Aussagen zu einer zusammengesetzten Aussage verknüpfen. In
 der Logik lassen sich mit Hilfe der folgenden Aussage-Funktionen *zwei* (oder
 mehrere) Aussagen zu *einer* neuen Aussage formen.
 
-
-.. index::
-    single: Aussage; Konjunktion
-
+.. index:: Aussage; Konjunktion
 .. _Konjunktion:
 
 .. rubric:: Die Konjunktion
 
-Verknüpft man zwei Aussagen :math:`A _{\rm{1}}` und :math:`A _{\rm{2}}` durch
-das Wort "und", so entsteht die Konjunktion der Aussagen :math:`A _{\rm{1}}` und
-:math:`A _{\rm{2}}`, symbolisch mit :math:`A _{\rm{1}} \wedge A _{\rm{2}}`
+Verknüpft man zwei Aussagen :math:`A_1` und :math:`A_2` durch
+das Wort "und", so entsteht die Konjunktion der Aussagen :math:`A_1` und
+:math:`A_2`, symbolisch mit :math:`A_1 \wedge A_2`
 bezeichnet.
 
 .. list-table:: Wahrheitstafel der Konjunktion
     :name: tab-konjunktion
     :widths: 50 50 50
 
-    * - :math:`{\color{white}f}A _{\rm{1}}{\color{white}f}`
-      - :math:`{\color{white}f}A _{\rm{2}}{\color{white}f}`
-      - :math:`{\color{white}f}A _{\rm{1}} \wedge A _{\rm{2}}{\color{white}f}`
+    * - :math:`{\color{white}f}A_1{\color{white}f}`
+      - :math:`{\color{white}f}A_2{\color{white}f}`
+      - :math:`{\color{white}f}A_1 \wedge A_2{\color{white}f}`
     * - :math:`{\color{white}f}w{\color{white}f}`
       - :math:`{\color{white}f}w{\color{white}f}`
       - :math:`{\color{white}fff}w{\color{white}f}`
@@ -127,10 +123,10 @@ wahr sind.
 
 *Beispiele:*
 
-* Die Konjunktion der wahren Aussage :math:`A _{\rm{1}}` ":math:`8` ist eine
-  gerade Zahl" mit der falschen Aussage :math:`A _{\rm{2}}` ":math:`8` ist
-  durch :math:`3` teilbar" ist die falsche Aussage :math:`A _{\rm{1}} \wedge A
-  _{\rm{2}}` : ":math:`8` ist eine gerade Zahl und durch :math:`3` teilbar".
+* Die Konjunktion der wahren Aussage :math:`A_1` ":math:`8` ist eine gerade
+  Zahl" mit der falschen Aussage :math:`A_2` ":math:`8` ist durch :math:`3`
+  teilbar" ist die falsche Aussage :math:`A_1 \wedge A_2` : ":math:`8` ist eine
+  gerade Zahl und durch :math:`3` teilbar".
 
 * Die falsche Aussage "Der Mars ist ein Gasplanet und hat eine größere Masse
   als die Erde" ist eine Konjunktion der falschen Aussagen "Der Mars ist ein
@@ -142,18 +138,17 @@ wahr sind.
 
 .. rubric:: Die Adjunktion
 
-Verknüpft man zwei Aussagen :math:`A _{\rm{1}}` und :math:`A _{\rm{2}}` durch
-das Wort "oder", so entsteht die Adjunktion der Aussagen :math:`A _{\rm{1}}`
-und :math:`A _{\rm{2}}`, symbolisch mit :math:`A _{\rm{1}} \vee A _{\rm{2}}`
-bezeichnet.
+Verknüpft man zwei Aussagen :math:`A_1` und :math:`A_2` durch das Wort "oder",
+so entsteht die Adjunktion der Aussagen :math:`A_1` und :math:`A_2`, symbolisch
+mit :math:`A_1 \vee A_2` bezeichnet.
 
 .. list-table:: Wahrheitstafel der Adjunktion
     :name: tab-adjunktion
     :widths: 50 50 50
 
-    * - :math:`{\color{white}f}A _{\rm{1}}{\color{white}f}`
-      - :math:`{\color{white}f}A _{\rm{2}}{\color{white}f}`
-      - :math:`{\color{white}f}A _{\rm{1}} \vee A _{\rm{2}}{\color{white}f}`
+    * - :math:`{\color{white}f}A_1{\color{white}f}`
+      - :math:`{\color{white}f}A_2{\color{white}f}`
+      - :math:`{\color{white}f}A_1 \vee A_2{\color{white}f}`
     * - :math:`{\color{white}f}w{\color{white}f}`
       - :math:`{\color{white}f}w{\color{white}f}`
       - :math:`{\color{white}fff}w{\color{white}f}`
@@ -180,24 +175,22 @@ beide wahr sind).
   und der wahren Aussage: "Die Sonne ist ein Stern".
 
 
-.. index::
-    single: Aussage; Implikation
+.. index:: Aussage; Implikation
 .. _Implikation:
 
 .. rubric:: Die Implikation
 
-Verknüpft man zwei Aussagen :math:`A _{\rm{1}}` und :math:`A _{\rm{2}}` durch
-das Wort "dann", so entsteht die Implikation der Aussagen :math:`A _{\rm{1}}`
-und :math:`A _{\rm{2}}`, symbolisch mit :math:`A _{\rm{1}} \Rightarrow A
-_{\rm{2}}` bezeichnet.
+Verknüpft man zwei Aussagen :math:`A_1` und :math:`A_2` durch das Wort "dann",
+so entsteht die Implikation der Aussagen :math:`A_1` und :math:`A_2`, symbolisch
+mit :math:`A_1 \Rightarrow A_2` bezeichnet.
 
 .. list-table:: Wahrheitstafel der Implikation
     :name: tab-implikation
     :widths: 50 50 50
 
-    * - :math:`{\color{white}f}A _{\rm{1}}{\color{white}f}`
-      - :math:`{\color{white}f}A _{\rm{2}}{\color{white}f}`
-      - :math:`{\color{white}f}A _{\rm{1}} \Rightarrow A _{\rm{2}}{\color{white}f}`
+    * - :math:`{\color{white}f}A_1{\color{white}f}`
+      - :math:`{\color{white}f}A_2{\color{white}f}`
+      - :math:`{\color{white}f}A_1 \Rightarrow A_2{\color{white}f}`
     * - :math:`{\color{white}f}w{\color{white}f}`
       - :math:`{\color{white}f}w{\color{white}f}`
       - :math:`{\color{white}fff}w{\color{white}f}`
@@ -211,10 +204,10 @@ _{\rm{2}}` bezeichnet.
       - :math:`{\color{white}f}f{\color{white}f}`
       - :math:`{\color{white}fff}w{\color{white}f}`
 
-Die Implikation ist wahr, wenn beide Aussagen :math:`A _{\rm{1}}` und :math:`A2`
-wahr sind oder wenn die erste Aussage :math:`A _{\rm{1}}` falsch ist. [#I1]_
+Die Implikation ist wahr, wenn beide Aussagen :math:`A_1` und :math:`A2`
+wahr sind oder wenn die erste Aussage :math:`A_1` falsch ist. [#]_
 Formal erhält man eine identische Wahrheitstafel, wenn man die Implikation
-:math:`(\neg A _{\rm{2}}) \Rightarrow (\neg A _{\rm{1}})` bildet. [#I2]_ [#I3]_
+:math:`(\neg A_2) \Rightarrow (\neg A_1)` bildet. [#]_ [#]_
 
 *Beispiele:*
 
@@ -227,25 +220,23 @@ Formal erhält man eine identische Wahrheitstafel, wenn man die Implikation
   Aussage "Die Schallgeschwindigkeit beträgt mehr als
   :math:`\unit[300\,000]{km/s}`".
 
-.. index::
-    single: Äquivalenz
-    single: Aussage; Äquivalenz
+.. index:: Äquivalenz, Aussage; Äquivalenz
 .. _Äquivalenz:
 
 .. rubric:: Äquivalenz zweier Aussagen
 
-Verknüpft man zwei Aussagen :math:`A _{\rm{1}}` und :math:`A _{\rm{2}}` durch
-die Wortkombination "dann, und nur dann", so
-entsteht die Äquivalenz der Aussagen :math:`A _{\rm{1}}` und :math:`A
-_{\rm{2}}`, symbolisch mit :math:`A2 \Leftrightarrow A _{\rm{2}}` bezeichnet.
+Verknüpft man zwei Aussagen :math:`A_1` und :math:`A_2` durch die
+Wortkombination "dann, und nur dann", so entsteht die Äquivalenz der Aussagen
+:math:`A_1` und :math:`A_2`, symbolisch mit :math:`A2 \Leftrightarrow A_2`
+bezeichnet.
 
 .. list-table:: Wahrheitstafel der Äquivalenz
     :name: tab-äquivalenz
     :widths: 50 50 50
 
-    * - :math:`{\color{white}f}A _{\rm{1}}{\color{white}f}`
-      - :math:`{\color{white}f}A _{\rm{2}}{\color{white}f}`
-      - :math:`{\color{white}f}A _{\rm{1}} \Leftrightarrow A _{\rm{2}}{\color{white}f}`
+    * - :math:`{\color{white}f}A_1{\color{white}f}`
+      - :math:`{\color{white}f}A_2{\color{white}f}`
+      - :math:`{\color{white}f}A_1 \Leftrightarrow A_2{\color{white}f}`
     * - :math:`{\color{white}f}w{\color{white}f}`
       - :math:`{\color{white}f}w{\color{white}f}`
       - :math:`{\color{white}fff}w{\color{white}f}`
@@ -260,7 +251,7 @@ _{\rm{2}}`, symbolisch mit :math:`A2 \Leftrightarrow A _{\rm{2}}` bezeichnet.
       - :math:`{\color{white}fff}w{\color{white}f}`
 
 Die Äquivalenz zweier Teilaussagen ist nur wahr, wenn entweder beide
-Teilaussagen wahr oder beide falsch sind. [#Aq1]_
+Teilaussagen wahr oder beide falsch sind. [#]_
 
 *Beispiele:*
 
@@ -275,24 +266,22 @@ Teilaussagen wahr oder beide falsch sind. [#Aq1]_
   Längeneinheit, wenn tausend Meter einen Kilometer ergeben".
 
 
-.. index::
-    single: Aussage; Kontravalenz
+.. index:: Aussage; Kontravalenz
 .. _Kontravalenz zweier Aussagen:
 
 .. rubric:: Kontravalenz zweier Aussagen
 
-Verknüpft man zwei Aussagen :math:`A _{\rm{1}}` und :math:`A _{\rm{2}}` durch
-das Wort "entweder oder" im ausschließenden Sinn, so entsteht die Kontravalenz
-der Aussagen :math:`A _{\rm{1}}` und :math:`A _{\rm{2}}`, mit  mit :math:`A
-_{\rm{1}} \dot{\vee} A _{\rm{2}}` bezeichnet.
+Verknüpft man zwei Aussagen :math:`A_1` und :math:`A_2` durch das Wort "entweder
+oder" im ausschließenden Sinn, so entsteht die Kontravalenz der Aussagen
+:math:`A_1` und :math:`A_2`, mit  mit :math:`A_1 \dot{\vee} A_2` bezeichnet.
 
 .. list-table:: Wahrheitstafel der Kontravalenz
     :name: tab-kontravalenz
     :widths: 50 50 50
 
-    * - :math:`{\color{white}f}A _{\rm{1}}{\color{white}f}`
-      - :math:`{\color{white}f}A _{\rm{2}}{\color{white}f}`
-      - :math:`{\color{white}f}A _{\rm{1}} \, \dot{\vee} \, A _{\rm{2}}{\color{white}f}`
+    * - :math:`{\color{white}f}A_1{\color{white}f}`
+      - :math:`{\color{white}f}A_2{\color{white}f}`
+      - :math:`{\color{white}f}A_1 \, \dot{\vee} \, A_2{\color{white}f}`
     * - :math:`{\color{white}f}w{\color{white}f}`
       - :math:`{\color{white}f}w{\color{white}f}`
       - :math:`{\color{white}fff}f{\color{white}f}`
@@ -317,6 +306,8 @@ andeutet, mit der Negation der Äquivalenz identisch.
   Aussage "Der Zug fährt entweder nach München oder nach Frankfurt".
 
 
+.. _Regeln zu den Aussagenverknüpfungen:
+
 .. rubric:: Regeln zu den Aussagenverknüpfungen
 
 Zwischen den Aussagen bzw. ihren Verknüpfungen sind folgende Äquivalenzen
@@ -327,26 +318,24 @@ Rechnen mit Zahlen haben:
 
 .. math::
 
-    A_{\rm{1}} \wedge A_{\rm{2}} \Leftrightarrow A_{\rm{2}} \wedge A_{\rm{1}} \\
-    A_{\rm{1}} \vee A_{\rm{2}} \Leftrightarrow A_{\rm{2}} \vee A_{\rm{1}}
+    A_1 \wedge A_2 \Leftrightarrow A_2 \wedge A_1 \\
+    A_1 \vee A_2 \Leftrightarrow A_2 \vee A_1
 
 * *Assoziativgesetz:*
 
 .. math::
 
-    (A_{\rm{1}} \wedge A_{\rm{2}}) \wedge  A_{\rm{3}} \Leftrightarrow A_{\rm{1}}
-    \wedge  (A_{\rm{2}} \wedge A_{\rm{3}}) \\
-    (A_{\rm{1}} \vee A_{\rm{2}}) \vee  A_{\rm{3}} \Leftrightarrow A_{\rm{1}}
-    \vee  (A_{\rm{2}} \vee A_{\rm{3}})
+    (A_1 \wedge A_2) \wedge  A_3 \Leftrightarrow A_1 \wedge  (A_2 \wedge A_3) \\
+    (A_1 \vee A_2) \vee  A_3 \Leftrightarrow A_1 \vee  (A_2 \vee A_3)
 
 * *Distributivgesetz:*
 
 .. math::
 
-    A_{\rm{1}} \wedge (A_{\rm{2}} \vee  A_{\rm{3}}) \Leftrightarrow (A_{\rm{1}}
-    \wedge A_{\rm{2}}) \vee (A_{\rm{2}} \wedge A_{\rm{3}}) \\
-    A_{\rm{1}} \vee (A_{\rm{2}} \wedge  A_{\rm{3}}) \Leftrightarrow (A_{\rm{1}}
-    \vee A_{\rm{2}}) \wedge (A_{\rm{2}} \vee A_{\rm{3}})
+    A_1 \wedge (A_2 \vee A_3) \Leftrightarrow (A_1 \wedge A_2) \vee (A_2 \wedge
+    A_3) \\
+    A_1 \vee (A_2 \wedge A_3) \Leftrightarrow (A_1 \vee A_2) \wedge (A_2 \vee
+    A_3)
 
 Hinzu kommen folgende Regeln, die bisweilen für Beweisverfahren sowie in der
 Informatik nützlich sind:
@@ -355,18 +344,16 @@ Informatik nützlich sind:
 
 .. math::
 
-    \neg (A_{\rm{1}} \wedge A_{\rm{2}})  \Leftrightarrow  (\neg A_{\rm{1}}) \vee
-    (\neg A_{\rm{2}}) \\
-    \neg (A_{\rm{1}} \vee A_{\rm{2}})  \Leftrightarrow (\neg A_{\rm{1}}) \wedge
-    (\neg A_{\rm{2}})
+    \neg (A_1 \wedge A_2) \Leftrightarrow (\neg A_1) \vee (\neg A_2) \\
+    \neg (A_1 \vee A_2)   \Leftrightarrow (\neg A_1) \wedge (\neg A_2)
 
 
 * *Absorptionsgesetz:*
 
 .. math::
 
-    A_{\rm{1}} \wedge (A_{\rm{1}} \vee A_{\rm{2}}) \Leftrightarrow A_{\rm{1}} \\
-    A_{\rm{1}} \vee (A_{\rm{1}} \wedge A_{\rm{2}}) \Leftrightarrow A_{\rm{1}}
+    A_1 \wedge (A_1 \vee A_2) \Leftrightarrow A_1 \\
+    A_1 \vee (A_1 \wedge A_2) \Leftrightarrow A_1
 
 
 * *Idempotenzgesetz:*
@@ -377,16 +364,17 @@ Informatik nützlich sind:
     A \vee    A \Leftrightarrow  A\\
 
 .. index:: Tautologie
+.. _Tautologie:
 
 * *Komplementgesetz:*
 
 .. math::
 
-    A _{\rm{1}} \vee (\neg A _{\rm{2}} \wedge A _{\rm{2}} ) \Leftrightarrow A \\
-    A _{\rm{1}}  \wedge (\neg A _{\rm{2}}  \vee A _{\rm{2}} ) \Leftrightarrow A
+    A_1 \vee (\neg A_2 \wedge A_2 ) \Leftrightarrow A \\
+    A_1  \wedge (\neg A_2  \vee A_2 ) \Leftrightarrow A
 
 Dabei wird die Verknüpfung :math:`(\neg A) \vee A` auch "Tautologie" genannt;
-sie ist stets wahr. [#Tau]_
+sie ist stets wahr. [#]_
 
 .. index:: Variable
 .. _Variablen, Terme und Aussageformen:
@@ -404,24 +392,23 @@ Regeln oder Gesetze.
 Ein Term ist eine Bezeichnung zum einen für ein einzelnes mathematisches Objekt
 (z.B. :math:`\pm \frac{1}{2} ,\, \pi ,\, \sqrt{3}`), zum anderen auch für eine
 Aneinanderreihung mehrerer Konstanten, Variablen, Klammern und Rechenoperatoren
-(z.B. :math:`2 \cdot (x^2 - 1) ,\; x \in \mathbb{R}`). [#T1]_ Terme enthalten
+(z.B. :math:`2 \cdot (x^2 - 1) ,\; x \in \mathbb{R}`). [#]_ Terme enthalten
 allerdings kein Relationszeichen, sie sind somit weder wahr noch falsch.
 
 .. index:: Aussageform
 .. _Aussageform:
 
 Eine Aussageform enthält neben (mindestens) einer Variablen und (mindestens)
-einem Term ein Relationszeichen -- beispielsweise :math:`x \ge 1` oder :math:`x
-_{\rm{1}} \cdot x _{\rm{2}} = 0`. Um allerdings einer Aussageform auch einen
+einem Term ein Relationszeichen -- beispielsweise :math:`x \ge 1` oder
+:math:`x_1 \cdot x_2 = 0`. Um allerdings einer Aussageform auch einen
 Wahrheitswert zuordnen zu können, müssen zunächst alle auftretenden Variablen
 durch konkrete Elemente aus der Grundmenge ersetzt werden. Ebenso wie Aussagen
 lassen sich mehrere Aussageformen durch logische Verknüpfungen zu neuen
 Aussageformen kombinieren.
 
-Die Abhängigkeit einer Aussageform von einer oder mehreren Variablen :math:`x
-_{\rm{1}} ,\, x _{\rm{2}} ,\, \ldots` wird in der Form :math:`A(x _{\rm{1}} ,\,
-x _{\rm{2}} ,\, \ldots )` ausgedrückt. Dabei lassen sich Aussageformen in drei
-Arten unterteilen:
+Die Abhängigkeit einer Aussageform von einer oder mehreren Variablen :math:`x_1
+,\, x_2 ,\, \ldots` wird in der Form :math:`A(x_1 ,\, x_2 ,\, \ldots )`
+ausgedrückt. Dabei lassen sich Aussageformen in drei Arten unterteilen:
 
 * Wird eine von einer Variablen :math:`x` abhängige Aussageform :math:`A(x)` für
   jedes beliebige :math:`x` aus einer Grundmenge :math:`X` erfüllt, so
@@ -438,7 +425,8 @@ Aussageformen werden insbesondere in der Algebra als :ref:`Gleichungen
 <Gleichungen>` und :ref:`Ungleichungen <Ungleichungen>` behandelt.
 
 .. index:: Quantor
-
+.. _Es gibt:
+.. _Für alle:
 .. _'Für alle' und 'Es gibt':
 
 .. rubric:: 'Für alle' und 'Es gibt'
@@ -476,9 +464,10 @@ Während eine Existenz-Aussage :math:`\exists x \!: A(x)` wahr ist, wenn die
 zugrunde liegende Aussageform :math:`A(x)` auch nur für ein konkretes :math:`x`
 erfüllt wird, so kann im umgekehrten Fall eine Universal-Aussage :math:`\forall
 x \!: A(x)` bereits durch den Existenz-Nachweis eines einzigen "Gegenbeispiels"
-:math:`\exists x \!: \neg A(x)` als falsch widerlegt werden. [#A1]_ [#A2]_
+:math:`\exists x \!: \neg A(x)` als falsch widerlegt werden. [#]_ [#]_
 
 .. index:: Beweis
+.. _Beweis:
 .. _Direkte und indirekte Beweise:
 
 Direkte und indirekte Beweise
@@ -503,11 +492,10 @@ möglich:
 .. index:: Beweis; durch Implikation
 
 * Schlussfolgerung aus einer Implikation:
-    Gilt eine Aussage :math:`A _{\rm{1}}` und ist die Implikation :math:`A
-    _{\rm{1}} \Rightarrow A _{\rm{2}}` wahr, so ist auch :math:`A _{\rm{2}}`
-    eine wahre Aussage. Kurz formuliert ist somit der aussagenlogische Ausdruck
-    :math:`[ A _{\rm{1}} \wedge (A _{\rm{1}} \Rightarrow A _{\rm{2}})]
-    \Rightarrow A _{\rm{2}}` allgemeingültig.
+    Gilt eine Aussage :math:`A_1` und ist die Implikation :math:`A_1 \Rightarrow
+    A_2` wahr, so ist auch :math:`A_2` eine wahre Aussage. Kurz formuliert ist
+    somit der aussagenlogische Ausdruck :math:`[ A_1 \wedge (A_1 \Rightarrow
+    A_2)] \Rightarrow A_2` allgemeingültig.
 
 .. index:: Beweis; durch Negation
 
@@ -522,9 +510,7 @@ auf die Behauptung gefolgert. Bei indirekten Beweisen hingegen wird die Negation
 der Behauptung zu den Voraussetzungen hinzugenommen.
 
 
-.. index::
-    single: Induktionsbeweis
-    single: Beweis; durch Induktion
+.. index:: Induktionsbeweis, Beweis; durch Induktion
 .. _Vollständige Induktion:
 
 .. rubric:: Die vollständige Induktion
@@ -553,37 +539,37 @@ Schritten:
       1 + 2 + \ldots + n = \frac{n \cdot (n + 1)}{2}
 
 
-  1. Induktionsanfang: Für :math:`n _{\rm{0}} =1` gilt:
+  1. Induktionsanfang: Für :math:`n_0 =1` gilt:
 
   .. math::
 
     1 = \frac{1 \cdot 2}{2} = 1 \quad \checkmark
 
-  2. Induktionsannahme: Für eine beliebige Zahl :math:`n _{\rm{0}}` gilt die
+  2. Induktionsannahme: Für eine beliebige Zahl :math:`n_0` gilt die
      Aussageform
 
   .. math::
 
-    1 + 2 + \ldots n _{\rm{0}} = \frac{n _{\rm{0}}
-    \cdot (n _{\rm{0}} + 1)}{2}
+    1 + 2 + \ldots n_0 = \frac{n_0
+    \cdot (n_0 + 1)}{2}
 
-  3. Induktionsschluss: :math:`n _{\rm{0}} \Rightarrow n _{\rm{0}}  + 1`
+  3. Induktionsschluss: :math:`n_0 \Rightarrow n_0  + 1`
 
 
   .. math::
 
-      1 + 2 + \ldots + n _{\rm{0}} + (n _{\rm{0}} + 1)
-      &= \frac{n _{\rm{0}}
-      \cdot (n _{\rm{0}} + 1)}{2} + (n _{\rm{0}} + 1) \\[4pt]
-      &=  \frac{1}{2} \cdot n _{\rm{0}}  \cdot (n _{\rm{0}}  + 1) + (n _{\rm{0}}
-      + 1) = (n _{\rm{0}} + 1) \cdot \left( \frac{1}{2} \cdot n _{\rm{0}} + 1 \right) \\[6pt]
-      &= (n _{\rm{0}} + 1) \cdot \frac{1}{2} \cdot (n _{\rm{0}} + 2) = \frac{(n
-      _{\rm{0}} + 1) \cdot (n _{\rm{0}} + 2)}{2} \\[6pt]
-      &= \frac{(n _{\rm{0}} + 1) \cdot ((n _{\rm{0}} + 1) + 1)}{2} \quad
+      1 + 2 + \ldots + n_0 + (n_0 + 1)
+      &= \frac{n_0
+      \cdot (n_0 + 1)}{2} + (n_0 + 1) \\[4pt]
+      &=  \frac{1}{2} \cdot n_0  \cdot (n_0  + 1) + (n_0
+      + 1) = (n_0 + 1) \cdot \left( \frac{1}{2} \cdot n_0 + 1 \right) \\[6pt]
+      &= (n_0 + 1) \cdot \frac{1}{2} \cdot (n_0 + 2) = \frac{(n
+     _0 + 1) \cdot (n_0 + 2)}{2} \\[6pt]
+      &= \frac{(n_0 + 1) \cdot ((n_0 + 1) + 1)}{2} \quad
       \checkmark
 
-  Aus der Richtigkeit der Aussageform für :math:`n _{\rm{0}}` folgt somit auch
-  die Richtigkeit der Annahme für :math:`n _{\rm{0}} + 1`. Somit ist die
+  Aus der Richtigkeit der Aussageform für :math:`n_0` folgt somit auch
+  die Richtigkeit der Annahme für :math:`n_0 + 1`. Somit ist die
   Aussageform für alle :math:`n \ge 1` wahr.
 
 
@@ -595,62 +581,56 @@ Schritten:
 
     .. rubric:: Anmerkungen:
 
-.. [#I1] Der letztere Fall wird bisweilen auch als "Ex falso quodlibet"
-        bezeichnet -- aus einer falschen Annahme folgt Beliebiges.
+.. [#] Der letztere Fall wird bisweilen auch als "Ex falso quodlibet"
+    bezeichnet -- aus einer falschen Annahme folgt Beliebiges.
 
-.. [#I2] Die vorschnelle
-        Annahme, dass aus :math:`A _{\rm{1}} \Rightarrow A _{\rm{2}}` auch
-        :math:`(\neg A _{\rm{1}}) \Rightarrow (\neg A _{\rm{2}})` folge, ist
-        hingegen falsch.
+.. [#] Die vorschnelle Annahme, dass aus :math:`A_1 \Rightarrow A_2` auch
+    :math:`(\neg A_1) \Rightarrow (\neg A_2)` folge, ist hingegen falsch.
 
-        Ein anschauliches Beispiel hierfür ist die Aussage :math:`A _{\rm{1}}
-        \Rightarrow A _{\rm{2}}` "Wenn es regnet, dann ist es bewölkt." Die
-        Aussage :math:`(\neg A _{\rm{1}} ) \Rightarrow (\neg A _{\rm{2}})`
-        würde lauten "Wenn es nicht regnet, dann ist es nicht bewölkt", was
-        offensichtlich falsch ist. Die Aussage :math:`(\neg B) \Rightarrow (\neg
-        A)` "Wenn es nicht bewölkt ist, dann regnet es nicht" ist hingegen
-        richtig.
+    Ein anschauliches Beispiel hierfür ist die Aussage :math:`A_1 \Rightarrow
+    A_2` "Wenn es regnet, dann ist es bewölkt." Die Aussage :math:`(\neg A_1 )
+    \Rightarrow (\neg A_2)` würde lauten "Wenn es nicht regnet, dann ist es
+    nicht bewölkt", was offensichtlich falsch ist. Die Aussage :math:`(\neg B)
+    \Rightarrow (\neg A)` "Wenn es nicht bewölkt ist, dann regnet es nicht" ist
+    hingegen richtig.
 
-        Man sagt daher auch, dass :math:`A _{\rm{1}}` notwendig für :math:`A
-        _{\rm{2}}` sei und dass :math:`A _{\rm{2}}` hinreichend für :math:`A
-        _{\rm{1}}` sei.
+    Man sagt daher auch, dass :math:`A_1` notwendig für :math:`A_2` sei und dass
+    :math:`A_2` hinreichend für :math:`A_1` sei.
 
-.. [#I3] Es existiert sogar eine dritte Darstellungsweise der Implikation, und
-        zwar :math:`(\neg A _{\rm{1}}) \vee A _{\rm{2}}`. Dies lässt anhand der
-        :ref:`Wahrheitstabelle der Adjunktion <tab-adjunktion>` überprüfen,
-        indem man für :math:`A _{\rm{1}}` die jeweils entgegengesetzten
-        Wahrheitswerte annimmt und das Ergebnis der so gebildeten Adjunktion mit
-        der :ref:`Wahrheitstabelle der Implikation <tab-implikation>`
-        vergleicht.
+.. [#] Es existiert sogar eine dritte Darstellungsweise der Implikation, und
+    zwar :math:`(\neg A_1) \vee A_2`. Dies lässt anhand der
+    :ref:`Wahrheitstabelle der Adjunktion <tab-adjunktion>` überprüfen, indem
+    man für :math:`A_1` die jeweils entgegengesetzten Wahrheitswerte annimmt und
+    das Ergebnis der so gebildeten Adjunktion mit der :ref:`Wahrheitstabelle der
+    Implikation <tab-implikation>` vergleicht.
 
-.. [#Aq1] Formal erhält man eine identische Wahrheitstafel, wenn man die beiden
-        Implikationen :math:`(A _{\rm{1}}) \Rightarrow (A _{\rm{2}})` und
-        :math:`(A _{\rm{2}}) \Rightarrow (A _{\rm{1}})` bildet und durch eine
-        Konjunktion miteinander verknüpft. Es gilt also:
+.. [#] Formal erhält man eine identische Wahrheitstafel, wenn man die beiden
+    Implikationen :math:`(A_1) \Rightarrow (A_2)` und :math:`(A_2) \Rightarrow
+    (A_1)` bildet und durch eine Konjunktion miteinander verknüpft. Es gilt
+    also:
 
-        .. math::
+    .. math::
 
-            (A _{\rm{1}} \Leftrightarrow A _{\rm{2}} ) \Leftrightarrow ( (A
-            _{\rm{1}} \Rightarrow A _{\rm{2}} ) \wedge (A _{\rm{2}} \Rightarrow
-            A _{\rm{1}} ))
+        (A_1 \Leftrightarrow A_2 ) \Leftrightarrow ( (A_1 \Rightarrow A_2 )
+        \wedge (A_2 \Rightarrow A_1 ))
 
-.. [#Tau] Das Gegenteil der Tautologie, die Aussage :math:`A \wedge (\neg A)`,
-        heißt Kontradiktion; sie ist für jede beliebige Aussagen :math:`A` stets
-        falsch.
+.. [#] Das Gegenteil der Tautologie, die Aussage :math:`A \wedge (\neg A)`,
+    heißt Kontradiktion; sie ist für jede beliebige Aussagen :math:`A` stets
+    falsch.
 
-.. [#T1] Setzt man für die in Termen auftretenden Variablen konkrete
-        mathematische Objekte des Grundbereichs ein, so ergibt sich ein neuer
-        mathematischer Ausdruck; beispielsweise ergibt der Term :math:`8 \cdot x
-        - 10` für :math:`x = 1` den Wert :math:`-2`.
+.. [#] Setzt man für die in Termen auftretenden Variablen konkrete mathematische
+    Objekte des Grundbereichs ein, so ergibt sich ein neuer mathematischer
+    Ausdruck; beispielsweise ergibt der Term :math:`8 \cdot x - 10` für :math:`x
+    = 1` den Wert :math:`-2`.
 
-.. [#A1] In Zusammenhang mit den Quantoren :math:`\exists` und :math:`\forall`
-        stellt der folgende Doppelpunkt ``:``  eine Kurzschreibweise für "so
-        dass gilt:" bzw. "gilt:" dar.
+.. [#] In Zusammenhang mit den Quantoren :math:`\exists` und :math:`\forall`
+    stellt der folgende Doppelpunkt ``:``  eine Kurzschreibweise für "so dass
+    gilt:" bzw. "gilt:" dar.
 
-.. [#A2] Auch kombinierte Quantifizierungs-Aussagen sind möglich,
-        beispielsweise "Für jeden Menschen :math:`m` existiert ein Tag
-        :math:`t`, so dass die Aussageform :math:`A(m,t)` erfüllt ist: :math:`m`
-        hat am Tag :math:`t` Geburtstag". Als Kurzform kann für diese (wahre)
-        Aussage :math:`\forall m \; \exists t \! : A(m,t)` geschrieben werden.
+.. [#] Auch kombinierte Quantifizierungs-Aussagen sind möglich, beispielsweise
+    "Für jeden Menschen :math:`m` existiert ein Tag :math:`t`, so dass die
+    Aussageform :math:`A(m,t)` erfüllt ist: :math:`m` hat am Tag :math:`t`
+    Geburtstag". Als Kurzform kann für diese (wahre) Aussage :math:`\forall m \;
+    \exists t \! : A(m,t)` geschrieben werden.
 
 

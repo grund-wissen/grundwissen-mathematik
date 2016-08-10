@@ -32,6 +32,7 @@ Mathematik
     analysis/index.rst
     lineare-algebra-und-analytische-geometrie/index.rst
     stochastik/index.rst
+    statistik/index.rst
     aufgaben-und-loesungen.rst
     links-und-quellen.rst
 

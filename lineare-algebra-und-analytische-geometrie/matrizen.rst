@@ -19,10 +19,10 @@ solche Matrix hat allgemein folgende Gestalt:
 In der Literatur werden Matrizen häufig auch durch fettgedruckte Großbuchstaben
 bezeichnet, in der Praxis werden die Großbuchstaben hingegen üblicherweise
 unterstrichen. Die in einer Matrix :math:`\underline{A}` stehenden Zahlen werden
-allgemein Elemente oder Komponenten :math:`a _{\mathrm{ij}}` der Matrix genannt,
+allgemein Elemente oder Komponenten :math:`a_{\mathrm{ij}}` der Matrix genannt,
 wobei :math:`i` den Zeilenindex (eine Zahl zwischen :math:`1` und :math:`n`) und
 :math:`j` den Spaltenindex (eine Zahl zwischen :math:`1` und :math:`n`)
-bezeichnet. Schreibt man :math:`(a _{\mathrm{ij}})` in runden Klammern, so ist
+bezeichnet. Schreibt man :math:`(a_{\mathrm{ij}})` in runden Klammern, so ist
 damit die Gesamtheit aller Komponenten, also wiederum die ganze Matrix gemeint.
 
 .. _Spezielle Matrizen:
@@ -38,7 +38,7 @@ Spaltenzahl von :math:`n=1` aufgefasst werden:
 .. math::
 
     \vec{a} := \underline{A}_{\;(m;\,1)} = \begin{pmatrix}
-        a_1 \\ a_2 \\ \vdots \\ a_m
+        a_1 \\ a_2 \\ \vdots \\ a_{\mathrm{m}}
     \end{pmatrix}
 
 Matrizen, die hingegen nur eine Zeilenzahl von :math:`m=1` haben, werden
@@ -47,7 +47,7 @@ entsprechend Zeilenvektoren genannt:
 .. math::
 
     {\color{white}\vec{a}:=\quad}\underline{A}_{\;(1;\,n)} = \begin{pmatrix} a_1 \;
-    \ldots \; a_n \end{pmatrix}
+    \ldots \; a_{\mathrm{n}} \end{pmatrix}
 
 Ein Zeilenvektor, der die gleichen Elemente hat wie ein Spaltenvektor
 :math:`\vec{a}`, wird häufig auch mit :math:`\vec{a}^{\;\mathrm{T}}` bezeichnet. Das
@@ -69,7 +69,8 @@ gebildet werden, indem man die Zeilen und Spalten der Matrix vertauscht:
 Beim Transponieren einer Matrix bleiben also nur diejenigen Komponenten
 unverändert, die auf der von links oben nach rechts unten verlaufenden
 "Hauptdiagonalen" liegen; alle anderen Einträge werden an dieser Diagonalen
-gespiegelt.
+gespiegelt. Bleibt eine Matriz beim Transponieren unverändert, so nennt man sie
+symmetrisch.
 
 .. index:: Matrix; Diagonalmatrix, Matrix; Einheitsmatrix
 
@@ -195,10 +196,11 @@ Teilergebnisse schließlich summiert.
 .. math::
     :label: eqn-skalarprodukt-zeilenvektor-spaltenvektor
 
-    \vec{a} ^{\;\mathrm{T}} _{(1;\,n)} \cdot \vec{b}_{(n,1)} = (a_1,\, a_2,\, \ldots,\,
-    a_n) \cdot \begin{pmatrix}
-        b_1 \\ b_2 \\ \vdots \\ b_n \end{pmatrix} = a_1 \cdot b_1 + a_2 \cdot b_2 + \ldots +
-        a_n \cdot b_n = \sum_{i=1}^{n} a_i \cdot b_i
+    \vec{a}^{\;\mathrm{T}}_{(1;\,n)} \cdot \vec{b}_{(n,1)} = (a_1,\, a_2,\,
+    \ldots,\, a_{\mathrm{n}}) \cdot \begin{pmatrix}
+    b_1 \\ b_2 \\ \vdots \\ b_{\mathrm{n}} \end{pmatrix} = a_1 \cdot b_1 + a_2
+    \cdot b_2 + \ldots + a_{\mathrm{n}} \cdot b_{\mathrm{n}} = \sum_{i=1}^{n}
+    a_{\mathrm{i}} \cdot b_{\mathrm{i}}
 
 Damit eines solches Produkt möglich ist, muss der Zeilenvektor ebenso viele
 Komponenten haben wie der Spaltenvektor. Das Ergebnis des Produkts ist dann eine
@@ -212,9 +214,9 @@ gewöhnliche Zahl (ein Skalar).
 
   .. math::
 
-      \vec{a} ^{\;\mathrm{T}}\cdot \vec{b} = (3,\, -5,\, 4) \cdot
-      \begin{pmatrix} -1 \\ \phantom{+}2 \\ \phantom{+}1 \end{pmatrix} = 3 \cdot (-1) + (-5) \cdot 2 +
-      4 \cdot 1 = -9
+      \vec{a}^{\;\mathrm{T}}\cdot \vec{b} = (3,\, -5,\, 4) \cdot
+      \begin{pmatrix} -1 \\ \phantom{+}2 \\ \phantom{+}1 \end{pmatrix} = 3 \cdot
+      (-1) + (-5) \cdot 2 + 4 \cdot 1 = -9
 
   Das Produkt liefert somit den Wert :math:`\vec{a} ^{\;\mathrm{T}}\cdot \vec{b} = -9`
 
@@ -228,40 +230,101 @@ Skalarprodukt mit dem Spaltenvektor gebildet. Hat die Matrix :math:`m` Zeilen,
 so erhält man folglich :math:`m` einzelne Ergebnisse. Diese werden als
 Komponenten in einen neuen Spaltenvektor der Länge :math:`m` geschrieben.
 
-.. figure:: ../pics/algebra/matrix-multiplikation-falk-schema-1.png
-    :name: fig-matrix-multiplikation-falk-schema
-    :alt:  fig-matrix-multiplikation-falk-schema
-    :align: center
-    :width: 75%
+.. math::
 
-    Multiplikation einer Matrix mit einem Spaltenvektor ("Falk-Schema")
+    \begin{array}{c|c}
+    \underline{A} \cdot \vec{b}  &
+    \begin{pmatrix}
+        \; b_1 \; \\
+        b_2 \\
+        \vdots \\
+        b_{n} \\
+    \end{pmatrix} \\ \midrule
+    \begin{pmatrix}
+        a_{11} & a_{12} & \ldots & a_{1n} \\
+        a_{21} & a_{22} & \ldots & a_{2n} \\
+        \vdots & \vdots & \ddots & \vdots \\
+        a_{m1} & a_{m2} & \ldots & a_{mn} \\
+    \end{pmatrix} &
+    \begin{pmatrix}
+        \sum_{i=1}^{n} a_{\mathrm{1i}} \cdot b_{\mathrm{i}} \\
+        \sum_{i=1}^{n} a_{\mathrm{2i}} \cdot b_{\mathrm{i}} \\
+        \vdots \\
+        \sum_{i=1}^{n} a_{\mathrm{mi}} \cdot b_{\mathrm{i}} \\
+    \end{pmatrix}
+    \end{array}
 
-    .. only:: html
+.. .. figure:: ../pics/algebra/matrix-multiplikation-falk-schema-1.png
+..     :name: fig-matrix-multiplikation-falk-schema
+..     :alt:  fig-matrix-multiplikation-falk-schema
+..     :align: center
+..     :width: 75%
 
-        :download:`SVG: Matrix-Multiplikation (Falk-Schema) 1 <../pics/algebra/matrix-multiplikation-falk-schema-1.svg>`
+..     Multiplikation einer Matrix mit einem Spaltenvektor ("Falk-Schema")
+
+..     .. only:: html
+
+..         :download:`SVG: Matrix-Multiplikation (Falk-Schema) 1 <../pics/algebra/matrix-multiplikation-falk-schema-1.svg>`
 
 Ein solches Produkt kann nur dann gebildet werden, wenn die Anzahl an Spalten
 der Matrix mit der Anzahl an Zeilen des Vektors übereinstimmt; andernfalls ist
 die Multiplikation nicht definiert.
 
-Das "Falk-Schema", wie es in der obigen Abbildung dargestellt ist, bei dem die
-zu multiplizierenden Matrizen beziehungsweise Vektoren tabellenartig aufgelistet
-werden, kann auch auf die Multiplikation zweier Matrizen ausgeweitet werden.
-Hierbei wird jeweils an der Stelle, wo sich eine Zeile der linken Matrix mit
-einer Spalte der rechten Matrix überkreuzt, das entsprechende Skalarprodukt
-eingetragen.
 
-.. figure:: ../pics/algebra/matrix-multiplikation-falk-schema-2.png
-    :name: fig-matrix-multiplikation-falk-schema2
-    :alt:  fig-matrix-multiplikation-falk-schema2
-    :align: center
-    :width: 75%
+Beim so genannten "Falk-Schema", wie es in der obigen Abbildung dargestellt ist,
+werden die zu multiplizierenden Matrizen beziehungsweise Vektoren tabellenartig
+aufgelistet. [#]_ Die Auswertung erfolgt allgemein nach folgender Regel:
+Multipliziert man die :math:`i`-te Zeile der linken Matrix mit der :math:`j`-ten
+Spalter der rechten Matrix, so erhält man die Komponente der Ergebnis-Matrix,
+die dort in der :math:`i`-ten Zeile und :math:`j`-ten Spalte steht.
 
-    Multiplikation einer Matrix mit einer zweiten Matrix ("Falk-Schema").
+Das Falk-Schema kann also eomfac auf die Multiplikation zweier Matrizen
+ausgeweitet werden: Hierbei wird jeweils an der Stelle, wo sich eine Zeile der
+linken Matrix mit einer Spalte der rechten Matrix überkreuzt, das entsprechende
+Skalarprodukt eingetragen.
 
-    .. only:: html
+.. math::
 
-        :download:`SVG: Matrix-Multiplikation (Falk-Schema) 2 <../pics/algebra/matrix-multiplikation-falk-schema-2.svg>`
+    \begin{array}{c|c}
+    \underline{A} \cdot \underline{B}  &
+    \begin{pmatrix}
+        \qquad\;  b_{11} \;\qquad  & \qquad\; b_{12} \;\qquad & \cdots &
+        \qquad\; b_{\mathrm{1p}} \;\qquad \\[6pt]
+        b_{21} & b_{22} & \cdots & b_{\mathrm{2p}} \\[6pt]
+        \vdots & \vdots & \ddots & \vdots \\[6pt]
+        b_{\mathrm{n1}} & b_{\mathrm{n2}} & \cdots & b_{\mathrm{np}} \\
+    \end{pmatrix} \\ \midrule
+    \begin{pmatrix}
+        a_{11} & a_{12} & \ldots & a_{\mathrm{1n}} \\[6pt]
+        a_{21} & a_{22} & \ldots & a_{\mathrm{2n}} \\[6pt]
+        \vdots & \vdots & \ddots & \vdots \\[6pt]
+        a_{\mathrm{m1}} & a_{\mathrm{m2}} & \ldots & a_{\mathrm{mn}} \\
+    \end{pmatrix} &
+    \begin{pmatrix}
+        \sum_{i=1}^{n} a_{\mathrm{1i}} \cdot b_{\mathrm{1i}} & \sum_{i=1}^{n}
+        a_{\mathrm{1i}} \cdot b_{\mathrm{2i}} & \cdots & \sum_{i=1}^{n}
+        a_{\mathrm{1i}} \cdot b_{\mathrm{pi}} \\[6pt]
+        \sum_{i=1}^{n} a_{\mathrm{2i}} \cdot b_{\mathrm{1i}} & \sum_{i=1}^{n}
+        a_{\mathrm{2i}} \cdot b_{\mathrm{2i}} & \cdots & \sum_{i=1}^{n} a_{\mathrm{2i}}
+        \cdot b_{\mathrm{pi}} \\[6pt]
+        \vdots & \vdots & \ddots & \vdots \\[6pt]
+        \sum_{i=1}^{n} a_{\mathrm{mi}} \cdot b_{\mathrm{1i}} & \sum_{i=1}^{n}
+        a_{\mathrm{mi}} \cdot b_{\mathrm{2i}} & \cdots & \sum_{i=1}^{n}
+        a_{\mathrm{mi}} \cdot b_{\mathrm{pi}} \\
+    \end{pmatrix}
+    \end{array}
+
+.. .. figure:: ../pics/algebra/matrix-multiplikation-falk-schema-2.png
+..     :name: fig-matrix-multiplikation-falk-schema2
+..     :alt:  fig-matrix-multiplikation-falk-schema2
+..     :align: center
+..     :width: 75%
+
+..     Multiplikation einer Matrix mit einer zweiten Matrix ("Falk-Schema").
+
+..     .. only:: html
+
+..         :download:`SVG: Matrix-Multiplikation (Falk-Schema) 2 <../pics/algebra/matrix-multiplikation-falk-schema-2.svg>`
 
 Auch in diesem Fall ist das Produkt nur dann definiert, wenn die die Anzahl an
 Spalten der linken Matrix mit der Anzahl an Zeilen des Vektors übereinstimmt.
@@ -302,17 +365,134 @@ einer entsprechenden Nullmatrix :math:`\underline{0}` wiederum eine Nullmatrix
 entsteht (da jedes einzelnen Skalarprodukt den Wert Null hat). Multipliziert man
 hingegen eine beliebige Matrix :math:`\underline{A}` mit einer Einheitsmatrix
 :math:`\underline{E}`, so erhält man die ursprüngliche Matrix
-:math:`\underline{A}` als Ergebnis. Es gilt also stets:
+:math:`\underline{A}` als Ergebnis. Es gilt also stets -- unabhängig von der
+Reihenfolge der Faktoren:
+
+.. math::
+    :label: eqn-matrix-multiplikation-neutrales-und-inverses-element
+
+    \underline{A} \cdot \underline{0} = \underline{0} \cdot \underline{A} &=
+    \underline{0} \\[4pt]
+    \underline{A} \cdot \underline{E} = \underline{E} \cdot \underline{A} &=
+    \underline{E} \\[4pt]
+
+.. Todo Auch Produkt zweier zweier 'normaler' Matrizen mit Ergebnis Nullmatrix
+.. möglich
+
+Eine Division zweier Matrizen ist hingegen nicht definiert.
+
+Matrizengleichungen
+-------------------
+
+Matrizen können, ebenso wie Determinanten, zur Lösung von :ref:`linearen
+Gleichungssystemen <Lineare Gleichungssysteme>`  genutzt werden. Bei Verwendung
+von Matrizen können diese sehr kompakt dargestellt werden. Beispielsweise hat
+ein lineares Gleichungssystem mit drei Unbekannten folgende Form:
 
 .. math::
 
-    \underline{A} \cdot \underline{0} = \underline{0} \cdot \underline{A} &= \underline{0} \\[4pt]
-    \underline{A} \cdot \underline{E} = \underline{E} \cdot \underline{A} &= \underline{E} \\[4pt]
+     a_{\mathrm{11}} \cdot x_1 + a_{\mathrm{12}} \cdot x_2 + a_{\mathrm{13}}
+     \cdot x_3 &= b_1 \\
+     a_{\mathrm{21}} \cdot x_1 + a_{\mathrm{22}} \cdot x_2 + a_{\mathrm{23}}
+     \cdot x_3 &= b_2 \\
+     a_{\mathrm{31}} \cdot x_1 + a_{\mathrm{32}} \cdot x_2 + a_{\mathrm{33}}
+     \cdot x_3 &= b_3 \\
 
-In diesen beiden Sonderfällen spielt die Reihenfolge der Faktoren keine Rolle.
+In Matrizenschreibweise kann dies folgendermaßen geschrieben werden:
 
-.. Matrizengleichungen
-.. -------------------
+.. math::
+    :label: eqn-matrizengleichung
 
-... to be continued ...
+    \underline{A}_{(3;3)} \cdot \vec{x} = \vec{b}
 
+
+Gesucht sind bei dieser "Matrizengleichung" wiederum die Komponenten
+:math:`x_1`, :math:`x_2` und :math:`x_3` des Vektors :math:`\vec{x}`. Man kann
+allerdings, um die Gleichung zu lösen, nicht einfach durch :math:`\underline{A}`
+dividieren, da die Division durch eine Matrix nicht definiert ist. Die Lösung
+besteht vielmehr darin, eine so genannte "inverse" Matrix :math:`\underline{A}
+^{-1}` zu finden, die bei Multiplikation mit der Matrix :math:`\underline{A}`
+eine Einheitsmatrix ergibt. [#]_
+
+.. math::
+    :label: eqn-inverse-matrix
+
+    \underline{A} \cdot \underline{A}^{-1} = \underline{A}^{-1} \cdot
+    \underline{A} = \underline{E}
+
+Hat man eine solche inverse Matrix :math:`A ^{-1}` zur Matrix
+:math:`\underline{A}` gefunden, kann man beide Seiten der obigen Gleichung
+:eq:`eqn-matrizengleichung` damit multiplizieren:
+
+.. math::
+
+    \underline{A} ^{-1} \cdot \underline{A} \cdot \vec{x} = \underline{A}^{-1} \cdot \vec{b}
+
+Mit :math:`\underline{A}^{-1} \cdot \underline{A} = \underline{E}` folgt damit:
+
+.. math::
+
+    \underline{E} \cdot \vec{x} = \underline{A} ^{-1} \cdot \vec{b}
+
+Da die Einheitsmatrix das neutrale Element bezüglich der Multiplikation ist,
+also :math:`\underline{E} \cdot \vec{x} = \vec{x}` gilt, folgt somit als Lösung
+für :math:`\vec{x}`:
+
+.. math::
+    :label: eqn-matrizengleichung-loesung
+
+    \vec{x} = \underline{A}^{-1} \cdot \vec{b}
+
+Die eigentliche Aufgabe für die Lösung einer Matrizengleichung besteht nun also
+darin, zu einer Matrix :math:`\underline{A}` die inverse Matrix
+:math:`\underline{A}^{-1}` zu finden. Hierzu muss folgende Gleichung gelöst
+werden:
+
+.. math::
+
+    \begin{array}{c|c}
+    \underline{A} \cdot \underline{A}^{-1}  &
+    \begin{pmatrix}
+        \hat{a}_{11} & \hat{a}_{12} & \ldots & \hat{a}_{1n} \\
+        \hat{a}_{21} & \hat{a}_{22} & \ldots & \hat{a}_{2n} \\
+        \vdots & \vdots & \ddots & \vdots \\
+        \hat{a}_{n1} & \hat{a}_{n2} & \ldots & \hat{a}_{nn} \\
+    \end{pmatrix} \\ \midrule
+    \begin{pmatrix}
+        a_{11} & a_{12} & \ldots & a_{1n} \\
+        a_{21} & a_{22} & \ldots & a_{2n} \\
+        \vdots & \vdots & \ddots & \vdots \\
+        a_{n1} & a_{n2} & \ldots & a_{nn} \\
+    \end{pmatrix} &
+    \begin{pmatrix}
+        \;\; 1 \;\; & \;\;0\;\; & \ldots & \;0\;\; \\
+        0 & 1 & \ldots & 0\\
+        \vdots & \vdots & \ddots & \vdots \\
+        0 & 0 & \ldots & 1\\
+    \end{pmatrix}
+    \end{array}
+
+Alle :math:`\hat{a} _{\mathrm{ij}}` mit :math:`i,j = 1,\ldots,n` sind
+Unbekannte; es muss also ein Gleichungssystem mit :math:`n^2` Unbekannten und
+:math:`n^2` Gleichungen zur Bestimmung der inversen Matrix gelöst werden.
+
+
+
+
+.. raw:: html
+
+    <hr />
+
+.. only:: html
+
+    .. rubric:: Anmerkungen:
+
+.. [#] Bisweilen werden beim Falk-Schema, um eine einfachere Textsatzung zu
+    ermöglichen, entweder die Klammern der Matrizen oder die beiden zueinander
+    senkrechten Tabellenlinien weggelassen.
+
+.. [#] Die Schreibweise :math:`\underline{A}^{-1}` soll auf die Ähnlichkeit zur
+    Schreibweise :math:`a^{-1} = \frac{1}{a}` für reelle Zahlen hinweisen, für
+    die ebenfalls :math:`a^{-1} \cdot a = 1` gilt. Es kann allerdings nicht
+    :math:`\underline{A}^{-1} = \frac{1}{\underline{A}}` sein, da eine Division
+    durch eine Matrix nicht definiert ist.

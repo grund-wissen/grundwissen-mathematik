@@ -3,10 +3,6 @@
 Eigenschaften von Funktionen
 ============================
 
-.. raw:: latex
-
-    \label{Eigenschaften von Funktionen}
-
 Funktionen lassen sich anhand verschiedener Eigenschaften unterteilen. Wichtige
 Eigenschaften, die dabei von Bedeutung sind, werden im folgenden Abschnitt kurz
 zusammengefasst. [#]_
@@ -103,13 +99,13 @@ Funktionswerte zwischen zwei Wertepaaren nur durch Mittelwertbildung
         <../pics/analysis/darstellung-wertetabelle.svg>`
 
 Bei graphischen Darstellungen werden die einzelnen Wertepaare :math:`(x \,,\,
-y)` in eindeutiger Weise auf Punkte eines Koordinatensystems abgebildet. [#]_ Sind
-die Abstände zwischen den Wertepaaren nur sehr gering, so kann der funktionale
-Zusammenhang graphisch durch eine Kurve veranschaulicht werden. Dies ermöglicht
-oftmals ein schnelles Ablesen der Funktionswerte (zumindest näherungsweise).
-Beispielsweise kann auf diese Weise an Oszilloskopen oder Kardiogrammen der
-zeitliche Verlauf eines elektrischen Spannungssignals direkt beobachtet werden.
-[#]_
+y)` in eindeutiger Weise auf Punkte eines Koordinatensystems abgebildet. [#]_
+Sind die Abstände zwischen den Wertepaaren nur sehr gering, so kann der
+funktionale Zusammenhang graphisch durch eine Kurve veranschaulicht werden. Dies
+ermöglicht oftmals ein schnelles Ablesen der Funktionswerte (zumindest
+näherungsweise). Beispielsweise kann auf diese Weise an Oszilloskopen oder
+Kardiogrammen der zeitliche Verlauf eines elektrischen Spannungssignals direkt
+beobachtet werden. [#]_
 
 .. figure:: ../pics/analysis/darstellung-funktionsgraph.png
     :width: 60%
@@ -159,7 +155,7 @@ gebracht werden. Man unterscheidet zwischen zwei Arten von Funktionsgleichungen:
       2 \cdot x^3 - y  + 5 = 0
 
 Nicht jede Funktion kann in einer nach :math:`y` aufgelösten Form dargestellt
-werden, beispielsweise :math:`x + y + \sin{y} = 0`. Sofern möglich, wird im
+werden, beispielsweise :math:`x + y + \sin{(y)} = 0`. Sofern möglich, wird im
 Allgemeinen die explizite Darstellungsform :math:`y=f(x)` bevorzugt. [#]_
 
 ..  Dennoch handelt es sich hierbei ebenfalls um eine Funktion, die beispielsweise
@@ -319,13 +315,13 @@ Eigenschaft genau dann, wenn sie :ref:`bijektiv <Bijektivität>` ist. Ist eine
 Funktion nicht bijektiv, so muss sie zuerst durch Einschränkung ihrer
 Definitions- bzw. Wertemenge zu einer bijektiven Funktion gemacht werden.
 
-Die Umkehrfunktion :math:`f _{\rm{U}}` einer Funktion :math:`f` findet man, indem
+Die Umkehrfunktion :math:`f_{\mathrm{U}}` einer Funktion :math:`f` findet man, indem
 man die ursprüngliche Funktionsgleichung :math:`y=f(x)` nach :math:`x` auflöst
 und anschließend die Variablen :math:`x` und :math:`y` vertauscht.
 
 *Beispiel:*
 
-* Die Umkehrfunktion :math:`f _{\rm{U}}` der Funktion :math:`f(x) = 2 \cdot x + 3`
+* Die Umkehrfunktion :math:`f_{\mathrm{U}}` der Funktion :math:`f(x) = 2 \cdot x + 3`
   lässt sich berechnen, indem zunächst die Funktionsgleichung nach :math:`x`
   aufgelöst wird:
 
@@ -335,7 +331,7 @@ und anschließend die Variablen :math:`x` und :math:`y` vertauscht.
 
   Multipliziert man in der rechten Gleichung die Klammer aus und vertauscht die
   Bezeichnungen der Variablen :math:`x` und :math:`y`, so folgt für die
-  Umkehrfunktion :math:`f _{\rm{U}}`:
+  Umkehrfunktion :math:`f_{\mathrm{U}}`:
 
   .. math::
 
@@ -360,7 +356,7 @@ Umkehrfunktion, so erhält man wieder die ursprüngliche Funktion zurück.
 
 
 Im gleichen Koordinatensystem werden eine Funktion :math:`y = f(x)` und ihre
-Umkehrfunktion :math:`y = f _{\rm{U}}(y)` durch einen gleichen Funktionsgraphen
+Umkehrfunktion :math:`y = f_{\mathrm{U}}(y)` durch einen gleichen Funktionsgraphen
 dargestellt, wenn lediglich die Benennung der :math:`x`- und :math:`y`-Achse
 (Argument- und Funktionswerte) ausgetauscht werden. Sollen die Bezeichnungen der
 :math:`x`- und :math:`y`-Achse hingegen bestehen bleiben, so sind die Graphen
@@ -386,24 +382,22 @@ In gleicher Weise wie bei :ref:`Zahlenfolgen <Monotonie einer Zahlenfolge>`
 stellt auch bei Funktionen die Monotonie eine wichtige charakteristische
 Eigenschaft einer Funktion dar.
 
-Gilt für alle Elemente :math:`x _{\rm{1}} < x _{\rm{2}}` aus dem
-Definitionsbereich einer Funktion auch :math:`f(x _{\rm{1}}) \le f(x _{\rm{2}})`,
-so heißt die Funktion monoton steigend. Entsprechend heißt eine Funktion
-monoton fallend, wenn für die Funktionswerte aller :math:`x _{\rm{1}} < x
-_{\rm{2}}` die Bedingung :math:`f(x _{\rm{1}}) > f(x _{\rm{2}})` gilt.
-Bei einer konstanten Funktion sind die Funktionswerte :math:`f(x)` für alle
-:math:`x` konstant.
+Gilt für alle Elemente :math:`x_1 < x_2` aus dem Definitionsbereich einer
+Funktion auch :math:`f(x_1) \le f(x_2)`, so heißt die Funktion monoton steigend.
+Entsprechend heißt eine Funktion monoton fallend, wenn für die Funktionswerte
+aller :math:`x_1 < x_2` die Bedingung :math:`f(x_1) > f(x_2)` gilt. Bei einer
+konstanten Funktion sind die Funktionswerte :math:`f(x)` für alle :math:`x`
+konstant.
 
-Es gilt somit für jede Funktion :math:`f(x)` und :math:`x _{\rm{1}} < x
-_{\rm{2}}`:
+Es gilt somit für jede Funktion :math:`f(x)` und :math:`x_1 < x_2`:
 
 .. math::
 
-    f (x _{\rm{1}}) &\le f (x _{\rm{2}})\text{\;\; für alle $n$} \quad \rightarrow
+    f(x_1) &\le f(x_2) \text{\;\; für alle $n$} \quad \rightarrow
     \quad \text{$f(x)$ ist monoton zunehmend. } \\
-    f (x _{\rm{1}}) &\ge f (x _{\rm{2}}) \text{\;\; für alle $n$} \quad \rightarrow
+    f(x_1) &\ge f(x_2) \text{\;\; für alle $n$} \quad \rightarrow
     \quad \text{$f(x)$ ist monoton abnehmend. } \\
-    f (x _{\rm{1}}) &=   f (x _{\rm{2}}) \text{\;\; für alle $n$} \quad \rightarrow
+    f(x_1)  &=  f(x_2) \text{\;\; für alle $n$} \quad \rightarrow
     \quad \text{$f(x)$ ist konstant. }
 
 Gilt bei der obigen Unterscheidung anstelle der Kleiner-Gleich-Relation
@@ -505,8 +499,8 @@ negative beziehungsweise positive :math:`x`-Werte, so schreibt man:
 .. math::
     :label: eqn-grenzwert-unendlich
 
-    \text{Grenzwert für unendlich große, negative $x$-Werte}: \lim _{x \to -\infty} f(x) &= g_1 \\
-    \text{Grenzwert für unendlich große,\, positive $x$-Werte}: \lim _{x \to +\infty} f(x) &= g_2
+    \text{Grenzwert für unendlich große, negative $x$-Werte}: \lim_{x \to -\infty} f(x) &= g_1 \\
+    \text{Grenzwert für unendlich große,\, positive $x$-Werte}: \lim_{x \to +\infty} f(x) &= g_2
 
 Existiert für eine Funktion :math:`f(x)` einer der beiden obigen Grenzwerte, so
 nennt man die Funktion "konvergent" für :math:`x \to -\infty` beziehungsweise
@@ -523,14 +517,14 @@ sie divergent.
 
   .. math::
 
-      \lim _{x \rightarrow \pm \infty}\left(  \frac{1}{x} \right) = 0
+      \lim_{x \rightarrow \pm \infty}\left(  \frac{1}{x} \right) = 0
 
 * Die Funktion :math:`f(x) = \frac{x}{x+1}` ist für :math:`x \rightarrow \pm
   \infty` konvergent zum Grenzwert :math:`1`. Es gilt also:
 
   .. math::
 
-      \lim _{x \rightarrow \pm \infty} \left( \frac{x}{x + 1}\right)  = 1
+      \lim_{x \rightarrow \pm \infty} \left( \frac{x}{x + 1}\right)  = 1
 
 * Die Funktion :math:`f(x) = x^2` (eine "Parabel") ist divergent, sie hat keinen
   Grenzwert.
@@ -555,7 +549,7 @@ man:
 .. math::
     :label: eqn-grenzwert-an-einer-stelle
 
-    \lim _{x \to x_0} f(x) = g
+    \lim_{x \to x_0} f(x) = g
 
 Ist die Funktion :math:`f(x)` an der Stelle :math:`x_0` definiert, so ist ihr
 Grenzwert an dieser Stelle gleich ihrem Funktionswert, d.h. es gilt
@@ -573,12 +567,12 @@ Grenzwerte:
 
 .. math::
 
-    g _{\rm{-}} = \lim _{\substack{x \to (x_0-h), \\ h \to 0}} \big(f(x)\big) \\[4pt]
-    g _{\rm{+}} = \lim _{\substack{x \to (x_0+h), \\ h \to 0}} \big(f(x)\big) \\[4pt]
-
+    g_{\mathrm{-}} = \lim_{\substack{x \to (x_0-h), \\ h \to 0}} \big(f(x)\big)
+    \\[4pt]
+    g_{\mathrm{+}} = \lim_{\substack{x \to (x_0+h), \\ h \to 0}} \big(f(x)\big)
 
 Entsprechend bezeichnet man die beiden zugehörigen Grenzwerte :math:`g_{-}` und
-:math:`g _{+}` als "linksseitig" bzw. "rechtsseitig".
+:math:`g_{+}` als "linksseitig" bzw. "rechtsseitig".
 
 
 .. _Rechenregeln für Grenzwerte:
@@ -590,23 +584,26 @@ Für das Rechnen mit Grenzwerten gibt es folgende Rechenregeln:
 .. math::
     :label: eqn-rechenregeln-grenzwerte
 
-    \lim _{} \big(f_1(x) \pm f_2(x)\big) &= \lim _{} \big(f_1(x)\big) \pm \lim _{} \big(f_2(x)\big) \\
-    \lim _{} \big(f_1(x) \, \cdot \; f_2(x)\big) &= \lim _{}\big(f_1(x)\big)\, \cdot \; \lim _{}\big(f_2(x)\big) \\
-    \lim _{} \left( \frac{f_1(x)}{f_2(x)}\right) &= \frac{\lim _{}\big(f_1(x)\big)}{\lim _{}\big(f_2(x)\big)}
+    \lim \big(f_1(x) \pm f_2(x)\big) &= \lim \big(f_1(x)\big) \pm \lim
+    \big(f_2(x)\big) \\
+    \lim \big(f_1(x) \, \cdot \; f_2(x)\big) &= \lim \big(f_1(x)\big)\, \cdot \;
+    \lim \big(f_2(x)\big) \\
+    \lim \left( \frac{f_1(x)}{f_2(x)}\right) &= \frac{\lim
+    \big(f_1(x)\big)}{\lim \big(f_2(x)\big)}
 
 Bei der Division zweier Funktionen bzw. Grenzwerte muss dabei darauf geachtet
 werden, dass nicht durch Null dividiert wird, d.h. es muss :math:`f_2(x) \ne 0`
-für alle :math:`x` sowie :math:`\lim _{}\big(f_2(x)\big) \ne 0` gelten. Ist
+für alle :math:`x` sowie :math:`\lim \big( f_2(x) \big) \ne 0` gelten. Ist
 im Speziellen :math:`f(x) =1` und :math:`g(x)` eine Funktion mit dem Grenzwert
 :math:`\infty` für :math:`x \to \infty`, so gilt:
 
 .. math::
 
-    \lim _{x \to \infty} f(x) = \infty \quad \Rightarrow \quad \lim _{x \to
+    \lim_{x \to \infty} f(x) = \infty \quad \Rightarrow \quad \lim_{x \to
     \infty} \frac{1}{f(x)} = 0
 
 Gilt zudem für drei Funktionen :math:`f_1(x) < f_2(x) < f_3(x)` und sind die
-Grenzwerte :math:`\lim _{x \to x_0} \big( f_1(x)\big) = \lim _{x \to x_0} \big(
+Grenzwerte :math:`\lim_{x \to x_0} \big( f_1(x)\big) = \lim_{x \to x_0} \big(
 f_2(x)\big) = g` der kleinsten und größten Funktion identisch, so gilt
 dies auch für den Grenzwert der "mittleren" Funktion.
 
@@ -619,7 +616,7 @@ Stetigkeit
 ----------
 
 Man bezeichnet eine Funktion an einer Stelle :math:`x_0 \in \mathbb{D}` als
-stetig, wenn an dieser Stelle der linksseitige Grenzwert :math:`g _{-}`, der
+stetig, wenn an dieser Stelle der linksseitige Grenzwert :math:`g_{-}`, der
 rechtsseitige Grenzwert :math:`g_+` und der Funktionswert :math:`g=f(x_0)`
 übereinstimmen. Eine Funktion wird (global) stetig genannt, wenn die
 Stetigkeitsbedingung für alle :math:`x`-Werte des Definitionsbereichs erfüllt
@@ -662,9 +659,9 @@ abschnittsweise folgendermaßen definiert:
         <../pics/analysis/signumsfunktion.svg>`
 
 Die Signum-Funktion ist an allen Stellen bis auf :math:`x_0=0` (lokal) stetig.
-An dieser Stelle jedoch stimmen ihr linksseitiger Grenzwert :math:`g _{\rm{-}} =
--1`, ihr Funktionswert :math:`f(0) = 0` und ihr rechtsseitiger Grenzwert
-:math:`g _{\rm{+}} = 1` nicht überein.
+An dieser Stelle jedoch stimmen ihr linksseitiger Grenzwert
+:math:`g_{\mathrm{-}} = -1`, ihr Funktionswert :math:`f(0) = 0` und ihr
+rechtsseitiger Grenzwert :math:`g_{\mathrm{+}} = 1` nicht überein.
 
 
 .. _Zwischenwertsatz und Extremwertsatz:
@@ -682,7 +679,7 @@ zwei Funktionswerte :math:`m` und :math:`M` finden, so dass :math:`m \le f(x)
 \le M` gilt. Der Wert :math:`m` wird dabei als Minimum, der Wert :math:`M` als
 Maximum der Funktion :math:`f` im Intervall :math:`[a\,;\,b]` bezeichnet.
 
-..  TODO Pics!
+.. todo Pics!
 
 Eine in einem abgeschlossenen Intervall :math:`[a\,;\,b]` stetige Funktion
 :math:`f` nimmt zudem jeden Wert zwischen :math:`f(a)` und :math:`f(b)`
@@ -869,5 +866,14 @@ Arten möglich:
     :math:`f_n(x_n)` der zugehörigen Funktionswerte den gleichen Grenzwert
     :math:`g`.
 
+
+.. raw:: html
+
+    <hr />
+
+.. hint::
+
+    Zu diesem Abschnitt gibt es :ref:`Übungsaufgaben <Aufgaben Eigenschaften von
+    Funktionen>`.
 
 
