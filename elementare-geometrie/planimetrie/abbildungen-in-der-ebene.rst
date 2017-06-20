@@ -28,9 +28,9 @@ erhalten, ihre Größe ändert sich jedoch. Grundlegend ist hierbei die so genan
 Um eine zentrische Streckung zu beschreiben, geht man von einem bestimmten Punkt
 :math:`\mathrm{Z}` als Streckungszentrum aus. Zeichnet man von :math:`\mathrm{Z}` aus
 durch jeden Punkt :math:`\mathrm{P}` einer geometrischen Figur :math:`F` einen
-Strahl und zeichnet auf diesem in der jeweils :math:`n`-fachen Entfernung einen
+Strahl und zeichnet auf diesem in der jeweils :math:`\lambda`-fachen Entfernung einen
 neuen Punkt :math:`\mathrm{P'}` ein, so erhält man eine zweite Figur :math:`F'`, die
-gegenüber der Original-Figur verschoben und :math:`n`-mal so groß erscheint.
+gegenüber der Original-Figur verschoben und :math:`\lambda`-mal so groß erscheint. [#]_
 
 .. figure:: ../../pics/geometrie/zentrische-streckung.png
     :width: 55%
@@ -38,33 +38,34 @@ gegenüber der Original-Figur verschoben und :math:`n`-mal so groß erscheint.
     :name: fig-zentrische-streckung
     :alt:  fig-zentrische-streckung
 
-    Beispiel einer zentrischen Streckung mit :math:`n > 1`.
+    Beispiel einer zentrischen Streckung mit :math:`\lambda > 1`.
 
     .. only:: html
 
         :download:`SVG: Zentrische Streckung
         <../../pics/geometrie/zentrische-streckung.svg>`
 
-Der Faktor :math:`n` wird dabei als Streckungsfaktor oder Maßstab bezeichnet.
-Für :math:`n` ergibt sich folgender Zusammenhang:
+Der Faktor :math:`\lambda` wird Skalierungsfaktor (umgangssprachlich auch
+als "Maßstab") genannt. Für :math:`\lambda` ergibt sich folgender
+Zusammenhang:
 
 .. math::
 
-    \overline{\mathrm{ZP'}} = n \cdot \overline{\mathrm{ZP}} \quad
-    \Leftrightarrow \quad n =
+    \overline{\mathrm{ZP'}} = \lambda \cdot \overline{\mathrm{ZP}} \quad
+    \Leftrightarrow \quad \lambda =
     \frac{\overline{\mathrm{ZP'}}}{\overline{\mathrm{ZP}}}
 
-Ist :math:`n>0`, so bleibt die Orientierungsrichtung der Figur, also der
-Umlaufsinn ihrer Punkte, erhalten. Gilt :math:`1 > n > 0`, so wird die Figur
-verkleinert ("gestaucht"), im Fall :math:`n > 1` wird sie vergrößert
-("gestreckt"). Für :math:`n=1` wird die Figur identisch auf sich selbst
+Ist :math:`\lambda>0`, so bleibt die Orientierungsrichtung der Figur, also der
+Umlaufsinn ihrer Punkte, erhalten. Gilt :math:`1 > \lambda > 0`, so wird die Figur
+verkleinert ("gestaucht"), im Fall :math:`\lambda > 1` wird sie vergrößert
+("gestreckt"). Für :math:`\lambda=1` wird die Figur identisch auf sich selbst
 abgebildet.
 
-Ist :math:`n<0`, so liegt die Bildfigur :math:`F'` im Vergleich zur
+Ist :math:`\lambda<0`, so liegt die Bildfigur :math:`F'` im Vergleich zur
 Originalfigur :math:`F` auf der gegenüber liegenden Seite des Zentrums
 :math:`\mathrm{Z}`; ihre Orientierungsrichtung bleibt dabei erhalten. Gilt
-:math:`|n| < 1`, so wird auch hierbei die Figur verkleinert beziehungsweise im
-Fall :math:`|n|>1` vergrößert.
+:math:`|\lambda| < 1`, so wird auch hierbei die Figur verkleinert beziehungsweise im
+Fall :math:`|\lambda|>1` vergrößert.
 
 .. figure:: ../../pics/geometrie/zentrische-streckung-negativer-massstab.png
     :width: 55%
@@ -72,7 +73,7 @@ Fall :math:`|n|>1` vergrößert.
     :name: fig-zentrische-streckung-negativer-massstab
     :alt:  fig-zentrische-streckung-negativer-massstab
 
-    Beispiel einer zentrischen Streckung mit :math:`n = -\frac{1}{2}`.
+    Beispiel einer zentrischen Streckung mit :math:`\lambda = -\frac{1}{2}`.
 
     .. only:: html
 
@@ -81,7 +82,7 @@ Fall :math:`|n|>1` vergrößert.
 
 Bei jeder Ähnlichkeitsabbildung einer Figur :math:`F` auf eine Figur :math:`F'`
 haben einerseits alle entsprechenden Strecken das gleiche Größenverhältnis
-:math:`n`, andererseits bleiben die Größen aller Winkel der Figur :math:`F` in
+:math:`\lambda`, andererseits bleiben die Größen aller Winkel der Figur :math:`F` in
 der Figur :math:`F'` erhalten. Beide Kriterien können auch genutzt werden, um
 "Ähnlichkeit" als eine :ref:`Relation <Relationen>` zwischen zwei Figuren
 aufzufassen: Zwei Figuren :math:`F` und :math:`F'` sind genau dann einander
@@ -134,38 +135,6 @@ Die sich ergebende Bildfigur :math:`F'` wird durch den Verschiebungsvektor
 :math:`\vec{v}` gegenüber der Original-Figur :math:`F` lediglich um die Länge
 :math:`v` in Richtung von :math:`\vec{v}` verschoben; die Größe, Form und
 Orientierung der Figur bleiben hingegen erhalten.
-
-
-.. index:: Rotation
-.. _Rotation:
-.. _Rotation einer geometrischen Figur:
-
-.. rubric:: Rotation einer geometrischen Figur
-
-Um eine Drehung ("Rotation") zu beschreiben, geht man von einem bestimmten Punkt
-:math:`\mathrm{Z}` als Drehzentrum und einem festen Winkel :math:`\alpha` aus. Durch
-jeden Punkt :math:`\mathrm{P}` einer Figur zeichnet man einen Kreis um den
-Mittelpunkt :math:`\mathrm{Z}` und bestimmt auf diesem Kreis den zu :math:`\mathrm{P}`
-gehörenden Bildpunkt :math:`\mathrm{P'}` so, dass der Winkel :math:`\varangle
-\mathrm{PZP'}` gleich :math:`\alpha` ist.
-
-.. figure:: ../../pics/geometrie/rotation.png
-    :width: 55%
-    :align: center
-    :name: fig-rotation
-    :alt:  fig-rotation
-
-    Beispiel einer Rotation.
-
-    .. only:: html
-
-        :download:`SVG: Rotation
-        <../../pics/geometrie/rotation.svg>`
-
-Erfolgt die Drehung entgegengesetzt zum Uhrzeigersinn, so spricht man von einem
-positiven Drehsinn; bei einer Drehung im Uhrzeigersinn spricht man von einem
-negativen Drehsinn. Die Form und Größe der Figur sowie die Reihenfolge ihrer
-Punkte bleibt bei einer Drehung erhalten.
 
 
 .. index:: Spiegelung, Spiegelung; an einer Geraden, Achsenspiegelung
@@ -230,10 +199,43 @@ liegen.
         <../../pics/geometrie/punktspiegelung.svg>`
 
 Man kann eine Punktspiegelung ebenso als zentrische Streckung mit einem Maßstab
-von :math:`n = -1` oder als Drehung der Ebene um den Punkt :math:`s` mit einem
-Drehwinkel von :math:`\alpha=180 °` deuten. Bei einer Punktspiegelung bleibt
-somit neben der Form und Größe einer Figur auch ihr Umlaufsinn, also die
-Reihenfolge ihrer Punkte erhalten.
+von :math:`\lambda = -1` oder als Drehung der Ebene um den Punkt :math:`s` mit
+einem Drehwinkel von :math:`\alpha=\unit[180]{\degree}` deuten. Bei einer
+Punktspiegelung bleibt somit neben der Form und Größe einer Figur auch ihr
+Umlaufsinn, also die Reihenfolge ihrer Punkte erhalten.
+
+
+.. index:: Rotation
+.. _Rotation:
+.. _Rotation einer geometrischen Figur:
+
+.. rubric:: Rotation einer geometrischen Figur
+
+Um eine Drehung ("Rotation") zu beschreiben, geht man von einem bestimmten Punkt
+:math:`\mathrm{Z}` als Drehzentrum und einem festen Winkel :math:`\alpha` aus. Durch
+jeden Punkt :math:`\mathrm{P}` einer Figur zeichnet man einen Kreis um den
+Mittelpunkt :math:`\mathrm{Z}` und bestimmt auf diesem Kreis den zu :math:`\mathrm{P}`
+gehörenden Bildpunkt :math:`\mathrm{P'}` so, dass der Winkel :math:`\varangle
+\mathrm{PZP'}` gleich :math:`\alpha` ist.
+
+.. figure:: ../../pics/geometrie/rotation.png
+    :width: 55%
+    :align: center
+    :name: fig-rotation
+    :alt:  fig-rotation
+
+    Beispiel einer Rotation.
+
+    .. only:: html
+
+        :download:`SVG: Rotation
+        <../../pics/geometrie/rotation.svg>`
+
+Erfolgt die Drehung entgegengesetzt zum Uhrzeigersinn, so spricht man von einem
+positiven Drehsinn; bei einer Drehung im Uhrzeigersinn spricht man von einem
+negativen Drehsinn. Die Form und Größe der Figur sowie die Reihenfolge ihrer
+Punkte bleibt bei einer Drehung erhalten.
+
 
 .. raw:: html
 
@@ -243,8 +245,12 @@ Reihenfolge ihrer Punkte erhalten.
 
     .. rubric:: Anmerkung:
 
-   .. [#] Jede Kongruenzabbildung kann somit auch als eine Ähnlichkeitsabbildung
-        mit einem Maßstab von :math:`n=1` aufgefasst werden. Umgekehrt lässt
-        sich jede Ähnlichkeitsabbildung aus einer zentrischen Streckung und/oder
-        einer oder mehreren Kongruenzabbildungen zusammensetzen.
+.. [#] In der analytischen Geometrie werden Skalierungen von geometrischen
+    Objekten rechnerisch mittels :ref:`Skalierungsmatrizen
+    <Skalierungsmatrizen>` beschrieben.
+
+.. [#] Jede Kongruenzabbildung kann auch als eine Ähnlichkeitsabbildung
+    mit einem Maßstab von :math:`\lambda=1` aufgefasst werden. Umgekehrt lässt
+    sich jede Ähnlichkeitsabbildung aus einer zentrischen Streckung und/oder
+    einer oder mehreren Kongruenzabbildungen zusammensetzen.
 

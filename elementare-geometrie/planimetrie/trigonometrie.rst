@@ -252,4 +252,5 @@ Winkel gegeben sind.
   \gamma = 180 \degree`.
 
 
+.. todo Projektionssatz, Flächensatz Sinom 602f.
 

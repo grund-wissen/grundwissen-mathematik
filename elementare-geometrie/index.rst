@@ -6,7 +6,10 @@ Elementare Geometrie
 
 Die elementare Geometrie beschäftigt sich mit zwei- und dreidimensionalen
 Grundformen und ihren Eigenschaften. Erstere werden in der Planimetrie, letztere
-in der Stereometrie untersucht.
+in der Stereometrie untersucht. Eine Weiterführung der elementaren Geometrie mit
+Rechenmethoden der :ref:`Algebra <Elementare Algebra>`  und :ref:`Analysis
+<Analysis>` stellt die in einem späteren Kapitel behandelte :ref:`analytische
+Geometrie <Analytische Geometrie>` dar.
 
 ..
     Die Grundlagen der elementaren Geometrie wurde von `Euklid

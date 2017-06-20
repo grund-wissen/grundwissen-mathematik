@@ -35,10 +35,13 @@ beinhalten.
 
 .. math::
 
-    {\color{white} \ldots \qquad \qquad \quad \; }\frac{3 \cdot a^2 \cdot b }{9 \cdot b^3 }
-    &= \frac{3 \cdot b \cdot \;\; a^2 \phantom{\;\;}}{3
-    \cdot b \cdot 3 \cdot b^2} = \frac{a^2}{3 \cdot b^2} \\[15pt]
-    \frac{a^2 -1}{(a + 1)^2 } &= \frac{(a+1) \cdot (a-1)}{(a+1) \cdot (a+1)} =
+    \frac{3 \cdot a^2 \cdot b }{9 \cdot b^3 }
+    = \frac{3 \cdot b \cdot \;\; a^2 \phantom{\;\;}}{3
+    \cdot b \cdot 3 \cdot b^2} = \frac{a^2}{3 \cdot b^2}
+
+.. math::
+
+    \frac{a^2 -1}{(a + 1)^2 } = \frac{(a+1) \cdot (a-1)}{(a+1) \cdot (a+1)} =
     \frac{(a-1)}{(a+1)}
 
 Besteht der Zähler und/oder der Nenner eines Bruchterms aus einer Summe von
@@ -137,18 +140,16 @@ Dabei werden die Zählerterme addiert, der Nennerterm bleibt unverändert:
 ..  Durch das Plus-Minus-Zeichen :math:`\pm` kann die obige Gleichung sowohl die
 ..  Addition wie auch die Subtraktion von gleichnamigen Brüchen beschrieben.
 
-.. index::
-    single: Hauptnenner
-    single: Kleinstes gemeinsame Vielfache
+.. index:: Hauptnenner, Kleinstes gemeinsame Vielfache
 
 Haben Brüche unterschiedliche Nennerterme, so müssen alle Brüche zunächst auf
-einen gemeinsamen Nenner gebracht werden, bevor eine Addition bzw. Subtraktion
-möglich ist. Hierzu empfiehlt es sich, zunächst die Nennerterme vollständig in
-einzelne Faktoren zu zerlegen. Von jedem Faktor, der in mindestens einem der
-Nenner vorkommt, wählt man anschließend die jeweils höchste Potenz aus und
-multipliziert diese Faktoren miteinander. Auf diese Weise erhält man das
-kleinste gemeinsame Vielfache der Nennerterme :math:`(\mathrm{kgV})`, das auch als
-"Hauptnenner" bezeichnet wird.
+einen gemeinsamen Nenner gebracht werden, bevor eine Addition beziehungsweise
+Subtraktion möglich ist. Hierzu empfiehlt es sich, zunächst die Nennerterme
+vollständig in einzelne Faktoren zu zerlegen. Von jedem Faktor, der in
+mindestens einem der Nenner vorkommt, wählt man anschließend die jeweils höchste
+Potenz aus und multipliziert diese Faktoren miteinander. Auf diese Weise erhält
+man das kleinste gemeinsame Vielfache der Nennerterme :math:`(\mathrm{kgV})`,
+das auch als "Hauptnenner" bezeichnet wird.
 
 *Beispiele:*
 
@@ -188,9 +189,8 @@ kleinste gemeinsame Vielfache der Nennerterme :math:`(\mathrm{kgV})`, das auch a
 Die zu addierenden Brüche können anschließend um die fehlenden Faktoren
 erweitert und die Zählerterme nach obiger Gleichung addiert werden.
 
-.. index::
-    single: Bruchrechnung; Multiplikation
-    single: Größter gemeinsamer Teiler
+.. index:: Bruchrechnung; Multiplikation, Größter gemeinsamer Teiler
+.. _Größter gemeinsamer Teiler:
 .. _Multiplikation und Division von Brüchen:
 
 .. rubric:: Multiplikation und Division von Bruchtermen
@@ -208,7 +208,13 @@ Um das Ergebnis in einer möglichst vereinfachten Form vorliegen zu haben, ist
 es (vor dem Ausmultiplizieren) sinnvoll, sowohl die Zähler wie auch die Nenner
 beider Brüche vollständig in Faktoren zu zerlegen. Kürzt man im Zähler und
 Nenner anschließend alle gemeinsamen Teiler, so erhält man als Endergebnis
-einen nicht weiter zu vereinfachenden Bruch. [#]_
+einen nicht weiter zu vereinfachenden Bruch.
+
+Das Produkt aller gemeinsamen Teiler wird oftmals als "größter gemeinsamer
+Teiler" :math:`(\mathrm{ggT})` bezeichnet. Die explizite Berechnung des
+:math:`\mathrm{ggT}` ist meist nicht erforderlich; die Aussage, dass sich durch
+Kürzen des größten gemeinsamen Teilers von Zähler und Nenner ein nicht weiter zu
+vereinfachender Bruch ergibt, gilt jedoch allgemein.
 
 Bruchterme lassen sich durcheinander dividieren, indem man -- durch Vertauschen
 von Zähler und Nenner -- den Kehrbruch des Divisors bildet und eine
@@ -229,6 +235,12 @@ Verfahren kann genutzt werden, um so genannte Doppelbrüche aufzulösen:
 
     \frac{\frac{z_1}{n_1}}{\frac{z_2}{n_2}} = \frac{z_1}{n_1} : \frac{z_2}{n_2}
     = \frac{z_1}{n_1} \cdot \frac{n_2}{z_2}
+
+Bereits in der Antike fand `Euklid <https://de.wikipedia.org/wiki/Euklid>`_
+einen Algorithmus zur Berechnung des :math:`\mathrm{ggT}`; dieser ist auf der
+Grund-Wissen-Seite im Rahmen des :ref:`Python-Tutorials
+<gwip:Euklid-Algorithmus>` näher beschrieben.
+
 
 .. todo Doppelbrüche
 
@@ -290,8 +302,9 @@ unmittelbar angewendet:
 * Bezogen auf den Grundwert :math:`1,1` entspricht der gleiche Prozentsatz
   einem Prozentwert von :math:`\frac{10}{100} \cdot 1,1 = 0,11`.
 
-Wird der sich resultierende Prozentwert zum jeweiligen Grundwert addiert bzw.
-von diesem abgezogen, so ergeben sich folglich auch unterschiedliche Ergebnisse.
+Wird der sich resultierende Prozentwert zum jeweiligen Grundwert addiert
+beziehungsweise von diesem abgezogen, so ergeben sich folglich auch
+unterschiedliche Ergebnisse.
 
 Kleinere Mengenangaben werden häufig in Tausendstel (Promille) oder Millionstel
 (Pars per Million) angegeben. Für :math:`1` Promille schreibt man
@@ -312,8 +325,8 @@ Kleinere Mengenangaben werden häufig in Tausendstel (Promille) oder Millionstel
     jederzeit als gemeinsamer Faktor einer beliebigen Summe ausgeklammert
     werden.
 
-.. [#] Insbesondere kann ein Bruch :math:`\frac{z}{n}` mit einer ganzen Zahl
-    :math:`a` multipliziert werden, indem der Zähler :math:`z` mit dieser Zahl
+.. [#] Insbesondere kann ein Bruch :math:`\frac{z}{n}` mit einer ganzen Zahl :math:`a`
+    multipliziert werden, indem der Zähler :math:`z` mit dieser Zahl
     multiplizert wird:
 
     .. math::
@@ -325,12 +338,6 @@ Kleinere Mengenangaben werden häufig in Tausendstel (Promille) oder Millionstel
    ihn durch :math:`1` dividiert. Wendet man dann die Rechenregel für die
    Multiplikation zweier Brüche an, so bleibt der Nenner gleich, da auch
    eine Multiplikation mit :math:`1` den Wert einer Zahl nicht ändert.
-
-.. [#] Das Produkt aller gemeinsamen Teiler wird bisweilen auch als größter
-    gemeinsamer Teiler :math:`(\mathrm{ggT})` bezeichnet. Die explizite Berechnung des
-    :math:`\mathrm{ggT}` ist meist nicht erforderlich; die Aussage, dass sich durch
-    Kürzen des größten gemeinsamen Teilers von Zähler und Nenner ein nicht
-    weiter zu vereinfachender Bruch ergibt, gilt jedoch allgemein.
 
 .. raw:: html
 

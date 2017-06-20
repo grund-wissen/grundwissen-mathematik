@@ -166,6 +166,12 @@ Exponenten :math:`2 \cdot n` somit stets ihr Vorzeichen. Durch Potenzieren mit
 einem ungeradzahligen Exponenten :math:`2 \cdot n + 1` bleibt das Vorzeichen der
 Basis hingegen erhalten.
 
+.. :ref:`Quadratische Gleichungen <Quadratische Gleichungen>` sowie
+.. :ref:`Gleichungen höheren Grades <Gleichungen höheren Grades>` werden im Rahmen
+.. der elementaren Algebra behandelt; auf :ref:`Potenzfunktionen
+.. <Potenzfunktionen>` im Analysis-Kapitel näher eingegangen.
+
+
 
 .. _Rechenregeln für Wurzeln und allgemeine Potenzen:
 
@@ -217,6 +223,10 @@ Da Wurzeln somit nichts anderes als Potenzen mit gebrochenem Exponenten :math:`n
 \in \mathbb{Q}` darstellen, gelten die in den beiden vorherigen Abschnitten
 aufgeführten Rechenregeln :eq:`eqn-potenz-addition` bis
 :eq:`eqn-potenz-division-gleicher-exponent` gleichermaßen auch für Wurzeln.
+
+Auf :ref:`Wurzelgleichungen <Wurzelgleichungen>` wird im Rahmen der elementaren
+Algebra, auf :ref:`Wurzelfunktionen <Wurzelfunktionen>` im Analysis-Kapitel
+näher eingegangen.
 
 
 .. index:: Logarithmus
@@ -320,9 +330,10 @@ muss:
 
     c \cdot \log_{a}{b}  = \log_{a}{\left( b^c \right)}
 
-Weitere Eigenschaften von Logarithmen werden in den Abschnitten
-:ref:`Logarithmusgleichungen <Logarithmusgleichung>` und
-:ref:`Logarithmusfunktionen <Logarithmusfunktion>` behandelt.
+Auf :ref:`Logarithmusgleichungen <Logarithmusgleichungen>` wird im Rahmen der elementaren
+Algebra, auf :ref:`Logarithmusfunktionen <Logarithmusfunktionen>` im Analysis-Kapitel
+näher eingegangen.
+
 
 
 .. raw:: html
@@ -371,5 +382,14 @@ Weitere Eigenschaften von Logarithmen werden in den Abschnitten
 .. [#] Für dekadische Logarithmen :math:`(\mathrm{lg})` und natürliche
     Logarithmen :math:`(\mathrm{ln})` besitzen Taschenrechner häufig
     entsprechende Funktionstasten.
+
+.. raw:: html
+
+    <hr />
+
+.. hint::
+
+    Zu diesem Abschnitt gibt es :ref:`Übungsaufgaben <Aufgaben Potenzen, Wurzeln
+    und Logarithmen>`.
 
 

@@ -7,6 +7,7 @@ Wahrscheinlichkeitsmaße
 .. index:: Häufigkeit; absolute Häufigkeit
 .. index:: Häufigkeit; relative Häufigkeit
 
+.. _Häufigkeit:
 .. _Relative Häufigkeit:
 
 Die relative Häufigkeit
@@ -49,6 +50,7 @@ sicheres Ereignis gilt. Sind zudem zwei Ereignisse :math:`M_1` und :math:`M_2`
 unvereinbar, d.h. gilt :math:`M_1 \cap M_2 = \emptyset`, so gilt :math:`h(M_1
 \cup (M_2) = h(M_1) + h(M_2)`.
 
+.. todo kumulierte Häufigkeit
 
 .. index:: Wahrscheinlichkeit
 .. _Wahrscheinlichkeit:

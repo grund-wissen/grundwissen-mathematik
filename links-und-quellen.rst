@@ -7,38 +7,11 @@ Links und Quellen
 
     <h2>Links<a class="headerlink" href="#links" title="Permalink zu dieser Überschrift"></a></h2>
 
+.. index:: Computer-Algebra-System
 .. _Computer-Algebra-Systeme:
 
 .. rubric:: Computer-Algebra-Systeme
 
-
-.. _Maxima:
-
-* `Maxima <http://wiki.ubuntuusers.de/Maxima>`__
-
-  Maxima ist ein einfach zu erlernendes Computer-Algebra-System, das häufig als
-  Lehr- und Lernplattform Anwendung findet.
-
-  Unter Linux Mint, Ubuntu, Debian u.ä. lässt sich Maxima einfach über folgendes
-  Paket installieren:
-
-  .. code-block:: bash
-
-      sudo aptitude install wxmaxima
-
-  Anschließend kann ``wxMaxima`` als graphische Oberfläche über einen Eintrag im
-  Startmenü bzw. einen Anwendungsstarter (``F2``) aufgerufen werden. Als
-  textbasiertes Programm kann in einer Shell ``maxima`` aufgerufen werden.
-
-  Zu Maxima existieren im deutschsprachigen Raum u.a. eine `Einführung (PDF)
-  <http://maxima.sourceforge.net/docs/tutorial/de/maxima-einfuehrung.pdf>`_, ein
-  `Workshop <http://www.austromath.at/daten/maxima/>`_ und eine ausführliche
-  `Dokumentation <http://www.crategus.com/books/maxima/maxima.html>`_, die
-  jeweils auch für einen schnellen Einstieg geeignet sind. Zusätzlich gibt es
-  ein empfehlenswertes `Maxima-Weblog <http://casmaxima.blogspot.de/>`_, mit
-  zahlreichen Anwendungs-Beispielen.
-
-..  http://math-blog.com/2007/06/04/a-10-minute-tutorial-for-solving-math-problems-with-maxima/
 
 .. _Sympy:
 
@@ -55,17 +28,45 @@ Links und Quellen
   darzustellen.
 
   Sympy wird auch für das Erstellen der Grund-Wissen-Seite genutzt; dort findet
-  sich folglich auch ein :ref:`einführendes Tutorial <gwip:Sympy>`.
+  sich inzwischen auch ein kurzes :ref:`Sympy-Tutorial <gwip:Sympy>`.
+
+.. _Maxima:
+
+* `Maxima <https://wiki.ubuntuusers.de/Maxima>`__
+
+  Maxima ist ein einfach zu erlernendes Computer-Algebra-System, das häufig als
+  Lehr- und Lernplattform Anwendung findet.
+
+  Unter Linux Mint, Ubuntu, Debian u.ä. lässt sich Maxima einfach über folgendes
+  Paket installieren:
+
+  .. code-block:: bash
+
+      sudo aptitude install wxmaxima
+
+  Anschließend kann ``wxMaxima`` als graphische Oberfläche über einen Eintrag im
+  Startmenü beziehungsweise einen Anwendungsstarter (``F2``) aufgerufen werden. Als
+  textbasiertes Programm kann in einer Shell ``maxima`` aufgerufen werden.
+
+  Zu Maxima existieren im deutschsprachigen Raum u.a. eine `Einführung (PDF)
+  <http://maxima.sourceforge.net/docs/tutorial/de/maxima-einfuehrung.pdf>`_, ein
+  `Workshop <http://www.austromath.at/daten/maxima/>`_ und eine ausführliche
+  `Dokumentation <http://www.crategus.com/books/maxima/maxima.html>`_, die
+  jeweils auch für einen schnellen Einstieg geeignet sind. Zusätzlich gibt es
+  ein empfehlenswertes `Maxima-Weblog <http://casmaxima.blogspot.de/>`_, mit
+  zahlreichen Anwendungs-Beispielen.
+
+..  http://math-blog.com/2007/06/04/a-10-minute-tutorial-for-solving-math-problems-with-maxima/
 
 .. _Sage:
 
-* `Sage <http://wiki.ubuntuusers.de/SAGE>`__
+* `Sage <https://wiki.ubuntuusers.de/SAGE>`__
 
   Sage ist ein riesiges Software-Projekt (rund 2 Gigabyte!) mit dem Ziel, eine
   Vielzahl an mathematischen Funktionalitäten zu vereinen. Auf der
   `Sage-Projektseite
-  <http://sagemath.org/doc/installation/binary.html#linux-and-os-x>`_ gibt es
-  vorkompilierte Pakete als Downloads.
+  <http://doc.sagemath.org/html/en/installation/binary.html#linux-and-os-x>`_
+  gibt es vorkompilierte Pakete als Downloads.
 
   Unter Linux Mint, Ubuntu, Debian u.ä. lässt sich Sage auch über folgende
   Installationsroutine installieren:
@@ -79,9 +80,10 @@ Links und Quellen
   Anschließend kann Sage über einen Eintrag im Startmenü, oder über die Eingabe
   von ``sage`` in einem Anwendungsstarter (``F2``) oder einer Shell gestartet
   werden. Eine entsprechend ausführliche, englischsprachige Dokumentation findet
-  sich als `Reference Manual <http://sagemath.org/doc/reference/>`_ ebenfalls
+  sich als `Reference Manual <http://www.sagemath.org/doc/reference/>`_ ebenfalls
   auf der Projektseite.
 
+.. index:: Funktionen-Plotter
 .. _Funktionen-Plotter:
 
 .. rubric:: Funktionen-Plotter
@@ -90,32 +92,6 @@ Viele Mathematik-Programme haben bereits einen Funktionenplotter in der Software
 integriert. Zusätzlich gibt es (skriptbare) Funktionenplotter, die wahlweise
 direkt als Interpreter genutzt werden können oder als Skriptsprache von anderen
 Programmen genutzt werden können.
-
-.. _Gnuplot:
-
-* `Gnuplot <http://wiki.ubuntuusers.de/Gnuplot>`__
-
-  Gnuplot ist weit entwickelter Funktionenplotter für 2D- und 3D-Plots, der als
-  eigener Interpreter oder als Skriptsprache genutzt werden kann.
-
-  Unter Linux Mint, Ubuntu, Debian u.ä. lässt sich gnuplot einfach über
-  folgendes Paket installieren:
-
-  .. code-block:: bash
-
-      sudo aptitude install gnuplot gnuplot-x11 gnuplot-doc
-
-  Anschließend kann Gnuplot über einen Eintrag im Startmenü, oder über die
-  Eingabe von ``gnuplot`` in einem Anwendungsstarter (``F2``) oder einer Shell
-  gestartet werden.
-
-  Zu Gnuplot gibt es u.a. eine einführende `PDF-Präsentation
-  <http://fsr.physik.uni-goettingen.de/~mhunder/ccc/gnuplot07.pdf>`_ und eine
-  englischsprachige `Kurz-Einführung
-  <http://www.usm.uni-muenchen.de/people/puls/lessons/intro_general/gnuplot/gnuplot_for_beginners.pdf>`_.
-  Weitere Dokumentationen und Beispiel-Plots finden sich auf der
-  `Gnuplot-Projektseite <http://www.gnuplot.info/>`_.
-
 
 
 .. _Matplotlib:
@@ -143,7 +119,38 @@ Programmen genutzt werden können.
   `Einstiegs-Tutorial
   <http://www.pro-linux.de/artikel/2/168/matplotlib-und-pylab.html>`_ und ein
   weiteres `Tutorial mit bunten Bildchen
-  <http://scienceblogs.de/diaxs-rake/2009/04/09/wissenschaftliches-arbeiten-mit-python-und-pylab-ii-bunte-bildchen-mit-matplotlib/>`_.
+  <http://scienceblogs.de/diaxs-rake/2009/04/09/wissenschaftliches-arbeiten-mit-python-und-pylab-ii-bunte-bildchen-mit-matplotlib/>`_;
+  auch auf der Grund-Wissen-Seite gibt es inzwischen ein kleines
+  :ref:`Matplotlib-Tutorial <gwip:matplotlib>`.
+
+
+.. _Gnuplot:
+
+* `Gnuplot <https://wiki.ubuntuusers.de/Gnuplot>`__
+
+  Gnuplot ist weit entwickelter Funktionenplotter für 2D- und 3D-Plots, der als
+  eigener Interpreter oder als Skriptsprache genutzt werden kann.
+
+  Unter Linux Mint, Ubuntu, Debian u.ä. lässt sich gnuplot einfach über
+  folgendes Paket installieren:
+
+  .. code-block:: bash
+
+      sudo aptitude install gnuplot gnuplot-x11 gnuplot-doc
+
+  Anschließend kann Gnuplot über einen Eintrag im Startmenü, oder über die
+  Eingabe von ``gnuplot`` in einem Anwendungsstarter (``F2``) oder einer Shell
+  gestartet werden.
+
+  Zu Gnuplot gibt es u.a. eine einführende `PDF-Präsentation
+  <http://blog.stud.uni-goettingen.de/julius/files/2010/03/gnuplot_2010.pdf>`_,
+  ein Kurz-Tutorial
+  `http://www3.physik.uni-stuttgart.de/studium/praktika/ap/pdf_dateien/Allgemeines/BeschreibungGnuplot.pdf`
+  und eine englischsprachige `Kurz-Einführung
+  <http://www.usm.uni-muenchen.de/people/puls/lessons/intro_general/gnuplot/gnuplot_for_beginners.pdf>`_.
+  Weitere Dokumentationen und Beispiel-Plots finden sich auf der
+  `Gnuplot-Projektseite <http://www.gnuplot.info/>`_.
+
 
 
 
@@ -154,7 +161,7 @@ Programmen genutzt werden können.
 
 .. _Geogebra:
 
-* `Geogebra <http://wiki.ubuntuusers.de/GeoGebra>`__
+* `Geogebra <https://wiki.ubuntuusers.de/GeoGebra>`__
 
   Geogebra ist ein Programm zur Konstruktion und Auswertung geometrischer von
   Konstruktionen. Die erstellten Zeichnungen können in einer Vielzahl an
@@ -173,9 +180,9 @@ Programmen genutzt werden können.
   oder einer Shell gestartet werden.
 
   Zu Geogebra existiert ein umfangreiches `Wiki
-  <http://wiki.geogebra.org/de/Hauptseite>`_, das neben Tutorials, Tipps und
+  <https://www.geogebra.org/manual/de/Hauptseite>`_, das neben Tutorials, Tipps und
   Tricks auch ein deutschsprachiges `Handbuch
-  <http://wiki.geogebra.org/de/Handbuch>`_ enthält.
+  <https://www.geogebra.org/manual/de/Handbuch>`_ enthält.
 
 
 .. _Simulations-Werkzeuge:
@@ -185,7 +192,7 @@ Programmen genutzt werden können.
 
 .. _Scilab:
 
-* `Scilab <http://wiki.ubuntuusers.de/Scilab>`__
+* `Scilab <https://wiki.ubuntuusers.de/Scilab>`__
 
   Unter Linux Mint, Ubuntu, Debian u.ä. lässt sich Scilab einfach über folgendes
   Paket installieren:
@@ -212,7 +219,7 @@ Programmen genutzt werden können.
 
 .. _Octave:
 
-* `Octave <http://wiki.ubuntuusers.de/Octave>`__
+* `Octave <https://wiki.ubuntuusers.de/Octave>`__
 
   Unter Linux Mint, Ubuntu, Debian u.ä. lässt sich Octave einfach über folgendes
   Paket installieren:
@@ -228,7 +235,7 @@ Programmen genutzt werden können.
 
 
   Zu Octave gibt es im deutschsprachigen Raum mehrere Tutorials, u.a. `hier
-  <http://www.christianherta.de/octaveMatlabTutorial.html>`_. Eine komplette,
+  <http://www.christianherta.de/octaveMatlabTutorial.php>`_. Eine komplette,
   englischsprachige Dokumentation existiert als `Online-Handbuch
   <https://www.gnu.org/software/octave/doc/interpreter/index.html>`_ oder
   `PDF-Version <https://www.gnu.org/software/octave/octave.pdf>`_.
@@ -240,11 +247,11 @@ Programmen genutzt werden können.
 
 .. _Gnumeric:
 
-* `Gnumeric <http://wiki.ubuntuusers.de/Gnumeric>`__
+* `Gnumeric <https://wiki.ubuntuusers.de/Gnumeric>`__
 
   Gnumeric ist als Tabelleneditor eine schlanke Alternative zum
   Tabellenkalkulationsprogramm `Calc
-  <http://wiki.ubuntuusers.de/Office_Komponenten#Calc-Tabellenkalkulation>`_ von
+  <https://wiki.ubuntuusers.de/Office_Komponenten#Calc-Tabellenkalkulation>`_ von
   LibreOffice. Neben vielen Import- und Export-Funktionen verfügt es auch über
   statistische Funktionen und einen integrierten Funktionenplotter.
 
@@ -262,11 +269,11 @@ Programmen genutzt werden können.
   Die graphische Benutzeroberfläche ist weitestgehend selbsterklärend. Eine
   Dokumentation gibt es unter den integrierten Hilfeseiten sowie in
   englischsprachiger Form auf der `Gnumeric-Projektseite
-  <https://www.gnumeric.org/>`_.
+  <http://gnumeric.org/>`_.
 
 .. _R:
 
-* `R <http://wiki.ubuntuusers.de/R>`__
+* `R <https://wiki.ubuntuusers.de/R>`__
 
   R ist eine Interpreter-Software für statistische Funktionen und gleichzeitig
   eine skriptbare Programmiersprache. Im wissenschaftlichen Bereich hat sich R
@@ -287,14 +294,20 @@ Programmen genutzt werden können.
   Als Dokumentationen gibt es ein `Wikibook
   <https://upload.wikimedia.org/wikibooks/de/4/47/GNU_R.pdf>`_ sowie zum
   Einstieg eine `Einführung in R
-  <http://cran.r-project.org/doc/contrib/Sawitzki-Einfuehrung.pdf>`_ und einen
-  `R Reader <http://cran.r-project.org/doc/contrib/Grosz+Peters-R-Reader.pdf>`_
+  <https://cran.r-project.org/doc/contrib/Sawitzki-Einfuehrung.pdf>`_ und einen
+  `R Reader <https://cran.r-project.org/doc/contrib/Grosz+Peters-R-Reader.pdf>`_
   als PDF-Dateien. Weitere Dokumentationen in anderen Sprachen sind in einer
-  `Manual-Liste <http://cran.r-project.org/other-docs.html#nenglish>`_
-  aufgeführt. Auf der `R-Projektseite <http://cran.r-project.org/>`_ ist
+  `Manual-Liste <https://cran.r-project.org/other-docs.html#nenglish>`_
+  aufgeführt. Auf der `R-Projektseite <https://cran.r-project.org/>`_ ist
   zusätzlich eine Vielzahl an Erweiterungen mitsamt Beschreibungen zu finden.
 
 .. `Advanced R Programming <http://adv-r.had.co.nz/>`_
+
+.. rubric:: Youtube-Videos
+
+* `Mathe-Videos von "Educational Videos and Lectures" <https://www.youtube.com/playlist?list=PLdId9dvaMGZNfU-Xg8fwOw_3sTpSygluy>`__
+
+
 
 .. rubric:: Diverses
 
@@ -343,7 +356,7 @@ Summenzeichen sind inhaltlich an [Cramer2009]_ (Seite 116) angelehnt. Der Beweis
 zur Auswertungsformel für geometrische Reihen ist aus [Simon1980]_ (Seite 459
 f.) entnommen.
 
-Die im Abschnitt `Weitere Teilbarkeitsregeln <Weitere Teilbarkeitsregeln>`_
+Die im Abschnitt :ref:`Weitere Teilbarkeitsregeln <Weitere Teilbarkeitsregeln>`
 aufgeführten Regeln sind in ausführlicher Form (inklusive Beweisen) in
 [Bittner1979]_ (Seite 31 ff.) zu finden.
 

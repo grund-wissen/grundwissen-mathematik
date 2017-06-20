@@ -8,6 +8,25 @@ dreidimensionaler Grundformen untersucht werden. Hierbei sind für vielerlei
 Anwendungen insbesondere die Größe des Volumens und der Oberfläche von
 regelmäßigen Formen von Interesse.
 
+
+.. index:: Prinzip von Cavalieri
+.. _Prinzip von Cavalieri:
+
+.. rubric:: Das Prinzip von Cavalieri
+
+Schneidet man zwei geometrische Körper mit gleich große Grundfläche und gleicher
+Höhe in beliebig viele dünne "Scheiben" (wobei die Schnitte stets durch beide
+Körper in gleicher Höhe verlaufen), so ist das Volumen beider Körper genau dann
+identisch, wenn jede dieser "Scheiben" eine gleiche Grundfläche aufweist.
+
+Wird beispielsweise, wie in der obigen Abbildung dargestellt, ein Stapel mit
+quadratischen Karteikarten seitlich verschoben, so bleibt dadurch das Volumen
+des Stapels unverändert. Die Karten könnten ebenso diagonal zerschnitten und in
+gedrehter Form aneinandergereiht werden; auch in diesem Fall würde sich das
+Volumen nicht ändern. Die einzelnen Grundflächen müssen für die Anwendung des
+Prinzips von Cavalieri somit nicht kongruent sein, sondern nur gleich große
+Flächeninhalte haben.
+
 .. _Quader, Würfel und Prisma:
 
 Quader, Würfel und Prisma

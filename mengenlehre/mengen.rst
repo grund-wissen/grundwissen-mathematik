@@ -435,19 +435,19 @@ der reellen Zahlen, so wird sie überabzählbar genannt.
 
 .. [#] Genaugenommen lassen sich, wenn man den Begriff "Menge" nicht genauer
     fasst, paradoxe Aussagen formulieren. Am bekanntesten ist die `Russelsche
-    Antinomie <http://de.wikipedia.org/wiki/Russellsche_Antinomie>`_:
+    Antinomie <https://de.wikipedia.org/wiki/Russellsche_Antinomie>`_:
 
         "Gibt es eine Menge, die nur Elemente enthält mit der Eigenschaft,
         dass sie in keiner Menge enthalten sind?"
 
     Durch eine Formulierung von bestimmten Bedingungen, die jede Menge
     erfüllen muss, konnten die Mathematiker `Ernst Zermelo
-    <http://de.wikipedia.org/wiki/Ernst_Zermelo>`_ und `Abraham Adolf
-    Fränkel <http://de.wikipedia.org/wiki/Adolf_Abraham_Halevi_Fraenkel>`_
+    <https://de.wikipedia.org/wiki/Ernst_Zermelo>`_ und `Abraham Adolf
+    Fränkel <https://de.wikipedia.org/wiki/Adolf_Abraham_Halevi_Fraenkel>`_
     im Jahr 1930 eine widerspruchsfreie Mengenlehre einführen. Für die
     meisten alltäglichen Mathematik-Aufgaben genügt allerdings der
     `ursprüngliche Mengenbegriff
-    <http://de.wikipedia.org/wiki/Mengenlehre#19._Jahrhundert>`_.
+    <https://de.wikipedia.org/wiki/Mengenlehre#19._Jahrhundert>`_.
 
 .. [#] Ein Element :math:`(x,y)` einer Produktmenge ist nicht mit einer Menge
     :math:`\{ x,y \}` zu verwechseln. Während in letzterer die
@@ -478,5 +478,13 @@ der reellen Zahlen, so wird sie überabzählbar genannt.
     Gelten sowohl die linksseitige wie auch die rechtsseitige Distributivität,
     wird allgemein von "Distributivität" gesprochen.
 
+
+.. raw:: html
+
+    <hr />
+
+.. hint::
+
+    Zu diesem Abschnitt gibt es :ref:`Übungsaufgaben <Aufgaben Mengenlehre>`.
 
 

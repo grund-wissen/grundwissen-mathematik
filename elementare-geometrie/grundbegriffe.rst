@@ -16,6 +16,7 @@ Punkt, Gerade, Strecke und Strahl
 
 .. index:: Punkt, Dimension
 .. _Punkt:
+.. _Punkt und Dimension:
 
 .. rubric:: Punkt und Dimension
 
@@ -30,6 +31,8 @@ Beschreibung seiner geometrischen Eigenschaften berücksichtigt werden müssen.
 .. Einheiten..
 
 .. index:: Gerade
+.. _Gerade:
+.. _Halbgerde:
 .. _Geraden und Halbgerden:
 
 .. rubric:: Geraden und Halbgeraden
@@ -95,6 +98,7 @@ die sich zwischen zwei auf Punkten :math:`\mathrm{A}` und :math:`\mathrm{B}` ein
 Geraden befinden; diese werden ebenfalls zur Punktmenge hinzugenommen. Eine
 Strecke entspricht stets dem kürzesten Abstand zwischen beiden Endpunkten.
 
+.. index:: Vektor
 .. _Pfeil:
 
 Als Pfeil (oder Vektor) :math:`\overrightarrow{\mathrm{AB}}` bezeichnet man eine
@@ -114,7 +118,12 @@ eindeutigen Richtungssinn aufweist.
         :download:`SVG: Strecke und Vektor
         <../pics/geometrie/strecke-und-vektor.svg>`
 
+Auf die Darstellung von Strecken, Vektoren und Geraden mittels Koordinaten wird
+im Rahmen der :ref:`analytischen Geometrie <Strecken, Geraden und Ebenen>` näher
+eingegangen.
 
+
+.. index:: Parallele
 .. index:: Winkel
 .. _Parallelität und Winkel:
 
@@ -168,9 +177,11 @@ Geraden.
 Gehen zwei Strahlen von einem gemeinsamen Punkt :math:`\mathrm{S}` ("Scheitel")
 aus, so bezeichnet man den Richtungsunterschied zwischen beiden Strahlen als
 Winkel. Üblicherweise werden Winkel mit griechischen Kleinbuchstaben
-symbolisiert. Liegen auf den zwei Strahlen (auch "Winkelschenkel" genannt) die
-Punkte :math:`\mathrm{A}` und :math:`\mathrm{B}`, so schreibt man auch
-:math:`\alpha = \varangle \mathrm{ASB}`.
+symbolisiert; beschreibt der Winkel eine Drehung des Strahls gegen den
+Uhrzeigersinn, so wird er positiv genannt, andernfalls negativ. Liegen auf den
+zwei Strahlen (auch "Winkelschenkel" genannt) die Punkte :math:`\mathrm{A}` und
+:math:`\mathrm{B}`, so schreibt man auch :math:`\alpha = \varangle
+\mathrm{ASB}`.
 
 .. figure:: ../pics/geometrie/winkel.png
     :width: 50%

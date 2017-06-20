@@ -24,7 +24,7 @@ Zahlen.
 
 Ungleichungen können keine, eine, mehrere oder unendlich viele Lösungen haben.
 Im Allgemeinen besteht die zu bestimmende Lösungsmenge :math:`\mathbb{L}` aus so
-genannten Intervallen, d.h. aus Teilbereichen von :math:`\mathbb{R}`. Jedes
+genannten Intervallen, also aus Teilbereichen von :math:`\mathbb{R}`. Jedes
 Intervall hat eine untere Grenze :math:`a` und eine obere Grenze :math:`b` und
 umfasst somit alle Zahlen :math:`a < b`, die zwischen diesen Grenzen liegen.
 
@@ -57,7 +57,7 @@ Relationszeichen "umgedreht" wird:
 
 Termumformungen, die sich nur auf eine Seite einer Gleichung auswirken,
 beispielsweise :ref:`Zusammenfassen <Assoziativgesetz>` und
-:ref:`Ausmultiplizieren bzw. Ausklammern <Distributivgesetz>` von
+:ref:`Ausmultiplizieren beziehungsweise Ausklammern <Distributivgesetz>` von
 Summentermen sowie :ref:`Kürzen und Erweitern <Erweitern und Vereinfachen>` von
 Bruchtermen, dürfen ohne Änderung des Relationszeichens jederzeit vorgenommen werden.
 
@@ -69,11 +69,11 @@ beliebigen Term :math:`T` addiert oder subtrahiert.
       T_1 < T_2 \quad &\Leftrightarrow  \quad T_1 + T < T_2 + T \\[2pt]
       T_1 < T_2 \quad &\Leftrightarrow  \quad T_1 - T < T_2 - T \\[2pt]
 
-Multipliziert oder dividiert man eine Gleichung mit bzw. durch einen Term
-:math:`T`, so muss zum einen -- wie bei Gleichungen -- auf die Bedingung
+Multipliziert oder dividiert man eine Gleichung mit beziehungsweise durch einen
+Term :math:`T`, so muss zum einen -- wie bei Gleichungen -- auf die Bedingung
 :math:`T \ne 0` geachtet werden, da ansonsten zusätzliche Lösungen hinzukommen
-bzw. ursprünglich gültige Lösung verschwinden können. Zum anderen ist zu
-beachten, dass das Relationszeichen umgedreht werden muss, wenn :math:`T < 0`
+beziehungsweise ursprünglich gültige Lösung verschwinden können. Zum anderen ist
+zu beachten, dass das Relationszeichen umgedreht werden muss, wenn :math:`T < 0`
 ist. Somit gilt:
 
 .. math::
@@ -83,7 +83,7 @@ ist. Somit gilt:
       T_1  < T_2  \quad &\Leftrightarrow \quad T_1 \, : \, T < T_2 \, : \, T
       \qquad (T > 0)
 
-bzw.
+beziehungsweise 
 
 .. math::
 
@@ -93,14 +93,14 @@ bzw.
       \qquad (T < 0)
 
 Werden neben den vier grundlegenden Rechenoperationen (Addition, Subtraktion,
-Multiplikation und Division) weitere Rechenoperationen (z.B. Potenzieren,
-Wurzelziehen oder Logarithmieren) angewendet, so sind wiederum zusätzliche
-Überlegungen nötig.
+Multiplikation und Division) weitere Rechenoperationen (beispielsweise
+Potenzieren, Wurzelziehen oder Logarithmieren) angewendet, so sind wiederum
+zusätzliche Überlegungen nötig.
 
 
 ..  Eine Kontrolle der Lösungsmenge kann auch bei Ungleichungen durch Einsetzen der
 ..  Elemente in die Ausgangsgleichung ("Probe") erfolgen. Bei einer Probe ist jede
-..  Gleichungsseite getrennt auszurechnen, d.h. es dürfen keine
+..  Gleichungsseite getrennt auszurechnen, es dürfen also keine
 ..  Gleichungsumformungen vorgenommen werden.
 
 .. _Lineare Ungleichungen:
@@ -153,6 +153,8 @@ Koeffizienten des :math:`x`-Terms zu teilen. Dies funktioniert jedoch einerseits
 nur bei linearen Ungleichungen, andererseits verlangen auch
 Computer-Algebra-Systeme wie :ref:`Sympy <gwip:Sympy>` teilweise explizit
 die in Gleichung :eq:`eqn-lineare-ungleichung` angegebene Darstellung.
+
+.. _Quadratische Ungleichungen:
 
 Quadratische Ungleichungen
 --------------------------
@@ -271,7 +273,7 @@ zu keinem Ergebnis, so ist die Ungleichung nicht lösbar.
 Ebenso wäre es möglich, die ursprüngliche Gleichung :math:`\frac{a}{b} < c` mit
 dem Nenner des Bruchterms zu multiplizieren; hierbei muss jedoch ebenso mittels
 einer Fallunterscheidung geprüft werden, für welche :math:`x`-Werte der Nenner
-positiv bzw. negativ ist; anschließend muss die sich ergebende Ungleichung
+positiv beziehungsweise negativ ist; anschließend muss die sich ergebende Ungleichung
 mittels weiterer Fallunterscheidungen gelöst werden. Der insgesamte
 Rechenaufwand wird durch dieses Verfahren also meist nicht verringert.
 
@@ -286,5 +288,13 @@ Rechenaufwand wird durch dieses Verfahren also meist nicht verringert.
 .. [#] Eine Ungleichung der Form :math:`T_1 \le T_2` stellt eine Vereinigung
     der Fälle :math:`T_1 < T_2` und :math:`T_1 = T_2` dar. Entsprechendes gilt
     für Ungleichungen mit der Größer-als-Relation :math:`\ge`.
+
+.. raw:: html
+
+    <hr />
+
+.. hint::
+
+    Zu diesem Abschnitt gibt es :ref:`Übungsaufgaben <Aufgaben Ungleichungen>`.
 
 

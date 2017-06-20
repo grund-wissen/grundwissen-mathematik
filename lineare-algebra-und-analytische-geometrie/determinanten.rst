@@ -101,9 +101,9 @@ Gleichungssystem eindeutig lösbar.
 Die Lösungen für :math:`x_1` und :math:`x_2` lassen sich nach der so genannten
 Regel von `Cramer <https://de.wikipedia.org/wiki/Gabriel_Cramer>`_ ebenfalls in
 Determinanten-Schreibweise darstellen. Im Nenner steht dabei immer die
-eigentliche Determinante des Gleichungssystems, im Zähler wird die erste bzw.
-zweite Spalte der Determinante durch die rechte Seite der Gleichung ersetzt.
-Somit gilt:
+eigentliche Determinante des Gleichungssystems, im Zähler wird die erste
+beziehungsweise zweite Spalte der Determinante durch die rechte Seite der
+Gleichung ersetzt. Somit gilt:
 
 .. math::
     :label: eqn-determinante-zweireihig-loesungen
@@ -169,8 +169,8 @@ resultierende Zahl ungleich Null, so ist das Gleichungssystem eindeutig lösbar.
 Die Lösungen für :math:`x_1`, :math:`x_2` und :math:`x_3` lassen sich ebenfalls
 nach der Regel von Cramer in Determinanten-Schreibweise darstellen. Im Nenner
 steht wiederum die eigentliche Determinante des Gleichungssystems, im Zähler
-wird die erste, zweite bzw. dritte Spalte der Determinante durch die rechte
-Seite der Gleichung ersetzt. Somit gilt:
+wird die erste, zweite beziehungsweise dritte Spalte der Determinante durch die
+rechte Seite der Gleichung ersetzt. Somit gilt:
 
 .. math::
     :label: eqn-determinante-dreireihig-loesungen
@@ -201,7 +201,7 @@ Determinanten mit :math:`n>3` Reihen berechnet werden. Möchte man für solche
 Determinanten eine allgemeine Lösungsregel angeben, so werden die dabei
 auftretenden Terme jedoch schnell unübersichtlich: Eine Erweiterung der Regel
 von Sarrus auf :math:`n`-reihige Determinanten enthält allgemein :math:`n!`
-Summanden, d.h. bei einer :math:`n=4`-reihigen Determinante müssten bereits
+Summanden, bei einer :math:`n=4`-reihigen Determinante müssten also bereits
 :math:`4! = 4 \cdot 3 \cdot 2 \cdot 1 = 24` Summanden ausgewertet werden , bei
 einer :math:`n=5`-reihigen Determinante sogar :math:`5! = 5 \cdot 4 \cdot 3
 \cdot 2 \cdot 1 = 120`.
@@ -218,7 +218,7 @@ einer vierreihigen Determinante vorgestellt werden.
 
     Streicht man in einer Determinante :math:`A` eine beliebige Zeile
     :math:`i` und eine beliebige Spalte :math:`j`, so bezeichnet man die
-    übrigbleibenden Elemente als Unterdeterminante :math:`D _{\mathrm{ij}}`. Das
+    übrigbleibenden Elemente als Unterdeterminante :math:`D_{\mathrm{ij}}`. Das
     Element :math:`a_{\mathrm{ij}}`, das sich am Schnittpunkt beider Linien
     befindet, nennt man Schnittpunktelement.
 
@@ -242,25 +242,26 @@ einer vierreihigen Determinante vorgestellt werden.
 
 *Definition:*
 
-    Multipliziert man den Wert der Unterdeterminante :math:`D _{\mathrm{ij}}` mit dem
-    Faktor :math:`(-1) ^{i +j}`, so spricht man von der zum Element :math:`a
-    _{\mathrm{ij}}` adjungierten Unterdeterminante :math:`a_{\mathrm{ij}}`:
+    Multipliziert man den Wert der Unterdeterminante :math:`D_{\mathrm{ij}}` mit
+    dem Faktor :math:`(-1)^{i +j}`, so spricht man von der zum Element
+    :math:`a_{\mathrm{ij}}` adjungierten Unterdeterminante
+    :math:`A_{\mathrm{ij}}`:
 
     .. math::
         :label: eqn-adjungierte-determinante
 
-        a_{\mathrm{ij}} = (-1) ^{i+j} \cdot D _{\mathrm{ij}}
+        A_{\mathrm{ij}} = (-1)^{i+j} \cdot D_{\mathrm{ij}}
 
-Das Vorzeichen des Faktors :math:`(-1) ^{i+j}` hängt von der Zeilen- und
-Spaltennummer von :math:`a_{\mathrm{ij}}` ab; ist die Summe beider Zahlen gerade,
-so ist das Vorzeichen positiv, andernfalls negativ. Anschaulich kann man das
-Vorzeichen auch anhand einer schachbrettartigen Vorzeichentabelle ablesen.
+Das Vorzeichen des Faktors :math:`(-1)^{i+j}` hängt von der Zeilen- und
+Spaltennummer von :math:`a_{\mathrm{ij}}` ab; ist die Summe beider Zahlen
+gerade, so ist das Vorzeichen positiv, andernfalls negativ. Anschaulich kann man
+das Vorzeichen auch anhand einer schachbrettartigen Vorzeichentabelle ablesen.
 
 .. figure:: ../pics/algebra/determinanten-vorzeichen.png
     :name: fig-vorzeichen-schema
     :alt:  fig-vorzeichen-schema
     :align: center
-    :width: 50%
+    :width: 30%
 
     Vorzeichen-Schema für die Entwicklung von Unterdeterminanten
 
@@ -269,12 +270,12 @@ Vorzeichen auch anhand einer schachbrettartigen Vorzeichentabelle ablesen.
         :download:`SVG: Vorzeichen-Schema
         <../pics/algebra/determinanten-vorzeichen.svg>`
 
-
-.. Determinanten nur für quadratische Matrizen definiert.
-.. simon s.332: regel von sarrus nur für dreireihige determinanten definiert.
-.. stimmt so nicht: wird nur schnell unhandlich (5 reihen: 120 summanden)
+.. Determinanten nur für quadratische Matrizen definiert!
+.. Simon S.332: Regel von Sarrus nur für dreireihige Determinanten definiert.
+.. Stimmt so nicht: wird nur schnell unhandlich (5 reihen: 120 summanden)
 
 .. index:: Entwicklungssatz von Leibniz
+.. _Entwicklungssatz von Leibniz:
 
 Mit den beiden obigen Definitionen kann der so genannte Entwicklungssatz von
 `Leibniz <https://de.wikipedia.org/wiki/Leibniz>`_ folgendermaßen formuliert
@@ -286,18 +287,18 @@ werden:
 
 Es ist frei wählbar, nach welcher Reihe (Zeile oder Spalte) man eine
 Determinante entwickelt. Entwickelt man eine Determinante :math:`A` nach der
-:math:`i`-ten Reihe, so gilt:
+:math:`i`-ten Zeile, so gilt:
 
     .. math::
 
-        A = \sum_{j=1}^{n} a_{\mathrm{ij}} \cdot a_{\mathrm{ij}}
+        A = \sum_{j=1}^{n} a_{\mathrm{ij}} \cdot A_{\mathrm{ij}}
 
 Entwickelt man eine Determinante :math:`A` hingegen nach der :math:`j`-ten
-Reihe, so gilt:
+Spalte, so gilt:
 
     .. math::
 
-        A = \sum_{i=1}^{n} a_{\mathrm{ij}} \cdot a_{\mathrm{ij}}
+        A = \sum_{i=1}^{n} a_{\mathrm{ij}} \cdot A_{\mathrm{ij}}
 
 Zweckmäßig ist es, für die Entwicklung eine Reihe zu wählen, die möglichst
 viele Nullen enthält.
@@ -385,10 +386,48 @@ dann mit :math:`j = 1 , \ldots, n`:
 
 .. math::
 
-    x_{\mathrm{j}} = \frac{ a_{\mathrm{j}} }{A}
+    x_{\mathrm{j}} = \frac{A_{\mathrm{j}} }{A}
 
 Voraussetzung ist bei dieser allgemeinen Regel von Cramer wiederum, dass die
 Determinante :math:`A` der Koeffizienten ungleich Null ist.
 
+.. _Determinanten-Regeln:
+
+.. rubric:: Determinanten-Regeln
+
+Zum Rechnen mit Determinanten sind zudem folgende Regeln bisweilen nützlich:
+
+* Der Wert einer Determinante bleibt gleich, wenn man sie transponiert, also die
+  Zeilen mit den Spalten vertauscht.
+
+.. "Transponierte"?
+
+* Vertauscht man zwei Zeilen miteinander, so ändert sich das Vorzeichen der
+  Determinante. Ebenso ändert sich das Vorzeichen einer Determinante, wenn man
+  zwei Spalten vertauscht.
+
+* Der Wert einer Determinante bleibt gleich, wenn die Elemente einer Zeile mit
+  einem beliebigen Faktor multipliziert und das Ergebnis zu den entsprechenden
+  Elementen einer anderen Zeile addiert.
+
+  Das gleiche gilt, wenn man die mit einem beliebigen Faktor multiplizierten
+  Elemente einer Spalte zu den entsprechenden Elementen einer anderen Spalte
+  addiert.
+
+* Eine Determinante hat den Wert Null, wenn alle Elemente einer Zeile oder
+  Spalte gleich Null sind oder wenn je zwei Zeilen beziehungsweise Spalten
+  gleich oder zueinander proportional sind.
+
+* Eine Determinante wird mit einem Faktor multipliziert, indem man
+  alle Elemente einer einzelnen Zeile oder einer einzelnen Spalte mit diesem
+  Faktor multipliziert.
+
+.. raw:: html
+
+    <hr />
+
+.. hint::
+
+    Zu diesem Abschnitt gibt es :ref:`Übungsaufgaben <Aufgaben Determinanten>`.
 
 

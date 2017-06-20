@@ -1,9 +1,10 @@
 .. index:: Dreieck
-
 .. _Dreiecke:
 
 Dreiecke
 ========
+
+.. _Allgemeine Eigenschaften Dreieck:
 
 Allgemeine Eigenschaften
 ------------------------
@@ -33,14 +34,14 @@ Legt man durch :math:`\mathrm{C}` eine Parallele zu Strecke
 :math:`\overline{\mathrm{AB}}`, so sind :math:`\alpha` und :math:`\alpha'` sowie
 :math:`\beta` und :math:`\beta'` als :ref:`Wechselwinkel <Stufenwinkel und
 Wechselwinkel>` gleich groß. Gemeinsam mit dem Winkel :math:`\gamma` bilden
-:math:`\alpha'` und :math:`\beta'` einen :math:`180 \degree`-Winkel. Die Summe
-der Innenwinkel :math:`\alpha`, :math:`\beta` und :math:`\gamma` ist somit
-ebenfalls stets :math:`180 \degree`:
+:math:`\alpha'` und :math:`\beta'` einen :math:`\unit[180]{\degree}`-Winkel. Die
+Summe der Innenwinkel :math:`\alpha`, :math:`\beta` und :math:`\gamma` ist somit
+ebenfalls stets :math:`\unit[180]{\degree}`:
 
 .. math::
     :label: eqn-innenwinkel
 
-    \alpha + \beta + \gamma = 180 \degree
+    \alpha + \beta + \gamma = \unit[180]{\degree}
 
 .. figure:: ../../pics/geometrie/dreieck-innenwinkel.png
     :width: 40%
@@ -96,6 +97,8 @@ Weiterhin gelten in allen Dreiecken drei weitere Beziehungen:
       a > b \; \Rightarrow \; \alpha > \beta
 
 
+.. index:: Kongruenz; von Dreiecken, Ähnlichkeit; von Dreiecken
+
 .. _Kongruenz und Ähnlichkeit:
 
 Kongruenz und Ähnlichkeit
@@ -110,7 +113,7 @@ der folgenden Bedingungen erfüllen:
   liegenden Winkel (SSW)
 * Übereinstimmung einer Seite und zweier Winkel -- entweder den beiden
   anliegenden Winkeln oder einem anliegenden und einem gegenüber liegenden
-  Winkel (WSW bzw. SWW)
+  Winkel (WSW beziehungsweise SWW)
 
 Die obigen Kongruenzbedingungen werden einerseits für geometrische Beweise
 genutzt, können jedoch auch zur eindeutigen Festlegung von Dreiecken verwendet
@@ -143,6 +146,7 @@ Alle diese Punkte liegen auf einer gemeinsamen Geraden, die auch
 genannt wird.
 
 
+.. index:: Dreieck; Schwerpunkt
 .. _Schwerpunkt:
 
 .. rubric:: Der Schwerpunkt
@@ -174,6 +178,7 @@ Es bestehen also folgende Proportionen:
     \frac{\overline{\mathrm{CS}}}{\overline{\mathrm{SM_c}}} = \frac{2}{1}
 
 
+.. index:: Mittelpunkt
 .. _Mittelpunkt:
 
 .. rubric:: Der Mittelpunkt
@@ -254,8 +259,9 @@ Gleichseitiges Dreieck
 ^^^^^^^^^^^^^^^^^^^^^^
 
 In einem gleichseitigen Dreieck besitzen alle Seiten die gleiche Länge. Alle
-Winkel betragen :math:`60°`, die besonderen Punkte :math:`\mathrm{S}`,
-:math:`\mathrm{M}`, :math:`\mathrm{W}` und :math:`\mathrm{H}` sind in einem Punkt vereint.
+Winkel betragen :math:`\unit[60]{\degree}`, die besonderen Punkte
+:math:`\mathrm{S}`, :math:`\mathrm{M}`, :math:`\mathrm{W}` und
+:math:`\mathrm{H}` sind in einem Punkt vereint.
 
 
 .. figure:: ../../pics/geometrie/dreieck-gleichseitig.png
@@ -271,12 +277,13 @@ Winkel betragen :math:`60°`, die besonderen Punkte :math:`\mathrm{S}`,
         :download:`SVG: Gleichseitiges Dreieck
         <../../pics/geometrie/dreieck-gleichseitig.svg>`
 
-Für die Fläche und den Umfang eines gleichseitigen Dreiecks gilt mit der Höhe :math:`h =
-\frac{a}{2} \cdot \sqrt{3}`:
+Für die Fläche und den Umfang eines gleichseitigen Dreiecks gilt mit der Höhe
+:math:`h = \frac{a}{2} \cdot \sqrt{3}`:
 
 .. math::
 
-    \text{Fl\"ache} &= \frac{1}{2} \cdot a \cdot h = \frac{a^4}{4} \cdot \sqrt{3}  \\[10pt]
+    \text{Fl\"ache} &= \frac{1}{2} \cdot a \cdot h = \frac{a^4}{4} \cdot
+    \sqrt{3}  \\[10pt]
     \text{Umfang} &= 3 \cdot a
 
 
@@ -305,7 +312,8 @@ bestimmen.
         :download:`SVG: Gleichschenkliges Dreieck
         <../../pics/geometrie/dreieck-gleichschenklig.svg>`
 
-Für die Fläche und den Umfang eines gleichschenkligen Dreiecks gilt mit der Höhe :math:`h`:
+Für die Fläche und den Umfang eines gleichschenkligen Dreiecks gilt mit der Höhe
+:math:`h`:
 
 .. math::
 
@@ -319,8 +327,9 @@ Für die Fläche und den Umfang eines gleichschenkligen Dreiecks gilt mit der H�
 Rechtwinkliges Dreieck
 ^^^^^^^^^^^^^^^^^^^^^^
 
-In einem rechtwinkligen Dreieck ist ein Winkel gleich :math:`90°`, die anderen
-beiden Winkel :math:`\alpha` und :math:`\beta` ergeben zusammen :math:`90°`. [#]_
+In einem rechtwinkligen Dreieck ist ein Winkel gleich
+:math:`\unit[90]{\degree}`, die anderen beiden Winkel :math:`\alpha` und
+:math:`\beta` ergeben zusammen :math:`\unit[90]{\degree}`. [#]_
 
 .. figure:: ../../pics/geometrie/dreieck-rechtwinklig.png
     :width: 40%
@@ -339,7 +348,8 @@ Für die Fläche und den Umfang eines rechtwinkligen Dreiecks gilt: [#]_
 
 .. math::
 
-    \text{Fl\"ache} &= \frac{1}{2} \cdot a \cdot b = \frac{1}{2} \cdot c \cdot h \\[10pt]
+    \text{Fl\"ache} &= \frac{1}{2} \cdot a \cdot b = \frac{1}{2} \cdot c \cdot h
+    \\[10pt]
     \text{Umfang} &= a + b + c
 
 
@@ -358,7 +368,7 @@ und :math:`b^2` der kürzeren Dreieckseiten (der "Katheten").
 
     a^2 + b^2 = c^2
 
-Diese als "Satz des `Pythagoras <http://de.wikipedia.org/wiki/Pythagoras>`_"
+Diese als "Satz des `Pythagoras <https://de.wikipedia.org/wiki/Pythagoras>`_"
 bekannt gewordene Gesetzmäßigkeit lässt sich graphisch dadurch
 veranschaulichen, indem man entlang der Hypothenuse :math:`c` und den beiden
 Katheten :math:`a` und :math:`b` Quadrate mit den entsprechenden Seitenlängen
@@ -390,7 +400,9 @@ nach der Länge der Verbindungslinie :math:`c` auf, so ergibt sich
 
 Liegen die Eckpunkte :math:`\mathrm{A}` und :math:`\mathrm{B}` exakt um
 :math:`c=\sqrt{a^2 + b^2}` voneinander entfernt, so beträgt der Winkel zwischen
-:math:`a` und :math:`b` genau :math:`90°`.
+:math:`a` und :math:`b` genau :math:`\unit[90]{\degree}`. Geeignet ist
+insbesondere das Längenverhältnis :math:`3:4:5`, da hierbei :math:`3^2 + 4^2 = 9
++ 16 = 25 = 5^2` gilt; die Länge der Basis-Einheit kann frei gewählt werden.
 
 .. figure:: ../../pics/geometrie/dreieck-rechtwinklig-pythagoras-konstruktionshilfe.png
     :width: 30%
@@ -406,6 +418,7 @@ Liegen die Eckpunkte :math:`\mathrm{A}` und :math:`\mathrm{B}` exakt um
         <../../pics/geometrie/dreieck-rechtwinklig-pythagoras-konstruktionshilfe.svg>`
 
 
+.. index:: Satz von Pythagoras; Höhen- und Kathetensatz
 .. _Höhen- und Kathetensatz:
 
 .. rubric:: Höhen- und Kathetensatz
@@ -460,6 +473,11 @@ die beiden Kathetensätze aus den Längenverhältnissen :math:`\frac{c}{a} =
 :math:`\frac{c}{b} = \frac{b}{p}` der Dreiecke :math:`\mathrm{ABC}` und
 :math:`\mathrm{AH_cC}`.
 
+
+.. rubric:: Weitere Eigenschaften
+
+Auf weitere Zusammenhänge in Dreiecken wird im Abschnitt :ref:`Trigonometrie
+<Trigonometrie>` näher eingegangen.
 
 .. raw:: html
 

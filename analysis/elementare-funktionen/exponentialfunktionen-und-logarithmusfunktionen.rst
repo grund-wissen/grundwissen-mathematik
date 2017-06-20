@@ -6,6 +6,8 @@ Exponential- und Logarithmusfunktionen
 
 
 .. index:: Exponentialfunktion
+.. _Exponential-Funktion:
+.. _Exponentialfunktion:
 .. _Exponentialfunktionen:
 
 Exponentialfunktionen
@@ -74,6 +76,7 @@ diesem Fall exponentiell zu.
 
 
 .. index:: Logarithmusfunktion
+.. _Logarithmus-Funktion:
 .. _Logarithmusfunktion:
 .. _Logarithmusfunktionen:
 

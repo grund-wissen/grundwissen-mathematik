@@ -56,6 +56,13 @@ Vorzeichen seiner Koordinaten abgelesen werden.
         :download:`SVG: Quadrantentabelle.
         <../pics/geometrie/koordinatensystem-kartesisch-quadrantentabelle.svg>`
 
+Kartesische Koordinatensysteme stellen die wohl wichtigste Grundlage für Punkt-
+und Linien-Diagramme in der Statistik dar; sie sind ebenso zur Darstellung der
+Ergebnismengen von Gleichungen und Ungleichungen in der :ref:`Algebra
+<Elementare Algebra>`  sowie zur Darstellung von Funktionen in der
+:ref:`Analysis <Analysis>`  unentbehrlich.
+
+
 .. index:: Koordinatensystem; Polare Koordinaten
 .. _Polarkoordinaten:
 .. _Polare Koordinaten:
@@ -93,7 +100,7 @@ und :math:`\varphi`:
 
     r &= \sqrt{x^2 + y^2} \\[4pt]
     \tan{\varphi} = \frac{y}{x} \quad &\text{bzw.} \quad \varphi =
-    \tan^{-1}{\left(\frac{y}{x}\right)}
+    \text{atan}\left(\frac{y}{x}\right)
 
 Sind im umgekehrten Fall :math:`r` und :math:`\varphi` bekannt, so gilt für die
 kartesischen Koordinaten :math:`x` und :math:`y`:
@@ -102,6 +109,12 @@ kartesischen Koordinaten :math:`x` und :math:`y`:
 
     x &= r \cdot \cos{\varphi} \\[4pt]
     y &= r \cdot \sin{\varphi} \\
+
+..
+    \cos{\left(\varphi\right)} = \frac{x}{\sqrt{x^2+y^2}}
+    \sin{\left(\varphi\right)} = \frac{y}{\sqrt{x^2+y^2}}
+
+
 
 Bei der Umrechnung zwischen kartesischen und polaren Koordinaten werden die
 drei :ref:`trigonometrischen Größen <Winkelfunktionen am Einheitskreis>`

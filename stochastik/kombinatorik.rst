@@ -208,6 +208,8 @@ somit gleich:
   der Zitate auftreten.
 
 .. index:: Kombination
+.. _Binomialkoeffizient:
+.. _Binomial-Koeffizient:
 .. _Kombinationen:
 
 Kombinationen

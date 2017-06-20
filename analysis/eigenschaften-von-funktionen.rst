@@ -64,6 +64,9 @@ heißt Vorschriften, die den reellen Werten einer (unabhängigen) Variablen
 beachten sind, somit :math:`\mathbb{D} = \mathbb{W} = \mathbb{R}`. [#]_
 
 
+.. _Graph:
+.. _Interpolation:
+.. _Funktionsgraph:
 .. _Darstellungen von Funktionen:
 
 Darstellungen von Funktionen
@@ -130,9 +133,9 @@ unterschiedliche Skalierungen auf, so erscheint das Funktionsbild verzerrt.
 ..
     Pic Drei Darstellungen der Normalparabel
 
-Zur rechnerischen Untersuchung einer Funktion wird die "analytische" Form, d.h.
-eine Darstellung als Funktionsgleichung bevorzugt. Eine Funktionsgleichung
-kann wiederum bei Bedarf jederzeit in eine Wertetabelle oder eine graphische Form
+Zur rechnerischen Untersuchung einer Funktion wird die "analytische" Form, also
+eine Darstellung als Funktionsgleichung bevorzugt. Eine Funktionsgleichung kann
+wiederum bei Bedarf jederzeit in eine Wertetabelle oder eine graphische Form
 gebracht werden. Man unterscheidet zwischen zwei Arten von Funktionsgleichungen:
 
 * Bei der *expliziten* Form ist die Funktionsgleichung nach der (abhängigen)
@@ -287,7 +290,7 @@ Eine Funktion ist eine mathematische Beschreibung dafür, welche "Ursache"
 :math:`x` innerhalb eines Prozesses eine bestimmte Wirkung :math:`y` hervorruft.
 Ein derartiger Zusammenhang ist nur dann sinnvoll, wenn die Zuweisung eines
 beliebigen Wertes der Ausgangsgröße :math:`x` zu einem Ergebniswert :math:`y =
-f(x)` stets eindeutig ist, d.h. ein :math:`x`-Wert nicht zwei verschiedene
+f(x)` stets eindeutig ist, ein :math:`x`-Wert also nicht zwei verschiedene
 :math:`y`-Werte als Ergebnis liefern kann.
 
 .. math::
@@ -308,16 +311,16 @@ Umgekehrt ist es jedoch möglich, dass verschiedene :math:`x`-Werte den gleichen
   eindeutig festgelegt. Der gleiche Preis je Menge kann gleichzeitig allerdings
   auch für eine andere Obstsorte gelten.
 
-Im Allgemeinen sind Funktionen somit nicht "umkehrbar", d.h. es lässt sich nicht
+Im Allgemeinen sind Funktionen somit nicht "umkehrbar", es lässt sich also nicht
 für jede Funktion eine Zuordnung finden, die jedem beliebigen :math:`y`-Wert auf
 eindeutige Weise einen :math:`x`-Wert zuweist. Eine Funktion besitzt diese
 Eigenschaft genau dann, wenn sie :ref:`bijektiv <Bijektivität>` ist. Ist eine
 Funktion nicht bijektiv, so muss sie zuerst durch Einschränkung ihrer
 Definitions- bzw. Wertemenge zu einer bijektiven Funktion gemacht werden.
 
-Die Umkehrfunktion :math:`f_{\mathrm{U}}` einer Funktion :math:`f` findet man, indem
-man die ursprüngliche Funktionsgleichung :math:`y=f(x)` nach :math:`x` auflöst
-und anschließend die Variablen :math:`x` und :math:`y` vertauscht.
+Die Umkehrfunktion :math:`f_{\mathrm{U}}` einer Funktion :math:`f` findet man,
+indem man die ursprüngliche Funktionsgleichung :math:`y=f(x)` nach :math:`x`
+auflöst und anschließend die Variablen :math:`x` und :math:`y` vertauscht.
 
 *Beispiel:*
 
@@ -414,7 +417,7 @@ ursprüngliche Funktion.
 
 Eine Funktion :math:`f(x)` wird beschränkt genannt, wenn es zwei reelle Zahlen
 :math:`s` und :math:`S` gibt, so dass alle Funktionswerte :math:`y = f(x)`
-zwischen beiden begrenzenden Zahlen liegen, d.h. wenn gilt:
+zwischen beiden begrenzenden Zahlen liegen, wenn also gilt:
 
 .. math::
 
@@ -552,7 +555,7 @@ man:
     \lim_{x \to x_0} f(x) = g
 
 Ist die Funktion :math:`f(x)` an der Stelle :math:`x_0` definiert, so ist ihr
-Grenzwert an dieser Stelle gleich ihrem Funktionswert, d.h. es gilt
+Grenzwert an dieser Stelle gleich ihrem Funktionswert, es gilt also
 :math:`f(x_0) = g` für :math:`x_0 \in \mathbb{D}`. Der obige Grenzwert kann
 allerdings auch dann existieren, wenn die Funktion an der Stelle :math:`x_0`
 nicht definiert ist. Vor allem an den Grenzen des Definitionsbereichs
@@ -664,6 +667,9 @@ An dieser Stelle jedoch stimmen ihr linksseitiger Grenzwert
 rechtsseitiger Grenzwert :math:`g_{\mathrm{+}} = 1` nicht überein.
 
 
+.. index:: Minimum, Maximum
+.. _Minimum:
+.. _Maximum:
 .. _Zwischenwertsatz und Extremwertsatz:
 
 .. rubric:: Zwischenwertsatz und Extremwertsatz

@@ -18,12 +18,12 @@ werden:
 Hierbei sind :math:`a \ne 0` und :math:`b` beliebige Konstanten.
 
 Um eine beliebige lineare Gleichung zu lösen, werden zunächst durch geeignetes
-Addieren bzw. Subtrahieren alle die Variable :math:`x` enthaltenden Terme auf
-die eine Seite, alle anderen Terme auf die andere Seite der Gleichung gebracht.
-Auf der Seite der Gleichung, welche die Variable  :math:`x` enthält, kann
-daraufhin :math:`x` ausgeklammert und die gesamte Gleichung durch den Restterm
-geteilt werden. Befindet sich die Gleichung bereits in der allgemeinen Form
-:eq:`eqn-lineare-gleichung`, so kann direkt bestimmt werden:
+Addieren beziehungsweise Subtrahieren alle die Variable :math:`x` enthaltenden
+Terme auf die eine Seite, alle anderen Terme auf die andere Seite der Gleichung
+gebracht. Auf der Seite der Gleichung, welche die Variable  :math:`x` enthält,
+kann daraufhin :math:`x` ausgeklammert und die gesamte Gleichung durch den
+Restterm geteilt werden. Befindet sich die Gleichung bereits in der allgemeinen
+Form :eq:`eqn-lineare-gleichung`, so kann direkt bestimmt werden:
 
 .. math::
 
@@ -32,6 +32,26 @@ geteilt werden. Befindet sich die Gleichung bereits in der allgemeinen Form
 
 Für die Lösungsmenge einer linearen Gleichung gilt somit :math:`\mathbb{L} =
 \lbrace - \frac{b}{a} \rbrace`.
+
+*Beispiel:*
+
+* Wie lautet die Lösungsmenge folgender Gleichung?
+
+  .. math::
+
+      \frac{1}{3} \cdot x - 4 = 0 \quad \text{mit } x \in \mathbb{R}
+
+  Um die Gleichung zu lösen, sortiert man alle Variablen (im konkreten Fall alle
+  :math:`x`-Terme) auf eine Seite der Gleichung, alle Zahlen ohne Variable auf
+  die andere Seite. Dividiert man dann durch den Koeffizienten der Variablen
+  :math:`x`, so erhält man die Lösung der Gleichung:
+
+  .. math::
+
+      \frac{1}{3} \cdot x &= 4 \\
+      x &= 12 \\
+
+  Die Lösungsmenge der Gleichung ist somit :math:`\mathbb{L} = \{ 12 \}`
 
 ..  1.: Klammern auflösen. Als ersten Schritt empfiehlt es sich sämtliche Klammern
 ..  aufzulösen, um einfacher zusammenfassen zu können. Steht als letztes
@@ -46,4 +66,13 @@ Für die Lösungsmenge einer linearen Gleichung gilt somit :math:`\mathbb{L} =
 
 ..  3.: Berechnen. Zu guter Letzt teilt man dann noch durch den Koeffizienten
 ..  der Lösungsvariablen und erhält das Ergebnis.
+
+.. raw:: html
+
+    <hr />
+
+.. hint::
+
+    Zu diesem Abschnitt gibt es :ref:`Übungsaufgaben <Aufgaben Lineare
+    Gleichungen>`.
 

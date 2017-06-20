@@ -1,4 +1,6 @@
 .. index:: Algebraische Gleichung
+.. _Algebraische Gleichungen:
+.. _Gleichungen höheren Grades:
 .. _Algebraische Gleichungen höheren Grades:
 
 Algebraische Gleichungen höheren Grades
@@ -106,7 +108,7 @@ folgenden Sonderfälle vorliegt:
 
     .. rubric:: Anmerkungen:
 
-.. [#] Siehe Abschnitt `Computer-Algebra-Systeme <Computer-Algebra-Systeme>`_.
+.. [#] Siehe Abschnitt :ref:`Computer-Algebra-Systeme <Computer-Algebra-Systeme>`.
 
 .. [#] Hierbei ist wiederum die Überlegung grundlegend, dass ein Produkt nur
     dann gleich Null ist, wenn (mindestens) einer der beiden Faktoren gleich
@@ -119,5 +121,16 @@ folgenden Sonderfälle vorliegt:
 
 .. [#] Bliebe bei der Polynomdivision ein Rest übrig, so wäre :math:`x_1` keine
     Lösung der ursprünglichen Gleichung.
+
+
+.. raw:: html
+
+    <hr />
+
+.. hint::
+
+    Zu diesem Abschnitt gibt es :ref:`Übungsaufgaben <Aufgaben Algebraische
+    Gleichungen>`.
+
 
 

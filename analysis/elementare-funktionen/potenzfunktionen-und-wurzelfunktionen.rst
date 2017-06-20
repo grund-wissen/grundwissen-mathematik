@@ -1,5 +1,7 @@
 
 .. index:: Potenzfunktion
+.. _Potenzfunktion:
+.. _Potenzfunktionen:
 .. _Potenz- und Wurzelfunktionen:
 
 Potenz- und Wurzelfunktionen
@@ -115,6 +117,7 @@ Zusätzlich haben alle ungeraden Potenzfunktionen folgende Eigenschaften:
 
 * Der Definitionsbereich sowie der Wertebereich der Funktion ist :math:`\mathbb{R}`.
 
+.. _Wurzelfunktion:
 .. _Wurzelfunktionen:
 
 Wurzelfunktionen

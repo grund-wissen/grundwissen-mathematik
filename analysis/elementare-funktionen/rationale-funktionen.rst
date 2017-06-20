@@ -450,8 +450,8 @@ Aufgrund der Beziehung :math:`y = \frac{c}{x} \; \Leftrightarrow \; x
 
     Der Parabelscheitel ist die einzige Stelle einer Parabel, an der ihre
     Steigung :math:`f'(x)` gleich Null ist (Extremwert). Der :math:`x`-Wert des
-    Scheitelpunktes lässt sich somit bestimmen, wenn in Gleichung
-    :eq:`eqn-parabel-ableitung` :math:`f'(x) = 0` gesetzt wird:
+    Scheitelpunktes lässt sich somit bestimmen, wenn in dieser Gleichung
+    :math:`f'(x) = 0` gesetzt wird:
 
     .. math::
 

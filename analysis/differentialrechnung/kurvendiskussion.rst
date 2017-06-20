@@ -99,7 +99,11 @@ diesen Stellen zu bestimmen.
   x}` für :math:`x \ne 0` definieren, um eine "nahtlose" Funktion zu erhalten,
   die für alle reellen Zahlen definiert ist.
 
+
 .. index:: Regel von L'Hospital
+.. _Regel von L'Hospital:
+
+.. rubric:: Die Regel von L'Hospital
 
 In manchen Fällen erhält man bei der Bestimmung des Grenzwerts an einer
 Definitionslücke :math:`x_0` ein nicht bestimmtes Ergebnis, beispielsweise bei
@@ -107,15 +111,16 @@ der Funktion :math:`f(x) = \frac{\sqrt{x}}{x}`. Diese Funktion hat an der Stelle
 :math:`x_0 = 0` eine Definitionslücke, da der Nenner an dieser Stelle den Wert
 Null annimmt; gleichzeitig ist allerdings auch der Zähler :math:`f_1(x) =
 \sqrt{x}` an dieser Stelle gleich Null. In derartigen Fällen, wenn sich ein
-Grenzwert der Form :math:`\frac{"0"}{"0"}` ergibt, kann die sogenannte "Regel
-von `L'Hospital
-<https://de.wikipedia.org/wiki/Guillaume_François_Antoine,_Marquis_de_L’Hospital>`_"
+Grenzwert der Form :math:`\frac{\text{\enquote{0}}}{\text{\enquote{0}}}` ergibt,
+kann die sogenannte "Regel von `L'Hospital
+<https://de.wikipedia.org/wiki/Guillaume_François_Antoine,_Marquis_de_L’Hospital>`__"
 angewendet werden:
 
 .. math::
 
-    \lim_{x \to x_0} \frac{f_1(x)}{f_2(x)} = \frac{"0"}{"0"} \quad \Rightarrow
-    \quad \lim_{x \to x_0} \frac{f_1(x)}{f_2(x)} = \lim_{x \to x_0}
+    \lim_{x \to x_0} \frac{f_1(x)}{f_2(x)} =
+    \frac{\text{\enquote{0}}}{\text{\enquote{0}}} \quad \Rightarrow \quad
+    \lim_{x \to x_0} \frac{f_1(x)}{f_2(x)} = \lim_{x \to x_0}
     \frac{f_1'(x)}{f_2'(x)}
 
 Für das oben genannte Beispiel :math:`f(x) = \frac{f_1(x)}{f_2(x)} =
@@ -123,12 +128,12 @@ Für das oben genannte Beispiel :math:`f(x) = \frac{f_1(x)}{f_2(x)} =
 
 .. math::
 
-    f_1'(x) &= \left(x ^{\frac{1}{2}}\right)' = \frac{1}{2} \cdot x ^{-
-    \frac{1}{2}} \quad \text{und} \\[4pt]
+    f_1'(x) &= \left(x^{\frac{1}{2}}\right)' = \frac{1}{2} \cdot
+    x^{-\frac{1}{2}} \quad \text{und} \\[4pt]
     f_2'(x) &= \;\left(x ^1 \right)'\; = 1
 
 Für die Stelle :math:`x_0 = 1` gilt somit :math:`\frac{f_1'(1)}{f_2'(1)} =
-\frac{1}{1} = 1`, der Grenzwert der Funktion für :math:`x \to x_o` ist also
+\frac{1}{1} = 1`, der Grenzwert der Funktion für :math:`x \to x_0` ist also
 gleich :math:`1`.
 
 Haben also zwei Funktionen :math:`f_1(x)` und :math:`f_2(x)` an einer Stelle
@@ -143,7 +148,8 @@ Die Regel von L'Hospital kann ebenfalls angewendet werden, wenn :math:`\lim_{x \
 
 .. math::
 
-    \lim_{x \to \pm \infty} \frac{f_1(x)}{f_2(x)} = \frac{"0"}{"0"} \quad \Rightarrow \quad
+    \lim_{x \to \pm \infty} \frac{f_1(x)}{f_2(x)} =
+    \frac{\text{\enquote{0}}}{\text{\enquote{0}}} \quad \Rightarrow \quad
     \lim_{x \to \pm \infty} \frac{f_1(x)}{f_2(x)} = \lim_{x \to \pm \infty}
     \frac{f_1'(x)}{f_2'(x)}
 
@@ -153,12 +159,14 @@ Weiterhin gilt die Regel von L'Hospital auch, wenn die Grenzwerte von
 
 .. math::
 
-    \lim_{x \to x_0} \frac{f_1(x)}{f_2(x)} &= \frac{"\infty"}{"\infty"} \quad \Rightarrow
-    \quad \;\;\lim_{x \to x_0} \frac{f_1(x)}{f_2(x)} =
-    \;\;\lim_{x \to x_0} \frac{f_1'(x)}{f_2'(x)} \\[6pt]
-    \lim_{x \to \pm \infty} \frac{f_1(x)}{f_2(x)} &= \frac{"\infty"}{"\infty"} \quad \Rightarrow \quad
-    \lim_{x \to \pm \infty} \frac{f_1(x)}{f_2(x)} = \lim_{x \to \pm \infty}
-    \frac{f_1'(x)}{f_2'(x)}
+    \lim_{x \to x_0} \frac{f_1(x)}{f_2(x)} &=
+    \frac{\text{\enquote{$\infty$}}}{\text{\enquote{$\infty$}}} \quad \Rightarrow
+    \quad \;\;\lim_{x \to x_0} \frac{f_1(x)}{f_2(x)} = \;\;\lim_{x \to x_0}
+    \frac{f_1'(x)}{f_2'(x)} \\[6pt]
+    \lim_{x \to \pm \infty} \frac{f_1(x)}{f_2(x)} &=
+    \frac{\text{\enquote{$\infty$}}}{\text{\enquote{$\infty$}}} \quad \Rightarrow
+    \quad \lim_{x \to \pm \infty} \frac{f_1(x)}{f_2(x)} = \lim_{x \to \pm
+    \infty} \frac{f_1'(x)}{f_2'(x)}
 
 Die Regel von L'Hospital ist somit in vielen Fällen nützlich, wenn ein
 Grenzwert auf andere Weise nicht bestimmt werden kann.

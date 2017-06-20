@@ -3,6 +3,7 @@
     :keywords:  Mathematik, Grundwissen, Schule, Lehrbuch, Grundwissen Mathematik, Lehrbuch Mathematik, Mathematik Schule, Freies Lehrbuch
 
 .. _Mathematik:
+.. _Grund-Wissen Mathematik:
 
 Mathematik
 ==========
@@ -37,4 +38,6 @@ Mathematik
     links-und-quellen.rst
 
 .. statistik/index.rst
+
+
 

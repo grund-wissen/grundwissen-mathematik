@@ -41,9 +41,14 @@ sich die folgenden drei Fälle unterscheiden:
 
 Dieses Verfahren, anhand der Diskriminante :math:`D` auf die Anzahl und die
 Werte der Lösungen schließen zu können, wird umgangssprachlich auch als
-"Mitternachtsformel" bezeichnet. [#]_ [#]_ Sie lässt sich auf jede
-quadratische Gleichung anwenden, die in der allgemeinen Form
-:eq:`eqn-quadratische-gleichung` vorliegt.
+"Mitternachtsformel" bezeichnet. [#]_ [#]_ Sie lässt sich auf jede quadratische
+Gleichung anwenden, die in der allgemeinen Form :eq:`eqn-quadratische-gleichung`
+vorliegt.
+
+
+.. _Sonderfälle quadratischer Gleichungen:
+
+.. rubric:: Sonderfälle quadratischer Gleichungen
 
 Liegen Spezialfälle von quadratischen Gleichungen vor, so können auch andere,
 teilweise einfachere Lösungsverfahren genutzt werden:
@@ -73,7 +78,7 @@ teilweise einfachere Lösungsverfahren genutzt werden:
   Zahl hinzu addieren, um als Ergebnis den Wert Null zu erhalten.
 
 
-* Ist :math:`c = 0`, d.h. fehlt ein :math:`x`-freies Glied, so liegt eine
+* Ist :math:`c = 0`, fehlt also ein :math:`x`-freier Term, so liegt eine
   quadratische Gleichung folgender Form vor:
 
   .. math::
@@ -133,8 +138,12 @@ teilweise einfachere Lösungsverfahren genutzt werden:
   gesuchten Lösungen von Gleichung :eq:`eqn-quadratische-gleichung-normalform`
   dar. [#]_
 
-.. _Linearfaktorzerlegung:
 .. index:: Linearfaktorzerlegung
+.. _Linearfaktorzerlegung:
+.. _Produktform:
+.. _Produktform quadratischer Gleichungen:
+
+.. rubric:: Produktform quadratischer Gleichungen
 
 Sind :math:`x_1` und :math:`x_2` die Lösungen einer
 quadratischen Gleichung, wobei auch :math:`x_1 = x_2` zulässig
@@ -146,8 +155,8 @@ ist, so kann diese allgemein auch in folgender Form dargestellt werden:
       \Rightarrow a \cdot (x - x_1) \cdot (x - x_2) &= 0
 
 Eine solche Aufteilung einer Gleichung in mehrere lineare Faktoren wird als
-Produktform oder Linearfaktorzerlegung bezeichnet. Diese Darstellung spielt für
-quadratische Gleichungen nur eine untergeordnete Rolle, sie kann jedoch in
+Linearfaktorzerlegung oder Produktform bezeichnet. Diese Darstellung spielt für
+quadratische Gleichungen nur eine untergeordnete Rolle, sie kann allerdings in
 nützlicher Weise auch bei Gleichungen höheren Grades angewendet werden.
 
 
@@ -189,7 +198,7 @@ nützlicher Weise auch bei Gleichungen höheren Grades angewendet werden.
         x _{\mathrm{1,2}} = \frac{-b}{2 \cdot a} \pm i \cdot \frac{\sqrt{-(b^2 - 4
         \cdot a \cdot c)}}{2 \cdot a}
 
-.. [#] Nach der Mitternachtsformel
+.. [#] Nach der "Mitternachtsformel"
     :eq:`eqn-quadratische-gleichung-mitternachtsformel` gilt mit :math:`a=1` und
     :math:`D = p^2 - 4 \cdot q`:
 
@@ -213,9 +222,18 @@ nützlicher Weise auch bei Gleichungen höheren Grades angewendet werden.
         \frac{\sqrt{D}}{2} \right) \\[2pt]
         &= -p \qquad \checkmark
 
-.. [#] Die Mitternachtsformel
+.. [#] Die "Mitternachtsformel"
     :eq:`eqn-quadratische-gleichung-mitternachtsformel` kann selbstverständlich
     ebenso zur Lösung von Gleichung :eq:`eqn-quadratische-gleichung-normalform`
     genutzt werden.
+
+.. raw:: html
+
+    <hr />
+
+.. hint::
+
+    Zu diesem Abschnitt gibt es :ref:`Übungsaufgaben <Aufgaben Quadratische
+    Gleichungen>`.
 
 

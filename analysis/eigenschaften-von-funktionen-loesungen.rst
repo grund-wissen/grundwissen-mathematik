@@ -4,7 +4,7 @@
 Eigenschaften von Funktionen
 ============================
 
-Die folgenden Lösungen beziehen sich auf die :ref:`Übungsaufgaben <Aufgaben zu
+Die folgenden Lösungen beziehen sich auf die :ref:`Übungsaufgaben <Aufgaben
 Eigenschaften von Funktionen>` zum Abschnitt :ref:`Eigenschaften von Funktionen
 <Eigenschaften von Funktionen>`.
 

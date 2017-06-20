@@ -4,7 +4,7 @@
 Integralrechnung
 ================
 
-Die folgenden Lösungen beziehen sich auf die :ref:`Übungsaufgaben <Aufgaben zur
+Die folgenden Lösungen beziehen sich auf die :ref:`Übungsaufgaben <Aufgaben
 Integralrechnung>` zum Abschnitt :ref:`Integralrechnung <Integralrechnung>`.
 
 .. _Lösungen Integrationsmethoden:

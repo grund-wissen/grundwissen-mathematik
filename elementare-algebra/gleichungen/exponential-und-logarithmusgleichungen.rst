@@ -4,26 +4,31 @@ Exponential- und Logarithmusgleichungen
 =======================================
 
 .. index:: Exponentialgleichung
+.. _Exponentialgleichung:
+.. _Exponentialgleichungen:
 .. _Lösen von Exponentialgleichungen:
 
-.. rubric:: Lösen von Exponentialgleichungen
+Exponentialgleichungen
+----------------------
 
 Bei Exponentialgleichungen steht die Variable :math:`x` im Exponenten mindestens
-eines Terms. Im Allgemeinen sind derartige Gleichungen nur näherungsweise unter
+eines Terms. Derartige Gleichungen sind im Allgemeinen nur näherungsweise unter
 Verwendung von Computerprogrammen lösbar.
 
-Mit Verwendung eines üblichen Taschenrechners sind Exponentialgleichungen nur
-dann lösbar, wenn auf beiden Seiten ausschließlich konstante Terme oder Terme
-der Form :math:`a ^{T(x)}` stehen, wobei :math:`T(x)` für einen beliebigen, von
-der Variablen :math:`x` abhängigen Term steht. Wenn eine derartige Gleichung
-eine Lösung besitzt, also die linke Seite der Gleichung der rechten entspricht,
-dann muss ebenfalls der :ref:`Logarithmus <Rechenregeln für Logarithmen>` der
-linken und der rechten Seite gleich sein. Dieser Rechentrick ermöglicht die
-Verwendung der folgenden Identität: [#]_
+In Spezialfällen sind Exponentialgleichungen allerdings auch bei Verwendung
+eines üblichen Taschenrechners lösbar, nämlich dann, wenn auf beiden Seiten
+ausschließlich konstante Terme oder Terme der Form :math:`a^{T(x)}` stehen;
+:math:`T(x)` soll dabei für einen beliebigen, von der Variablen :math:`x`
+abhängigen Term stehen.
+
+Wenn eine derartige Gleichung eine Lösung besitzt, also die linke Seite der
+Gleichung der rechten entspricht, dann muss ebenfalls der :ref:`Logarithmus
+<Rechenregeln für Logarithmen>` der linken und der rechten Seite gleich sein.
+Dieser Rechentrick ermöglicht die Verwendung der folgenden Identität: [#]_
 
 .. math::
 
-    \log_{\mathrm{a}}{a ^{x}} = x
+    \log_{\mathrm{a}}{a^{x}} = x
 
 
 Durch das "Logarithmieren" einer Gleichung kann somit ein im Exponenten
@@ -37,13 +42,13 @@ und ausgewertet werden.
 
   .. math::
 
-      10 ^{2 \cdot x} = 50{\color{white}\qquad \qquad \quad \ldots}
+      10^{2 \cdot x} = 50{\color{white}\qquad \qquad \quad \ldots}
 
   Das Logarithmieren beider Seiten führt auf folgende Gleichung:
 
   .. math::
 
-      \log_{10}{10 ^{2 \cdot x}} &= \log_{10}{50} \\
+      \log_{10}{10^{2 \cdot x}} &= \log_{10}{50} \\
       \Rightarrow 2 \cdot x &= \log_{10}{50} \\
       x  &= \frac{\log_{10}{50}}{2} \approx \frac{1,7}{2} = 0,85
 
@@ -53,7 +58,7 @@ und ausgewertet werden.
 
   .. math::
 
-      2 ^{x} = 3 ^{2 - 5 \cdot x}{\color{white}\qquad \quad \ldots}
+      2^{x} = 3^{2 - 5 \cdot x}{\color{white}\qquad \quad \ldots}
 
   Das Logarithmieren beider Seiten führt auf folgende Gleichung:
 
@@ -111,9 +116,11 @@ können ausschließlich die Exponenten verglichen werden.
 
 .. index:: Logarithmusgleichung
 .. _Logarithmusgleichung:
+.. _Logarithmusgleichungen:
 .. _Lösen von Logarithmusgleichungen:
 
-.. rubric:: Lösen von Logarithmusgleichungen
+Logarithmusgleichungen
+----------------------
 
 Bei Logarithmusgleichungen tritt die Variable :math:`x` mindestens einmal als
 Argument eines Logarithmus auf. Im Allgemeinen sind solche Gleichungen nur
@@ -133,7 +140,7 @@ folgenden Identität: [#]_
 
 .. math::
 
-    a ^{\log_{\mathrm{a}}{x}} = x
+    a^{\log_{\mathrm{a}}{x}} = x
 
 Durch das "Exponenzieren" einer Gleichung kann somit ein im Argument eines
 Logarithmus stehender, von der Variablen :math:`x` abhängiger Term in einen
@@ -146,17 +153,20 @@ vereinfacht und ausgewertet werden.
 
   .. math::
 
-      \log_{5}{x^2} = 3
+      \log_{5}{x^2} = 4
 
   Das Exponenzieren beider Seiten führt auf folgende Gleichung:
 
   .. math::
 
-      5 ^{\log_{5}{x^3}} &= 5^2 \\
-      x^3 &= 5^2 \\
-      x\phantom{^3} &= 5^{\frac{2}{3}} \approx 2,924
+      5^{\log_{5}{x^2}} &= 5^4 \\
+      x^2 &= 625 \\
+      x\phantom{^3} &= \sqrt{625} = \pm 25
 
-  Somit hat die Gleichung die Lösung :math:`x \approx 2,924`.
+  Somit hat die Gleichung die Lösungsmenge :math:`\mathbb{L} = \{ -25;\; 25 \}`.
+
+.. sy.solve( sy.Eq( sy.log(x**2, 5), 4 ) )
+.. [-25, 25]
 
 
 .. raw:: html

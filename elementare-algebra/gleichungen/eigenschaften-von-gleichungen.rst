@@ -14,9 +14,9 @@ Terme :math:`T_1` und :math:`T_2` durch die Gleichheits-Relation
 
 Als Aussageform ist eine Variablengleichung weder wahr noch falsch. Belegt man
 allerdings die Variablen mit zulässigen Werten, so nehmen die einzelnen Terme
-bestimmte Werte an. [#TW]_ Die Gleichung wird hierbei zu einer wahren oder
-falschen Aussage. Ergibt sich eine wahre Aussage, so wird die Gleichung durch
-die eingesetzten Zahlen erfüllt. Diese Zahlen werden als Lösungen der Gleichung
+bestimmte Werte an -- die Gleichung wird hierbei zu einer wahren oder falschen
+Aussage. [#]_ Ergibt sich eine wahre Aussage, so wird die Gleichung durch die
+eingesetzten Zahlen erfüllt. Diese Zahlen werden als Lösungen der Gleichung
 bezeichnet, die Gesamtheit aller Lösungen wird Lösungsmenge :math:`\mathbb{L}`
 genannt.
 
@@ -29,7 +29,8 @@ ungleich :math:`(x_1 \ne x_2)` sein. Im ersten Fall stehen die Variablen
 .. _Lösbarkeit:
 .. _Lösbarkeit von Gleichungen:
 
-.. rubric:: Lösbarkeit von Gleichungen
+Lösbarkeit von Gleichungen
+--------------------------
 
 Ob eine Gleichung lösbar ist, hängt von der Gleichung selbst sowie von dem
 vorgegebenen Variablenbereich ("Definitionsmenge" :math:`\mathbb{D}`) ab.
@@ -43,6 +44,7 @@ vorgegebenen Variablenbereich ("Definitionsmenge" :math:`\mathbb{D}`) ab.
   :math:`(\mathbb{L} \subseteq \mathbb{D})`.
 
 .. index:: Identität, Gleichung; Identität
+.. _Identität:
 
 Allgemeingültige Gleichungen  (auch "Identitäten" genannt) werden oftmals als
 Rechenregeln verwendet, da sie unabhängig vom Wert der Variablen stets wahr sind
@@ -53,7 +55,7 @@ ersetzt werden (Ersetzbarkeits-Theorem von `Leibniz
 
 Ebenfalls können nach diesem Prinzip auch zwei Terme, die jeweils mit einem
 dritten übereinstimmen, gleichgesetzt werden. Gilt nämlich :math:`a=b` und
-:math:`b=c`, so folgt aus der `Äquivalenz <Äquivalenzrelationen>`_ der
+:math:`b=c`, so folgt aus der :ref:`Äquivalenz <Äquivalenzrelation>` der
 Gleichheitsrelation automatisch auch :math:`a=c`:
 
 
@@ -62,15 +64,13 @@ Gleichheitsrelation automatisch auch :math:`a=c`:
 
     a = b \quad \text{und} \quad b = c \quad \Rightarrow \quad a = c
 
-.. index::
-    single: Gleichung; Bestimmungsgleichung
-    single: Bestimmungsgleichung
+.. index:: Gleichung; Bestimmungsgleichung, Bestimmungsgleichung
+.. _Bestimmungsgleichung:
 
 Bei algebraischen Aufgaben muss die Lösungsmenge einer Gleichung meist erst
 bestimmt werden. Als Unterscheidung zu den stets wahren Identitäten werden
 derartige Gleichungen, deren Lösungsmenge erst gefunden werden muss, auch
 "Bestimmungsgleichungen" genannt.
-
 
 
 *Beispiele:*
@@ -114,7 +114,7 @@ werden.
 .. _Umformen von Gleichungen:
 
 Äquivalentes Umformen von Gleichungen
-=======================================
+-------------------------------------
 
 Manchmal lässt sich die Lösungsmenge einer Gleichung durch Einsetzen von
 konkreten Werten in die Variablen ("Probieren") ermitteln. Im Allgemeinen jedoch
@@ -135,7 +135,7 @@ rechte Seite einer Gleichung vertauscht werden:
 
 Termumformungen, die sich nur auf eine Seite einer Gleichung auswirken,
 beispielsweise :ref:`Zusammenfassen <Assoziativgesetz>` und
-:ref:`Ausmultiplizieren bzw. Ausklammern <Distributivgesetz>` von
+:ref:`Ausmultiplizieren beziehungsweise Ausklammern <Distributivgesetz>` von
 Summentermen sowie :ref:`Kürzen und Erweitern <Erweitern und Vereinfachen>` von
 Bruchtermen, dürfen ebenso jederzeit vorgenommen werden.
 
@@ -143,7 +143,7 @@ Addiert oder subtrahiert man auf beiden Seiten einen beliebigen Term :math:`T`,
 so ist die neue Gleichung äquivalent zur ursprünglichen. Der Wahrheitswert einer
 Gleichung bleibt auch unverändert, wenn beiden Seiten mit einem Term :math:`T
 \ne 0` multipliziert oder durch einen solchen dividiert werden. Somit gilt:
-[#AU]_
+[#]_
 
   .. math::
     :label: eqn-äquivalente-umformungen
@@ -158,11 +158,11 @@ Gleichung bleibt auch unverändert, wenn beiden Seiten mit einem Term :math:`T
 
 
 Während eine Addition oder Subtraktion eines beliebigen Terms auf beiden Seiten
-der Gleichung jederzeit problemlos möglich ist, ist bei der Multiplikation und
-Division einer Gleichung mit bzw. durch einen Term :math:`T` stets Vorsicht
-geboten. Wird hierbei die Bedingung :math:`T \ne 0` nicht beachtet, so können in
-der neuen Gleichung zusätzliche Lösungen hinzukommen bzw. ursprünglich gültige
-Lösung verschwinden.
+der Gleichung jederzeit problemlos möglich ist, ist bei der Multiplikation einer
+Gleichung mit einem Term beziehungsweise der Division durch einen Term :math:`T`
+stets Vorsicht geboten. Wird hierbei die Bedingung :math:`T \ne 0` nicht
+beachtet, so können in der neuen Gleichung zusätzliche Lösungen hinzukommen
+beziehungsweise ursprünglich gültige Lösung verschwinden.
 
 *Beispiele:*
 
@@ -196,13 +196,13 @@ Lösung verschwinden.
 
 Die äquivalenten Umformungs-Verfahren von Gleichungen beziehen sich auf die
 Anwendung der vier grundlegenden Rechenoperationen (Addition, Subtraktion,
-Multiplikation und Division). Werden weitere Rechenoperationen (z.B.
+Multiplikation und Division). Werden weitere Rechenoperationen (beispielsweise
 Potenzieren, Wurzelziehen oder Logarithmieren) angewendet, sind oft zusätzliche
 Überlegungen nötig.
 
 Eine Kontrolle der Lösungsmenge kann durch Einsetzen der Elemente in die
 Ausgangsgleichung ("Probe") erfolgen. Bei einer Probe ist jede Gleichungsseite
-getrennt auszurechnen, d.h. es dürfen keine Gleichungsumformungen vorgenommen
+getrennt auszurechnen, es dürfen also keine Gleichungsumformungen vorgenommen
 werden.
 
 
@@ -214,13 +214,14 @@ werden.
 
     .. rubric:: Anmerkungen:
 
-.. [#TW] Tritt eine Variable in einem Term bzw. in einer Gleichung mehrfach auf,
-    so muss sie beim Ersetzen durch einen konkreten Wert an jeder Stelle durch
-    ein und den selben Wert ersetzt werden. In Termen oder Gleichungen mit
-    mehreren Variablen können unterschiedliche Variablen mit beliebigen
-    (gleichen oder verschiedenen) Werten belegt werden.
+.. [#] Tritt eine Variable in einem Term beziehungsweise in einer Gleichung
+    mehrfach auf, so muss sie beim Ersetzen durch einen konkreten Wert an jeder
+    Stelle durch ein und den selben Wert ersetzt werden. 
+    
+    In Termen oder Gleichungen mit mehreren Variablen können unterschiedliche
+    Variablen mit beliebigen (gleichen oder verschiedenen) Werten belegt werden.
 
-.. [#AU] :math:`T` ist eine Zahl oder ein Term, der für alle Elemente des
+.. [#] :math:`T` ist eine Zahl oder ein Term, der für alle Elemente des
     Definitionsbereichs der Ausgangsgleichung :math:`T_1 = T_2` definiert sein
     muss.
 

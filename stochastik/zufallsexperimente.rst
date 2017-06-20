@@ -15,7 +15,7 @@ werden hingegen meist zufällige Vorgänge betrachtet.
 
 Als Experiment bezeichnet man allgemein einen Vorgang, der (zumindest
 prinzipiell) beliebig oft wiederholt werden kann. Dabei ist klar festgelegt,
-welche Messgröße beobachtet werden soll, d.h. jedes mögliche Ergebnis kann
+welche Messgröße beobachtet werden soll, jedes mögliche Ergebnis kann also
 eindeutig festgestellt werden. Eine einzelne Durchführung eines Experiments
 nennt man Versuch.
 
@@ -70,8 +70,8 @@ ausgeführt.
 
       \Omega = \{ \; (K,K) ,\,  (K,Z) ,\,  (Z,K) ,\,  (Z,Z) \; \}
 
-Die Ergebnismenge im obigen Beispiel lässt sich auch als :ref:`Produktmenge <Die
-Produktmenge>` :math:`\{K,Z\} \times \{K,Z\}` der Ergebnismengen eines
+Die Ergebnismenge im obigen Beispiel lässt sich auch als :ref:`Produktmenge
+<Produktmenge>` :math:`\{K,Z\} \times \{K,Z\}` der Ergebnismengen eines
 einmaligen Werfens einer Münze darstellen. Allgemein lässt sich ein
 :math:`k`-stufiges Zufallsexperiment mit Hilfe von geordneten Zahlenpaaren der
 Länge :math:`k` (so genannten ":math:`k`-Tupeln") beschreiben.
@@ -115,7 +115,7 @@ Ereignisse werden formal durch Teilmengen von :math:`\Omega` beschrieben.
   Fasst man das Zufallsexperiment als Glücksspiel auf, bei dem man gewinnt,
   wenn eine Nummer :math:`\ge 5` gezogen wird, so tritt dieses Ereignis genau
   dann ein, wenn die gezogene Nummer gleich :math:`5,\,6,\,7,\,8` oder :math:`9`
-  ist, d.h. das Versuchsergebnis zur Menge :math:`M = \{ 5,6,7,8,9 \}` gehört.
+  ist, das Versuchsergebnis also zur Menge :math:`M = \{ 5,6,7,8,9 \}` gehört.
   Das Ereignis ist also durch die Menge :math:`M` eindeutig beschrieben.
 
 Allgemein beschreibt jede Teilmenge :math:`M` von :math:`\Omega` ein Ereignis.
@@ -128,7 +128,7 @@ Ereignis elementar. [#]_
 .. index:: Ereignismenge
 .. _Ereignismenge:
 
-Die Menge aller möglichen Ereignisse, d.h. die Menge aller Teilmengen von
+Die Menge aller möglichen Ereignisse, also die Menge aller Teilmengen von
 :math:`\Omega`, heißt Ereignismenge :math:`\mathcal{ P }(\Omega)`. [#]_
 
 .. todo Beispiel
@@ -145,11 +145,11 @@ Mengenoperationen miteinander verknüpft werden:
 
 Durch Bildung von :ref:`Vereinigungs-, Schnitt- und Komplementmengen
 <Mengenoperationen>` lassen sich nach den :ref:`Rechenregeln der Mengenlehre
-<Rechenregeln für Mengenoperationen>` weitere Ereignisse formulieren bzw.
-Beschreibungen von Ereignissen vereinfacht werden.
+<Rechenregeln für Mengenoperationen>` weitere Ereignisse formulieren
+beziehungsweise Beschreibungen von Ereignissen vereinfacht werden.
 
 Können zwei Ereignisse :math:`M_1` und :math:`M_2` nicht gleichzeitig eintreten,
-d.h. ist :math:`M_1 \cap M_2 = \emptyset`,  so nennt man die Ereignisse
+ist also :math:`M_1 \cap M_2 = \emptyset`,  so nennt man die Ereignisse
 unvereinbar. Dies ist stets bei einem Ereignis :math:`M` und dem entsprechenden
 Gegenereignis :math:`\overline{M}` der Fall, es sind jedoch auch weitere Fälle
 möglich.
@@ -183,7 +183,7 @@ möglich.
 
 .. [#] In der Mengenlehre bezeichnet man :math:`\mathcal{P}(\Omega)` als
     Potenzmenge von :math:`\Omega`. Eine :math:`n`-elementige Menge besitzt
-    :math:`2^n` Teilmengen, d.h. für :math:`|\Omega| = n` ist :math:`|
+    :math:`2^n` Teilmengen, für :math:`|\Omega| = n` ist also :math:`|
     \mathcal{P}(\Omega) | = 2^n`. Zu einem Zufallsexperiment mit einer
     :math:`n`-elementigen Ergebnismenge gibt es also :math:`2^n` mögliche
     Ereignisse.

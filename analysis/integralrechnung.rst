@@ -224,9 +224,9 @@ Stammfunktion.
 
   Integrale von linearen Funktionen treten in den Naturwissenschaften häufig
   auf, beispielsweise gilt für die zurückgelegte Wegstrecke :math:`s` bei einer
-  :ref:`Bewegung mit konstanter Beschleunigung <gwp:Wegstrecke bei konstanter
-  Beschleunigung>` :math:`{\color{white}1}v = a \cdot t \quad \Longleftrightarrow \quad s =
-  \frac{1}{2} \cdot a \cdot t^2 + s_0`, wobei in diesem Fall die
+  :ref:`Bewegung mit konstanter Beschleunigung <gwp:Beschleunigung und
+  Wegstrecke>` :math:`{\color{white}1}v = a \cdot t \quad \Longleftrightarrow
+  \quad s = \frac{1}{2} \cdot a \cdot t^2 + s_0`, wobei in diesem Fall die
   Integrationsvariable die Zeit :math:`t` ist. Weitere Beispiele sind die
   :ref:`Bewegungs- <gwp:Kinetische Energie>` und :ref:`Spannenergie
   <gwp:Spannenergie>`, usw.

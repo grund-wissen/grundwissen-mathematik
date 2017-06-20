@@ -11,7 +11,7 @@ Abbildungen
 
 Unter einer Abbildung :math:`F` aus einer Menge :math:`\mathbb{M}_1` in eine
 Menge :math:`\mathbb{M}_2` versteht man eine Teilmenge der :ref:`Produktmenge
-<Die Produktmenge>` :math:`\mathbb{M}_1 \times \mathbb{M}_2`.
+<Produktmenge>` :math:`\mathbb{M}_1 \times \mathbb{M}_2`.
 
 .. math::
 
@@ -124,6 +124,9 @@ Funktion :math:`f_{\mathrm{U}}(x)` wird entsprechend als Umkehrfunktion bezeichn
 entspricht der Menge an geordneten Paaren :math:`(y,\, x)`, für die
 :math:`(x,\, y) \in f` gilt. Auch in diesem Fall ist der Definitionsbereich
 der Umkehrfunktion der Wertebereich der ursprünglichen Funktion und umgekehrt.
+
+Funktionen sind insbesondere in der :ref:`Analysis <Analysis>` von zentraler
+Bedeutung.
 
 
 .. index:: Abbildung; Relation, Relation
@@ -262,6 +265,7 @@ transitiv sind, unterscheiden sich jedoch in ihren weiteren Eigenschaften.
   Zahlen. Sie ist reflexiv, antisymmetrisch, transitiv und linear. [#]_
 
 .. index:: Äquivalenzrelation
+.. _Äquivalenzrelation:
 .. _Äquivalenzrelationen:
 
 2.: Äquivalenzrelationen:
@@ -405,7 +409,7 @@ mehrstellige Operationen zutreffen können:
     .. rubric:: Anmerkungen:
 
 .. [#] In diesem Zusammenhang wird :math:`x` auch als "Urbild" von :math:`y`
-    bzw. :math:`y` als "Bild" von :math:`x`.
+    beziehungsweise :math:`y` als "Bild" von :math:`x`.
 
 .. [#] Eine :math:`n`-stellige Relation entsprechend eine Teilmenge
     :math:`\mathbb{M}^n = \mathbb{M} \times \mathbb{M} \times \ldots \times

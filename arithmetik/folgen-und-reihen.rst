@@ -6,6 +6,8 @@ Folgen und Reihen
 
 .. index:: Folge
 
+.. _Folge:
+.. _Folgen:
 .. _Folgen und ihre Eigenschaften:
 
 Folgen und ihre Eigenschaften
@@ -59,8 +61,7 @@ Beschränkt man die Definitionsmenge auf die ersten :math:`n` natürlichen Zahle
 :math:`a_1` und dem Endglied :math:`a_{\mathrm{n}}`.
 
 
-.. index::
-    single: Monotonie einer Zahlenfolge
+.. index:: Monotonie einer Zahlenfolge
 
 .. _Monotonie einer Zahlenfolge:
 
@@ -87,12 +88,11 @@ Es gilt somit für jede Folge :math:`(a_{\mathrm{n}})`:
     \Rightarrow \quad \text{$(a_{\mathrm{n}})$ ist konstant. }
 
 Gilt bei der obigen Unterscheidung anstelle der Kleiner-Gleich-Relation
-:math:`\le` die Kleiner-Relation :math:`<` bzw. anstelle der Größer-Gleich-Relation
-:math:`\ge` die Größer-Relation :math:`>`, so nennt man die Folge *streng*
-monoton ab- bzw. zunehmend.
+:math:`\le` die Kleiner-Relation :math:`<` beziehungsweise anstelle der
+Größer-Gleich-Relation :math:`\ge` die Größer-Relation :math:`>`, so nennt man
+die Folge *streng* monoton ab- beziehungsweise zunehmend.
 
-.. index::
-    single: Beschränktheit einer Zahlenfolge
+.. index:: Beschränktheit einer Zahlenfolge
 
 .. _Beschränktheit einer Zahlenfolge:
 
@@ -101,7 +101,7 @@ Beschränktheit einer Zahlenfolge
 
 Eine Folge :math:`(a_{\mathrm{n}})` wird beschränkt genannt, wenn es zwei reelle
 Zahlen :math:`s` und :math:`S` gibt, so dass die Werte aller Folgenglieder
-zwischen beiden begrenzenden Zahlen liegen, d.h. wenn gilt:
+zwischen beiden begrenzenden Zahlen liegen, wenn also gilt:
 
 .. math::
 
@@ -115,6 +115,8 @@ bezeichnet.
     single: Konvergenz
     single: Divergenz
 
+.. _Divergenz:
+.. _Konvergenz:
 .. _Grenzwert einer Zahlenfolge:
 
 Grenzwert einer Zahlenfolge
@@ -122,8 +124,16 @@ Grenzwert einer Zahlenfolge
 
 Eine Folge :math:`(a_{\mathrm{n}})` hat einen Grenzwert :math:`a`, wenn sich
 außerhalb einer beliebig großen Umgebung von :math:`a` nur endlich viele Glieder
-der Folge befinden. Besitzt eine Folge einen Grenzwert, so nennt man sie
-konvergent, andernfalls divergent.
+der Folge befinden. Man sagt in diesem Fall, dass der Grenzwert ("Limes") der
+Folge für gegen Unendlich gehende Werte von :math:`n` gleich :math:`a` ist; in
+mathematischer Kurzform schreibt man:
+
+.. math::
+
+    \lim_{n \to \infty} a_{\mathrm{n}} = a
+
+Besitzt eine Folge einen Grenzwert, so nennt man sie konvergent, andernfalls
+divergent. 
 
 .. Limes, \lim, \rightarrow
 
@@ -171,6 +181,24 @@ wenn sich zu jedem beliebig kleinen Wert :math:`\varepsilon` eine Zahl
 :math:`a_{\mathrm{i}}, a_{\mathrm{j}}` ab :math:`a_{\mathrm{n_0}}` gilt, dass
 :math:`|a_{\mathrm{i}} - a_{\mathrm{j}} | < \varepsilon` ist.
 
+.. rubric:: Wichtige Grenzwerte 
+
+Für die Mathematik haben unter anderem folgende Grenzwerte für :math:`n` gegen
+Unendlich  :math:`(n \in \mathbb{N})` eine besondere Bedeutung:
+
+.. math::
+
+    \lim_{n \to \infty} \frac{a}{n} &= 0 \;\; \text{ für } a \in \mathbb{R} \\[4pt]
+    \lim_{n \to \infty} a^n         &= 0 \;\; \text{ für } |a| < 1 \\[4pt]
+    \lim_{n \to \infty} \sqrt[n]{a} &= 1 \;\; \text{ für } a \in \mathbb{R}^{+} \\[4pt]
+    \lim_{n \to \infty} \sqrt[n]{n} &= 1  \\[4pt]
+    \lim_{n \to \infty} \left( 1 + \frac{1}{n} \right)^n  &= e \\[4pt]
+    \lim_{n \to \infty} \left( 1 - \frac{1}{n} \right)^n  &= \frac{1}{e} \\[4pt]
+    \lim_{n \to \infty} \left( 1 + \frac{k}{n} \right)^n  &= e^{k} \\[4pt]
+
+Die Zahl :math:`e \approx 2,71828...` ist irrational und wird "Eulersche Zahl"
+genannt; sie ist insbesondere für :ref:`Exponentialfunktionen
+<Exponentialfunktionen>` von besonderer Bedeutung.
 
 .. index::
     single: Arithmetische Folge
@@ -199,11 +227,12 @@ Ist :math:`d > 0`, so ist die Folge (streng) monoton steigend, bei :math:`d < 0`
 ist die Folge (streng) monoton fallend. Gilt :math:`d=0`, so ist die Folge
 konstant.
 
-Da die einzelnen Folgenglieder immer um den gleichen Betrag zu- bzw. abnehmen,
-ist das mittlere dreier Folgenglieder stets gleich dem arithmetischen Mittel der
-beiden benachbarten Folgenglieder. Es gilt also: [#]_
+Da die einzelnen Folgenglieder immer um den gleichen Betrag zu- beziehungsweise
+abnehmen, ist das mittlere dreier Folgenglieder stets gleich dem arithmetischen
+Mittel der beiden benachbarten Folgenglieder. Es gilt also: [#]_
 
 .. math::
+    :label: eqn-arithmetische-folge-mittelwert
 
     a_{\mathrm{n}} = \frac{a_{\mathrm{n + 1}} + a_{\mathrm{n-1}}}{2}
 
@@ -224,13 +253,13 @@ Differenzen der einzelnen Folgenglieder:
 
 Diese Formel kann beispielsweise hilfreich sein, um fehlende Werte in
 Wertetabellen (näherungsweise) zu ergänzen. Eine ähnliche Anwendung kann darin
-bestehen, :math:`n` Objekte (z.B. Holzbalken) in jeweils gleichem Abstand
-voneinander zwischen zwei festen Grenzen :math:`a_1` und :math:`a_2` einzufügen;
-dabei gibt :math:`d_{\mathrm{i}}` an, in welchem Abstand die Mittelpunkte der
-Objekte jeweils eingefügt werden müssen.
+bestehen, :math:`n` Objekte (beispielsweise Holzbalken) in jeweils gleichem
+Abstand voneinander zwischen zwei festen Grenzen :math:`a_1` und :math:`a_2`
+einzufügen; dabei gibt :math:`d_{\mathrm{i}}` an, in welchem Abstand die
+Mittelpunkte der Objekte jeweils eingefügt werden müssen.
 
 ..
-    Arithmetische Folgen höheren Grades, lineare Funktion bzw. Potenzfunktion
+    Arithmetische Folgen höheren Grades, lineare Funktion beziehungsweise Potenzfunktion
 
 
 .. index::
@@ -259,14 +288,15 @@ Als Bildungsgesetz gilt:
 Ist :math:`q > 1`, so ist die Folge (streng) monoton zunehmend, bei :math:`0 < q
 < 1` ist die Folge (streng) monoton abnehmend und konvergiert gegen Null. Gilt
 :math:`q=0`, so ist die Folge konstant, im Fall  :math:`- \infty < q < 0` ist
-die Folge "alternierend", d.h. die Werte der Folgenglieder sind abwechselnd
+die Folge "alternierend", die Werte der Folgenglieder sind also abwechselnd
 positiv und negativ.
 
-Da die einzelnen Folgenglieder immer um den gleichen Faktor zu- bzw. abnehmen,
-ist das mittlere dreier Folgenglieder stets gleich dem geometrischen Mittel der
-beiden benachbarten Folgenglieder. Es gilt also: [#]_
+Da die einzelnen Folgenglieder immer um den gleichen Faktor zu- beziehungsweise
+abnehmen, ist das mittlere dreier Folgenglieder stets gleich dem geometrischen
+Mittel der beiden benachbarten Folgenglieder. Es gilt also: [#]_
 
 .. math::
+    :label: eqn-geometrische-folge-mittelwert
 
     | a_{\mathrm{n}} | = \sqrt{a_{\mathrm{n+1}} \cdot a_{\mathrm{n-1}}}
 
@@ -286,6 +316,8 @@ Quotienten der einzelnen Folgenglieder:
 
 
 .. index:: Reihe, Summenzeichen
+.. _Reihe:
+.. _Reihen:
 .. _Reihen und ihre Eigenschaften:
 
 Reihen und ihre Eigenschaften
@@ -295,6 +327,8 @@ Die Summe der Glieder einer Folge (oder eines Teils der Folgenglieder) wird als
 Reihe bezeichnet. Mathematisch wird die Summe :math:`s_{\mathrm{n}}` der Glieder
 einer Folge :math:`(a_{\mathrm{n}})` durch das Summen-Symbol :math:`\Sigma`
 ausgedrückt:
+
+.. Summen-Operator?
 
 .. math::
     :label: eqn-reihe
@@ -306,8 +340,6 @@ Hierbei wird unterhalb des Summenzeichens die Untergrenze und oberhalb die
 Obergrenze des Index :math:`i` angegeben, wobei die Summengrenzen jeweils ganze
 Zahlen sind. Im obigen Fall werden alle Folgenglieder :math:`a_{\mathrm{i}}` somit
 von :math:`i=1` bis :math:`i=n` aufsummiert.
-
-..  [#]_
 
 Ist die untere Summationsgrenze :math:`i=k` gleich der oberen, so bedeutet dies,
 dass die Summe aus einer einzigen Zahl :math:`a_{\mathrm{k}}` besteht:
@@ -396,13 +428,14 @@ eingesetzt:
 .. index::
     single: Arithmetische Reihe
     single: Reihe; arithmetische Reihe
+.. _Arithmetische Reihe:
 .. _Arithmetische Reihen:
 
 Arithmetische Reihen
 ^^^^^^^^^^^^^^^^^^^^
 
 Addiert man alle Glieder einer :ref:`arithmetischen Folge <Arithmetische
-Folgen>`, d.h. eine Folge von Zahlen, die sich untereinander stets um den
+Folgen>`, also eine Folge von Zahlen, die sich untereinander stets um den
 gleichen Wert :math:`d` unterscheiden, so ergibt sich eine arithmetische Reihe.
 Für den Wert der wohl bekanntesten arithmetischen Reihe, bei der alle
 natürlichen Zahlen von :math:`1` bis :math:`n` addiert werden, hat `Carl
@@ -424,26 +457,40 @@ folgendermaßen berechnen: [#]_
     s_{\mathrm{n}} = \sum_{i=1}^{n} a_{\mathrm{i}} = \sum_{i=1}^{n} \big( a_1 +
     (i-1) \cdot d \big)  = n \cdot  a_1 + \frac{n \cdot (n-1)}{2} \cdot d
 
+.. todo Summe der ersten n Glieder einer arithmetischen Folge:
+
+.. a_1 + a_2 + ... + a_n = \frac{n}{2} \cdot (a_1 + a_n) nach Feldmann
+
+.. a_0 + a_1 + ... + a_n = (n+1) \cdot \left(\frac{a_0 + a_n}{2}\right) nach Wikipedia
 
 .. index::
     single: Geometrische Reihe
     single: Reihe; geometrische Reihe
+.. _Geometrische Reihe:
 .. _Geometrische Reihen:
 
 Geometrische Reihen
 ^^^^^^^^^^^^^^^^^^^
 
 Addiert man alle Glieder einer :ref:`geometrischen Folge <Geometrische Folgen>`,
-d.h. eine Folge von Zahlen, die sich untereinander stets um den gleichen Faktor
+also eine Folge von Zahlen, die sich untereinander stets um den gleichen Faktor
 :math:`q` unterscheiden, so ergibt sich eine geometrische Reihe. Der Wert
-:math:`s_{\mathrm{n}}` einer geometrischen Reihe lässt sich folgendermaßen
-berechnen: [#]_
+:math:`s_{\mathrm{n}}` einer endlichen geometrischen Reihe lässt sich
+folgendermaßen berechnen: [#]_
 
 .. math::
     :label: eqn-geometrische-reihe
 
-    s_{\mathrm{n}} = \sum_{i=1}^{\infty } a_1 \cdot q ^{i-1} =  a_1 \cdot
+    s_{\mathrm{n}} = \sum_{i=1}^{n} a_1 \cdot q ^{i-1} =  a_1 \cdot
     \frac{q ^n -1}{q-1}
+
+Ob eine unendliche geometrische Reihe konvergiert, hängt vom Wert von :math:`q`
+ab. Ist :math:`|q| > 1`, so divergiert die Reihe; ist hingegen :math:`|q|<1`, so
+konvergiert die Reihe, und es gilt:
+
+.. math::
+
+    \lim_{n \to \infty} a_1 \cdot \frac{q ^n -1}{q-1} = \frac{a_1}{1-q}
 
 Mittels geometrischen Reihen können beispielsweise :ref:`Zinseszinsen
 <Zinseszinsrechnung>` berechnet werden.
@@ -451,6 +498,7 @@ Mittels geometrischen Reihen können beispielsweise :ref:`Zinseszinsen
 .. todo Harmonische Reihen
 
 .. index:: Produktfolge
+.. _Produktfolge:
 .. _Produktfolgen:
 
 Produktfolgen
@@ -514,7 +562,9 @@ Sonderfall :math:`n=0` ist dabei :math:`0! = 1` definiert.
 
     Setzt man in der obigen Gleichung die linke und die rechte Seite gleich und
     löst diese Gleichung nach :math:`a_{\mathrm{n}}` auf, so erhält man die
-    Rechenregel zur Berechnung des arithmetischen Mittels.
+    Rechenregel zur Berechnung des arithmetischen Mittels. Diese Formel kann
+    auch in der Statistik verwendet werden, um das :ref:`Arithmetische Mittel
+    <Arithmetisches Mittel>` einer Messreihe zu bestimmen.
 
 .. [#] Bei einer geometrischen Folge gilt:
 
@@ -525,8 +575,9 @@ Sonderfall :math:`n=0` ist dabei :math:`0! = 1` definiert.
 
     Setzt man in der obigen Gleichung die linke und die rechte Seite gleich und
     löst diese Gleichung nach :math:`a_{\mathrm{n}}` auf, so erhält man die
-    Rechenregel zur Berechnung des geometrischen Mittels.
-
+    Rechenregel zur Berechnung des geometrischen Mittels. Diese Formel kann auch
+    in der Statistik verwendet werden, um das :ref:`Geometrische Mittel
+    <Geometrisches Mittel>` einer Messreihe zu bestimmen.
 
 .. [#] Im umgekehrten Fall lässt sich eine Zerlegung in Teilsummen auch
     nutzen, um den Wert einer Reihe zu berechnen, deren Glieder von :math:`k >

@@ -11,9 +11,9 @@ betrachtet. Damit ein solches Gleichungssystem eindeutig gelöst werden kann,
 müssen (mindestens) ebenso viele Gleichungen vorliegen wie Unbekannte vorhanden
 sind.
 
-Sind die einzelnen Gleichungen eines Gleichungssystems linear, d.h. treten die
-Variablen :math:`x_{\mathrm{i}}` nur erster Potenz auf, so spricht man von einem
-linearen Gleichungssystem.
+Sind die einzelnen Gleichungen eines Gleichungssystems linear, treten die
+Variablen :math:`x_{\mathrm{i}}` also nur erster Potenz auf, so spricht man von
+einem linearen Gleichungssystem.
 
 .. index:: Koeffizient
 
@@ -57,7 +57,7 @@ Dabei werden die Gleichungen zur besseren Übersichtlichkeit -- wie allgemein
 .. index:: Lineares Gleichungssystem; Einsetzungsverfahren
 .. _Einsetzungsverfahren:
 
-* Das Einsetzungsverfahren:
+Einsetzungsverfahren:
 
   Eine Gleichung kann nach einer Variablen, beispielsweise :math:`x_1`,
   aufgelöst werden, und der sich ergebende Term an Stelle der entsprechenden
@@ -116,7 +116,7 @@ Dabei werden die Gleichungen zur besseren Übersichtlichkeit -- wie allgemein
 .. index:: Lineares Gleichungssystem; Gleichsetzungsverfahren
 .. _Gleichsetzungsverfahren:
 
-* Das Gleichsetzungsverfahren:
+Gleichsetzungsverfahren:
 
   Löst man beide Gleichungen nach einer Variablen, beispielsweise :math:`x_1`,
   auf, so können die jeweils resultierenden Terme gleichgesetzt werden. Man
@@ -201,7 +201,7 @@ Dabei werden die Gleichungen zur besseren Übersichtlichkeit -- wie allgemein
      3 \cdot \mathrm{(I)} + 2 \cdot \mathrm{(II)}:\qquad \qquad \qquad \qquad
      \quad \! 22 \cdot x_2 &=+66 {\color{white} \qquad \qquad \!\ldots }
      \\
-     \underline{\underline{x_2 }}&\underline{\underline{ \;= +3 \phantom{_3}}}
+     \underline{\underline{x_2 }}&\underline{\underline{ \;= +3 \phantom{_3}} }
 
   Setzt man das Ergebnis :math:`x_2 = 3` wiederum in Gleichung
   :math:`\mathrm{(I)}` ein, so erhält man wie im ersten Beispiel :math:`x_1 = 7`
@@ -219,10 +219,10 @@ Fälle auftreten können
   entsprechen die beiden miteinander addierten Gleichungen einer einzigen
   Gleichung und einem Vielfachen dieser Gleichung. Somit liegt letztlich eine
   einzige Gleichung mit zwei Unbekannten vor, die im Allgemeinen nicht eindeutig
-  lösbar ist, sondern unendlich viele Zahlenpaare :math:`(x_1 \, ,\, x_2)` als
+  lösbar ist, sondern unendlich viele Zahlenpaare :math:`(x_1,\, x_2)` als
   Lösung besitzt.
 
-* Führt das Additionsverfahren auf eine Gleichung der Art :math:`0=1`, d.h.
+* Führt das Additionsverfahren auf eine Gleichung der Art :math:`0=1`, also
   einen Widerspruch, so existiert keine Lösung für das Gleichungssystem. (Dies
   ist vergleichbar damit, dass es beispielsweise kein :math:`x` gibt, für das
   zugleich :math:`x=5` und :math:`x=7` gilt.)
@@ -230,7 +230,7 @@ Fälle auftreten können
 Das Additionsverfahren ist im Vergleich zum Einsetzungs- und
 Gleichsetzungsverfahren meist mit erheblich weniger Rechenaufwand verbunden; es
 stellt zugleich die Grundlage für den bei komplexeren Gleichungssystemen
-genutzten Gaussschen Lösungsalgorithmus dar.
+genutzten Gauss'schen Lösungsalgorithmus dar.
 
 .. index::
     single: Lineares Gleichungssystem; Gauss'scher Lösungsalgorithmus
@@ -275,11 +275,11 @@ folgendem Schema vor:
   werden.
 
 Der Gauss'sche Algorithmus führt somit Gleichungssysteme mit vielen Gleichungen
-bzw. Unbekannten schrittweise auf Gleichungssysteme mit weniger Gleichungen und
-Unbekannten zurück, bis nur noch eine Gleichung mit einer Unbekannten übrig ist.
-Diese Gleichung kann einfach gelöst werden, und durch Einsetzen der Lösung in
-die Ausgangsgleichung(en) können wiederum schrittweise auch die Lösungen aller
-anderen Unbekannten mühelos berechnet werden.
+beziehungsweise Unbekannten schrittweise auf Gleichungssysteme mit weniger
+Gleichungen und Unbekannten zurück, bis nur noch eine Gleichung mit einer
+Unbekannten übrig ist. Diese Gleichung kann einfach gelöst werden, und durch
+Einsetzen der Lösung in die Ausgangsgleichung(en) können wiederum schrittweise
+auch die Lösungen aller anderen Unbekannten mühelos berechnet werden.
 
 *Beispiel:*
 
@@ -401,4 +401,13 @@ anderen Unbekannten mühelos berechnet werden.
 .. [#] Allgemein kann auf diese Weise ein Gleichungssystem mit :math:`n`
     Gleichungen und :math:`n` Unbekannten auf ein Gleichungssystem mit
     :math:`(n-1)` Gleichungen und :math:`(n-1)` Unbekannten reduziert werden.
+
+.. raw:: html
+
+    <hr />
+
+.. hint::
+
+    Zu diesem Abschnitt gibt es :ref:`Übungsaufgaben <Aufgaben Lineare
+    Gleichungssysteme>`.
 

@@ -61,8 +61,8 @@ haben stets folgende Eigenschaften:
   auf der Symmetrieachse.
 * Einander entsprechende Geraden (sowie Strecken und ihre Verlängerungen)
   schneiden die Symmetrieachse im gleichen Punkt und im gleichen Winkel.
-* Der Umlaufsinn beider Figuren ist umgekehrt, d.h. entsprechende Ecken folgen
-  in der einen Figur im Uhrzeigersinn aufeinander, in der anderen entgegen dem
+* Der Umlaufsinn beider Figuren ist umgekehrt, entsprechende Ecken folgen in der
+  einen Figur also im Uhrzeigersinn aufeinander, in der anderen entgegen dem
   Uhrzeigersinn.
 
 Achsensymmetrische Figuren können ebenso als Paare von achsensymmetrisch
@@ -122,8 +122,8 @@ Punktsymmetrische Figuren haben stets folgende Eigenschaften:
   durch das Symmetriezentrum.
 * Einander entsprechende Geraden (sowie Strecken und ihre Verlängerungen)
   verlaufen zueinander parallel.
-* Der Umlaufsinn beider Figuren ist gleich, d.h. entsprechende Ecken folgen
-  in beiden Figuren entweder im Uhrzeigersinn oder entgegen dem Uhrzeigersinn
+* Der Umlaufsinn beider Figuren ist gleich, entsprechende Ecken folgen in beiden
+  Figuren also entweder im Uhrzeigersinn oder entgegen dem Uhrzeigersinn
   aufeinander.
 
 Punktsymmetrische Figuren können ebenso als Paare von punktsymmetrisch liegenden

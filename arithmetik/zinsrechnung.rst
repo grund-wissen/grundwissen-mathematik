@@ -150,9 +150,9 @@ gilt:
 
     K_2 = K_1 + Z_2 = K_1 \cdot \left(1 + p \right) = K_0 \cdot (1 + p)^2
 
-Der Faktor :math:`(1+p)^n` wird Aufzinsungsfaktor genannt und häufig auch mit
-:math:`q` bezeichnet. Nach :math:`n` Jahren Laufzeit ergibt sich damit eine
-Zins- bzw. Kapitalmenge:
+Der Faktor :math:`(1+p)^n` wird Aufzinsungsfaktor oder kurz Zinsfaktor genannt
+und häufig auch mit :math:`q` bezeichnet. Nach :math:`n` Jahren Laufzeit ergibt
+sich damit eine Zins- beziehungsweise Kapitalmenge:
 
 .. math::
     :label: eqn-zinseszins
@@ -213,5 +213,98 @@ Zinseszinsen wachsen exponentiell!
 
 
 .. Tilgungsrechnung, Rentenrechnung
+
+.. Renten
+
+.. nach Feldmann S. 46f.
+
+..
+    Ein fester Geldbetrag :math:`r`, der in gleichbleibenden Zeitabständen ein-
+    oder ausgezahlt wird, heißt Rente.
+    
+    Bei jährlichen Zahlungen und einem Zinsfaktor :math:`q` ist die erste
+    Einzahlung :math:`r` am Ende des :math:`n`-ten Jahres auf den Betrag
+    :math:`r \cdot q^{n-1}` durch Zinseszins angewachsen; die zweite Einzahlung,
+    die am Ende des zweiten Jahres erfolgt, ist am Ende des :math:`n`-ten Jahres
+    auf den Betrag :math:`r \cdot q^{n-2}` angewachsen, usw. Die am Ende des
+    :math:`n`-ten Jahres erfolgende Einzahlung wird nicht mehr verzinst.
+    
+    Die Beträge :math:`r \cdot q^{n-1},\, r \cdot q^{n-2},\, r \cdot q^{n-3},
+    \ldots, r \cdot q, r` bilden eine endliche geometrische Folge. Der Endwert
+    :math:`S_{\mathrm{n}}` der nach :math:`n` Jahren gezahlte Rente ist gleich
+    dem Summenwert dieser Folge:
+    
+    .. math::
+    
+        S_{\mathrm{n}} = r \cdot \frac{q^{n}-1}{q-1}
+    
+    Kapitalaufbau
+    
+    Wird während der Dauer der Rentenzahlung noch ein festes Kapital :math:`K_0`
+    verzinst, so ergibt sich nach :math:`n` Jahren ein gesamter Endwert
+    :math:`B_{\mathrm{n}}`:
+    
+    .. math::
+    
+        B_{\mathrm{n}} = K_0 \cdot q^n + r \cdot \frac{q^{n}-1}{q-1}
+    
+    Beispiel: Einmalige Einzahlung in Bausparkasse, gefolgt von jährlichen
+    Raten mit festem Zinssatz.
+    
+    Kapitalabbau
+    
+    Wird ein festes Kapital :math:`K_0` verzinst und gleichzeitig eine Rente
+    :math:`r` ausgezahlt, so verringert sich das Guthaben in :math:`n` Jahren
+    auf den Betrag :math:`E_{\mathrm{n}}`:
+    
+    .. math::
+    
+        E_{\mathrm{n}} = K_0 \cdot q^n - r \cdot \frac{q^n -1}{q-1}
+    
+    Es kommt erst dann zu einem wirklichen Kapitalabbau, wenn die ausgezahlte
+    Rente :math:`r` größer als die Zinsen sind, die :math:`K_0` jährlich trägt,
+    wenn also gilt:
+    
+    .. math::
+    
+        r > K_0 \cdot p \quad \Longleftrightarrow \quad r > (q-1) \cdot K_0
+    
+    Ist :math:`r = (q-1) \cdot K_0`, so handelt es sich weder um einen Abbau
+    noch um einen Aufbau, sondern um eine ewige Rente.
+    
+    Tilgung
+    
+    Wird das eingezahlte Kapital in :math:`n` Jahren durch die Rentenauszahlung
+    aufgezehrt, so liegt ein Sonderfall von Kapitalabbau vor, den man Tilgung
+    nennt:
+    
+    .. math::
+    
+        E_{\mathrm{n}} = 0 \quad \Rightarrow 0 = K_0 \cdot q^n - r \cdot
+        \frac{q^n-1}{q-1}
+    
+    Als Tilgungsformel ergibt sich damit:
+    
+    .. math::
+    
+        K_0 \cdot q^n = r \cdot \frac{q^n -1}{q-1}
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

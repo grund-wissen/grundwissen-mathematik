@@ -222,6 +222,7 @@ Formal erhält man eine identische Wahrheitstafel, wenn man die Implikation
 
 .. index:: Äquivalenz, Aussage; Äquivalenz
 .. _Äquivalenz:
+.. _Äquivalenz zweier Aussagen:
 
 .. rubric:: Äquivalenz zweier Aussagen
 
@@ -267,6 +268,7 @@ Teilaussagen wahr oder beide falsch sind. [#]_
 
 
 .. index:: Aussage; Kontravalenz
+.. _Kontravalenz:
 .. _Kontravalenz zweier Aussagen:
 
 .. rubric:: Kontravalenz zweier Aussagen
@@ -310,9 +312,9 @@ andeutet, mit der Negation der Äquivalenz identisch.
 
 .. rubric:: Regeln zu den Aussagenverknüpfungen
 
-Zwischen den Aussagen bzw. ihren Verknüpfungen sind folgende Äquivalenzen
-definiert, von denen einige eine formale Ähnlichkeit mit den Regeln für das
-Rechnen mit Zahlen haben:
+Zwischen den Aussagen beziehungsweise ihren Verknüpfungen sind folgende
+Äquivalenzen definiert, von denen einige eine formale Ähnlichkeit mit den Regeln
+für das Rechnen mit Zahlen haben:
 
 * *Kommutativgesetz:*
 
@@ -390,16 +392,16 @@ Regeln oder Gesetze.
 .. _Term:
 
 Ein Term ist eine Bezeichnung zum einen für ein einzelnes mathematisches Objekt
-(z.B. :math:`\pm \frac{1}{2} ,\, \pi ,\, \sqrt{3}`), zum anderen auch für eine
+(beispielsweise :math:`\pm \frac{1}{2} ,\, \pi ,\, \sqrt{3}`), zum anderen auch für eine
 Aneinanderreihung mehrerer Konstanten, Variablen, Klammern und Rechenoperatoren
-(z.B. :math:`2 \cdot (x^2 - 1) ,\; x \in \mathbb{R}`). [#]_ Terme enthalten
+(beispielsweise :math:`2 \cdot (x^2 - 1) ,\; x \in \mathbb{R}`). [#]_ Terme enthalten
 allerdings kein Relationszeichen, sie sind somit weder wahr noch falsch.
 
 .. index:: Aussageform
 .. _Aussageform:
 
 Eine Aussageform enthält neben (mindestens) einer Variablen und (mindestens)
-einem Term ein Relationszeichen -- beispielsweise :math:`x \ge 1` oder
+einem Term stets ein Relationszeichen -- beispielsweise :math:`x \ge 1` oder
 :math:`x_1 \cdot x_2 = 0`. Um allerdings einer Aussageform auch einen
 Wahrheitswert zuordnen zu können, müssen zunächst alle auftretenden Variablen
 durch konkrete Elemente aus der Grundmenge ersetzt werden. Ebenso wie Aussagen
@@ -467,7 +469,6 @@ x \!: A(x)` bereits durch den Existenz-Nachweis eines einzigen "Gegenbeispiels"
 :math:`\exists x \!: \neg A(x)` als falsch widerlegt werden. [#]_ [#]_
 
 .. index:: Beweis
-.. _Beweis:
 .. _Direkte und indirekte Beweise:
 
 Direkte und indirekte Beweise
@@ -625,12 +626,22 @@ Schritten:
 
 .. [#] In Zusammenhang mit den Quantoren :math:`\exists` und :math:`\forall`
     stellt der folgende Doppelpunkt ``:``  eine Kurzschreibweise für "so dass
-    gilt:" bzw. "gilt:" dar.
+    gilt:" beziehungsweise "gilt:" dar.
 
 .. [#] Auch kombinierte Quantifizierungs-Aussagen sind möglich, beispielsweise
     "Für jeden Menschen :math:`m` existiert ein Tag :math:`t`, so dass die
     Aussageform :math:`A(m,t)` erfüllt ist: :math:`m` hat am Tag :math:`t`
     Geburtstag". Als Kurzform kann für diese (wahre) Aussage :math:`\forall m \;
     \exists t \! : A(m,t)` geschrieben werden.
+
+
+.. raw:: html
+
+    <hr />
+
+.. hint::
+
+    Zu diesem Abschnitt gibt es :ref:`Übungsaufgaben <Aufgaben Logik>`.
+
 
 

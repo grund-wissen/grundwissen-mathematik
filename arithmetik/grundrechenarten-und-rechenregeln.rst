@@ -42,6 +42,8 @@ einem Komma, im Englischen mit einem Punkt von den übrigen getrennt.
 
 
 .. index:: Grundrechenarten
+.. _Grundrechenarten:
+.. _Grundrechenregeln:
 .. _Die vier Grundrechenarten:
 
 Die vier Grundrechenarten
@@ -230,7 +232,7 @@ Die Reihenfolge, in der die einzelnen Operationen ausgeführt werden müssen, is
 durch Vorrang-Regeln sowie durch die Verwendung von Klammern festgelegt:
 
 1. Was in Klammern steht, wird zuerst ausgewertet (bei Zahlen) beziehungsweise
-   zusammengefasst (bei Variablen)
+   zusammengefasst (bei Variablen).
 2. Ist durch Klammern keine andere Reihenfolge der Auswertung festgelegt, so
    werden zunächst die Rechenoperatoren der dritten Stufe (Potenzen und Wurzeln)
    ausgewertet.
@@ -247,18 +249,25 @@ werden dabei von links nach rechts ausgeführt.
 
 Bei der Verwendung von Klammern sind folgende Regeln zu beachten:
 
-* Zur besseren Lesbarkeit werden verschiedene Klammer-Symbole verwendet:
-
-.. math::
-
-    \left \langle \ldots \left \lbrace \ldots \left[ \ldots \left(
-    \phantom{\frac{a}{b} } \ldots  \phantom{\frac{a}{b} }  \right) \ldots
-    \right] \ldots  \right \rbrace \ldots \right \rangle
+* Klammern treten stets paarweise auf ("Klammer auf, Klammer zu")
 
 * Mehrere Klammern können ineinander verschachtelt, niemals jedoch überlappend
   auftreten.
 
-* Klammern treten stets paarweise auf ("Klammer auf, Klammer zu")
+* Zur besseren Lesbarkeit werden oftmals verschiedene Klammer-Symbole verwendet:
+
+  .. math::
+  
+      \left \langle \ldots \left \lbrace \ldots \left[ \ldots \left(
+      \phantom{\frac{a}{b} } \ldots  \phantom{\frac{a}{b} }  \right) \ldots
+      \right] \ldots  \right \rbrace \ldots \right \rangle
+
+  Als Alternative dazu können Klammern unterschiedlicher Größe genutzt werden:
+
+  .. math::
+  
+      \Bigg( \ldots\bigg( \ldots\Big( \ldots\big( \ldots( \ldots ) \ldots\big)
+      \ldots\Big) \ldots\bigg) \ldots\Bigg)
 
 In manchen Fällen kann ein Term durch das Auflösen einer Klammer vereinfacht
 werden --  insbesondere wenn sich verschiedene Terme dadurch leichter
@@ -308,8 +317,9 @@ Kommutativ-, Assoziativ- und Distributivgesetz bezeichnet.
 
 .. rubric:: Das Kommutativgesetz
 
-Bei der Addition und der Multiplikation können die einzelnen Summanden bzw.
-Faktoren miteinander vertauscht werden. Es gelten somit folgende Rechenregeln:
+Bei der Addition und der Multiplikation können die einzelnen Summanden
+beziehungsweise Faktoren miteinander vertauscht werden. Es gelten somit folgende
+Rechenregeln:
 
 .. math::
     :label: eqn-kommutativgesetz
@@ -326,7 +336,7 @@ Die Subtraktion und die Division sind nicht kommutativ.
 .. rubric:: Das Assoziativgesetz
 
 Bei der Addition von mehr als zwei Summanden oder einer Multiplikation mehrerer
-Faktoren können die Summen- bzw. Produktglieder beliebig durch Klammern
+Faktoren können die Summen- beziehungsweise Produktglieder beliebig durch Klammern
 gruppiert werden. Es gilt somit:
 
 .. math::
@@ -356,8 +366,8 @@ Verknüpfungsregeln:
 
 Ist ein Summenterm mit einem Faktor zu multiplizieren, so kann man jeden
 Summanden einzeln mit dem Faktor multiplizieren und anschließend beide Produkte
-addieren. Die Reihenfolge der Faktoren bzw. Summanden spielt dabei gemäß dem
-Kommutativgesetz :eq:`eqn-kommutativgesetz` keine Rolle.
+addieren. Die Reihenfolge der Faktoren beziehungsweise Summanden spielt dabei
+gemäß dem Kommutativgesetz :eq:`eqn-kommutativgesetz` keine Rolle.
 
 Besitzen im umgekehrten Fall alle Summanden einer Summe einen gemeinsamen
 Faktor, so kann dieser gemäß der obigen Gleichung "ausgeklammert" werden. Dieser
@@ -366,6 +376,8 @@ bei der Rechnung mit Brüchen häufig angewendet.
 
 Das Distributivgesetz gilt in entsprechender Form auch für die Subtraktion und
 die Division. [#DSD]_
+
+
 
 .. index:: Binomische Formeln
 .. _Binomische Formeln:
@@ -412,7 +424,10 @@ positives oder negatives Vorzeichen liefert. Somit gilt:
     {\color{white}1 \qquad \;}(a_1 - a_2) ^n = \sum_{i=0}^{n} \binom{n}{i} \cdot (-1)^i \cdot a_1^{(n-i)}
     \cdot a_2^i
 
+.. Todo Beispiel
+
 ..  Binomische Formeln werden beispielsweise zur quadratischen Ergänzung genutzt.
+
 
 
 .. index:: Betrag
@@ -474,8 +489,8 @@ Differenz beider Zahlen ohne Berücksichtigung des Vorzeichens. Hierbei gilt:
 
 In anwendungsorientierten Aufgaben muss meist nicht nur mit Zahlen, sondern auch
 mit (physikalischen) Größen gerechnet werden. Diese haben in den meisten Fällen
-nicht nur einen bestimmten Betrag bzw. Zahlenwert, sondern auch eine bestimmte
-Einheit.
+nicht nur einen bestimmten Betrag beziehungsweise Zahlenwert, sondern auch eine
+bestimmte Einheit.
 
 .. math::
 
@@ -484,19 +499,6 @@ Einheit.
 Wird in einer Gleichung mit Größen gerechnet, so müssen sich die jeweiligen
 Einheiten auf beiden Seiten der Gleichung stets entsprechen. Dabei sind folgende
 Regeln zu beachten:
-
-* Durch Verwendung von Zehnerpotenzen bzw. den entsprechenden "Vorsätzen"
-  (Kilo-, Mega-, Giga- bzw. Zenti-, Mili-, Mikro- usw.) lassen sich Einheiten
-  oftmals "einfacher" darstellen. Dabei müssen die Zahlenwerte der Einheiten
-  entsprechend angepasst werden.
-
-  *Beispiele:*
-
-.. math::
-
-  \unit[1]{m} = \unit[100]{cm} = \unit[1\,000]{mm} \\[8pt]
-
-  \unit[1]{MW} = \unit[1\,000]{kW} = \unit[1\,000\,000]{W} \\[8pt]
 
 * Identische Größen haben im allgemeinen Sprachgebrauch teilweise
   unterschiedliche Bezeichnungen. Auch hierbei sind die jeweiligen
@@ -509,6 +511,19 @@ Regeln zu beachten:
   \unit[1]{Liter} = \unit[1]{Kubikdezimeter} \\[8pt]
   \unit[1]{Tonne} = \unit[1\,000]{Kilogramm}
 
+* Durch Verwendung von Zehnerpotenzen beziehungsweise  den entsprechenden
+  "Vorsätzen" (Kilo-, Mega-, Giga- beziehungsweise Zenti-, Mili-, Mikro- usw.)
+  lassen sich Einheiten oftmals "einfacher" darstellen. Dabei müssen die
+  Zahlenwerte der Einheiten entsprechend angepasst werden.
+
+  *Beispiele:*
+
+.. math::
+
+  \unit[1]{m} = \unit[100]{cm} = \unit[1\,000]{mm} \\[8pt]
+  \unit[1]{MW} = \unit[1\,000]{kW} = \unit[1\,000\,000]{W}
+
+.. Todo Zehnerpotenzen
 
 .. raw:: html
 
@@ -543,9 +558,9 @@ Regeln zu beachten:
     und Geteiltzeichen, aber keine Additions- und Subtraktionszeichen als
     Rechenoperatoren vorkommen, gilt das Assoziativgesetz in folgender Form:
 
-    * Steht vor einer Multiplikations- bzw. Divisionsklammer ein Malzeichen
-      :math:`(\cdot )`, so kann die Klammer ohne Änderung der Rechenzeichen in
-      der Klammer weggelassen werden.
+    * Steht vor einer Multiplikations- beziehungsweise Divisionsklammer ein
+      Malzeichen :math:`(\cdot )`, so kann die Klammer ohne Änderung der
+      Rechenzeichen in der Klammer weggelassen werden.
 
       .. math::
 
@@ -554,7 +569,7 @@ Regeln zu beachten:
           a_1 \cdot (a_2 : a_3 ) &= (a_1 \cdot a _2) : a_3 \,  = a_1 \cdot a_2
           : a_3 \\
 
-    * Steht vor einer Multiplikations- bzw. Divisionsklammer ein
+    * Steht vor einer Multiplikations- beziehungsweise  Divisionsklammer ein
       Divisionszeichen :math:`(:)`, so kann die Klammer weggelassen werden, wenn
       alle Rechenzeichen in die entgegengesetzten umgewandelt werden (hierbei
       ist "Mal" durch "Geteilt" und "Geteilt" durch "Mal" zu ersetzen).

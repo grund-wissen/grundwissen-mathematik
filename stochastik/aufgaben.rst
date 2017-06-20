@@ -1,13 +1,16 @@
 
+.. _Aufgaben zur Stochastik:
+
 Aufgaben zur Stochastik
 =======================
+
 
 .. _Aufgaben Zufallsexperimente und Ereignisse:
 
 Zufallsexperimente und Ereignisse
 ---------------------------------
 
-.. foo
+.. .
 
 ----
 
@@ -26,7 +29,7 @@ Zufallsexperimente und Ereignisse
 
 ----
 
-.. foo
+.. .
 
 .. only:: html
 

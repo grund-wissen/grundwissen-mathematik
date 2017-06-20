@@ -47,10 +47,10 @@ enthalten sind.
         :download:`SVG: Zahlenstrahl (natürliche Zahlen)
         <../pics/arithmetik/zahlenstrahl-natuerliche-zahlen.svg>`
 
-Die Kisten können somit geordnet, d.h. anhand der Anzahl der darin enthaltenen
+Die Kisten können somit geordnet, also anhand der Anzahl der darin enthaltenen
 Äpfel sortiert werden. Als graphische Darstellungsform wird hierfür häufig ein
-"Zahlenstrahl" gewählt, wobei die Zahlen ihrer Größe nach aufsteigend von
-links nach rechts angeordnet werden.
+"Zahlenstrahl" gewählt, wobei die Zahlen ihrer Größe nach aufsteigend von links
+nach rechts angeordnet werden.
 
 
 .. _Rechnen mit natürlichen Zahlen:
@@ -113,7 +113,7 @@ dem jeweiligen Vielfachen der ursprünglichen Zahl entspricht.
         <../pics/arithmetik/multiplikation.svg>`
 
 
-Eine Division zweier natürlicher Zahlen, d.h. ein Aufteilen einer Menge von
+Eine Division zweier natürlicher Zahlen, also ein Aufteilen einer Menge von
 Dingen nur auf mehrere Posten, ergibt ein ganzzahliges Ergebnis genau dann, wenn
 die Anzahl der Elemente in der Menge einem Vielfachen der Anzahl an Posten
 entspricht -- ansonsten bleibt ein Rest übrig, der sich als Ganzes nicht weiter
@@ -241,8 +241,8 @@ Zahlen hinzu, die sich als Bruch zweier ganzer Zahlen :math:`m` und
 
 Die Zahl :math:`z` oberhalb des Bruchstrichs wird Zähler genannt, die Zahl
 :math:`n` unterhalb des Bruchstrichs als Nenner des Bruchs bezeichnet. Die
-einzige Bedingung liegt darin, dass nicht durch Null geteilt werden darf, d.h.
-:math:`n \ne 0` ist. [#N]_
+einzige Bedingung liegt darin, dass nicht durch Null geteilt werden darf,
+also :math:`n \ne 0` sein muss. [#N]_
 
 Auch die rationalen Zahlen lassen sich ihrer Größe nach als Zahlengerade
 anordnen; die ganzen Zahlen sind dabei als Teil der rationalen Zahlen an den
@@ -263,8 +263,8 @@ entsprechenden Stellen eingebettet. [#Q1]_
 
 .. index:: Kehrwert
 
-Die rationalen Zahlen liegen "dicht" beieinander, d.h. in den "Lücken" zwischen
-je zwei ganzen Zahlen treten jeweils unendlich viele als rationale Zahlen
+Die rationalen Zahlen liegen "dicht" beieinander, in den "Lücken" zwischen je
+zwei ganzen Zahlen treten also jeweils unendlich viele als rationale Zahlen
 darstellbare Werte auf.
 Anschaulich kann man sich dies dadurch erklären, dass beispielsweise jeder
 natürlichen Zahl :math:`n` ein Kehrwert :math:`\frac{1}{n}` zugeordnet werden
@@ -309,7 +309,7 @@ Allgemein kann jede Bruchzahl :math:`q = \frac{z}{n}` in eine andere, gleich
 große Bruchzahl umgeformt werden, indem man sowohl den Zähler :math:`z` als
 auch den Nenner :math:`n` mit einer beliebigen ganzen Zahl multipliziert. Diese
 in der Praxis häufig vorkommende Methode wird als "Erweitern" einer Bruchzahl
-bzw. eines Bruches bezeichnet.
+beziehungsweise eines Bruches bezeichnet.
 
 *Beispiele:*
 
@@ -333,7 +333,7 @@ bzw. eines Bruches bezeichnet.
 
 * | Die wohl am häufigsten genutzte Umrechnung bezieht sich auf die Umrechnung
     einer Bruchzahl :math:`q < 1` in eine wertgleiche Angabe mit dem Nenner
-    :math:`100` ("Einhundertstel" bzw. "Prozent" genannt).
+    :math:`100` ("Einhundertstel" beziehungsweise "Prozent" genannt).
   | Ist z.B. :math:`q = \frac{1}{4}`, so können Zähler und Nenner um den Faktor
     :math:`25` erweitert werden, und man erhält:
 
@@ -342,12 +342,12 @@ bzw. eines Bruches bezeichnet.
       \frac{1}{4} = \frac{1 \cdot 25}{4 \cdot 25} = \frac{25}{100}
 
   Somit entspricht der Bruch :math:`\frac{1}{4}` der Dezimalzahl :math:`0,25`
-  bzw. der Prozentangabe :math:`25\%`.
+  beziehungsweise der Prozentangabe :math:`25\%`.
 
 Im umgekehrten Fall kann eine Bruchzahl, deren Zähler und Nenner (mindestens)
 einen gemeinsamen Faktor besitzen, zu einer wertgleichen rationalen Zahl
-vereinfacht werden, indem der gemeinsame Faktor gekürzt wird (bzw. die
-gemeinsamen Faktoren gekürzt werden).
+vereinfacht werden, indem der gemeinsame Faktor gekürzt wird (beziehungsweise
+die gemeinsamen Faktoren gekürzt werden).
 
 *Beispiel:*
 
@@ -361,7 +361,7 @@ gemeinsamen Faktoren gekürzt werden).
 * Bei der Bruchzahl :math:`\frac{30}{60}` lässt sich der Zähler als Produkt der
   Faktoren :math:`2 \cdot 3 \cdot 5`, der Nenner als :math:`2 \cdot 2 \cdot 3
   \cdot 5` darstellen. Es können somit die Faktoren :math:`2 ,\, 3 \text{ und }
-  5` (bzw. der Faktor :math:`2 \cdot 3 \cdot 5 = 30`) gekürzt werden:
+  5` (beziehungsweise der Faktor :math:`2 \cdot 3 \cdot 5 = 30`) gekürzt werden:
 
   .. math::
 
@@ -403,12 +403,16 @@ Fälle auftreten:
 
     \frac{1}{3} = 0,3\bar{3} = 0,3333 \ldots \\[8pt]
 
+  .. math::
+  
     \frac{1}{7} = 0,\overline{142\,857} = 0,142\,857\,142\,857 \ldots
+
+.. index:: Zählende Ziffern
 
 Bei der Rechnung mit Dezimalzahlen kann stets nur eine endliche Zahl an
 Nachkomma-Stellen berücksichtigt werden; rationale Zahlen werden daher
 entsprechend einer gewünschten Genauigkeit gerundet. Diese Genauigkeit wird
-durch die Angabe einer bestimmten Anzahl an "zählenden" Ziffern, d.h. Ziffern
+durch die Angabe einer bestimmten Anzahl an "zählenden" Ziffern, also Ziffern
 außer am Anfang oder am Ende stehenden Nullen, festgelegt.
 
 *Beispiele:*
@@ -513,10 +517,10 @@ Eine Vielzahl an mathematischen Problemen kann nicht mit Hilfe der rationalen
 Zahlen gelöst werden. Beispielsweise gibt es keine rationale Zahl :math:`x`,
 welche die Gleichung :math:`x^2 = 3` löst; ebenso gibt es keine rationale Zahl,
 die das Verhältnis :math:`d/l` aus der Diagonale eines Quadrates und seiner
-Seitenlänge bzw. das Verhältnis :math:`u:d` aus dem Umfang :math:`u` und dem
-Durchmesser :math:`d` eines Kreises ausdrücken könnte. Um derartige "Mängel" zu
-beseitigen, lässt sich der Bereich der rationalen Zahlen zum Bereich der reellen
-Zahlen erweitern.
+Seitenlänge beziehungsweise  das Verhältnis :math:`u:d` aus dem Umfang :math:`u`
+und dem Durchmesser :math:`d` eines Kreises ausdrücken könnte. Um derartige
+"Mängel" zu beseitigen, lässt sich der Bereich der rationalen Zahlen zum Bereich
+der reellen Zahlen erweitern.
 
 .. figure:: ../pics/arithmetik/irrationale-zahlen-beispiele.png
     :width: 65%
@@ -554,7 +558,6 @@ Für zwei besonders wichtige reelle Zahlen werden spezielle Symbole benutzt:
       u = \pi \cdot d
 
 .. index:: Reelle Zahlen; Eulersche Zahl e
-.. _Reelle Zahlen:
 .. _Eulersche Zahl:
 .. _Eulersche Zahl e:
 
@@ -620,6 +623,21 @@ Taschenrechners oder Computers, so werden die häufig irrationalen Ergebnisse in
 gleicher Weise wie beim :ref:`Runden von Bruchzahlen <Runden von Bruchzahlen>`
 entsprechend der möglichen Anzeige-Genauigkeit gerundet.
 
+
+.. .. rubric:: Vollständigkeit und Ordnung der reellen Zahlen
+
+.. Die Menge :math:`\mathbb{R}` der reellen Zahlen ist die Vereinigungsmenge der
+.. rationalen und der irrationalen Zahlen. Werden zwei reelle Zahlen addiert,
+.. subtrahiert, multipliziert oder durch einander dividiert (ausgenommen durch
+.. Null), so ergibt sich stets wieder eine reelle Zahl. 
+
+.. .. todo pic
+
+.. Jeder Punkt auf dem Zahlenstrahl entspricht einer reellen Zahl, entlang der
+.. Zahlengeraden treten somit keine Lücken mehr auf.
+
+.. Liegt eine Zahl :math:`a` auf der Zahlengeraden links von :math:`b`, so ist
+.. :math:`a` kleiner als :math:`b`, es gilt also :math:`a < b`.
 
 .. _Komplexe Zahlen:
 
@@ -695,9 +713,9 @@ Zahlen <Exkurs Komplexe Zahlen>` verwiesen.
     Bruches positiv.
 
 .. [#] In der Physik richtet sich die Genauigkeitsangabe stets nach der
-    ungenauesten Messung, d.h. die Anzahl an zählenden Ziffern des Ergebnisses
-    ist immer gleich der Anzahl der zählenden Ziffern der ungenauesten Messung
-    bzw. Maßangabe.
+    ungenauesten Messung; die Anzahl an zählenden Ziffern des Ergebnisses ist
+    also immer gleich der Anzahl der zählenden Ziffern der ungenauesten Messung
+    beziehungsweise Maßangabe.
 
 .. [#WUR] Genau genommen gilt dies nur, wenn :math:`n` eine ungerade Zahl ist.
     Für Wurzeln mit geradzahligen :math:`n` erfüllt neben :math:`x =

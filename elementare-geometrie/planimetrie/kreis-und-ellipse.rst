@@ -39,16 +39,17 @@ Dabei wird :math:`\pi \approx 3,14159265...` als "Kreiszahl" bezeichnet.
 .. index:: Kreisbogen
 .. _Kreisbogen:
 
-.. rubric:: Der Kreisbogen
+Der Kreisbogen
+--------------
 
 Wird anstelle eines ganzen Kreises nur ein Teil der Kreislinie gezeichnet, so
 bezeichnet man den entsprechenden Kreisteil als Kreisbogen.
 
 .. figure:: ../../pics/geometrie/kreisbogen.png
-    :width: 40%
-    :align: center
     :name: fig-kreisbogen
     :alt:  fig-kreisbogen
+    :align: center
+    :width: 40%
 
     Der Kreisesbogen als Teil des Kreisumfangs.
 
@@ -85,7 +86,8 @@ des Kreisbogens:
 .. _Gradmaß:
 .. _Radiant:
 
-.. rubric:: Gradmaß und Bogenmaß
+Gradmaß und Bogenmaß
+--------------------
 
 Der Mittelpunktswinkel :math:`\alpha` eines Kreisbogens wird gewöhnlich im
 Gradmaß angegeben. :math:`360°` entsprechen dabei dem vollen Kreisumfang.
@@ -96,10 +98,10 @@ durch die Länge :math:`s` des Kreisbogens angegeben werden, wobei :math:`2 \cdo
 \pi` dem vollen Kreisumfang entspricht.
 
 .. figure:: ../../pics/geometrie/gradmass-und-bogenmass.png
-    :width: 55%
-    :align: center
     :name: fig-gradmaß-und-bogenmaß
     :alt:  fig-gradmaß-und-bogenmaß
+    :align: center
+    :width: 55%
 
     Gradmaß und Bogenmaß an einem Einheitskreis :math:`(r = 1)`.
 
@@ -127,17 +129,18 @@ einem Winkelmaß von :math:`57,3 \degree`.
 
 .. _Kreissektor:
 
-.. rubric:: Der Kreissektor
+Der Kreissektor
+---------------
 
 Verbindet man einen Kreisbogen mit dem Mittelpunkt, so ergibt sich eine Fläche
 in Form eines Tortenstücks. Mathematisch wird diese Fläche als Kreissektor
 bezeichnet.
 
 .. figure:: ../../pics/geometrie/kreissektor.png
-    :width: 40%
-    :align: center
     :name: fig-kreissektor
     :alt:  fig-kreissektor
+    :align: center
+    :width: 40%
 
     Der Kreissektor als Teil der Kreisfläche.
 
@@ -152,7 +155,111 @@ Der Flächeninhalt eines Kreissektors entspricht -- analog zum Kreisbogen -- dem
 
 .. math::
 
-    \text{Fl\"ache des Kreissektors} &= \frac{\alpha }{360°} \cdot \pi \cdot r^2
+    \text{Fl\"ache des Kreissektors} &= \frac{\alpha }{\unit[360]{\degree}}
+    \cdot \pi \cdot r^2
+
+
+.. _Sehnen und Tangenten:
+
+Sehnen und Tangenten
+--------------------
+
+Als Kreissehne bezeichnet man eine Strecke, die zwischen zwei auf einem Kreis
+liegenden Punkten verläuft. Jede Kreissehne (mit Ausnahme des Durchmessers)
+unterteilt den Kreis in zwei verschieden große Kreisbögen; den kleineren von
+beiden nennt man den zur Sehne gehörenden Kreisbogen. Der Winkel zwischen
+dem Mittelpunkt und den beiden Endpunkten einer Sehne heißt Zentriwinkel.
+
+.. figure:: ../../pics/geometrie/kreissehne.png
+    :name: fig-kreissehne
+    :alt:  fig-kreissehne
+    :align: center
+    :width: 40%
+
+    Kreissehne, Kreisbogen und Zentriwinkel.
+
+    .. only:: html
+
+        :download:`SVG: Kreissehne
+        <../../pics/geometrie/kreissehne.svg>`
+
+Kreissehnen bringen folgende Eigenschaften mit sich:
+
+* Die durch den Mittelpunkt des Kreises und den Mittelpunkt der Sehne
+  verlaufende Gerade halbiert die beiden Kreisbögen und den Zentriwinkel; sie
+  ist Symmetrieachse des Dreiecks, das aus den Endpunkten der Sehne und dem
+  Kreismittelpunkt gebildet wird.
+
+* Sind zwei Sehnen gleich lang, so sind aufgrund der Punktsymmetrie des Kreises
+  auch die zugehörigen Kreisbögen, Zentriwinkel und Kreissektoren gleich groß.
+
+  Sind zwei Sehnen unterschiedlich lang, so gehört zur größeren Sehne der
+  größere Kreisbogen sowie der größere Zentriwinkel.
+
+Verschiebt man eine Sekante parallel, bis sie den Kreis nur noch in einem
+einzigen Punkt berührt, so spricht man von einer Tangente. Jede Tangente steht
+senkrecht auf der zum Berührpunkt gehörenden Radius-Linie.
+
+
+.. index:: Kreiswinkel, Zentriwinkel, Peripheriewinkel
+.. _Kreiswinkel:
+
+Kreiswinkel
+-----------
+
+Jeder Sehne beziehungsweise jedem Kreisbogen kann eindeutig ein Zentriwinkel
+zugeordnet werden. Verbindet man die Endpunkte der Sehne mit einem beliebigen
+Punkt, der auf dem "entfernten" (großen) Kreisbogen liegt, so erhält man so
+genannte "Peripherie-Winkel". Diese Peripherie-Winkel eines Kreisbogens sind
+allesamt gleich groß; betraglich sind sie halb so groß wie der zum Kreisbogen
+gehörende Zentriwinkel:
+
+.. math::
+
+    \alpha = 2 \cdot \beta
+
+.. figure:: ../../pics/geometrie/kreiswinkel.png
+    :name: fig-kreiswinkel
+    :alt:  fig-kreiswinkel
+    :align: center
+    :width: 40%
+
+    Zentriwinkel und Peripheriewinkel
+
+    .. only:: html
+
+        :download:`SVG: Kreiswinkel
+        <../../pics/geometrie/kreiswinkel.svg>`
+
+Gehören zwei Peripheriewinkel eines Kreises zur selben Sehne, aber zu
+verschiedenen Kreisbögen, so beträgt die Summe beider Winkel :math:`\beta +
+\beta^{*} = \unit[180]{\degree}`. Jede Viereck, das auf diese Weise gebildet
+wird (dessen vier Ecken also auf einem gemeinsamen Umkreis liegen) nennt man
+"Sehnenviereck"; in einem solchen beträgt die Summe der jeweils gegenüber
+liegenden Winkel je :math:`\unit[180]{\degree}`
+
+
+.. index:: Satz von Thales, Thaleskreis
+.. _Satz des Thales:
+
+.. rubric:: Der Satz des Thales
+
+Beträgt der Zentriwinkel eines Kreisbogens :math:`\unit[180]{\degree}` (was bei
+jedem Halbkreis der Fall ist), so haben sämtliche Peripheriewinkel des einen
+Betrag von :math:`\unit[90]{\degree}`; sie sind also rechte Winkel.
+
+.. figure:: ../../pics/geometrie/thaleskreis.png
+    :name: fig-thaleskreis
+    :alt:  fig-thaleskreis
+    :align: center
+    :width: 40%
+
+    Konstruktion von rechten Winkel mittels des Satzes von Thales.
+
+    .. only:: html
+
+        :download:`SVG: Thaleskreis
+        <../../pics/geometrie/thaleskreis.svg>`
 
 
 .. raw:: html

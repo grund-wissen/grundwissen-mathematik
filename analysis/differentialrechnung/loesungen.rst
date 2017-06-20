@@ -4,7 +4,7 @@
 Differentialrechnung
 ====================
 
-Die folgenden Lösungen beziehen sich auf die :ref:`Übungsaufgaben <Aufgaben zur
+Die folgenden Lösungen beziehen sich auf die :ref:`Übungsaufgaben <Aufgaben
 Differentialrechnung>` zum Abschnitt :ref:`Differentialrechnung
 <Differentialrechnung>`.
 

@@ -7,7 +7,7 @@ Exkurs: Komplexe Zahlen
 Die Menge der komplexen Zahlen :math:`\mathbb{C}` stellt eine zusätzliche
 Erweiterung der reellen Zahlen dar. Ein ursprüngliches Ziel dieser Erweiterung
 war es, auch die Rechenoperation des Wurzelziehens uneingeschränkt mit allen
-Zahlen des zugrunde liegenden Zahlenbereichs ausführbar zu machen, d.h. auch
+Zahlen des zugrunde liegenden Zahlenbereichs ausführbar zu machen, also auch
 Wurzeln mit negativen Argumenten zu definieren.
 
 .. index:: Imaginäre Zahlen
@@ -58,21 +58,21 @@ einem "Imaginärteil" :math:`b \cdot i` zusammen. Die Menge der reellen Zahlen
 .. rubric:: Rechnen mit komplexen Zahlen
 
 Die Rechenregeln für reelle Zahlen lassen sich weitgehend auf komplexe Zahlen
-übertragen, wenn man :math:`i = \sqrt{-1}` bzw. die dazu äquivalente Beziehung
+übertragen, wenn man :math:`i = \sqrt{-1}` beziehungsweise die dazu äquivalente Beziehung
 :math:`i^2 = \sqrt{-1} \cdot \sqrt{-1} = -1` beachtet.
 
-* Addiert bzw. subtrahiert man zwei komplexe Zahlen :math:`z_1` und
+* Addiert beziehungsweise  subtrahiert man zwei komplexe Zahlen :math:`z_1` und
   :math:`z_2`, so erhält man eine neue komplexe Zahl, deren Real- und
-  Imaginärteil gleich der Summe bzw. Differenz der Real- und Imaginärteile von
-  :math:`z_1` und :math:`z_2` ist:
+  Imaginärteil gleich der Summe beziehungsweise Differenz der Real- und
+  Imaginärteile von :math:`z_1` und :math:`z_2` ist:
 
 .. math::
     :label: eqn-addition-komplexer-zahlen
 
-    z_1 + z_2 &= ( a_1 +  b_1 \cdot i) + ( a_2 + b2 \cdot i) =  (a_1 +  a_2) + (
-    b_1 +  b_2) \cdot i \\
-    z_1 - z_2 &= ( a_1 +  b_1 \cdot i) - ( a_2 + b2 \cdot i) =  (a_1 -  a_2) + (
-    b_1 -  b_2) \cdot i \\
+    z_1 + z_2 &= (a_1 +  b_1 \cdot i) + (a_2 + b2 \cdot i) =  (a_1 + a_2) + (b_1
+    + b_2) \cdot i \\
+    z_1 - z_2 &= (a_1 +  b_1 \cdot i) - (a_2 + b2 \cdot i) =  (a_1 - a_2) + (b_1
+    - b_2) \cdot i \\
 
 * Multipliziert man zwei komplexe Zahlen :math:`z_1` und :math:`z_2`
   miteinander, so erhält man eine neue komplexe Zahl, indem man alle Komponenten
@@ -93,10 +93,10 @@ Die Rechenregeln für reelle Zahlen lassen sich weitgehend auf komplexe Zahlen
 .. math::
     :label: eqn-division-komplexer-zahlen
 
-    \frac{z_1}{z_2} = \frac{ a_1 +  b_1 \cdot i}{ a_2 +  b_2 \cdot i} =
-    \frac{(a_1 +  b_1 \cdot i) \cdot ( a_2 -  b_2 \cdot i)}{(a_2 +  b_2 \cdot i)
-    \cdot ( a_2 -  b_2 \cdot i)} = \frac{( a_1 \cdot  a_2 + b_1 \cdot  b_2) + (
-    b_1 \cdot  a_2 -  a_1 \cdot  b_2 ) \cdot i}{ a_2\,\!^2 +  b_2\,\!^2}
+    \frac{z_1}{z_2} = \frac{a_1 +  b_1 \cdot i}{a_2 +  b_2 \cdot i} =
+    \frac{(a_1 +  b_1 \cdot i) \cdot (a_2 - b_2 \cdot i)}{(a_2 + b_2 \cdot i)
+    \cdot (a_2 - b_2 \cdot i)} = \frac{(a_1 \cdot a_2 + b_1 \cdot b_2) + (b_1
+    \cdot a_2 - a_1 \cdot b_2 ) \cdot i}{a_2\,\!^2 + b_2\,\!^2}
 
 
 .. _Gaußsche Zahlenebene und Polarform:
@@ -132,12 +132,12 @@ Zahl:
 .. math::
     :label: eqn-komplexe-zahl-betrag
 
-    | z | = \sqrt{z \cdot z ^{*}} = \sqrt{a^2 + b^2}
+    | z | = \sqrt{z \cdot z^{*}} = \sqrt{a^2 + b^2}
 
 Hierbei wird wiederum genutzt, dass das Produkt einer komplexen Zahl :math:`z =
-a + b \cdot i` mit ihrer konjugiert komplexen Zahl :math:`z ^{*} = a - b \cdot
-i` gleich der reellen Zahl :math:`z \cdot z ^{*} = a^2 + b^2` ist. In der
-Gauss'schen Ebene kann die komplex konjugierte Zahl :math:`z ^{*}` durch eine
+a + b \cdot i` mit ihrer konjugiert komplexen Zahl :math:`z^{*} = a - b \cdot
+i` gleich der reellen Zahl :math:`z \cdot z^{*} = a^2 + b^2` ist. In der
+Gauss'schen Ebene kann die komplex konjugierte Zahl :math:`z^{*}` durch eine
 vertikale Spiegelung von :math:`z` an der reellen Zahlenachse bestimmt werden.
 
 Der Zusammenhang zwischen dem Real- und Imaginärteil von :math:`z`, ihrem Betrag
@@ -151,15 +151,14 @@ gilt:
     b = | z | \cdot \sin{\varphi} \\
 
 Jede komplexe Zahl kann somit neben der Koordinatenform auch in einer so
-genannten "Polarform", d.h. über die Angabe ihres Betrags :math:`|z|` und
+genannten "Polarform", also über die Angabe ihres Betrags :math:`|z|` und
 Winkels :math:`\varphi`, in folgender Weise angegeben werden:
 
 .. math::
 
-    z = a + b \cdot i = |z| \cdot \cos{\varphi} + |z| \cdot \sin{\varphi} \cdot
-    i
+    z = a + b \cdot i = |z| \cdot \cos{\varphi} + |z| \cdot \sin{\varphi} \cdot i
 
-bzw.
+beziehungsweise
 
 .. math::
 
@@ -170,6 +169,7 @@ bzw.
     e ^{-i \cdot \varphi} = \cos{\varphi} - i \cdot \sin{\varphi}
 
 
+... to be continued ...
 
 
 .. raw:: html
@@ -185,12 +185,11 @@ bzw.
 
     .. math::
 
-        z_1 \cdot z_2 &= ( a_1 +  b_1 \cdot i)
-        \cdot ( a_2 +  b_2 \cdot i) \\ &=  a_1 \cdot  a
-       _2 +  a_1 \cdot  b_2 \cdot i +  b_1 \cdot
-        a_2 \cdot i +  b_1 \cdot  b_2 \cdot i^2 \\  &= (
-        a_1 \cdot  a_2 - b_1 \cdot  b_2) + ( a
-       _1 \cdot  b_2 +  b_1 \cdot  a_2 ) \cdot i
+        z_1 \cdot z_2 &= (a_1 + b_1 \cdot i) \cdot (a_2 +  b_2 \cdot i) \\
+        &= a_1 \cdot a_2 + a_1 \cdot b_2 \cdot i + b_1 \cdot a_2 \cdot i + b_1
+        \cdot b_2 \cdot i^2 \\
+        &= (a_1 \cdot a_2 - b_1 \cdot b_2) + (a_1 \cdot b_2 + b_1 \cdot a_2)
+        \cdot i
 
     In der letzten Zeile wurde die Beziehung :math:`i^2= -1` genutzt.
     Zusätzlich wurden die bei der Multiplikation entstandenen realen und
