@@ -239,7 +239,7 @@ durch Vorrang-Regeln sowie durch die Verwendung von Klammern festgelegt:
 3. Als nächstes werden die Rechenoperatoren der zweiten Stufe (Multiplikation
    und Division) ausgewertet.
 4. Zuletzt werden die Rechenoperationen der ersten Stufe (Addition und
-   Multiplikation) ausgeführt.
+   Subtraktion) ausgeführt.
 
 Durch das Setzen von Klammern kann somit eine von der üblichen Regel "(Hoch vor)
 Punkt vor Strich" abweichende Reihenfolge der Auswertung erreicht werden. In
